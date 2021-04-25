@@ -1,5 +1,6 @@
 var cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
+    boxSelectionEnabled: false,
     elements: [],
     style: [ // the stylesheet for the graph
       {
@@ -15,8 +16,8 @@ var cy = cytoscape({
         selector: 'edge',
         style: {
           'width': 3,
-          'line-color': 'hsl(0, 0%, 70%)',
-          'opacity': 0.2,
+          'line-color': 'hsl(0, 0%, 75%)',
+          'opacity': 0.25,
         }
       },
       {
@@ -32,9 +33,19 @@ var cy = cytoscape({
       {
           selector: '.selectedEdge',
           style: {
-
+            'line-color': 'hsl(0, 0%, 45%)',
+            'width': 4,
+            'opacity': 0.3,
           }
-      }
+      },
+      {
+        selector: '.unselectedEdge',
+        style: {
+          'line-color': 'hsl(0, 0%, 85%)',
+          'width': 2,
+          'opacity': 0.15,
+        }
+    }
     ],
   
 });
@@ -83,7 +94,7 @@ function rotate(pos, center, angle){
     return {x: newX, y: newY}
 }
 
-function rotateCirles(){
+function rotateCircles(){
     const selectedNode = cy.$('.selectedNode')
     let levelFolds = {}
     for (let n of cy.$('node')) {
@@ -100,21 +111,33 @@ function rotateCirles(){
 
     let folds = Object.values(levelFolds).map(x => parseInt(x)).sort((a, b) => a - b)
     let maxFold = folds[folds.length - 1]
-    // levels2Rotate
+    let maxFold2 = folds[folds.length - 2]
+    let levelRef = Object.keys(levelFolds).filter(k => levelFolds[k] == maxFold)[0];
     for (let n of cy.nodes()) {
         let l = selectedNode.edgesWith(n).length
         let currentFold = levelFolds[l]
-        if (currentFold < maxFold){
-            if (currentFold == folds[folds.length - 2]){
-                let angle = 2 * Math.PI / lcm(currentFold, maxFold)
+        if (l != levelRef && l > 0){
+            let angle = 0
+            if (folds.indexOf(currentFold) == folds.length - 2){
+                angle = Math.PI / lcm(currentFold, maxFold)
             }
-            if (currentFold == folds[folds.length - 3]){
-                let angle = 2 * Math.PI / lcm(currentFold, maxFold)
+            else if (folds.indexOf(currentFold) == folds.length - 3){
+                if (maxFold == maxFold2) {
+                    angle = 0.5 * Math.PI / maxFold
+                }                
+                else {
+                    angle = - Math.PI / maxFold
+                }
             }
-            
-            
+            // else if (folds.indexOf(currentFold) == folds.length - 4){
+            //     angle = - Math.PI / maxFold
+            // }
+            else {
+                angle = - Math.random() * Math.PI / maxFold
+            }
+
             n.animate({
-                position: rotate(n.position(),selectedNode.position(),angle),
+                position: rotate(n.position(),selectedNode.position(), angle),
                 queue: false,
                 duration: 600,
                 easing: 'ease-in-out',
@@ -156,14 +179,19 @@ function getLayout(name){
                     return 9
                 }
                 else {
-
-                    return selectedNode.edgesWith(node).length
+                    let l = selectedNode.edgesWith(node).length
+                    // 1, 2, (3, 4)
+                    // l = Math.min(l, 3)
+                    return l
                 }
             },
             levelWidth: n => 1,
-            // spacingFactor: 1.2,
+            // equidistant: true,
+            // spacingFactor: 0.5,
             startAngle: Math.random() * 2 * Math.PI,
-            stop: rotateCircles
+            stop: function(){
+                rotateCircles()
+            }
             // transform: function (node, position) {
 
             //     if (node.id()=='甘雨'){
@@ -192,6 +220,12 @@ function setLayout(name, overwrite=false) {
     // (!overwrite && savedLayouts[name]) ? getLayout('preset', {layoutName: name}) : 
     let layout = getLayout(name)
     layout.run()
+}
+
+function unselectElements(){
+    cy.$('node').removeClass('selectedNode')
+    cy.$('edge').removeClass('unselectedEdge')
+    cy.$('edge').removeClass('selectedEdge')
 }
 
 function showPopup(myContent){
@@ -258,22 +292,30 @@ async function main() {
 
     setLayout(getSelectedOption())
 
-    cy.$('node').on('tap', function(evt){
-        let selectedNode = evt.target;
-        console.log(selectedNode.id())
-        if (! selectedNode.hasClass('selectedNode')){
-            cy.$('node').removeClass('selectedNode')
-            selectedNode.addClass('selectedNode')
-            cy.$('edge').removeClass('selectedEdge')
-            let selectedEdges = selectedNode.connectedEdges()
-            selectedEdges.on('tap', function(evt){
-                showPopup()
-            })
-        }
+    cy.$('edge').unpanify()
+    cy.$('edge').unselectify()
+
+    cy.on('select', 'node', function(event){
+        var target = event.target;
+        cy.$('node').removeClass('selectedNode')
+        target.addClass('selectedNode')
+        cy.$('edge').addClass('unselectedEdge')
+        let targetEdges = target.connectedEdges()
+        targetEdges.removeClass('unselectedEdge')
+        targetEdges.addClass('selectedEdge')
+    
         if (document.querySelector('input[type=checkbox]').checked) {
             setLayout('concentric')
         }
-    });
+    })
+
+    cy.on('unselect', 'node', function(event){
+        unselectElements()
+    })
+
+    cy.$('.selectedEdge').on('tap', function(event) {
+        var target = event.target;
+    })
 
 }
 
@@ -287,5 +329,6 @@ document.querySelectorAll("input[type=radio]").forEach(r => {
 })
 
 document.querySelector("#refreshGraph").onclick = function(e){
+    // unselectElements()
     setLayout(getSelectedOption(), true)
 }

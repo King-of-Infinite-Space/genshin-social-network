@@ -1,3 +1,0 @@
-unselect char
-unselected edges
-tippy
