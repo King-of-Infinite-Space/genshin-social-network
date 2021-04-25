@@ -228,24 +228,37 @@ function unselectElements(){
     cy.$('edge').removeClass('selectedEdge')
 }
 
-function showPopup(myContent){
-    let dummyDomEle = document.createElement('div');
+function makeTippy(ele, text){
+    var ref = ele.popperRef();
 
-    let tip = tippy(dummyDomEle, { 
-    trigger: 'manual', 
-    followCursor: 'initial',
-    arrowType: 'round',    
-    theme: 'light-border',
+    // Since tippy constructor requires DOM element/elements, create a placeholder
+    var dummyDomEle = document.createElement('div');
 
-    content: () => {
-            let content = document.createElement('div');
-            content.innerHTML = myContent;
-            return content;
-            }
-    });
+    var tip = tippy( dummyDomEle, {
+        getReferenceClientRect: ref.getBoundingClientRect,
+        trigger: 'manual', // mandatory
+        // dom element inside the tippy:
+        content: function(){ // function can be better for performance
+            var div = document.createElement('div');
 
-    tip.show();
-}
+            div.innerHTML = text;
+
+            return div;
+        },
+        // your own preferences:
+        arrow: true,
+        arrowType: 'round',
+        placement: 'top',
+        hideOnClick: true,
+        sticky: "reference",
+
+        // if interactive:
+        interactive: true,
+        appendTo: document.body // or append dummyDomEle to document.body
+    } );
+
+    return tip;
+};
 
 async function getJson(url) {
     let response = await fetch(url);
@@ -295,7 +308,7 @@ async function main() {
     cy.$('edge').unpanify()
     cy.$('edge').unselectify()
 
-    cy.on('select', 'node', function(event){
+    cy.on('tap', 'node', function(event){
         var target = event.target;
         cy.$('node').removeClass('selectedNode')
         target.addClass('selectedNode')
@@ -303,20 +316,46 @@ async function main() {
         let targetEdges = target.connectedEdges()
         targetEdges.removeClass('unselectedEdge')
         targetEdges.addClass('selectedEdge')
-    
+
         if (document.querySelector('input[type=checkbox]').checked) {
             setLayout('concentric')
         }
     })
 
-    cy.on('unselect', 'node', function(event){
-        unselectElements()
+    cy.on('tap',function(ev){
+        if (ev.target === cy){ // tap bg
+            // console.log('bg')
+            if (cy.$('.showingTip').length == 0){
+                unselectElements()
+            }
+            else {
+                cy.$('edge').removeClass('showingTip')
+            }
+        }
     })
 
-    cy.$('.selectedEdge').on('tap', function(event) {
-        var target = event.target;
+    cy.$('edge').on('tap', function(event) {
+        let selectedEdge = event.target
+        selectedEdge.addClass('showingTip')
+        if (selectedEdge.hasClass('selectedEdge')){
+            let text = ''
+            
+            let node1 = cy.$('.selectedNode')
+            let node2 = selectedEdge.source() == cy.$('.selectedNode') ? selectedEdge.target() : selectedEdge.source()
+            for (const edge of node1.edgesTo(node2)){
+                text += edge.data().content
+                text += '<br>'
+            }
+            for (const edge of node2.edgesTo(node1)){
+                text += edge.data().content
+                text += '<br>'
+            }
+            // console.log(text);
+            let tip = makeTippy(selectedEdge, text)
+            tip.show()
+        }
+        
     })
-
 }
 
 main();
