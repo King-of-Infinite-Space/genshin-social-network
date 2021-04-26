@@ -1,6 +1,6 @@
 ### 原神人物关系网络图
 
-—> [king-of-infinite-space.github.io/genshin-social-network](king-of-infinite-space.github.io/genshin-social-network) <—
+—> [king-of-infinite-space.github.io/genshin-social-network](https://king-of-infinite-space.github.io/genshin-social-network) <—
 
 a social network graph of Genshin characters
 
@@ -26,18 +26,13 @@ a social network graph of Genshin characters
 本人并非该游戏玩家，只是“云玩家”。抵制氪金游戏人人有责。
 
 ##### 其他原神相关百科网站
-[旅行者创作平台-观测枢-原神wiki-米游社](https://bbs.mihoyo.com/ys/obc/)
-
-[原神 - 萌娘百科 万物皆可萌的百科全书](https://zh.moegirl.org.cn/%E5%8E%9F%E7%A5%9E)
-
-[Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
-
+[旅行者创作平台-观测枢-原神wiki-米游社](https://bbs.mihoyo.com/ys/obc/)  
+[原神 - 萌娘百科 万物皆可萌的百科全书](https://zh.moegirl.org.cn/%E5%8E%9F%E7%A5%9E)  
+[Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)  
 [Honey Impact | Honey Impact - Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) (multi-language / 多语言)
 
 ##### Other Genshin related projects on Github (there are many)
 
-[Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)
-
-[uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)
-
+[Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)  
+[uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)  
 [GenshinMap/genshinmap.github.io: A flexible, community-driven interactive map for Genshin Impact.](https://github.com/GenshinMap/genshinmap.github.io)
