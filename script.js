@@ -36,6 +36,7 @@ var cy = cytoscape({
             'line-color': 'hsl(0, 0%, 45%)',
             'width': 4,
             'opacity': 0.3,
+            'z-index': 9,
           }
       },
       {
@@ -44,6 +45,7 @@ var cy = cytoscape({
           'line-color': 'hsl(0, 0%, 85%)',
           'width': 2,
           'opacity': 0.15,
+          'z-index': 0,
         }
     }
     ],
@@ -163,8 +165,8 @@ function getLayout(name){
             // randomize: false,
             nodeSeparation: 150,
             nodeRepulsion: node => 100000, // node => 4500
-            idealEdgeLength: edge => 100,
-            edgeElasticity: edge => 0.2,
+            idealEdgeLength: edge => 80,
+            edgeElasticity: edge => 0.05,
         }
     }
     if (name == 'avsdf') {
@@ -282,12 +284,13 @@ function makeTippy(ele, text){
         onHidden(instance) {
             instance.destroy();
         },
-        delay: [100, null],
+        // delay: [200, null], // doesn't seem to work, setTimeout manually
         theme: 'light',
         arrow: true,
         placement: 'auto',
         hideOnClick: true,
         sticky: "reference",
+        // showOnCreate: true,
 
         // if interactive:
         interactive: true,
@@ -377,15 +380,17 @@ async function main() {
     cy.$('edge').on('mouseover', function(event) {
         let targetEdge = event.target
         if (targetEdge.hasClass('selectedEdge')){     
-            targetEdge.addClass('showingTip')     
             let node1 = cy.$('.selectedNode')
             let node2 = targetEdge.source().id() == node1.id() ? targetEdge.target() : targetEdge.source()
             let text = makeTippyContent(node1, node2)
             // console.log(text);
             targetEdge.tippy = makeTippy(targetEdge, text)
-            targetEdge.tippy.show()
+            targetEdge.timer = setTimeout(function(){
+                targetEdge.tippy.show()
+            }, 200)
             console.log('tippy')
             targetEdge.on('mouseout', () => {
+                clearTimeout(targetEdge.timer)
                 targetEdge.tippy.hide();
             });
         }
