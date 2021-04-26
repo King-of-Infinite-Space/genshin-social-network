@@ -160,6 +160,7 @@ function getLayout(name){
     let extraOptions = {}
     if (name == 'fcose') {
         extraOptions =  {
+            // randomize: false,
             nodeSeparation: 150,
             nodeRepulsion: node => 100000, // node => 4500
             idealEdgeLength: edge => 100,
@@ -173,6 +174,22 @@ function getLayout(name){
     }
     if (name == 'concentric') {
         extraOptions = {
+            levelWidth: n => 1,
+            concentric: function (node) {
+                    let d = node.degree()
+                    let n = 1 // n <= 12
+                    if (d >= 13) n += 1
+                    if (d >= 16) n += 1
+                    if (d >= 20) n += 1
+                    // 1, 2, (3, 4)
+                    // l = Math.min(l, 3)
+                    return n
+            }
+        }
+    }
+    if (name == 'concentricCustom') {
+        extraOptions = {
+            name: 'concentric',
             concentric: function (node) {
                 let selectedNode = cy.$('.selectedNode')
                 if (selectedNode.id() == node.id()) {
@@ -201,7 +218,6 @@ function getLayout(name){
             //     return position
             // }
         }
-        
     }
     // if (name == 'preset') {
     //     let sl = savedLayouts[params.layoutName]
@@ -218,6 +234,9 @@ function getLayout(name){
 function setLayout(name, overwrite=false) {
     // reuse saved layout
     // (!overwrite && savedLayouts[name]) ? getLayout('preset', {layoutName: name}) : 
+    if (name == 'concentric' && cy.$('.selectedNode').length > 0){
+        name = 'concentricCustom'
+    }
     let layout = getLayout(name)
     layout.run()
 }
@@ -226,6 +245,20 @@ function unselectElements(){
     cy.$('node').removeClass('selectedNode')
     cy.$('edge').removeClass('unselectedEdge')
     cy.$('edge').removeClass('selectedEdge')
+}
+
+function makeTippyContent(node1, node2){
+    let text = ''
+    for (const edge of node1.edgesTo(node2)){
+        text += `<div class="tip-title">${edge.data().title}</div>`
+        text += `<div class="tip-quote">${edge.data().content}</div>`
+    }
+    if (text && node2.edgesTo(node1).length > 0) text += '<div class="tip-spacing"></div>'
+    for (const edge of node2.edgesTo(node1)){
+        text += `<div class="tip-title">${edge.data().title}</div>`
+        text += `<div class="tip-quote">${edge.data().content}</div>`
+    }
+    return text
 }
 
 function makeTippy(ele, text){
@@ -246,9 +279,13 @@ function makeTippy(ele, text){
             return div;
         },
         // your own preferences:
+        onHidden(instance) {
+            instance.destroy();
+        },
+        delay: [100, null],
+        theme: 'light',
         arrow: true,
-        arrowType: 'round',
-        placement: 'top',
+        placement: 'auto',
         hideOnClick: true,
         sticky: "reference",
 
@@ -288,18 +325,25 @@ async function main() {
     for (const sourceChar of charData) {
         for (const target of charNames) {
             for (const title in sourceChar.lines) {
-                if (title.includes(target) && target != sourceChar.name) {
+                if (title.includes('关于'+target) && target != sourceChar.name) {
                     cy.add({
                         group: 'edges',
                         data: {
-                            id: sourceChar.name + title, 
+                            id: sourceChar.name + title,  // A关于B
                             source: sourceChar.name, 
                             target: target,
-                            content: `${sourceChar.name + title}：` + sourceChar.lines[title]
+                            title: sourceChar.name + title,
+                            content: sourceChar.lines[title]
                         }
                     })
                 }
             }
+        }
+    }
+
+    for (const n of cy.$('node')){
+        if (n.degree() == 0){
+            n.remove()
         }
     }
 
@@ -308,53 +352,43 @@ async function main() {
     cy.$('edge').unpanify()
     cy.$('edge').unselectify()
 
-    cy.on('tap', 'node', function(event){
+    cy.on('tap', 'node', function(event){       
         var target = event.target;
-        cy.$('node').removeClass('selectedNode')
-        target.addClass('selectedNode')
-        cy.$('edge').addClass('unselectedEdge')
-        let targetEdges = target.connectedEdges()
-        targetEdges.removeClass('unselectedEdge')
-        targetEdges.addClass('selectedEdge')
+        if (!target.hasClass('selectedNode')){
+            cy.$('node').removeClass('selectedNode')
+            target.addClass('selectedNode')
+            cy.$('edge').addClass('unselectedEdge')
+            let targetEdges = target.connectedEdges()
+            targetEdges.removeClass('unselectedEdge')
+            targetEdges.addClass('selectedEdge')
 
-        if (document.querySelector('input[type=checkbox]').checked) {
-            setLayout('concentric')
+            if (getSelectedOption() == 'concentric'){
+                setLayout('concentricCustom')
+            }
         }
     })
 
     cy.on('tap',function(ev){
         if (ev.target === cy){ // tap bg
-            // console.log('bg')
-            if (cy.$('.showingTip').length == 0){
                 unselectElements()
-            }
-            else {
-                cy.$('edge').removeClass('showingTip')
-            }
         }
     })
 
-    cy.$('edge').on('tap', function(event) {
-        let selectedEdge = event.target
-        selectedEdge.addClass('showingTip')
-        if (selectedEdge.hasClass('selectedEdge')){
-            let text = ''
-            
+    cy.$('edge').on('mouseover', function(event) {
+        let targetEdge = event.target
+        if (targetEdge.hasClass('selectedEdge')){     
+            targetEdge.addClass('showingTip')     
             let node1 = cy.$('.selectedNode')
-            let node2 = selectedEdge.source() == cy.$('.selectedNode') ? selectedEdge.target() : selectedEdge.source()
-            for (const edge of node1.edgesTo(node2)){
-                text += edge.data().content
-                text += '<br>'
-            }
-            for (const edge of node2.edgesTo(node1)){
-                text += edge.data().content
-                text += '<br>'
-            }
+            let node2 = targetEdge.source().id() == node1.id() ? targetEdge.target() : targetEdge.source()
+            let text = makeTippyContent(node1, node2)
             // console.log(text);
-            let tip = makeTippy(selectedEdge, text)
-            tip.show()
+            targetEdge.tippy = makeTippy(targetEdge, text)
+            targetEdge.tippy.show()
+            console.log('tippy')
+            targetEdge.on('mouseout', () => {
+                targetEdge.tippy.hide();
+            });
         }
-        
     })
 }
 
