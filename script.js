@@ -1,3 +1,10 @@
+// if (window.location.hostname === "king-of-infinite-space.github.io"){
+//     const URL_BASE = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network"
+// } else {
+//     const URL_BASE = '.'
+// } // defined in HTML
+
+
 var cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
     boxSelectionEnabled: false,
@@ -310,7 +317,7 @@ var charData;
 var charNames = [];
 
 async function main() {
-    charData = await getJson('char_data.json')
+    charData = await getJson(`${URL_BASE}/char_data.json`)
 
     for (const char of charData) {
         if (char.name != '旅行者') {
@@ -319,7 +326,7 @@ async function main() {
                 group: 'nodes',
                 data: { id: char.name },
                 style: {
-                    'background-image': `./images/${char.name}.png`
+                    'background-image': `${URL_BASE}/images/${char.name}.png`
                     }
             })
         }
@@ -388,7 +395,7 @@ async function main() {
             targetEdge.timer = setTimeout(function(){
                 targetEdge.tippy.show()
             }, 200)
-            console.log('tippy')
+            // console.log('tippy')
             targetEdge.on('mouseout', () => {
                 clearTimeout(targetEdge.timer)
                 targetEdge.tippy.hide();

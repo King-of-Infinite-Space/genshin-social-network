@@ -3,21 +3,32 @@
 <head>
     <title>原神人物网络图</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.18.1/cytoscape.min.js" integrity="sha512-MgZAJudXekIHKoFtEk1NUwpSSCDt6JlfkUdwgX/1ustAyJltGO82ayHPOyK31xy9q84nGecgtF+D9hdm2OZldg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/w3-css@4.1.0/w3.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.18.2/dist/cytoscape.min.js"></script>
     <!-- cytoscape-fcose -->
-    <script src="https://unpkg.com/layout-base/layout-base.js"></script>
-    <script src="https://unpkg.com/cose-base/cose-base.js"></script>
-    <script src="https://unpkg.com/cytoscape-fcose/cytoscape-fcose.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/layout-base/layout-base.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cose-base/cose-base.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose/cytoscape-fcose.js"></script>
     <!-- cytoscape-avsdf -->
-    <script src="https://unpkg.com/avsdf-base/avsdf-base.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/avsdf-base/avsdf-base.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/cytoscape-avsdf@1.0.0/cytoscape-avsdf.min.js"></script>
     <!-- cytoscape-popper & tippy -->
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/cytoscape-popper@2.0.0/cytoscape-popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.1/themes/light.css">
+    <script type="text/javascript">
+        let URL_BASE = '.'
+        if (window.location.hostname.includes("github.io")){
+            URL_BASE = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network"
+        }
+        let ss = document.createElement('link');
+        ss.type = 'text/css';
+        ss.href = URL_BASE + '/style.css';
+        ss.rel = 'stylesheet';
+        document.getElementsByTagName('head')[0].appendChild(ss);
+    </script>
 </head>
 <body>
 
@@ -62,9 +73,12 @@
     <div class="main-container" style="margin-left:20%">
         <div id="cy"></div>
     </div>
+    <script type="text/javascript">
+        let sc = document.createElement('script');
+        sc.src = URL_BASE + '/script.js';
+        document.getElementsByTagName('body')[0].appendChild(sc);
+    </script>
 
-    <!-- my script -->
-    <script src="script.js"></script>
 </body>
 
 </html>
