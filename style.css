@@ -4,11 +4,15 @@ body:not(.zh) :lang(zh) {
 }
 
 html, body {
-    height:100%;
+    height: 100%;
+    width: 100%;
 }
 
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 /* body.en h4 {
@@ -27,9 +31,14 @@ h6 {
     margin-top: 5px;
 }
 
+.main-container {
+    flex-grow: 9;
+    height: 100%;
+}
+
 .sidebar {
+    height: 100%;
     width: 20%;
-    right: 0;
     max-width: 240px;
     overflow-x: hidden;
     display: flex;
@@ -37,7 +46,7 @@ h6 {
 }
 
 .sidebar-bottom {
-    flex-grow: 9;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -46,11 +55,6 @@ h6 {
 
 .bottom-item {
     margin-bottom: 8px;
-}
-
-.main-container {
-    margin-right: 20%;
-    height: 100%
 }
 
 
