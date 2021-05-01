@@ -3,7 +3,25 @@
 // } else {
 //     const URL_BASE = '.'
 // } // defined in HTML
+const langs = ['zh', 'en']
 
+let lang = '';
+if (navigator.language.startsWith('zh')){
+    lang = 'zh'
+    document.getElementById('lang-slider').value = 0
+} else {
+    lang = 'en'
+    document.getElementById('lang-slider').value = 1
+}
+document.body.classList.add(lang)
+
+document.getElementById('lang-slider-container').addEventListener('click', function(){
+    slider = document.getElementById('lang-slider')
+    document.body.classList.remove(langs[slider.value])
+    slider.value = 1 - slider.value;
+    lang = langs[slider.value]
+    document.body.classList.add(lang)
+})
 
 var cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
@@ -17,6 +35,8 @@ var cy = cytoscape({
           'height': '80px',
           'background-fit': 'contain',
           'background-color': 'hsl(0, 0%, 90%)',
+        //   'transition-property': "width, height, border-color",
+        //   'transition-duration': "30ms"
         }
       },
       {
@@ -25,6 +45,8 @@ var cy = cytoscape({
           'width': 3,
           'line-color': 'hsl(0, 0%, 75%)',
           'opacity': 0.25,
+        //   'transition-property': "width, line-color, opacity",
+        //   'transition-duration': "80ms"
         }
       },
       {
@@ -63,7 +85,7 @@ var cy = cytoscape({
 // let prevOption = getSelectedOption()
 
 function getSelectedOption(){
-    for (let el of document.querySelectorAll("input")){
+    for (let el of document.querySelectorAll("input[type=radio]")){
         if (el.checked) {
             return el.value
         }
@@ -91,6 +113,12 @@ function gcd(a, b){
 
 function lcm(a, b){
     return a * b / gcd(a, b)
+}
+
+function centerSelection(){
+    let box = cy.extent()
+    let center = {x: (box.x1+box.x2)/2, y: (box.y1+box.y2)/2}
+
 }
 
 function rotate(pos, center, angle){
@@ -161,7 +189,7 @@ function getLayout(name){
         name: name,
         animate: "end",
         animationEasing: 'ease-in-out',
-        animationDuration: 800,
+        animationDuration: 700,
         stop: function(){
             // prevOption = getSelectedOption()
         },
@@ -218,14 +246,6 @@ function getLayout(name){
             stop: function(){
                 rotateCircles()
             }
-            // transform: function (node, position) {
-
-            //     if (node.id()=='甘雨'){
-            //         console.log(position)
-            //         return {x: position.x+100, y: position.y}
-            //     }
-            //     return position
-            // }
         }
     }
     // if (name == 'preset') {
@@ -259,13 +279,13 @@ function unselectElements(){
 function makeTippyContent(node1, node2){
     let text = ''
     for (const edge of node1.edgesTo(node2)){
-        text += `<div class="tip-title">${edge.data().title}</div>`
-        text += `<div class="tip-quote">${edge.data().content}</div>`
+        text += `<div class="tip-title">${edge.data()['title_'+lang]}</div>`
+        text += `<div class="tip-quote">${edge.data()['content_'+lang]}</div>`
     }
     if (text && node2.edgesTo(node1).length > 0) text += '<div class="tip-spacing"></div>'
     for (const edge of node2.edgesTo(node1)){
-        text += `<div class="tip-title">${edge.data().title}</div>`
-        text += `<div class="tip-quote">${edge.data().content}</div>`
+        text += `<div class="tip-title">${edge.data()['title_'+lang]}</div>`
+        text += `<div class="tip-quote">${edge.data()['content_'+lang]}</div>`
     }
     return text
 }
@@ -313,49 +333,52 @@ async function getJson(url) {
     return data;
 }
 
-var charData;
-var charNames = [];
+let charData;
+const charNames = {
+    'en': [],
+    'zh': []
+};
 
 async function main() {
     charData = await getJson(`${URL_BASE}/char_data.json`)
-
     for (const char of charData) {
-        if (char.name != '旅行者') {
-            charNames.push(char.name)
-            cy.add({
-                group: 'nodes',
-                data: { id: char.name },
-                style: {
-                    'background-image': `${URL_BASE}/images/${char.name}.png`
-                    }
-            })
+        for (const l of langs) {
+            charNames[l].push(char['name_'+l])
         }
+        
+        cy.add({
+            group: 'nodes',
+            data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
+            style: {
+                'background-image': `${URL_BASE}/images/${char.name_zh}.png`
+                }
+        })
     }
 
     for (const sourceChar of charData) {
-        for (const target of charNames) {
-            for (const title in sourceChar.lines) {
-                if (title.includes('关于'+target) && target != sourceChar.name) {
+        for (const line of sourceChar.lines) {
+            for (const targetCharName of charNames.en) {
+                if (sourceChar.name_en !== targetCharName && line.title_en.includes(targetCharName)){
                     cy.add({
                         group: 'edges',
                         data: {
-                            id: sourceChar.name + title,  // A关于B
-                            source: sourceChar.name, 
-                            target: target,
-                            title: sourceChar.name + title,
-                            content: sourceChar.lines[title]
+                            id: line.title_en,  // A关于B
+                            source: sourceChar.name_en, 
+                            target: targetCharName,
+                            ...line
                         }
                     })
+                    break
                 }
             }
         }
     }
 
-    for (const n of cy.$('node')){
-        if (n.degree() == 0){
-            n.remove()
-        }
-    }
+    // for (const n of cy.$('node')){
+    //     if (n.degree() == 0){
+    //         n.remove()
+    //     }
+    // }
 
     setLayout(getSelectedOption())
 
@@ -390,15 +413,18 @@ async function main() {
             let node1 = cy.$('.selectedNode')
             let node2 = targetEdge.source().id() == node1.id() ? targetEdge.target() : targetEdge.source()
             let text = makeTippyContent(node1, node2)
-            // console.log(text);
             targetEdge.tippy = makeTippy(targetEdge, text)
             targetEdge.timer = setTimeout(function(){
                 targetEdge.tippy.show()
+                cy.userZoomingEnabled(false)
+                cy.userPanningEnabled(false)
             }, 200)
             // console.log('tippy')
             targetEdge.on('mouseout', () => {
                 clearTimeout(targetEdge.timer)
                 targetEdge.tippy.hide();
+                cy.userZoomingEnabled(true)
+                cy.userPanningEnabled(true)
             });
         }
     })
