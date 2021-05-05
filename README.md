@@ -8,7 +8,7 @@ A social network graph of Genshin characters. Each node is a character and each 
 #### 布局说明 | About layouts
 
 本项目使用[Cytoscape.js](https://js.cytoscape.org/)生成网络图。采用了以下布局。\
-This project uses __ to generate the network graph. The following layouts are used.
+This project uses __ to generate network graph. The following layouts are used.
 
 - [fcose](https://github.com/iVis-at-Bilkent/cytoscape.js-fcose)：基于力导向算法。（进行力学模拟，顶点互相排斥，边提供张力，直至平衡。）Based on force-directed layout. Nodes repel each other and edges pull them together. The forces are simulated until equilibrium is reached.
 
@@ -17,18 +17,15 @@ This project uses __ to generate the network graph. The following layouts are us
 - custom：同心圆布局。初始状态下边越多的顶点越靠近中心。选中人物后以其为中心，与之连接越多的人物越靠近中心。A concentric layout. Initially, nodes with more edges are closer to the center. When a character is selected, it moves to the center and nodes with more edges with it are closer.
 
 
-#### 版权声明 | Copyright declaration
+#### 版权声明 | Copyright disclaimer
 
 本项目仅用于演示目的。数据获取于[原神WIKI_BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)(通过MediaWiki API。遵循CC BY-NC-SA协议）和[Honey Impact |  Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) 。游戏内容版权归mihoyo所有。\
-This is project is for demonstration only. Data are acquired from __ & __ . The copyright holder of game data is mihoyo.
-
----
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fking-of-infinite-space.github.io%2Fgenshin-social-network%2F)
+This is project is for demonstration only. Data are acquired from __ & __ . Copyright holder of game data is mihoyo.
 
 ---
 
-##### 作者声明 | Personal declaration
-本人并非该游戏玩家，只是“云玩家”。抵制氪金游戏人人有责。
+##### 作者声明 | Personal notice
+本人并非该游戏玩家，只是“云玩家”。抵制氪金游戏从我做起。
 I don't even play this game (only read and watch the stories). I'm against gacha games.
 
 ##### 原神相关百科网站 | Genshin wikis
@@ -43,3 +40,11 @@ I don't even play this game (only read and watch the stories). I'm against gacha
 [Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)  
 [uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)  
 [GenshinMap/genshinmap.github.io: A flexible, community-driven interactive map for Genshin Impact.](https://github.com/GenshinMap/genshinmap.github.io)
+
+---
+
+Page visits
+![Hits](https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fking-of-infinite-space.github.io%2Fgenshin-social-network)
+
+Repo visits
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FKing-of-Infinite-Space%2Fgenshin-social-network)

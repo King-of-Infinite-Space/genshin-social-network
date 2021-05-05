@@ -15,9 +15,12 @@
     <!-- cytoscape-popper & tippy -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/cytoscape-popper@2.0.0/cytoscape-popper.min.js"></script>
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/popper-max-size-modifier@0.2.0/dist/popper-max-size-modifier.esm.js"></script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.1/themes/light.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/seedrandom@3.0.5/seedrandom.min.js"></script>
 
     <script type="text/javascript">
         let URL_BASE = '.'
@@ -54,8 +57,8 @@
                 <span lang="zh">说明</span>
                 <span lang="en">Instructions</span>
             </h6> -->
-            <span lang="zh">点击头像以选中，然后悬停于相关连线以显示文本。人物头像可拖动。</span>
-            <span lang="en">Click on icon to select. Then hover on edges to show text. Icons are draggable.</span>
+            <span lang="zh">点击头像以选中，然后悬停于连线或相连头像以显示语音文本。人物头像可拖动。</span>
+            <span lang="en">Click on icon to select. Then hover on connected nodes or edges to show voice lines. Icons are draggable.</span>
         
         </div>
         <div class="w3-bar-item">
@@ -79,7 +82,7 @@
                 <label lang="en">concentric (custom)</label>
             </p>
             <a href="#" class="w3-button w3-round-xlarge w3-border w3-border-blue w3-hover-blue button" id="refreshGraph">
-                <span lang="zh">重新布局</span>
+                <span lang="zh">重置</span>
                 <span lang="en">Reset</span>
             </a>
         </div>
@@ -94,9 +97,13 @@
             <div class="bottom-item" id="credit">
                 <span lang="zh">数据来自</span>
                 <span lang="en">data from</span>
-                <a href="https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5" target="_blank" rel="noopener noreferrer">bwiki</a>
+                <a href="https://genshin.honeyhunterworld.com/" target="_blank" rel="noopener noreferrer">g-hhw</a>
                  & 
-                <a href="https://genshin.honeyhunterworld.com/" target="_blank" rel="noopener noreferrer">hhw</a>
+                <a href="https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5" target="_blank" rel="noopener noreferrer">bwiki</a>
+                <br>
+                <span lang="zh">游戏数据</span>
+                <span lang="en">game data</span>
+                 © miHoYo
             </div>
             <!-- <div id="ad-test">
             </div> -->

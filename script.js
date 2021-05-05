@@ -3,13 +3,11 @@
 // } else {
 //     const URL_BASE = '.'
 // } // defined in HTML
+
 const langs = ['zh', 'en']
 
-let lang = '';
-if (navigator.language.startsWith('zh')){
-    lang = 'zh'
-    document.getElementById('lang-slider').value = 0
-} else {
+let lang = 'zh';
+if (! navigator.language.startsWith('zh')){
     lang = 'en'
     document.getElementById('lang-slider').value = 1
 }
@@ -22,6 +20,9 @@ document.getElementById('lang-slider-container').addEventListener('click', funct
     lang = langs[slider.value]
     document.body.classList.add(lang)
 })
+
+const randomSeed = 1
+// 1, 7
 
 var cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
@@ -56,11 +57,11 @@ var cy = cytoscape({
               'border-color': 'black',
               'border-style': 'solid',
               'width': '95px',
-              'height': '95px',
+              'height': '95px', 
           }
       },
       {
-          selector: '.selectedEdge',
+          selector: '.connectedEdges',
           style: {
             'line-color': 'hsl(0, 0%, 45%)',
             'width': 4,
@@ -69,7 +70,7 @@ var cy = cytoscape({
           }
       },
       {
-        selector: '.unselectedEdge',
+        selector: '.unconnectedEdges',
         style: {
           'line-color': 'hsl(0, 0%, 85%)',
           'width': 2,
@@ -83,6 +84,9 @@ var cy = cytoscape({
 
 // let savedLayouts = {}
 // let prevOption = getSelectedOption()
+
+let centeredNode;
+let centeredNodePrevPosition;
 
 function getSelectedOption(){
     for (let el of document.querySelectorAll("input[type=radio]")){
@@ -115,10 +119,23 @@ function lcm(a, b){
     return a * b / gcd(a, b)
 }
 
-function centerSelection(){
-    let box = cy.extent()
-    let center = {x: (box.x1+box.x2)/2, y: (box.y1+box.y2)/2}
-
+function moveNodeTo(node, pos = 'center'){
+    let destination;
+    if (typeof(pos) === 'object'){
+        destination = pos
+    } else if (pos === 'center'){
+        let box = cy.extent()
+        destination = {x: (box.x1+box.x2)/2, y: (box.y1+box.y2)/2}
+    } else {
+        console.log('invalid position')
+    }
+    
+    node.animate({
+        position: destination,
+        queue: false,
+        duration: 600,
+        easing: 'ease-in-out',
+    })
 }
 
 function rotate(pos, center, angle){
@@ -202,11 +219,25 @@ function getLayout(name){
             nodeRepulsion: node => 100000, // node => 4500
             idealEdgeLength: edge => 80,
             edgeElasticity: edge => 0.05,
+            ready: () => {
+                if (cy.$('.selectedNodeTemp').length > 0){ 
+                    // prevent different node size affecting layout
+                    cy.$('.selectedNodeTemp').addClass('selectedNode')
+                    cy.$('.selectedNodeTemp').removeClass('selectedNodeTemp')
+                }                
+            }
         }
     }
     if (name == 'avsdf') {
         extraOptions =  {
             nodeSeparation: 95,
+            stop: function(){
+                if (cy.$('.selectedNode').length > 0){
+                    centeredNode = cy.$('.selectedNode')
+                    centeredNodePrevPosition = Object.assign({}, cy.$('.selectedNode').position())
+                    moveNodeTo(cy.$('.selectedNode'), 'center')
+                }
+            }
         }
     }
     if (name == 'concentric') {
@@ -217,7 +248,8 @@ function getLayout(name){
                     let n = 1 // n <= 12
                     if (d >= 13) n += 1
                     if (d >= 16) n += 1
-                    if (d >= 20) n += 1
+                    if (d >= 18) n += 1
+                    if (d >= 21) n += 1
                     // 1, 2, (3, 4)
                     // l = Math.min(l, 3)
                     return n
@@ -242,7 +274,7 @@ function getLayout(name){
             levelWidth: n => 1,
             // equidistant: true,
             // spacingFactor: 0.5,
-            startAngle: Math.random() * 2 * Math.PI,
+            startAngle: 1.5 * Math.PI,
             stop: function(){
                 rotateCircles()
             }
@@ -263,18 +295,86 @@ function getLayout(name){
 function setLayout(name, overwrite=false) {
     // reuse saved layout
     // (!overwrite && savedLayouts[name]) ? getLayout('preset', {layoutName: name}) : 
-    if (name == 'concentric' && cy.$('.selectedNode').length > 0){
+    if (name === 'concentric' && cy.$('.selectedNode').length > 0){
         name = 'concentricCustom'
     }
+    if (name === 'fcose'){
+        if (cy.$('.selectedNode').length > 0){
+            cy.$('.selectedNode').addClass('selectedNodeTemp')
+            cy.$('.selectedNode').removeClass('selectedNode')
+        }
+        Math.seedrandom(randomSeed, { global: true }); // overwrite RNG to get reproducible graph
+    }
+    
+    if (centeredNodePrevPosition){
+        centeredNodePrevPosition = null
+        centeredNode = null
+    }    
+    
     let layout = getLayout(name)
     layout.run()
 }
 
 function unselectElements(){
     cy.$('node').removeClass('selectedNode')
-    cy.$('edge').removeClass('unselectedEdge')
-    cy.$('edge').removeClass('selectedEdge')
+    cy.$('node').removeClass('connectedNodes')
+    cy.$('edge').removeClass('unconnectedEdges')
+    cy.$('edge').removeClass('connectedEdges')
 }
+
+// copied from https://www.npmjs.com/package/popper-max-size-modifier
+var maxSize = {
+    name: 'maxSize',
+    enabled: true,
+    phase: 'main',
+    requiresIfExists: ['offset', 'preventOverflow', 'flip'],
+    fn: function fn(_ref) {
+      var state = _ref.state,
+          name = _ref.name,
+          options = _ref.options;
+      var overflow = Popper.detectOverflow(state, options);
+  
+      var _ref2 = state.modifiersData.preventOverflow || {
+        x: 0,
+        y: 0
+      },
+          x = _ref2.x,
+          y = _ref2.y;
+  
+      var _state$rects$popper = state.rects.popper,
+          width = _state$rects$popper.width,
+          height = _state$rects$popper.height;
+  
+      var _state$placement$spli = state.placement.split('-'),
+          basePlacement = _state$placement$spli[0];
+  
+      var widthProp = basePlacement === 'left' ? 'left' : 'right';
+      var heightProp = basePlacement === 'top' ? 'top' : 'bottom';
+      state.modifiersData[name] = {
+        width: width - overflow[widthProp] - x,
+        height: height - overflow[heightProp] - y
+      };
+    }
+};
+
+const applyMaxSize = {
+    name: 'applyMaxSize',
+    enabled: true,
+    phase: 'beforeWrite',
+    requires: ['maxSize'],
+    fn({state}) {
+      // The `maxSize` modifier provides this data
+      const {width, height} = state.modifiersData.maxSize;
+   
+      state.styles.popper = {
+        ...state.styles.popper,
+        maxWidth: `${width}px`,
+        maxHeight: `${height}px`
+      };
+    }
+};
+
+
 
 function makeTippyContent(node1, node2){
     let text = ''
@@ -297,6 +397,9 @@ function makeTippy(ele, text){
     var dummyDomEle = document.createElement('div');
 
     var tip = tippy( dummyDomEle, {
+        popperOptions: {
+            modifiers: [maxSize, applyMaxSize]
+        },
         getReferenceClientRect: ref.getBoundingClientRect,
         trigger: 'manual', // mandatory
         // dom element inside the tippy:
@@ -316,9 +419,10 @@ function makeTippy(ele, text){
         arrow: true,
         placement: 'auto',
         hideOnClick: true,
-        sticky: "reference",
+        sticky: "reference", // ?
+        followCursor: 'initial',
         // showOnCreate: true,
-
+        // interactiveBorder: 20, // prevent hiding, doesn't seem to work (since not automatic)
         // if interactive:
         interactive: true,
         appendTo: document.body // or append dummyDomEle to document.body
@@ -326,6 +430,24 @@ function makeTippy(ele, text){
 
     return tip;
 };
+
+function makePopup(target, text, delay=200){
+    target.tippy = makeTippy(target, text)
+    target.showTimer = setTimeout(function(){
+        target.tippy.show()
+        cy.userZoomingEnabled(false)
+        cy.userPanningEnabled(false)
+    }, delay)
+    // console.log('tippy')
+    target.once('mouseout', e => {
+        if (target.tippy){
+            target.tippy.hide()
+        }
+        clearTimeout(target.showTimer)
+        cy.userZoomingEnabled(true)
+        cy.userPanningEnabled(true)
+    })
+}
 
 async function getJson(url) {
     let response = await fetch(url);
@@ -341,6 +463,7 @@ const charNames = {
 
 async function main() {
     charData = await getJson(`${URL_BASE}/char_data.json`)
+    // add nodes
     for (const char of charData) {
         for (const l of langs) {
             charNames[l].push(char['name_'+l])
@@ -354,7 +477,7 @@ async function main() {
                 }
         })
     }
-
+    // add edges
     for (const sourceChar of charData) {
         for (const line of sourceChar.lines) {
             for (const targetCharName of charNames.en) {
@@ -388,58 +511,82 @@ async function main() {
     cy.on('tap', 'node', function(event){       
         var target = event.target;
         if (!target.hasClass('selectedNode')){
-            cy.$('node').removeClass('selectedNode')
-            target.addClass('selectedNode')
-            cy.$('edge').addClass('unselectedEdge')
-            let targetEdges = target.connectedEdges()
-            targetEdges.removeClass('unselectedEdge')
-            targetEdges.addClass('selectedEdge')
 
-            if (getSelectedOption() == 'concentric'){
+            if (getSelectedOption() === 'avsdf'){
+                if (centeredNode != target) {
+                    if (centeredNode) {
+                        moveNodeTo(centeredNode, centeredNodePrevPosition) // replace prev centered one
+                    }
+                    centeredNode = target
+                    centeredNodePrevPosition = Object.assign({},target.position())
+                    moveNodeTo(target, 'center')
+                }
+            }
+
+            cy.$('.selectedNode').removeClass('selectedNode')
+            target.addClass('selectedNode')
+            
+            cy.$('.connectedEdges').removeClass('connectedEdges')
+            cy.$('edge').addClass('unconnectedEdges')
+            let targetEdges = target.connectedEdges()
+            targetEdges.removeClass('unconnectedEdges')
+            targetEdges.addClass('connectedEdges')
+
+            cy.$('.connectedNodes').removeClass('connectedNodes')
+            target.neighborhood('node').addClass('connectedNodes')
+
+            if (getSelectedOption() === 'concentric'){
                 setLayout('concentricCustom')
             }
+
+
         }
     })
 
     cy.on('tap',function(ev){
         if (ev.target === cy){ // tap bg
-                unselectElements()
+            unselectElements()
         }
     })
 
     cy.$('edge').on('mouseover', function(event) {
         let targetEdge = event.target
-        if (targetEdge.hasClass('selectedEdge')){     
+        if (targetEdge.hasClass('connectedEdges')){     
             let node1 = cy.$('.selectedNode')
             let node2 = targetEdge.source().id() == node1.id() ? targetEdge.target() : targetEdge.source()
             let text = makeTippyContent(node1, node2)
-            targetEdge.tippy = makeTippy(targetEdge, text)
-            targetEdge.timer = setTimeout(function(){
-                targetEdge.tippy.show()
-                cy.userZoomingEnabled(false)
-                cy.userPanningEnabled(false)
-            }, 200)
-            // console.log('tippy')
-            targetEdge.on('mouseout', () => {
-                clearTimeout(targetEdge.timer)
-                targetEdge.tippy.hide();
-                cy.userZoomingEnabled(true)
-                cy.userPanningEnabled(true)
-            });
+            makePopup(targetEdge, text)
         }
     })
+
+    cy.$('node').on('mouseover', function(event) {
+        let target = event.target
+        if (target.hasClass('connectedNodes')){
+            let text = makeTippyContent(cy.$('.selectedNode'), target)
+            makePopup(target, text, 500)
+        }
+    })
+
+    document.querySelectorAll("input[type=radio]").forEach(r => {
+        r.addEventListener('input', function(e){
+            // savedLayouts[prevOption] = storeLayout()
+            setLayout(e.target.value)
+        })
+    })
+    
+    document.querySelector("#refreshGraph").onclick = function(e){ // reset
+        unselectElements()
+        setLayout(getSelectedOption(), true)
+    }
+
+    if (window.location.hostname === "king-of-infinite-space.github.io"){
+        fetch('https://hitcounter.pythonanywhere.com/count?url=' 
+            + encodeURIComponent('https://king-of-infinite-space.github.io/genshin-social-network'),
+            {credentials: 'include'})
+    }
 }
 
 main();
 
-document.querySelectorAll("input[type=radio]").forEach(r => {
-    r.addEventListener('input', function(e){
-        // savedLayouts[prevOption] = storeLayout()
-        setLayout(e.target.value)
-    })
-})
 
-document.querySelector("#refreshGraph").onclick = function(e){
-    // unselectElements()
-    setLayout(getSelectedOption(), true)
-}
+
