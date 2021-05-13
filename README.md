@@ -19,8 +19,8 @@ This project uses __ to generate network graph. The following layouts are used.
 
 #### 版权声明 | Copyright disclaimer
 
-本项目仅用于演示目的。数据获取于[原神WIKI_BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)(通过MediaWiki API。遵循CC BY-NC-SA协议）和[Honey Impact |  Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) 。游戏内容版权归mihoyo所有。\
-This is project is for demonstration only. Data are acquired from __ & __ . Copyright holder of game data is mihoyo.
+本项目仅用于演示（和研究？）目的。图像和文本分别获取于[原神WIKI_BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)(通过MediaWiki API。遵循CC BY-NC-SA协议）和[Honey Impact |  Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) 。游戏内容版权归mihoyo所有。\
+This is project is for demonstration (and research?) only. Data are acquired from __ (image) & __ (text) . Copyright holder of game data is mihoyo.
 
 ---
 
@@ -35,8 +35,10 @@ I don't even play this game (only read and watch the stories). I'm against gacha
 [Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)  
 [Honey Impact | Honey Impact - Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) (multi-language | 多语言)
 
-##### Github上的原神相关项目（仅供参考） | Genshin related projects on Github (for reference only)
+##### 类似项目 | Similar project
+[CaoMeiYouRen/genshin-relation-graph: 原神人物关系图](https://github.com/CaoMeiYouRen/genshin-relation-graph)
 
+##### Github上的其他原神相关项目（仅供参考） | Other Genshin related projects on Github (for reference only)
 [Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)  
 [uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)  
 [GenshinMap/genshinmap.github.io: A flexible, community-driven interactive map for Genshin Impact.](https://github.com/GenshinMap/genshinmap.github.io)
@@ -44,7 +46,7 @@ I don't even play this game (only read and watch the stories). I'm against gacha
 ---
 
 Page visits
-![Hits](https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fking-of-infinite-space.github.io%2Fgenshin-social-network)
+![Hits](https://kois.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fking-of-infinite-space.github.io%2Fgenshin-social-network)
 
 Repo visits
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FKing-of-Infinite-Space%2Fgenshin-social-network)
+![Hits](https://kois.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FKing-of-Infinite-Space%2Fgenshin-social-network)

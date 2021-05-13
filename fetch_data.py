@@ -109,6 +109,7 @@ def parse_char_list():
                     r = requests.get(char['img'])
                     with open(img_path, "wb") as f:
                         f.write(r.content)
+                    print('Downloaded %s' % img_path)
 
     return char_list
 
@@ -128,49 +129,54 @@ def parse_quotes_hhw(name, lang='zh'):
 
     lines = {}
 
-    try:
-        S = requests.Session()
-        res = S.get(url=URL)
-        soup = BeautifulSoup(res.content, features="lxml")
+    S = requests.Session()
+    res = S.get(url=URL)
+    soup = BeautifulSoup(res.content, features="lxml")
 
-        quote_start = soup.find('span', id='scroll_quotes')
+    # check name
+    display_name = soup.find('div', class_='custom_title').get_text()
+    if (display_name != name):
+        raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
 
-        ele = quote_start.next_sibling
-        while ele.name != 'span':
-            table = ele.find('table')
-            if table is not None:
-                tr1, tr2 = table.contents[:2]
-                k = tr1.get_text()
+    quote_start = soup.find('span', id='scroll_quotes')
+
+    ele = quote_start.next_sibling
+    while ele.name != 'span':
+        table = ele.find('table')
+        if table is not None:
+            tr1, tr2 = table.contents[:2]
+            k = tr1.get_text()
+            
+            if is_about_others(name, k, lang):
+                while k.endswith('…') or k.endswith('·') or k.endswith(' '):
+                    k = k[:-1]
+                tr2_str = str(tr2).replace('<br/><color>', '\n') # fischl
+                tr2 = BeautifulSoup(tr2_str, features="lxml")
+                v = tr2.get_text()
                 
-                if is_about_others(name, k, lang):
-                    while k.endswith('…') or k.endswith('·') or k.endswith(' '):
-                        k = k[:-1]
-                    tr2_str = str(tr2).replace('<br/><color>', '\n') # fischl
-                    tr2 = BeautifulSoup(tr2_str, features="lxml")
-                    v = tr2.get_text()
-                    
-                    if lang == 'en':
-                        if k[:5] == 'About': # should be true
-                            k = name + ' about' + k[5:]
-                    else:
-                        k = name + k
-                    lines[k] = v
-            ele = ele.next_sibling
-    except:
-        print(name, sys.exc_info()[1])
+                if lang == 'en':
+                    if k[:5] == 'About': # should be true
+                        k = name + ' about' + k[5:]
+                else:
+                    k = name + k
+                lines[k] = v
+        ele = ele.next_sibling
+
+    # except:
+    #     print(name, sys.exc_info()[0], sys.exc_info()[1])
     
     return lines
 #%%
 if __name__ == '__main__':
 
     char_list = parse_char_list()
-    mismatch = []
+    
     for char in char_list:
         char['name_en'] = char_names[char['name_zh']]
         lines_zh = parse_quotes_hhw(char['name_zh'])
         lines_en = parse_quotes_hhw(char['name_zh'], lang='en')
         info = (char['name_zh'], len(lines_zh), len(lines_en))
-        print(info)
+        print(*info)
         assert(info[1] == info[2])
 
         lines = []

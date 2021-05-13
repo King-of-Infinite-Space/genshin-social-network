@@ -579,11 +579,11 @@ async function main() {
         setLayout(getSelectedOption(), true)
     }
 
-    if (window.location.hostname === "king-of-infinite-space.github.io"){
-        fetch('https://hitcounter.pythonanywhere.com/count?url=' 
-            + encodeURIComponent('https://king-of-infinite-space.github.io/genshin-social-network'),
-            {credentials: 'include'})
-    }
+    // if (window.location.hostname === "king-of-infinite-space.github.io"){
+    //     fetch('https://kois.pythonanywhere.com/count?url=' 
+    //         + encodeURIComponent('https://king-of-infinite-space.github.io/genshin-social-network'),
+    //         {credentials: 'include'})
+    // } // could be blocked
 }
 
 main();
