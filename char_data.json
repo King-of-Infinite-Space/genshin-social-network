@@ -1,5 +1,78 @@
 [
     {
+        "name_zh": "优菈",
+        "img": "https://patchwiki.biligame.com/images/ys/1/1b/jf6qfoaq6q48jx6lvqb88dgl4xta141.png",
+        "name_en": "Eula",
+        "lines": [
+            {
+                "title_zh": "优菈关于安柏",
+                "content_zh": "安柏总是自作主张，我刚加入骑士团那天，她替我打扫宿舍，带我四处参观，之后也主动帮我搞定各种麻烦事。在别人看来，我就像是个被妹妹照顾的姐姐，这怎么像话！这些仇，我都记下了！",
+                "title_en": "Eula about Amber",
+                "content_en": "Amber's someone who thinks for herself. On the day I first joined the Knights, she cleaned my dormitory and gave me a tour of the headquarters, and she's helped me with a myriad of other things in the time since. Now, everyone looks at me like the older sibling who needs the younger sibling to do everything for them! Hmph. For this, she must pay!"
+            },
+            {
+                "title_zh": "优菈关于琴",
+                "content_zh": "代理团长啊，她和我的家族是宿敌。但她公私分明，认可我的实力，邀请我加入骑士团，给了我不少机会。所以我考虑在复仇时，赏她一个不算难看的败北。",
+                "title_en": "Eula about Jean",
+                "content_en": "The Acting Grand Master's family and mine are sworn enemies. But she draws a clear line between professional and personal matters. She saw I was capable, admitted me into the Knights, and gave me lots of opportunities. So, when the time comes for vengeance, I'll afford her a reasonably soft landing."
+            },
+            {
+                "title_zh": "优菈关于丽莎",
+                "content_zh": "啊，麻烦的女人，她的脑袋里装着几千本书，也许是几万本。她能随口数落劳伦斯家的黑历史，每件事的日期都很准确。按理来说，她能帮我追查某个人的下落，可我又拉不下脸去找她。",
+                "title_en": "Eula about Lisa",
+                "content_en": "She's so annoying. She must have read thousands of books... could even be tens of thousands. Meaning, she can effortlessly recall any number of vile tales about the Lawrence Clan's corruption off the top of her head, accurate down to the exact date. Logically speaking, she'd be the perfect person to talk to about someone I'd like to track down, but... swallowing my pride would be too great a challenge."
+            },
+            {
+                "title_zh": "优菈关于芭芭拉",
+                "content_zh": "她到底有什么秘诀，这么讨人喜欢？要是能和她学两招…哦不，还是算了吧，「偶像」和「罪人的后裔」，怎么想都不合拍。",
+                "title_en": "Eula about Barbara",
+                "content_en": "Everyone loves her. What's her secret? Maybe I could learn a thing or two from her... Hmm, or maybe not. I can't imagine a \"Shining Idol\" would want anything to do with a descendant of a depraved dynasty."
+            },
+            {
+                "title_zh": "优菈关于温迪",
+                "content_zh": "那个吟游诗人唱过几首歌，把劳伦斯家放进轻快的故事，用从没听过的口吻调侃，连我都憋不住笑…这个仇，我不会忘的。",
+                "title_en": "Eula about Venti",
+                "content_en": "I heard that bard sing a few songs about the Lawrence Clan... They were lighthearted and funny stories that mocked the clan in a way I've never heard anyone else do. Even I couldn't help but burst out laughing... And for this, he must pay!"
+            },
+            {
+                "title_zh": "优菈关于雷泽",
+                "content_zh": "不用拘泥于礼仪，不必在乎他人的目光，也没有所谓的家族责任…他的生活方式，还蛮轻松的。",
+                "title_en": "Eula about Razor",
+                "content_en": "Free from social mores and other people's opinions, and no family obligations... Must be an easy life!"
+            },
+            {
+                "title_zh": "优菈关于砂糖",
+                "content_zh": "那个炼金术士？她给过我一种装置，说是能用来潜入深渊教团的营地，结果却发出巨响爆炸了，害我当场暴露，被十三个丘丘暴徒围攻。事后我本来想找她算账，可看她慌张又内疚的样子，还有墙上贴着的失败记录，我也不好说什么。反正我没受伤，只是灰头土脸，有点丢人。",
+                "title_en": "Eula about Sucrose",
+                "content_en": "The alchemist... She once gave me a piece of equipment and told me it would help me infiltrate an Abyss Order camp undetected. In reality, it caused a huge explosion that completely blew my cover and before I knew it I was being accosted by 13 mitachurls... Afterwards, I marched straight back there, intending to make her pay for what she had done, but when I saw how panicked and sheepish she looked, and watched her post her results on the wall with the word \"Fail,\" I couldn't bring myself to go through with it... After all, I didn't get hurt, just a little disheveled... and a little humiliated."
+            },
+            {
+                "title_zh": "优菈关于迪卢克",
+                "content_zh": "我和骑士团的某些人不对付，他也看骑士团不顺眼，理论上，我俩是一边的。但他总是对人不理不睬的样子，感觉比代理团长还麻烦。唉，我可不想和他打交道。",
+                "title_en": "Eula about Diluc",
+                "content_en": "I don't get along with some of the knights, and he doesn't think much of them in general, so you'd think that would make us allies. But the way he always acts so aloof — he's even worse than Acting Grand Master Jean. I want nothing to do with him."
+            },
+            {
+                "title_zh": "优菈关于迪奥娜",
+                "content_zh": "她呀，是个奇妙的调酒师呢，居然和我聊得来。她为了毁灭蒙德酒业在酒馆工作，而我为了向骑士团复仇加入了骑士团，天下还有这么巧的事。",
+                "title_en": "Eula about Diona",
+                "content_en": "Diona? She's a miracle worker when it comes to making cocktails, and to my surprise, we get along really well. She infiltrated a tavern with the hopes of tearing down the wine industry, while I infiltrated the knights to exact my revenge on them. A kindred spirit it seems..."
+            },
+            {
+                "title_zh": "优菈关于烟绯·相识",
+                "content_zh": "说来话长…有次我们追踪深渊教团的一批危险品，碰巧救下了她。当时，教团的危险品被伪装成普通货物，要从荆夫港转运到璃月港，她是跟随商船的顾问，发现货物有鬼，就擅自进行了调查，结果引火上身。要是我们再晚几分钟到，她就要倒大霉了。",
+                "title_en": "Eula about Yanfei: Encounter",
+                "content_en": "This one's a long story... We ended up saving her life once when we were tracking down a batch of dangerous cargo that belonged to the Abyss Order. The Abyss Order had packed it up like regular cargo and wanted it shipped from Dornman Port to Liyue Harbor. She was acting as a consultant for the merchant vessel, where she discovered something in the cargo — and then began to investigate, putting herself in grave danger. Had we arrived just a few minutes later, it's likely she wouldn't have been so fortunate."
+            },
+            {
+                "title_zh": "优菈关于烟绯·看法",
+                "content_zh": "之后我们一直保持着联络，我还蛮喜欢她那股机灵劲儿的。她牢记规矩，但懂得变通，如果骑士团里的某些人能学学她就好了。而且，凭她的本事，应该能帮我找到那个人。就当是她还上欠我的人情了。",
+                "title_en": "Eula about Yanfei: Assessment",
+                "content_en": "We've kept in touch ever since. I like how smart she is. She knows the rules, but she also knows how to be flexible and act according to the situation. A few of the Knights would do well to take a leaf out of her book... Also, with her smarts, maybe she could help me track someone down that I've been looking for... She does owe me a favor from last time, after all."
+            }
+        ]
+    },
+    {
         "name_zh": "烟绯",
         "img": "https://patchwiki.biligame.com/images/ys/5/59/mzwn4qo66r2bh5aod73wvmeml4tf3jw.png",
         "name_en": "Yanfei",
@@ -45,6 +118,12 @@
                 "content_zh": "好在「玉衡星」不涉足专业律法领域。否则，依刻晴小姐的态度和效率，我怕是要失去不少工作。哦…不，好像也不至于。毕竟刻晴小姐为人刚正，容易得罪人，由我来当助手辅佐的话…哦不不，也不对，为什么我堂堂律法专家要当人助手？有事的话，应该是她来找我咨询才对。",
                 "title_en": "Yanfei about Keqing",
                 "content_en": "The Yuheng doesn't deal with matters of the law, and thank goodness... Knowing Keqing's attitude toward work and ruthless efficiency, I'd end up losing a lot of work. Although... No, surely it wouldn't come to that. She's a stickler for doing things the right way — no doubt she'd offend people... but if she had someone like me as her legal assistant... No way! Why should an eminent legal expert such as myself be relegated to the role of assistant!? If she needs legal counsel, she can come and find me."
+            },
+            {
+                "title_zh": "烟绯关于优菈",
+                "content_zh": "优菈曾经救过我一次，我们也从此有了书信往来。她牢记骑士团的各项条文，却从不墨守成规。还总能找到巧妙的逻辑，灵活处理问题。大概因为我也是这样的人，所以和她相处会特别轻松吧。不过，她那种洒脱劲，我可就学不会啦。毕竟，我和她的职业可是完全不同呢。",
+                "title_en": "Yanfei about Eula",
+                "content_en": "Eula saved me once, and we've kept up correspondence ever since. She's very familiar with the Knights of Favonius' legislation, but has never been one to be bound by convention. She uses cunning logic to deal with problems flexibly... Perhaps the reason we get along so easily is that I'm a similar type myself. Still, I'll never acquire that carefree spirit of hers. We are in very different professions, after all."
             }
         ]
     },
@@ -306,49 +385,6 @@
         ]
     },
     {
-        "name_zh": "辛焱",
-        "img": "https://patchwiki.biligame.com/images/ys/a/ab/ssm5hres5t2jcnmqlmxvko87frukaaa.png",
-        "name_en": "Xinyan",
-        "lines": [
-            {
-                "title_zh": "辛焱关于香菱",
-                "content_zh": "我经常去「万民堂」吃夜宵，香菱如果手头不忙，还经常跟我聊天，一直聊到很晚很晚。啊？你问我都点的啥？嗯…其实是香菱做啥我吃啥，哈哈。每次都不一样，味道也千变万化，她可以说是料理界的「摇滚明星」了！",
-                "title_en": "Xinyan about Xiangling",
-                "content_en": "I have dinner at the Wanmin Restaurant often. If Xiangling's got some time on her hands, we'll chat till it's real late. Eh? You wanna know what I order? See... I actually eat everything she makes. It's never the same thing, and the flavor's different each time, too. Ooh, she's the rock star of the culinary world, she is!"
-            },
-            {
-                "title_zh": "辛焱关于钟离",
-                "content_zh": "以前没什么人听我的摇滚，有一天他突然来邀请我，说可以去他那里试试，合适的话可以去当驻唱歌手，我心里激动啊，终于有人理解我的音乐了！就直接答应了下来。结果去了场地才知道，他居然是那个「往生堂」的客卿…这明显不合适啊，真是个怪人。",
-                "title_en": "Xinyan about Zhongli",
-                "content_en": "There was this one fellow who invited me to perform at his place, back when there weren't many who would give my music the time of day. I was touched, let me tell you what. Like, hey, someone gets it! I agreed right away... But when I got there, I found out that he was the consultant at the Wangsheng Funeral Parlor. What a weird guy. I mean, how was that appropriate?"
-            },
-            {
-                "title_zh": "辛焱关于凝光",
-                "content_zh": "你知道千岩军吧？他们以前总是妨碍我，说什么这里也不准搭舞台，那里也不准，麻烦死了。咳咳，不过在我找总务司申诉之后，听说那个「天权星」专门修订了璃月的什么…呃…反正是某个规则，划定了演出专属场地，还要申请什么许可。哎…其实还是很麻烦，不过，好歹不用像之前一样，被赶得到处乱跑了嘛。",
-                "title_en": "Xinyan about Ningguang",
-                "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
-            },
-            {
-                "title_zh": "辛焱关于北斗",
-                "content_zh": "她啊，说话直爽，气量也大，聊起来特别投缘。「死兆星」号乘风破浪的故事，实在是太帅了，给了我很多摇滚的灵感。嘿嘿，我还专门写了一首歌给他们。现在，只要我唱第一句，好多船员都能跟我唱下去，都快变成船歌啦。",
-                "title_en": "Xinyan about Beidou",
-                "content_en": "Her? She speaks her mind and has a big heart, and we get on great. The Crux's adventures are real epic. They've given me tons of inspiration in the past! I even wrote them a song. Nowadays, I just need to sing the first line, and most all the sailors will join in. It's fast becoming a new sea shanty, it is."
-            },
-            {
-                "title_zh": "辛焱关于重云",
-                "content_zh": "他超有意思！看上去文静内向，但有一次演出，他好像是被朋友叫过来，要跟我说什么话。舞台上声音太大，我还没听清呢，他已经一个箭步跳上台来和我一起唱了，还唱得特别摇滚。这就叫「人不可貌相」吧。",
-                "title_en": "Xinyan about Chongyun",
-                "content_en": "He's one interesting guy. He looks introverted enough, but there was this one time when he came to one of my performances. A friend brought him or something, and he had some words for me, but I couldn't hear 'em over the music. Before I knew it, he was right up there on the stage with me, singing and rockin' his heart out. Guess you really can't judge a book by its cover!"
-            },
-            {
-                "title_zh": "辛焱关于胡桃",
-                "content_zh": "她明明是往生堂的堂主，却每天一副开开心心的样子，完全不知道在想什么。街上碰到的话，还会大大方方地和我打招呼，说什么「喜欢玩火的人，是生意兴隆的保障呢。」…呃，有、有点诡异。",
-                "title_en": "Xinyan about Hu Tao",
-                "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
-            }
-        ]
-    },
-    {
         "name_zh": "钟离",
         "img": "https://patchwiki.biligame.com/images/ys/7/7c/eewy674lo37jwuq9qozyszhz8vo0d8j.png",
         "name_en": "Zhongli",
@@ -406,6 +442,49 @@
                 "content_zh": "她未曾与我签订「契约」，却在以自己的方式维护璃月各界的规矩，并将有失偏颇的观念纠正。倘若某天，她的父亲远游归来，想来会比我更欣慰吧。",
                 "title_en": "Zhongli about Yanfei",
                 "content_en": "Despite never having signed a contract with me, she upholds order within many strata of Liyue society in her own way, dispelling misconceptions and correcting biases... Should her father one day return from his travels, I imagine that he would be even more delighted than I."
+            }
+        ]
+    },
+    {
+        "name_zh": "辛焱",
+        "img": "https://patchwiki.biligame.com/images/ys/a/ab/ssm5hres5t2jcnmqlmxvko87frukaaa.png",
+        "name_en": "Xinyan",
+        "lines": [
+            {
+                "title_zh": "辛焱关于香菱",
+                "content_zh": "我经常去「万民堂」吃夜宵，香菱如果手头不忙，还经常跟我聊天，一直聊到很晚很晚。啊？你问我都点的啥？嗯…其实是香菱做啥我吃啥，哈哈。每次都不一样，味道也千变万化，她可以说是料理界的「摇滚明星」了！",
+                "title_en": "Xinyan about Xiangling",
+                "content_en": "I have dinner at the Wanmin Restaurant often. If Xiangling's got some time on her hands, we'll chat till it's real late. Eh? You wanna know what I order? See... I actually eat everything she makes. It's never the same thing, and the flavor's different each time, too. Ooh, she's the rock star of the culinary world, she is!"
+            },
+            {
+                "title_zh": "辛焱关于钟离",
+                "content_zh": "以前没什么人听我的摇滚，有一天他突然来邀请我，说可以去他那里试试，合适的话可以去当驻唱歌手，我心里激动啊，终于有人理解我的音乐了！就直接答应了下来。结果去了场地才知道，他居然是那个「往生堂」的客卿…这明显不合适啊，真是个怪人。",
+                "title_en": "Xinyan about Zhongli",
+                "content_en": "There was this one fellow who invited me to perform at his place, back when there weren't many who would give my music the time of day. I was touched, let me tell you what. Like, hey, someone gets it! I agreed right away... But when I got there, I found out that he was the consultant at the Wangsheng Funeral Parlor. What a weird guy. I mean, how was that appropriate?"
+            },
+            {
+                "title_zh": "辛焱关于凝光",
+                "content_zh": "你知道千岩军吧？他们以前总是妨碍我，说什么这里也不准搭舞台，那里也不准，麻烦死了。咳咳，不过在我找总务司申诉之后，听说那个「天权星」专门修订了璃月的什么…呃…反正是某个规则，划定了演出专属场地，还要申请什么许可。哎…其实还是很麻烦，不过，好歹不用像之前一样，被赶得到处乱跑了嘛。",
+                "title_en": "Xinyan about Ningguang",
+                "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
+            },
+            {
+                "title_zh": "辛焱关于北斗",
+                "content_zh": "她啊，说话直爽，气量也大，聊起来特别投缘。「死兆星」号乘风破浪的故事，实在是太帅了，给了我很多摇滚的灵感。嘿嘿，我还专门写了一首歌给他们。现在，只要我唱第一句，好多船员都能跟我唱下去，都快变成船歌啦。",
+                "title_en": "Xinyan about Beidou",
+                "content_en": "Her? She speaks her mind and has a big heart, and we get on great. The Crux's adventures are real epic. They've given me tons of inspiration in the past! I even wrote them a song. Nowadays, I just need to sing the first line, and most all the sailors will join in. It's fast becoming a new sea shanty, it is."
+            },
+            {
+                "title_zh": "辛焱关于重云",
+                "content_zh": "他超有意思！看上去文静内向，但有一次演出，他好像是被朋友叫过来，要跟我说什么话。舞台上声音太大，我还没听清呢，他已经一个箭步跳上台来和我一起唱了，还唱得特别摇滚。这就叫「人不可貌相」吧。",
+                "title_en": "Xinyan about Chongyun",
+                "content_en": "He's one interesting guy. He looks introverted enough, but there was this one time when he came to one of my performances. A friend brought him or something, and he had some words for me, but I couldn't hear 'em over the music. Before I knew it, he was right up there on the stage with me, singing and rockin' his heart out. Guess you really can't judge a book by its cover!"
+            },
+            {
+                "title_zh": "辛焱关于胡桃",
+                "content_zh": "她明明是往生堂的堂主，却每天一副开开心心的样子，完全不知道在想什么。街上碰到的话，还会大大方方地和我打招呼，说什么「喜欢玩火的人，是生意兴隆的保障呢。」…呃，有、有点诡异。",
+                "title_en": "Xinyan about Hu Tao",
+                "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
             }
         ]
     },
@@ -608,6 +687,867 @@
                 "content_zh": "黑土与白垩、宇宙与地层，无垢之土创生原初之人…特征实在太明显了，难以忽视呀。这么危险的古老技术，万一在城里失控——嗨，算了，就让蒙德人自己解决蒙德的问题吧。",
                 "title_en": "Venti about Albedo",
                 "content_en": "How do you explain white chalk in black soil, or the earth's dense crust amidst the emptiness of space? Same reason the purest soil gave birth to human life... It's an ancient power with unmistakable properties. Trying to harness it is dangerous indeed, I can't imagine what would happen if someone lost control of it in the city... Ah, never mind! What goes on within Mondstadt's walls is up to Mondstadt's people to deal with!"
+            },
+            {
+                "title_zh": "温迪关于优菈",
+                "content_zh": "优菈对酒的品位可是很不错的。无论夏天、冬天都要喝冰的这一点，在现在的蒙德人里也算难得啦。感觉能和她成为不错的酒友。嗯？你说我编排的劳伦斯家的歌…早已经传到了她的耳朵里？哈，那有什么关系嘛？说不定，我们还能一起唱呢。",
+                "title_en": "Venti about Eula",
+                "content_en": "Eula has good taste when it comes to beverages of the alcoholic variety. Come summer or winter, she always likes them ice-cold. That's rare among Mondstadters these days! She and I would make great drinking buddies. Huh? My songs about the Lawrence Clan... She's heard them already? Eh, no harm done. Maybe she and I can do a duet sometime!"
+            }
+        ]
+    },
+    {
+        "name_zh": "七七",
+        "img": "https://patchwiki.biligame.com/images/ys/8/8b/049fpv6jcr66mln0nmbbfgigfrkgrzo.png",
+        "name_en": "Qiqi",
+        "lines": [
+            {
+                "title_zh": "七七关于胡桃",
+                "content_zh": "高温、假笑和死亡…讨厌。",
+                "title_en": "Qiqi about Hu Tao",
+                "content_en": "Warm. Fake smile. Death. I despise Hu Tao."
+            },
+            {
+                "title_zh": "七七关于魈·名字",
+                "content_zh": "唔，听起来像老古董…",
+                "title_en": "Qiqi about Xiao: Name",
+                "content_en": "Sounds like a historical artifact to me."
+            },
+            {
+                "title_zh": "七七关于魈·记忆",
+                "content_zh": "我见过他吗…？",
+                "title_en": "Qiqi about Xiao: Memory",
+                "content_en": "Remind me, have I met him before?"
+            },
+            {
+                "title_zh": "七七关于辛焱",
+                "content_zh": "…是谁？",
+                "title_en": "Qiqi about Xinyan",
+                "content_en": "...Who?"
+            }
+        ]
+    },
+    {
+        "name_zh": "迪卢克",
+        "img": "https://patchwiki.biligame.com/images/ys/9/94/mkpw3ljc2eoea75lhkyccu6mbsbiqnr.png",
+        "name_en": "Diluc",
+        "lines": [
+            {
+                "title_zh": "迪卢克关于凯亚",
+                "content_zh": "凯亚吗…那个男人说的话，只能信一半。",
+                "title_en": "Diluc about Kaeya",
+                "content_en": "Kaeya? You can only trust half of what he says... at best."
+            },
+            {
+                "title_zh": "迪卢克关于丽莎",
+                "content_zh": "丽莎，能成为骑士团内最值得仰赖的人之一。如果她愿意的话。",
+                "title_en": "Diluc about Lisa",
+                "content_en": "I believe Lisa has the potential to become the most reliable of the knights. If she's willing."
+            },
+            {
+                "title_zh": "迪卢克关于琴·敌人",
+                "content_zh": "无意义的琐事，是琴最大的敌人。",
+                "title_en": "Diluc about Jean: Enemies",
+                "content_en": "Trifling matters can become Jean's greatest enemy."
+            },
+            {
+                "title_zh": "迪卢克关于琴·职责",
+                "content_zh": "琴那无人能及的责任心，终究让她没能看清自己真正的职责啊。",
+                "title_en": "Diluc about Jean: Responsibilities",
+                "content_en": "Her unparalleled sense of responsibility is the sole reason why she still hasn't found her true calling."
+            },
+            {
+                "title_zh": "迪卢克关于莫娜",
+                "content_zh": "蒙德的土地浸润着风神的恩泽，就不需要赞助占星术士来预测收成了吧。",
+                "title_en": "Diluc about Mona",
+                "content_en": "The land of Mondstadt, by the Anemo Archon's grace, is bountiful. I see no need for the harvest forecasts of astrologers."
+            },
+            {
+                "title_zh": "迪卢克关于迪奥娜",
+                "content_zh": "迪奥娜对我的态度很是生硬，我也一直没找到合适的机会交流。如果是涉及到家族恩怨的话…嗯？不是？只是单纯地讨厌酒？没想到在这蒙德，也会有讨厌酒的酒保啊。",
+                "title_en": "Diluc about Diona",
+                "content_en": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if its an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
+            },
+            {
+                "title_zh": "迪卢克关于优菈",
+                "content_zh": "我听说过她，她有自己的理念。努力挣脱家族束缚的气势也值得称道。但她…却加入了西风骑士团。",
+                "title_en": "Diluc about Eula",
+                "content_en": "Ah, yes... I've heard about her. She has her own convictions. Her determination to liberate herself from the shackles of her clan is praiseworthy. But, she's... joined the Knights of Favonius."
+            }
+        ]
+    },
+    {
+        "name_zh": "琴",
+        "img": "https://patchwiki.biligame.com/images/ys/1/1a/g3cl4mrxow8af265n2ajqtnuf99pkfa.png",
+        "name_en": "Jean",
+        "lines": [
+            {
+                "title_zh": "琴关于芭芭拉",
+                "content_zh": "芭芭拉非常努力，只不过有时过于勉强自己…嗯？问我为什么了解得这么清楚？因为西风教会也归属骑士团管辖。",
+                "title_en": "Jean about Barbara",
+                "content_en": "Barbara is a hard worker, but I feel she's too hard on herself sometimes... What? You ask me how I know all of this? It's because the order also manages the Church."
+            },
+            {
+                "title_zh": "琴关于丽莎",
+                "content_zh": "丽莎，有她在的话，我会安心很多。",
+                "title_en": "Jean about Lisa",
+                "content_en": "When Lisa is around, I always have peace of mind."
+            },
+            {
+                "title_zh": "琴关于安柏",
+                "content_zh": "安柏这段时间确实有所成长。希望有朝一日，她的事迹也会被吟游诗人传颂。",
+                "title_en": "Jean about Amber",
+                "content_en": "I must say that Amber's development has impressed me recently. I hope that one day, her deeds will become the words of a bard's tale."
+            },
+            {
+                "title_zh": "琴关于凯亚",
+                "content_zh": "是吗…凯亚也向你提出建言了啊。他是一名优秀的西风骑士，这点毋庸置疑。",
+                "title_en": "Jean about Kaeya",
+                "content_en": "Is that right...? Kaeya also gave you some suggestions. He is an excellent knight after all — this is a fact no one can deny."
+            },
+            {
+                "title_zh": "琴关于可莉",
+                "content_zh": "虽说玩乐是孩子的天性，但可莉中意的玩具却都是些危险品。让人难以放心。",
+                "title_en": "Jean about Klee",
+                "content_en": "Though it may be said that it is in a child's nature to play, the things Klee plays with are far from toys. I can never take my eye off her."
+            },
+            {
+                "title_zh": "琴关于阿贝多",
+                "content_zh": "「天才」这种名词，或许正是为了阿贝多这样的人准备的吧。",
+                "title_en": "Jean about Albedo",
+                "content_en": "Sometimes I feel that terms like \"genius\" were originally created for Albedo."
+            },
+            {
+                "title_zh": "琴关于诺艾尔",
+                "content_zh": "诺艾尔，嗯…那个努力想要成为西风骑士的少女。她的内心仍有软弱之处，现在这个阶段，也许还不适合让她接触外界的凶险。",
+                "title_en": "Jean about Noelle",
+                "content_en": "Noelle... She's very trying in her pursuit to become a Knight of Favonius. However, I fear she is not quite ready for the dangers that lie beyond Mondstadt's walls."
+            },
+            {
+                "title_zh": "琴关于罗莎莉亚",
+                "content_zh": "罗莎莉亚修女总是把「麻烦」挂在嘴边，实际却十分称职。上次我和她说「如果觉得麻烦也可以找我帮忙」，她却回答「这样更麻烦」。嗯…我果然还有很多欠缺啊。",
+                "title_en": "Jean about Rosaria",
+                "content_en": "Some may see Sister Rosaria as one who complains about how bothersome her work is, but she does her job well. Last time I saw her I told her she could come find me should she ever need help, to which she simply replied that doing so would be even more bothersome. I need to work harder to become of more assistance to the people of Mondstadt."
+            },
+            {
+                "title_zh": "琴关于迪卢克·愧欠",
+                "content_zh": "迪卢克前辈对骑士团的指摘事出有因，即使心中愧疚也无法改变既定的结果…我只想通过我的努力，让他对骑士团有所改观…嗯，这是我的责任。",
+                "title_en": "Jean about Diluc: Disillusion",
+                "content_en": "Master Diluc has his reasons for being so critical of the Knights of Favonius. I am not proud of the way things went, but I cannot change the past. All I can do is keep working hard, in the hope he may one day see us in a better light... This is my duty."
+            },
+            {
+                "title_zh": "琴关于迪卢克·敬重",
+                "content_zh": "迪卢克…是一位非常可敬的前辈。虽然我们选择的道路不同，但这份共通的守护蒙德的心意，我能感受得到。",
+                "title_en": "Jean about Diluc: Respect",
+                "content_en": "Master Diluc is my senior, and I have the utmost respect for him. Though we have gone separate ways, I can sense we share the same strong commitment to protecting Mondstadt at all costs."
+            },
+            {
+                "title_zh": "琴关于砂糖",
+                "content_zh": "作为炼金术士，砂糖也算天赋异禀。况且她的身边还有阿贝多指点，未来应该不用担心。只是…不，没什么，沉浸在自己的世界里，也不算坏事吧。",
+                "title_en": "Jean about Sucrose",
+                "content_en": "Sucrose is also a rare talent in the field of alchemy. Under Albedo's mentorship, she is sure to flourish. I am sure her future will be bright. The only thing is... Ahem, I was momentarily lost in thought. It is nothing. Nothing bad, anyway."
+            },
+            {
+                "title_zh": "琴关于优菈",
+                "content_zh": "优菈？咳…请不要对她的身世耿耿于怀，西风骑士会公正地评价每个人。优菈明辨是非，才华出众，偶尔发表危险言论，也只是她的性格使然。哪怕她总是说要挑战我，我也不介意。",
+                "title_en": "Jean about Eula",
+                "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
+            }
+        ]
+    },
+    {
+        "name_zh": "香菱",
+        "img": "https://patchwiki.biligame.com/images/ys/c/cc/l5ae2erhaq8tn896a2yibndx5g7r5g5.png",
+        "name_en": "Xiangling",
+        "lines": [
+            {
+                "title_zh": "香菱关于凝光",
+                "content_zh": "哦！刚才那个，是「天权」大人啊…嗯，你凑过来点。再，再过来点。我跟你说哦，她可是一个特别厉害的人，港内的事情她什么都知道。所以，你也要小心一点，不要被她盯上了…",
+                "title_en": "Xiangling about Ningguang",
+                "content_en": "That was the Tianquan! Did you see? She just walked past. Come here... closer... Let me tell you, she knows everything that happens in Liyue, so... keep a low profile, don't attract her attention!"
+            },
+            {
+                "title_zh": "香菱关于胡桃",
+                "content_zh": "唔，你是不是也被胡桃欺负过？她老是趁我不注意躲到我后面，这样突然拍我的后背，得逞了还嘿嘿地笑，哼。但我大人大量，看在她每次都会给我带酿梅花做线花糕的份上，才没跟她斤斤计较。",
+                "title_en": "Xiangling about Hu Tao",
+                "content_en": "Is Hu Tao picking on you too? Ugh, that prankster always waits till I least expect it, creeps up on me from behind and then... Boo! ...then laughs herself silly. Hmph. But I can handle it, and she does bring me fermented plum blossoms once in a while so I can make flower cakes... so I don't hold a grudge."
+            },
+            {
+                "title_zh": "香菱关于迪奥娜",
+                "content_zh": "清泉镇的迪奥娜！啊啊，听说她能调出特别好喝的酒，我专门拜访过她！想着如果能把调酒的秘方借鉴到料理上，说不定也能做出美味。但是，她给我的秘方，比如啤酒里泡蜥蜴尾巴，蒲公英酒里放小块熏鱼…做出来都不是很好吃。呜，果然还是要靠自己吗？",
+                "title_en": "Xiangling about Diona",
+                "content_en": "Diona, from Springvale! Ah, I heard she mixes a great drink, so I came specifically to see her! I thought perhaps I could use her secrets in my cooking, and bring out more flavors. But the tips that she gave me — like soaking lizard tails in beer, or putting bits of smoked fish in dandelion wine — all came out really awful. *sigh* Guess it's up to me to work it out myself, then."
+            },
+            {
+                "title_zh": "香菱关于北斗",
+                "content_zh": "北斗姐姐人特别好！跟着她出去航海的话，每次都能捕获到好多新鲜的食材！章鱼脚拿来煲汤最好，海天青就要用辣椒好好炝一炝。不光北斗姐姐，「南十字」的船员们都很喜欢我做的菜呢。",
+                "title_en": "Xiangling about Beidou",
+                "content_en": "Oh, Beidou is the greatest! Every time I go out sailing with her, she always manages to fish up lots of fresh ingredients! Octopus tentacles go great in soup, and seaweed fries up great with some chilies. Not just Beidou, but everyone on board The Crux loves my cooking."
+            },
+            {
+                "title_zh": "香菱关于钟离",
+                "content_zh": "我遇到过不少挑剔的食客，但像钟离先生那种嘴巴上讲究，还能一针见血的，真的就只有他一个！那天我给他上的第一道菜是「椒盐豆腐」，他只尝了一口，就问我用的是什么盐，然后又说什么「不妨试试孤云阁浅海处提炼的海盐吧，它的层次感能够为豆腐赋予更多鲜味」。我试过之后味道真的大有不同。你说，他是不是好厉害！",
+                "title_en": "Xiangling about Zhongli",
+                "content_en": "I've come across a lot of fussy eaters, but Mr. Zhongli is very particular and has no problem getting straight to what he has to say. The first time I served him salt and pepper tofu, he took just one bite, and then proceeded to say: \"It would be better to try sea salt extracted from the shallow seas of Guyun Stone Forest, because it would bring a fresh sense of depth to the tofu.\" I tried it and the taste was just so different! He's just amazing, don't you think!?"
+            },
+            {
+                "title_zh": "香菱关于重云",
+                "content_zh": "重云啊，他总是跟着行秋一起来「万民堂」吃饭…呃，或者应该说，是被行秋拖来的？但是重云不吃热食。每次热菜上桌，行秋就会客客气气地说一声「失敬」，然后动起筷子逐一评点起每道菜的美味之处，他那夸得呀，我都想冲过去尝一口！你是没见到重云那种眼神，哈哈哈。还挺有趣的呢，他俩。",
+                "title_en": "Xiangling about Chongyun",
+                "content_en": "Chongyun? I always see him on his way to eat at Wanmin Restaurant with Xingqiu... Ah... or perhaps I should say I see him being dragged there by Xingqiu? Chongyun doesn't eat hot food. Every time the hot food arrives, Xingqiu politely apologizes and proceeds to try every dish. I just wanna dig in with him! The look on Chongyun's face is priceless. They're quite interesting, those two."
+            },
+            {
+                "title_zh": "香菱关于甘雨",
+                "content_zh": "甘雨？嗯…啊啊有印象有印象，是那位只吃素食的客人吧！她来「万民堂」的次数不算多，每次都是一个人躲在小角落里不吭声地吃着饭。我嘛，看她孤孤单单有些可怜，就总帮她多舀两大勺菜。没想到，她每次都能全部吃完！真是不可貌相。",
+                "title_en": "Xiangling about Ganyu",
+                "content_en": "Ganyu? Oh... Oh yeah! I remember her — vegetarian, right? She doesn't come to the Wanmin Restaurant very often — but when she does, she sits alone in the corner and eats her meal in total silence. Poor girl, she seems kinda lonely... I always give her an extra-large portion because I feel sorry for her. Funniest thing is, she eats every last bite, every time! I wouldn't have guessed she had such an appetite just by looking at her."
+            },
+            {
+                "title_zh": "香菱关于辛焱",
+                "content_zh": "辛焱经常来「万民堂」吃夜宵喔！像行秋、重云他们不敢试吃的新品，辛焱就会毫不犹豫地下筷…而且有八成以上的概率喜欢！哎，真是很不错的人呐。",
+                "title_en": "Xiangling about Xinyan",
+                "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
+            }
+        ]
+    },
+    {
+        "name_zh": "行秋",
+        "img": "https://patchwiki.biligame.com/images/ys/a/a6/bz36kyv7jhk9p3sqk6g3r79a7t5aqa2.png",
+        "name_en": "Xingqiu",
+        "lines": [
+            {
+                "title_zh": "行秋关于北斗",
+                "content_zh": "北斗阁下是我非常敬重的人。不过希望她不要喊我「小子」，也不要一见面就揉我头发。",
+                "title_en": "Xingqiu about Beidou",
+                "content_en": "I have great respect for Lady Beidou. I just wish she wouldn't call me \"kid\" and ruffle my hair each time she sees me."
+            },
+            {
+                "title_zh": "行秋关于凝光",
+                "content_zh": "「天权」大人是我不得不敬重的人。不然会给家父以及家兄添麻烦。嗯？对她本人，我想想。嗯…还是算了，不说人坏话了。",
+                "title_en": "Xingqiu about Ningguang",
+                "content_en": "In her capacity as the Tianquan, I am obliged to respect her. Otherwise, it could create issues for my father and brother. On a personal level? Let me think... I think I will go with \"No comment,\" I shan't speak ill of others."
+            },
+            {
+                "title_zh": "行秋关于重云",
+                "content_zh": "唉，重云这家伙，虽然也知道我的底细，但真要和他搭档去完成任务还得审慎。他现在还是执着「武」技，却不理解「侠」心的境界。需要多练练。尤其…是吃辣的方面，哈哈。",
+                "title_en": "Xingqiu about Chongyun",
+                "content_en": "Ah, dear Chongyun. Though he understands me quite well, one has to exercise caution when teaming up with him to go on a quest. He is making good progress in the martial arts, but I would say he hasn't quite internalized the chivalric code yet... He needs more practice. Especially at eating spicy food..."
+            },
+            {
+                "title_zh": "行秋关于胡桃",
+                "content_zh": "那个小姑娘，正是「往生堂」的当代堂主。嗯？问我怎样看待她的为人？…行事作风嘛，坊间传闻是作不了数的。真想了解一个人，还得看她真正想要的是什么。",
+                "title_en": "Xingqiu about Hu Tao",
+                "content_en": "Ah yes, the young lady who is now the Director of the Wangsheng Funeral Parlor. If you're asking what I think about her as a person... Well, there are all sorts of rumors about the way she works. But I think if you really want to understand someone, you need to find out what they are really after."
+            },
+            {
+                "title_zh": "行秋关于七七",
+                "content_zh": "总感觉七七的身上藏着谜团。但只要白术先生在场，就跟她说不上几句话。除非，我们能找个白术先生外出看诊的机会，专门…",
+                "title_en": "Xingqiu about Qiqi",
+                "content_en": "I've always thought there is more to Qiqi than meets the eye. But it's impossible to have a conversation with her when Baizhu's around. Hmm... We could wait till Baizhu makes a home call to one of his other patients and corner her..."
+            },
+            {
+                "title_zh": "行秋关于香菱",
+                "content_zh": "见到香菱的时候，你可得多观察一下她的表情。尤其是刚刚添置完食材回来的香菱，笑得越开心，就越危险。要是被她缠上、逼你试吃新品…这种情况，我一般会靠重云来处理。",
+                "title_en": "Xingqiu about Xiangling",
+                "content_en": "When you first spot Xiangling out and about, the first thing you should do is check the look on her face. Especially when she's just coming back from collecting new ingredients — the more excited she looks, the more dangerous it is to approach. Because if she sees you, she'll force you to taste-test her latest concoction... I usually get Chongyun to handle these situations, hehe..."
+            },
+            {
+                "title_zh": "行秋关于辛焱",
+                "content_zh": "辛焱到底是在哪里演出的？从吃虎岩到玉京台，哪里都躲不过那种鸡飞狗跳的穿透力…唉，能够安静看书的时日是多么宝贵啊。",
+                "title_en": "Xingqiu about Xinyan",
+                "content_en": "Where does Xinyan perform? Anywhere from Chihu Rock to Yujing Terrace — no spot is untouched by her disruptive presence... A quiet day when I can curl up with a good book is a rare treasure indeed."
+            },
+            {
+                "title_zh": "行秋关于阿贝多",
+                "content_zh": "下一卷、下下卷、下下下卷的重要场景，我都已经想好要配怎样的插画了！啊，必须赶快把灵感记下来，修书一封，寄给白垩老师…",
+                "title_en": "Xingqiu about Albedo",
+                "content_en": "I've thought of all the illustrations I want for each major event in the next three volumes! I should write my thoughts down before I forget them, and send them to Mr. Kreideprinz..."
+            },
+            {
+                "title_zh": "行秋关于钟离",
+                "content_zh": "我看见过家父和家兄接待这位先生，就从他们行礼时候的恭敬态度来看…对方应该是很有地位的人物吧。我还听说他是给仙人办丧事的人，感觉很有底蕴。要不要一起去挖掘他身上的秘密呢？",
+                "title_en": "Xingqiu about Zhongli",
+                "content_en": "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for the adepti, so he must surely have great depth to his character. We should do some digging and see what we can find out about him!"
+            }
+        ]
+    },
+    {
+        "name_zh": "雷泽",
+        "img": "https://patchwiki.biligame.com/images/ys/4/4d/8bdo6ydvnfl23s7jx69dtp1cmoo3svm.png",
+        "name_en": "Razor",
+        "lines": [
+            {
+                "title_zh": "雷泽关于丽莎",
+                "content_zh": "师父的雷，天空会变黑。很可怕，很强。",
+                "title_en": "Razor about Lisa",
+                "content_en": "Lisa lightning makes the sky black. She is strong. She is scary."
+            },
+            {
+                "title_zh": "雷泽关于芭芭拉",
+                "content_zh": "芭芭拉，亮晶晶的女孩子。很善良。",
+                "title_en": "Razor about Barbara",
+                "content_en": "Shining Barbara is a good child. Very good child."
+            },
+            {
+                "title_zh": "雷泽关于迪卢克",
+                "content_zh": "迪卢克，红红的、黑黑的。又冷又热。",
+                "title_en": "Razor about Diluc",
+                "content_en": "Diluc is red and black. Hot and cold."
+            },
+            {
+                "title_zh": "雷泽关于温迪",
+                "content_zh": "诗歌…唔，不明白。虽然不明白，「卢皮卡」喜欢。",
+                "title_en": "Razor about Venti",
+                "content_en": "Razor doesn't know poems, but... Lupical likes them."
+            },
+            {
+                "title_zh": "雷泽关于班尼特",
+                "content_zh": "班尼特，话很多，和他一起，吃不饱。",
+                "title_en": "Razor about Bennett",
+                "content_en": "Bennett... Much talking. Eat with him, never full."
+            },
+            {
+                "title_zh": "雷泽关于可莉",
+                "content_zh": "可莉，朋友！朋友，但是，头疼。",
+                "title_en": "Razor about Klee",
+                "content_en": "Klee, friend! Friend, but... big hassle."
+            }
+        ]
+    },
+    {
+        "name_zh": "安柏",
+        "img": "https://patchwiki.biligame.com/images/ys/a/a7/c1hp9a87kti1ywjv7c5470e3dn0wxio.png",
+        "name_en": "Amber",
+        "lines": [
+            {
+                "title_zh": "安柏关于琴·帮忙",
+                "content_zh": "大团长出征之后，大大小小的事务都压在了琴的身上。如果我也能多帮到她一点就好了…",
+                "title_en": "Amber about Jean: Help",
+                "content_en": "After the Grand Master left on his expedition, all the affairs of the Knights of Favonius, both big and small, have been left up to Jean. If only there was more I could do to help her..."
+            },
+            {
+                "title_zh": "安柏关于琴·关怀",
+                "content_zh": "琴可能还在工作？…走，一起请她喝杯咖啡吧。",
+                "title_en": "Amber about Jean: Care",
+                "content_en": "Jean might still be working? We should invite her for coffee... Let's go."
+            },
+            {
+                "title_zh": "安柏关于丽莎·听故事",
+                "content_zh": "等你有空，我们一起去找丽莎吧！她上次和我讲了一个龙脊雪山宝藏的故事，只讲到一半。唔，我还想知道后续！",
+                "title_en": "Amber about Lisa: Listening to Stories",
+                "content_en": "When you have time, we should go see Lisa! Last time I saw her, she was telling me about a story involving a treasure in the Dragonspine area. But, we got cut off before she could finish. I can't wait to hear the rest of her story!"
+            },
+            {
+                "title_zh": "安柏关于丽莎·钦佩",
+                "content_zh": "丽莎好像除了睡觉的时间之外都在看书！真厉害啊，我就坐不住那么长时间。",
+                "title_en": "Amber about Lisa: Admiration",
+                "content_en": "If Lisa's not sleeping, she'll be reading! I don't know how she does it, I wouldn't be able to sit still for that long."
+            },
+            {
+                "title_zh": "安柏关于凯亚·忧虑",
+                "content_zh": "…有种不安的感觉！刚才是凯亚陪着你吧？他没给你添麻烦吧？",
+                "title_en": "Amber about Kaeya: Concerns",
+                "content_en": "...I'm feeling uneasy all of a sudden! Was that Kaeya with you earlier? Did he give you any trouble?"
+            },
+            {
+                "title_zh": "安柏关于凯亚·祸首",
+                "content_zh": "花圃里的蒲公英看上去蔫蔫的，哼…一定又是凯亚捣的鬼！",
+                "title_en": "Amber about Kaeya: Culprit",
+                "content_en": "There's something weird-looking about the dandelions in the garden... Hmm, I bet Kaeya had something to do with this!"
+            },
+            {
+                "title_zh": "安柏关于班尼特",
+                "content_zh": "嗯？班尼特…好像在哪里听过…哦！你说的是冒险家协会那个热血的男孩子啊！嗯，我有时会在秘境附近见到他，好像对寻宝很有热情呢。",
+                "title_en": "Amber about Bennett",
+                "content_en": "Hmm? Bennett... I feel like I've heard that name before... Oh! Yes, he's that hot-blooded guy from the Adventurers' Guild, right! I tend to come across him way out in the wild from time to time, he seems to really love treasure hunting."
+            },
+            {
+                "title_zh": "安柏关于可莉",
+                "content_zh": "可莉呀，偶尔会有点调皮，但骑士团的大家都很喜欢她！唔…为了不让她又被琴抓去关禁闭，还是看紧她一点吧。",
+                "title_en": "Amber about Klee",
+                "content_en": "Klee? She can be a bit cheeky sometimes, but everyone in the Knights of Favonius likes her. Although... I really ought to keep a closer eye on her if I wanna keep her from getting put in confinement by Jean again."
+            },
+            {
+                "title_zh": "安柏关于阿贝多",
+                "content_zh": "阿贝多，大多数时候都呆在自己的工坊里，捣鼓一些很厉害的东西。但是，见到他的时候，会有种猜不透他在想些什么的感觉。嗯，猜不透呢…",
+                "title_en": "Amber about Albedo",
+                "content_en": "Albedo spends most of his time in his workshop, tinkering away with all of his awesome stuff. But, when you see him in person, you never can quite tell what he's thinking... Who knows what goes on in that mind of his..."
+            },
+            {
+                "title_zh": "安柏关于诺艾尔",
+                "content_zh": "你问诺艾尔吗？她的韧性可是很强的。作为前辈，你也要多照顾她一点哦。",
+                "title_en": "Amber about Noelle",
+                "content_en": "You wanna know about Noelle? She's super resilient. Still, since she's younger than us we should still look out for her."
+            },
+            {
+                "title_zh": "安柏关于优菈",
+                "content_zh": "优菈是我的好伙伴！只要习惯了优菈开的玩笑，你就会发现，其实她是很好相处的。只不过，优菈因为自己的姓氏，经常被很多人误解，怎么样才能让大家理解她呢…",
+                "title_en": "Amber about Eula",
+                "content_en": "Eula is a great friend of mine! You just need to get used to her sense of humor and you'll get along fine! The only reason she's misunderstood by so many people is her family name. How can I get them to see her for who she really is?"
+            }
+        ]
+    },
+    {
+        "name_zh": "凝光",
+        "img": "https://patchwiki.biligame.com/images/ys/6/6c/oo4earntw7se6jssxq5tjgsbyxrho79.png",
+        "name_en": "Ningguang",
+        "lines": [
+            {
+                "title_zh": "凝光关于北斗·罚金",
+                "content_zh": "那位…船长。明明也受到不少人推崇，却总是带头漠视规则。她缴纳的罚金，都够买一艘崭新的远洋船了吧。",
+                "title_en": "Ningguang about Beidou: Fines",
+                "content_en": "That... captain. She clearly receives the adoration of many, but will always be the first to disregard the rules. The fines she has paid would be enough to buy her a whole new ship..."
+            },
+            {
+                "title_zh": "凝光关于北斗·态度",
+                "content_zh": "或许你没有遇到过这种糟糕的交流体验。将好话坏话说尽了，对方却依然自行其是。罢了，尽可能不要让我见到那位北斗船长。",
+                "title_en": "Ningguang about Beidou: Attitude",
+                "content_en": "Perhaps you've never heard me speak like this. All that can be said has been said — both the good and the bad — but she still does as she pleases. Forget it. Keep Beidou out of my sight."
+            },
+            {
+                "title_zh": "凝光关于钟离",
+                "content_zh": "钟离…「往生堂」口中的这位先生，精通许多旁人不知的事物。但在掌握他的弱点之前，再优秀的棋子，也还不能为我所用。",
+                "title_en": "Ningguang about Zhongli",
+                "content_en": "Zhongli... Of the Wangsheng Funeral Parlor. He's very versed in a great deal of affairs. Although... such excellent pawns are of no use to me until I know their weaknesses."
+            },
+            {
+                "title_zh": "凝光关于行秋",
+                "content_zh": "飞云商会的二公子，那种性格的人看不惯我，是很自然的，而我也不会去为难他。「道不同不相为谋」，说的就是这个道理。",
+                "title_en": "Ningguang about Xingqiu",
+                "content_en": "The second son of the Feiyun Commerce Guild. People like him can't stand the sight of me, which is only to be expected. I have no intention of troubling him either. Those who have different beliefs should not work together."
+            },
+            {
+                "title_zh": "凝光关于香菱",
+                "content_zh": "「万民堂」的小丫头…总是把对我的猜疑写在脸上。呵，要是让她知道了，这些年来我对「万民堂」的资助…她会露出怎样的表情来呢？",
+                "title_en": "Ningguang about Xiangling",
+                "content_en": "That girl from Wanmin Restaurant... Her suspicion towards me is always written all over her face... Hehe, I wonder what face she would make if only she knew how much I helped finance that restaurant..."
+            },
+            {
+                "title_zh": "凝光关于甘雨",
+                "content_zh": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
+                "title_en": "Ningguang about Ganyu",
+                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"It takes a hundred people to keep a secret, but only one to let it slip.\" When there are important affairs to deal with, it is always safer to investigate and resolve it personally."
+            },
+            {
+                "title_zh": "凝光关于刻晴",
+                "content_zh": "「玉衡星」…她最近的变化可真不小。璃月究竟更需要曾经的她，还是更需要现在的她呢？可能要多花一些时间，才能判断吧。",
+                "title_en": "Ningguang about Keqing",
+                "content_en": "Yuheng... She has changed a lot recently. But is Liyue better off with the Yuheng we have now, or the Yuheng we used to know? Only time will tell."
+            },
+            {
+                "title_zh": "凝光关于琴",
+                "content_zh": "蒙德城的代理团长，想必是一位严谨而又细腻的女性吧。且不说她恰如其分的用词，连每张信纸的边缘都折叠得一丝不苟。越是这些容易被人忽视的细节，越能透过它窥见一个人真正的品质。",
+                "title_en": "Ningguang about Jean",
+                "content_en": "The Acting Grand Master of Mondstadt, a strict and impeccable woman. Her flawless etiquette knows no fault, even her letters are meticulously written and creased according to the prescribed rules. It is such easily overlooked details that offer a glimpse into the true qualities of one's character."
+            },
+            {
+                "title_zh": "凝光关于烟绯",
+                "content_zh": "烟绯？呵，某种意义上，她是个贴心的对手呢。若不是她「灵巧」地解释律法，为咨询者们提供各种「奇妙」的建议，要让我独自找到律法的缺口，逐步完善法典，怕是要多花数月的时间。",
+                "title_en": "Ningguang about Yanfei",
+                "content_en": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one."
+            }
+        ]
+    },
+    {
+        "name_zh": "菲谢尔",
+        "img": "https://patchwiki.biligame.com/images/ys/0/06/cmlxoc9sfz7nrwmt495351zcj1qd93e.png",
+        "name_en": "Fischl",
+        "lines": [
+            {
+                "title_zh": "菲谢尔关于班尼特",
+                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——\n奥兹：那个倒霉蛋，置之不理可不行。",
+                "title_en": "Fischl about Bennett",
+                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—\nOz: Someone needs to keep an eye on the unlucky fellow."
+            },
+            {
+                "title_zh": "菲谢尔关于丽莎",
+                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…\n奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
+                "title_en": "Fischl about Lisa",
+                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...\nOz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
+            },
+            {
+                "title_zh": "菲谢尔关于凯亚",
+                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…\n奥兹：也可能暗地里是个海盗…？",
+                "title_en": "Fischl about Kaeya",
+                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...\nOz: Or perhaps he's secretly an actual pirate?"
+            },
+            {
+                "title_zh": "菲谢尔关于莫娜",
+                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
+                "title_en": "Fischl about Mona",
+                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
+            },
+            {
+                "title_zh": "菲谢尔关于罗莎莉亚",
+                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。\n奥兹：「虔信」？「忠实」？\n菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
+                "title_en": "Fischl about Rosaria",
+                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
+            }
+        ]
+    },
+    {
+        "name_zh": "丽莎",
+        "img": "https://patchwiki.biligame.com/images/ys/6/69/t3g00dnjqa23jssp0lkuty27e9p1n7j.png",
+        "name_en": "Lisa",
+        "lines": [
+            {
+                "title_zh": "丽莎关于琴",
+                "content_zh": "琴是个称职的好团长。看到她认真工作的样子，就连我也忍不住想要多帮她一把。",
+                "title_en": "Lisa about Jean",
+                "content_en": "Jean is a gifted and dedicated leader. Seeing how hard she works makes even me want to help her out."
+            },
+            {
+                "title_zh": "丽莎关于安柏",
+                "content_zh": "小安柏刚进骑士团的样子我还记得呢，一转眼都那么能干了。啊，再过几年，又会变成什么样呢？",
+                "title_en": "Lisa about Amber",
+                "content_en": "Amber was just a young girl when she joined the knights, and in the blink of an eye, she's turned into such a strong young lady. I'm curious to see what she'll be like a few years from now."
+            },
+            {
+                "title_zh": "丽莎关于芭芭拉",
+                "content_zh": "芭芭拉的歌，你听过么？哼哼，听说她的旋律里有种治愈的魔力在流动喔。和我的魔药相比，不知道哪边更合你的胃口呢？",
+                "title_en": "Lisa about Barbara",
+                "content_en": "Have you heard Barbara sing before? Her angelic voice contains a magical healing energy. A different kind of magical energy from the one in my potions, of course. I wonder which one you prefer?"
+            },
+            {
+                "title_zh": "丽莎关于迪卢克",
+                "content_zh": "哦，想听迪卢克的故事？哈哈，那我知道一个更好的聊天对象。",
+                "title_en": "Lisa about Diluc",
+                "content_en": "You want to know about Diluc? Haha, in that case, I know someone else you should talk to."
+            },
+            {
+                "title_zh": "丽莎关于雷泽",
+                "content_zh": "小狼狼，来来，过来这边。今天就临时来一场实战练习吧，对手我已经给你找好了哟。欸？怎么跑了，真是的…",
+                "title_en": "Lisa about Razor",
+                "content_en": "Come on Razor, that's it, good boy! Let's do some combat practice — I've found you the perfect partner. Hey! Come back!"
+            },
+            {
+                "title_zh": "丽莎关于可莉",
+                "content_zh": "上次小可莉想借用我的工坊做实验，被我拒绝了，她可是生了我一天的气呢。嗯？你问第二天？第二天，她当然又高高兴兴地出门去玩了。",
+                "title_en": "Lisa about Klee",
+                "content_en": "Last time little Klee wanted to use my workshop for her experiments, I had to say no, and she was angry at me for the rest of the day. *sigh* What happened the next day, you ask? She went off happily to play outside of course."
+            },
+            {
+                "title_zh": "丽莎关于莫娜",
+                "content_zh": "莫娜？似乎是一位很优秀的魔导师小姐呢。但我并不是她们「魔女会」的成员哦。古树考察，组织茶会，一听就是麻烦的事情吧。",
+                "title_en": "Lisa about Mona",
+                "content_en": "Mona? She seems to be an excellent mage, but I'm not a part of their Hexenzirkel. The idea of Irminsul exploration and formal tea parties just leaves me cold."
+            },
+            {
+                "title_zh": "丽莎关于阿贝多",
+                "content_zh": "姐姐我觉得，阿贝多是很优秀的炼金术士。跟他只需要用三言两语，就能得到不错的结论。而且脸也长得好看。和小可爱你很像喔，嗯。",
+                "title_en": "Lisa about Albedo",
+                "content_en": "Albedo is quite the alchemist. Just say the word and he'll come up with a good solution. He's easy on the eyes too, just like you."
+            },
+            {
+                "title_zh": "丽莎关于菲谢尔",
+                "content_zh": "菲谢尔…哦，那个总是来图书馆借幻想小说的女孩子。每次还书都会提前三天，对书籍也十分爱护，是个好孩子呢。",
+                "title_en": "Lisa about Fischl",
+                "content_en": "Fischl, yes, she's always in the library looking to borrow fantasy novels. She always returns her books three days early and looks after them very well. She's a good kid."
+            },
+            {
+                "title_zh": "丽莎关于诺艾尔",
+                "content_zh": "拜托诺艾尔清扫书架的时候，总感觉这孩子，越是疲惫就越开心，嗯…到底是怎么回事呢？",
+                "title_en": "Lisa about Noelle",
+                "content_en": "Every time I ask Noelle to dust off the bookshelves, I'm always left with the sense that the more exhausted I make her, the happier she becomes. Yes, who knows what's going on with her... *chuckles*"
+            },
+            {
+                "title_zh": "丽莎关于砂糖",
+                "content_zh": "没事就不要去打扰小砂糖哦，会吓到她的。呵呵，她擅长和各种各样的生物打交道，却唯独，不怎么善于和人类相处呢。",
+                "title_en": "Lisa about Sucrose",
+                "content_en": "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
+            }
+        ]
+    },
+    {
+        "name_zh": "砂糖",
+        "img": "https://patchwiki.biligame.com/images/ys/c/cc/rhbp5t3iyzpsk2dc34kv18yem0nlmzo.png",
+        "name_en": "Sucrose",
+        "lines": [
+            {
+                "title_zh": "砂糖关于诺艾尔",
+                "content_zh": "她…经常会主动帮我的忙，但有时候太热情了，反而…让我有点苦恼。有一次，她看到我实验室门前堆了三箱器材，就很麻利地帮我搬了进来，但其实…那些都是我刚刚搬出去的。",
+                "title_en": "Sucrose about Noelle",
+                "content_en": "She's... a very willing helper, I can't deny that. It's just... she makes me a little anxious is all. One time, she saw three boxes of materials stacked just outside my laboratory door, and proceeded to move them inside for me. A nice gesture, but the thing is... I'd only just finished putting them outside..."
+            },
+            {
+                "title_zh": "砂糖关于可莉",
+                "content_zh": "她已经被琴团长关过好多次禁闭了，但只要被放出来，不久就又会闯祸，唉，不知道有没有真的反省过。啊…我答应她，要帮她做一个会蹦会跳，又很安全的蹦蹦，只不过现在，设计上还有不少问题…",
+                "title_en": "Sucrose about Klee",
+                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
+            },
+            {
+                "title_zh": "砂糖关于琴",
+                "content_zh": "我有点不敢和琴团长说话，因为她太严肃了…我知道她是个很好的人，但、但知道归知道，害怕…还是会害怕。我一般都不会去打扰她，实在有不得不找她的事，我…我也会拜托阿贝多先生。",
+                "title_en": "Sucrose about Jean",
+                "content_en": "I don't dare talk to Master Jean that much, because she's so strict. I know she's a good person and all — I know that, I do — but... I still find her scary. I don't tend to bother her, and even when I have to... I ask Albedo to go on my behalf."
+            },
+            {
+                "title_zh": "砂糖关于丽莎",
+                "content_zh": "我觉得她，好像懂的特别多。她明明没有看过我的研究，但有好几次，都给了我最关键的建议。她到底是怎么知道的呢？是…观察？还是推理呢？",
+                "title_en": "Sucrose about Lisa",
+                "content_en": "She really seems to know a great deal. She's obviously never seen my research, and yet on so many occasions she's given me advice on that which is most core to my studies. Just how does she know? Is it observation, or is it ratiocination?"
+            },
+            {
+                "title_zh": "砂糖关于凯亚",
+                "content_zh": "唔…我知道他喜欢开玩笑，也没有存心捉弄我的意思。可是，我实在是…分不清他的哪句话是真话，哪句话又是玩笑，所以最后要不然就变得很尴尬，要不然，就是我出洋相…",
+                "title_en": "Sucrose about Kaeya",
+                "content_en": "Oh... I know he likes to joke, and isn't trying to make fun of me, but I often struggle to work out which parts of what he says are the truth and which parts are jokes. So whenever he talks to me, the outcome is usually one of two things: morbid embarrassment or unbearable awkwardness."
+            },
+            {
+                "title_zh": "砂糖关于阿贝多·艺术",
+                "content_zh": "当他的助手，每天都能学到很多。重点不是知识，而是「天才」的思考方法，无论是多么复杂的问题，他总能抽丝剥茧，再一一解决。在我看来，那就是艺术…",
+                "title_en": "Sucrose about Albedo: Artistry",
+                "content_en": "As his assistant I learn so much each and every day. What's key is not his existing knowledge, but his talented way of thinking. No matter how complex the task at hand, his way of thinking ensures he gets to the bottom of it, and is able to explain it thoroughly. His methodologies are amazing... to me, it's where alchemy meets art."
+            },
+            {
+                "title_zh": "砂糖关于阿贝多·天赋",
+                "content_zh": "你说天赋？嗯…假如和他做同样的研究，可能确实一辈子都没法超过他。但，我研究「生物炼金」并没有故意要躲开他的意思，只是…嗯，我和他恰好有不同的爱好，还有梦想，仅此而已吧。",
+                "title_en": "Sucrose about Albedo: Talent",
+                "content_en": "Talent? Let's hypothesize that he and I were to perform the same research — I'd still spend my whole life playing catch up. But, my studying bio-alchemy has nothing to do with evading his line of research, we just happen to have different interests and dreams — nothing more."
+            },
+            {
+                "title_zh": "砂糖关于安柏",
+                "content_zh": "我很好奇，为什么她做的布偶，名字叫「兔兔伯爵」呢？和兔子没什么关系吧。唔…你说，头上的发带，很像兔耳朵？…有道理，但其实这是刻板印象，也有很多兔子耳朵是垂下来的。",
+                "title_en": "Sucrose about Amber",
+                "content_en": "I'm curious as to why her doll is called \"Baron Bunny,\" it clearly has nothing to do with a rabbit at all. Oh, the headband makes it look like it has rabbit ears you say? Hmm... That's heavily reliant on the rabbit stereotype, is it not? Many rabbits' ears are floppy."
+            },
+            {
+                "title_zh": "砂糖关于菲谢尔",
+                "content_zh": "你是说《菲谢尔皇女夜谭》？我知道，作者创造出的世界很有意思，要是能亲眼去看一看就好了…欸？你在说那个「菲谢尔」啊？她啊…嗯，她…应该是没办法带我去的。",
+                "title_en": "Sucrose about Fischl",
+                "content_en": "I take it you're referring to the book series, Flowers for Princess Fischl? Indeed, the world the author came up with is very creative. If only I could go see it with my own eyes. Oh, you're referring to Fischl herself? I am... doubtful that she could really take me there."
+            },
+            {
+                "title_zh": "砂糖关于优菈",
+                "content_zh": "游击骑士的工作很危险，优菈小姐的行动又格外大胆，所以我给她制作了一个侦察装置，这样她就不用潜入敌人的营地了。但优菈小姐的气势太吓人，我有点怕她，告诉她使用方法的时候，不小心漏掉了几条注意事项，结果真的发生了意外…怎么办？我会不会被她记仇了…",
+                "title_en": "Sucrose about Eula",
+                "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...Ah, what should I do... I hope she won't hold a grudge against me..."
+            }
+        ]
+    },
+    {
+        "name_zh": "诺艾尔",
+        "img": "https://patchwiki.biligame.com/images/ys/1/1e/q7e7j4ybveu9vpezgvjogwpmfzz1mm2.png",
+        "name_en": "Noelle",
+        "lines": [
+            {
+                "title_zh": "诺艾尔关于安柏",
+                "content_zh": "她是我非常尊敬的前辈，实力很强不说，对人也很亲切。她还教我怎么做「兔兔伯爵」，你看，我会把它当成护身符带在身边，做得不错吧？",
+                "title_en": "Noelle about Amber",
+                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?"
+            },
+            {
+                "title_zh": "诺艾尔关于可莉",
+                "content_zh": "我一直很想知道，她还这么小，是怎么正式成为骑士的。有一次向她请教经验，她还没听完我的话，就拉着我去骑士团外面玩炸弹…我以为这是什么修行，结果最后我和她都被琴团长关了禁闭…",
+                "title_en": "Noelle about Klee",
+                "content_en": "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in solitary confinement..."
+            },
+            {
+                "title_zh": "诺艾尔关于琴",
+                "content_zh": "琴团长一直都是我的榜样，我的实力和认真程度完全比不上她。她对别人就像对自己一样严格，所以如果有一天我能得到她的认可，那也是对我一直以来努力的最大肯定了。在那之前，我都是不会松懈的！",
+                "title_en": "Noelle about Jean",
+                "content_en": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!"
+            },
+            {
+                "title_zh": "诺艾尔关于凯亚",
+                "content_zh": "他很神秘，来如影，去如风，每天都有很重要的任务要去处理。他还经常会给我安排一些小任务，就好像我已经是他的小队成员了一样…嗯？只是跑腿？不不不，虽然确实是跑腿，可是我很珍惜的！",
+                "title_en": "Noelle about Kaeya",
+                "content_en": "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!"
+            },
+            {
+                "title_zh": "诺艾尔关于班尼特",
+                "content_zh": "他不止一次来邀请我，说什么比起骑士团，还是冒险家协会更适合我…虽然我是会像一个普通的冒险家一样，帮他照顾他的老爹们，但…骑士团对我来说有特别的意义，而且我也不想认输…嗯，果然还是没法答应。",
+                "title_en": "Noelle about Bennett",
+                "content_en": "He's asked me to join the Adventurers' Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers... the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer."
+            },
+            {
+                "title_zh": "诺艾尔关于菲谢尔·茶点",
+                "content_zh": "她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…",
+                "title_en": "Noelle about Fischl: Tea",
+                "content_en": "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely... I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying."
+            },
+            {
+                "title_zh": "诺艾尔关于菲谢尔·身世",
+                "content_zh": "以前我打扫图书馆的时候，记得有本书叫《菲谢尔皇女夜谭》，我还以为只是幻想小说…但没想到，里面的主人公居然真的存在！能有一本自己的传记，她一定很厉害吧。",
+                "title_en": "Noelle about Fischl: Background",
+                "content_en": "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her."
+            },
+            {
+                "title_zh": "诺艾尔关于芭芭拉",
+                "content_zh": "我们经常在一起喝茶，有时候她会轻轻哼出很好听的调子，告诉我灵感来了。虽然我对音乐给不出什么实用的建议…但能跟芭芭拉享受这样的时光，我真的非常高兴！",
+                "title_en": "Noelle about Barbara",
+                "content_en": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
+            }
+        ]
+    },
+    {
+        "name_zh": "凯亚",
+        "img": "https://patchwiki.biligame.com/images/ys/e/e5/knnismq9um424psahpu5vag0ysu3jab.png",
+        "name_en": "Kaeya",
+        "lines": [
+            {
+                "title_zh": "凯亚关于琴",
+                "content_zh": "哦？代理团长大人，你可要多多支持她。",
+                "title_en": "Kaeya about Jean",
+                "content_en": "What? The Acting Grand Master? You need to give her your full support."
+            },
+            {
+                "title_zh": "凯亚关于丽莎",
+                "content_zh": "丽莎啊…你千万记得要准时还书哦？上次因为这事儿惹她生了气，直到现在我左手的尺骨还是麻麻的。",
+                "title_en": "Kaeya about Lisa",
+                "content_en": "Oh Lisa. Hmm... You'd better not forget to return your books on time. I made that mistake once and boy was she angry. My arm is still numb from last time..."
+            },
+            {
+                "title_zh": "凯亚关于安柏",
+                "content_zh": "侦察骑士是个机灵又正义的好骑士。可千万别在她面前做坏事喔。",
+                "title_en": "Kaeya about Amber",
+                "content_en": "That Outrider is a clever and righteous knight. Be careful not to step out of line in front of her."
+            },
+            {
+                "title_zh": "凯亚关于迪卢克",
+                "content_zh": "迪卢克？小时候的他挺可爱的。可如今却活在自己的世界里…总之是个无趣的家伙。",
+                "title_en": "Kaeya about Diluc",
+                "content_en": "Diluc? He was cute as a young lad. But nowadays he just seems to be in a world of his own... Overall, not much fun to hang out with."
+            },
+            {
+                "title_zh": "凯亚关于可莉",
+                "content_zh": "可莉，看来还是没有掌握躲避代理团长检查的技巧啊，明明我已经点拨过她…哈哈，我说着玩玩的，你可别去揭发我哦。",
+                "title_en": "Kaeya about Klee",
+                "content_en": "Klee. Seems she has failed to elude the Acting Grand Master's investigative skills, despite the pointers I gave her... Haha, I'm kidding, no need to go reporting me or anything."
+            },
+            {
+                "title_zh": "凯亚关于阿贝多",
+                "content_zh": "阿贝多啊，沉稳优雅的小帅哥，而且才华横溢，是很讨人喜欢的类型。怎么，你也心动了？",
+                "title_en": "Kaeya about Albedo",
+                "content_en": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
+            },
+            {
+                "title_zh": "凯亚关于迪奥娜",
+                "content_zh": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
+                "title_en": "Kaeya about Diona",
+                "content_en": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
+            },
+            {
+                "title_zh": "凯亚关于菲谢尔",
+                "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
+                "title_en": "Kaeya about Fischl",
+                "content_en": "What? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must make me a future royal progeny too, no?"
+            },
+            {
+                "title_zh": "凯亚关于诺艾尔",
+                "content_zh": "我受代理团长大人所托，暗中照顾这位后辈。不过她很懂事，不需要我操太多心。真是令人欣慰。",
+                "title_en": "Kaeya about Noelle",
+                "content_en": "I was entrusted by the Acting Grand Master to work in the background to support Noelle. But there hasn't been much for me to concern myself with — she has a good head on her shoulders. Quite the relief."
+            },
+            {
+                "title_zh": "凯亚关于罗莎莉亚",
+                "content_zh": "啊哈哈，你想知道罗莎莉亚修女的秘密吗？这个不能说。不过我对她印象还不错，比某人好多了。她能够诚实地面对自己。烂事就是烂事，提不起干劲就是提不起干劲。",
+                "title_en": "Kaeya about Rosaria",
+                "content_en": "Ahaha, you want to know about the secrets of Sister Rosaria? That... I cannot tell you. Though my impression of her is not bad — certainly better than a certain someone whose name I won't bother to mention. She's honest with herself. She casts off that which she has no time for and she doesn't feign motivation for affairs that do not interest her."
+            },
+            {
+                "title_zh": "凯亚关于砂糖",
+                "content_zh": "别看砂糖文静又内向，据说，她在实验室里，收藏了很多特别的东西哦，很刺激，又很…露骨的那种。嗯？你问我？…我像是会偷看女孩子房间的人吗？",
+                "title_en": "Kaeya about Sucrose",
+                "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
+            }
+        ]
+    },
+    {
+        "name_zh": "莫娜",
+        "img": "https://patchwiki.biligame.com/images/ys/c/ce/refnobe859mskudq9i634djaniepwvt.png",
+        "name_en": "Mona",
+        "lines": [
+            {
+                "title_zh": "莫娜关于琴",
+                "content_zh": "那位西风骑士团代理团长？她的「命之座」是「幼狮座」，象征着力量，还有过早担负的责任。「雄狮」早早离群，但她会继续成长，直到能完全继承狮群的荣耀。",
+                "title_en": "Mona about Jean",
+                "content_en": "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader."
+            },
+            {
+                "title_zh": "莫娜关于阿贝多",
+                "content_zh": "阿贝多？啊…我真羡慕他，只用专注于研究就好，不用管其他的杂事，真是美好的生活啊。如果那个老太婆脑筋正常一点，我应该也过着这种生活吧…",
+                "title_en": "Mona about Albedo",
+                "content_en": "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself..."
+            },
+            {
+                "title_zh": "莫娜关于可莉",
+                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
+                "title_en": "Mona about Klee",
+                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk* Although, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
+            },
+            {
+                "title_zh": "莫娜关于迪卢克",
+                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。等等，「夜枭」象不象征财富来着？",
+                "title_en": "Mona about Diluc",
+                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival....Or, wait, maybe Noctua's the one tied to wealth...?"
+            },
+            {
+                "title_zh": "莫娜关于凯亚",
+                "content_zh": "凯亚·亚尔伯里奇吗？他的「孔雀羽座」象征着高贵，但同时也象征着「华丽的掩饰」。他以为已经和过去一刀两断。但到了命中注定的那天，他依然必须做出自己的选择。",
+                "title_en": "Mona about Kaeya",
+                "content_en": "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make."
+            },
+            {
+                "title_zh": "莫娜关于丽莎",
+                "content_zh": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
+                "title_en": "Mona about Lisa",
+                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe 'becomes lazy' is more accurate than 'comes to rest,' in this case."
+            },
+            {
+                "title_zh": "莫娜关于温迪",
+                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
+                "title_en": "Mona about Venti",
+                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
+            }
+        ]
+    },
+    {
+        "name_zh": "班尼特",
+        "img": "https://patchwiki.biligame.com/images/ys/a/a0/nd8jx8novy6974e5ez7bz9la04vajw8.png",
+        "name_en": "Bennett",
+        "lines": [
+            {
+                "title_zh": "班尼特关于芭芭拉",
+                "content_zh": "她很擅长唱歌跳舞！我冒险不顺的时候就会去看她的演出，跟着观众一起喊喊口号加加油，心情就变好了，真的很神奇！这就是她为什么这么受欢迎的原因吧…啊，我这个当团长的，要是也这么受欢迎就好了。",
+                "title_en": "Bennett about Barbara",
+                "content_en": "She's the best singer and dancer out there! I always go to watch her in concert after an adventure goes south — it really lifts my mood, chanting along with all the other fans, cheering her on. It's really kinda magical! It's no wonder she's so popular... Boy, if I had even half her popularity as leader of my adventure team..."
+            },
+            {
+                "title_zh": "班尼特关于可莉",
+                "content_zh": "那个孩子啊…很可爱，但我必须和她保持距离。只要我陪她玩，她的那些炸弹就会突然爆炸…我倒霉一点无所谓，但要是炸伤了可莉就麻烦了，估计整个骑士团都会跟我没完吧。",
+                "title_en": "Bennett about Klee",
+                "content_en": "She's a cute kid... but I have to keep my distance. Whenever she plays with me, her bombs always end up going off... It's not so much me I'm worried about, it would just be awful if something happened to Klee. The Knights of Favonius would never forgive me, that's for sure."
+            },
+            {
+                "title_zh": "班尼特关于菲谢尔",
+                "content_zh": "她是异世界来的「断罪皇女」，可厉害了！我不止一次和她说想要去她的家乡冒险，但每次说到这里她就吞吞吐吐的…嗯，一定是担心我的安危吧，看来她的家乡真的是很凶险的地方。",
+                "title_en": "Bennett about Fischl",
+                "content_en": "Oh yeah, the Prinzessin der Verurteilung from the world beyond! She's amazing. I keep asking her if we can go adventuring in her home world together, but each time I bring it up she sort of avoids the topic... She's probably just worried about my safety. Her home world sounds like a dangerous place, for sure."
+            },
+            {
+                "title_zh": "班尼特关于琴",
+                "content_zh": "我本来想向琴团长要一些对蒙德的冒险家协会的支援，但其实我不太知道要怎么和她说…冒险家协会没有骑士团那么多规矩，我和老爹们成天也嘻嘻哈哈的，但用这种态度和琴团长说话，肯定不行吧…我是不是要学一下骑士团敬礼的方式？",
+                "title_en": "Bennett about Jean",
+                "content_en": "I keep meaning to ask Master Jean for some help with the Mondstadt Adventurers' Guild, but I don't know how to go about it. The Guild doesn't have as many rules and regulations as the Knights of Favonius, the dads and I are pretty laid back about everything. Pretty sure that attitude wouldn't fly with Jean though... I guess I should read up on the Knights' etiquette or something?"
+            },
+            {
+                "title_zh": "班尼特关于雷泽",
+                "content_zh": "你说奔狼领的那个小哥哥啊，他虽然看上去凶巴巴的，也不愿意说话…但是是个有趣的人哦！他和我都特别喜欢吃肉，我给他做肉吃，他教我狼怎么说话，哈哈，你下次要不要一起来？",
+                "title_en": "Bennett about Razor",
+                "content_en": "Wolvendom guy! Looks a little on the feral side... doesn't talk much... but he's alright! We both love eating meat, so we got that in common. I sometimes cook some meat for him, and he teaches me how wolves communicate in return. Haha! You should join us next time!"
+            },
+            {
+                "title_zh": "班尼特关于安柏",
+                "content_zh": "哦哦，想起来了，那个女孩子，总横冲直撞的…她和我一样，经常去野外冒险！只不过…只要路边架着锅，就总会飘来浓浓的黑烟，还有什么东西烧糊了的味道…唔，难道她的运气也很差？",
+                "title_en": "Bennett about Amber",
+                "content_en": "Oh, I know who you mean. The girl who's always charging around all over the place. She's always off adventuring in the wild, just like me... But if you ever see her near a cooking pot, you'll soon find a cloud of thick black smoke blowing in your direction, followed by the smell of burnt steak... Huh, maybe she was born unlucky too?"
+            },
+            {
+                "title_zh": "班尼特关于诺艾尔",
+                "content_zh": "你说她啊，其实我注意她很久了。她很有天分，又特别努力，但在骑士团只能当女仆，一直没成为正式的骑士，你不觉得太可惜了吗？唉，要是她肯来冒险家协会，估计早就是个了不起的冒险家了。",
+                "title_en": "Bennett about Noelle",
+                "content_en": "Noelle's someone I've been watching for a while. She's really talented, and extremely hardworking. But somehow she's still a maid — the Knights of Favonius still haven't made her a knight. It's a shame, don't you think? Boy, if she switched to the Adventurers' Guild, she'd easily be one of the best there is."
             }
         ]
     },
@@ -846,837 +1786,6 @@
                 "content_zh": "香菱做菜的手艺有口皆碑，但是她那些辛辣烫口的菜品我是绝对不会碰的…没有，没有什么…你看，史莱姆滑蘑菇？这能吃吗？",
                 "title_en": "Chongyun about Xiangling",
                 "content_en": "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
-            }
-        ]
-    },
-    {
-        "name_zh": "迪卢克",
-        "img": "https://patchwiki.biligame.com/images/ys/9/94/mkpw3ljc2eoea75lhkyccu6mbsbiqnr.png",
-        "name_en": "Diluc",
-        "lines": [
-            {
-                "title_zh": "迪卢克关于凯亚",
-                "content_zh": "凯亚吗…那个男人说的话，只能信一半。",
-                "title_en": "Diluc about Kaeya",
-                "content_en": "Kaeya? You can only trust half of what he says... at best."
-            },
-            {
-                "title_zh": "迪卢克关于丽莎",
-                "content_zh": "丽莎，能成为骑士团内最值得仰赖的人之一。如果她愿意的话。",
-                "title_en": "Diluc about Lisa",
-                "content_en": "I believe Lisa has the potential to become the most reliable of the knights. If she's willing."
-            },
-            {
-                "title_zh": "迪卢克关于琴·敌人",
-                "content_zh": "无意义的琐事，是琴最大的敌人。",
-                "title_en": "Diluc about Jean: Enemies",
-                "content_en": "Trifling matters can become Jean's greatest enemy."
-            },
-            {
-                "title_zh": "迪卢克关于琴·职责",
-                "content_zh": "琴那无人能及的责任心，终究让她没能看清自己真正的职责啊。",
-                "title_en": "Diluc about Jean: Responsibilities",
-                "content_en": "Her unparalleled sense of responsibility is the sole reason why she still hasn't found her true calling."
-            },
-            {
-                "title_zh": "迪卢克关于莫娜",
-                "content_zh": "蒙德的土地浸润着风神的恩泽，就不需要赞助占星术士来预测收成了吧。",
-                "title_en": "Diluc about Mona",
-                "content_en": "The land of Mondstadt, by the Anemo Archon's grace, is bountiful. I see no need for the harvest forecasts of astrologers."
-            },
-            {
-                "title_zh": "迪卢克关于迪奥娜",
-                "content_zh": "迪奥娜对我的态度很是生硬，我也一直没找到合适的机会交流。如果是涉及到家族恩怨的话…嗯？不是？只是单纯地讨厌酒？没想到在这蒙德，也会有讨厌酒的酒保啊。",
-                "title_en": "Diluc about Diona",
-                "content_en": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if its an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
-            }
-        ]
-    },
-    {
-        "name_zh": "七七",
-        "img": "https://patchwiki.biligame.com/images/ys/8/8b/049fpv6jcr66mln0nmbbfgigfrkgrzo.png",
-        "name_en": "Qiqi",
-        "lines": [
-            {
-                "title_zh": "七七关于胡桃",
-                "content_zh": "高温、假笑和死亡…讨厌。",
-                "title_en": "Qiqi about Hu Tao",
-                "content_en": "Warm. Fake smile. Death. I despise Hu Tao."
-            },
-            {
-                "title_zh": "七七关于魈·名字",
-                "content_zh": "唔，听起来像老古董…",
-                "title_en": "Qiqi about Xiao: Name",
-                "content_en": "Sounds like a historical artifact to me."
-            },
-            {
-                "title_zh": "七七关于魈·记忆",
-                "content_zh": "我见过他吗…？",
-                "title_en": "Qiqi about Xiao: Memory",
-                "content_en": "Remind me, have I met him before?"
-            },
-            {
-                "title_zh": "七七关于辛焱",
-                "content_zh": "…是谁？",
-                "title_en": "Qiqi about Xinyan",
-                "content_en": "...Who?"
-            }
-        ]
-    },
-    {
-        "name_zh": "琴",
-        "img": "https://patchwiki.biligame.com/images/ys/1/1a/g3cl4mrxow8af265n2ajqtnuf99pkfa.png",
-        "name_en": "Jean",
-        "lines": [
-            {
-                "title_zh": "琴关于芭芭拉",
-                "content_zh": "芭芭拉非常努力，只不过有时过于勉强自己…嗯？问我为什么了解得这么清楚？因为西风教会也归属骑士团管辖。",
-                "title_en": "Jean about Barbara",
-                "content_en": "Barbara is a hard worker, but I feel she's too hard on herself sometimes... What? You ask me how I know all of this? It's because the order also manages the Church."
-            },
-            {
-                "title_zh": "琴关于丽莎",
-                "content_zh": "丽莎，有她在的话，我会安心很多。",
-                "title_en": "Jean about Lisa",
-                "content_en": "When Lisa is around, I always have peace of mind."
-            },
-            {
-                "title_zh": "琴关于安柏",
-                "content_zh": "安柏这段时间确实有所成长。希望有朝一日，她的事迹也会被吟游诗人传颂。",
-                "title_en": "Jean about Amber",
-                "content_en": "I must say that Amber's development has impressed me recently. I hope that one day, her deeds will become the words of a bard's tale."
-            },
-            {
-                "title_zh": "琴关于凯亚",
-                "content_zh": "是吗…凯亚也向你提出建言了啊。他是一名优秀的西风骑士，这点毋庸置疑。",
-                "title_en": "Jean about Kaeya",
-                "content_en": "Is that right...? Kaeya also gave you some suggestions. He is an excellent knight after all — this is a fact no one can deny."
-            },
-            {
-                "title_zh": "琴关于可莉",
-                "content_zh": "虽说玩乐是孩子的天性，但可莉中意的玩具却都是些危险品。让人难以放心。",
-                "title_en": "Jean about Klee",
-                "content_en": "Though it may be said that it is in a child's nature to play, the things Klee plays with are far from toys. I can never take my eye off her."
-            },
-            {
-                "title_zh": "琴关于阿贝多",
-                "content_zh": "「天才」这种名词，或许正是为了阿贝多这样的人准备的吧。",
-                "title_en": "Jean about Albedo",
-                "content_en": "Sometimes I feel that terms like \"genius\" were originally created for Albedo."
-            },
-            {
-                "title_zh": "琴关于诺艾尔",
-                "content_zh": "诺艾尔，嗯…那个努力想要成为西风骑士的少女。她的内心仍有软弱之处，现在这个阶段，也许还不适合让她接触外界的凶险。",
-                "title_en": "Jean about Noelle",
-                "content_en": "Noelle... She's very trying in her pursuit to become a Knight of Favonius. However, I fear she is not quite ready for the dangers that lie beyond Mondstadt's walls."
-            },
-            {
-                "title_zh": "琴关于罗莎莉亚",
-                "content_zh": "罗莎莉亚修女总是把「麻烦」挂在嘴边，实际却十分称职。上次我和她说「如果觉得麻烦也可以找我帮忙」，她却回答「这样更麻烦」。嗯…我果然还有很多欠缺啊。",
-                "title_en": "Jean about Rosaria",
-                "content_en": "Some may see Sister Rosaria as one who complains about how bothersome her work is, but she does her job well. Last time I saw her I told her she could come find me should she ever need help, to which she simply replied that doing so would be even more bothersome. I need to work harder to become of more assistance to the people of Mondstadt."
-            },
-            {
-                "title_zh": "琴关于迪卢克·愧欠",
-                "content_zh": "迪卢克前辈对骑士团的指摘事出有因，即使心中愧疚也无法改变既定的结果…我只想通过我的努力，让他对骑士团有所改观…嗯，这是我的责任。",
-                "title_en": "Jean about Diluc: Disillusion",
-                "content_en": "Master Diluc has his reasons for being so critical of the Knights of Favonius. I am not proud of the way things went, but I cannot change the past. All I can do is keep working hard, in the hope he may one day see us in a better light... This is my duty."
-            },
-            {
-                "title_zh": "琴关于迪卢克·敬重",
-                "content_zh": "迪卢克…是一位非常可敬的前辈。虽然我们选择的道路不同，但这份共通的守护蒙德的心意，我能感受得到。",
-                "title_en": "Jean about Diluc: Respect",
-                "content_en": "Master Diluc is my senior, and I have the utmost respect for him. Though we have gone separate ways, I can sense we share the same strong commitment to protecting Mondstadt at all costs."
-            },
-            {
-                "title_zh": "琴关于砂糖",
-                "content_zh": "作为炼金术士，砂糖也算天赋异禀。况且她的身边还有阿贝多指点，未来应该不用担心。只是…不，没什么，沉浸在自己的世界里，也不算坏事吧。",
-                "title_en": "Jean about Sucrose",
-                "content_en": "Sucrose is also a rare talent in the field of alchemy. Under Albedo's mentorship, she is sure to flourish. I am sure her future will be bright. The only thing is... Ahem, I was momentarily lost in thought. It is nothing. Nothing bad, anyway."
-            }
-        ]
-    },
-    {
-        "name_zh": "香菱",
-        "img": "https://patchwiki.biligame.com/images/ys/c/cc/l5ae2erhaq8tn896a2yibndx5g7r5g5.png",
-        "name_en": "Xiangling",
-        "lines": [
-            {
-                "title_zh": "香菱关于凝光",
-                "content_zh": "哦！刚才那个，是「天权」大人啊…嗯，你凑过来点。再，再过来点。我跟你说哦，她可是一个特别厉害的人，港内的事情她什么都知道。所以，你也要小心一点，不要被她盯上了…",
-                "title_en": "Xiangling about Ningguang",
-                "content_en": "That was the Tianquan! Did you see? She just walked past. Come here... closer... Let me tell you, she knows everything that happens in Liyue, so... keep a low profile, don't attract her attention!"
-            },
-            {
-                "title_zh": "香菱关于胡桃",
-                "content_zh": "唔，你是不是也被胡桃欺负过？她老是趁我不注意躲到我后面，这样突然拍我的后背，得逞了还嘿嘿地笑，哼。但我大人大量，看在她每次都会给我带酿梅花做线花糕的份上，才没跟她斤斤计较。",
-                "title_en": "Xiangling about Hu Tao",
-                "content_en": "Is Hu Tao picking on you too? Ugh, that prankster always waits till I least expect it, creeps up on me from behind and then... Boo! ...then laughs herself silly. Hmph. But I can handle it, and she does bring me fermented plum blossoms once in a while so I can make flower cakes... so I don't hold a grudge."
-            },
-            {
-                "title_zh": "香菱关于迪奥娜",
-                "content_zh": "清泉镇的迪奥娜！啊啊，听说她能调出特别好喝的酒，我专门拜访过她！想着如果能把调酒的秘方借鉴到料理上，说不定也能做出美味。但是，她给我的秘方，比如啤酒里泡蜥蜴尾巴，蒲公英酒里放小块熏鱼…做出来都不是很好吃。呜，果然还是要靠自己吗？",
-                "title_en": "Xiangling about Diona",
-                "content_en": "Diona, from Springvale! Ah, I heard she mixes a great drink, so I came specifically to see her! I thought perhaps I could use her secrets in my cooking, and bring out more flavors. But the tips that she gave me — like soaking lizard tails in beer, or putting bits of smoked fish in dandelion wine — all came out really awful. *sigh* Guess it's up to me to work it out myself, then."
-            },
-            {
-                "title_zh": "香菱关于北斗",
-                "content_zh": "北斗姐姐人特别好！跟着她出去航海的话，每次都能捕获到好多新鲜的食材！章鱼脚拿来煲汤最好，海天青就要用辣椒好好炝一炝。不光北斗姐姐，「南十字」的船员们都很喜欢我做的菜呢。",
-                "title_en": "Xiangling about Beidou",
-                "content_en": "Oh, Beidou is the greatest! Every time I go out sailing with her, she always manages to fish up lots of fresh ingredients! Octopus tentacles go great in soup, and seaweed fries up great with some chilies. Not just Beidou, but everyone on board The Crux loves my cooking."
-            },
-            {
-                "title_zh": "香菱关于钟离",
-                "content_zh": "我遇到过不少挑剔的食客，但像钟离先生那种嘴巴上讲究，还能一针见血的，真的就只有他一个！那天我给他上的第一道菜是「椒盐豆腐」，他只尝了一口，就问我用的是什么盐，然后又说什么「不妨试试孤云阁浅海处提炼的海盐吧，它的层次感能够为豆腐赋予更多鲜味」。我试过之后味道真的大有不同。你说，他是不是好厉害！",
-                "title_en": "Xiangling about Zhongli",
-                "content_en": "I've come across a lot of fussy eaters, but Mr. Zhongli is very particular and has no problem getting straight to what he has to say. The first time I served him salt and pepper tofu, he took just one bite, and then proceeded to say: \"It would be better to try sea salt extracted from the shallow seas of Guyun Stone Forest, because it would bring a fresh sense of depth to the tofu.\" I tried it and the taste was just so different! He's just amazing, don't you think!?"
-            },
-            {
-                "title_zh": "香菱关于重云",
-                "content_zh": "重云啊，他总是跟着行秋一起来「万民堂」吃饭…呃，或者应该说，是被行秋拖来的？但是重云不吃热食。每次热菜上桌，行秋就会客客气气地说一声「失敬」，然后动起筷子逐一评点起每道菜的美味之处，他那夸得呀，我都想冲过去尝一口！你是没见到重云那种眼神，哈哈哈。还挺有趣的呢，他俩。",
-                "title_en": "Xiangling about Chongyun",
-                "content_en": "Chongyun? I always see him on his way to eat at Wanmin Restaurant with Xingqiu... Ah... or perhaps I should say I see him being dragged there by Xingqiu? Chongyun doesn't eat hot food. Every time the hot food arrives, Xingqiu politely apologizes and proceeds to try every dish. I just wanna dig in with him! The look on Chongyun's face is priceless. They're quite interesting, those two."
-            },
-            {
-                "title_zh": "香菱关于甘雨",
-                "content_zh": "甘雨？嗯…啊啊有印象有印象，是那位只吃素食的客人吧！她来「万民堂」的次数不算多，每次都是一个人躲在小角落里不吭声地吃着饭。我嘛，看她孤孤单单有些可怜，就总帮她多舀两大勺菜。没想到，她每次都能全部吃完！真是不可貌相。",
-                "title_en": "Xiangling about Ganyu",
-                "content_en": "Ganyu? Oh... Oh yeah! I remember her — vegetarian, right? She doesn't come to the Wanmin Restaurant very often — but when she does, she sits alone in the corner and eats her meal in total silence. Poor girl, she seems kinda lonely... I always give her an extra-large portion because I feel sorry for her. Funniest thing is, she eats every last bite, every time! I wouldn't have guessed she had such an appetite just by looking at her."
-            },
-            {
-                "title_zh": "香菱关于辛焱",
-                "content_zh": "辛焱经常来「万民堂」吃夜宵喔！像行秋、重云他们不敢试吃的新品，辛焱就会毫不犹豫地下筷…而且有八成以上的概率喜欢！哎，真是很不错的人呐。",
-                "title_en": "Xiangling about Xinyan",
-                "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
-            }
-        ]
-    },
-    {
-        "name_zh": "行秋",
-        "img": "https://patchwiki.biligame.com/images/ys/a/a6/bz36kyv7jhk9p3sqk6g3r79a7t5aqa2.png",
-        "name_en": "Xingqiu",
-        "lines": [
-            {
-                "title_zh": "行秋关于北斗",
-                "content_zh": "北斗阁下是我非常敬重的人。不过希望她不要喊我「小子」，也不要一见面就揉我头发。",
-                "title_en": "Xingqiu about Beidou",
-                "content_en": "I have great respect for Lady Beidou. I just wish she wouldn't call me \"kid\" and ruffle my hair each time she sees me."
-            },
-            {
-                "title_zh": "行秋关于凝光",
-                "content_zh": "「天权」大人是我不得不敬重的人。不然会给家父以及家兄添麻烦。嗯？对她本人，我想想。嗯…还是算了，不说人坏话了。",
-                "title_en": "Xingqiu about Ningguang",
-                "content_en": "In her capacity as the Tianquan, I am obliged to respect her. Otherwise, it could create issues for my father and brother. On a personal level? Let me think... I think I will go with \"No comment,\" I shan't speak ill of others."
-            },
-            {
-                "title_zh": "行秋关于重云",
-                "content_zh": "唉，重云这家伙，虽然也知道我的底细，但真要和他搭档去完成任务还得审慎。他现在还是执着「武」技，却不理解「侠」心的境界。需要多练练。尤其…是吃辣的方面，哈哈。",
-                "title_en": "Xingqiu about Chongyun",
-                "content_en": "Ah, dear Chongyun. Though he understands me quite well, one has to exercise caution when teaming up with him to go on a quest. He is making good progress in the martial arts, but I would say he hasn't quite internalized the chivalric code yet... He needs more practice. Especially at eating spicy food..."
-            },
-            {
-                "title_zh": "行秋关于胡桃",
-                "content_zh": "那个小姑娘，正是「往生堂」的当代堂主。嗯？问我怎样看待她的为人？…行事作风嘛，坊间传闻是作不了数的。真想了解一个人，还得看她真正想要的是什么。",
-                "title_en": "Xingqiu about Hu Tao",
-                "content_en": "Ah yes, the young lady who is now the Director of the Wangsheng Funeral Parlor. If you're asking what I think about her as a person... Well, there are all sorts of rumors about the way she works. But I think if you really want to understand someone, you need to find out what they are really after."
-            },
-            {
-                "title_zh": "行秋关于七七",
-                "content_zh": "总感觉七七的身上藏着谜团。但只要白术先生在场，就跟她说不上几句话。除非，我们能找个白术先生外出看诊的机会，专门…",
-                "title_en": "Xingqiu about Qiqi",
-                "content_en": "I've always thought there is more to Qiqi than meets the eye. But it's impossible to have a conversation with her when Baizhu's around. Hmm... We could wait till Baizhu makes a home call to one of his other patients and corner her..."
-            },
-            {
-                "title_zh": "行秋关于香菱",
-                "content_zh": "见到香菱的时候，你可得多观察一下她的表情。尤其是刚刚添置完食材回来的香菱，笑得越开心，就越危险。要是被她缠上、逼你试吃新品…这种情况，我一般会靠重云来处理。",
-                "title_en": "Xingqiu about Xiangling",
-                "content_en": "When you first spot Xiangling out and about, the first thing you should do is check the look on her face. Especially when she's just coming back from collecting new ingredients — the more excited she looks, the more dangerous it is to approach. Because if she sees you, she'll force you to taste-test her latest concoction... I usually get Chongyun to handle these situations, hehe..."
-            },
-            {
-                "title_zh": "行秋关于辛焱",
-                "content_zh": "辛焱到底是在哪里演出的？从吃虎岩到玉京台，哪里都躲不过那种鸡飞狗跳的穿透力…唉，能够安静看书的时日是多么宝贵啊。",
-                "title_en": "Xingqiu about Xinyan",
-                "content_en": "Where does Xinyan perform? Anywhere from Chihu Rock to Yujing Terrace — no spot is untouched by her disruptive presence... A quiet day when I can curl up with a good book is a rare treasure indeed."
-            },
-            {
-                "title_zh": "行秋关于阿贝多",
-                "content_zh": "下一卷、下下卷、下下下卷的重要场景，我都已经想好要配怎样的插画了！啊，必须赶快把灵感记下来，修书一封，寄给白垩老师…",
-                "title_en": "Xingqiu about Albedo",
-                "content_en": "I've thought of all the illustrations I want for each major event in the next three volumes! I should write my thoughts down before I forget them, and send them to Mr. Kreideprinz..."
-            },
-            {
-                "title_zh": "行秋关于钟离",
-                "content_zh": "我看见过家父和家兄接待这位先生，就从他们行礼时候的恭敬态度来看…对方应该是很有地位的人物吧。我还听说他是给仙人办丧事的人，感觉很有底蕴。要不要一起去挖掘他身上的秘密呢？",
-                "title_en": "Xingqiu about Zhongli",
-                "content_en": "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for the adepti, so he must surely have great depth to his character. We should do some digging and see what we can find out about him!"
-            }
-        ]
-    },
-    {
-        "name_zh": "雷泽",
-        "img": "https://patchwiki.biligame.com/images/ys/4/4d/8bdo6ydvnfl23s7jx69dtp1cmoo3svm.png",
-        "name_en": "Razor",
-        "lines": [
-            {
-                "title_zh": "雷泽关于丽莎",
-                "content_zh": "师父的雷，天空会变黑。很可怕，很强。",
-                "title_en": "Razor about Lisa",
-                "content_en": "Lisa lightning makes the sky black. She is strong. She is scary."
-            },
-            {
-                "title_zh": "雷泽关于芭芭拉",
-                "content_zh": "芭芭拉，亮晶晶的女孩子。很善良。",
-                "title_en": "Razor about Barbara",
-                "content_en": "Shining Barbara is a good child. Very good child."
-            },
-            {
-                "title_zh": "雷泽关于迪卢克",
-                "content_zh": "迪卢克，红红的、黑黑的。又冷又热。",
-                "title_en": "Razor about Diluc",
-                "content_en": "Diluc is red and black. Hot and cold."
-            },
-            {
-                "title_zh": "雷泽关于温迪",
-                "content_zh": "诗歌…唔，不明白。虽然不明白，「卢皮卡」喜欢。",
-                "title_en": "Razor about Venti",
-                "content_en": "Razor doesn't know poems, but... Lupical likes them."
-            },
-            {
-                "title_zh": "雷泽关于班尼特",
-                "content_zh": "班尼特，话很多，和他一起，吃不饱。",
-                "title_en": "Razor about Bennett",
-                "content_en": "Bennett... Much talking. Eat with him, never full."
-            },
-            {
-                "title_zh": "雷泽关于可莉",
-                "content_zh": "可莉，朋友！朋友，但是，头疼。",
-                "title_en": "Razor about Klee",
-                "content_en": "Klee, friend! Friend, but... big hassle."
-            }
-        ]
-    },
-    {
-        "name_zh": "安柏",
-        "img": "https://patchwiki.biligame.com/images/ys/a/a7/c1hp9a87kti1ywjv7c5470e3dn0wxio.png",
-        "name_en": "Amber",
-        "lines": [
-            {
-                "title_zh": "安柏关于琴·帮忙",
-                "content_zh": "大团长出征之后，大大小小的事务都压在了琴的身上。如果我也能多帮到她一点就好了…",
-                "title_en": "Amber about Jean: Help",
-                "content_en": "After the Grand Master left on his expedition, all the affairs of the Knights of Favonius, both big and small, have been left up to Jean. If only there was more I could do to help her..."
-            },
-            {
-                "title_zh": "安柏关于琴·关怀",
-                "content_zh": "琴可能还在工作？…走，一起请她喝杯咖啡吧。",
-                "title_en": "Amber about Jean: Care",
-                "content_en": "Jean might still be working? We should invite her for coffee... Let's go."
-            },
-            {
-                "title_zh": "安柏关于丽莎·听故事",
-                "content_zh": "等你有空，我们一起去找丽莎吧！她上次和我讲了一个龙脊雪山宝藏的故事，只讲到一半。唔，我还想知道后续！",
-                "title_en": "Amber about Lisa: Listening to Stories",
-                "content_en": "When you have time, we should go see Lisa! Last time I saw her, she was telling me about a story involving a treasure in the Dragonspine area. But, we got cut off before she could finish. I can't wait to hear the rest of her story!"
-            },
-            {
-                "title_zh": "安柏关于丽莎·钦佩",
-                "content_zh": "丽莎好像除了睡觉的时间之外都在看书！真厉害啊，我就坐不住那么长时间。",
-                "title_en": "Amber about Lisa: Admiration",
-                "content_en": "If Lisa's not sleeping, she'll be reading! I don't know how she does it, I wouldn't be able to sit still for that long."
-            },
-            {
-                "title_zh": "安柏关于凯亚·忧虑",
-                "content_zh": "…有种不安的感觉！刚才是凯亚陪着你吧？他没给你添麻烦吧？",
-                "title_en": "Amber about Kaeya: Concerns",
-                "content_en": "...I'm feeling uneasy all of a sudden! Was that Kaeya with you earlier? Did he give you any trouble?"
-            },
-            {
-                "title_zh": "安柏关于凯亚·祸首",
-                "content_zh": "花圃里的蒲公英看上去蔫蔫的，哼…一定又是凯亚捣的鬼！",
-                "title_en": "Amber about Kaeya: Culprit",
-                "content_en": "There's something weird-looking about the dandelions in the garden... Hmm, I bet Kaeya had something to do with this!"
-            },
-            {
-                "title_zh": "安柏关于班尼特",
-                "content_zh": "嗯？班尼特…好像在哪里听过…哦！你说的是冒险家协会那个热血的男孩子啊！嗯，我有时会在秘境附近见到他，好像对寻宝很有热情呢。",
-                "title_en": "Amber about Bennett",
-                "content_en": "Hmm? Bennett... I feel like I've heard that name before... Oh! Yes, he's that hot-blooded guy from the Adventurers' Guild, right! I tend to come across him way out in the wild from time to time, he seems to really love treasure hunting."
-            },
-            {
-                "title_zh": "安柏关于可莉",
-                "content_zh": "可莉呀，偶尔会有点调皮，但骑士团的大家都很喜欢她！唔…为了不让她又被琴抓去关禁闭，还是看紧她一点吧。",
-                "title_en": "Amber about Klee",
-                "content_en": "Klee? She can be a bit cheeky sometimes, but everyone in the Knights of Favonius likes her. Although... I really ought to keep a closer eye on her if I wanna keep her from getting put in confinement by Jean again."
-            },
-            {
-                "title_zh": "安柏关于阿贝多",
-                "content_zh": "阿贝多，大多数时候都呆在自己的工坊里，捣鼓一些很厉害的东西。但是，见到他的时候，会有种猜不透他在想些什么的感觉。嗯，猜不透呢…",
-                "title_en": "Amber about Albedo",
-                "content_en": "Albedo spends most of his time in his workshop, tinkering away with all of his awesome stuff. But, when you see him in person, you never can quite tell what he's thinking... Who knows what goes on in that mind of his..."
-            },
-            {
-                "title_zh": "安柏关于诺艾尔",
-                "content_zh": "你问诺艾尔吗？她的韧性可是很强的。作为前辈，你也要多照顾她一点哦。",
-                "title_en": "Amber about Noelle",
-                "content_en": "You wanna know about Noelle? She's super resilient. Still, since she's younger than us we should still look out for her."
-            }
-        ]
-    },
-    {
-        "name_zh": "凝光",
-        "img": "https://patchwiki.biligame.com/images/ys/6/6c/oo4earntw7se6jssxq5tjgsbyxrho79.png",
-        "name_en": "Ningguang",
-        "lines": [
-            {
-                "title_zh": "凝光关于北斗·罚金",
-                "content_zh": "那位…船长。明明也受到不少人推崇，却总是带头漠视规则。她缴纳的罚金，都够买一艘崭新的远洋船了吧。",
-                "title_en": "Ningguang about Beidou: Fines",
-                "content_en": "That... captain. She clearly receives the adoration of many, but will always be the first to disregard the rules. The fines she has paid would be enough to buy her a whole new ship..."
-            },
-            {
-                "title_zh": "凝光关于北斗·态度",
-                "content_zh": "或许你没有遇到过这种糟糕的交流体验。将好话坏话说尽了，对方却依然自行其是。罢了，尽可能不要让我见到那位北斗船长。",
-                "title_en": "Ningguang about Beidou: Attitude",
-                "content_en": "Perhaps you've never heard me speak like this. All that can be said has been said — both the good and the bad — but she still does as she pleases. Forget it. Keep Beidou out of my sight."
-            },
-            {
-                "title_zh": "凝光关于钟离",
-                "content_zh": "钟离…「往生堂」口中的这位先生，精通许多旁人不知的事物。但在掌握他的弱点之前，再优秀的棋子，也还不能为我所用。",
-                "title_en": "Ningguang about Zhongli",
-                "content_en": "Zhongli... Of the Wangsheng Funeral Parlor. He's very versed in a great deal of affairs. Although... such excellent pawns are of no use to me until I know their weaknesses."
-            },
-            {
-                "title_zh": "凝光关于行秋",
-                "content_zh": "飞云商会的二公子，那种性格的人看不惯我，是很自然的，而我也不会去为难他。「道不同不相为谋」，说的就是这个道理。",
-                "title_en": "Ningguang about Xingqiu",
-                "content_en": "The second son of the Feiyun Commerce Guild. People like him can't stand the sight of me, which is only to be expected. I have no intention of troubling him either. Those who have different beliefs should not work together."
-            },
-            {
-                "title_zh": "凝光关于香菱",
-                "content_zh": "「万民堂」的小丫头…总是把对我的猜疑写在脸上。呵，要是让她知道了，这些年来我对「万民堂」的资助…她会露出怎样的表情来呢？",
-                "title_en": "Ningguang about Xiangling",
-                "content_en": "That girl from Wanmin Restaurant... Her suspicion towards me is always written all over her face... Hehe, I wonder what face she would make if only she knew how much I helped finance that restaurant..."
-            },
-            {
-                "title_zh": "凝光关于甘雨",
-                "content_zh": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
-                "title_en": "Ningguang about Ganyu",
-                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"It takes a hundred people to keep a secret, but only one to let it slip.\" When there are important affairs to deal with, it is always safer to investigate and resolve it personally."
-            },
-            {
-                "title_zh": "凝光关于刻晴",
-                "content_zh": "「玉衡星」…她最近的变化可真不小。璃月究竟更需要曾经的她，还是更需要现在的她呢？可能要多花一些时间，才能判断吧。",
-                "title_en": "Ningguang about Keqing",
-                "content_en": "Yuheng... She has changed a lot recently. But is Liyue better off with the Yuheng we have now, or the Yuheng we used to know? Only time will tell."
-            },
-            {
-                "title_zh": "凝光关于琴",
-                "content_zh": "蒙德城的代理团长，想必是一位严谨而又细腻的女性吧。且不说她恰如其分的用词，连每张信纸的边缘都折叠得一丝不苟。越是这些容易被人忽视的细节，越能透过它窥见一个人真正的品质。",
-                "title_en": "Ningguang about Jean",
-                "content_en": "The Acting Grand Master of Mondstadt, a strict and impeccable woman. Her flawless etiquette knows no fault, even her letters are meticulously written and creased according to the prescribed rules. It is such easily overlooked details that offer a glimpse into the true qualities of one's character."
-            },
-            {
-                "title_zh": "凝光关于烟绯",
-                "content_zh": "烟绯？呵，某种意义上，她是个贴心的对手呢。若不是她「灵巧」地解释律法，为咨询者们提供各种「奇妙」的建议，要让我独自找到律法的缺口，逐步完善法典，怕是要多花数月的时间。",
-                "title_en": "Ningguang about Yanfei",
-                "content_en": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one."
-            }
-        ]
-    },
-    {
-        "name_zh": "菲谢尔",
-        "img": "https://patchwiki.biligame.com/images/ys/0/06/cmlxoc9sfz7nrwmt495351zcj1qd93e.png",
-        "name_en": "Fischl",
-        "lines": [
-            {
-                "title_zh": "菲谢尔关于班尼特",
-                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——\n奥兹：那个倒霉蛋，置之不理可不行。",
-                "title_en": "Fischl about Bennett",
-                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—\nOz: Someone needs to keep an eye on the unlucky fellow."
-            },
-            {
-                "title_zh": "菲谢尔关于丽莎",
-                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…\n奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
-                "title_en": "Fischl about Lisa",
-                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...\nOz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
-            },
-            {
-                "title_zh": "菲谢尔关于凯亚",
-                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…\n奥兹：也可能暗地里是个海盗…？",
-                "title_en": "Fischl about Kaeya",
-                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...\nOz: Or perhaps he's secretly an actual pirate?"
-            },
-            {
-                "title_zh": "菲谢尔关于莫娜",
-                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
-                "title_en": "Fischl about Mona",
-                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
-            },
-            {
-                "title_zh": "菲谢尔关于罗莎莉亚",
-                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。\n奥兹：「虔信」？「忠实」？\n菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
-                "title_en": "Fischl about Rosaria",
-                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
-            }
-        ]
-    },
-    {
-        "name_zh": "丽莎",
-        "img": "https://patchwiki.biligame.com/images/ys/6/69/t3g00dnjqa23jssp0lkuty27e9p1n7j.png",
-        "name_en": "Lisa",
-        "lines": [
-            {
-                "title_zh": "丽莎关于琴",
-                "content_zh": "琴是个称职的好团长。看到她认真工作的样子，就连我也忍不住想要多帮她一把。",
-                "title_en": "Lisa about Jean",
-                "content_en": "Jean is a gifted and dedicated leader. Seeing how hard she works makes even me want to help her out."
-            },
-            {
-                "title_zh": "丽莎关于安柏",
-                "content_zh": "小安柏刚进骑士团的样子我还记得呢，一转眼都那么能干了。啊，再过几年，又会变成什么样呢？",
-                "title_en": "Lisa about Amber",
-                "content_en": "Amber was just a young girl when she joined the knights, and in the blink of an eye, she's turned into such a strong young lady. I'm curious to see what she'll be like a few years from now."
-            },
-            {
-                "title_zh": "丽莎关于芭芭拉",
-                "content_zh": "芭芭拉的歌，你听过么？哼哼，听说她的旋律里有种治愈的魔力在流动喔。和我的魔药相比，不知道哪边更合你的胃口呢？",
-                "title_en": "Lisa about Barbara",
-                "content_en": "Have you heard Barbara sing before? Her angelic voice contains a magical healing energy. A different kind of magical energy from the one in my potions, of course. I wonder which one you prefer?"
-            },
-            {
-                "title_zh": "丽莎关于迪卢克",
-                "content_zh": "哦，想听迪卢克的故事？哈哈，那我知道一个更好的聊天对象。",
-                "title_en": "Lisa about Diluc",
-                "content_en": "You want to know about Diluc? Haha, in that case, I know someone else you should talk to."
-            },
-            {
-                "title_zh": "丽莎关于雷泽",
-                "content_zh": "小狼狼，来来，过来这边。今天就临时来一场实战练习吧，对手我已经给你找好了哟。欸？怎么跑了，真是的…",
-                "title_en": "Lisa about Razor",
-                "content_en": "Come on Razor, that's it, good boy! Let's do some combat practice — I've found you the perfect partner. Hey! Come back!"
-            },
-            {
-                "title_zh": "丽莎关于可莉",
-                "content_zh": "上次小可莉想借用我的工坊做实验，被我拒绝了，她可是生了我一天的气呢。嗯？你问第二天？第二天，她当然又高高兴兴地出门去玩了。",
-                "title_en": "Lisa about Klee",
-                "content_en": "Last time little Klee wanted to use my workshop for her experiments, I had to say no, and she was angry at me for the rest of the day. *sigh* What happened the next day, you ask? She went off happily to play outside of course."
-            },
-            {
-                "title_zh": "丽莎关于莫娜",
-                "content_zh": "莫娜？似乎是一位很优秀的魔导师小姐呢。但我并不是她们「魔女会」的成员哦。古树考察，组织茶会，一听就是麻烦的事情吧。",
-                "title_en": "Lisa about Mona",
-                "content_en": "Mona? She seems to be an excellent mage, but I'm not a part of their Hexenzirkel. The idea of Irminsul exploration and formal tea parties just leaves me cold."
-            },
-            {
-                "title_zh": "丽莎关于阿贝多",
-                "content_zh": "姐姐我觉得，阿贝多是很优秀的炼金术士。跟他只需要用三言两语，就能得到不错的结论。而且脸也长得好看。和小可爱你很像喔，嗯。",
-                "title_en": "Lisa about Albedo",
-                "content_en": "Albedo is quite the alchemist. Just say the word and he'll come up with a good solution. He's easy on the eyes too, just like you."
-            },
-            {
-                "title_zh": "丽莎关于菲谢尔",
-                "content_zh": "菲谢尔…哦，那个总是来图书馆借幻想小说的女孩子。每次还书都会提前三天，对书籍也十分爱护，是个好孩子呢。",
-                "title_en": "Lisa about Fischl",
-                "content_en": "Fischl, yes, she's always in the library looking to borrow fantasy novels. She always returns her books three days early and looks after them very well. She's a good kid."
-            },
-            {
-                "title_zh": "丽莎关于诺艾尔",
-                "content_zh": "拜托诺艾尔清扫书架的时候，总感觉这孩子，越是疲惫就越开心，嗯…到底是怎么回事呢？",
-                "title_en": "Lisa about Noelle",
-                "content_en": "Every time I ask Noelle to dust off the bookshelves, I'm always left with the sense that the more exhausted I make her, the happier she becomes. Yes, who knows what's going on with her... *chuckles*"
-            },
-            {
-                "title_zh": "丽莎关于砂糖",
-                "content_zh": "没事就不要去打扰小砂糖哦，会吓到她的。呵呵，她擅长和各种各样的生物打交道，却唯独，不怎么善于和人类相处呢。",
-                "title_en": "Lisa about Sucrose",
-                "content_en": "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
-            }
-        ]
-    },
-    {
-        "name_zh": "砂糖",
-        "img": "https://patchwiki.biligame.com/images/ys/c/cc/rhbp5t3iyzpsk2dc34kv18yem0nlmzo.png",
-        "name_en": "Sucrose",
-        "lines": [
-            {
-                "title_zh": "砂糖关于诺艾尔",
-                "content_zh": "她…经常会主动帮我的忙，但有时候太热情了，反而…让我有点苦恼。有一次，她看到我实验室门前堆了三箱器材，就很麻利地帮我搬了进来，但其实…那些都是我刚刚搬出去的。",
-                "title_en": "Sucrose about Noelle",
-                "content_en": "She's... a very willing helper, I can't deny that. It's just... she makes me a little anxious is all. One time, she saw three boxes of materials stacked just outside my laboratory door, and proceeded to move them inside for me. A nice gesture, but the thing is... I'd only just finished putting them outside..."
-            },
-            {
-                "title_zh": "砂糖关于可莉",
-                "content_zh": "她已经被琴团长关过好多次禁闭了，但只要被放出来，不久就又会闯祸，唉，不知道有没有真的反省过。啊…我答应她，要帮她做一个会蹦会跳，又很安全的蹦蹦，只不过现在，设计上还有不少问题…",
-                "title_en": "Sucrose about Klee",
-                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
-            },
-            {
-                "title_zh": "砂糖关于琴",
-                "content_zh": "我有点不敢和琴团长说话，因为她太严肃了…我知道她是个很好的人，但、但知道归知道，害怕…还是会害怕。我一般都不会去打扰她，实在有不得不找她的事，我…我也会拜托阿贝多先生。",
-                "title_en": "Sucrose about Jean",
-                "content_en": "I don't dare talk to Master Jean that much, because she's so strict. I know she's a good person and all — I know that, I do — but... I still find her scary. I don't tend to bother her, and even when I have to... I ask Albedo to go on my behalf."
-            },
-            {
-                "title_zh": "砂糖关于丽莎",
-                "content_zh": "我觉得她，好像懂的特别多。她明明没有看过我的研究，但有好几次，都给了我最关键的建议。她到底是怎么知道的呢？是…观察？还是推理呢？",
-                "title_en": "Sucrose about Lisa",
-                "content_en": "She really seems to know a great deal. She's obviously never seen my research, and yet on so many occasions she's given me advice on that which is most core to my studies. Just how does she know? Is it observation, or is it ratiocination?"
-            },
-            {
-                "title_zh": "砂糖关于凯亚",
-                "content_zh": "唔…我知道他喜欢开玩笑，也没有存心捉弄我的意思。可是，我实在是…分不清他的哪句话是真话，哪句话又是玩笑，所以最后要不然就变得很尴尬，要不然，就是我出洋相…",
-                "title_en": "Sucrose about Kaeya",
-                "content_en": "Oh... I know he likes to joke, and isn't trying to make fun of me, but I often struggle to work out which parts of what he says are the truth and which parts are jokes. So whenever he talks to me, the outcome is usually one of two things: morbid embarrassment or unbearable awkwardness."
-            },
-            {
-                "title_zh": "砂糖关于阿贝多·艺术",
-                "content_zh": "当他的助手，每天都能学到很多。重点不是知识，而是「天才」的思考方法，无论是多么复杂的问题，他总能抽丝剥茧，再一一解决。在我看来，那就是艺术…",
-                "title_en": "Sucrose about Albedo: Artistry",
-                "content_en": "As his assistant I learn so much each and every day. What's key is not his existing knowledge, but his talented way of thinking. No matter how complex the task at hand, his way of thinking ensures he gets to the bottom of it, and is able to explain it thoroughly. His methodologies are amazing... to me, it's where alchemy meets art."
-            },
-            {
-                "title_zh": "砂糖关于阿贝多·天赋",
-                "content_zh": "你说天赋？嗯…假如和他做同样的研究，可能确实一辈子都没法超过他。但，我研究「生物炼金」并没有故意要躲开他的意思，只是…嗯，我和他恰好有不同的爱好，还有梦想，仅此而已吧。",
-                "title_en": "Sucrose about Albedo: Talent",
-                "content_en": "Talent? Let's hypothesize that he and I were to perform the same research — I'd still spend my whole life playing catch up. But, my studying bio-alchemy has nothing to do with evading his line of research, we just happen to have different interests and dreams — nothing more."
-            },
-            {
-                "title_zh": "砂糖关于安柏",
-                "content_zh": "我很好奇，为什么她做的布偶，名字叫「兔兔伯爵」呢？和兔子没什么关系吧。唔…你说，头上的发带，很像兔耳朵？…有道理，但其实这是刻板印象，也有很多兔子耳朵是垂下来的。",
-                "title_en": "Sucrose about Amber",
-                "content_en": "I'm curious as to why her doll is called \"Baron Bunny,\" it clearly has nothing to do with a rabbit at all. Oh, the headband makes it look like it has rabbit ears you say? Hmm... That's heavily reliant on the rabbit stereotype, is it not? Many rabbits' ears are floppy."
-            },
-            {
-                "title_zh": "砂糖关于菲谢尔",
-                "content_zh": "你是说《菲谢尔皇女夜谭》？我知道，作者创造出的世界很有意思，要是能亲眼去看一看就好了…欸？你在说那个「菲谢尔」啊？她啊…嗯，她…应该是没办法带我去的。",
-                "title_en": "Sucrose about Fischl",
-                "content_en": "I take it you're referring to the book series, Flowers for Princess Fischl? Indeed, the world the author came up with is very creative. If only I could go see it with my own eyes. Oh, you're referring to Fischl herself? I am... doubtful that she could really take me there."
-            }
-        ]
-    },
-    {
-        "name_zh": "诺艾尔",
-        "img": "https://patchwiki.biligame.com/images/ys/1/1e/q7e7j4ybveu9vpezgvjogwpmfzz1mm2.png",
-        "name_en": "Noelle",
-        "lines": [
-            {
-                "title_zh": "诺艾尔关于安柏",
-                "content_zh": "她是我非常尊敬的前辈，实力很强不说，对人也很亲切。她还教我怎么做「兔兔伯爵」，你看，我会把它当成护身符带在身边，做得不错吧？",
-                "title_en": "Noelle about Amber",
-                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?"
-            },
-            {
-                "title_zh": "诺艾尔关于可莉",
-                "content_zh": "我一直很想知道，她还这么小，是怎么正式成为骑士的。有一次向她请教经验，她还没听完我的话，就拉着我去骑士团外面玩炸弹…我以为这是什么修行，结果最后我和她都被琴团长关了禁闭…",
-                "title_en": "Noelle about Klee",
-                "content_en": "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in solitary confinement..."
-            },
-            {
-                "title_zh": "诺艾尔关于琴",
-                "content_zh": "琴团长一直都是我的榜样，我的实力和认真程度完全比不上她。她对别人就像对自己一样严格，所以如果有一天我能得到她的认可，那也是对我一直以来努力的最大肯定了。在那之前，我都是不会松懈的！",
-                "title_en": "Noelle about Jean",
-                "content_en": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!"
-            },
-            {
-                "title_zh": "诺艾尔关于凯亚",
-                "content_zh": "他很神秘，来如影，去如风，每天都有很重要的任务要去处理。他还经常会给我安排一些小任务，就好像我已经是他的小队成员了一样…嗯？只是跑腿？不不不，虽然确实是跑腿，可是我很珍惜的！",
-                "title_en": "Noelle about Kaeya",
-                "content_en": "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!"
-            },
-            {
-                "title_zh": "诺艾尔关于班尼特",
-                "content_zh": "他不止一次来邀请我，说什么比起骑士团，还是冒险家协会更适合我…虽然我是会像一个普通的冒险家一样，帮他照顾他的老爹们，但…骑士团对我来说有特别的意义，而且我也不想认输…嗯，果然还是没法答应。",
-                "title_en": "Noelle about Bennett",
-                "content_en": "He's asked me to join the Adventurers' Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers... the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer."
-            },
-            {
-                "title_zh": "诺艾尔关于菲谢尔·茶点",
-                "content_zh": "她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…",
-                "title_en": "Noelle about Fischl: Tea",
-                "content_en": "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely... I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying."
-            },
-            {
-                "title_zh": "诺艾尔关于菲谢尔·身世",
-                "content_zh": "以前我打扫图书馆的时候，记得有本书叫《菲谢尔皇女夜谭》，我还以为只是幻想小说…但没想到，里面的主人公居然真的存在！能有一本自己的传记，她一定很厉害吧。",
-                "title_en": "Noelle about Fischl: Background",
-                "content_en": "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her."
-            },
-            {
-                "title_zh": "诺艾尔关于芭芭拉",
-                "content_zh": "我们经常在一起喝茶，有时候她会轻轻哼出很好听的调子，告诉我灵感来了。虽然我对音乐给不出什么实用的建议…但能跟芭芭拉享受这样的时光，我真的非常高兴！",
-                "title_en": "Noelle about Barbara",
-                "content_en": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
-            }
-        ]
-    },
-    {
-        "name_zh": "凯亚",
-        "img": "https://patchwiki.biligame.com/images/ys/e/e5/knnismq9um424psahpu5vag0ysu3jab.png",
-        "name_en": "Kaeya",
-        "lines": [
-            {
-                "title_zh": "凯亚关于琴",
-                "content_zh": "哦？代理团长大人，你可要多多支持她。",
-                "title_en": "Kaeya about Jean",
-                "content_en": "What? The Acting Grand Master? You need to give her your full support."
-            },
-            {
-                "title_zh": "凯亚关于丽莎",
-                "content_zh": "丽莎啊…你千万记得要准时还书哦？上次因为这事儿惹她生了气，直到现在我左手的尺骨还是麻麻的。",
-                "title_en": "Kaeya about Lisa",
-                "content_en": "Oh Lisa. Hmm... You'd better not forget to return your books on time. I made that mistake once and boy was she angry. My arm is still numb from last time..."
-            },
-            {
-                "title_zh": "凯亚关于安柏",
-                "content_zh": "侦察骑士是个机灵又正义的好骑士。可千万别在她面前做坏事喔。",
-                "title_en": "Kaeya about Amber",
-                "content_en": "That Outrider is a clever and righteous knight. Be careful not to step out of line in front of her."
-            },
-            {
-                "title_zh": "凯亚关于迪卢克",
-                "content_zh": "迪卢克？小时候的他挺可爱的。可如今却活在自己的世界里…总之是个无趣的家伙。",
-                "title_en": "Kaeya about Diluc",
-                "content_en": "Diluc? He was cute as a young lad. But nowadays he just seems to be in a world of his own... Overall, not much fun to hang out with."
-            },
-            {
-                "title_zh": "凯亚关于可莉",
-                "content_zh": "可莉，看来还是没有掌握躲避代理团长检查的技巧啊，明明我已经点拨过她…哈哈，我说着玩玩的，你可别去揭发我哦。",
-                "title_en": "Kaeya about Klee",
-                "content_en": "Klee. Seems she has failed to elude the Acting Grand Master's investigative skills, despite the pointers I gave her... Haha, I'm kidding, no need to go reporting me or anything."
-            },
-            {
-                "title_zh": "凯亚关于阿贝多",
-                "content_zh": "阿贝多啊，沉稳优雅的小帅哥，而且才华横溢，是很讨人喜欢的类型。怎么，你也心动了？",
-                "title_en": "Kaeya about Albedo",
-                "content_en": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
-            },
-            {
-                "title_zh": "凯亚关于迪奥娜",
-                "content_zh": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
-                "title_en": "Kaeya about Diona",
-                "content_en": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
-            },
-            {
-                "title_zh": "凯亚关于菲谢尔",
-                "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
-                "title_en": "Kaeya about Fischl",
-                "content_en": "What? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must make me a future royal progeny too, no?"
-            },
-            {
-                "title_zh": "凯亚关于诺艾尔",
-                "content_zh": "我受代理团长大人所托，暗中照顾这位后辈。不过她很懂事，不需要我操太多心。真是令人欣慰。",
-                "title_en": "Kaeya about Noelle",
-                "content_en": "I was entrusted by the Acting Grand Master to work in the background to support Noelle. But there hasn't been much for me to concern myself with — she has a good head on her shoulders. Quite the relief."
-            },
-            {
-                "title_zh": "凯亚关于罗莎莉亚",
-                "content_zh": "啊哈哈，你想知道罗莎莉亚修女的秘密吗？这个不能说。不过我对她印象还不错，比某人好多了。她能够诚实地面对自己。烂事就是烂事，提不起干劲就是提不起干劲。",
-                "title_en": "Kaeya about Rosaria",
-                "content_en": "Ahaha, you want to know about the secrets of Sister Rosaria? That... I cannot tell you. Though my impression of her is not bad — certainly better than a certain someone whose name I won't bother to mention. She's honest with herself. She casts off that which she has no time for and she doesn't feign motivation for affairs that do not interest her."
-            },
-            {
-                "title_zh": "凯亚关于砂糖",
-                "content_zh": "别看砂糖文静又内向，据说，她在实验室里，收藏了很多特别的东西哦，很刺激，又很…露骨的那种。嗯？你问我？…我像是会偷看女孩子房间的人吗？",
-                "title_en": "Kaeya about Sucrose",
-                "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
-            }
-        ]
-    },
-    {
-        "name_zh": "莫娜",
-        "img": "https://patchwiki.biligame.com/images/ys/c/ce/refnobe859mskudq9i634djaniepwvt.png",
-        "name_en": "Mona",
-        "lines": [
-            {
-                "title_zh": "莫娜关于琴",
-                "content_zh": "那位西风骑士团代理团长？她的「命之座」是「幼狮座」，象征着力量，还有过早担负的责任。「雄狮」早早离群，但她会继续成长，直到能完全继承狮群的荣耀。",
-                "title_en": "Mona about Jean",
-                "content_en": "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader."
-            },
-            {
-                "title_zh": "莫娜关于阿贝多",
-                "content_zh": "阿贝多？啊…我真羡慕他，只用专注于研究就好，不用管其他的杂事，真是美好的生活啊。如果那个老太婆脑筋正常一点，我应该也过着这种生活吧…",
-                "title_en": "Mona about Albedo",
-                "content_en": "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself..."
-            },
-            {
-                "title_zh": "莫娜关于可莉",
-                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
-                "title_en": "Mona about Klee",
-                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk* Although, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
-            },
-            {
-                "title_zh": "莫娜关于迪卢克",
-                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。等等，「夜枭」象不象征财富来着？",
-                "title_en": "Mona about Diluc",
-                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival....Or, wait, maybe Noctua's the one tied to wealth...?"
-            },
-            {
-                "title_zh": "莫娜关于凯亚",
-                "content_zh": "凯亚·亚尔伯里奇吗？他的「孔雀羽座」象征着高贵，但同时也象征着「华丽的掩饰」。他以为已经和过去一刀两断。但到了命中注定的那天，他依然必须做出自己的选择。",
-                "title_en": "Mona about Kaeya",
-                "content_en": "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make."
-            },
-            {
-                "title_zh": "莫娜关于丽莎",
-                "content_zh": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
-                "title_en": "Mona about Lisa",
-                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe 'becomes lazy' is more accurate than 'comes to rest,' in this case."
-            },
-            {
-                "title_zh": "莫娜关于温迪",
-                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
-                "title_en": "Mona about Venti",
-                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
-            }
-        ]
-    },
-    {
-        "name_zh": "班尼特",
-        "img": "https://patchwiki.biligame.com/images/ys/a/a0/nd8jx8novy6974e5ez7bz9la04vajw8.png",
-        "name_en": "Bennett",
-        "lines": [
-            {
-                "title_zh": "班尼特关于芭芭拉",
-                "content_zh": "她很擅长唱歌跳舞！我冒险不顺的时候就会去看她的演出，跟着观众一起喊喊口号加加油，心情就变好了，真的很神奇！这就是她为什么这么受欢迎的原因吧…啊，我这个当团长的，要是也这么受欢迎就好了。",
-                "title_en": "Bennett about Barbara",
-                "content_en": "She's the best singer and dancer out there! I always go to watch her in concert after an adventure goes south — it really lifts my mood, chanting along with all the other fans, cheering her on. It's really kinda magical! It's no wonder she's so popular... Boy, if I had even half her popularity as leader of my adventure team..."
-            },
-            {
-                "title_zh": "班尼特关于可莉",
-                "content_zh": "那个孩子啊…很可爱，但我必须和她保持距离。只要我陪她玩，她的那些炸弹就会突然爆炸…我倒霉一点无所谓，但要是炸伤了可莉就麻烦了，估计整个骑士团都会跟我没完吧。",
-                "title_en": "Bennett about Klee",
-                "content_en": "She's a cute kid... but I have to keep my distance. Whenever she plays with me, her bombs always end up going off... It's not so much me I'm worried about, it would just be awful if something happened to Klee. The Knights of Favonius would never forgive me, that's for sure."
-            },
-            {
-                "title_zh": "班尼特关于菲谢尔",
-                "content_zh": "她是异世界来的「断罪皇女」，可厉害了！我不止一次和她说想要去她的家乡冒险，但每次说到这里她就吞吞吐吐的…嗯，一定是担心我的安危吧，看来她的家乡真的是很凶险的地方。",
-                "title_en": "Bennett about Fischl",
-                "content_en": "Oh yeah, the Prinzessin der Verurteilung from the world beyond! She's amazing. I keep asking her if we can go adventuring in her home world together, but each time I bring it up she sort of avoids the topic... She's probably just worried about my safety. Her home world sounds like a dangerous place, for sure."
-            },
-            {
-                "title_zh": "班尼特关于琴",
-                "content_zh": "我本来想向琴团长要一些对蒙德的冒险家协会的支援，但其实我不太知道要怎么和她说…冒险家协会没有骑士团那么多规矩，我和老爹们成天也嘻嘻哈哈的，但用这种态度和琴团长说话，肯定不行吧…我是不是要学一下骑士团敬礼的方式？",
-                "title_en": "Bennett about Jean",
-                "content_en": "I keep meaning to ask Master Jean for some help with the Mondstadt Adventurers' Guild, but I don't know how to go about it. The Guild doesn't have as many rules and regulations as the Knights of Favonius, the dads and I are pretty laid back about everything. Pretty sure that attitude wouldn't fly with Jean though... I guess I should read up on the Knights' etiquette or something?"
-            },
-            {
-                "title_zh": "班尼特关于雷泽",
-                "content_zh": "你说奔狼领的那个小哥哥啊，他虽然看上去凶巴巴的，也不愿意说话…但是是个有趣的人哦！他和我都特别喜欢吃肉，我给他做肉吃，他教我狼怎么说话，哈哈，你下次要不要一起来？",
-                "title_en": "Bennett about Razor",
-                "content_en": "Wolvendom guy! Looks a little on the feral side... doesn't talk much... but he's alright! We both love eating meat, so we got that in common. I sometimes cook some meat for him, and he teaches me how wolves communicate in return. Haha! You should join us next time!"
-            },
-            {
-                "title_zh": "班尼特关于安柏",
-                "content_zh": "哦哦，想起来了，那个女孩子，总横冲直撞的…她和我一样，经常去野外冒险！只不过…只要路边架着锅，就总会飘来浓浓的黑烟，还有什么东西烧糊了的味道…唔，难道她的运气也很差？",
-                "title_en": "Bennett about Amber",
-                "content_en": "Oh, I know who you mean. The girl who's always charging around all over the place. She's always off adventuring in the wild, just like me... But if you ever see her near a cooking pot, you'll soon find a cloud of thick black smoke blowing in your direction, followed by the smell of burnt steak... Huh, maybe she was born unlucky too?"
-            },
-            {
-                "title_zh": "班尼特关于诺艾尔",
-                "content_zh": "你说她啊，其实我注意她很久了。她很有天分，又特别努力，但在骑士团只能当女仆，一直没成为正式的骑士，你不觉得太可惜了吗？唉，要是她肯来冒险家协会，估计早就是个了不起的冒险家了。",
-                "title_en": "Bennett about Noelle",
-                "content_en": "Noelle's someone I've been watching for a while. She's really talented, and extremely hardworking. But somehow she's still a maid — the Knights of Favonius still haven't made her a knight. It's a shame, don't you think? Boy, if she switched to the Adventurers' Guild, she'd easily be one of the best there is."
             }
         ]
     }
