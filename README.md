@@ -16,6 +16,21 @@ This project uses __ to generate network graph. The following layouts are used.
 
 - custom：同心圆布局。初始状态下边越多的顶点越靠近中心。选中人物后以其为中心，与之连接越多的人物越靠近中心。A concentric layout. Initially, nodes with more edges are closer to the center. When a character is selected, it moves to the center and nodes with more edges with it are closer.
 
+#### 探索此图 | Explore the graph
+
+`cy` 变量是Cytoscape.js图的对象。可以在控制台进行探索。\
+`cy` is the variable for graph object of Cytoscape.js. You can explore it in the console.
+
+Some stats (up to game ver. 1.5)
+- Number of nodes = 32
+- Average in / out degree = 8
+- In-degree max: Jean (18), Lisa (15), 4 others (12)
+  In-degree min: Tartaglia (2), Rosaria / Qiqi / Chongyun (4)
+- Out-degree max: Jean / Keqing (12), 5 others (11)
+  Out-degree min: Tartaglia (2), Qiqi (4), Xiao / Fischl (5)
+- Total degree max: Jean (30), Lisa (26), Klee (23)
+  Total degree min: Tartaglia (4), Qiqi (8), Razor / Fischl / Chongyun (11)
+
 
 #### 版权声明 | Copyright disclaimer
 
