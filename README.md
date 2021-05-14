@@ -24,11 +24,11 @@ This project uses __ to generate network graph. The following layouts are used.
 Some stats (up to game ver. 1.5)
 - Number of nodes = 32
 - Average in / out degree = 8
-- In-degree max: Jean (18), Lisa (15), 4 others (12)
+- In-degree max: Jean (18), Lisa (15), 4 others (12)\
   In-degree min: Tartaglia (2), Rosaria / Qiqi / Chongyun (4)
-- Out-degree max: Jean / Keqing (12), 5 others (11)
+- Out-degree max: Jean / Keqing (12), 5 others (11)\
   Out-degree min: Tartaglia (2), Qiqi (4), Xiao / Fischl (5)
-- Total degree max: Jean (30), Lisa (26), Klee (23)
+- Total degree max: Jean (30), Lisa (26), Klee (23)\
   Total degree min: Tartaglia (4), Qiqi (8), Razor / Fischl / Chongyun (11)
 
 
