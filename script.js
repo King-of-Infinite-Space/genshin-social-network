@@ -463,7 +463,7 @@ const charNames = {
 
 async function main() {
     charData = await getJson(`${URL_BASE}/char_data.json`)
-    // add nodes
+    // create nodes
     for (const char of charData) {
         for (const l of langs) {
             charNames[l].push(char['name_'+l])
@@ -477,24 +477,18 @@ async function main() {
                 }
         })
     }
-    // add edges
+    // create edges
     for (const sourceChar of charData) {
         for (const line of sourceChar.lines) {
-            for (const targetCharName of charNames.en) {
-                if (sourceChar.name_en !== targetCharName && line.title_en.includes(targetCharName)){
-                    cy.add({
-                        group: 'edges',
-                        data: {
-                            id: line.title_en,  // A关于B
-                            source: sourceChar.name_en, 
-                            target: targetCharName,
-                            ...line
-                        }
-                    })
-                    break
+            cy.add({
+                group: 'edges',
+                data: {
+                    id: line.title_en,  // A关于B
+                    source: sourceChar.name_en,
+                    target: line.target_en,
+                    ...line
                 }
-            }
-        }
+            })
     }
 
     // for (const n of cy.$('node')){

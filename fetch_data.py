@@ -13,21 +13,20 @@ import sys
 
 char_names = json.load(open('char_names.json','r'))
 
-names_zh = list(char_names.keys())
-names_en = list(char_names.values())
-
 #%%
-def is_about_others(self_name, key, lang):
-    if lang == 'en':
-        names = names_en
-        about = 'About '
-    else:
-        names = names_zh
-        about = '关于'
-    for n in names:
-        if n != self_name and (about + n) in key:
-            return True
-    return False
+def get_quote_target(self_name, key, lang):
+    about = {'en': 'About ', 'zh': '关于'}
+    for char in char_names:
+        name = char['name_'+lang]
+        if name != self_name:
+            if (about[lang] + name) in key:
+                return name
+            try:
+                alt_name = char['alt_name_'+lang]
+                if (about[lang] + alt_name) in key:
+                    return name
+            except KeyError:
+                pass
 
 # not used anymore
 def parse_char_lines(name):
@@ -69,6 +68,7 @@ def parse_char_lines(name):
 
 def parse_char_list():
     char_list = []
+    names_zh = [char['name_zh'] for char in char_names]
 
     S = requests.Session()
     URL = "https://wiki.biligame.com/ys/api.php"
@@ -113,21 +113,24 @@ def parse_char_list():
 
     return char_list
 
-def parse_quotes_hhw(name, lang='zh'):
-    # assuming chinese name   
-    url_name = char_names[name].replace(' ', '') # hu tao
+def parse_quotes_hhw(char, lang='zh'):
+    """
+        get lines from *char* to other chars
+    """
+    name = char['name_'+lang]
+
+    url_name = char['name_en'].replace(' ', '') # hu tao
     if url_name == 'Yanfei':
         url_name = 'feiyan'
 
     if lang == 'en':
         lang_param = 'EN'
-        name = char_names[name]
     else:
         lang_param = 'CHS'
 
     URL = "https://genshin.honeyhunterworld.com/db/char/%s/?lang=%s" % (url_name, lang_param)
 
-    lines = {}
+    lines = []
 
     S = requests.Session()
     res = S.get(url=URL)
@@ -146,8 +149,10 @@ def parse_quotes_hhw(name, lang='zh'):
         if table is not None:
             tr1, tr2 = table.contents[:2]
             k = tr1.get_text()
+
+            target = get_quote_target(name, k, lang)
             
-            if is_about_others(name, k, lang):
+            if target is not None:
                 while k.endswith('…') or k.endswith('·') or k.endswith(' '):
                     k = k[:-1]
                 tr2_str = str(tr2).replace('<br/><color>', '\n') # fischl
@@ -155,11 +160,16 @@ def parse_quotes_hhw(name, lang='zh'):
                 v = tr2.get_text()
                 
                 if lang == 'en':
-                    if k[:5] == 'About': # should be true
-                        k = name + ' about' + k[5:]
+                    if k[:5] == 'About': # should always be true
+                        k = name + ' about' + k[5:] # change "About" to lower case
                 else:
                     k = name + k
-                lines[k] = v
+                lines.append({
+                    # 'from_'+lang : name,
+                    'target_'+lang : target,
+                    'title_'+lang : k,
+                    'content_'+lang : v,
+                })
         ele = ele.next_sibling
 
     # except:
@@ -171,25 +181,14 @@ if __name__ == '__main__':
 
     char_list = parse_char_list()
     
-    for char in char_list:
-        char['name_en'] = char_names[char['name_zh']]
-        lines_zh = parse_quotes_hhw(char['name_zh'])
-        lines_en = parse_quotes_hhw(char['name_zh'], lang='en')
+    for char in char_names:
+        lines_zh = parse_quotes_hhw(char, 'zh')
+        lines_en = parse_quotes_hhw(char, 'en')
         info = (char['name_zh'], len(lines_zh), len(lines_en))
         print(*info)
         assert(info[1] == info[2])
 
-        lines = []
-        k1 = list(lines_zh.keys())
-        k2 = list(lines_en.keys()) # assume they are in order. may explicitly check.
-        for i, k in enumerate(k1):
-            lines.append({
-                'title_zh': k,
-                'content_zh': lines_zh[k],
-                'title_en': k2[i],
-                'content_en': lines_en[k2[i]],
-            })
-        char['lines'] = lines
+        char['lines'] = [{**lines_zh[i], **lines_en[i]} for i in range(len(lines_zh))]
 
     with open("char_data.json", "w", encoding='utf8') as f:
         json.dump(char_list, f, ensure_ascii=False, indent=4)
