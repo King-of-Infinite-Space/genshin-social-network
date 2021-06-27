@@ -38,11 +38,17 @@
         if (window.location.hostname.includes("github.io")){
             URL_BASE = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network"
         }
-        let ss = document.createElement('link');
-        ss.type = 'text/css';
-        ss.href = URL_BASE + '/style.css';
-        ss.rel = 'stylesheet';
-        document.head.appendChild(ss);
+        const ss = document.createElement('link')
+        ss.type = 'text/css'
+        ss.href = URL_BASE + '/style.css'
+        ss.rel = 'stylesheet'
+        document.head.appendChild(ss)
+
+        const icon = document.createElement('link')
+        icon.type = 'image/svg+xml'
+        icon.href = URL_BASE + '/icon.svg'
+        icon.rel = 'icon'
+        document.head.appendChild(icon)
     </script>
 </head>
 <body>
@@ -122,16 +128,16 @@
     </div>
    
     <script type="text/javascript">
-        let sc = document.createElement('script');
-        sc.src = URL_BASE + '/script.js';
-        document.body.appendChild(sc);
+        const sc = document.createElement('script')
+        sc.src = URL_BASE + '/script.js'
+        document.body.appendChild(sc)
 
-        const LOCAL_DOMAINS = ["localhost", "127.0.0.1", ""];
+        const LOCAL_DOMAINS = ["localhost", "127.0.0.1", ""]
         if (! LOCAL_DOMAINS.includes(window.location.hostname)){
-            let counter = document.createElement('img');
+            const counter = document.createElement('img')
             counter.src = 'https://kois.pythonanywhere.com/count/tag.svg?url=king-of-infinite-space.github.io%2Fgenshin-social-network'
             counter.style.display = 'none'
-            document.getElementById('credit').appendChild(counter);
+            document.getElementById('credit').appendChild(counter)
         }
     </script>
 
