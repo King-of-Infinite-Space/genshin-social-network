@@ -1,6 +1,8 @@
 [
+    {"name_zh": "枫原万叶", "name_en": "Kaedehara Kazuha", "url_name": "kazuha"},
+
     {"name_zh": "优菈", "name_en": "Eula"},
-    {"name_zh": "烟绯", "name_en": "Yanfei"},
+    {"name_zh": "烟绯", "name_en": "Yanfei", "url_name": "feiyan"},
 
     {"name_zh": "罗莎莉亚", "name_en": "Rosaria"},
 
@@ -10,7 +12,7 @@
     {"name_zh": "甘雨", "name_en": "Ganyu"},
     {"name_zh": "阿贝多", "name_en": "Albedo"},
 
-    {"name_zh": "钟离", "name_en": "Zhongli", "alt_name_zh": "摩拉克斯", "alt_name_en": "Morax"},
+    {"name_zh": "钟离", "name_en": "Zhongli", "alias_zh": "摩拉克斯", "alias_en": "Morax"},
     {"name_zh": "辛焱", "name_en": "Xinyan"},
     {"name_zh": "达达利亚", "name_en": "Tartaglia"},
     {"name_zh": "迪奥娜", "name_en": "Diona"},
