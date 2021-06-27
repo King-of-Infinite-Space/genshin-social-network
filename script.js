@@ -21,8 +21,7 @@ document.getElementById('lang-slider-container').addEventListener('click', funct
     document.body.classList.add(lang)
 })
 
-const randomSeed = 1
-// 1, 7
+const randomSeed = 8
 
 const cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
@@ -489,6 +488,7 @@ async function main() {
                     ...line
                 }
             })
+        }
     }
 
     // for (const n of cy.$('node')){
@@ -581,6 +581,3 @@ async function main() {
 }
 
 main();
-
-
-
