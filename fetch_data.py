@@ -1,8 +1,4 @@
 #%% 
-"""
-Reference:
-    MediaWiki Action API Code Samples https://www.mediawiki.org/wiki/API:Parsing_wikitext
-"""
 
 import requests
 import json
@@ -28,6 +24,7 @@ def find_quote_target(self_name, key, lang):
                     return name
 
 # not used anymore
+# Reference: https://www.mediawiki.org/wiki/API:Parsing_wikitext
 def get_quotes_bwiki(name):
     S = requests.Session()
 
@@ -63,12 +60,11 @@ def get_quotes_bwiki(name):
     # print(entries)
     return entries
 
-def get_images_bwiki():
+def get_images_bwiki() -> tuple[dict[str, str], int]: 
     image_urls = {}
 
     S = requests.Session()
     URL = "https://wiki.biligame.com/ys/api.php"
-    URL_BASE = "https://wiki.biligame.com"
     PARAMS = {
         'action': "parse",
         'page': "角色筛选",
@@ -80,23 +76,24 @@ def get_images_bwiki():
     # table = pd.read_html(data, attrs={'id':"CardSelectTr"})
     soup = BeautifulSoup(html_doc,features="lxml")
     table = soup.find(id='CardSelectTr')
+    new_count = 0
     for tr in table.find_all('tr')[1:]: #ignore thead
         a = tr.td.a # from first td
         name = a['title']
-        if name in names_zh:
+        if name in names_zh: # true only if the image exists in the table
             srcset = a.img['srcset']
             img_url = srcset.split('1.5x, ')[-1].replace(' 2x','')
-            image_urls[name] = img_url
-
-            img_path = "./images/%s.png" % name
+            img_path = f"./images/{name}.png"
             if not os.path.exists(img_path):
                 r = requests.get(img_url)
                 with open(img_path, "wb") as f:
                     f.write(r.content)
-                print('Downloaded %s' % img_path)
-    return image_urls
+                new_count += 1
+                print(f'-- Downloaded {img_path}')
+            image_urls[name] = img_url
+    return image_urls, new_count
 
-def get_quotes_hhw(char, lang='zh'):
+def get_quotes_hhw(char, lang='zh') -> list[dict]:
     """
         get lines from *char* to other chars
     """
@@ -104,7 +101,7 @@ def get_quotes_hhw(char, lang='zh'):
     if 'url_name' in char:
         url_name = char['url_name']
     else:
-        url_name = char['name_en'].replace(' ', '') # eg. hutao  # case insensitive
+        url_name = char['name_en'].split(' ')[-1] # for japanese names use given name only
 
     if lang == 'en':
         lang_param = 'EN'
@@ -157,59 +154,56 @@ def get_quotes_hhw(char, lang='zh'):
 
     return lines
 
-def find_item_index(lst, key, value):
-    for i, item in enumerate(lst):
-        if item[key] == value:
-            return i
-
-def sort_char_data(char_data, names):
-    for i, name in enumerate(names):
-        j = find_item_index(char_data, 'name_zh', name)
-        if i != j:
-            char_data[i], char_data[j] = char_data[j], char_data[i]
-    char_data.reverse()
-    return char_data
-
 #%%
 if __name__ == '__main__':
+    print('---- Starting ----')
+    print('---- Downloading images ----')
+    char_images, count_new = get_images_bwiki()
+    print(f'---- Downloaded {count_new} new images ----')
+
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
-
     if len(char_pending) == 0: # start anew
-        char_pending = names_zh.copy()
         char_data = []
-    else: # resume
+        char_pending = []
+        for name in names_zh:
+            if name in char_images.keys():
+                char_pending.append(name)
+            else:
+                print(f"{name} skipped")
+    else: # resume from last checkpoint
         char_data = json.load(open('char_data.json','r'))
 
-    count_total = len(names_zh)
+    count_total = len(char_images)
     count_pending = len(char_pending)
 
-    char_images = get_images_bwiki()
-    print('-- Images acquired')
-    print('---- Updating %d / %d   ----' % (count_pending, count_total))
+    print(f'---- Updating {count_pending} / {count_total} ----')
+    i = 1
     for char in char_names:
-        if char['name_zh'] in char_pending:
+        name = char['name_zh']
+        if name in char_pending:
             try:
                 char = char.copy()
-                char['img'] = char_images[char['name_zh']]
+                char['img_url'] = char_images[name]
                 lines_zh = get_quotes_hhw(char, 'zh')
                 lines_en = get_quotes_hhw(char, 'en')
                 if len(lines_zh) != len(lines_en):
                     raise ValueError("ZH and EN lines don't match")
                 char['lines'] = [{**lines_zh[i], **lines_en[i]} for i in range(len(lines_zh))]
                 char_data.append(char)
-                print('---' , char['name_zh'], len(lines_zh))
+                print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
             except KeyboardInterrupt:
                 raise KeyboardInterrupt
             except:
-                print(char['name_zh'], traceback.format_exc())
+                print(f"{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
                 char_error.append(char['name_zh'])
+            i += 1
 
-    if len(names_zh) != len(char_data) + len(char_error):
-        raise ValueError("Number of entries don't match")
+    if count_total != len(char_data) + len(char_error):
+        raise ValueError("Number of entries doesn't match images.")
     
     if len(char_error) == 0:
-        char_data = sort_char_data(char_data, names_zh)
+        char_data.sort(key=lambda x: x['id'])
 
     with open("char_data.json", "w", encoding='utf8') as f:
         json.dump(char_data, f, ensure_ascii=False, indent=4)
@@ -217,9 +211,9 @@ if __name__ == '__main__':
     with open("char_pending.json", "w", encoding='utf8') as f:
         json.dump(char_error, f, ensure_ascii=False, indent=4)
     
-    print('---- Updated %d / %d / %d  ----' % (count_pending - len(char_error), count_pending, count_total))
+    print(f'---- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  ----')
     if len(char_error):
-        print('---- Error with following chars ----')
+        print(f'--- Error with {len(char_error)} chars')
         print(*char_error)
     else:
         print('---- Complete! ----')
