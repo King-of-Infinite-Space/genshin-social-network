@@ -16,7 +16,7 @@ def find_quote_target(self_name, key, lang):
     about = {'en': 'About ', 'zh': '关于'}
     for char in char_names:
         name = char['name_'+lang]
-        if name != self_name:
+        if name != self_name and char['name_zh'] not in char_skipped:
             if (about[lang] + name) in key:
                 return name
             if 'alias_'+lang in char:
@@ -163,6 +163,7 @@ if __name__ == '__main__':
 
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
+    char_skipped = []
     if len(char_pending) == 0: # start anew
         char_data = []
         char_pending = []
@@ -170,6 +171,7 @@ if __name__ == '__main__':
             if name in char_images.keys():
                 char_pending.append(name)
             else:
+                char_skipped.append(name)
                 print(f"{name} skipped")
     else: # resume from last checkpoint
         char_data = json.load(open('char_data.json','r'))
