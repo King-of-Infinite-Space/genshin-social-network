@@ -17,10 +17,10 @@ def find_quote_target(self_name, key, lang):
     for char in char_names:
         name = char['name_'+lang]
         if name != self_name and char['name_zh'] not in char_skipped:
-            if (about[lang] + name) in key:
+            if about[lang] in key and name in key:
                 return name
             if 'alias_'+lang in char:
-                if (about[lang] + char['alias_'+lang]) in key:
+                if about[lang] in key and char['alias_'+lang] in key:
                     return name
 
 # not used anymore
@@ -117,14 +117,17 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
     soup = BeautifulSoup(res.content, features="lxml")
 
     # check name
-    display_name = soup.find('div', class_='custom_title').get_text()
+    # display_name = soup.find('div', class_='custom_title').get_text()
+    # if (display_name != name):
+    #     raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
+    display_name = soup.select_one('#scroll_card_item').next_sibling.select_one('tr:first-child').get_text()
     if (display_name != name):
         raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
 
     quote_start = soup.find('span', id='scroll_quotes')
 
     ele = quote_start.next_sibling
-    while ele.name != 'span':
+    while ele is not None and ele.name != 'span':
         table = ele.find('table')
         if table is not None:
             tr1, tr2 = table.contents[:2]
@@ -190,7 +193,7 @@ if __name__ == '__main__':
                 lines_zh = get_quotes_hhw(char, 'zh')
                 lines_en = get_quotes_hhw(char, 'en')
                 if len(lines_zh) != len(lines_en):
-                    raise ValueError("ZH and EN lines don't match")
+                    raise ValueError(f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match")
                 char['lines'] = [{**lines_zh[i], **lines_en[i]} for i in range(len(lines_zh))]
                 char_data.append(char)
                 print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
