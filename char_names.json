@@ -1,6 +1,6 @@
 [
     {"id": 39, "name_zh": "珊瑚宫心海", "name_en": "Sangonomiya Kokomi", "ver": "2.1.2"},
-    {"id": 38, "name_zh": "雷电将军", "name_en": "Raiden Shogun", "alias_en": "the Raiden Shogun", "url_name": "shougun", "ver": "2.1.1"},
+    {"id": 38, "name_zh": "雷电将军", "name_en": "Raiden Shogun", "alias_zh": "巴尔", "alias_en": "Baal", "url_name": "shougun", "ver": "2.1.1"},
     {"id": 37, "name_zh": "九条裟罗", "name_en": "Kujou Sara", "ver": "2.1.1"},
     {"id": 36, "name_zh": "埃洛伊", "name_en": "Aloy", "ver": "2.1.0"},
     
@@ -40,7 +40,7 @@
     {"id": 10, "name_zh": "诺艾尔", "name_en": "Noelle"},
     {"id": 9, "name_zh": "班尼特", "name_en": "Bennett"},
     {"id": 8, "name_zh": "可莉", "name_en": "Klee"},
-    {"id": 7, "name_zh": "温迪", "name_en": "Venti"},
+    {"id": 7, "name_zh": "温迪", "name_en": "Venti", "alias_zh": "巴巴托斯", "alias_en": "Barbatos"},
     {"id": 6, "name_zh": "雷泽", "name_en": "Razor"},
     {"id": 5, "name_zh": "迪卢克", "name_en": "Diluc"},
     {"id": 4, "name_zh": "芭芭拉", "name_en": "Barbara"},

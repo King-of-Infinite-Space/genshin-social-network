@@ -660,6 +660,14 @@
                 "target_en": "Eula",
                 "title_en": "Venti about Eula",
                 "content_en": "Eula has good taste when it comes to beverages of the alcoholic variety. Come summer or winter, she always likes them ice-cold. That's rare among Mondstadters these days! She and I would make great drinking buddies. Huh? My songs about the Lawrence Clan... She's heard them already? Eh, no harm done. Maybe she and I can do a duet sometime!"
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "温迪关于巴尔",
+                "content_zh": "听说，你把那位不可一世的雷电将军也击败了？啊…想当年她作为影武者的时候，就在追求极致的武技了。如今，也一定会借用各种各样的理由叫你做陪练吧。嗯嗯，偷偷告诉你她的弱点吧，耳朵凑过来——是「甜点心」哦！",
+                "target_en": "Raiden Shogun",
+                "title_en": "Venti about Baal",
+                "content_en": "So, I hear you defeated the mighty Raiden Shogun? Ah, I recall the days when she was a kagemusha, seeking to perfect her martial prowess. Hehe, she now no doubt employs a wide range of reasoning to get you to train with her. Oh but yes, come close and I shall let you in on her weakness — desserts!"
             }
         ]
     },
@@ -1168,10 +1176,10 @@
             {
                 "target_zh": "枫原万叶",
                 "title_zh": "北斗关于枫原万叶",
-                "content_zh": "万叶啊，挺成熟的一个小子，不如说有些成熟过头了。我并没有为他做太多，只是带他看了看海上的风浪，大部分的事情，其实是他自己悟出来的。",
+                "content_zh": "听说万叶那小子在天守阁外挡了雷电将军的一刀，不简单嘛！嗯…战争结束后，他回了我们南十字船队，说是继续和我们同行一段时间。我当然是非常欢迎了，如果哪天他决定要独自踏上下一段旅程，我再打一壶好酒为他送行，哈哈。",
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Beidou about Kaedehara Kazuha",
-                "content_en": "Kazuha? He's a mature kid... maybe a bit too mature. I didn't do too much for him, just brought him on board to see the ocean waves and all... He figured most of the stuff out by himself, really."
+                "content_en": "Kazuha? That scallywag actually blocked a strike from the Raiden Shogun outside Tenshukaku! Easier said than done... After the battle he came to the Crux Fleet — said he'd voyage with us a while longer. I was more than happy to oblige. If the day comes when he decides to set off again by himself on the next stage of his journey, I'll send him off with a drink, haha..."
             }
         ]
     },
@@ -1227,7 +1235,7 @@
                 "content_zh": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
                 "target_en": "Ganyu",
                 "title_en": "Ningguang about Ganyu",
-                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"It takes a hundred people to keep a secret, but only one to let it slip.\" When there are important affairs to deal with, it is always safer to investigate and resolve it personally."
+                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"even the most meticulous can fall prey to happenstance.\" When there are important affairs to deal with, it is always safer to investigate and resolve them personally."
             },
             {
                 "target_zh": "刻晴",
@@ -1801,6 +1809,14 @@
                 "target_en": "Yanfei",
                 "title_en": "Zhongli about Yanfei",
                 "content_en": "Despite never having signed a contract with me, she upholds order within many strata of Liyue society in her own way, dispelling misconceptions and correcting biases... Should her father one day return from his travels, I imagine that he would be even more delighted than I."
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "钟离关于巴尔",
+                "content_zh": "时间会淬炼一切意志。而她，恰好是会为信念付出所有的人。或许正因如此，她才能走到这一步。如有机会，我也想见识一下她为之倾尽一切的「永恒」。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Zhongli about Baal",
+                "content_en": "Time tempers all volition. Yet she would give up everyone for her beliefs. Perhaps it is for this very reason that she has come to where she stands today... Should the chance come by me, I too would like to learn of the Eternity for which she so earnestly endeavors."
             }
         ]
     },
@@ -2118,7 +2134,7 @@
                 "content_zh": "纯阳正气，阴阳合一？啧啧，嘶…没想到世上真有这种体质的人。",
                 "target_en": "Chongyun",
                 "title_en": "Hu Tao about Chongyun",
-                "content_en": "Positive energies and unity between yin and yang... Who knew such people existed in this world."
+                "content_en": "All yang and no yin? Huh, who knew such people existed in this world?"
             },
             {
                 "target_zh": "魈",
@@ -2406,6 +2422,30 @@
                 "content_en": "I owe Beidou my life. She took me in when I fled from Inazuma and gave me the courage to return there at the most difficult time of my life. She is a comrade in whom I and all the other sailors can place our trust."
             },
             {
+                "target_zh": "九条裟罗",
+                "title_zh": "枫原万叶关于九条裟罗·态度",
+                "content_zh": "能在御前决斗中战胜我的朋友，我确实认可她的实力。但她却用这样的力量为虎作伥，带领九条军不断回收「神之眼」，我无法原谅。",
+                "target_en": "Kujou Sara",
+                "title_en": "Kaedehara Kazuha about Kujou Sara",
+                "content_en": "She defeated my friend in a duel before the throne, which I accept as proof of her great strength. But she uses that strength to serve as an oppressor's lackey, leading the Kujou Clan's troops to relentlessly seek out and confiscate Visions. This... I cannot forgive."
+            },
+            {
+                "target_zh": "九条裟罗",
+                "title_zh": "枫原万叶关于九条裟罗·改观",
+                "content_zh": "原来如此。看来她也有自己坚持的信念。只是不知道风波平息后，「九条」家还能否延续曾经的昌盛。",
+                "target_en": "Kujou Sara",
+                "title_en": "Kaedehara Kazuha about Kujou Sara: Changing Perspective",
+                "content_en": "I see... So she does have her own ideals that she is fighting for. But I have to wonder: can the Kujou family flourish as they did before once this storm has passed?"
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "枫原万叶关于雷电将军",
+                "content_zh": "离开稻妻后，我许多次扪心自问，我对雷电将军的不满是否源于那一次御前决斗，是否源于她对友人落下的那一刀？我想了很久，觉得不是的。我的友人是堂堂正正地死在了决斗场上，雷电将军的那一刀也并无不妥。我对她的不满，来源于「眼狩令」。没有任何人有资格剥夺他人的愿望，即便是「神」也不行。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kaedehara Kazuha about the Raiden Shogun",
+                "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No one has the right to rob another of their hopes and dreams — not even a god."
+            },
+            {
                 "target_zh": "神里绫华",
                 "title_zh": "枫原万叶关于神里绫华",
                 "content_zh": "生活在稻妻的人，应该都听过「白鹭公主」这个名字吧。神里家的大小姐，近乎完美的一个人，不过我跟她没什么交集，不知道她对如今的稻妻抱有怎样的看法。",
@@ -2431,12 +2471,36 @@
         "img_url": "https://patchwiki.biligame.com/images/ys/4/4c/8h931m3f8nkkvjfq3f03c8a9h0f6x69.png",
         "lines": [
             {
+                "target_zh": "九条裟罗",
+                "title_zh": "神里绫华关于九条裟罗",
+                "content_zh": "为「天领奉行」工作的九条裟罗…她总是一脸严肃。我和她曾经起过几次争端，不过她本质是忠义之士，这点无可否认。",
+                "target_en": "Kujou Sara",
+                "title_en": "Kamisato Ayaka about Kujou Sara",
+                "content_en": "Kujou Sara of the Tenryou Commission is... not known to smile, and I have had my fair share of disputes with her. She is, however, a loyal servant to Inazuma, there is no question about that."
+            },
+            {
                 "target_zh": "早柚",
                 "title_zh": "神里绫华关于早柚",
                 "content_zh": "早柚这孩子，最近有没有给你添什么麻烦呢？如果看见她偷懒，可以直接告诉我。",
                 "target_en": "Sayu",
                 "title_en": "Kamisato Ayaka about Sayu",
                 "content_en": "Ah, little Sayu. She hasn't been causing you any trouble lately, has she? Hehe, if you ever notice her slacking off, please let me know."
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "神里绫华关于雷电将军·猜测",
+                "content_zh": "对大御所大人的看法吗？这并不该由我等下属随意议论。但…将军大人她，在追求「永恒」之路上，可能也很孤独吧。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kamisato Ayaka about the Raiden Shogun: Guesswork",
+                "content_en": "The Almighty Shogun? It would be improper of me to comment, given that I am one of her subjects. All I will say is that... I think that Her Excellency must get lonely on the road to eternity."
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "神里绫华关于雷电将军·立场",
+                "content_zh": "见证了「无想的一刀」并且活了下来，该说是堪称伟业的经历了吧。虽然对我来说，她是真正的神明，一念之间可以更改稻妻的命运，但如果是和你起了冲突的话…我一定会站在你这一边的。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kamisato Ayaka about the Raiden Shogun: Standpoint",
+                "content_en": "To witness the Musou no Hitotachi and live to tell the tale is quite a remarkable feat. Even though I recognize her as our true deity with the power to change Inazuma's fate at will, if there is conflict between the two of you, then... I shall choose to side with you."
             },
             {
                 "target_zh": "宵宫",
@@ -2464,6 +2528,14 @@
                 "content_en": "Beidou's been helping me ship my fireworks out ever since Inazuma was locked down. I prepared a huge boat-shaped firework just to surprise her — and when the Crux Fleet was about to leave, this firework went whoosh! Right in front of their eyes, straight into the sky. The sailors got such a huge fright — they thought one of their ships had somehow flown off! But Beidou liked that trick very much, saying that it was exactly what a pleasant surprise should be — very pleasant, and a surprise."
             },
             {
+                "target_zh": "雷电将军",
+                "title_zh": "宵宫关于雷电将军",
+                "content_zh": "烟花是和将军追求的「永恒」距离最远的东西，她可能觉得须臾的华光对于稻妻来说没有实际意义。唉，这就是执掌「永恒」的人难以理解的东西吧，正是因为我们都是「须臾之人」，才更需要纪念须臾的美好。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Yoimiya about the Raiden Shogun",
+                "content_en": "Fireworks are probably the furthest thing from the \"eternity\" that the Shogun pursues. She probably feels that their transient glory has no practical purpose in Inazuma. *sigh* It's probably something that one who has \"eternity\" in their grasp will find hard to comprehend. It is precisely because we mortals are like fleeting shadows that we need to treasure such flickers of beauty."
+            },
+            {
                 "target_zh": "神里绫华",
                 "title_zh": "宵宫关于神里绫华·认真",
                 "content_zh": "因为工作关系，她和我家有很多合作。和其他两个奉行的人不同，她每次都会听我把话说完，还会很认真地回答我，完全不会有不耐烦的样子。嗯，「大家闺秀」这个词，就是为她而生的吧。",
@@ -2486,6 +2558,14 @@
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Yoimiya about Kaedehara Kazuha",
                 "content_en": "People with no worries like myself speak plainly, while those with many cares often speak of ancient poetry or the scenery. They talk of flowers and birds, wind and moon, but never about the reality that confronts them. He's got quite the tale to tell, I'm sure."
+            },
+            {
+                "target_zh": "九条裟罗",
+                "title_zh": "宵宫关于九条裟罗",
+                "content_zh": "因为治安和消防问题，我经常被抓去天领奉行的属地接受教育。在那帮人里，九条裟罗应该是最讲道理的一个了，至少她不会在了解情况之前就预设我的对错。如果我是正确的，她也会认同我的观点，如果我错了…嘿嘿，那就去拜托托马帮我赔礼道歉。",
+                "target_en": "Kujou Sara",
+                "title_en": "Yoimiya about Kujou Sara",
+                "content_en": "Due to public safety and fire hazard-related concerns, I often get whisked off to the Tenryou Commission's place for a lecture. Kujou Sara's probably the most reasonable of the bunch. At least she'll hear me out before passing any judgment. If I'm in the right, she'll acknowledge my perspective, and if I'm wrong... Hehe, then I'll get Thoma to come and help me apologize to her!"
             },
             {
                 "target_zh": "早柚",
@@ -2527,6 +2607,107 @@
                 "target_en": "Yoimiya",
                 "title_en": "Sayu about Yoimiya",
                 "content_en": "Every time she sees me she says, \"Hey, little tanuki! Let's go hang out at the festival.\" Firstly, I'm not a tanuki. Secondly, I don't wanna go to a festival. Thirdly, she says she wants to hang out — but really, she just wants me to do a ninjutsu performance during the fireworks show. That's not even related to my work for the Shuumatsuban!"
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "早柚关于雷电将军",
+                "content_zh": "那位大人…不是我能见到的人物。想知道更多事情的话，或许问问绫华大小姐比较好。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Sayu about the Raiden Shogun",
+                "content_en": "Her Excellency? Definitely not someone I'd ever get to meet. If you've got questions, maybe Miss Ayaka's the person to ask."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name_zh": "埃洛伊",
+        "name_en": "Aloy",
+        "ver": "2.1.0",
+        "img_url": "https://patchwiki.biligame.com/images/ys/1/12/72b7b1cm9etjeqnpg5rmfafhhj3s1nm.png",
+        "lines": []
+    },
+    {
+        "id": 37,
+        "name_zh": "九条裟罗",
+        "name_en": "Kujou Sara",
+        "ver": "2.1.1",
+        "img_url": "https://patchwiki.biligame.com/images/ys/6/60/bkvh6arzlluljnmsp1c36hbtqf37epy.png",
+        "lines": [
+            {
+                "target_zh": "神里绫华",
+                "title_zh": "九条裟罗关于神里绫华",
+                "content_zh": "平时在九条家，只有士兵们在道场训练的声响，而每次路过神里家，总会听见舞乐声、打闹声、和笑声。听闻神里家的大小姐棋技了得，我一直等候时机，想要登门拜访，却又担心…像我这般严肃的人，是否会与那般氛围格格不入呢。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Kujou Sara about Kamisato Ayaka",
+                "content_en": "In the Kujou household, normally the only sound to be heard is that of soldiers training in the dojo. But in the Kamisato household, there is the sound of music, dance, bickering, and laughter... I have heard that Miss Kamisato is skilled in the game of Go, and have always hoped for an occasion to pay her a visit, but... I also worry that someone of a serious demeanor like myself may not quite fit in there."
+            },
+            {
+                "target_zh": "宵宫",
+                "title_zh": "九条裟罗关于宵宫",
+                "content_zh": "只要她不在我的军营里乱放烟花，我是不会找她麻烦的。哼，我知道，抛开别的不谈，她做的烟花的确流光溢彩，值得称赞。只不过烟花易逝，刹那光辉结束后，夜空上留下的依旧是黑暗。所以我时常提醒自己，想要贯彻护佑稻妻的使命，就不能沉沦在这些虚幻的光景中。",
+                "target_en": "Yoimiya",
+                "title_en": "Kujou Sara about Yoimiya",
+                "content_en": "As long as she is not setting off fireworks in my camp, I will cause her no trouble. Heh, yes, I know — all else aside, her fireworks are spectacular and brilliant, and she deserves all the praise she gets. The issue for me is that fireworks are fleeting in nature. After one brief moment of dazzling light, all that remains is the pitch-black night sky, the same as before. So I often have to caution myself not to become too captivated by this illusory spectacle. It is transient, but Inazuma is eternal, and my mission is to protect Inazuma."
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "九条裟罗关于雷电将军·相信",
+                "content_zh": "你肯定从不少地方听说过吧？将军大人追求的是无念无执的永恒，舍弃尘世的执念，执着不变的永恒。将军大人的言行决断，我并非每一处都能参透。但既然这是她的决定，我便相信她。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kujou Sara about the Raiden Shogun: Trust",
+                "content_en": "As I'm sure you've heard many times before, the Almighty Shogun seeks Eternity — an existence beyond the dominion of thought and longing. \"Abandon mortal ties, strive for an unchanging Eternity\"... The Almighty Shogun's manner is always resolute, and I do not always fully grasp the meaning of her words. But this is her decision, and I trust her."
+            },
+            {
+                "target_zh": "雷电将军",
+                "title_zh": "九条裟罗关于雷电将军·追随",
+                "content_zh": "「眼狩令」废除…嗯，看来你才是对的。咳…但这并不说明将军大人是错的。只是追求「永恒」之路的方式将要改变罢了。不知那位千百年来守护着稻妻的将军大人，如今心中是否平静呢。我只知道，不管道路上有多少险阻，我都会一如既往追随她。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kujou Sara about the Raiden Shogun: Service",
+                "content_en": "So, the Vision Hunt Decree was repealed... Yes, it seems that you were right. ...Ahem, but this is not to say that the Almighty Shogun made a mistake. She has simply chosen to pursue eternity by a different route. I do not know whether the Shogun has finally found inner peace after protecting Inazuma over all these millennia. All I know is that however perilous the road ahead may become, I will follow her as I have always done."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name_zh": "雷电将军",
+        "name_en": "Raiden Shogun",
+        "alias_zh": "巴尔",
+        "alias_en": "Baal",
+        "url_name": "shougun",
+        "ver": "2.1.1",
+        "img_url": "https://patchwiki.biligame.com/images/ys/1/11/e9o4gu6ztf7zytnvvkeoerbevkjfwjr.png",
+        "lines": [
+            {
+                "target_zh": "九条裟罗",
+                "title_zh": "雷电将军关于九条裟罗",
+                "content_zh": "忠义之士，武艺精湛，可担「豪杰」二字。有此麟儿，九条家应该还能兴盛下去吧。",
+                "target_en": "Kujou Sara",
+                "title_en": "Raiden Shogun about Kujou Sara",
+                "content_en": "A loyal and righteous subject, and an accomplished warrior. She is worthy to be called a hero. With an heir of such great promise, the future prosperity of the Kujou Clan is assured."
+            },
+            {
+                "target_zh": "宵宫",
+                "title_zh": "雷电将军关于宵宫",
+                "content_zh": "是谁来着？啊，做烟火的。制造须臾幻象的人，沉醉于夏日幻觉的人，虽说如此，亦为我之臣民。嗯，在天领奉行属地里炸烟花？谁啊，她吗？",
+                "target_en": "Yoimiya",
+                "title_en": "Raiden Shogun about Yoimiya",
+                "content_en": "Who? Ah, the firework maker. A manufacturer of fleeting illusions, enamored with the realm of fantasy and imagination, but a subject of mine nonetheless. Hmm? Fireworks were released on Tenryou Commission property? By whom... her?"
+            },
+            {
+                "target_zh": "钟离",
+                "title_zh": "雷电将军关于摩拉克斯",
+                "content_zh": "曾经与他共饮之时，我还只是一介影武者，敬陪众神末席。他做出了这样的选择是吗？不过，我想他在下一个时代，仍然会继续和更多的人相遇吧。",
+                "target_en": "Zhongli",
+                "title_en": "Raiden Shogun about Morax",
+                "content_en": "I had an opportunity to feast with him once, back when I was just a kagemusha attending a gathering of the gods. So he's made his choice. Be that as it may, I don't believe his story is anywhere near finished yet."
+            },
+            {
+                "target_zh": "温迪",
+                "title_zh": "雷电将军关于温迪",
+                "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
+                "target_en": "Venti",
+                "title_en": "Raiden Shogun about Venti",
+                "content_en": "That's the name the Anemo Archon takes these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     }

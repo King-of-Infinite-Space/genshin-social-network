@@ -40,24 +40,24 @@ This is project is for demonstration (and research?) only. Data are acquired fro
 ---
 
 ##### 作者声明 | Personal notice
-本人并非该游戏玩家，只是“云玩家”。抵制氪金游戏从我做起。
+本人并非该游戏玩家，只是“云玩家”。抵制氪金游戏从我做起。\
 I don't even play this game (only read and watch the stories). I'm against gacha games.
 
 ##### 类似项目 | Similar project
 [CaoMeiYouRen/genshin-relation-graph: 原神人物关系图](https://github.com/CaoMeiYouRen/genshin-relation-graph)
 
 ##### 原神相关百科网站 | Genshin wikis
-[原神WIKI_玩家共建原神百科-BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)
-[旅行者创作平台-观测枢-原神wiki-米游社](https://bbs.mihoyo.com/ys/obc/)  
-[原神 - 萌娘百科 万物皆可萌的百科全书](https://zh.moegirl.org.cn/%E5%8E%9F%E7%A5%9E)  
-[Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)  
-[Honey Impact | Honey Impact - Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) (multi-language | 多语言)
+[原神WIKI_玩家共建原神百科-BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)\
+[旅行者创作平台-观测枢-原神wiki-米游社](https://bbs.mihoyo.com/ys/obc/)\
+[原神 - 萌娘百科 万物皆可萌的百科全书](https://zh.moegirl.org.cn/%E5%8E%9F%E7%A5%9E)\
+[Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)\
+[Honey Impact | Honey Impact - Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) (multi-language | 多语言)\
+[Genshin DB - Genshin Impact Database](https://genshindb.org/)\
 [Genshin Impact Characters List - Genshin.gg Wiki Database](https://genshin.gg/)
-[Genshin DB - Genshin Impact Database](https://genshindb.org/)
 
 ##### Github上的其他原神相关项目（仅供参考） | Other Genshin related projects on Github (for reference only)
-[Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)  
-[uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)  
+[Dimbreath/GenshinData: Repository containing the game data for the game Genshin Impact.](https://github.com/Dimbreath/GenshinData)\
+[uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)\
 [GenshinMap/genshinmap.github.io: A flexible, community-driven interactive map for Genshin Impact.](https://github.com/GenshinMap/genshinmap.github.io)
 
 ---
