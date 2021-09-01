@@ -491,11 +491,11 @@ async function main() {
         }
     }
 
-    // for (const n of cy.$('node')){
-    //     if (n.degree() == 0){
-    //         n.remove()
-    //     }
-    // }
+    for (const n of cy.$('node')){
+        if (n.degree() == 0){
+            n.remove()
+        }
+    }
 
     setLayout(getSelectedOption())
 
