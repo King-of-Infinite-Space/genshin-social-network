@@ -587,6 +587,8 @@
         "id": 7,
         "name_zh": "温迪",
         "name_en": "Venti",
+        "alias_zh": "巴巴托斯",
+        "alias_en": "Barbatos",
         "img_url": "https://patchwiki.biligame.com/images/ys/5/58/487eqx6pk6si5abhemvrdkyexskvvbg.png",
         "lines": [
             {
@@ -1235,7 +1237,7 @@
                 "content_zh": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
                 "target_en": "Ganyu",
                 "title_en": "Ningguang about Ganyu",
-                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"even the most meticulous can fall prey to happenstance.\" When there are important affairs to deal with, it is always safer to investigate and resolve them personally."
+                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"It takes a hundred people to keep a secret, but only one to let it slip.\" When there are important affairs to deal with, it is always safer to investigate and resolve it personally."
             },
             {
                 "target_zh": "刻晴",
@@ -2134,7 +2136,7 @@
                 "content_zh": "纯阳正气，阴阳合一？啧啧，嘶…没想到世上真有这种体质的人。",
                 "target_en": "Chongyun",
                 "title_en": "Hu Tao about Chongyun",
-                "content_en": "All yang and no yin? Huh, who knew such people existed in this world?"
+                "content_en": "Positive energies and unity between yin and yang... Who knew such people existed in this world."
             },
             {
                 "target_zh": "魈",
@@ -2443,7 +2445,7 @@
                 "content_zh": "离开稻妻后，我许多次扪心自问，我对雷电将军的不满是否源于那一次御前决斗，是否源于她对友人落下的那一刀？我想了很久，觉得不是的。我的友人是堂堂正正地死在了决斗场上，雷电将军的那一刀也并无不妥。我对她的不满，来源于「眼狩令」。没有任何人有资格剥夺他人的愿望，即便是「神」也不行。",
                 "target_en": "Raiden Shogun",
                 "title_en": "Kaedehara Kazuha about the Raiden Shogun",
-                "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No one has the right to rob another of their hopes and dreams — not even a god."
+                "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No-one has the right to rob another of their hopes and dreams — not even a god."
             },
             {
                 "target_zh": "神里绫华",
@@ -2677,6 +2679,14 @@
         "ver": "2.1.1",
         "img_url": "https://patchwiki.biligame.com/images/ys/1/11/e9o4gu6ztf7zytnvvkeoerbevkjfwjr.png",
         "lines": [
+            {
+                "target_zh": "神里绫华",
+                "title_zh": "雷电将军关于神里绫华",
+                "content_zh": "神里一门，无愧于稻妻名门笔头之格。欸，你说我和将军的评价一模一样。那，绫华她，她剑术也很好。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Raiden Shogun about Kamisato Ayaka",
+                "content_en": "Kamisato... One of the most distinguished clans in all of Inazuma. Eh? That's exactly what the Shogun said? Well, A—Ayaka's also well-versed in the art of the sword."
+            },
             {
                 "target_zh": "九条裟罗",
                 "title_zh": "雷电将军关于九条裟罗",
