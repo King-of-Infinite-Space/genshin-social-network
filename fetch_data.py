@@ -12,16 +12,29 @@ char_names = json.load(open('char_names.json','r'))
 names_zh = [char['name_zh'] for char in char_names]
 
 #%%
-def find_quote_target(self_name, key, lang):
+def find_quote_target(self_name, key, lang) -> tuple[str, int]:
     about = {'en': 'About ', 'zh': '关于'}
     for char in char_names:
         name = char['name_'+lang]
         if name != self_name and char['name_zh'] not in char_skipped:
             if about[lang] in key and name in key:
-                return name
+                return name, char['id']
             if 'alias_'+lang in char:
                 if about[lang] in key and char['alias_'+lang] in key:
-                    return name
+                    return name, char['id']
+    return None, None
+
+def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
+    lines = []
+    if len(lines_zh) != len(lines_en):
+        raise ValueError(f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match")
+    for i in range(len(lines_zh)):
+        if lines_zh[i]['target_id'] == lines_en[i]['target_id']:
+            lines.append({**lines_zh[i], **lines_en[i]})
+        else:
+            print(lines_zh[i]['title_zh'], lines_en[i]['title_en'])
+            raise ValueError("Quote targets don't match")
+    return lines
 
 # not used anymore
 # Reference: https://www.mediawiki.org/wiki/API:Parsing_wikitext
@@ -133,9 +146,9 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
             tr1, tr2 = table.contents[:2]
             k = tr1.get_text()
 
-            target = find_quote_target(name, k, lang)
+            target_name, target_id = find_quote_target(name, k, lang)
             
-            if target is not None:
+            if target_name is not None:
                 while k.endswith('…') or k.endswith('·') or k.endswith(' '):
                     k = k[:-1]
                 tr2_str = str(tr2).replace('<br/><color>', '\n') # fischl
@@ -149,7 +162,8 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
                     k = name + k
                 lines.append({
                     # 'from_'+lang : name,
-                    'target_'+lang : target,
+                    'target_id': target_id,
+                    'target_'+lang : target_name,
                     'title_'+lang : k,
                     'content_'+lang : v,
                 })
@@ -192,9 +206,7 @@ if __name__ == '__main__':
                 char['img_url'] = char_images[name]
                 lines_zh = get_quotes_hhw(char, 'zh')
                 lines_en = get_quotes_hhw(char, 'en')
-                if len(lines_zh) != len(lines_en):
-                    raise ValueError(f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match")
-                char['lines'] = [{**lines_zh[i], **lines_en[i]} for i in range(len(lines_zh))]
+                char['lines'] = merge_lines(lines_zh, lines_en)
                 char_data.append(char)
                 print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
             except KeyboardInterrupt:
