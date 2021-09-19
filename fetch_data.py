@@ -104,6 +104,13 @@ def get_images_bwiki() -> tuple[dict[str, str], int]:
                 new_count += 1
                 print(f'-- Downloaded {img_path}')
             image_urls[name] = img_url
+
+    for fn in os.listdir('./images/'):
+        if '.png' in fn:
+            name = fn.split('.')[0]
+            # manually added images
+            if name not in image_urls:
+                image_urls[name] = ''
     return image_urls, new_count
 
 def get_quotes_hhw(char, lang='zh') -> list[dict]:
