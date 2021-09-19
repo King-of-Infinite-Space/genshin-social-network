@@ -21,7 +21,7 @@ document.getElementById('lang-slider-container').addEventListener('click', funct
     document.body.classList.add(lang)
 })
 
-const randomSeed = 8
+const randomSeed = 7
 
 const cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
