@@ -14,7 +14,7 @@ if (! navigator.language.startsWith('zh')){
 document.body.classList.add(lang)
 
 document.getElementById('lang-slider-container').addEventListener('click', function(){
-    slider = document.getElementById('lang-slider')
+    let slider = document.getElementById('lang-slider')
     document.body.classList.remove(langs[slider.value])
     slider.value = 1 - slider.value;
     lang = langs[slider.value]
@@ -22,6 +22,12 @@ document.getElementById('lang-slider-container').addEventListener('click', funct
 })
 
 const randomSeed = 7
+
+let charData;
+const charNames = {
+    'en': [],
+    'zh': []
+};
 
 const cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
@@ -81,9 +87,6 @@ const cy = cytoscape({
   
 });
 
-// let savedLayouts = {}
-// let prevOption = getSelectedOption()
-
 let centeredNode;
 let centeredNodePrevPosition;
 
@@ -94,6 +97,9 @@ function getSelectedOption(){
         }
     }
 }
+
+// let savedLayouts = {}
+// let prevOption = getSelectedOption()
 
 // function storeLayout() {
 //     const data = cy.json();
@@ -454,11 +460,6 @@ async function getJson(url) {
     return data;
 }
 
-let charData;
-const charNames = {
-    'en': [],
-    'zh': []
-};
 
 async function main() {
     charData = await getJson(`${URL_BASE}/char_data.json`)
@@ -472,7 +473,7 @@ async function main() {
             group: 'nodes',
             data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
             style: {
-                'background-image': `${URL_BASE}/images/${char.name_zh}.png`
+                'background-image': char.img_url,
                 }
         })
     }

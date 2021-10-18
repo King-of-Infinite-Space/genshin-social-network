@@ -2,7 +2,6 @@
 
 import requests
 import json
-import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import os
@@ -73,6 +72,7 @@ def get_quotes_bwiki(name):
     # print(entries)
     return entries
 
+# not used anymore
 def get_images_bwiki() -> tuple[dict[str, str], int]: 
     image_urls = {}
 
@@ -112,6 +112,29 @@ def get_images_bwiki() -> tuple[dict[str, str], int]:
             if name not in image_urls:
                 image_urls[name] = ''
     return image_urls, new_count
+
+def get_char_images() -> dict[str, str]:
+    URL = "https://ys.mihoyo.com/content/ysCn/getContentList?pageSize=100&pageNum=1&order=asc&channelId=152"
+    # api from https://ys.mihoyo.com/main/character/mondstadt
+    # channelId 150 mondstadt, 151 liyue, 324 inazuma; 152 seems to be all chars, stumbled across
+    # alternatively from english / other language website https://genshin.mihoyo.com/en/character/mondstadt
+    # 487, 488, 1108 [489 all]
+
+    S = requests.Session()
+
+    res = S.get(url=URL)
+    data = res.json()
+    # char_count = data['data']['total']
+    char_list = data['data']['list']
+    img_dict = {}
+    for entry in char_list:
+        name = entry['title']
+        for d in entry['ext']:
+            if d['arrtName'] == '角色-ICON':
+                img_url = d['value'][0]['url']
+                img_dict[name] = img_url
+                break
+    return img_dict
 
 def get_quotes_hhw(char, lang='zh') -> list[dict]:
     """
@@ -180,65 +203,71 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
 
 #%%
 if __name__ == '__main__':
-    print('---- Starting ----')
-    print('---- Downloading images ----')
-    char_images, count_new = get_images_bwiki()
-    print(f'---- Downloaded {count_new} new images ----')
+    print('--- Starting ---')
+    print('--- Fetching image source ---')
+    char_images = get_char_images()
 
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
     char_skipped = []
-    if len(char_pending) == 0: # start anew
-        char_data = []
-        char_pending = []
-        for name in names_zh:
-            if name in char_images.keys():
-                char_pending.append(name)
-            else:
-                char_skipped.append(name)
-                print(f"{name} skipped")
-    else: # resume from last checkpoint
-        char_data = json.load(open('char_data.json','r'))
+    char_data_old = json.load(open('char_data.json','r'))
 
     count_total = len(char_images)
-    count_pending = len(char_pending)
+    count_old = len(char_data_old)
 
-    print(f'---- Updating {count_pending} / {count_total} ----')
-    i = 1
-    for char in char_names:
-        name = char['name_zh']
-        if name in char_pending:
-            try:
-                char = char.copy()
-                char['img_url'] = char_images[name]
-                lines_zh = get_quotes_hhw(char, 'zh')
-                lines_en = get_quotes_hhw(char, 'en')
-                char['lines'] = merge_lines(lines_zh, lines_en)
-                char_data.append(char)
-                print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
-            except KeyboardInterrupt:
-                raise KeyboardInterrupt
-            except:
-                print(f"{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
-                char_error.append(char['name_zh'])
-            i += 1
-
-    if count_total != len(char_data) + len(char_error):
-        raise ValueError("Number of entries doesn't match images.")
-    
-    if len(char_error) == 0:
-        char_data.sort(key=lambda x: x['id'])
-
-    with open("char_data.json", "w", encoding='utf8') as f:
-        json.dump(char_data, f, ensure_ascii=False, indent=4)
-
-    with open("char_pending.json", "w", encoding='utf8') as f:
-        json.dump(char_error, f, ensure_ascii=False, indent=4)
-    
-    print(f'---- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  ----')
-    if len(char_error):
-        print(f'--- Error with {len(char_error)} chars')
-        print(*char_error)
+    if count_total <= count_old:
+        # no update
+        print(f'-- {count_total} released / {count_old} fetched --')
     else:
-        print('---- Complete! ----')
+        char_data = []
+        if len(char_pending) == 0: # start anew
+            for name in names_zh:
+                if name in char_images:
+                    char_pending.append(name)
+                else:
+                    char_skipped.append(name)
+            print(f"-- Skipped {' '.join(char_skipped)} --")
+        else: # resume from last checkpoint
+            char_data = char_data_old.copy()
+
+        count_pending = len(char_pending)
+        print(f'-- {count_total} released / {count_old} fetched / {count_pending} pending --')
+
+        print(f'--- Fetching data ---')
+        i = 1
+        for char in char_names:
+            name = char['name_zh']
+            if name in char_pending:
+                try:
+                    char = char.copy()
+                    char['img_url'] = char_images[name]
+                    lines_zh = get_quotes_hhw(char, 'zh')
+                    lines_en = get_quotes_hhw(char, 'en')
+                    char['lines'] = merge_lines(lines_zh, lines_en)
+                    char_data.append(char)
+                    print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
+                except KeyboardInterrupt:
+                    raise KeyboardInterrupt
+                except:
+                    print(f"{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
+                    char_error.append(char['name_zh'])
+                i += 1
+
+        if count_total != len(char_data) + len(char_error):
+            raise ValueError("Number of entries doesn't match images.")
+        
+        print(f'-- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  --')
+        # write data files
+        if len(char_error) == 0:
+            char_data.sort(key=lambda x: x['id'])
+        else:
+            print(f"-- {len(char_error)} errors {' '.join(char_error)}")
+
+        with open("char_data.json", "w", encoding='utf8') as f:
+            json.dump(char_data, f, ensure_ascii=False, indent=4)
+
+        with open("char_pending.json", "w", encoding='utf8') as f:
+            json.dump(char_error, f, ensure_ascii=False, indent=4)
+        
+    print('--- Complete! ---')
 # %%
