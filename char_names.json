@@ -1,7 +1,13 @@
-[
+[   
+    {"id": 41, "name_zh": "荒泷一斗", "name_en": "Arataki Itto", "ver": "2.2.2"},
+    {"id": 41, "name_zh": "五郎", "name_en": "Gorou", "ver": "2.2.2"},
+    {"id": 41, "name_zh": "八重神子", "name_en": "Yae Miko", "ver": "2.2.2"},
+    
+    {"id": 41, "name_zh": "托马", "name_en": "Thoma", "ver": "2.2.2"},
+
     {"id": 40, "name_zh": "珊瑚宫心海", "name_en": "Sangonomiya Kokomi", "ver": "2.1.2"},
-    {"id": 39, "name_zh": "雷电将军", "name_en": "Raiden Shogun", "alias_zh": "巴尔", "alias_en": "Baal", "url_name": "shougun", "ver": "2.1.1"},
-    {"id": 38, "name_zh": "九条裟罗", "name_en": "Kujou Sara", "ver": "2.1.1"},
+    {"id": 39, "name_zh": "九条裟罗", "name_en": "Kujou Sara", "ver": "2.1.1"},
+    {"id": 38, "name_zh": "雷电将军", "name_en": "Raiden Shogun", "alias_zh": "巴尔", "alias_en": "Baal", "url_name": "shougun", "ver": "2.1.1"},
     {"id": 37, "name_zh": "埃洛伊", "name_en": "Aloy", "ver": "2.1.0"},
     
     {"id": 36, "name_zh": "早柚", "name_en": "Sayu", "ver": "2.0.2"},
