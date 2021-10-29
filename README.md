@@ -34,8 +34,8 @@ Some stats (as of game ver. 1.5)
 
 #### 版权声明 | Copyright disclaimer
 
-本项目仅用于演示（和研究？）目的。图像和文本分别获取于[原神WIKI_BWIKI_哔哩哔哩](https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5)(通过MediaWiki API。遵循CC BY-NC-SA协议）和[Honey Impact |  Genshin Impact DB and Tools](https://genshin.honeyhunterworld.com/) 。游戏内容版权归mihoyo所有。\
-This is project is for demonstration (and research?) only. Data are acquired from __ (image) & __ (text) . Copyright holder of game data is mihoyo.
+本项目仅用于演示和研究目的。游戏内容版权归mihoyo所有。\
+This project is for demonstration and research purpose only. Copyright holder of game data is mihoyo.
 
 ---
 
