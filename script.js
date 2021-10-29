@@ -31,8 +31,10 @@ const charNames = {
 
 const cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
-    boxSelectionEnabled: false,
     elements: [],
+    boxSelectionEnabled: false,
+    minZoom: 0.1,
+    maxZoom: 2.5, // auto ~0.5
     style: [ // the stylesheet for the graph
       {
         selector: 'node',
