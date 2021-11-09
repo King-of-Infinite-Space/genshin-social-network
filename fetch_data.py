@@ -7,20 +7,17 @@ import re
 import os
 import traceback
 
-char_names = json.load(open('char_names.json','r'))
-names_zh = [char['name_zh'] for char in char_names]
-
 #%%
-def find_quote_target(self_name, key, lang) -> tuple[str, int]:
+def find_quote_target(title, self_name, name_list, lang) -> tuple[str, int]:
     about = {'en': 'About ', 'zh': '关于'}
-    for char in char_names:
+    for char in name_list:
         name = char['name_'+lang]
-        if name != self_name and char['name_zh'] not in char_skipped:
-            if about[lang] in key and name in key:
-                return name, char['id']
+        if name != self_name:
+            if about[lang] in title and name in title:
+                return name, char['oid']
             if 'alias_'+lang in char:
-                if about[lang] in key and char['alias_'+lang] in key:
-                    return name, char['id']
+                if about[lang] in title and char['alias_'+lang] in title:
+                    return name, char['oid']
     return None, None
 
 def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
@@ -28,9 +25,10 @@ def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
     if len(lines_zh) != len(lines_en):
         raise ValueError(f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match")
     for i in range(len(lines_zh)):
-        if lines_zh[i]['target_id'] == lines_en[i]['target_id']:
+        if lines_zh[i]['target_oid'] == lines_en[i]['target_oid']:
             lines.append({**lines_zh[i], **lines_en[i]})
         else:
+            # reordering not implemented
             print(lines_zh[i]['title_zh'], lines_en[i]['title_en'])
             raise ValueError("Quote targets don't match")
     return lines
@@ -73,7 +71,7 @@ def get_quotes_bwiki(name):
     return entries
 
 # not used anymore
-def get_images_bwiki() -> tuple[dict[str, str], int]: 
+def get_images_bwiki(char_dict) -> tuple[dict[str, str], int]: 
     image_urls = {}
 
     S = requests.Session()
@@ -93,7 +91,7 @@ def get_images_bwiki() -> tuple[dict[str, str], int]:
     for tr in table.find_all('tr')[1:]: #ignore thead
         a = tr.td.a # from first td
         name = a['title']
-        if name in names_zh: # true only if the image exists in the table
+        if name in char_dict: # true only if the image exists in the table
             srcset = a.img['srcset']
             img_url = srcset.split('1.5x, ')[-1].replace(' 2x','')
             img_path = f"./images/{name}.png"
@@ -113,30 +111,43 @@ def get_images_bwiki() -> tuple[dict[str, str], int]:
                 image_urls[name] = ''
     return image_urls, new_count
 
-def get_char_images() -> dict[str, str]:
-    URL = "https://ys.mihoyo.com/content/ysCn/getContentList?pageSize=100&pageNum=1&order=asc&channelId=152"
+def get_char_api() -> dict[str, str]:
     # api from https://ys.mihoyo.com/main/character/mondstadt
     # channelId 150 mondstadt, 151 liyue, 324 inazuma; 152 seems to be all chars, stumbled across
     # alternatively from english / other language website https://genshin.mihoyo.com/en/character/mondstadt
     # 487, 488, 1108 [489 all]
+    URL_zh = "https://ys.mihoyo.com/content/ysCn/getContentList?pageSize=100&pageNum=1&channelId=152"
+    URL_en = "https://genshin.mihoyo.com/content/yuanshen/getContentList?pageSize=100&pageNum=1&channelId=489" 
+    # without &order=asc newest first
 
     S = requests.Session()
 
-    res = S.get(url=URL)
+    res = S.get(url=URL_zh)
     data = res.json()
-    # char_count = data['data']['total']
-    char_list = data['data']['list']
-    img_dict = {}
-    for entry in char_list:
+    res2 = S.get(url=URL_en)
+    data2 = res2.json()
+    char_count = data['data']['total']
+    char_list_zh = data['data']['list']
+    char_list_en = data2['data']['list']
+    if len(char_list_zh) != len(char_list_en):
+        raise ValueError(f"{len(char_list_zh)} ZH and {len(char_list_en)} EN characters don't match")
+    char_dict = {}
+    for i, entry in enumerate(char_list_zh):
         name = entry['title']
-        for d in entry['ext']:
-            if d['arrtName'] == '角色-ICON':
-                img_url = d['value'][0]['url']
-                img_dict[name] = img_url
+        d = {
+            'oid': char_count - i,
+            'name_zh': name,
+            'name_en': char_list_en[i]['title'],
+        }
+        for subentry in entry['ext']:
+            if subentry['arrtName'] == '角色-ICON':
+                img_url = subentry['value'][0]['url']
+                d['img_url'] = img_url
                 break
-    return img_dict
+        char_dict[name] = d
+    return char_dict
 
-def get_quotes_hhw(char, lang='zh') -> list[dict]:
+def get_quotes_hhw(char, name_list, lang='zh') -> list[dict]:
     """
         get lines from *char* to other chars
     """
@@ -176,7 +187,7 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
             tr1, tr2 = table.contents[:2]
             k = tr1.get_text()
 
-            target_name, target_id = find_quote_target(name, k, lang)
+            target_name, target_oid = find_quote_target(k, name, name_list, lang)
             
             if target_name is not None:
                 while k.endswith('…') or k.endswith('·') or k.endswith(' '):
@@ -192,7 +203,7 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
                     k = name + k
                 lines.append({
                     # 'from_'+lang : name,
-                    'target_id': target_id,
+                    'target_oid': target_oid,
                     'target_'+lang : target_name,
                     'title_'+lang : k,
                     'content_'+lang : v,
@@ -201,18 +212,38 @@ def get_quotes_hhw(char, lang='zh') -> list[dict]:
 
     return lines
 
-#%%
-if __name__ == '__main__':
+def update_names(char_dict):
+    entries = []
+    with open('./char_names.json', 'r') as f:
+        lines = f.readlines()
+        char_names_old = json.load(f)
+    names_old = [char['name_zh'] for char in char_names_old]
+    for k in char_dict:
+        if k not in names_old:
+            d = char_dict[k].copy()
+            d['ver'] = ''
+            entry = '    ' + json.dumps(d) + ',\n'
+            entries.append(entry)
+    lines = lines[0] + entries + lines[1:]
+    with open('./char_names.json', 'w') as f:
+        f.writelines(lines)
+
+def main():
     print('--- Starting ---')
-    print('--- Fetching image source ---')
-    char_images = get_char_images()
+    print('--- Fetching mhy api ---')
+    char_dict = get_char_api()
+    update_names(char_dict)
+    char_names = json.load(open('char_names.json','r'))
+    # may contain entries added in advance manually; id is just for reference
+    names_zh = [char['name_zh'] for char in char_names]
+    name_list = list(char_dict.keys())
 
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
     char_skipped = []
     char_data_old = json.load(open('char_data.json','r'))
 
-    count_total = len(char_images)
+    count_total = len(char_dict)
     count_old = len(char_data_old)
 
     if count_total <= count_old:
@@ -222,7 +253,7 @@ if __name__ == '__main__':
         char_data = []
         if len(char_pending) == 0: # start anew
             for name in names_zh:
-                if name in char_images:
+                if name in char_dict:
                     char_pending.append(name)
                 else:
                     char_skipped.append(name)
@@ -235,14 +266,12 @@ if __name__ == '__main__':
 
         print(f'--- Fetching data ---')
         i = 1
-        for char in char_names:
-            name = char['name_zh']
+        for name in char_dict:
             if name in char_pending:
                 try:
-                    char = char.copy()
-                    char['img_url'] = char_images[name]
-                    lines_zh = get_quotes_hhw(char, 'zh')
-                    lines_en = get_quotes_hhw(char, 'en')
+                    char = char_dict[name]
+                    lines_zh = get_quotes_hhw(char, name_list, 'zh')
+                    lines_en = get_quotes_hhw(char, name_list, 'en')
                     char['lines'] = merge_lines(lines_zh, lines_en)
                     char_data.append(char)
                     print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
@@ -259,7 +288,7 @@ if __name__ == '__main__':
         print(f'-- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  --')
         # write data files
         if len(char_error) == 0:
-            char_data.sort(key=lambda x: x['id'])
+            char_data.sort(key=lambda x: x['oid'])
         else:
             print(f"-- {len(char_error)} errors {' '.join(char_error)}")
 
@@ -270,4 +299,7 @@ if __name__ == '__main__':
             json.dump(char_error, f, ensure_ascii=False, indent=4)
         
     print('--- Complete! ---')
-# %%
+
+#%%
+if __name__ == '__main__':
+    main()
