@@ -122,9 +122,9 @@ def get_char_api() -> dict[str, str]:
 
     S = requests.Session()
 
-    res = S.get(url=URL_zh)
+    res = S.get(url=URL_zh, timeout=20)
     data = res.json()
-    res2 = S.get(url=URL_en)
+    res2 = S.get(url=URL_en, timeout=20)
     data2 = res2.json()
     char_count = data['data']['total']
     char_list_zh = data['data']['list']
@@ -216,32 +216,36 @@ def update_names(char_dict):
     entries = []
     with open('./char_names.json', 'r') as f:
         lines = f.readlines()
-        char_names_old = json.load(f)
+        char_names_old = json.loads(''.join(lines))
     names_old = [char['name_zh'] for char in char_names_old]
     for k in char_dict:
         if k not in names_old:
             d = char_dict[k].copy()
+            del d['img_url']
             d['ver'] = ''
-            entry = '    ' + json.dumps(d) + ',\n'
+            entry = '    ' + json.dumps(d, ensure_ascii=False) + ',\n'
             entries.append(entry)
-    lines = lines[0] + entries + lines[1:]
-    with open('./char_names.json', 'w') as f:
-        f.writelines(lines)
+    if len(entries) > 0:
+        entries.append('\n')
+        lines = [lines[0]] + entries + lines[1:]
+        with open('./char_names.json', 'w') as f:
+            f.writelines(lines)
 
 def main():
     print('--- Starting ---')
     print('--- Fetching mhy api ---')
     char_dict = get_char_api()
-    update_names(char_dict)
-    char_names = json.load(open('char_names.json','r'))
-    # may contain entries added in advance manually; id is just for reference
-    names_zh = [char['name_zh'] for char in char_names]
-    name_list = list(char_dict.keys())
+    char_names = list(char_dict.keys())
+    print('-- Last 3 %s --'%' '.join(char_names[:3]))
+    # char_names = json.load(open('char_names.json','r'))
+    # # may contain entries added in advance manually; id is just for reference
+    # names_zh = [char['name_zh'] for char in char_names]
 
+    char_data_old = json.load(open('char_data.json','r'))
+    char_names_old = {c['name_zh'] for c in char_data_old}
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
-    char_skipped = []
-    char_data_old = json.load(open('char_data.json','r'))
+    char_names_new = [n for n in char_names if n not in char_names_old]
 
     count_total = len(char_dict)
     count_old = len(char_data_old)
@@ -250,28 +254,25 @@ def main():
         # no update
         print(f'-- {count_total} released / {count_old} fetched --')
     else:
+        update_names(char_dict)
+        print(f"-- New {' '.join(char_names_new)} --")
         char_data = []
         if len(char_pending) == 0: # start anew
-            for name in names_zh:
-                if name in char_dict:
-                    char_pending.append(name)
-                else:
-                    char_skipped.append(name)
-            print(f"-- Skipped {' '.join(char_skipped)} --")
+            char_pending = char_names
         else: # resume from last checkpoint
             char_data = char_data_old.copy()
 
         count_pending = len(char_pending)
         print(f'-- {count_total} released / {count_old} fetched / {count_pending} pending --')
 
-        print(f'--- Fetching data ---')
+        print(f'--- Fetching quotes ---')
         i = 1
         for name in char_dict:
             if name in char_pending:
                 try:
                     char = char_dict[name]
-                    lines_zh = get_quotes_hhw(char, name_list, 'zh')
-                    lines_en = get_quotes_hhw(char, name_list, 'en')
+                    lines_zh = get_quotes_hhw(char, char_names, 'zh')
+                    lines_en = get_quotes_hhw(char, char_names, 'en')
                     char['lines'] = merge_lines(lines_zh, lines_en)
                     char_data.append(char)
                     print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
@@ -284,13 +285,16 @@ def main():
 
         if count_total != len(char_data) + len(char_error):
             raise ValueError("Number of entries doesn't match images.")
-        
+
+        commit_msg = ''
         print(f'-- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  --')
         # write data files
         if len(char_error) == 0:
             char_data.sort(key=lambda x: x['oid'])
+            commit_msg = f"new {' '.join(char_names_new)}"
         else:
             print(f"-- {len(char_error)} errors {' '.join(char_error)}")
+            commit_msg = f"update incomplete for {' '.join(char_names_new)}"
 
         with open("char_data.json", "w", encoding='utf8') as f:
             json.dump(char_data, f, ensure_ascii=False, indent=4)
@@ -299,7 +303,11 @@ def main():
             json.dump(char_error, f, ensure_ascii=False, indent=4)
         
     print('--- Complete! ---')
+    return commit_msg
 
 #%%
 if __name__ == '__main__':
-    main()
+    commit_msg = main()
+    with open('msg.log', 'w') as f:
+        f.write(commit_msg)
+        

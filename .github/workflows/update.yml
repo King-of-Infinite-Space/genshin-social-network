@@ -1,0 +1,66 @@
+name: update-char-data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 3' # runs at 12:00 UTC every Wed
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      continue: ${{ steps.step1.outputs.result }}
+    steps:
+      - uses: actions/github-script@v5
+        id: step1
+        env:
+          EVENT: '${{ env.GITHUB_EVENT_NAME }}'
+        with:
+          script: |
+            const {EVENT} = process.env
+            if ( EVENT !== 'schedule'){
+              return true
+            } else {
+              const dt = new Date() - new Date(2021,10,3);
+              const dd = Math.round(dt/(1000*60*60*24));
+              // runs every 3 weeks on Wed
+              return !(dd % 21)
+            }
+          
+  update:
+    needs: check
+    if: ${{needs.check.outputs.continue}}
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.6'
+          
+      - name: install python packages
+        run: |
+          pip install -r requirements.txt
+          
+      - name: execute python script
+        id: script
+        run: python fetch_data.py
+
+      - name: get message
+        id: message
+        run: echo "::set-output name=msg::$(cat msg.log)"
+
+      - name: commit changes
+        if: ${{ steps.message.outputs.msg != '' }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ${{ steps.message.outputs.msg }}
+      
+      - name: raise error if incomplete
+        if: ${{ contains(steps.message.outputs.msg,'incomplete') }}
+        run: exit 1
