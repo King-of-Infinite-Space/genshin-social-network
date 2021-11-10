@@ -243,9 +243,10 @@ def main():
 
     char_data_old = json.load(open('char_data.json','r'))
     char_names_old = {c['name_zh'] for c in char_data_old}
+    char_names_new = [n for n in char_names if n not in char_names_old]
     char_pending = json.load(open('char_pending.json','r'))
     char_error = []
-    char_names_new = [n for n in char_names if n not in char_names_old]
+    commit_msg = ''
 
     count_total = len(char_dict)
     count_old = len(char_data_old)
@@ -286,7 +287,6 @@ def main():
         if count_total != len(char_data) + len(char_error):
             raise ValueError("Number of entries doesn't match images.")
 
-        commit_msg = ''
         print(f'-- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  --')
         # write data files
         if len(char_error) == 0:
