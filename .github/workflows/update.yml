@@ -13,17 +13,15 @@ jobs:
     steps:
       - uses: actions/github-script@v5
         id: step1
-        env:
-          EVENT: '${{ env.GITHUB_EVENT_NAME }}'
         with:
           script: |
-            const {EVENT} = process.env
-            if ( EVENT !== 'schedule'){
+            const event = process.env.GITHUB_EVENT_NAME
+            console.log('Started on ' + event)
+            if ( event !== 'schedule'){
               return true
             } else {
               const dt = new Date() - new Date(2021,10,3);
               const dd = Math.round(dt/(1000*60*60*24));
-              // runs every 3 weeks on Wed
               return !(dd % 21)
             }
           
