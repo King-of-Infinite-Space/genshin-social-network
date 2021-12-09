@@ -86,7 +86,7 @@ def get_images_bwiki(char_dict) -> tuple[dict[str, str], int]:
     res = S.get(url=URL, params=PARAMS)
     html_doc = res.json()['parse']['text']['*']
     # table = pd.read_html(data, attrs={'id':"CardSelectTr"})
-    soup = BeautifulSoup(html_doc,features="lxml")
+    soup = BeautifulSoup(html_doc, 'html.parser')
     table = soup.find(id='CardSelectTr')
     new_count = 0
     for tr in table.find_all('tr')[1:]: #ignore thead
@@ -169,7 +169,7 @@ def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
 
     S = requests.Session()
     res = S.get(url=URL)
-    soup = BeautifulSoup(res.content, features="lxml")
+    soup = BeautifulSoup(res.content, 'html.parser')
 
     # check name
     # display_name = soup.find('div', class_='custom_title').get_text()
@@ -194,7 +194,7 @@ def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
                 while k.endswith('…') or k.endswith('·') or k.endswith(' '):
                     k = k[:-1]
                 tr2_str = str(tr2).replace('<br/><color>', '\n') # fischl
-                tr2 = BeautifulSoup(tr2_str, features="lxml")
+                tr2 = BeautifulSoup(tr2_str, 'html.parser')
                 v = tr2.get_text()
                 
                 if lang == 'en':
@@ -270,7 +270,7 @@ def main():
         char_names = list(char_dict.keys())
         char_pending = char_names
         count_total = len(char_dict)
-        print(f"\tLast 3 {' '.join(char_names[:3])}")
+        print(f"\tLast3 {' '.join(char_names[:3])}")
 
         if count_total <= count_old:
             print(f'\t{count_total} released / {count_old} saved')
