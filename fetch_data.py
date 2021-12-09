@@ -6,18 +6,19 @@ from bs4 import BeautifulSoup
 import re
 import os
 import traceback
+from datetime import date
 
 #%%
-def find_quote_target(title, self_name, name_list, lang) -> tuple[str, int]:
+def find_quote_target(title, self_name, char_dict, lang) -> tuple[str, int]:
     about = {'en': 'About ', 'zh': '关于'}
-    for char in name_list:
+    for char in char_dict.values():
         name = char['name_'+lang]
         if name != self_name:
             if about[lang] in title and name in title:
-                return name, char['oid']
+                return name, char['id']
             if 'alias_'+lang in char:
                 if about[lang] in title and char['alias_'+lang] in title:
-                    return name, char['oid']
+                    return name, char['id']
     return None, None
 
 def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
@@ -25,7 +26,7 @@ def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
     if len(lines_zh) != len(lines_en):
         raise ValueError(f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match")
     for i in range(len(lines_zh)):
-        if lines_zh[i]['target_oid'] == lines_en[i]['target_oid']:
+        if lines_zh[i]['target_id'] == lines_en[i]['target_id']:
             lines.append({**lines_zh[i], **lines_en[i]})
         else:
             # reordering not implemented
@@ -100,7 +101,7 @@ def get_images_bwiki(char_dict) -> tuple[dict[str, str], int]:
                 with open(img_path, "wb") as f:
                     f.write(r.content)
                 new_count += 1
-                print(f'-- Downloaded {img_path}')
+                print(f'Downloaded {img_path}')
             image_urls[name] = img_url
 
     for fn in os.listdir('./images/'):
@@ -111,7 +112,7 @@ def get_images_bwiki(char_dict) -> tuple[dict[str, str], int]:
                 image_urls[name] = ''
     return image_urls, new_count
 
-def get_char_api() -> dict[str, str]:
+def get_char_api() -> dict[str, dict[str, str]]:
     # api from https://ys.mihoyo.com/main/character/mondstadt
     # channelId 150 mondstadt, 151 liyue, 324 inazuma; 152 seems to be all chars, stumbled across
     # alternatively from english / other language website https://genshin.mihoyo.com/en/character/mondstadt
@@ -130,12 +131,12 @@ def get_char_api() -> dict[str, str]:
     char_list_zh = data['data']['list']
     char_list_en = data2['data']['list']
     if len(char_list_zh) != len(char_list_en):
-        raise ValueError(f"{len(char_list_zh)} ZH and {len(char_list_en)} EN characters don't match")
+        raise ValueError(f"{len(char_list_zh)} ZH and {len(char_list_en)} EN char data entries don't match")
     char_dict = {}
     for i, entry in enumerate(char_list_zh):
         name = entry['title']
         d = {
-            'oid': char_count - i,
+            'id': char_count - i, # last one = 1
             'name_zh': name,
             'name_en': char_list_en[i]['title'],
         }
@@ -147,7 +148,7 @@ def get_char_api() -> dict[str, str]:
         char_dict[name] = d
     return char_dict
 
-def get_quotes_hhw(char, name_list, lang='zh') -> list[dict]:
+def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
     """
         get lines from *char* to other chars
     """
@@ -187,7 +188,7 @@ def get_quotes_hhw(char, name_list, lang='zh') -> list[dict]:
             tr1, tr2 = table.contents[:2]
             k = tr1.get_text()
 
-            target_name, target_oid = find_quote_target(k, name, name_list, lang)
+            target_name, target_id = find_quote_target(k, name, char_dict, lang)
             
             if target_name is not None:
                 while k.endswith('…') or k.endswith('·') or k.endswith(' '):
@@ -203,7 +204,7 @@ def get_quotes_hhw(char, name_list, lang='zh') -> list[dict]:
                     k = name + k
                 lines.append({
                     # 'from_'+lang : name,
-                    'target_oid': target_oid,
+                    'target_id': target_id,
                     'target_'+lang : target_name,
                     'title_'+lang : k,
                     'content_'+lang : v,
@@ -212,97 +213,119 @@ def get_quotes_hhw(char, name_list, lang='zh') -> list[dict]:
 
     return lines
 
-def update_names(char_dict):
+def update_local_list(char_dict, ver):
     entries = []
-    with open('./char_names.json', 'r') as f:
+    with open('./char_list.json', 'r') as f:
         lines = f.readlines()
-        char_names_old = json.loads(''.join(lines))
-    names_old = [char['name_zh'] for char in char_names_old]
+    char_list_local = json.loads(''.join(lines))
+    names_local = {char['name_zh'] for char in char_list_local}
     for k in char_dict:
-        if k not in names_old:
+        if k not in names_local:
             d = char_dict[k].copy()
             del d['img_url']
-            d['ver'] = ''
+            d['ver'] = ver
             entry = '    ' + json.dumps(d, ensure_ascii=False) + ',\n'
             entries.append(entry)
     if len(entries) > 0:
-        entries.append('\n')
+        if char_list_local[0]['ver'][:3] != ver[:3]:
+            entries.append('\n')
         lines = [lines[0]] + entries + lines[1:]
-        with open('./char_names.json', 'w') as f:
+        with open('./char_list.json', 'w') as f:
             f.writelines(lines)
 
-def main():
-    print('--- Starting ---')
-    print('--- Fetching mhy api ---')
-    char_dict = get_char_api()
-    char_names = list(char_dict.keys())
-    print('-- Last 3 %s --'%' '.join(char_names[:3]))
-    # char_names = json.load(open('char_names.json','r'))
-    # # may contain entries added in advance manually; id is just for reference
-    # names_zh = [char['name_zh'] for char in char_names]
+def modify_char_dict(char_dict):
+    with open('./char_list.json', 'r') as f:
+        char_list_local = json.load(f)
+    for d in char_list_local:
+        name = d['name_zh']
+        if name in char_dict:
+            char_dict[name].update(d)
 
-    char_data_old = json.load(open('char_data.json','r'))
-    char_names_old = {c['name_zh'] for c in char_data_old}
-    char_names_new = [n for n in char_names if n not in char_names_old]
-    char_pending = json.load(open('char_pending.json','r'))
+def main():
+    # 2021-11-24 Wed v2.3.1
+    # 1 subversion per 6 weeks, usually two banners
+    dd = (date.today() - date(2021, 11, 24)).days
+    v_main = 2
+    v_sub = 3 + dd // 42
+    while v_sub > 7:  # assuming 2.7 -> 3.0 according to speculation
+        v_sub -= 8
+        v_main += 1
+    v_banner = (dd % 42 >= 21) + 1
+    ver = f'{v_main}.{v_sub}.{v_banner}'
+
+    print('Updating for v'+ver)
+    with open('char_data.json') as f:
+        char_data_old = json.load(f)
+    with open('char_retry.json') as f:
+        char_retry = json.load(f)
+    count_old = len(char_data_old)
+    count_total = count_old
     char_error = []
     commit_msg = ''
 
-    count_total = len(char_dict)
-    count_old = len(char_data_old)
+    if len(char_retry) == 0:  # start anew
+        print('Fetching mhy api')
+        # get current char list
+        char_dict = get_char_api()  # used for generate char_data
+        char_names = list(char_dict.keys())
+        char_pending = char_names
+        count_total = len(char_dict)
+        print(f"\tLast 3 {' '.join(char_names[:3])}")
 
-    if count_total <= count_old:
-        # no update
-        print(f'-- {count_total} released / {count_old} fetched --')
+        if count_total <= count_old:
+            print(f'\t{count_total} released / {count_old} saved')
+            print('Already up to date')
+            return commit_msg
+
+        char_names_new = char_names[:count_total-count_old]
+        print(f"\tNew char {' '.join(char_names_new)}")
+        print('Updating local list')
+        update_local_list(char_dict, ver) # write new names to char_list.json
+        modify_char_dict(char_dict) # add local info (eg. alias) to char_dict
+   
+    else:  # resume from last checkpoint
+        char_pending = char_retry
+        print(f"Retrying {' '.join(char_retry)}")
+        char_dict = {x['name_zh']: x for x in char_data_old}
+        modify_char_dict(char_dict)
+
+    print(f'Fetching quotes')
+    count_pending = len(char_pending)
+    print(f'\t{count_pending} pending / {count_total} released')
+    i = 1
+    for char in char_dict.values():
+        if char['name_zh'] in char_pending:
+            try:
+                lines_zh = get_quotes_hhw(char, char_dict, 'zh')
+                lines_en = get_quotes_hhw(char, char_dict, 'en')
+                char['lines'] = merge_lines(lines_zh, lines_en)
+                print(f"\t{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
+            except KeyboardInterrupt:
+                raise KeyboardInterrupt
+            except:
+                print(f"\t{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
+                char_error.append(char['name_zh'])
+            i += 1
+
+    print(f'Updated {count_pending} chars, {len(char_error)} errors')
+    # write data files
+    char_data = list(char_dict.values())
+    char_data.sort(key=lambda x: x['id'])
+
+    with open("char_data.json", "w", encoding='utf8') as f:
+        json.dump(char_data, f, ensure_ascii=False, indent=4)
+
+    with open("char_data_min.json", "w", encoding='utf8') as f:
+        json.dump(char_data, f, ensure_ascii=False, separators=(',', ':'))
+
+    with open("char_retry.json", "w", encoding='utf8') as f:
+        json.dump(char_error, f, ensure_ascii=False, indent=4)
+
+    if len(char_error) == 0:
+        commit_msg = f"v{ver} {' '.join([char['name_zh'] for char in char_data if char['ver']==ver])}"
     else:
-        update_names(char_dict)
-        print(f"-- New {' '.join(char_names_new)} --")
-        char_data = []
-        if len(char_pending) == 0: # start anew
-            char_pending = char_names
-        else: # resume from last checkpoint
-            char_data = char_data_old.copy()
-
-        count_pending = len(char_pending)
-        print(f'-- {count_total} released / {count_old} fetched / {count_pending} pending --')
-
-        print(f'--- Fetching quotes ---')
-        i = 1
-        for name in char_dict:
-            if name in char_pending:
-                try:
-                    char = char_dict[name]
-                    lines_zh = get_quotes_hhw(char, char_names, 'zh')
-                    lines_en = get_quotes_hhw(char, char_names, 'en')
-                    char['lines'] = merge_lines(lines_zh, lines_en)
-                    char_data.append(char)
-                    print(f"{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
-                except KeyboardInterrupt:
-                    raise KeyboardInterrupt
-                except:
-                    print(f"{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
-                    char_error.append(char['name_zh'])
-                i += 1
-
-        if count_total != len(char_data) + len(char_error):
-            raise ValueError("Number of entries doesn't match images.")
-
-        print(f'-- Updated {count_pending - len(char_error)} / {count_pending} / {count_total}  --')
-        # write data files
-        if len(char_error) == 0:
-            char_data.sort(key=lambda x: x['oid'])
-            commit_msg = f"new {' '.join(char_names_new)}"
-        else:
-            print(f"-- {len(char_error)} errors {' '.join(char_error)}")
-            commit_msg = f"update incomplete for {' '.join(char_names_new)}"
-
-        with open("char_data.json", "w", encoding='utf8') as f:
-            json.dump(char_data, f, ensure_ascii=False, indent=4)
-
-        with open("char_pending.json", "w", encoding='utf8') as f:
-            json.dump(char_error, f, ensure_ascii=False, indent=4)
-        
-    print('--- Complete! ---')
+        commit_msg = f"v{ver} update incomplete"
+    print('Done —— '+commit_msg)
     return commit_msg
 
 #%%
