@@ -464,7 +464,7 @@ async function getJson(url) {
 
 
 async function main() {
-    charData = await getJson(`${URL_BASE}/char_data.json`)
+    charData = await getJson(`${URL_BASE}/char_data_min.json`)
     // create nodes
     for (const char of charData) {
         for (const l of langs) {

@@ -113,7 +113,8 @@
                 "title_en": "Jean about Eula",
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 2,
@@ -152,7 +153,7 @@
                 "target_id": 3,
                 "target_zh": "丽莎",
                 "title_zh": "安柏关于丽莎·钦佩",
-                "content_zh": "丽莎好像除了睡觉的时间之外都在看书！真厉害啊，我就坐不住那么长时间。",
+                "content_zh": "丽莎好像除了睡觉的时间都在看书！真厉害啊，我就坐不住那么长时间。",
                 "target_en": "Lisa",
                 "title_en": "Amber about Lisa: Admiration",
                 "content_en": "If Lisa's not sleeping, she'll be reading! I don't know how she does it, I wouldn't be able to sit still for that long."
@@ -220,7 +221,8 @@
                 "title_en": "Amber about Eula",
                 "content_en": "Eula is a great friend of mine! You just need to get used to her sense of humor and you'll get along fine! The only reason she's misunderstood by so many people is her family name. How can I get them to see her for who she really is?"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 3,
@@ -327,7 +329,8 @@
                 "title_en": "Lisa about Sucrose",
                 "content_en": "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 4,
@@ -434,7 +437,8 @@
                 "title_en": "Kaeya about Sucrose",
                 "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 5,
@@ -514,7 +518,8 @@
                 "title_en": "Barbara about Noelle",
                 "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Tee-hee!"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 6,
@@ -585,7 +590,8 @@
                 "title_en": "Diluc about Eula",
                 "content_en": "Ah, yes... I've heard about her. She has her own convictions. Her determination to liberate herself from the shackles of her clan is praiseworthy. But, she's... joined the Knights of Favonius."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 7,
@@ -647,15 +653,16 @@
                 "title_en": "Razor about Klee",
                 "content_en": "Klee, friend! Friend, but... big hassle."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 8,
         "name_zh": "温迪",
         "name_en": "Venti",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617031747812.png",
         "alias_zh": "巴巴托斯",
         "alias_en": "Barbatos",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617031747812.png",
         "lines": [
             {
                 "target_id": 1,
@@ -691,7 +698,7 @@
                 "content_zh": "那个奔狼领的白发少年，哦哦，是吗，是被狼养大的啊…怪不得呢，他身上的气息，令人怀念…",
                 "target_en": "Razor",
                 "title_en": "Venti about Razor",
-                "content_en": "Ah, the white-haired fellow from Wolvendom, yes. Raised by wolves? Really? ...No wonder... that unmistakable body odor..."
+                "content_en": "Ah yes, the white-haired fellow from Wolvendom? Raised by wolves? Really? ... No wonder his scent is so familiar..."
             },
             {
                 "target_id": 14,
@@ -747,7 +754,8 @@
                 "title_en": "Venti about Baal",
                 "content_en": "So, I hear you defeated the mighty Raiden Shogun? Ah, I recall the days when she was a kagemusha, seeking to perfect her martial prowess. Hehe, she now no doubt employs a wide range of reasoning to get you to train with her. Oh but yes, come close and I shall let you in on her weakness — desserts!"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 9,
@@ -854,7 +862,8 @@
                 "title_en": "Klee about Sucrose",
                 "content_en": "Sucrose is the best! This one time she asked me if I wanted a Jumpy Dumpty that can run as well as jump. Tee-hee, well duh! Of course I do, I want hundreds of them! I wanna put them on every street, every staircase, and every square in Mondstadt!"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 10,
@@ -925,7 +934,8 @@
                 "title_en": "Bennett about Noelle",
                 "content_en": "Noelle's someone I've been watching for a while. She's really talented, and extremely hardworking. But somehow she's still a maid — the Knights of Favonius still haven't made her a knight. It's a shame, don't you think? Boy, if she switched to the Adventurers' Guild, she'd easily be one of the best there is."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 11,
@@ -1005,7 +1015,8 @@
                 "title_en": "Noelle about Barbara",
                 "content_en": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 12,
@@ -1058,7 +1069,8 @@
                 "title_en": "Fischl about Rosaria",
                 "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 13,
@@ -1156,7 +1168,8 @@
                 "title_en": "Sucrose about Eula",
                 "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...Ah, what should I do... I hope she won't hold a grudge against me..."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 14,
@@ -1227,7 +1240,8 @@
                 "title_en": "Mona about Venti",
                 "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 15,
@@ -1316,7 +1330,8 @@
                 "title_en": "Beidou about Kaedehara Kazuha",
                 "content_en": "Kazuha? That scallywag actually blocked a strike from the Raiden Shogun outside Tenshukaku! Easier said than done... After the battle he came to the Crux Fleet — said he'd voyage with us a while longer. I was more than happy to oblige. If the day comes when he decides to set off again by himself on the next stage of his journey, I'll send him off with a drink, haha..."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 16,
@@ -1376,7 +1391,7 @@
                 "content_zh": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
                 "target_en": "Ganyu",
                 "title_en": "Ningguang about Ganyu",
-                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"It takes a hundred people to keep a secret, but only one to let it slip.\" When there are important affairs to deal with, it is always safer to investigate and resolve it personally."
+                "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"even the most meticulous can fall prey to happenstance.\" When there are important affairs to deal with, it is always safer to investigate and resolve them personally."
             },
             {
                 "target_id": 20,
@@ -1405,7 +1420,8 @@
                 "title_en": "Ningguang about Yanfei",
                 "content_en": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 17,
@@ -1485,7 +1501,8 @@
                 "title_en": "Xiangling about Xinyan",
                 "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 18,
@@ -1574,7 +1591,8 @@
                 "title_en": "Xingqiu about Zhongli",
                 "content_en": "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for the adepti, so he must surely have great depth to his character. We should do some digging and see what we can find out about him!"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 19,
@@ -1645,7 +1663,8 @@
                 "title_en": "Chongyun about Xiangling",
                 "content_en": "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 20,
@@ -1761,7 +1780,8 @@
                 "title_en": "Keqing about Yanfei",
                 "content_en": "The way I see it, the law is a summary of things done the right way in the past. However, it should also be continuously adapted and improved to match the needs of the present. Given that Liyue is about to undergo a radical transformation, legal talent is in great demand. With an assistant like Yanfei, I could spare myself a great deal of trouble."
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 21,
@@ -1805,14 +1825,15 @@
                 "title_en": "Qiqi about Xinyan",
                 "content_en": "...Who?"
             }
-        ]
+        ],
+        "ver": "1.0"
     },
     {
         "id": 22,
         "name_zh": "迪奥娜",
         "name_en": "Diona",
-        "ver": "1.1.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201106/2020110614164694989.png",
+        "ver": "1.1.1",
         "lines": [
             {
                 "target_id": 6,
@@ -1901,8 +1922,8 @@
         "id": 23,
         "name_zh": "达达利亚",
         "name_en": "Tartaglia",
-        "ver": "1.1.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201103/2020110314190784136.png",
+        "ver": "1.1.1",
         "lines": [
             {
                 "target_id": 24,
@@ -1928,10 +1949,10 @@
         "id": 24,
         "name_zh": "钟离",
         "name_en": "Zhongli",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201120/2020112010371210769.png",
         "alias_zh": "摩拉克斯",
         "alias_en": "Morax",
         "ver": "1.1.2",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201120/2020112010371210769.png",
         "lines": [
             {
                 "target_id": 28,
@@ -2029,8 +2050,8 @@
         "id": 25,
         "name_zh": "辛焱",
         "name_en": "Xinyan",
-        "ver": "1.1.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201125/2020112515344362241.png",
+        "ver": "1.1.2",
         "lines": [
             {
                 "target_id": 17,
@@ -2092,8 +2113,8 @@
         "id": 26,
         "name_zh": "阿贝多",
         "name_en": "Albedo",
-        "ver": "1.2.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201216/2020121617552012082.png",
+        "ver": "1.2.1",
         "lines": [
             {
                 "target_id": 13,
@@ -2164,8 +2185,8 @@
         "id": 27,
         "name_zh": "甘雨",
         "name_en": "Ganyu",
-        "ver": "1.2.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210105/2021010518424084444.png",
+        "ver": "1.2.2",
         "lines": [
             {
                 "target_id": 24,
@@ -2263,8 +2284,8 @@
         "id": 28,
         "name_zh": "魈",
         "name_en": "Xiao",
-        "ver": "1.3.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617035787693.png",
+        "ver": "1.3.1",
         "lines": [
             {
                 "target_id": 24,
@@ -2317,9 +2338,9 @@
         "id": 29,
         "name_zh": "胡桃",
         "name_en": "Hu Tao",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210222/2021022210584218038.png",
         "url_name": "hutao",
         "ver": "1.3.3",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210222/2021022210584218038.png",
         "lines": [
             {
                 "target_id": 24,
@@ -2373,7 +2394,7 @@
                 "content_zh": "纯阳正气，阴阳合一？啧啧，嘶…没想到世上真有这种体质的人。",
                 "target_en": "Chongyun",
                 "title_en": "Hu Tao about Chongyun",
-                "content_en": "Positive energies and unity between yin and yang... Who knew such people existed in this world."
+                "content_en": "All yang and no yin? Huh, who knew such people existed in this world?"
             },
             {
                 "target_id": 28,
@@ -2408,8 +2429,8 @@
         "id": 30,
         "name_zh": "罗莎莉亚",
         "name_en": "Rosaria",
-        "ver": "1.4.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210324/2021032418465472967.png",
+        "ver": "1.4.2",
         "lines": [
             {
                 "target_id": 6,
@@ -2489,9 +2510,9 @@
         "id": 31,
         "name_zh": "烟绯",
         "name_en": "Yanfei",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210420/2021042014093440786.png",
         "url_name": "feiyan",
         "ver": "1.5.1",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210420/2021042014093440786.png",
         "lines": [
             {
                 "target_id": 21,
@@ -2571,8 +2592,8 @@
         "id": 32,
         "name_zh": "优菈",
         "name_en": "Eula",
-        "ver": "1.5.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210508/2021050817091079399.png",
+        "ver": "1.5.2",
         "lines": [
             {
                 "target_id": 2,
@@ -2679,8 +2700,8 @@
         "id": 33,
         "name_zh": "枫原万叶",
         "name_en": "Kaedehara Kazuha",
-        "ver": "1.6.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210617/2021061716564818668.png",
+        "ver": "1.6.2",
         "lines": [
             {
                 "target_id": 15,
@@ -2716,7 +2737,7 @@
                 "content_zh": "离开稻妻后，我许多次扪心自问，我对雷电将军的不满是否源于那一次御前决斗，是否源于她对友人落下的那一刀？我想了很久，觉得不是的。我的友人是堂堂正正地死在了决斗场上，雷电将军的那一刀也并无不妥。我对她的不满，来源于「眼狩令」。没有任何人有资格剥夺他人的愿望，即便是「神」也不行。",
                 "target_en": "Raiden Shogun",
                 "title_en": "Kaedehara Kazuha about the Raiden Shogun",
-                "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No-one has the right to rob another of their hopes and dreams — not even a god."
+                "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No one has the right to rob another of their hopes and dreams — not even a god."
             },
             {
                 "target_id": 34,
@@ -2751,8 +2772,8 @@
         "id": 34,
         "name_zh": "神里绫华",
         "name_en": "Kamisato Ayaka",
-        "ver": "2.0.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210720/2021072011085576262.png",
+        "ver": "2.0.1",
         "lines": [
             {
                 "target_id": 41,
@@ -2814,8 +2835,8 @@
         "id": 35,
         "name_zh": "宵宫",
         "name_en": "Yoimiya",
-        "ver": "2.0.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210802/2021080210195390130.png",
+        "ver": "2.0.2",
         "lines": [
             {
                 "target_id": 15,
@@ -2863,6 +2884,24 @@
                 "content_en": "He's quite the talker and has reasons behind every word that he says. Sometimes, it might seem like there's no connection, but as he goes on, everything will eventually dovetail nicely towards a single purpose. It's... quite different from how I do things. I ask him for help whenever I encounter a matter I can't settle."
             },
             {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "宵宫关于荒泷一斗·对决",
+                "content_zh": "哦，他呀。别看他长得那么凶，他很受小孩子欢迎的。不过他的胜负心很强，每次我们一起陪孩子们玩，最后都会变成我和他一决胜负，比如一口气喝完拉面汤，面无表情吃酸梅什么的，孩子们会猜我们谁会赢，还会在旁边加油助威，哎呀，那我可不能输了，对吧？",
+                "target_en": "Arataki Itto",
+                "title_en": "Yoimiya about Arataki Itto: Duels",
+                "content_en": "Oh, he may look scary, but he is very popular with the children. However, he can be very competitive. Every time we play with the children, it always turns into a showdown between him and me. For example, we'd drink a bowl of ramen soup in one go, or try to eat sour plums without making any faces. The children will cheer us both on and try to guess the winner. And when that happens... well, then I can't let him beat me, right?"
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "宵宫关于荒泷一斗·帮派",
+                "content_zh": "「荒泷派」？欸？！原来他不是无所事事的人呐？",
+                "target_en": "Arataki Itto",
+                "title_en": "Yoimiya about Arataki Itto: Arataki's Gang",
+                "content_en": "Arataki's gang? Huh!? So he isn't just someone with too much free time on his hands?"
+            },
+            {
                 "target_id": 33,
                 "target_zh": "枫原万叶",
                 "title_zh": "宵宫关于枫原万叶",
@@ -2904,8 +2943,8 @@
         "id": 36,
         "name_zh": "早柚",
         "name_en": "Sayu",
-        "ver": "2.0.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210802/2021080211352035312.png",
+        "ver": "2.0.2",
         "lines": [
             {
                 "target_id": 34,
@@ -2942,6 +2981,15 @@
                 "target_en": "Raiden Shogun",
                 "title_en": "Sayu about the Raiden Shogun",
                 "content_en": "Her Excellency? Definitely not someone I'd ever get to meet. If you've got questions, maybe Miss Ayaka's the person to ask."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "早柚关于荒泷一斗",
+                "content_zh": "怎么会有这么吵吵嚷嚷的人，而且他还能长这么高！",
+                "target_en": "Arataki Itto",
+                "title_en": "Sayu about Arataki Itto",
+                "content_en": "Why does he have to make such a racket? And how did he get so tall!?"
             }
         ]
     },
@@ -2949,19 +2997,19 @@
         "id": 37,
         "name_zh": "埃洛伊",
         "name_en": "Aloy",
-        "ver": "2.1.0",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210825/2021082511163174110.png",
+        "ver": "2.1.0",
         "lines": []
     },
     {
         "id": 38,
         "name_zh": "雷电将军",
         "name_en": "Raiden Shogun",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210817/2021081714114216212.png",
         "alias_zh": "巴尔",
         "alias_en": "Baal",
         "url_name": "shougun",
         "ver": "2.1.1",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210817/2021081714114216212.png",
         "lines": [
             {
                 "target_id": 34,
@@ -3009,6 +3057,15 @@
                 "content_en": "Indeed. It was I who slew Orobaxi. But I also allowed the people of Sangonomiya to continue worshiping it as the Watatsumi Omikami, so that it might enjoy their offerings. Now, Sangonomiya has destroyed the local Narukami Shrine and rebels against the Shogunate. As the Divine Priestess representing the Watatsumi Omikami, she must be held accountable."
             },
             {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "雷电将军关于荒泷一斗",
+                "content_zh": "谁？",
+                "target_en": "Arataki Itto",
+                "title_en": "Raiden Shogun about Arataki Itto",
+                "content_en": "Who?"
+            },
+            {
                 "target_id": 24,
                 "target_zh": "钟离",
                 "title_zh": "雷电将军关于摩拉克斯",
@@ -3024,7 +3081,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "That's the name the Anemo Archon takes these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "That's still the name the Anemo Archon takes among mortals these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -3032,8 +3089,8 @@
         "id": 39,
         "name_zh": "九条裟罗",
         "name_en": "Kujou Sara",
-        "ver": "2.1.1",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210817/2021081714514765929.png",
+        "ver": "2.1.1",
         "lines": [
             {
                 "target_id": 41,
@@ -3088,6 +3145,15 @@
                 "target_en": "Sangonomiya Kokomi",
                 "title_en": "Kujou Sara about Sangonomiya Kokomi",
                 "content_en": "She is more proficient as a military strategist than a priestess. The way she uses directives to wage war is almost unheard of. I wonder if I should adopt this technique for commanding the Shogun's Army? Hmm... but this could lead us to a situation whereby war is waged at the negotiation table, each side with their pack of strategy cards, playing them one by one until a victor emerges... Then again, perhaps not."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "九条裟罗关于荒泷一斗",
+                "content_zh": "…说起这位，难免有些头疼。收缴他的神之眼时闹了不少动静，是我见过最聒噪的人…不，最聒噪的鬼。能堂堂正正认输算是有点男子气概，只不过他的复仇之约实在是…到此为止，我不想说了。你如果实在想知道，还是自己去问他吧。",
+                "target_en": "Arataki Itto",
+                "title_en": "Kujou Sara about Arataki Itto",
+                "content_en": "Tsk... I can't help but get a little irate when his name comes up. He kicked up a big fuss when I confiscated his Vision, by far the noisiest person... no, the noisiest oni I've ever encountered. He showed he was enough of a man to admit defeat, but the rematch he insisted upon... Tsk... To this day, I still don't want to talk about it. If you really must know, you can go and ask him yourself."
             }
         ]
     },
@@ -3095,8 +3161,8 @@
         "id": 40,
         "name_zh": "珊瑚宫心海",
         "name_en": "Sangonomiya Kokomi",
-        "ver": "2.1.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210914/2021091414024724995.png",
+        "ver": "2.1.2",
         "lines": [
             {
                 "target_id": 39,
@@ -3140,8 +3206,8 @@
         "id": 41,
         "name_zh": "托马",
         "name_en": "Thoma",
-        "ver": "2.2.2",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211021/2021102110372681510.png",
+        "ver": "2.2.2",
         "lines": [
             {
                 "target_id": 38,
@@ -3207,6 +3273,15 @@
                 "content_en": "The Tenryou Commission General... Mm... Make sure to be extra careful if you have any dealings with her. She has a lot of power in her hands, and she's not very open to persuasion. Smiling and batting your eyelids certainly won't get you anywhere with her."
             },
             {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "托马关于荒泷一斗",
+                "content_zh": "那是市井传闻中的怪人，据说还拥有妖怪的血脉，你见过他了吗？要是你们熟络的话，帮我引荐引荐呗。广交朋友总是好事…妖怪朋友也算！",
+                "target_en": "Arataki Itto",
+                "title_en": "Thoma about Arataki Itto",
+                "content_en": "Hmm... Word on the street is that he's quite a character — apparently, he even has youkai heritage. Have you met him? If you two are close, maybe you could introduce me sometime. It's good to make friends from all walks of life... youkai included!"
+            },
+            {
                 "target_id": 1,
                 "target_zh": "琴",
                 "title_zh": "托马关于琴",
@@ -3223,6 +3298,69 @@
                 "target_en": "Eula",
                 "title_en": "Thoma about Eula",
                 "content_en": "You've had a run-in with Eula Lawrence before, huh? All I know is that their whole family are about the worst-tempered people you could ever meet. You're better off steering clear of them if you can help it. Ah, now I'm in a Mondstadt mood again... The memories."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name_zh": "荒泷一斗",
+        "name_en": "Arataki Itto",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211130/2021113011275394620.png",
+        "ver": "2.3.1",
+        "lines": [
+            {
+                "target_id": 41,
+                "target_zh": "托马",
+                "title_zh": "荒泷一斗关于托马",
+                "content_zh": "听弟兄们说，他是第一百颗神之眼狩眼仪式的主角？嗯？为什么他会有专属的仪式啊？欸，难道说第一百颗神之眼是比前九十九颗厉害吗？嘶…不对，真是那样的话，那应该是本大爷来当这第一百颗才对！",
+                "target_en": "Thoma",
+                "title_en": "Arataki Itto about Thoma",
+                "content_en": "Some of the boys have been telling me that he was the star of the show at the Vision Hunt Ceremony. I'm like — are you kidding me??? How come he gets his own special ceremony!? Was the hundredth Vision supposed to be, like, stronger than the other ninety-nine, or something? Pff, nah, it can't have been that, 'cause, uh, hello! They would've chosen me if that's what they were going for."
+            },
+            {
+                "target_id": 35,
+                "target_zh": "宵宫",
+                "title_zh": "荒泷一斗关于宵宫",
+                "content_zh": "那家伙，仗着自己会做烟花和小玩具，哄起小孩来一套一套的…不行，不能让她抢尽风头，「孩子王」本大爷是当定了！你也要站我这边…什么？你不是孩子？呵，在我眼里，比我矮的，全是孩子！",
+                "target_en": "Yoimiya",
+                "title_en": "Arataki Itto about Yoimiya",
+                "content_en": "Hmph, she's always showing off her fancy fireworks and toys to the kids. Well, I'm sick of it! Nobody steals my thunder! I'm the one that's supposed to be adored by the kids! Me! That goes for you too, you're siding with me on this, okay... Huh? Whaddya mean, you're not a kid? Eh, details. If you're shorter than me, you're a kid as far as I'm concerned."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "荒泷一斗关于枫原万叶",
+                "content_zh": "听说你从天守阁逃出来后，是他挡下了「无想的一刀」？帅啊！到底怎么做到的。你想，他是没落的贵族，我是没落的鬼族…某种意义上，我和他旗鼓相当啊。哈哈哈哈，那么，下一刀，本大爷替你挡了！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Arataki Itto about Kaedehara Kazuha",
+                "content_en": "Word on the street is that he blocked the Musou no Hitotachi after you escaped from Tenshukaku. Seriously? 'Cause I mean, that is awesome! Who knows how he pulled it off. Hey, now that I think about it, he's from a fallen clan, and I'm from a fallen clan... That kinda makes us equals, haha! Yeah, so next time someone attacks you, it's my turn to block the blade!"
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "荒泷一斗关于雷电将军",
+                "content_zh": "搞眼狩令的时候，需要出动她得意的天狗才能制服我，说明本大爷一定让她很头痛吧？不过，既然她决定废除眼狩令，也不算无可救药。哼，她最好记住这次的教训，别再有下次，不然，我一定会让她更头痛，哼。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Arataki Itto about the Raiden Shogun",
+                "content_en": "During the Vision Hunt Decree, the Shogun had to send her top tengu in person to get my Vision off me. Heh, means she must have found me to be quite the pain in the neck. But, y'know, she's abolished the Vision Hunt Decree now, so no hard feelings, I guess. As long as she's learned her lesson, of course. 'Cause if she pulls something like that again, this old pain in the neck will be back with a vengeance."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "荒泷一斗关于九条裟罗",
+                "content_zh": "眼狩令那会我确实败给她了，呵，这也没什么好羞耻的，输了就堂堂正正投降，错了就老老实实挨打，这才是真男人！反倒是她，堂堂天狗，不敢应我的复仇之约。哼，不过是在十字路口相扑而已，这就怕了？她要是再不来应战我就不叫她九条天狗了，我要叫她——九条乌龟！",
+                "target_en": "Kujou Sara",
+                "title_en": "Arataki Itto about Kujou Sara",
+                "content_en": "You know what, yeah, she beat me during the Vision Hunt Decree. I'm not ashamed to admit it. When you lose, you admit defeat, and when you screw up, you take it on the chin, like a man! And anyway, let's not forget which one of us won't agree to a rematch — her, the tengu warrior! It's just a sumo street fight, I mean, what's she so afraid of? If she keeps snubbing me, I'm gonna have to stop calling her Kujou Tengu and start calling her Kujou Chicken! Heh, we'll see what she thinks of that."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "荒泷一斗关于早柚",
+                "content_zh": "不过是趁她不注意的时候，摸了摸她的头而已，现在一见面就要跳起来打我。哈哈哈没办法，这么可爱的小狸猫，谁见了都会忍不住想去摸摸头吧？噢对了…喊她狸猫也会被揍。为什么啊，那不就是狸猫吗…？",
+                "target_en": "Sayu",
+                "title_en": "Arataki Itto about Sayu",
+                "content_en": "All I did was give her a little pat on the head this one time when she wasn't looking, and now, she pounces to attack every time she lays eyes on me. Haha, what can I say? Tanuki are adorable! What am I supposed to do — not pat one on the head? ...Oh yeah, and that's the other thing — she beats you up for calling her a tanuki, too! What's up with that? I mean, a tanuki's what she's going for, right? Sheesh, talk about getting your fur all ruffled over nothing..."
             }
         ]
     }
