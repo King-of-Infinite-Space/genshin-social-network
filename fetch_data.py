@@ -250,7 +250,8 @@ def main():
     while v_sub > 7:  # assuming 2.7 -> 3.0 according to speculation
         v_sub -= 8
         v_main += 1
-    v_banner = (dd % 42 >= 21) + 1
+    v_banner = 1 if abs(dd % 42 - 21) <= 7 else 2
+    # first 21 days is 1st banner
     ver = f'{v_main}.{v_sub}.{v_banner}'
 
     print('Updating for v'+ver)
