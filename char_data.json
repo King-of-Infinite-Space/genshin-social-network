@@ -4,6 +4,7 @@
         "name_zh": "琴",
         "name_en": "Jean",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030616591036729.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 5,
@@ -113,14 +114,14 @@
                 "title_en": "Jean about Eula",
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 2,
         "name_zh": "安柏",
         "name_en": "Amber",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030616592448011.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -221,14 +222,14 @@
                 "title_en": "Amber about Eula",
                 "content_en": "Eula is a great friend of mine! You just need to get used to her sense of humor and you'll get along fine! The only reason she's misunderstood by so many people is her family name. How can I get them to see her for who she really is?"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 3,
         "name_zh": "丽莎",
         "name_en": "Lisa",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617000181697.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -329,14 +330,14 @@
                 "title_en": "Lisa about Sucrose",
                 "content_en": "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 4,
         "name_zh": "凯亚",
         "name_en": "Kaeya",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617001674227.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -437,14 +438,14 @@
                 "title_en": "Kaeya about Sucrose",
                 "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 5,
         "name_zh": "芭芭拉",
         "name_en": "Barbara",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617005720579.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -518,14 +519,14 @@
                 "title_en": "Barbara about Noelle",
                 "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Tee-hee!"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 6,
         "name_zh": "迪卢克",
         "name_en": "Diluc",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617015669833.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 4,
@@ -590,14 +591,14 @@
                 "title_en": "Diluc about Eula",
                 "content_en": "Ah, yes... I've heard about her. She has her own convictions. Her determination to liberate herself from the shackles of her clan is praiseworthy. But, she's... joined the Knights of Favonius."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 7,
         "name_zh": "雷泽",
         "name_en": "Razor",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617025961375.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 3,
@@ -653,8 +654,7 @@
                 "title_en": "Razor about Klee",
                 "content_en": "Klee, friend! Friend, but... big hassle."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 8,
@@ -663,6 +663,7 @@
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617031747812.png",
         "alias_zh": "巴巴托斯",
         "alias_en": "Barbatos",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -754,14 +755,14 @@
                 "title_en": "Venti about Baal",
                 "content_en": "So, I hear you defeated the mighty Raiden Shogun? Ah, I recall the days when she was a kagemusha, seeking to perfect her martial prowess. Hehe, she now no doubt employs a wide range of reasoning to get you to train with her. Oh but yes, come close and I shall let you in on her weakness — desserts!"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 9,
         "name_zh": "可莉",
         "name_en": "Klee",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617033181769.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 7,
@@ -862,14 +863,14 @@
                 "title_en": "Klee about Sucrose",
                 "content_en": "Sucrose is the best! This one time she asked me if I wanted a Jumpy Dumpty that can run as well as jump. Tee-hee, well duh! Of course I do, I want hundreds of them! I wanna put them on every street, every staircase, and every square in Mondstadt!"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 10,
         "name_zh": "班尼特",
         "name_en": "Bennett",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200312/2020031219222320482.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 5,
@@ -934,88 +935,13 @@
                 "title_en": "Bennett about Noelle",
                 "content_en": "Noelle's someone I've been watching for a while. She's really talented, and extremely hardworking. But somehow she's still a maid — the Knights of Favonius still haven't made her a knight. It's a shame, don't you think? Boy, if she switched to the Adventurers' Guild, she'd easily be one of the best there is."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 11,
         "name_zh": "诺艾尔",
         "name_en": "Noelle",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200315/2020031516092797889.png",
-        "lines": [
-            {
-                "target_id": 2,
-                "target_zh": "安柏",
-                "title_zh": "诺艾尔关于安柏",
-                "content_zh": "她是我非常尊敬的前辈，实力很强不说，对人也很亲切。她还教我怎么做「兔兔伯爵」，你看，我会把它当成护身符带在身边，做得不错吧？",
-                "target_en": "Amber",
-                "title_en": "Noelle about Amber",
-                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?"
-            },
-            {
-                "target_id": 9,
-                "target_zh": "可莉",
-                "title_zh": "诺艾尔关于可莉",
-                "content_zh": "我一直很想知道，她还这么小，是怎么正式成为骑士的。有一次向她请教经验，她还没听完我的话，就拉着我去骑士团外面玩炸弹…我以为这是什么修行，结果最后我和她都被琴团长关了禁闭…",
-                "target_en": "Klee",
-                "title_en": "Noelle about Klee",
-                "content_en": "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in solitary confinement..."
-            },
-            {
-                "target_id": 1,
-                "target_zh": "琴",
-                "title_zh": "诺艾尔关于琴",
-                "content_zh": "琴团长一直都是我的榜样，我的实力和认真程度完全比不上她。她对别人就像对自己一样严格，所以如果有一天我能得到她的认可，那也是对我一直以来努力的最大肯定了。在那之前，我都是不会松懈的！",
-                "target_en": "Jean",
-                "title_en": "Noelle about Jean",
-                "content_en": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!"
-            },
-            {
-                "target_id": 4,
-                "target_zh": "凯亚",
-                "title_zh": "诺艾尔关于凯亚",
-                "content_zh": "他很神秘，来如影，去如风，每天都有很重要的任务要去处理。他还经常会给我安排一些小任务，就好像我已经是他的小队成员了一样…嗯？只是跑腿？不不不，虽然确实是跑腿，可是我很珍惜的！",
-                "target_en": "Kaeya",
-                "title_en": "Noelle about Kaeya",
-                "content_en": "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!"
-            },
-            {
-                "target_id": 10,
-                "target_zh": "班尼特",
-                "title_zh": "诺艾尔关于班尼特",
-                "content_zh": "他不止一次来邀请我，说什么比起骑士团，还是冒险家协会更适合我…虽然我是会像一个普通的冒险家一样，帮他照顾他的老爹们，但…骑士团对我来说有特别的意义，而且我也不想认输…嗯，果然还是没法答应。",
-                "target_en": "Bennett",
-                "title_en": "Noelle about Bennett",
-                "content_en": "He's asked me to join the Adventurers' Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers... the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer."
-            },
-            {
-                "target_id": 12,
-                "target_zh": "菲谢尔",
-                "title_zh": "诺艾尔关于菲谢尔·茶点",
-                "content_zh": "她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…",
-                "target_en": "Fischl",
-                "title_en": "Noelle about Fischl: Tea",
-                "content_en": "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely... I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying."
-            },
-            {
-                "target_id": 12,
-                "target_zh": "菲谢尔",
-                "title_zh": "诺艾尔关于菲谢尔·身世",
-                "content_zh": "以前我打扫图书馆的时候，记得有本书叫《菲谢尔皇女夜谭》，我还以为只是幻想小说…但没想到，里面的主人公居然真的存在！能有一本自己的传记，她一定很厉害吧。",
-                "target_en": "Fischl",
-                "title_en": "Noelle about Fischl: Background",
-                "content_en": "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her."
-            },
-            {
-                "target_id": 5,
-                "target_zh": "芭芭拉",
-                "title_zh": "诺艾尔关于芭芭拉",
-                "content_zh": "我们经常在一起喝茶，有时候她会轻轻哼出很好听的调子，告诉我灵感来了。虽然我对音乐给不出什么实用的建议…但能跟芭芭拉享受这样的时光，我真的非常高兴！",
-                "target_en": "Barbara",
-                "title_en": "Noelle about Barbara",
-                "content_en": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
-            }
-        ],
         "ver": "1.0"
     },
     {
@@ -1023,152 +949,60 @@
         "name_zh": "菲谢尔",
         "name_en": "Fischl",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200330/2020033019074664412.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 10,
                 "target_zh": "班尼特",
                 "title_zh": "菲谢尔关于班尼特",
-                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——\n奥兹：那个倒霉蛋，置之不理可不行。",
+                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——奥兹：那个倒霉蛋，置之不理可不行。",
                 "target_en": "Bennett",
                 "title_en": "Fischl about Bennett",
-                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—\nOz: Someone needs to keep an eye on the unlucky fellow."
+                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—Oz: Someone needs to keep an eye on the unlucky fellow."
             },
             {
                 "target_id": 3,
                 "target_zh": "丽莎",
                 "title_zh": "菲谢尔关于丽莎",
-                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…\n奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
+                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
                 "target_en": "Lisa",
                 "title_en": "Fischl about Lisa",
-                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...\nOz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
+                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...Oz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
             },
             {
                 "target_id": 4,
                 "target_zh": "凯亚",
                 "title_zh": "菲谢尔关于凯亚",
-                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…\n奥兹：也可能暗地里是个海盗…？",
+                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…奥兹：也可能暗地里是个海盗…？",
                 "target_en": "Kaeya",
                 "title_en": "Fischl about Kaeya",
-                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...\nOz: Or perhaps he's secretly an actual pirate?"
+                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...Oz: Or perhaps he's secretly an actual pirate?"
             },
             {
                 "target_id": 14,
                 "target_zh": "莫娜",
                 "title_zh": "菲谢尔关于莫娜",
-                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
+                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
                 "target_en": "Mona",
                 "title_en": "Fischl about Mona",
-                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
+                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.Oz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
             },
             {
                 "target_id": 30,
                 "target_zh": "罗莎莉亚",
                 "title_zh": "菲谢尔关于罗莎莉亚",
-                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。\n奥兹：「虔信」？「忠实」？\n菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
+                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。奥兹：「虔信」？「忠实」？菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
                 "target_en": "Rosaria",
                 "title_en": "Fischl about Rosaria",
-                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
+                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.Oz: ...\"Devout believer,\" mein Fräulein?Fischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 13,
         "name_zh": "砂糖",
         "name_en": "Sucrose",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200724/2020072414340926231.png",
-        "lines": [
-            {
-                "target_id": 11,
-                "target_zh": "诺艾尔",
-                "title_zh": "砂糖关于诺艾尔",
-                "content_zh": "她…经常会主动帮我的忙，但有时候太热情了，反而…让我有点苦恼。有一次，她看到我实验室门前堆了三箱器材，就很麻利地帮我搬了进来，但其实…那些都是我刚刚搬出去的。",
-                "target_en": "Noelle",
-                "title_en": "Sucrose about Noelle",
-                "content_en": "She's... a very willing helper, I can't deny that. It's just... she makes me a little anxious is all. One time, she saw three boxes of materials stacked just outside my laboratory door, and proceeded to move them inside for me. A nice gesture, but the thing is... I'd only just finished putting them outside..."
-            },
-            {
-                "target_id": 9,
-                "target_zh": "可莉",
-                "title_zh": "砂糖关于可莉",
-                "content_zh": "她已经被琴团长关过好多次禁闭了，但只要被放出来，不久就又会闯祸，唉，不知道有没有真的反省过。啊…我答应她，要帮她做一个会蹦会跳，又很安全的蹦蹦，只不过现在，设计上还有不少问题…",
-                "target_en": "Klee",
-                "title_en": "Sucrose about Klee",
-                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
-            },
-            {
-                "target_id": 1,
-                "target_zh": "琴",
-                "title_zh": "砂糖关于琴",
-                "content_zh": "我有点不敢和琴团长说话，因为她太严肃了…我知道她是个很好的人，但、但知道归知道，害怕…还是会害怕。我一般都不会去打扰她，实在有不得不找她的事，我…我也会拜托阿贝多先生。",
-                "target_en": "Jean",
-                "title_en": "Sucrose about Jean",
-                "content_en": "I don't dare talk to Master Jean that much, because she's so strict. I know she's a good person and all — I know that, I do — but... I still find her scary. I don't tend to bother her, and even when I have to... I ask Albedo to go on my behalf."
-            },
-            {
-                "target_id": 3,
-                "target_zh": "丽莎",
-                "title_zh": "砂糖关于丽莎",
-                "content_zh": "我觉得她，好像懂的特别多。她明明没有看过我的研究，但有好几次，都给了我最关键的建议。她到底是怎么知道的呢？是…观察？还是推理呢？",
-                "target_en": "Lisa",
-                "title_en": "Sucrose about Lisa",
-                "content_en": "She really seems to know a great deal. She's obviously never seen my research, and yet on so many occasions she's given me advice on that which is most core to my studies. Just how does she know? Is it observation, or is it ratiocination?"
-            },
-            {
-                "target_id": 4,
-                "target_zh": "凯亚",
-                "title_zh": "砂糖关于凯亚",
-                "content_zh": "唔…我知道他喜欢开玩笑，也没有存心捉弄我的意思。可是，我实在是…分不清他的哪句话是真话，哪句话又是玩笑，所以最后要不然就变得很尴尬，要不然，就是我出洋相…",
-                "target_en": "Kaeya",
-                "title_en": "Sucrose about Kaeya",
-                "content_en": "Oh... I know he likes to joke, and isn't trying to make fun of me, but I often struggle to work out which parts of what he says are the truth and which parts are jokes. So whenever he talks to me, the outcome is usually one of two things: morbid embarrassment or unbearable awkwardness."
-            },
-            {
-                "target_id": 26,
-                "target_zh": "阿贝多",
-                "title_zh": "砂糖关于阿贝多·艺术",
-                "content_zh": "当他的助手，每天都能学到很多。重点不是知识，而是「天才」的思考方法，无论是多么复杂的问题，他总能抽丝剥茧，再一一解决。在我看来，那就是艺术…",
-                "target_en": "Albedo",
-                "title_en": "Sucrose about Albedo: Artistry",
-                "content_en": "As his assistant I learn so much each and every day. What's key is not his existing knowledge, but his talented way of thinking. No matter how complex the task at hand, his way of thinking ensures he gets to the bottom of it, and is able to explain it thoroughly. His methodologies are amazing... to me, it's where alchemy meets art."
-            },
-            {
-                "target_id": 26,
-                "target_zh": "阿贝多",
-                "title_zh": "砂糖关于阿贝多·天赋",
-                "content_zh": "你说天赋？嗯…假如和他做同样的研究，可能确实一辈子都没法超过他。但，我研究「生物炼金」并没有故意要躲开他的意思，只是…嗯，我和他恰好有不同的爱好，还有梦想，仅此而已吧。",
-                "target_en": "Albedo",
-                "title_en": "Sucrose about Albedo: Talent",
-                "content_en": "Talent? Let's hypothesize that he and I were to perform the same research — I'd still spend my whole life playing catch up. But, my studying bio-alchemy has nothing to do with evading his line of research, we just happen to have different interests and dreams — nothing more."
-            },
-            {
-                "target_id": 2,
-                "target_zh": "安柏",
-                "title_zh": "砂糖关于安柏",
-                "content_zh": "我很好奇，为什么她做的布偶，名字叫「兔兔伯爵」呢？和兔子没什么关系吧。唔…你说，头上的发带，很像兔耳朵？…有道理，但其实这是刻板印象，也有很多兔子耳朵是垂下来的。",
-                "target_en": "Amber",
-                "title_en": "Sucrose about Amber",
-                "content_en": "I'm curious as to why her doll is called \"Baron Bunny,\" it clearly has nothing to do with a rabbit at all. Oh, the headband makes it look like it has rabbit ears you say? Hmm... That's heavily reliant on the rabbit stereotype, is it not? Many rabbits' ears are floppy."
-            },
-            {
-                "target_id": 12,
-                "target_zh": "菲谢尔",
-                "title_zh": "砂糖关于菲谢尔",
-                "content_zh": "你是说《菲谢尔皇女夜谭》？我知道，作者创造出的世界很有意思，要是能亲眼去看一看就好了…欸？你在说那个「菲谢尔」啊？她啊…嗯，她…应该是没办法带我去的。",
-                "target_en": "Fischl",
-                "title_en": "Sucrose about Fischl",
-                "content_en": "I take it you're referring to the book series, Flowers for Princess Fischl? Indeed, the world the author came up with is very creative. If only I could go see it with my own eyes. Oh, you're referring to Fischl herself? I am... doubtful that she could really take me there."
-            },
-            {
-                "target_id": 32,
-                "target_zh": "优菈",
-                "title_zh": "砂糖关于优菈",
-                "content_zh": "游击骑士的工作很危险，优菈小姐的行动又格外大胆，所以我给她制作了一个侦察装置，这样她就不用潜入敌人的营地了。但优菈小姐的气势太吓人，我有点怕她，告诉她使用方法的时候，不小心漏掉了几条注意事项，结果真的发生了意外…怎么办？我会不会被她记仇了…",
-                "target_en": "Eula",
-                "title_en": "Sucrose about Eula",
-                "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...Ah, what should I do... I hope she won't hold a grudge against me..."
-            }
-        ],
         "ver": "1.0"
     },
     {
@@ -1176,6 +1010,7 @@
         "name_zh": "莫娜",
         "name_en": "Mona",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814333361327.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 1,
@@ -1240,14 +1075,14 @@
                 "title_en": "Mona about Venti",
                 "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 15,
         "name_zh": "北斗",
         "name_en": "Beidou",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617043374251.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 16,
@@ -1330,14 +1165,14 @@
                 "title_en": "Beidou about Kaedehara Kazuha",
                 "content_en": "Kazuha? That scallywag actually blocked a strike from the Raiden Shogun outside Tenshukaku! Easier said than done... After the battle he came to the Crux Fleet — said he'd voyage with us a while longer. I was more than happy to oblige. If the day comes when he decides to set off again by himself on the next stage of his journey, I'll send him off with a drink, haha..."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 16,
         "name_zh": "凝光",
         "name_en": "Ningguang",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617042023125.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 15,
@@ -1420,14 +1255,14 @@
                 "title_en": "Ningguang about Yanfei",
                 "content_en": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 17,
         "name_zh": "香菱",
         "name_en": "Xiangling",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200316/2020031618192613355.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 16,
@@ -1501,14 +1336,14 @@
                 "title_en": "Xiangling about Xinyan",
                 "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 18,
         "name_zh": "行秋",
         "name_en": "Xingqiu",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200324/2020032419030350146.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 15,
@@ -1591,14 +1426,14 @@
                 "title_en": "Xingqiu about Zhongli",
                 "content_en": "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for the adepti, so he must surely have great depth to his character. We should do some digging and see what we can find out about him!"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 19,
         "name_zh": "重云",
         "name_en": "Chongyun",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200602/2020060218324180299.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 24,
@@ -1663,14 +1498,14 @@
                 "title_en": "Chongyun about Xiangling",
                 "content_en": "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 20,
         "name_zh": "刻晴",
         "name_en": "Keqing",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814015644368.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 24,
@@ -1780,14 +1615,14 @@
                 "title_en": "Keqing about Yanfei",
                 "content_en": "The way I see it, the law is a summary of things done the right way in the past. However, it should also be continuously adapted and improved to match the needs of the present. Given that Liyue is about to undergo a radical transformation, legal talent is in great demand. With an assistant like Yanfei, I could spare myself a great deal of trouble."
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 21,
         "name_zh": "七七",
         "name_en": "Qiqi",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814265912018.png",
+        "ver": "1.0",
         "lines": [
             {
                 "target_id": 29,
@@ -1825,8 +1660,7 @@
                 "title_en": "Qiqi about Xinyan",
                 "content_en": "...Who?"
             }
-        ],
-        "ver": "1.0"
+        ]
     },
     {
         "id": 22,
@@ -2713,6 +2547,15 @@
                 "content_en": "I owe Beidou my life. She took me in when I fled from Inazuma and gave me the courage to return there at the most difficult time of my life. She is a comrade in whom I and all the other sailors can place our trust."
             },
             {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "枫原万叶关于五郎",
+                "content_zh": "我在被通缉的那段时间里，反抗军给了我许多帮助。那时候我与五郎只有短暂的接触，但我对他的印象很深刻。他是那种有话就说的直性子，与部下同甘共苦，为朋友两肋插刀，与我很合得来。",
+                "target_en": "Gorou",
+                "title_en": "Kaedehara Kazuha about Gorou",
+                "content_en": "When I was a wanted man, the resistance gave me a lot of help. The time I spent with Gorou was brief, but he left a deep impression on me. He's the type of person who says whatever's on his mind. He shares the highs and lows of his subordinates, and is never afraid to draw his sword for the sake of a friend. That's the kind of person I can really get along with."
+            },
+            {
                 "target_id": 39,
                 "target_zh": "九条裟罗",
                 "title_zh": "枫原万叶关于九条裟罗·态度",
@@ -3147,6 +2990,15 @@
                 "content_en": "She is more proficient as a military strategist than a priestess. The way she uses directives to wage war is almost unheard of. I wonder if I should adopt this technique for commanding the Shogun's Army? Hmm... but this could lead us to a situation whereby war is waged at the negotiation table, each side with their pack of strategy cards, playing them one by one until a victor emerges... Then again, perhaps not."
             },
             {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "九条裟罗关于五郎",
+                "content_zh": "他之于珊瑚宫心海，正如我之于将军大人。同为坚守忠义之人，我很欣赏他。只可惜立场不同，注定没办法同行。但有这样值得敬佩的对手，还不赖。而且，「五郎」…可是个好名字。",
+                "target_en": "Gorou",
+                "title_en": "Kujou Sara about Gorou",
+                "content_en": "Gorou is to Sangonomiya Kokomi as I am to the Raiden Shogun. He is fiercely loyal, and I have great respect for this. It's a shame we're on opposing sides, so we'll never get to work together... Still, I am glad to have an admirable foe. Also... I hear he's a fifth-born son. That just makes it even better."
+            },
+            {
                 "target_id": 42,
                 "target_zh": "荒泷一斗",
                 "title_zh": "九条裟罗关于荒泷一斗",
@@ -3164,6 +3016,15 @@
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210914/2021091414024724995.png",
         "ver": "2.1.2",
         "lines": [
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "珊瑚宫心海关于五郎",
+                "content_zh": "五郎是不可多得的优秀将领。他真诚、坚毅、果敢…能够与部下同食同寝，也能够提出许多出人意料的作战方案。但他也有一个小小的缺点，就是在战斗中容易亢奋上头。如果你和他一起行动的话，一定要在关键时候拉住他。",
+                "target_en": "Gorou",
+                "title_en": "Sangonomiya Kokomi about Gorou",
+                "content_en": "Gorou is an exceptional general... sincere, determined, and courageous. He has a strong camaraderie with the troops and is able to come up with creative battle plans. He does, however, have one shortcoming... He often lets the excitement of battle get to his head. If you are ever deployed to the battlefield together, be sure to have a good rein on him when things get underway."
+            },
             {
                 "target_id": 39,
                 "target_zh": "九条裟罗",
@@ -3354,6 +3215,15 @@
                 "content_en": "You know what, yeah, she beat me during the Vision Hunt Decree. I'm not ashamed to admit it. When you lose, you admit defeat, and when you screw up, you take it on the chin, like a man! And anyway, let's not forget which one of us won't agree to a rematch — her, the tengu warrior! It's just a sumo street fight, I mean, what's she so afraid of? If she keeps snubbing me, I'm gonna have to stop calling her Kujou Tengu and start calling her Kujou Chicken! Heh, we'll see what she thinks of that."
             },
             {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "荒泷一斗关于五郎",
+                "content_zh": "哦，反抗军的小狗大将嘛，身材小小但气魄非凡，不错不错！而且，他身上散发着一种让人内心温暖的熟悉感…奇怪，明明没见过他几面…",
+                "target_en": "Gorou",
+                "title_en": "Arataki Itto about Gorou",
+                "content_en": "Oh yeah, the doggy general in the resistance... Hey, I've gotta hand it to him, he may be on the small side, but he's got quite the fighting spirit. Also, he gives off this vibe that makes me feel all warm and fuzzy inside, almost as if he understands my innermost feelings... I mean, I've barely met the guy, so that's kinda weird."
+            },
+            {
                 "target_id": 36,
                 "target_zh": "早柚",
                 "title_zh": "荒泷一斗关于早柚",
@@ -3361,6 +3231,87 @@
                 "target_en": "Sayu",
                 "title_en": "Arataki Itto about Sayu",
                 "content_en": "All I did was give her a little pat on the head this one time when she wasn't looking, and now, she pounces to attack every time she lays eyes on me. Haha, what can I say? Tanuki are adorable! What am I supposed to do — not pat one on the head? ...Oh yeah, and that's the other thing — she beats you up for calling her a tanuki, too! What's up with that? I mean, a tanuki's what she's going for, right? Sheesh, talk about getting your fur all ruffled over nothing..."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name_zh": "五郎",
+        "name_en": "Gorou",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211130/2021113011485830826.png",
+        "ver": "2.3.1",
+        "lines": [
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "五郎关于北斗",
+                "content_zh": "北斗船长重视情义、身手不凡，令人尊敬。她曾说不愿把同伴卷入纷争，我们也理解这一点。因此，只有到了必要的时候，才会请她来帮忙。",
+                "target_en": "Beidou",
+                "title_en": "Gorou about Beidou",
+                "content_en": "Captain Beidou values camaraderie, and her exceptional abilities command respect. She once said that she prefers to avoid involving her companions in disputes that don't concern them, which I can completely understand. That's why I only request her help when we have no one else to turn to."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "五郎关于枫原万叶",
+                "content_zh": "我见过形形色色的浮浪人，万叶绝对是他们之中最特殊的一位。他就像一缕风，不会在任何地方停留，但总能给身边人带来些什么。和他并肩战斗期间，我就从他身上学会了几分「洒脱」。总之，我和万叶相当合拍！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Gorou about Kaedehara Kazuha",
+                "content_en": "I've seen all kinds of wandering samurai before, and Kazuha is categorically a different breed from the others. He's like a gust of wind that sweeps through the land. Though he never stays for long, he is always able to contribute something to those who are around him. When I fought alongside him, I learned more about what it means to be truly carefree and without constraints. In any case, I think that Kazuha and I make a great team together!"
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "五郎关于珊瑚宫心海·职责",
+                "content_zh": "珊瑚宫大人作为海祇岛最高领袖，负责掌控大局，制定计划。我负责将细节落实，把控前线的形势。反抗军上下一心，只求胜利。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Gorou about Sangonomiya Kokomi: Duties",
+                "content_en": "As the leader of Watatsumi Island, Her Excellency is responsible for assessing the scenario and formulating a plan. It is then my duty to put every detail of the plan into action and to keep the situation under control on the front line. We are united with the whole resistance in achieving a single purpose: victory."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "五郎关于珊瑚宫心海·态度",
+                "content_zh": "我对珊瑚宫大人抱有崇高的敬意。珊瑚宫大人神机妙算，没有她的谋略和统筹，反抗军不可能取得如今的战果。只不过，私底下她似乎更偏好安静的生活。没有军事要务的话，我不会主动打搅她。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Gorou about Sangonomiya Kokomi: Attitude",
+                "content_en": "I have only the utmost respect for Her Excellency. Without her ingenious and insightful strategies, the resistance could never have come as far as it has today. But if you ask me, it seems that deep down she prefers a much quieter existence. So when there's no pressing military matters, I try not to disturb her too much."
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "五郎关于雷电将军",
+                "content_zh": "雷电将军…不论理由如何，我无法认同她以前的做法。现在，海祇岛与幕府签订了和平条约，但我绝不会放松警惕。假如冲突再次爆发，我必定会重返前线。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Gorou about the Raiden Shogun",
+                "content_en": "Grr, the Raiden Shogun... I could never bring myself to accept her past actions, no matter what her reasoning may have been. Though a peace treaty has been signed between Watatsumi Island and the Shogunate, I refuse to let my guard down. If conflict ever breaks out again, I will resume my place back on the front line."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "五郎关于九条裟罗",
+                "content_zh": "我对幕府军没有好感，但九条裟罗，也许是幕府军里最正直的一位将领了。我们之间进行过数次较量，各有胜负。我曾不成熟地想过，要是这样的人能够重视民众的愿望，不受幕府掌控就好了。",
+                "target_en": "Kujou Sara",
+                "title_en": "Gorou about Kujou Sara",
+                "content_en": "I have nothing good to say about the Shogun's Army, but Kujou Sara is perhaps the most honorable officer among their ranks. We've met each other countless times in battle, emerging both victorious and defeated at different times. *sigh* I know now that it's not realistic to think this way, but I did use to wonder what things would be like if those like her could value the wishes of the people and be free from the grip of the Shogunate."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "五郎关于神里绫华",
+                "content_zh": "社奉行从属于幕府，但立场更倾向于民众。在这种两面为难的处境下，「白鹭公主」还能站稳脚跟，应该是特别冷静，又能把握做事分寸的人吧。这一点值得我学习。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Gorou about Kamisato Ayaka",
+                "content_en": "The Yashiro Commission operates as part of the Shogunate, but on many issues they tend to side with the people of Inazuma. In fact, the Shirasagi Himegimi has managed to establish an excellent reputation for herself, despite facing pressure from both sides. I suppose she must know how to keep her composure at all times and navigate sensitive situations tactfully... There's much I could learn from her."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "五郎关于早柚",
+                "content_zh": "我军情报显示，那位忍者精通潜入之法，也许她的忍术能够在珊瑚宫大人的某些奇策中发挥作用…不过，情报里又说很难掌握她的行踪，看来不好招募啊…欸？你说她是社奉行的人？…呃，那还是算了。",
+                "target_en": "Sayu",
+                "title_en": "Gorou about Sayu",
+                "content_en": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
             }
         ]
     }

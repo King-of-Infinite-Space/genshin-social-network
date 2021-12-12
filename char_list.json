@@ -1,4 +1,7 @@
 [   
+    {"id": 43, "name_zh": "五郎", "name_en": "Gorou", "ver": "2.3.1"},
+    {"id": 42, "name_zh": "荒泷一斗", "name_en": "Arataki Itto", "ver": "2.3.1"},
+
     {"id": 46, "name_zh": "八重神子", "name_en": "Yae Miko", "alias_zh": "狐耳女人", "alias_en": "Lady with Fox Ears", "ver": "2.5.1"},
 
     {"id": 41, "name_zh": "托马", "name_en": "Thoma", "ver": "2.2.2"},
