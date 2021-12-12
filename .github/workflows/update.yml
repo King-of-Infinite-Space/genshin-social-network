@@ -1,33 +1,9 @@
-name: update-char-data
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 3' # runs at 12:00 UTC every Wed
+  repository_dispatch:
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    outputs:
-      continue: ${{ steps.step1.outputs.result }}
-    steps:
-      - uses: actions/github-script@v5
-        id: step1
-        with:
-          script: |
-            const event = process.env.GITHUB_EVENT_NAME
-            console.log('Started on ' + event)
-            if ( event !== 'schedule'){
-              return true
-            } else {
-              const dt = new Date() - new Date(2021,10,3);
-              const dd = Math.round(dt/(1000*60*60*24));
-              return !(dd % 21)
-            }
-          
   update:
-    needs: check
-    if: ${{needs.check.outputs.continue}}
     runs-on: ubuntu-latest
     steps:
 
