@@ -250,7 +250,7 @@ def main():
     while v_sub > 7:  # assuming 2.7 -> 3.0 according to speculation
         v_sub -= 8
         v_main += 1
-    v_banner = 1 if abs(dd % 42 - 21) <= 7 else 2
+    v_banner = 2 if abs(dd % 42 - 21) <= 7 else 1
     # first 21 days is 1st banner
     ver = f'{v_main}.{v_sub}.{v_banner}'
 
@@ -334,4 +334,10 @@ if __name__ == '__main__':
     commit_msg = main()
     with open('msg.log', 'w') as f:
         f.write(commit_msg)
+    try:
+        k1, v1 = os.getenv('PAYLOAD1').split('=')
+        payload = {k1: v1, 'text': commit_msg}
+        r = requests.get(os.getenv('MSG_URL'), params=payload)
+    except:
+        print(traceback.format_exc())
         
