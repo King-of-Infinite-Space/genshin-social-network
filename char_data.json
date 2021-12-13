@@ -942,7 +942,81 @@
         "name_zh": "诺艾尔",
         "name_en": "Noelle",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200315/2020031516092797889.png",
-        "ver": "1.0"
+        "ver": "1.0",
+        "lines": [
+            {
+                "target_id": 2,
+                "target_zh": "安柏",
+                "title_zh": "诺艾尔关于安柏",
+                "content_zh": "她是我非常尊敬的前辈，实力很强不说，对人也很亲切。她还教我怎么做「兔兔伯爵」，你看，我会把它当成护身符带在身边，做得不错吧？",
+                "target_en": "Amber",
+                "title_en": "Noelle about Amber",
+                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?"
+            },
+            {
+                "target_id": 9,
+                "target_zh": "可莉",
+                "title_zh": "诺艾尔关于可莉",
+                "content_zh": "我一直很想知道，她还这么小，是怎么正式成为骑士的。有一次向她请教经验，她还没听完我的话，就拉着我去骑士团外面玩炸弹…我以为这是什么修行，结果最后我和她都被琴团长关了禁闭…",
+                "target_en": "Klee",
+                "title_en": "Noelle about Klee",
+                "content_en": "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in solitary confinement..."
+            },
+            {
+                "target_id": 1,
+                "target_zh": "琴",
+                "title_zh": "诺艾尔关于琴",
+                "content_zh": "琴团长一直都是我的榜样，我的实力和认真程度完全比不上她。她对别人就像对自己一样严格，所以如果有一天我能得到她的认可，那也是对我一直以来努力的最大肯定了。在那之前，我都是不会松懈的！",
+                "target_en": "Jean",
+                "title_en": "Noelle about Jean",
+                "content_en": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!"
+            },
+            {
+                "target_id": 4,
+                "target_zh": "凯亚",
+                "title_zh": "诺艾尔关于凯亚",
+                "content_zh": "他很神秘，来如影，去如风，每天都有很重要的任务要去处理。他还经常会给我安排一些小任务，就好像我已经是他的小队成员了一样…嗯？只是跑腿？不不不，虽然确实是跑腿，可是我很珍惜的！",
+                "target_en": "Kaeya",
+                "title_en": "Noelle about Kaeya",
+                "content_en": "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!"
+            },
+            {
+                "target_id": 10,
+                "target_zh": "班尼特",
+                "title_zh": "诺艾尔关于班尼特",
+                "content_zh": "他不止一次来邀请我，说什么比起骑士团，还是冒险家协会更适合我…虽然我是会像一个普通的冒险家一样，帮他照顾他的老爹们，但…骑士团对我来说有特别的意义，而且我也不想认输…嗯，果然还是没法答应。",
+                "target_en": "Bennett",
+                "title_en": "Noelle about Bennett",
+                "content_en": "He's asked me to join the Adventurers' Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers... the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "诺艾尔关于菲谢尔·茶点",
+                "content_zh": "她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…",
+                "target_en": "Fischl",
+                "title_en": "Noelle about Fischl: Tea",
+                "content_en": "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely... I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "诺艾尔关于菲谢尔·身世",
+                "content_zh": "以前我打扫图书馆的时候，记得有本书叫《菲谢尔皇女夜谭》，我还以为只是幻想小说…但没想到，里面的主人公居然真的存在！能有一本自己的传记，她一定很厉害吧。",
+                "target_en": "Fischl",
+                "title_en": "Noelle about Fischl: Background",
+                "content_en": "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her."
+            },
+            {
+                "target_id": 5,
+                "target_zh": "芭芭拉",
+                "title_zh": "诺艾尔关于芭芭拉",
+                "content_zh": "我们经常在一起喝茶，有时候她会轻轻哼出很好听的调子，告诉我灵感来了。虽然我对音乐给不出什么实用的建议…但能跟芭芭拉享受这样的时光，我真的非常高兴！",
+                "target_en": "Barbara",
+                "title_en": "Noelle about Barbara",
+                "content_en": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
+            }
+        ]
     },
     {
         "id": 12,
@@ -1003,7 +1077,99 @@
         "name_zh": "砂糖",
         "name_en": "Sucrose",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200724/2020072414340926231.png",
-        "ver": "1.0"
+        "ver": "1.0",
+        "lines": [
+            {
+                "target_id": 11,
+                "target_zh": "诺艾尔",
+                "title_zh": "砂糖关于诺艾尔",
+                "content_zh": "她…经常会主动帮我的忙，但有时候太热情了，反而…让我有点苦恼。有一次，她看到我实验室门前堆了三箱器材，就很麻利地帮我搬了进来，但其实…那些都是我刚刚搬出去的。",
+                "target_en": "Noelle",
+                "title_en": "Sucrose about Noelle",
+                "content_en": "She's... a very willing helper, I can't deny that. It's just... she makes me a little anxious is all. One time, she saw three boxes of materials stacked just outside my laboratory door, and proceeded to move them inside for me. A nice gesture, but the thing is... I'd only just finished putting them outside..."
+            },
+            {
+                "target_id": 9,
+                "target_zh": "可莉",
+                "title_zh": "砂糖关于可莉",
+                "content_zh": "她已经被琴团长关过好多次禁闭了，但只要被放出来，不久就又会闯祸，唉，不知道有没有真的反省过。啊…我答应她，要帮她做一个会蹦会跳，又很安全的蹦蹦，只不过现在，设计上还有不少问题…",
+                "target_en": "Klee",
+                "title_en": "Sucrose about Klee",
+                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
+            },
+            {
+                "target_id": 1,
+                "target_zh": "琴",
+                "title_zh": "砂糖关于琴",
+                "content_zh": "我有点不敢和琴团长说话，因为她太严肃了…我知道她是个很好的人，但、但知道归知道，害怕…还是会害怕。我一般都不会去打扰她，实在有不得不找她的事，我…我也会拜托阿贝多先生。",
+                "target_en": "Jean",
+                "title_en": "Sucrose about Jean",
+                "content_en": "I don't dare talk to Master Jean that much, because she's so strict. I know she's a good person and all — I know that, I do — but... I still find her scary. I don't tend to bother her, and even when I have to... I ask Albedo to go on my behalf."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "砂糖关于丽莎",
+                "content_zh": "我觉得她，好像懂的特别多。她明明没有看过我的研究，但有好几次，都给了我最关键的建议。她到底是怎么知道的呢？是…观察？还是推理呢？",
+                "target_en": "Lisa",
+                "title_en": "Sucrose about Lisa",
+                "content_en": "She really seems to know a great deal. She's obviously never seen my research, and yet on so many occasions she's given me advice on that which is most core to my studies. Just how does she know? Is it observation, or is it ratiocination?"
+            },
+            {
+                "target_id": 4,
+                "target_zh": "凯亚",
+                "title_zh": "砂糖关于凯亚",
+                "content_zh": "唔…我知道他喜欢开玩笑，也没有存心捉弄我的意思。可是，我实在是…分不清他的哪句话是真话，哪句话又是玩笑，所以最后要不然就变得很尴尬，要不然，就是我出洋相…",
+                "target_en": "Kaeya",
+                "title_en": "Sucrose about Kaeya",
+                "content_en": "Oh... I know he likes to joke, and isn't trying to make fun of me, but I often struggle to work out which parts of what he says are the truth and which parts are jokes. So whenever he talks to me, the outcome is usually one of two things: morbid embarrassment or unbearable awkwardness."
+            },
+            {
+                "target_id": 26,
+                "target_zh": "阿贝多",
+                "title_zh": "砂糖关于阿贝多·艺术",
+                "content_zh": "当他的助手，每天都能学到很多。重点不是知识，而是「天才」的思考方法，无论是多么复杂的问题，他总能抽丝剥茧，再一一解决。在我看来，那就是艺术…",
+                "target_en": "Albedo",
+                "title_en": "Sucrose about Albedo: Artistry",
+                "content_en": "As his assistant I learn so much each and every day. What's key is not his existing knowledge, but his talented way of thinking. No matter how complex the task at hand, his way of thinking ensures he gets to the bottom of it, and is able to explain it thoroughly. His methodologies are amazing... to me, it's where alchemy meets art."
+            },
+            {
+                "target_id": 26,
+                "target_zh": "阿贝多",
+                "title_zh": "砂糖关于阿贝多·天赋",
+                "content_zh": "你说天赋？嗯…假如和他做同样的研究，可能确实一辈子都没法超过他。但，我研究「生物炼金」并没有故意要躲开他的意思，只是…嗯，我和他恰好有不同的爱好，还有梦想，仅此而已吧。",
+                "target_en": "Albedo",
+                "title_en": "Sucrose about Albedo: Talent",
+                "content_en": "Talent? Let's hypothesize that he and I were to perform the same research — I'd still spend my whole life playing catch up. But, my studying bio-alchemy has nothing to do with evading his line of research, we just happen to have different interests and dreams — nothing more."
+            },
+            {
+                "target_id": 2,
+                "target_zh": "安柏",
+                "title_zh": "砂糖关于安柏",
+                "content_zh": "我很好奇，为什么她做的布偶，名字叫「兔兔伯爵」呢？和兔子没什么关系吧。唔…你说，头上的发带，很像兔耳朵？…有道理，但其实这是刻板印象，也有很多兔子耳朵是垂下来的。",
+                "target_en": "Amber",
+                "title_en": "Sucrose about Amber",
+                "content_en": "I'm curious as to why her doll is called \"Baron Bunny,\" it clearly has nothing to do with a rabbit at all. Oh, the headband makes it look like it has rabbit ears you say? Hmm... That's heavily reliant on the rabbit stereotype, is it not? Many rabbits' ears are floppy."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "砂糖关于菲谢尔",
+                "content_zh": "你是说《菲谢尔皇女夜谭》？我知道，作者创造出的世界很有意思，要是能亲眼去看一看就好了…欸？你在说那个「菲谢尔」啊？她啊…嗯，她…应该是没办法带我去的。",
+                "target_en": "Fischl",
+                "title_en": "Sucrose about Fischl",
+                "content_en": "I take it you're referring to the book series, Flowers for Princess Fischl? Indeed, the world the author came up with is very creative. If only I could go see it with my own eyes. Oh, you're referring to Fischl herself? I am... doubtful that she could really take me there."
+            },
+            {
+                "target_id": 32,
+                "target_zh": "优菈",
+                "title_zh": "砂糖关于优菈",
+                "content_zh": "游击骑士的工作很危险，优菈小姐的行动又格外大胆，所以我给她制作了一个侦察装置，这样她就不用潜入敌人的营地了。但优菈小姐的气势太吓人，我有点怕她，告诉她使用方法的时候，不小心漏掉了几条注意事项，结果真的发生了意外…怎么办？我会不会被她记仇了…",
+                "target_en": "Eula",
+                "title_en": "Sucrose about Eula",
+                "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...Ah, what should I do... I hope she won't hold a grudge against me..."
+            }
+        ]
     },
     {
         "id": 14,
