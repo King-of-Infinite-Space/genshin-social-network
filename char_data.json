@@ -3007,8 +3007,7 @@
         "name_zh": "埃洛伊",
         "name_en": "Aloy",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210825/2021082511163174110.png",
-        "ver": "2.1.0",
-        "lines": []
+        "ver": "2.1.0"
     },
     {
         "id": 38,
@@ -3325,6 +3324,159 @@
                 "target_en": "Eula",
                 "title_en": "Thoma about Eula",
                 "content_en": "You've had a run-in with Eula Lawrence before, huh? All I know is that their whole family are about the worst-tempered people you could ever meet. You're better off steering clear of them if you can help it. Ah, now I'm in a Mondstadt mood again... The memories."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name_zh": "荒泷一斗",
+        "name_en": "Arataki Itto",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211130/2021113011275394620.png",
+        "ver": "2.3.2",
+        "lines": [
+            {
+                "target_id": 41,
+                "target_zh": "托马",
+                "title_zh": "荒泷一斗关于托马",
+                "content_zh": "听弟兄们说，他是第一百颗神之眼狩眼仪式的主角？嗯？为什么他会有专属的仪式啊？欸，难道说第一百颗神之眼是比前九十九颗厉害吗？嘶…不对，真是那样的话，那应该是本大爷来当这第一百颗才对！",
+                "target_en": "Thoma",
+                "title_en": "Arataki Itto about Thoma",
+                "content_en": "Some of the boys have been telling me that he was the star of the show at the Vision Hunt Ceremony. I'm like — are you kidding me??? How come he gets his own special ceremony!? Was the hundredth Vision supposed to be, like, stronger than the other ninety-nine, or something? Pff, nah, it can't have been that, 'cause, uh, hello! They would've chosen me if that's what they were going for."
+            },
+            {
+                "target_id": 35,
+                "target_zh": "宵宫",
+                "title_zh": "荒泷一斗关于宵宫",
+                "content_zh": "那家伙，仗着自己会做烟花和小玩具，哄起小孩来一套一套的…不行，不能让她抢尽风头，「孩子王」本大爷是当定了！你也要站我这边…什么？你不是孩子？呵，在我眼里，比我矮的，全是孩子！",
+                "target_en": "Yoimiya",
+                "title_en": "Arataki Itto about Yoimiya",
+                "content_en": "Hmph, she's always showing off her fancy fireworks and toys to the kids. Well, I'm sick of it! Nobody steals my thunder! I'm the one that's supposed to be adored by the kids! Me! That goes for you too, you're siding with me on this, okay... Huh? Whaddya mean, you're not a kid? Eh, details. If you're shorter than me, you're a kid as far as I'm concerned."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "荒泷一斗关于枫原万叶",
+                "content_zh": "听说你从天守阁逃出来后，是他挡下了「无想的一刀」？帅啊！到底怎么做到的。你想，他是没落的贵族，我是没落的鬼族…某种意义上，我和他旗鼓相当啊。哈哈哈哈，那么，下一刀，本大爷替你挡了！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Arataki Itto about Kaedehara Kazuha",
+                "content_en": "Word on the street is that he blocked the Musou no Hitotachi after you escaped from Tenshukaku. Seriously? 'Cause I mean, that is awesome! Who knows how he pulled it off. Hey, now that I think about it, he's from a fallen clan, and I'm from a fallen clan... That kinda makes us equals, haha! Yeah, so next time someone attacks you, it's my turn to block the blade!"
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "荒泷一斗关于雷电将军",
+                "content_zh": "搞眼狩令的时候，需要出动她得意的天狗才能制服我，说明本大爷一定让她很头痛吧？不过，既然她决定废除眼狩令，也不算无可救药。哼，她最好记住这次的教训，别再有下次，不然，我一定会让她更头痛，哼。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Arataki Itto about the Raiden Shogun",
+                "content_en": "During the Vision Hunt Decree, the Shogun had to send her top tengu in person to get my Vision off me. Heh, means she must have found me to be quite the pain in the neck. But, y'know, she's abolished the Vision Hunt Decree now, so no hard feelings, I guess. As long as she's learned her lesson, of course. 'Cause if she pulls something like that again, this old pain in the neck will be back with a vengeance."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "荒泷一斗关于九条裟罗",
+                "content_zh": "眼狩令那会我确实败给她了，呵，这也没什么好羞耻的，输了就堂堂正正投降，错了就老老实实挨打，这才是真男人！反倒是她，堂堂天狗，不敢应我的复仇之约。哼，不过是在十字路口相扑而已，这就怕了？她要是再不来应战我就不叫她九条天狗了，我要叫她——九条乌龟！",
+                "target_en": "Kujou Sara",
+                "title_en": "Arataki Itto about Kujou Sara",
+                "content_en": "You know what, yeah, she beat me during the Vision Hunt Decree. I'm not ashamed to admit it. When you lose, you admit defeat, and when you screw up, you take it on the chin, like a man! And anyway, let's not forget which one of us won't agree to a rematch — her, the tengu warrior! It's just a sumo street fight, I mean, what's she so afraid of? If she keeps snubbing me, I'm gonna have to stop calling her Kujou Tengu and start calling her Kujou Chicken! Heh, we'll see what she thinks of that."
+            },
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "荒泷一斗关于五郎",
+                "content_zh": "哦，反抗军的小狗大将嘛，身材小小但气魄非凡，不错不错！而且，他身上散发着一种让人内心温暖的熟悉感…奇怪，明明没见过他几面…",
+                "target_en": "Gorou",
+                "title_en": "Arataki Itto about Gorou",
+                "content_en": "Oh yeah, the doggy general in the resistance... Hey, I've gotta hand it to him, he may be on the small side, but he's got quite the fighting spirit. Also, he gives off this vibe that makes me feel all warm and fuzzy inside, almost as if he understands my innermost feelings... I mean, I've barely met the guy, so that's kinda weird."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "荒泷一斗关于早柚",
+                "content_zh": "不过是趁她不注意的时候，摸了摸她的头而已，现在一见面就要跳起来打我。哈哈哈没办法，这么可爱的小狸猫，谁见了都会忍不住想去摸摸头吧？噢对了…喊她狸猫也会被揍。为什么啊，那不就是狸猫吗…？",
+                "target_en": "Sayu",
+                "title_en": "Arataki Itto about Sayu",
+                "content_en": "All I did was give her a little pat on the head this one time when she wasn't looking, and now, she pounces to attack every time she lays eyes on me. Haha, what can I say? Tanuki are adorable! What am I supposed to do — not pat one on the head? ...Oh yeah, and that's the other thing — she beats you up for calling her a tanuki, too! What's up with that? I mean, a tanuki's what she's going for, right? Sheesh, talk about getting your fur all ruffled over nothing..."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name_zh": "五郎",
+        "name_en": "Gorou",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211130/2021113011485830826.png",
+        "ver": "2.3.2",
+        "lines": [
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "五郎关于北斗",
+                "content_zh": "北斗船长重视情义、身手不凡，令人尊敬。她曾说不愿把同伴卷入纷争，我们也理解这一点。因此，只有到了必要的时候，才会请她来帮忙。",
+                "target_en": "Beidou",
+                "title_en": "Gorou about Beidou",
+                "content_en": "Captain Beidou values camaraderie, and her exceptional abilities command respect. She once said that she prefers to avoid involving her companions in disputes that don't concern them, which I can completely understand. That's why I only request her help when we have no one else to turn to."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "五郎关于枫原万叶",
+                "content_zh": "我见过形形色色的浮浪人，万叶绝对是他们之中最特殊的一位。他就像一缕风，不会在任何地方停留，但总能给身边人带来些什么。和他并肩战斗期间，我就从他身上学会了几分「洒脱」。总之，我和万叶相当合拍！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Gorou about Kaedehara Kazuha",
+                "content_en": "I've seen all kinds of wandering samurai before, and Kazuha is categorically a different breed from the others. He's like a gust of wind that sweeps through the land. Though he never stays for long, he is always able to contribute something to those who are around him. When I fought alongside him, I learned more about what it means to be truly carefree and without constraints. In any case, I think that Kazuha and I make a great team together!"
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "五郎关于珊瑚宫心海·职责",
+                "content_zh": "珊瑚宫大人作为海祇岛最高领袖，负责掌控大局，制定计划。我负责将细节落实，把控前线的形势。反抗军上下一心，只求胜利。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Gorou about Sangonomiya Kokomi: Duties",
+                "content_en": "As the leader of Watatsumi Island, Her Excellency is responsible for assessing the scenario and formulating a plan. It is then my duty to put every detail of the plan into action and to keep the situation under control on the front line. We are united with the whole resistance in achieving a single purpose: victory."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "五郎关于珊瑚宫心海·态度",
+                "content_zh": "我对珊瑚宫大人抱有崇高的敬意。珊瑚宫大人神机妙算，没有她的谋略和统筹，反抗军不可能取得如今的战果。只不过，私底下她似乎更偏好安静的生活。没有军事要务的话，我不会主动打搅她。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Gorou about Sangonomiya Kokomi: Attitude",
+                "content_en": "I have only the utmost respect for Her Excellency. Without her ingenious and insightful strategies, the resistance could never have come as far as it has today. But if you ask me, it seems that deep down she prefers a much quieter existence. So when there's no pressing military matters, I try not to disturb her too much."
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "五郎关于雷电将军",
+                "content_zh": "雷电将军…不论理由如何，我无法认同她以前的做法。现在，海祇岛与幕府签订了和平条约，但我绝不会放松警惕。假如冲突再次爆发，我必定会重返前线。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Gorou about the Raiden Shogun",
+                "content_en": "Grr, the Raiden Shogun... I could never bring myself to accept her past actions, no matter what her reasoning may have been. Though a peace treaty has been signed between Watatsumi Island and the Shogunate, I refuse to let my guard down. If conflict ever breaks out again, I will resume my place back on the front line."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "五郎关于九条裟罗",
+                "content_zh": "我对幕府军没有好感，但九条裟罗，也许是幕府军里最正直的一位将领了。我们之间进行过数次较量，各有胜负。我曾不成熟地想过，要是这样的人能够重视民众的愿望，不受幕府掌控就好了。",
+                "target_en": "Kujou Sara",
+                "title_en": "Gorou about Kujou Sara",
+                "content_en": "I have nothing good to say about the Shogun's Army, but Kujou Sara is perhaps the most honorable officer among their ranks. We've met each other countless times in battle, emerging both victorious and defeated at different times. *sigh* I know now that it's not realistic to think this way, but I did use to wonder what things would be like if those like her could value the wishes of the people and be free from the grip of the Shogunate."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "五郎关于神里绫华",
+                "content_zh": "社奉行从属于幕府，但立场更倾向于民众。在这种两面为难的处境下，「白鹭公主」还能站稳脚跟，应该是特别冷静，又能把握做事分寸的人吧。这一点值得我学习。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Gorou about Kamisato Ayaka",
+                "content_en": "The Yashiro Commission operates as part of the Shogunate, but on many issues they tend to side with the people of Inazuma. In fact, the Shirasagi Himegimi has managed to establish an excellent reputation for herself, despite facing pressure from both sides. I suppose she must know how to keep her composure at all times and navigate sensitive situations tactfully... There's much I could learn from her."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "五郎关于早柚",
+                "content_zh": "我军情报显示，那位忍者精通潜入之法，也许她的忍术能够在珊瑚宫大人的某些奇策中发挥作用…不过，情报里又说很难掌握她的行踪，看来不好招募啊…欸？你说她是社奉行的人？…呃，那还是算了。",
+                "target_en": "Sayu",
+                "title_en": "Gorou about Sayu",
+                "content_en": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
             }
         ]
     }
