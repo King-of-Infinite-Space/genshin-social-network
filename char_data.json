@@ -3007,7 +3007,8 @@
         "name_zh": "埃洛伊",
         "name_en": "Aloy",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210825/2021082511163174110.png",
-        "ver": "2.1.0"
+        "ver": "2.1.0",
+        "lines": []
     },
     {
         "id": 38,
