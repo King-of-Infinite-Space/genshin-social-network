@@ -22,7 +22,9 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute python script
-        id: script
+        env:
+          MSG_URL: ${{ secrets.MSG_URL }}
+          PAYLOAD1: ${{ secrets.PAYLOAD1 }}
         run: python fetch_data.py
 
       - name: get message
@@ -35,18 +37,6 @@ jobs:
         with:
           commit_message: ${{ steps.message.outputs.msg }}
       
-      - name: send message
-        if: ${{ steps.message.outputs.msg != '' }}
-        env:
-          MSG_URL: ${{ secrets.MSG_URL }}
-          PAYLOAD1: ${{ secrets.PAYLOAD1 }}
-          MSG: ${{ steps.message.outputs.msg }}
-        run:
-          curl -G \
-            --data-urlencode $PAYLOAD1 \
-            --data-urlencode "text=$MSG" \
-            $MSG_URL > /dev/null
-
       - name: raise error if incomplete
         if: ${{ contains(steps.message.outputs.msg,'incomplete') }}
         run: exit 1
