@@ -34,19 +34,19 @@
     <script src="https://cdn.jsdelivr.net/npm/seedrandom@3.0.5/seedrandom.min.js"></script>
 
     <script type="text/javascript">
-        let URL_BASE = '.'
+        let src_base = 'page/'
         if (window.location.hostname.includes("github.io")){
-            URL_BASE = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network"
+            src_base = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/"+src_base
         }
         const ss = document.createElement('link')
         ss.type = 'text/css'
-        ss.href = URL_BASE + '/style.css'
+        ss.href = src_base + 'style.css'
         ss.rel = 'stylesheet'
         document.head.appendChild(ss)
 
         const icon = document.createElement('link')
         icon.type = 'image/svg+xml'
-        icon.href = URL_BASE + '/icon.svg'
+        icon.href = src_base + 'icon.svg'
         icon.rel = 'icon'
         document.head.appendChild(icon)
     </script>
@@ -127,7 +127,7 @@
    
     <script type="text/javascript">
         const sc = document.createElement('script')
-        sc.src = URL_BASE + '/script.js'
+        sc.src = src_base + 'script.js'
         document.body.appendChild(sc)
 
         const LOCAL_DOMAINS = ["localhost", "127.0.0.1", ""]

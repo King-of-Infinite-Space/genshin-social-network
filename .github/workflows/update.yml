@@ -1,6 +1,5 @@
 on:
   workflow_dispatch:
-  repository_dispatch:
 
 jobs:
   update:
@@ -10,12 +9,12 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.head_ref }}
+          ref: main
 
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9.6'
+          python-version: '3.9.9'
           
       - name: install python packages
         run: |
@@ -25,7 +24,7 @@ jobs:
         env:
           MSG_URL: ${{ secrets.MSG_URL }}
           PAYLOAD1: ${{ secrets.PAYLOAD1 }}
-        run: python fetch_data.py
+        run: python ./utils/fetch_data.py
 
       - name: get message
         id: message

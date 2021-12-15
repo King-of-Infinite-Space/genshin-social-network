@@ -8,6 +8,9 @@ import os
 import traceback
 from datetime import date
 
+SUB_FOLDER = 'utils/'
+DIST_FOLDER = 'page/'
+
 #%%
 def find_quote_target(title, self_name, char_dict, lang) -> tuple[str, int]:
     about = {'en': 'About ', 'zh': '关于'}
@@ -33,84 +36,6 @@ def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
             print(lines_zh[i]['title_zh'], lines_en[i]['title_en'])
             raise ValueError("Quote targets don't match")
     return lines
-
-# not used anymore
-# Reference: https://www.mediawiki.org/wiki/API:Parsing_wikitext
-def get_quotes_bwiki(name):
-    S = requests.Session()
-
-    URL = "https://wiki.biligame.com/ys/api.php"
-
-    PARAMS = {
-        'action': "parse",
-        'page': name+'语音',
-        'prop': 'wikitext',
-        'format': "json"
-    }
-
-    res = S.get(url=URL, params=PARAMS)
-    data = res.json()
-
-    entries = {}
-
-    wikitext = data['parse']['wikitext']['*']
-    lines = wikitext.replace('\n','').replace('\t','').split('}}{{')
-    lines[-1] = lines[-1].replace('}}','')
-    for line in lines:
-        if line.startswith("角色/语音"):
-            l = line.split('|')
-            k = l[1].split('=')[-1] #关于xx
-            while k.endswith('…') or k.endswith('·') or k.endswith(' '):
-                k = k[:-1]
-            k = re.sub(r'[0-9]|\.', '', k)
-            v = l[-1].replace('<br>','\n')
-            v = re.sub('<[^<]+?>', '', v)
-            v = v.split('=')[-1]
-            v = v.replace("'''",'')
-            entries[k] = v
-    # print(entries)
-    return entries
-
-# not used anymore
-def get_images_bwiki(char_dict) -> tuple[dict[str, str], int]: 
-    image_urls = {}
-
-    S = requests.Session()
-    URL = "https://wiki.biligame.com/ys/api.php"
-    PARAMS = {
-        'action': "parse",
-        'page': "角色筛选",
-        'format': "json"
-    }
-
-    res = S.get(url=URL, params=PARAMS)
-    html_doc = res.json()['parse']['text']['*']
-    # table = pd.read_html(data, attrs={'id':"CardSelectTr"})
-    soup = BeautifulSoup(html_doc, 'html.parser')
-    table = soup.find(id='CardSelectTr')
-    new_count = 0
-    for tr in table.find_all('tr')[1:]: #ignore thead
-        a = tr.td.a # from first td
-        name = a['title']
-        if name in char_dict: # true only if the image exists in the table
-            srcset = a.img['srcset']
-            img_url = srcset.split('1.5x, ')[-1].replace(' 2x','')
-            img_path = f"./images/{name}.png"
-            if not os.path.exists(img_path):
-                r = requests.get(img_url)
-                with open(img_path, "wb") as f:
-                    f.write(r.content)
-                new_count += 1
-                print(f'Downloaded {img_path}')
-            image_urls[name] = img_url
-
-    for fn in os.listdir('./images/'):
-        if '.png' in fn:
-            name = fn.split('.')[0]
-            # manually added images
-            if name not in image_urls:
-                image_urls[name] = ''
-    return image_urls, new_count
 
 def get_char_api() -> dict[str, dict[str, str]]:
     # api from https://ys.mihoyo.com/main/character/mondstadt
@@ -215,7 +140,7 @@ def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
 
 def update_local_list(char_dict, ver):
     entries = []
-    with open('./char_list.json', 'r') as f:
+    with open(SUB_FOLDER+'char_list.json', 'r') as f:
         lines = f.readlines()
     char_list_local = json.loads(''.join(lines))
     names_local = {char['name_zh'] for char in char_list_local}
@@ -227,14 +152,17 @@ def update_local_list(char_dict, ver):
             entry = '    ' + json.dumps(d, ensure_ascii=False) + ',\n'
             entries.append(entry)
     if len(entries) > 0:
+        print('Writing local list')
         if char_list_local[0]['ver'][:3] != ver[:3]:
             entries.append('\n')
         lines = [lines[0]] + entries + lines[1:]
-        with open('./char_list.json', 'w') as f:
+        with open(SUB_FOLDER+'char_list.json', 'w') as f:
             f.writelines(lines)
+    else:
+        print('Local list up to date')
 
 def modify_char_dict(char_dict):
-    with open('./char_list.json', 'r') as f:
+    with open(SUB_FOLDER+'char_list.json', 'r') as f:
         char_list_local = json.load(f)
     for d in char_list_local:
         name = d['name_zh']
@@ -255,9 +183,9 @@ def main():
     ver = f'{v_main}.{v_sub}.{v_banner}'
 
     print('Updating for v'+ver)
-    with open('char_data.json') as f:
+    with open(SUB_FOLDER+'char_data.json') as f:
         char_data_old = json.load(f)
-    with open('char_retry.json') as f:
+    with open(SUB_FOLDER+'char_retry.json') as f:
         char_retry = json.load(f)
     count_old = len(char_data_old)
     count_total = count_old
@@ -280,16 +208,15 @@ def main():
 
         char_names_new = char_names[:count_total-count_old]
         print(f"\tNew char {' '.join(char_names_new)}")
-        print('Updating local list')
         update_local_list(char_dict, ver) # write new names to char_list.json
-        modify_char_dict(char_dict) # add local info (eg. alias) to char_dict
    
     else:  # resume from last checkpoint
         char_pending = char_retry
         print(f"Retrying {' '.join(char_retry)}")
         char_dict = {x['name_zh']: x for x in char_data_old}
-        modify_char_dict(char_dict)
-
+    
+    print('Updating char dict with local list')
+    modify_char_dict(char_dict) # add local info (eg. alias) to char_dict
     print(f'Fetching quotes')
     count_pending = len(char_pending)
     print(f'\t{count_pending} pending / {count_total} released')
@@ -313,13 +240,13 @@ def main():
     char_data = list(char_dict.values())
     char_data.sort(key=lambda x: x['id'])
 
-    with open("char_data.json", "w", encoding='utf8') as f:
+    with open(SUB_FOLDER+"char_data.json", "w", encoding='utf8') as f:
         json.dump(char_data, f, ensure_ascii=False, indent=4)
 
-    with open("char_data_min.json", "w", encoding='utf8') as f:
+    with open(DIST_FOLDER+"char_data_min.json", "w", encoding='utf8') as f:
         json.dump(char_data, f, ensure_ascii=False, separators=(',', ':'))
 
-    with open("char_retry.json", "w", encoding='utf8') as f:
+    with open(SUB_FOLDER+"char_retry.json", "w", encoding='utf8') as f:
         json.dump(char_error, f, ensure_ascii=False, indent=4)
 
     if len(char_error) == 0:

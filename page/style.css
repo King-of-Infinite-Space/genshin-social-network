@@ -99,7 +99,7 @@ h6 {
 
 .tip-quote {
     white-space: pre-line;
-    font-family: 'KaiTi', 'STKaiti', serif;
+    font-family: serif, 'KaiTi', 'STKaiti';
     font-size: 1.2em;
     margin-bottom: 5px;
     /*font-weight: 600;*/
@@ -111,7 +111,7 @@ h6 {
 }
 
 .tippy-box[data-theme~=light] {
-    background-color: rgba(255,255,255,0.9)!important;
+    background-color: rgba(255,255,255,0.95)!important;
 }
 
 .tippy-box {

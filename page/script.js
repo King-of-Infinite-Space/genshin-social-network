@@ -1,8 +1,5 @@
-// if (window.location.hostname === "king-of-infinite-space.github.io"){
-//     const URL_BASE = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network"
-// } else {
-//     const URL_BASE = '.'
-// } // defined in HTML
+// src_base = 'subfolder/' or jsdelivr CDN
+// defined in HTML
 
 const langs = ['zh', 'en']
 
@@ -464,7 +461,7 @@ async function getJson(url) {
 
 
 async function main() {
-    charData = await getJson(`${URL_BASE}/char_data_min.json`)
+    charData = await getJson(`${src_base}char_data_min.json`)
     // create nodes
     for (const char of charData) {
         for (const l of langs) {

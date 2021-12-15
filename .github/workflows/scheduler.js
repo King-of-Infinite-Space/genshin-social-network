@@ -1,3 +1,4 @@
+// this has been copied into scheduler.yml
 module.exports = async ({ github, context }) => {
     const event = context.eventName
     console.log('Started on ' + event)

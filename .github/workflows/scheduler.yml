@@ -23,9 +23,10 @@ jobs:
                     trigger = !(dd % 21)
                 }
                 if (trigger) {
-                    await github.rest.repos.createDispatchEvent({
+                    await github.rest.actions.createWorkflowDispatch({
                         owner: context.repo.owner,
                         repo: context.repo.repo,
-                        event_type: event
+                        workflow_id: 'update.yml',
+                        ref: 'main'
                     });
                 }
