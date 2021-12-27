@@ -8,8 +8,12 @@ import os
 import traceback
 from datetime import date
 
-SUB_FOLDER = 'utils/'
+DATA_FOLDER = 'utils/'
+DATA_FILE = DATA_FOLDER+"char_data.json"
+NAME_LIST_FILE = DATA_FOLDER+'char_list.json'
+NAME_RETRY_FILE = DATA_FOLDER+'char_retry.json'
 DIST_FOLDER = 'page/'
+DATA_FILE_MIN = DIST_FOLDER+"char_data_min.json"
 
 #%%
 def find_quote_target(title, self_name, char_dict, lang) -> tuple[str, int]:
@@ -37,7 +41,7 @@ def merge_lines(lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
             raise ValueError("Quote targets don't match")
     return lines
 
-def get_char_api() -> dict[str, dict[str, str]]:
+def fetch_char_api() -> dict[str, dict[str, str]]:
     # api from https://ys.mihoyo.com/main/character/mondstadt
     # channelId 150 mondstadt, 151 liyue, 324 inazuma; 152 seems to be all chars, stumbled across
     # alternatively from english / other language website https://genshin.mihoyo.com/en/character/mondstadt
@@ -73,7 +77,7 @@ def get_char_api() -> dict[str, dict[str, str]]:
         char_dict[name] = d
     return char_dict
 
-def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
+def fetch_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
     """
         get lines from *char* to other chars
     """
@@ -138,9 +142,25 @@ def get_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
 
     return lines
 
+def fetch_char_quotes(char_dict, char_pending, char_error):
+    i = 1
+    for char in char_dict.values():
+        if char['name_zh'] in char_pending:
+            try:
+                lines_zh = fetch_quotes_hhw(char, char_dict, 'zh')
+                lines_en = fetch_quotes_hhw(char, char_dict, 'en')
+                char['lines'] = merge_lines(lines_zh, lines_en)
+                print(f"\t{i} / {len(char_pending)}  {char['name_zh']} ({len(lines_zh)})")
+            except KeyboardInterrupt:
+                raise KeyboardInterrupt
+            except:
+                print(f"\t{i} / {len(char_pending)}  {char['name_zh']} {traceback.format_exc()}")
+                char_error.append(char['name_zh'])
+            i += 1
+
 def update_local_list(char_dict, ver):
     entries = []
-    with open(SUB_FOLDER+'char_list.json', 'r') as f:
+    with open(NAME_LIST_FILE, 'r') as f:
         lines = f.readlines()
     char_list_local = json.loads(''.join(lines))
     names_local = {char['name_zh'] for char in char_list_local}
@@ -156,46 +176,59 @@ def update_local_list(char_dict, ver):
         if char_list_local[0]['ver'][:3] != ver[:3]:
             entries.append('\n')
         lines = [lines[0]] + entries + lines[1:]
-        with open(SUB_FOLDER+'char_list.json', 'w') as f:
+        with open(NAME_LIST_FILE, 'w') as f:
             f.writelines(lines)
     else:
         print('Local list up to date')
 
-def modify_char_dict(char_dict):
-    with open(SUB_FOLDER+'char_list.json', 'r') as f:
+def annotate_char_dict(char_dict):
+    with open(NAME_LIST_FILE, 'r') as f:
         char_list_local = json.load(f)
     for d in char_list_local:
         name = d['name_zh']
         if name in char_dict:
             char_dict[name].update(d)
 
-def main():
+def calc_ver():
     # 2021-11-24 Wed v2.3.1
-    # 1 subversion per 6 weeks, usually two banners
+    # 1 sub-version per 6 weeks, usually two banners
     dd = (date.today() - date(2021, 11, 24)).days
     v_main = 2
     v_sub = 3 + dd // 42
-    while v_sub > 7:  # assuming 2.7 -> 3.0 according to speculation
-        v_sub -= 8
-        v_main += 1
-    v_banner = 2 if abs(dd % 42 - 21) <= 7 else 1
-    # first 21 days is 1st banner
-    ver = f'{v_main}.{v_sub}.{v_banner}'
 
+    n_half = 1 + dd % 42 // 21
+    # first half or second half
+    d_half = dd % 21
+    v_banner = n_half + (d_half >= 14)
+
+    if v_banner > 2:
+        v_banner = 1
+        v_sub += 1
+    if v_sub > 7:  # assuming 2.7 -> 3.0 according to speculation
+        v_sub = 0
+        v_main += 1
+    ver = f'{v_main}.{v_sub}.{v_banner}'
+    return ver
+
+def main():
+    ver = calc_ver()
     print('Updating for v'+ver)
-    with open(SUB_FOLDER+'char_data.json') as f:
+
+    with open(DATA_FILE) as f:
         char_data_old = json.load(f)
-    with open(SUB_FOLDER+'char_retry.json') as f:
+    # loaded old data as a list of dicts
+    with open(NAME_RETRY_FILE) as f:
         char_retry = json.load(f)
     count_old = len(char_data_old)
     count_total = count_old
     char_error = []
     commit_msg = ''
 
-    if len(char_retry) == 0:  # start anew
+    if len(char_retry) == 0:
+        # start anew
         print('Fetching mhy api')
-        # get current char list
-        char_dict = get_char_api()  # used for generate char_data
+        char_dict = fetch_char_api()
+        # got current chars, building from it
         char_names = list(char_dict.keys())
         char_pending = char_names
         count_total = len(char_dict)
@@ -208,51 +241,38 @@ def main():
 
         char_names_new = char_names[:count_total-count_old]
         print(f"\tNew char {' '.join(char_names_new)}")
-        update_local_list(char_dict, ver) # write new names to char_list.json
-   
-    else:  # resume from last checkpoint
+        update_local_list(char_dict, ver)
+        # wrote new names to char_list file
+    else:
+        # resume from last checkpoint
         char_pending = char_retry
         print(f"Retrying {' '.join(char_retry)}")
         char_dict = {x['name_zh']: x for x in char_data_old}
     
-    print('Updating char dict with local list')
-    modify_char_dict(char_dict) # add local info (eg. alias) to char_dict
-    print(f'Fetching quotes')
-    count_pending = len(char_pending)
-    print(f'\t{count_pending} pending / {count_total} released')
-    i = 1
-    for char in char_dict.values():
-        if char['name_zh'] in char_pending:
-            try:
-                lines_zh = get_quotes_hhw(char, char_dict, 'zh')
-                lines_en = get_quotes_hhw(char, char_dict, 'en')
-                char['lines'] = merge_lines(lines_zh, lines_en)
-                print(f"\t{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
-            except KeyboardInterrupt:
-                raise KeyboardInterrupt
-            except:
-                print(f"\t{i} / {count_pending}  {char['name_zh']} {traceback.format_exc()}")
-                char_error.append(char['name_zh'])
-            i += 1
+    print('Adding local info to char dict')
+    annotate_char_dict(char_dict)
 
-    print(f'Updated {count_pending} chars, {len(char_error)} errors')
-    # write data files
+    print(f'Fetching quotes')
+    print(f'\t{len(char_pending)} pending / {count_total} total')
+    fetch_char_quotes(char_dict, char_pending, char_error)
+    # updated char_dict with quotes
+    print(f'Updated {len(char_pending)} chars, {len(char_error)} errors')
+    
     char_data = list(char_dict.values())
     char_data.sort(key=lambda x: x['id'])
-
-    with open(SUB_FOLDER+"char_data.json", "w", encoding='utf8') as f:
+    with open(DATA_FILE, "w", encoding='utf8') as f:
         json.dump(char_data, f, ensure_ascii=False, indent=4)
-
-    with open(DIST_FOLDER+"char_data_min.json", "w", encoding='utf8') as f:
-        json.dump(char_data, f, ensure_ascii=False, separators=(',', ':'))
-
-    with open(SUB_FOLDER+"char_retry.json", "w", encoding='utf8') as f:
+    with open(NAME_RETRY_FILE, "w", encoding='utf8') as f:
         json.dump(char_error, f, ensure_ascii=False, indent=4)
+    print('Wrote '+DATA_FILE)
 
     if len(char_error) == 0:
+        with open(DATA_FILE_MIN, "w", encoding='utf8') as f:
+            json.dump(char_data, f, ensure_ascii=False, separators=(',', ':'))
         commit_msg = f"v{ver} {' '.join([char['name_zh'] for char in char_data if char['ver']==ver])}"
     else:
-        commit_msg = f"v{ver} update incomplete"
+        print('Wrote '+NAME_RETRY_FILE)
+        commit_msg = f"v{ver} updating"
     print('Done —— '+commit_msg)
     return commit_msg
 
@@ -261,10 +281,10 @@ if __name__ == '__main__':
     commit_msg = main()
     with open('msg.log', 'w') as f:
         f.write(commit_msg)
-    try:
-        k1, v1 = os.getenv('PAYLOAD1').split('=')
-        payload = {k1: v1, 'text': commit_msg}
-        r = requests.get(os.getenv('MSG_URL'), params=payload)
-    except:
-        print(traceback.format_exc())
-        
+    if os.getenv('GITHUB_ACTIONS') is not None:
+        try:
+            k1, v1 = os.getenv('PAYLOAD1').split('=')
+            payload = {k1: v1, 'text': commit_msg}
+            r = requests.get(os.getenv('MSG_URL'), params=payload)
+        except:
+            print(traceback.format_exc())
