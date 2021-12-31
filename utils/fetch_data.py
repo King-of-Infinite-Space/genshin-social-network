@@ -1,5 +1,4 @@
 #%% 
-
 import requests
 import json
 from bs4 import BeautifulSoup
@@ -84,8 +83,12 @@ def fetch_quotes_hhw(char, char_dict, lang='zh') -> list[dict]:
     name = char['name_'+lang]
     if 'url_name' in char:
         url_name = char['url_name']
+    elif len(char['name_zh']) == len(char['name_en'].split(' ')):
+        # 2-char chinese full names, Hu Tao, Yun Jin
+        url_name = char['name_en'].replace(' ', '')
     else:
-        url_name = char['name_en'].split(' ')[-1] # for japanese names use given name only
+        # single name or japanese given name
+        url_name = char['name_en'].split(' ')[-1]
 
     if lang == 'en':
         lang_param = 'EN'
