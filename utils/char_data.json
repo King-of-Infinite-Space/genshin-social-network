@@ -394,7 +394,7 @@
                 "content_en": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "凯亚关于迪奥娜",
                 "content_zh": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
@@ -574,7 +574,7 @@
                 "content_en": "The land of Mondstadt, by the Anemo Archon's grace, is bountiful. I see no need for the harvest forecasts of astrologers."
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "迪卢克关于迪奥娜",
                 "content_zh": "迪奥娜对我的态度很是生硬，我也一直没找到合适的机会交流。如果是涉及到家族恩怨的话…嗯？不是？只是单纯地讨厌酒？没想到在这蒙德，也会有讨厌酒的酒保啊。",
@@ -711,7 +711,7 @@
                 "content_en": "Oh, that astrologer? How should I put it? Fortune-telling and my singing are the same: Both lead to you being so poor you can't even cough up the money for a drink! ...You think that astrology is a cultural tradition, so at least still has some value? Hmph, so rude. In that case, so too is singing, so it still has its value too!"
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "温迪关于迪奥娜",
                 "content_zh": "远近闻名的猫尾酒馆特调酒。可是…呜，会，打，打喷嚏。要不，你帮我讨一杯酒来吧。我肯定会好好感激你的，一言为定。",
@@ -828,7 +828,7 @@
                 "content_en": "Bennett is the best! I always find way more treasure if I go adventuring with Bennett! ...But he never finds any. Why is that, anyway?"
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "可莉关于迪奥娜",
                 "content_zh": "迪奥娜姐姐是好人！「靠一己之力摧毁蒙德酒业」的想法好有趣，可莉也要用炸弹来帮忙！——呃，虽然不太懂什么叫做「蒙德酒业」，是怪物吗？",
@@ -1420,6 +1420,24 @@
                 "target_en": "Yanfei",
                 "title_en": "Ningguang about Yanfei",
                 "content_en": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one."
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "凝光关于申鹤",
+                "content_zh": "申鹤小姐近来可好？有劳你多多关照她了。你们帮忙重建群玉阁的事，我一直记在心里，也很是感激。啊，客套话就不多说了，我备了好茶，闲时多来坐坐吧。",
+                "target_en": "Shenhe",
+                "title_en": "Ningguang about Shenhe",
+                "content_en": "How is Miss Shenhe doing as of late? Please, look out for her whenever you can. I am most grateful to both of you for your assistance with rebuilding the Jade Chamber. Ahem, and on a more personal note — please know that if you are ever free, a cup of the finest tea will always be waiting for you here."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "凝光关于云堇",
+                "content_zh": "云堇啊…怎么样，你听得惯她的戏吗？起初可能是有些难懂，试着耐下性子多品味一下吧。我投资她的戏班不为别的，只是觉得，这般典雅的艺术，值得被一直传承下去。",
+                "target_en": "Yun Jin",
+                "title_en": "Ningguang about Yun Jin",
+                "content_en": "Yun Jin... Are you able to appreciate her performances? It might be difficult at first, but I would encourage you to give it a chance. The reason why I decided to invest into her opera troupe is quite simple: Elegant art forms like these deserve to be passed down to future generations."
             }
         ]
     },
@@ -1449,7 +1467,7 @@
                 "content_en": "Is Hu Tao picking on you too? Ugh, that prankster always waits till I least expect it, creeps up on me from behind and then... Boo! ...then laughs herself silly. Hmph. But I can handle it, and she does bring me fermented plum blossoms once in a while so I can make flower cakes... so I don't hold a grudge."
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "香菱关于迪奥娜",
                 "content_zh": "清泉镇的迪奥娜！啊啊，听说她能调出特别好喝的酒，我专门拜访过她！想着如果能把调酒的秘方借鉴到料理上，说不定也能做出美味。但是，她给我的秘方，比如啤酒里泡蜥蜴尾巴，蒲公英酒里放小块熏鱼…做出来都不是很好吃。呜，果然还是要靠自己吗？",
@@ -1539,6 +1557,15 @@
                 "content_en": "Ah, dear Chongyun. Though he understands me quite well, one has to exercise caution when teaming up with him to go on a quest. He is making good progress in the martial arts, but I would say he hasn't quite internalized the chivalric code yet... He needs more practice. Especially at eating spicy food..."
             },
             {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "行秋关于云堇",
+                "content_zh": "云堇啊，她只要能喝到满意的饮品，就会有动力去创作新戏。我呢，就一直在床底下囤着一小罐茶叶，就是为了等哪天她兴致索然的时候给她送去。这样，我就有听不完的异侠传奇了！",
+                "target_en": "Yun Jin",
+                "title_en": "Xingqiu about Yun Jin",
+                "content_en": "When Yun Jin drinks a beverage she is fond of, she will be inspired to write a new play. So, I keep a jar of tea leaves under my bed at all times, ready to deliver to her on the day that her inspiration dries up. This way, I shall never run out of heroic tales to listen to!"
+            },
+            {
                 "target_id": 29,
                 "target_zh": "胡桃",
                 "title_zh": "行秋关于胡桃",
@@ -1591,6 +1618,15 @@
                 "target_en": "Zhongli",
                 "title_en": "Xingqiu about Zhongli",
                 "content_en": "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for the adepti, so he must surely have great depth to his character. We should do some digging and see what we can find out about him!"
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "行秋关于申鹤",
+                "content_zh": "总觉得申鹤小姐看我的眼神里略显凶恶，让我不敢随便跟她搭话。奇怪，难道我无意中得罪过她吗？或者…得罪过她身边的人？",
+                "target_en": "Shenhe",
+                "title_en": "Xingqiu about Shenhe",
+                "content_en": "I find that Miss Shenhe seems to look at me somewhat fiercely, so I daren't approach her lightly. Bizarre, did I inadvertently upset her? Or maybe... upset someone close to her?"
             }
         ]
     },
@@ -1663,6 +1699,15 @@
                 "target_en": "Xiangling",
                 "title_en": "Chongyun about Xiangling",
                 "content_en": "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "重云关于申鹤",
+                "content_zh": "我曾听家中长辈聊起过她。她家的遭遇…很让人同情。原以为这次能够让分家的远亲重回家中，长辈们听说她还活着也都高兴坏了，说是要备上礼物，择个吉日好好聚聚。却没想到，平日根本见不到她的人影…等等，按辈分来算的话，我、我该不会…要叫她「小姨」吧…",
+                "target_en": "Shenhe",
+                "title_en": "Chongyun about Shenhe",
+                "content_en": "The elders in my clan have mentioned her before. The fate of her family... *sigh* It's something we can all sympathize with. I originally thought we would be able to bring a long-lost relative back into our clan. The elders were overjoyed, too, when they heard she was still alive — they even prepared gifts for her, and picked an auspicious day for a grand reunion. What we hadn't counted on was that most of the time, she's extremely difficult to track down. Wait a minute, based on our relative positions in the family tree, does that mean that I... There's no way I'd have to call her \"Auntie Shenhe\"... right?"
             }
         ]
     },
@@ -1773,6 +1818,15 @@
                 "content_en": "I find myself getting a second opinion from her a lot these days. Lots of things come up that I just have no idea about, and of everyone in Liyue, she's probably the most familiar with Rex Lapis. Heh... I feel a bit awkward, though, because I used to be openly disparaging of Rex Lapis in front of her... But she doesn't seem to mind, so I guess I've got nothing to worry about..."
             },
             {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "刻晴关于云堇",
+                "content_zh": "路过和裕茶馆的时候，如果发现被围得水泄不通，那一定就是云堇正在台上唱戏。许多商人都觉得，只是为了云堇，就值得把整个茶馆都买下来。",
+                "target_en": "Yun Jin",
+                "title_en": "Keqing about Yun Jin",
+                "content_en": "When you're passing by Heyu Tea House and have to squeeze your way through the biggest crowd you've seen in your life, that's when you know Yun Jin's on stage performing. There's not a merchant in Liyue who wouldn't buy up the place if they had the chance, and Yun Jin is the reason it would be worth every Mora."
+            },
+            {
                 "target_id": 31,
                 "target_zh": "烟绯",
                 "title_zh": "刻晴关于烟绯",
@@ -1830,6 +1884,33 @@
     },
     {
         "id": 22,
+        "name_zh": "达达利亚",
+        "name_en": "Tartaglia",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201103/2020110314190784136.png",
+        "ver": "1.1.1",
+        "lines": [
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "达达利亚关于钟离·掂量",
+                "content_zh": "那家伙城府很深，不知真正的实力又如何呢…哼，真令人期待。",
+                "target_en": "Zhongli",
+                "title_en": "Tartaglia about Zhongli: Pondering",
+                "content_en": "There's far more to that man than meets the eye. As for the extent of his power... lots to look forward to, I think."
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "达达利亚关于钟离·挑战",
+                "content_zh": "钟离先生，最近可好啊？嗯…还不错？看来他倒是挺适应作为「凡人」的生活嘛。可恶…竟然把我骗得团团转，只有痛痛快快地交战一场才能平息这份不甘！你说…我打不过他？哈哈哈…",
+                "target_en": "Zhongli",
+                "title_en": "Tartaglia about Zhongli: Challenge",
+                "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
+            }
+        ]
+    },
+    {
+        "id": 23,
         "name_zh": "迪奥娜",
         "name_en": "Diona",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201106/2020110614164694989.png",
@@ -1919,33 +2000,6 @@
         ]
     },
     {
-        "id": 23,
-        "name_zh": "达达利亚",
-        "name_en": "Tartaglia",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201103/2020110314190784136.png",
-        "ver": "1.1.1",
-        "lines": [
-            {
-                "target_id": 24,
-                "target_zh": "钟离",
-                "title_zh": "达达利亚关于钟离·掂量",
-                "content_zh": "那家伙城府很深，不知真正的实力又如何呢…哼，真令人期待。",
-                "target_en": "Zhongli",
-                "title_en": "Tartaglia about Zhongli: Pondering",
-                "content_en": "There's far more to that man than meets the eye. As for the extent of his power... lots to look forward to, I think."
-            },
-            {
-                "target_id": 24,
-                "target_zh": "钟离",
-                "title_zh": "达达利亚关于钟离·挑战",
-                "content_zh": "钟离先生，最近可好啊？嗯…还不错？看来他倒是挺适应作为「凡人」的生活嘛。可恶…竟然把我骗得团团转，只有痛痛快快地交战一场才能平息这份不甘！你说…我打不过他？哈哈哈…",
-                "target_en": "Zhongli",
-                "title_en": "Tartaglia about Zhongli: Challenge",
-                "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
-            }
-        ]
-    },
-    {
         "id": 24,
         "name_zh": "钟离",
         "name_en": "Zhongli",
@@ -1991,7 +2045,7 @@
                 "content_en": "The current overseer of the funeral parlor? Ahem. I cannot deal with that child."
             },
             {
-                "target_id": 23,
+                "target_id": 22,
                 "target_zh": "达达利亚",
                 "title_zh": "钟离关于达达利亚·沉着",
                 "content_zh": "那位来自至冬的武人，还没离开璃月吗？没关系，要是他找你麻烦，你可以唤我去应付他。",
@@ -2000,7 +2054,7 @@
                 "content_en": "That rascal from Snezhnaya has yet to depart from Liyue? Heh, no matter. Just let me know if he gives you any trouble. I shall deal with the matter swiftly."
             },
             {
-                "target_id": 23,
+                "target_id": 22,
                 "target_zh": "达达利亚",
                 "title_zh": "钟离关于达达利亚·酒桌",
                 "content_zh": "听说「公子」最近在愚人众的风评又变糟了不少。但像他这样的人，一定会用积极的行动去扫清那些对他的怨言吧。嗯…这样想来，下回酒桌上又有不少趣事可以听了。旅者，你也一起来吗？",
@@ -2106,6 +2160,15 @@
                 "target_en": "Hu Tao",
                 "title_en": "Xinyan about Hu Tao",
                 "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "辛焱关于云堇",
+                "content_zh": "告诉你个小秘密，别到处乱讲哦。那个人可喜欢摇滚了，不管多忙，一周都来听我三场，只多不少。按理说，「和裕茶馆」的戏班头牌，该喜欢什么琴棋书画，花鸟虫鱼才对吧？肯定是平时被憋坏了，哈哈哈。",
+                "target_en": "Yun Jin",
+                "title_en": "Xinyan about Yun Jin",
+                "content_en": "Tell you a secret — but you gotta keep it that way, you hear? She's real fond of rock 'n' roll. Comes to watch me at least three times a week no matter how packed her schedule is. You'd think that the head of Heyu Tea House's troupe would be into finer arts and all, eh? But I guess it gets suffocating after a while. Haha."
             }
         ]
     },
@@ -2277,6 +2340,15 @@
                 "target_en": "Yanfei",
                 "title_en": "Ganyu about Yanfei",
                 "content_en": "Ah, Yanfei... Even back when she was an innocent little girl, she would tell me that \"you have to keep your promises to live a happy life.\" Now, she's grown up to be a beautiful, graceful, and highly successful young woman.Although the work of a legal adviser is complicated, she always seems so carefree. This puts my mind at ease."
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "甘雨关于申鹤",
+                "content_zh": "我和她并不能算是熟悉。只是听留云真君提过几句，听说她性子较凶，要是压抑不住心性，容易对周围造成严重破坏。嗯…会不会是因为平日里太闲了呢？我…我该给她推荐些工作吗？",
+                "target_en": "Shenhe",
+                "title_en": "Ganyu about Shenhe",
+                "content_en": "I actually don't know her all that well — I've only heard bits and pieces from Cloud Retainer. From what I've heard, she can be quite ferocious. Whenever her temper gets the better of her, she is likely to start obliterating her surroundings. I wonder if maybe she's just... bored. Should... Should I recommend some work to keep her occupied?"
             }
         ]
     },
@@ -2331,6 +2403,15 @@
                 "target_en": "Ganyu",
                 "title_en": "Xiao about Ganyu",
                 "content_en": "Ganyu is neither mortal nor illuminated beast. Wandering both the mortal and adepti realms with duty as her sole guide, it was inevitable that she would become perplexed... What? Me? You believe a yaksha who knows nothing more than how to massacre countless souls and emerge unscathed is a suitable mentor for such an individual? ...Your mind occupies a very different world from that which your body inhabits."
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "魈关于申鹤",
+                "content_zh": "申鹤似乎对你颇为信赖。…也是。毕竟，世间难得几人能有你这般的善心与热忱。",
+                "target_en": "Shenhe",
+                "title_en": "Xiao about Shenhe",
+                "content_en": "It seems Shenhe places a great deal of trust in you. Well, how could she not. There are few people in the world as kind and good-natured as you."
             }
         ]
     },
@@ -2339,7 +2420,6 @@
         "name_zh": "胡桃",
         "name_en": "Hu Tao",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210222/2021022210584218038.png",
-        "url_name": "hutao",
         "ver": "1.3.3",
         "lines": [
             {
@@ -2422,6 +2502,24 @@
                 "target_en": "Xiangling",
                 "title_en": "Hu Tao about Xiangling",
                 "content_en": "Xiangling's a riot! Only a little \"boo\" and she jumps, she's so easy to scare! Being in the industry that I am, I just love these kinds of people the most. Gotta keep it in check though, in case Guoba ends up toasting me instead."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "胡桃关于云堇",
+                "content_zh": "云堇她在正式场合很优雅，私底下却非常容易亲近哦！上次我跟她打了个赌，输的人要用自己习惯的唱法唱对方填的词。哎呀呀，戏腔版的丘丘谣，你真该听一次！",
+                "target_en": "Yun Jin",
+                "title_en": "Hu Tao about Yun Jin",
+                "content_en": "Yun Jin always appears so graceful on formal occasions, but you'd be surprised how friendly she is in private! I made a bet with her once, and the loser had to sing lyrics of the winner's choice in their own singing style. My my, I wish you could have heard her operatic version of the Hilitune!"
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "胡桃关于申鹤",
+                "content_zh": "她可真是个有意思的人呐，跟别人都不一样。你说，要是我从现在开始天天吃仙草、喝山露，会不会也变成她那么不染红尘的样子？嘿嘿…",
+                "target_en": "Shenhe",
+                "title_en": "Hu Tao about Shenhe",
+                "content_en": "She is quite the fascinating individual, completely different from anyone else I've encountered. Do you think if I started eating divine herbs and drinking the dew of the mountains every single day, I'd be able to look as pure and pristine as she does? Hehe..."
             }
         ]
     },
@@ -2668,7 +2766,7 @@
                 "content_en": "I don't get along with some of the knights, and he doesn't think much of them in general, so you'd think that would make us allies. But the way he always acts so aloof — he's even worse than Acting Grand Master Jean. I want nothing to do with him."
             },
             {
-                "target_id": 22,
+                "target_id": 23,
                 "target_zh": "迪奥娜",
                 "title_zh": "优菈关于迪奥娜",
                 "content_zh": "她呀，是个奇妙的调酒师呢，居然和我聊得来。她为了毁灭蒙德酒业在酒馆工作，而我为了向骑士团复仇加入了骑士团，天下还有这么巧的事。",
@@ -3478,6 +3576,177 @@
                 "target_en": "Sayu",
                 "title_en": "Gorou about Sayu",
                 "content_en": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name_zh": "申鹤",
+        "name_en": "Shenhe",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211221/2021122118121612158.png",
+        "ver": "2.4.1",
+        "lines": [
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "申鹤关于凝光",
+                "content_zh": "人们所谓的财富，对我而言没什么用。但到了凝光小姐手里，却能解决连刀枪都无法处理的难题。她能掌握人间规则，洞察人心…师父说，这些连仙人都无法做到。我很佩服她。",
+                "target_en": "Ningguang",
+                "title_en": "Shenhe about Ningguang",
+                "content_en": "I have no use for the wealth that ordinary people desire. But in the hands of Lady Ningguang, wealth becomes a means of solving complex issues of the kind that no weapons could ever hope to resolve. She understands the unwritten rules of human society, she knows what's in people's hearts... Master once told me that even the adepti aren't able to achieve this. I hold her and her work in high regard."
+            },
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "申鹤关于北斗",
+                "content_zh": "与她相处不用讲究礼节，交谈时也不用揣测深意，让我轻松了不少。只是…她身边总是有人，听说船上还有诸多船员…我需要跟你一起，才能应对人多的场合。",
+                "target_en": "Beidou",
+                "title_en": "Shenhe about Beidou",
+                "content_en": "I find I don't need to worry about etiquette with her, and unlike with some people, I don't need to rely on non-verbal cues to discern the true meaning of what she's saying. That makes me a lot more comfortable. The only problem is... Well, there are too many people around her all the time, and I heard there's also many crew members on her ship... I need you to go with me. It's the only way I can cope with so many people."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "申鹤关于云堇",
+                "content_zh": "云堇唱的…叫做「璃月戏」吧？我很喜欢这种形式。不必亲见其面，就能了解他人的事迹。如果将来她把你唱进戏里，那一定会是非常精彩的故事，我很期待。",
+                "target_en": "Yun Jin",
+                "title_en": "Shenhe about Yun Jin",
+                "content_en": "Yun Jin performs... It's called \"Liyue opera,\" isn't it? I like this particular type of social interaction. You can get to know about the other person's background without having to actually interact with them one on one. If she ever includes your story in one of her performances, I'm sure the result will end up being quite incredible. I'm looking forward to it."
+            },
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "申鹤关于甘雨",
+                "content_zh": "我从师父那里听过许多有关她的事…她原先在我心中的形象，和实际差距还是挺大的。放心，我不会说出去。说起来，璃月港的工作竟这般繁忙…看来融入人间，也要付出一些代价。",
+                "target_en": "Ganyu",
+                "title_en": "Shenhe about Ganyu",
+                "content_en": "I've heard many stories about her from my master. She's really quite different from how I originally imagined her... But don't worry, I'll be keeping this to myself. Speaking of Ganyu, her work in Liyue Harbor is unbelievably busy... It seems that there is a price to pay for those who want to integrate into the mortal world."
+            },
+            {
+                "target_id": 19,
+                "target_zh": "重云",
+                "title_zh": "申鹤关于重云",
+                "content_zh": "真没想到我在这世上…还有「亲缘」。他若是有什么修行上的困惑，我愿帮忙解答。不过，得请他上山来。他们一家太过热情，我不知道该如何回绝才符合礼数…",
+                "target_en": "Chongyun",
+                "title_en": "Shenhe about Chongyun",
+                "content_en": "It's hard for me to believe that... I still have living relatives in this world. If he has any difficulties with his training, I am more than willing to help enlighten him. However, he will need to meet me alone in the mountains. Their family is too... sociable. I wouldn't know how to turn down their invitations without being impolite."
+            },
+            {
+                "target_id": 18,
+                "target_zh": "行秋",
+                "title_zh": "申鹤关于行秋",
+                "content_zh": "我曾见到他凑在你耳旁不知说些什么。若他敢威胁你，我一定会将他…嗯？只是朋友间的玩闹话？当真如此吗…",
+                "target_en": "Xingqiu",
+                "title_en": "Shenhe about Xingqiu",
+                "content_en": "I've seen him lean over to you and whisper things in your ear. If he dares threaten you, I will make sure he... Hmm? You mean it's just an in-joke between friends? Genuinely...?"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "申鹤关于钟离",
+                "content_zh": "那位先生自称是凡人，却与身为仙人的师父很熟络。师父曾说，如果碰见他在仙府前的石凳上饮酒，莫要打扰，让他静静独坐一会。我照做了。",
+                "target_en": "Zhongli",
+                "title_en": "Shenhe about Zhongli",
+                "content_en": "That gentleman claims to be a mortal, yet is very familiar with my master, who is an adeptus. Master once said: \"If you see him drinking on a stone stool in front of my abode, do not disturb him. Let him sit quietly for a while.\" And that's precisely what I did."
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "申鹤关于胡桃",
+                "content_zh": "她在附近山林游荡时，经常会唱奇怪的歌。久而久之，我把她的歌断断续续听了个遍。听习惯了也还是觉得奇怪，但，我并不讨厌。",
+                "target_en": "Hu Tao",
+                "title_en": "Shenhe about Hu Tao",
+                "content_en": "I often see her wandering in the woods singing strange songs. Actually, I must have heard all of her songs several times each by now. I'm used to her singing, but I still find it strange. That being said, I don't hate it either."
+            },
+            {
+                "target_id": 28,
+                "target_zh": "魈",
+                "title_zh": "申鹤关于魈",
+                "content_zh": "印象中他一直不苟言笑。近来见他，虽说沉默依旧，但…像是比从前轻松了不少。兴许是结识了哪位良人吧。",
+                "target_en": "Xiao",
+                "title_en": "Shenhe about Xiao",
+                "content_en": "My first impression of him was that he's not one to smile. After meeting him again more recently, however, he's still as reserved as ever, but... he seems a lot more relaxed now. Maybe he... met someone special."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name_zh": "云堇",
+        "name_en": "Yun Jin",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211221/2021122117591771295.png",
+        "ver": "2.4.1",
+        "lines": [
+            {
+                "target_id": 25,
+                "target_zh": "辛焱",
+                "title_zh": "云堇关于辛焱",
+                "content_zh": "戏社里那几个老人天天念叨，说是听多了摇滚会被带坏，不让我去听辛焱的演唱会。嘴上说着为我好，哼，我看他们只是接受不了新事物而已。我才不会听他们的，辛焱的演唱会我每周都要去，就是这样。",
+                "target_en": "Xinyan",
+                "title_en": "Yun Jin about Xinyan",
+                "content_en": "The elders of the troupe are always harping on about rock 'n' roll being a bad influence. Needless to say, they never approve of me going to see Xinyan's shows. \"It's for your own good,\" they say. Hmph, all it's really about is their inability to accept anything new. Whatever, those old fogies can't tell me what to do. I'm going to keep rocking out at Xinyan's gigs, every week, and that's that."
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "云堇关于胡桃",
+                "content_zh": "胡桃她呀，表情丰富，脑筋还转得快，哪怕只是聊些家常都能「妙语连珠」。真让人羡慕。和这样的朋友在一起，无论做什么事情都很有趣。",
+                "target_en": "Hu Tao",
+                "title_en": "Yun Jin about Hu Tao",
+                "content_en": "Ah yes, Hu Tao. Very expressive face, and she has a sharp mind too — you can be discussing the most mundane thing in the world, and she'll always bring out a string of witty remarks. I admire her a lot. There's never a dull moment when you have friends like her around."
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "云堇关于钟离",
+                "content_zh": "我们这行的规矩代代相传，讲究多得很。有些事我只知其然，却不知其所以然。但钟离先生讲起这些竟能如数家珍，有这样懂行的观众，谁不开心呢？",
+                "target_en": "Zhongli",
+                "title_en": "Yun Jin about Zhongli",
+                "content_en": "The customs of the opera are very particular, and are passed down from generation to generation. Sometimes I find that I only know the hows but not the whys behind what we do. But when speaking with Zhongli, it is abundantly evident that he knows the origins behind almost everything. Who wouldn't be delighted to have such a connoisseur in their audience?"
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "云堇关于凝光",
+                "content_zh": "天权星出手阔绰，没少资助我们戏社。领了她的情，自然也要回报给她最好的演出。",
+                "target_en": "Ningguang",
+                "title_en": "Yun Jin about Ningguang",
+                "content_en": "The Tianquan is a big spender and has made several very generous donations to our troupe. I can only return her generosity by delivering my best possible performance."
+            },
+            {
+                "target_id": 18,
+                "target_zh": "行秋",
+                "title_zh": "云堇关于行秋",
+                "content_zh": "原来你也认识行秋。哈哈，他聪明得很，鬼主意那么多，怕是一不留神就会捉弄你，可得留个心眼啊。",
+                "target_en": "Xingqiu",
+                "title_en": "Yun Jin about Xingqiu",
+                "content_en": "Oh, so you are also acquainted with Xingqiu? Haha, he is quite the clever one, and with a sharp wit as well. The moment you let your guard down, you're at risk of becoming the butt of one of his practical jokes... Don't say I didn't warn you."
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "云堇关于申鹤",
+                "content_zh": "《神女劈观》的剧本我早就念得烂熟，但直到今天我才知道「神女」原来真有其人，世上缘分果然奇妙。惟愿她往后都有好友相伴，不再孤寂。",
+                "target_en": "Shenhe",
+                "title_en": "Yun Jin about Shenhe",
+                "content_en": "I have long since known \"The Divine Damsel of Devastation\" inside out, back to front, but it was only very recently that I learned that the \"divine damsel\" in question is actually a real person. Life is full of strange twists sometimes! My only hope is that she can find true friendship and never be lonely again."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "云堇关于刻晴",
+                "content_zh": "我倒没见过玉衡星来听戏。印象里，路边偶遇这位时，她也总是一副行色匆匆的样子。",
+                "target_en": "Keqing",
+                "title_en": "Yun Jin about Keqing",
+                "content_en": "I have yet to see the Yuheng ever attend an opera performance. Now that I think about it, whenever I happen to see her out on the street, she always seems to be in a great hurry."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "云堇关于枫原万叶",
+                "content_zh": "爱听戏的外国人士也有不少，这位枫原万叶就是其中之一。不论台上演的是文场还是武场，他总是安安静静地听，是个规矩的好观众。",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Yun Jin about Kaedehara Kazuha",
+                "content_en": "Kaedehara Kazuha is among the many outlanders who enjoy Liyue opera. Whether it's an orchestral section or a percussive piece, he always sits there and listens quietly. Talk about great manners!"
             }
         ]
     }

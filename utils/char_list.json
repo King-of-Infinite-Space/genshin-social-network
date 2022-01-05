@@ -1,4 +1,7 @@
 [   
+    {"id": 45, "name_zh": "云堇", "name_en": "Yun Jin", "ver": "2.4.1"},
+    {"id": 44, "name_zh": "申鹤", "name_en": "Shenhe", "ver": "2.4.1"},
+
     {"id": 46, "name_zh": "八重神子", "name_en": "Yae Miko", "alias_zh": "狐耳女人", "alias_en": "Lady with Fox Ears", "ver": "2.5.1"},
 
     {"id": 43, "name_zh": "五郎", "name_en": "Gorou", "ver": "2.3.2"},
