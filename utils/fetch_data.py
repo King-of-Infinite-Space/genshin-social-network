@@ -2,7 +2,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
-import re
+import subprocess
 import os
 import traceback
 from datetime import date
@@ -276,18 +276,24 @@ def main():
     else:
         print('Wrote '+NAME_RETRY_FILE)
         commit_msg = f"v{ver} updating"
-    print('Done —— '+commit_msg)
-    return commit_msg
+    print('Files updated')
+    if commit_msg and os.getenv('GITHUB_ACTIONS') is not None:
+        print('Committing changes —— '+commit_msg)
+        commit_changes(commit_msg)
+
+def commit_changes(msg):
+    author = "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+    if "updating" in msg:
+        subprocess.run(['git','restore','utils/char_list.json'], check=True)
+    subprocess.run(['git','commit','-a','-m',msg,'--author',author], check=True)
+    subprocess.run(['git','push'], check=True)
+    try:
+        k1, v1 = os.getenv('PAYLOAD1').split('=')
+        payload = {k1: v1, 'text': msg}
+        r = requests.get(os.getenv('MSG_URL'), params=payload)
+    except:
+        print(traceback.format_exc())
 
 #%%
 if __name__ == '__main__':
-    commit_msg = main()
-    with open('msg.log', 'w') as f:
-        f.write(commit_msg)
-    if os.getenv('GITHUB_ACTIONS') is not None:
-        try:
-            k1, v1 = os.getenv('PAYLOAD1').split('=')
-            payload = {k1: v1, 'text': commit_msg}
-            r = requests.get(os.getenv('MSG_URL'), params=payload)
-        except:
-            print(traceback.format_exc())
+    main()

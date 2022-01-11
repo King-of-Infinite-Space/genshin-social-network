@@ -25,6 +25,3 @@ jobs:
           MSG_URL: ${{ secrets.MSG_URL }}
           PAYLOAD1: ${{ secrets.PAYLOAD1 }}
         run: python ./utils/fetch_data.py
-
-      - name: commit and exit
-        run: bash .github/workflows/update.sh
