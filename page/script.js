@@ -4,13 +4,13 @@
 const langs = ['zh', 'en']
 
 let lang = 'zh';
-if (! navigator.language.startsWith('zh')){
+if (!navigator.language.startsWith('zh')) {
     lang = 'en'
     document.getElementById('lang-slider').value = 1
 }
 document.body.classList.add(lang)
 
-document.getElementById('lang-slider-container').addEventListener('click', function(){
+document.getElementById('lang-slider-container').addEventListener('click', function () {
     let slider = document.getElementById('lang-slider')
     document.body.classList.remove(langs[slider.value])
     slider.value = 1 - slider.value;
@@ -18,13 +18,17 @@ document.getElementById('lang-slider-container').addEventListener('click', funct
     document.body.classList.add(lang)
 })
 
-const randomSeed = 7
+const randomSeed = 1
 
 let charData;
 const charNames = {
     'en': [],
     'zh': []
 };
+
+let stats;
+let centeredNode;
+let centeredNodePrevPosition;
 
 const cy = cytoscape({
     container: document.getElementById('cy'), // container to render in
@@ -33,64 +37,61 @@ const cy = cytoscape({
     minZoom: 0.1,
     maxZoom: 2.5, // auto ~0.5
     style: [ // the stylesheet for the graph
-      {
-        selector: 'node',
-        style: {
-          'width': '80px',
-          'height': '80px',
-          'background-fit': 'contain',
-          'background-color': 'hsl(0, 0%, 90%)',
-        //   'transition-property': "width, height, border-color",
-        //   'transition-duration': "30ms"
+        {
+            selector: 'node',
+            style: {
+                'width': '80px',
+                'height': '80px',
+                'background-fit': 'contain',
+                'background-color': 'hsl(0, 0%, 90%)',
+                //   'transition-property': "width, height, border-color",
+                //   'transition-duration': "30ms"
+            }
+        },
+        {
+            selector: 'edge',
+            style: {
+                'width': 3,
+                'line-color': 'hsl(0, 0%, 75%)',
+                'opacity': 0.25,
+                //   'transition-property': "width, line-color, opacity",
+                //   'transition-duration': "80ms"
+            }
+        },
+        {
+            selector: '.selectedNode',
+            style: {
+                'border-width': 2,
+                'border-color': 'black',
+                'border-style': 'solid',
+                'width': '95px',
+                'height': '95px',
+            }
+        },
+        {
+            selector: '.connectedEdges',
+            style: {
+                'line-color': 'hsl(0, 0%, 45%)',
+                'width': 4,
+                'opacity': 0.3,
+                'z-index': 9,
+            }
+        },
+        {
+            selector: '.unconnectedEdges',
+            style: {
+                'line-color': 'hsl(0, 0%, 85%)',
+                'width': 2,
+                'opacity': 0.15,
+                'z-index': 0,
+            }
         }
-      },
-      {
-        selector: 'edge',
-        style: {
-          'width': 3,
-          'line-color': 'hsl(0, 0%, 75%)',
-          'opacity': 0.25,
-        //   'transition-property': "width, line-color, opacity",
-        //   'transition-duration': "80ms"
-        }
-      },
-      {
-          selector: '.selectedNode',
-          style :{
-              'border-width': 2,
-              'border-color': 'black',
-              'border-style': 'solid',
-              'width': '95px',
-              'height': '95px', 
-          }
-      },
-      {
-          selector: '.connectedEdges',
-          style: {
-            'line-color': 'hsl(0, 0%, 45%)',
-            'width': 4,
-            'opacity': 0.3,
-            'z-index': 9,
-          }
-      },
-      {
-        selector: '.unconnectedEdges',
-        style: {
-          'line-color': 'hsl(0, 0%, 85%)',
-          'width': 2,
-          'opacity': 0.15,
-          'z-index': 0,
-        }
-    }
     ],
-  
+
 });
 
-let centeredNode;
-let centeredNodePrevPosition;
-
-function getSelectedOption(){
-    for (let el of document.querySelectorAll("input[type=radio]")){
+function getSelectedOption() {
+    for (let el of document.querySelectorAll("input[type=radio]")) {
         if (el.checked) {
             return el.value
         }
@@ -112,28 +113,28 @@ function getSelectedOption(){
 //     return savedLayouts;
 // }
 
-function gcd(a, b){
+function gcd(a, b) {
     if (!b) {
-      return a;
-    }  
+        return a;
+    }
     return gcd(b, a % b);
 }
 
-function lcm(a, b){
+function lcm(a, b) {
     return a * b / gcd(a, b)
 }
 
-function moveNodeTo(node, pos = 'center'){
+function moveNodeTo(node, pos = 'center') {
     let destination;
-    if (typeof(pos) === 'object'){
+    if (typeof (pos) === 'object') {
         destination = pos
-    } else if (pos === 'center'){
+    } else if (pos === 'center') {
         let box = cy.extent()
-        destination = {x: (box.x1+box.x2)/2, y: (box.y1+box.y2)/2}
+        destination = { x: (box.x1 + box.x2) / 2, y: (box.y1 + box.y2) / 2 }
     } else {
         console.log('invalid position')
     }
-    
+
     node.animate({
         position: destination,
         queue: false,
@@ -142,17 +143,17 @@ function moveNodeTo(node, pos = 'center'){
     })
 }
 
-function rotate(pos, center, angle){
+function rotate(pos, center, angle) {
     let dx = pos.x - center.x
     let dy = pos.y - center.y
-    let r = Math.sqrt(dx**2 + dy**2)
+    let r = Math.sqrt(dx ** 2 + dy ** 2)
     let theta = Math.atan2(dy, dx) + angle // in radian
     let newX = center.x + r * Math.cos(theta)
     let newY = center.y + r * Math.sin(theta)
-    return {x: newX, y: newY}
+    return { x: newX, y: newY }
 }
 
-function rotateCircles(){
+function rotateCircles() {
     const selectedNode = cy.$('.selectedNode')
     let levelFolds = {}
     for (let n of cy.$('node')) {
@@ -174,15 +175,15 @@ function rotateCircles(){
     for (let n of cy.nodes()) {
         let l = selectedNode.edgesWith(n).length
         let currentFold = levelFolds[l]
-        if (l != levelRef && l > 0){
+        if (l != levelRef && l > 0) {
             let angle = 0
-            if (folds.indexOf(currentFold) == folds.length - 2){
+            if (folds.indexOf(currentFold) == folds.length - 2) {
                 angle = Math.PI / lcm(currentFold, maxFold)
             }
-            else if (folds.indexOf(currentFold) == folds.length - 3){
+            else if (folds.indexOf(currentFold) == folds.length - 3) {
                 if (maxFold == maxFold2) {
                     angle = 0.5 * Math.PI / maxFold
-                }                
+                }
                 else {
                     angle = - Math.PI / maxFold
                 }
@@ -195,48 +196,48 @@ function rotateCircles(){
             }
 
             n.animate({
-                position: rotate(n.position(),selectedNode.position(), angle),
+                position: rotate(n.position(), selectedNode.position(), angle),
                 queue: false,
                 duration: 600,
                 easing: 'ease-in-out',
             })
         }
-                            
+
     }
 }
 
-function getLayout(name){
+function getLayout(name) {
     let layoutOptions = {
         name: name,
         animate: "end",
         animationEasing: 'ease-in-out',
         animationDuration: 700,
-        stop: function(){
+        stop: function () {
             // prevOption = getSelectedOption()
         },
     }
     let extraOptions = {}
     if (name == 'fcose') {
-        extraOptions =  {
+        extraOptions = {
             // randomize: false,
             nodeSeparation: 150,
             nodeRepulsion: node => 100000, // node => 4500
             idealEdgeLength: edge => 80,
             edgeElasticity: edge => 0.05,
             ready: () => {
-                if (cy.$('.selectedNodeTemp').length > 0){ 
+                if (cy.$('.selectedNodeTemp').length > 0) {
                     // prevent different node size affecting layout
                     cy.$('.selectedNodeTemp').addClass('selectedNode')
                     cy.$('.selectedNodeTemp').removeClass('selectedNodeTemp')
-                }                
+                }
             }
         }
     }
     if (name == 'avsdf') {
-        extraOptions =  {
+        extraOptions = {
             nodeSeparation: 95,
-            stop: function(){
-                if (cy.$('.selectedNode').length > 0){
+            stop: function () {
+                if (cy.$('.selectedNode').length > 0) {
                     centeredNode = cy.$('.selectedNode')
                     centeredNodePrevPosition = Object.assign({}, cy.$('.selectedNode').position())
                     moveNodeTo(cy.$('.selectedNode'), 'center')
@@ -248,15 +249,15 @@ function getLayout(name){
         extraOptions = {
             levelWidth: n => 1,
             concentric: function (node) {
-                    let d = node.degree()
-                    let n = 1 // n <= 12
-                    if (d >= 13) n += 1
-                    if (d >= 16) n += 1
-                    if (d >= 18) n += 1
-                    if (d >= 21) n += 1
-                    // 1, 2, (3, 4)
-                    // l = Math.min(l, 3)
-                    return n
+                let d = node.degree()
+                let n = 1 // n <= 12
+                if (d >= 13) n += 1
+                if (d >= 16) n += 1
+                if (d >= 18) n += 1
+                if (d >= 21) n += 1
+                // 1, 2, (3, 4)
+                // l = Math.min(l, 3)
+                return n
             }
         }
     }
@@ -279,7 +280,7 @@ function getLayout(name){
             // equidistant: true,
             // spacingFactor: 0.5,
             startAngle: 1.5 * Math.PI,
-            stop: function(){
+            stop: function () {
                 rotateCircles()
             }
         }
@@ -293,33 +294,33 @@ function getLayout(name){
     //         positions: node => sl[node.id]
     //     }
     // }
-    return cy.layout({...layoutOptions, ...extraOptions})
+    return cy.layout({ ...layoutOptions, ...extraOptions })
 }
 
-function setLayout(name, overwrite=false) {
+function setLayout(name, overwrite = false) {
     // reuse saved layout
     // (!overwrite && savedLayouts[name]) ? getLayout('preset', {layoutName: name}) : 
-    if (name === 'concentric' && cy.$('.selectedNode').length > 0){
+    if (name === 'concentric' && cy.$('.selectedNode').length > 0) {
         name = 'concentricCustom'
     }
-    if (name === 'fcose'){
-        if (cy.$('.selectedNode').length > 0){
+    if (name === 'fcose') {
+        if (cy.$('.selectedNode').length > 0) {
             cy.$('.selectedNode').addClass('selectedNodeTemp')
             cy.$('.selectedNode').removeClass('selectedNode')
         }
         Math.seedrandom(randomSeed, { global: true }); // overwrite RNG to get reproducible graph
     }
-    
-    if (centeredNodePrevPosition){
+
+    if (centeredNodePrevPosition) {
         centeredNodePrevPosition = null
         centeredNode = null
-    }    
-    
+    }
+
     let layout = getLayout(name)
     layout.run()
 }
 
-function unselectElements(){
+function unselectElements() {
     cy.$('node').removeClass('selectedNode')
     cy.$('node').removeClass('connectedNodes')
     cy.$('edge').removeClass('unconnectedEdges')
@@ -333,31 +334,31 @@ var maxSize = {
     phase: 'main',
     requiresIfExists: ['offset', 'preventOverflow', 'flip'],
     fn: function fn(_ref) {
-      var state = _ref.state,
-          name = _ref.name,
-          options = _ref.options;
-      var overflow = Popper.detectOverflow(state, options);
-  
-      var _ref2 = state.modifiersData.preventOverflow || {
-        x: 0,
-        y: 0
-      },
-          x = _ref2.x,
-          y = _ref2.y;
-  
-      var _state$rects$popper = state.rects.popper,
-          width = _state$rects$popper.width,
-          height = _state$rects$popper.height;
-  
-      var _state$placement$spli = state.placement.split('-'),
-          basePlacement = _state$placement$spli[0];
-  
-      var widthProp = basePlacement === 'left' ? 'left' : 'right';
-      var heightProp = basePlacement === 'top' ? 'top' : 'bottom';
-      state.modifiersData[name] = {
-        width: width - overflow[widthProp] - x,
-        height: height - overflow[heightProp] - y
-      };
+        var state = _ref.state,
+            name = _ref.name,
+            options = _ref.options;
+        var overflow = Popper.detectOverflow(state, options);
+
+        var _ref2 = state.modifiersData.preventOverflow || {
+            x: 0,
+            y: 0
+        },
+            x = _ref2.x,
+            y = _ref2.y;
+
+        var _state$rects$popper = state.rects.popper,
+            width = _state$rects$popper.width,
+            height = _state$rects$popper.height;
+
+        var _state$placement$spli = state.placement.split('-'),
+            basePlacement = _state$placement$spli[0];
+
+        var widthProp = basePlacement === 'left' ? 'left' : 'right';
+        var heightProp = basePlacement === 'top' ? 'top' : 'bottom';
+        state.modifiersData[name] = {
+            width: width - overflow[widthProp] - x,
+            height: height - overflow[heightProp] - y
+        };
     }
 };
 
@@ -366,48 +367,48 @@ const applyMaxSize = {
     enabled: true,
     phase: 'beforeWrite',
     requires: ['maxSize'],
-    fn({state}) {
-      // The `maxSize` modifier provides this data
-      const {width, height} = state.modifiersData.maxSize;
-   
-      state.styles.popper = {
-        ...state.styles.popper,
-        maxWidth: `${width}px`,
-        maxHeight: `${height}px`
-      };
+    fn({ state }) {
+        // The `maxSize` modifier provides this data
+        const { width, height } = state.modifiersData.maxSize;
+
+        state.styles.popper = {
+            ...state.styles.popper,
+            maxWidth: `${width}px`,
+            maxHeight: `${height}px`
+        };
     }
 };
 
 
 
-function makeTippyContent(node1, node2){
+function makeTippyContent(node1, node2) {
     let text = ''
-    for (const edge of node1.edgesTo(node2)){
-        text += `<div class="tip-title">${edge.data()['title_'+lang]}</div>`
-        text += `<div class="tip-quote">${edge.data()['content_'+lang]}</div>`
+    for (const edge of node1.edgesTo(node2)) {
+        text += `<div class="tip-title">${edge.data()['title_' + lang]}</div>`
+        text += `<div class="tip-quote">${edge.data()['content_' + lang]}</div>`
     }
     if (text && node2.edgesTo(node1).length > 0) text += '<div class="tip-spacing"></div>'
-    for (const edge of node2.edgesTo(node1)){
-        text += `<div class="tip-title">${edge.data()['title_'+lang]}</div>`
-        text += `<div class="tip-quote">${edge.data()['content_'+lang]}</div>`
+    for (const edge of node2.edgesTo(node1)) {
+        text += `<div class="tip-title">${edge.data()['title_' + lang]}</div>`
+        text += `<div class="tip-quote">${edge.data()['content_' + lang]}</div>`
     }
     return text
 }
 
-function makeTippy(ele, text){
+function makeTippy(ele, text) {
     var ref = ele.popperRef();
 
     // Since tippy constructor requires DOM element/elements, create a placeholder
     var dummyDomEle = document.createElement('div');
 
-    var tip = tippy( dummyDomEle, {
+    var tip = tippy(dummyDomEle, {
         popperOptions: {
             modifiers: [maxSize, applyMaxSize]
         },
         getReferenceClientRect: ref.getBoundingClientRect,
         trigger: 'manual', // mandatory
         // dom element inside the tippy:
-        content: function(){ // function can be better for performance
+        content: function () { // function can be better for performance
             var div = document.createElement('div');
 
             div.innerHTML = text;
@@ -430,27 +431,47 @@ function makeTippy(ele, text){
         // if interactive:
         interactive: true,
         appendTo: document.body // or append dummyDomEle to document.body
-    } );
+    });
 
     return tip;
 };
 
-function makePopup(target, text, delay=200){
+function makePopup(target, text, delay = 200) {
     target.tippy = makeTippy(target, text)
-    target.showTimer = setTimeout(function(){
+    target.showTimer = setTimeout(function () {
         target.tippy.show()
         cy.userZoomingEnabled(false)
         cy.userPanningEnabled(false)
     }, delay)
     // console.log('tippy')
     target.once('mouseout', e => {
-        if (target.tippy){
+        if (target.tippy) {
             target.tippy.hide()
         }
         clearTimeout(target.showTimer)
         cy.userZoomingEnabled(true)
         cy.userPanningEnabled(true)
     })
+}
+
+function showStats() {
+    let totalNodes = cy.nodes().length
+    let stats = []
+    cy.nodes().forEach(function (ele) {
+        let nodesIn = ele.incomers().filter(ele => ele.isNode())
+        let nodesOut = ele.outgoers().filter(ele => ele.isNode())
+        stats.push({
+            'id': ele.id(),
+            'indegree': nodesIn.length,
+            'outdegree': nodesOut.length,
+            'connections': nodesIn.union(nodesOut).length
+        })
+    });
+    let totalConnectios = stats.reduce((acc, cur) => acc + cur.connections, 0)
+    let avgConnections = Math.round(10 * totalConnectios / totalNodes) / 10
+    document.getElementById('totalNodes').innerHTML = totalNodes
+    document.getElementById('avgConnections').innerHTML = avgConnections
+    return stats.sort((a, b) => b.connections - a.connections)
 }
 
 async function getJson(url) {
@@ -465,15 +486,15 @@ async function main() {
     // create nodes
     for (const char of charData) {
         for (const l of langs) {
-            charNames[l].push(char['name_'+l])
+            charNames[l].push(char['name_' + l])
         }
-        
+
         cy.add({
             group: 'nodes',
             data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
             style: {
                 'background-image': char.img_url,
-                }
+            }
         })
     }
     // create edges
@@ -491,35 +512,37 @@ async function main() {
         }
     }
 
-    for (const n of cy.$('node')){
-        if (n.degree() == 0){
+    for (const n of cy.$('node')) {
+        if (n.degree() == 0) {
             n.remove()
         }
     }
+
+    stats = showStats()
 
     setLayout(getSelectedOption())
 
     cy.$('edge').unpanify()
     cy.$('edge').unselectify()
 
-    cy.on('tap', 'node', function(event){       
+    cy.on('tap', 'node', function (event) {
         var target = event.target;
-        if (!target.hasClass('selectedNode')){
+        if (!target.hasClass('selectedNode')) {
 
-            if (getSelectedOption() === 'avsdf'){
+            if (getSelectedOption() === 'avsdf') {
                 if (centeredNode != target) {
                     if (centeredNode) {
                         moveNodeTo(centeredNode, centeredNodePrevPosition) // replace prev centered one
                     }
                     centeredNode = target
-                    centeredNodePrevPosition = Object.assign({},target.position())
+                    centeredNodePrevPosition = Object.assign({}, target.position())
                     moveNodeTo(target, 'center')
                 }
             }
 
             cy.$('.selectedNode').removeClass('selectedNode')
             target.addClass('selectedNode')
-            
+
             cy.$('.connectedEdges').removeClass('connectedEdges')
             cy.$('edge').addClass('unconnectedEdges')
             let targetEdges = target.connectedEdges()
@@ -529,7 +552,7 @@ async function main() {
             cy.$('.connectedNodes').removeClass('connectedNodes')
             target.neighborhood('node').addClass('connectedNodes')
 
-            if (getSelectedOption() === 'concentric'){
+            if (getSelectedOption() === 'concentric') {
                 setLayout('concentricCustom')
             }
 
@@ -537,15 +560,15 @@ async function main() {
         }
     })
 
-    cy.on('tap',function(ev){
-        if (ev.target === cy){ // tap bg
+    cy.on('tap', function (ev) {
+        if (ev.target === cy) { // tap bg
             unselectElements()
         }
     })
 
-    cy.$('edge').on('mouseover', function(event) {
+    cy.$('edge').on('mouseover', function (event) {
         let targetEdge = event.target
-        if (targetEdge.hasClass('connectedEdges')){     
+        if (targetEdge.hasClass('connectedEdges')) {
             let node1 = cy.$('.selectedNode')
             let node2 = targetEdge.source().id() == node1.id() ? targetEdge.target() : targetEdge.source()
             let text = makeTippyContent(node1, node2)
@@ -553,22 +576,22 @@ async function main() {
         }
     })
 
-    cy.$('node').on('mouseover', function(event) {
+    cy.$('node').on('mouseover', function (event) {
         let target = event.target
-        if (target.hasClass('connectedNodes')){
+        if (target.hasClass('connectedNodes')) {
             let text = makeTippyContent(cy.$('.selectedNode'), target)
             makePopup(target, text, 500)
         }
     })
 
     document.querySelectorAll("input[type=radio]").forEach(r => {
-        r.addEventListener('input', function(e){
+        r.addEventListener('input', function (e) {
             // savedLayouts[prevOption] = storeLayout()
             setLayout(e.target.value)
         })
     })
-    
-    document.querySelector("#refreshGraph").onclick = function(e){ // reset
+
+    document.querySelector("#refreshGraph").onclick = function (e) { // reset
         unselectElements()
         setLayout(getSelectedOption(), true)
     }

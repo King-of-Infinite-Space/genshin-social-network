@@ -18,18 +18,8 @@ This project uses __ to generate network graph. The following layouts are used.
 
 #### 探索此图 | Explore the graph
 
-`cy` 变量是Cytoscape.js图的对象。可以在控制台进行探索。\
-`cy` is the variable for graph object of Cytoscape.js. You can explore it in the console.
-
-Some stats (as of game ver. 1.5)
-- Number of nodes = 32
-- Average in / out degree = 8
-- In-degree max: Jean (18), Lisa (15), 4 others (12)\
-  In-degree min: Tartaglia (2), Rosaria / Qiqi / Chongyun (4)
-- Out-degree max: Jean / Keqing (12), 5 others (11)\
-  Out-degree min: Tartaglia (2), Qiqi (4), Xiao / Fischl (5)
-- Total degree max: Jean (30), Lisa (26), Klee (23)\
-  Total degree min: Tartaglia (4), Qiqi (8), Razor / Fischl / Chongyun (11)
+`cy` 变量是Cytoscape.js图的对象。`stats`变量包含了每个节点的统计数字。可在控制台进行探索。\
+`cy` is the variable for Cytoscape.js graph object. `stats` includes some statistics of nodes. Feel free to explore them in the console.
 
 
 #### 版权声明 | Copyright disclaimer
