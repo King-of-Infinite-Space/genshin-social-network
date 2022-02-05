@@ -33,8 +33,9 @@ h6 {
 }
 
 .main-container {
-  flex-grow: 9;
+  flex-grow: 1; /* fill remaining width */
   height: 100%;
+  overflow: hidden;
 }
 
 .sidebar {
