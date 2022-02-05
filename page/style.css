@@ -1,18 +1,19 @@
-body:not(.en) :lang(en), 
-body:not(.zh) :lang(zh) { 
-    display: none; 
+body:not(.en) :lang(en),
+body:not(.zh) :lang(zh) {
+  display: none;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /* body.en h4 {
@@ -20,7 +21,7 @@ body {
 } */
 
 h6 {
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }
 
 /* #lang-switch {
@@ -28,35 +29,34 @@ h6 {
 } */
 
 .button {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .main-container {
-    flex-grow: 9;
-    height: 100%;
+  flex-grow: 9;
+  height: 100%;
 }
 
 .sidebar {
-    height: 100%;
-    width: 20%;
-    max-width: 240px;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  width: 20%;
+  max-width: 240px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-bottom {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .bottom-item {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
-
 
 /* #ad-test {
     width: 234px;
@@ -65,64 +65,62 @@ h6 {
 } */
 
 #cy {
-    width: 100%;
-    height: 100%
+  width: 100%;
+  height: 100%;
 }
 
 #lang-slider-container {
-    width: 32px;
-    height: 100%;
-    cursor: pointer;
-    display: inline-block;
+  width: 32px;
+  height: 100%;
+  cursor: pointer;
+  display: inline-block;
 }
 
 #lang-slider {
-    width: 100%;
-    pointer-events: none;
+  width: 100%;
+  pointer-events: none;
 }
 
 #credit {
-    /* width: 100%; */
-    font-size:0.7em;
-    color: gray;
-    text-align: center;
+  /* width: 100%; */
+  font-size: 0.7em;
+  color: gray;
+  text-align: center;
 }
 
-
-
 .tip-title {
-    margin-bottom: 3px;
-    font-size: 1.1em;
-    font-weight: 500;
-    font-family: sans-serif;
+  margin-bottom: 3px;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: sans-serif;
 }
 
 .tip-quote {
-    white-space: pre-line;
-    font-family: serif, 'KaiTi', 'STKaiti';
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    /*font-weight: 600;*/
+  white-space: pre-line;
+  font-family: serif, "KaiTi", "STKaiti";
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  /*font-weight: 600;*/
 }
 
 .tip-spacing {
-    width: 100%;
-    height: 5px;
+  width: 100%;
+  height: 5px;
 }
 
-.tippy-box[data-theme~=light] {
-    background-color: rgba(255,255,255,0.95)!important;
+.tippy-box[data-theme~="light"] {
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .tippy-box {
-    max-height: inherit;
+  max-height: inherit;
 }
 
 .tippy-content {
-    max-height: inherit;
-    overflow-y: auto;
+  max-height: inherit;
+  overflow-y: auto;
 }
 
-.tippy-arrow[data-theme~=light] {
-    background-color: rgba(255,255,255,0.9)!important
+.tippy-arrow[data-theme~="light"] {
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
