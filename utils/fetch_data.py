@@ -92,11 +92,7 @@ class Updater:
         # display_name = soup.find('div', class_='custom_title').get_text()
         # if (display_name != name):
         #     raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
-        display_name = (
-            soup.select_one("#scroll_card_item")
-            .next_sibling.select_one("tr:first-child")
-            .get_text()
-        )
+        display_name = soup.select_one(".custom_title").get_text()
         if display_name != name:
             raise ValueError("Name mismatch: expect %s, got %s" % (name, display_name))
 
@@ -336,6 +332,7 @@ def main():
     if os.getenv("GITHUB_ACTIONS") is not None:
         print("Committing changes —— " + commit_msg)
         commit_changes(commit_msg)
+        send_message(commit_msg)
 
 
 def send_message(msg):
@@ -348,12 +345,12 @@ def send_message(msg):
 
 
 def commit_changes(msg):
-    author = (
-        "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
-    )
-    subprocess.run(["git", "commit", "-a", "-m", msg, "--author", author], check=True)
+    author = "github-actions[bot]"
+    email = "41898282+github-actions[bot]@users.noreply.github.com"
+    subprocess.run(["git", "config", "user.name", author], check=True)
+    subprocess.run(["git", "config", "user.email", email], check=True)
+    subprocess.run(["git", "commit", "-a", "-m", msg], check=True)
     subprocess.run(["git", "push"], check=True)
-    send_message(msg)
 
 
 #%%
