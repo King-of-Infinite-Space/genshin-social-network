@@ -1826,6 +1826,15 @@
                 "title_en": "Keqing about Yun Jin",
                 "content_en": "When you're passing by Heyu Tea House and have to squeeze your way through the biggest crowd you've seen in your life, that's when you know Yun Jin's on stage performing. There's not a merchant in Liyue who wouldn't buy up the place if they had the chance, and Yun Jin is the reason it would be worth every Mora."
             },
+            {                
+                "target_id": 8,
+                "target_zh": "温迪",
+                "title_zh": "刻晴关于风之神",
+                "content_zh": "帝君离去之后，我一直都在思考，璃月港的未来该怎么走。除了参考帝君以前的行动，我还去研究了其他神明的治世手段。可是，邻国蒙德就让我很是困惑…像风之神这种做法，真的能让蒙德长久吗？",
+                "target_en": "Venti",
+                "title_en": "Keqing about the Anemo Archon",
+                "content_en": "Since Rex Lapis left us, the question of Liyue's future has been on my mind constantly. In addition to reviewing his own past deeds, I've been researching the other archons' modes of governance, too. Mondstadt's god is the one who baffles me the most though — how exactly do any of his actions contribute to the longevity of Mondstadt? It's completely beyond me."
+            },
             {
                 "target_id": 31,
                 "target_zh": "烟绯",

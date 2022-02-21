@@ -39,8 +39,9 @@ class Updater:
                 if about[lang] in title and name in title:
                     return name, char["id"]
                 if "alias_" + lang in char:
-                    if about[lang] in title and char["alias_" + lang] in title:
-                        return name, char["id"]
+                    for alias in char["alias_" + lang].split(", "):
+                        if about[lang] in title and alias in title:
+                            return name, char["id"]
         return None, None
 
     def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
