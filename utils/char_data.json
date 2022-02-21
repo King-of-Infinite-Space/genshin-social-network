@@ -2928,6 +2928,15 @@
                 "content_en": "To witness the Musou no Hitotachi and live to tell the tale is quite a remarkable feat. Even though I recognize her as our true deity with the power to change Inazuma's fate at will, if there is conflict between the two of you, then... I shall choose to side with you."
             },
             {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "神里绫华关于八重神子",
+                "content_zh": "我和八重宫司大人的合作向来很愉快。你看，操办节庆庆典非常劳神费力，营收多半也不好看。但是八重宫司大人操办的产业，真的既风雅又有收成。",
+                "target_en": "Yae Miko",
+                "title_en": "Kamisato Ayaka about Yae Miko",
+                "content_en": "I have always greatly enjoyed working with Guuji Yae. Organizing festival affairs generally takes a lot of effort and doesn't generate much income, but Guuji Yae's events always come off both elegant and profitable."
+            },
+            {
                 "target_id": 35,
                 "target_zh": "宵宫",
                 "title_zh": "神里绫华关于宵宫",
@@ -2989,6 +2998,15 @@
                 "target_en": "Thoma",
                 "title_en": "Yoimiya about Thoma",
                 "content_en": "He's quite the talker and has reasons behind every word that he says. Sometimes, it might seem like there's no connection, but as he goes on, everything will eventually dovetail nicely towards a single purpose. It's... quite different from how I do things. I ask him for help whenever I encounter a matter I can't settle."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "宵宫关于八重神子",
+                "content_zh": "有次神社祭典，绫华问我能不能为宫司大人准备玩乐用的烟花。可是…宫司大人不是要出席祭典，全程坐在神社里吗？然后我祭典的时候就一直看着她，想知道她要怎么放烟花。我等啊等，等啊等，结果等来了绫华，说宫司大人特别满意…欸？她已经放过了？难道，坐在里面的不是她？",
+                "target_en": "Yae Miko",
+                "title_en": "Yoimiya about Yae Miko",
+                "content_en": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release the fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
             },
             {
                 "target_id": 42,
@@ -3090,6 +3108,15 @@
                 "content_en": "Her Excellency? Definitely not someone I'd ever get to meet. If you've got questions, maybe Miss Ayaka's the person to ask."
             },
             {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "早柚关于八重神子",
+                "content_zh": "她总喜欢摸我的头，可是我不敢咬她，也不敢反抗，总感觉如果拒绝了她会发生很可怕的事情。但是，再这样被摸下去，我会不会真的长不高了？怎么办呀…",
+                "target_en": "Yae Miko",
+                "title_en": "Sayu about Yae Miko",
+                "content_en": "She's always patting me on the head... I've never bitten her, though, or even said anything, because I'm frightened of how she'd react if I stood up to her. But what am I gonna do? Because if she keeps on patting my head, I'm gonna get stuck at this height forever!"
+            },
+            {
                 "target_id": 42,
                 "target_zh": "荒泷一斗",
                 "title_zh": "早柚关于荒泷一斗",
@@ -3118,6 +3145,15 @@
         "url_name": "shougun",
         "ver": "2.1.1",
         "lines": [
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "雷电将军关于八重神子",
+                "content_zh": "那家伙啊，最初她就是个会被油豆腐引诱的家伙。现在居然这么工于谋略了，让人欣慰。不过被她算计了，还是有些不愉快。虽说是为了我好，下次见到她恐怕会被她嘲笑的…那就先发制人，斩她一刀好了。反正她也能躲掉。",
+                "target_en": "Yae Miko",
+                "title_en": "Raiden Shogun about Yae Miko",
+                "content_en": "Ah, that girl... She used to be the kind of person who could easily be swayed with some Fried Tofu. It's a relief to see how shrewd and resourceful she's now become. Still, I have to admit that I was a little upset to become the target of her scheming myself. I know it was for my own good, but I'm afraid she will mock me next time we meet... Perhaps I should take the initiative and strike her first? Hmm, she'll dodge it anyway."
+            },
             {
                 "target_id": 34,
                 "target_zh": "神里绫华",
@@ -3188,7 +3224,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "That's still the name the Anemo Archon takes among mortals these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "Hmm. That's the name the Anemo Archon takes these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -3212,7 +3248,7 @@
                 "target_id": 34,
                 "target_zh": "神里绫华",
                 "title_zh": "九条裟罗关于神里绫华",
-                "content_zh": "平时在九条家，只有士兵们在道场训练的声响，而每次路过神里家，总会听见舞乐声、打闹声、和笑声。听闻神里家的大小姐棋技了得，我一直等候时机，想要登门拜访，却又担心…像我这般严肃的人，是否会与那般氛围格格不入呢。",
+                "content_zh": "平时在九条家，只有士兵们在道场训练的声响，而每次路过神里家，总会听见舞乐声、打闹声和笑声。听闻神里家的大小姐棋技了得，我一直等候时机，想要登门拜访，却又担心…像我这般严肃的人，是否会与那般氛围格格不入呢。",
                 "target_en": "Kamisato Ayaka",
                 "title_en": "Kujou Sara about Kamisato Ayaka",
                 "content_en": "In the Kujou household, normally the only sound to be heard is that of soldiers training in the dojo. But in the Kamisato household, there is the sound of music, dance, bickering, and laughter... I have heard that Miss Kamisato is skilled in the game of Go, and have always hoped for an occasion to pay her a visit, but... I also worry that someone of a serious demeanor like myself may not quite fit in there."
@@ -3243,6 +3279,15 @@
                 "target_en": "Raiden Shogun",
                 "title_en": "Kujou Sara about the Raiden Shogun: Service",
                 "content_en": "So, the Vision Hunt Decree was repealed... Yes, it seems that you were right. ...Ahem, but this is not to say that the Almighty Shogun made a mistake. She has simply chosen to pursue eternity by a different route. I do not know whether the Shogun has finally found inner peace after protecting Inazuma over all these millennia. All I know is that however perilous the road ahead may become, I will follow her as I have always done."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "九条裟罗关于八重神子",
+                "content_zh": "八重宫司大人的所作所为，经常会让我产生误会…但她既然贵为鸣神大社的大巫女，不难得见将军大人对她的信任与默许，我自然也会敬重她。不过，如果哪天她做了忤逆将军意志的事情，那就恕我冒犯了。",
+                "target_en": "Yae Miko",
+                "title_en": "Kujou Sara about Yae Miko",
+                "content_en": "Guuji Yae's actions often leave me with many questions... Nevertheless, the fact that she is the head shrine maiden of the Grand Narukami Shrine clearly shows the level of trust and approval that the Shogun places in her, and for this reason I also greatly respect her. But... if there ever comes a day when she disobeys the Shogun's will, then please accept my apologies in advance."
             },
             {
                 "target_id": 40,
@@ -3299,6 +3344,15 @@
                 "content_en": "Mmm... I must admit, Kujou Sara is an opponent that cannot be taken lightly. She seldom employs cunning strategy, but her performance in open warfare is always admirable. The Shogun's Army places great trust in her abilities — they are united and ready to fight valiantly under her command, even to the death. Her forces have been a serious threat to the resistance on multiple occasions."
             },
             {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "珊瑚宫心海关于八重神子",
+                "content_zh": "八重宫司的许多事迹，我也有听说过。平心而论，我认为她是一位非常优秀的巫女，至少在「巫女」的本职上，她做到了无可挑剔的程度。听说她还负责八重堂轻小说出版事宜，真是个难以捉摸的人…",
+                "target_en": "Yae Miko",
+                "title_en": "Sangonomiya Kokomi about Yae Miko",
+                "content_en": "I have also heard of Guuji Yae's great deeds. In all fairness, I hold her to be an outstanding shrine maiden, and she has performed her duties marvelously. I even heard that she holds responsibility where Yae Publishing House's light novels are concerned. An enigmatic individual to say the least..."
+            },
+            {
                 "target_id": 38,
                 "target_zh": "雷电将军",
                 "title_zh": "珊瑚宫心海关于雷电将军",
@@ -3334,6 +3388,15 @@
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211021/2021102110372681510.png",
         "ver": "2.2.2",
         "lines": [
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "托马关于八重神子",
+                "content_zh": "神子大人？为、为什么突然提她？唉，每次小姐派我出去送口信，我最不想去的就是鸣神大社了。啊，倒不是神子大人的气场让人发慌，而是，呃…是敬畏…敬畏！啊哈哈…",
+                "target_en": "Yae Miko",
+                "title_en": "Thoma about Yae Miko",
+                "content_en": "Lady Miko? Wh—What about her? *sigh* Every time Miss Kamisato sends me out to deliver messages, my least-favorite destination is the Grand Narukami Shrine... Oh! N—Not because Lady Miko scares the bejeebers out of me, it's, uh... respect. Yes! She strikes respect deep into my heart, ahahahaha..."
+            },
             {
                 "target_id": 38,
                 "target_zh": "雷电将军",
@@ -3470,6 +3533,15 @@
                 "content_en": "During the Vision Hunt Decree, the Shogun had to send her top tengu in person to get my Vision off me. Heh, means she must have found me to be quite the pain in the neck. But, y'know, she's abolished the Vision Hunt Decree now, so no hard feelings, I guess. As long as she's learned her lesson, of course. 'Cause if she pulls something like that again, this old pain in the neck will be back with a vengeance."
             },
             {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "荒泷一斗关于狐耳女人",
+                "content_zh": "那场狐狸拉面比赛，是我赢了，就算面里有油豆腐，她也别想赢我！那之后…那之后我躺了一个多月，但我至少守住了胜者的荣耀！而她，就要承受付清三十二碗面钱的耻辱。哈哈哈哈…",
+                "target_en": "Yae Miko",
+                "title_en": "Arataki Itto about the Lady with Fox Ears",
+                "content_en": "I crushed that Kitsune Ramen eating contest we had. Even all that Fried Tofu couldn't stand in my way — she didn't come close to beating me! ... I was, uh, bedridden for more than a month after that, but you know what? I'd rather lie in bed a winner than walk away a loser! So... Anyway, I had the last laugh, 'cause she had to foot the bill for 32 bowls of noodles! Haha!"
+            },
+            {
                 "target_id": 39,
                 "target_zh": "九条裟罗",
                 "title_zh": "荒泷一斗关于九条裟罗",
@@ -3558,6 +3630,15 @@
                 "target_en": "Kujou Sara",
                 "title_en": "Gorou about Kujou Sara",
                 "content_en": "I have nothing good to say about the Shogun's Army, but Kujou Sara is perhaps the most honorable officer among their ranks. We've met each other countless times in battle, emerging both victorious and defeated at different times. *sigh* I know now that it's not realistic to think this way, but I did use to wonder what things would be like if those like her could value the wishes of the people and be free from the grip of the Shogunate."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "五郎关于八重神子",
+                "content_zh": "那个女人…我们可以不聊她吗？我来帮你干活，什么杂活都没有问题…呜…就当是为了我的身心健康着想，我们还是换个话题吧？",
+                "target_en": "Yae Miko",
+                "title_en": "Gorou about Yae Miko",
+                "content_en": "Oh, her... I'd prefer not to talk about her. Can we change the topic? Or, if there are any tasks I can take off your hand, I'll gladly oblige! Anything at all? ...Ahem, let's just say it'd be best for my general well-being if we can we avoid talking about her..."
             },
             {
                 "target_id": 34,
@@ -3747,6 +3828,99 @@
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Yun Jin about Kaedehara Kazuha",
                 "content_en": "Kaedehara Kazuha is among the many outlanders who enjoy Liyue opera. Whether it's an orchestral section or a percussive piece, he always sits there and listens quietly. Talk about great manners!"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name_zh": "八重神子",
+        "name_en": "Yae Miko",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220208/2022020813481182336.png",
+        "alias_zh": "狐耳女人",
+        "alias_en": "Lady with Fox Ears",
+        "url_name": "yaemiko",
+        "ver": "2.5.1",
+        "lines": [
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "八重神子关于雷电将军",
+                "content_zh": "明明想要出来，却一直把自己关在一心净土里，简直就是自我折磨嘛…从另一个角度来说，也挺可爱的不是吗。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Yae Miko about the Raiden Shogun",
+                "content_en": "Locking herself away in the Plane of Euthymia when she clearly wants to be out — it's just willful self-torture, really... On the other hand, it's also rather stubborn-but-cute, don't you think?"
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "八重神子关于神里绫华",
+                "content_zh": "我很喜欢社奉行家的小姑娘，任何事都安排得井井有条。不过社奉行一直都在做些吃力不讨好的活，可怜，如果她不是神里家的人，我早就把她挖到八重堂了。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Yae Miko about Kamisato Ayaka",
+                "content_en": "I'm very fond indeed of the Yashiro Commission girl. She adroitly handles every matter that comes before her. Unfortunately, it's often thankless work. Pity. Were she not a member of the Kamisato Clan, I would have long since snatched her up for the Yae Publishing House."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "八重神子关于九条裟罗",
+                "content_zh": "这块愚笨的木头啊，远不如她那天狗爹爹心思活络…哎呀，怎么说呢，虽说木讷耿直也有木讷耿直的好处吧，不过还是希望下次不要在神社拦着我，一个劲追问影的事了。",
+                "target_en": "Kujou Sara",
+                "title_en": "Yae Miko about Kujou Sara",
+                "content_en": "Not the sharpest tengu in the forest — she certainly didn't inherit the brilliant mind of daddy tengu, that's for sure. *sigh* How shall I put this? I suppose being blunt and dispensing with tact has its own advantages... But I do hope that the next time she visits the shrine, she keeps to herself. I've got better things to do than answer her incessant questions about Ei."
+            },
+            {
+                "target_id": 35,
+                "target_zh": "宵宫",
+                "title_zh": "八重神子关于宵宫",
+                "content_zh": "长野原的烟花嘛，也是每年难得的值得期盼之物了。据说前些天她还大闹天领奉行，在敷地大放烟花。呵，九条家的人恐怕气得脸都变青了，真是可惜呀，没能亲眼看到那副场景。",
+                "target_en": "Yoimiya",
+                "title_en": "Yae Miko about Yoimiya",
+                "content_en": "Naganohara fireworks are well worth the wait every year. Word is that she caused quite an uproar among the Tenryou Commission recently by setting off fireworks all over the place. Heh, I'm sure the members of the Kujou Clan must've turned purple with rage... A pity that I couldn't be there to see it for myself."
+            },
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "八重神子关于甘雨",
+                "content_zh": "这么说来，很久没有见过甘雨姐姐了。稻妻尚未锁国时，璃月与稻妻往来事务都是我与她接洽，真是相当可靠，下次若有机会去璃月，再给她带些新鲜的海灵芝吧。",
+                "target_en": "Ganyu",
+                "title_en": "Yae Miko about Ganyu",
+                "content_en": "Hmm, now that you mention it, it's been a while since I last saw Ganyu. Before the Sakoku Decree came into effect, the two of us would often meet to discuss bilateral relations between our two nations. I always found her quite reliable. The next time you go to Liyue, take her some more fresh Sea Ganoderma for me."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "八重神子关于珊瑚宫心海",
+                "content_zh": "现在的巫女，一个比一个可爱。不知道这孩子跳起太平神乐之舞会是什么样子，说不好群鱼也会跟着旋转吧。只要她肯叫我一声神子姐姐，呵呵…我倒有些心得愿意分享。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Yae Miko about Sangonomiya Kokomi",
+                "content_en": "These Divine Priestesses seem to be getting cuter every generation. I wonder how she looks performing the Dance of Divine Peace... Perhaps even little schools of fish swish around her while she spins. If she's ever looking for a more experienced head shrine maiden to learn from, I'd be quite happy to share a few tips with her... Hehe, as long as she asked me nicely, of course."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "八重神子关于荒泷一斗",
+                "content_zh": "他呀，鬼族的奇怪小子，呵，听说他找了九条家不少的麻烦。天领奉行的人想要以有伤风化为由将他写于街上的留言擦掉，是我找人保留的，呵，这么有趣的小鬼，这些年可是难能一见了。",
+                "target_en": "Arataki Itto",
+                "title_en": "Yae Miko about Arataki Itto",
+                "content_en": "Ah, the oddball oni. Heh, I hear that he's been quite a pain for the Kujou Clan. The Tenryou Commission wanted to remove his messages on the bulletin board, claiming that they were \"harmful to public order.\" I made quite sure they stayed put, haha. He's an entertaining character... you don't often see oni like him in this day and age."
+            },
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "八重神子关于五郎",
+                "content_zh": "五郎尾巴的色泽很漂亮，不过…还是我的更柔软一些。呵…",
+                "target_en": "Gorou",
+                "title_en": "Yae Miko about Gorou",
+                "content_en": "He certainly has a beautiful tail. Although... mine's a little softer."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "八重神子关于早柚",
+                "content_zh": "这个子小小的孩子，躲倒是挺会躲的，鹿野奈奈经常向我抱怨，得花很多时间找她，连看小说的时间都变少了。要我说啊，或许是有人在暗中帮助早柚呢？",
+                "target_en": "Sayu",
+                "title_en": "Yae Miko about Sayu",
+                "content_en": "Ah yes, the little ninja child... If there's one thing she can do, it's stay hidden. Kano Nana constantly complains to me about it. Apparently, she now spends so much of her time searching for Sayu that she barely has any time to read anymore. If you ask me, I'd say that Sayu has a secret ally who is helping her hide all the time..."
             }
         ]
     }
