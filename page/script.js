@@ -596,11 +596,13 @@ async function main() {
         setLayout(getSelectedOption(), true)
     }
 
-    // if (window.location.hostname === "king-of-infinite-space.github.io"){
-    //     fetch('https://kois.pythonanywhere.com/count?url=' 
-    //         + encodeURIComponent('https://king-of-infinite-space.github.io/genshin-social-network'),
-    //         {credentials: 'include'})
-    // } // could be blocked
+    
+    fetch('https://kois.pythonanywhere.com/plus?url=' 
+            + encodeURIComponent(window.location.href),
+            {credentials: 'include'})
+        .then(res => res.text())
+        .then(text => console.log(text))
+        
 }
 
 main();
