@@ -212,13 +212,6 @@ def fetch_data_bwiki(filter=None):
     soup = BeautifulSoup(html_doc, "html.parser")
     table = soup.find(id="CardSelectTr")
 
-    weaponDict = {
-        "单手剑": "S",
-        "长柄武器": "P",
-        "双手剑": "C",
-        "弓": "B",
-        "法器": "M",
-    }
     chars = {}
     columns = ["name_zh", "rarity", "weapon", "element", "gender", "region"]
     for tr in table.find_all("tr")[1:]:  # ignore thead
@@ -227,8 +220,8 @@ def fetch_data_bwiki(filter=None):
         for td in tr.find_all("td", limit=1 + len(columns))[1:]:  # ignore image
             char[columns[i]] = td.get_text().strip()
             i += 1
-        char["weapon"] = weaponDict[char["weapon"]]
-        char["rarity"] = int(char["rarity"][0])
+        char["rarity"] = int(char["rarity"][0]) if len(char["rarity"]) else None
+        char["weapon"] = char["weapon"][0] if len(char["weapon"]) else None
         if filter is None or char["name_zh"] in filter:
             chars[char["name_zh"]] = char
     return chars
@@ -279,7 +272,6 @@ def main():
         template = fetch_char_api()
         annotate_template(template, char_list_remote)
 
-        updater = Updater(template=template)
         # got current chars, building from it
         char_names = list(template.keys())
         count_total = len(template)
@@ -292,9 +284,12 @@ def main():
 
         char_names_new = char_names[: count_total - count_old]
         data_bwiki = fetch_data_bwiki(filter=char_names_new)
-        data_update = [
-            data_bwiki[k] | template[k] | {"ver": ver} for k in char_names_new
-        ]
+
+        data_update = []
+        for k in char_names_new:
+            template[k]["ver"] = ver
+            data_update.append(template[k] | data_bwiki[k])
+        updater = Updater(template=template)
         print(f"\tNew char {' '.join(char_names_new)}")
         try:
             print("Updating remote data")
