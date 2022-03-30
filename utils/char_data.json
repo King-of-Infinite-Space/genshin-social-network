@@ -3,7 +3,7 @@
         "id": 1,
         "name_zh": "琴",
         "name_en": "Jean",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030616591036729.png",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718344593599.png",
         "ver": "1.0",
         "lines": [
             {
@@ -120,7 +120,7 @@
         "id": 2,
         "name_zh": "安柏",
         "name_en": "Amber",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030616592448011.png",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718350213870.png",
         "ver": "1.0",
         "lines": [
             {
@@ -661,8 +661,8 @@
         "name_zh": "温迪",
         "name_en": "Venti",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617031747812.png",
-        "alias_zh": "巴巴托斯",
-        "alias_en": "Barbatos",
+        "alias_zh": "巴巴托斯, 风之神",
+        "alias_en": "Barbatos, Anemo Archon",
         "ver": "1.0",
         "lines": [
             {
@@ -1175,7 +1175,7 @@
         "id": 14,
         "name_zh": "莫娜",
         "name_en": "Mona",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814333361327.png",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718352334387.png",
         "ver": "1.0",
         "lines": [
             {
@@ -1826,7 +1826,7 @@
                 "title_en": "Keqing about Yun Jin",
                 "content_en": "When you're passing by Heyu Tea House and have to squeeze your way through the biggest crowd you've seen in your life, that's when you know Yun Jin's on stage performing. There's not a merchant in Liyue who wouldn't buy up the place if they had the chance, and Yun Jin is the reason it would be worth every Mora."
             },
-            {                
+            {
                 "target_id": 8,
                 "target_zh": "温迪",
                 "title_zh": "刻晴关于风之神",
@@ -2536,7 +2536,7 @@
         "id": 30,
         "name_zh": "罗莎莉亚",
         "name_en": "Rosaria",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210324/2021032418465472967.png",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718290075546.png",
         "ver": "1.4.2",
         "lines": [
             {
@@ -2946,13 +2946,22 @@
                 "content_en": "I have always greatly enjoyed working with Guuji Yae. Organizing festival affairs generally takes a lot of effort and doesn't generate much income, but Guuji Yae's events always come off both elegant and profitable."
             },
             {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "神里绫华关于神里绫人",
+                "content_zh": "作为神里家的家主，兄长平日需要出面诸多场合。我虽尽力分担兄长肩上所负担的责任，却也无法缓和他常年积压在身的疲倦。唉，就当是为了妹妹着想，希望你能劝言，让兄长多多注意身体啊。",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Kamisato Ayaka about Kamisato Ayato",
+                "content_en": "As the head of the Kamisato Clan, brother always has a full schedule of places he needs to be. I do try my best to share his load, but there is no changing the pressure he is subjected to all year round, and the toll it takes upon him. *sigh* If you see him, remind him to take care of himself, for his sister's sake..."
+            },
+            {
                 "target_id": 35,
                 "target_zh": "宵宫",
                 "title_zh": "神里绫华关于宵宫",
                 "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
                 "target_en": "Yoimiya",
                 "title_en": "Kamisato Ayaka about Yoimiya",
-                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years. Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
             }
         ]
     },
@@ -3090,6 +3099,15 @@
                 "content_en": "As the eldest daughter of the Kamisato Clan, she always looks very graceful and elegant. But she got one of the shrine maidens to keep tabs on me and make sure I don't slack off... Why would she do that?"
             },
             {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "早柚关于神里绫人",
+                "content_zh": "我在树上休息的时候，经常会听到巫女姐姐们在聊他，似乎是一位工作很忙的大人。真是奇怪，工作什么的明明旷掉就好了…",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Sayu about Kamisato Ayato",
+                "content_en": "Sometimes, when I'm taking a rest up in a tree, I overhear the shrine maidens talking about him. Sounds like he's pretty important and super busy most of the time. I don't get it, though — it's only work, or whatever, so why doesn't he just... not do it?"
+            },
+            {
                 "target_id": 41,
                 "target_zh": "托马",
                 "title_zh": "早柚关于托马",
@@ -3164,6 +3182,15 @@
                 "content_en": "Ah, that girl... She used to be the kind of person who could easily be swayed with some Fried Tofu. It's a relief to see how shrewd and resourceful she's now become. Still, I have to admit that I was a little upset to become the target of her scheming myself. I know it was for my own good, but I'm afraid she will mock me next time we meet... Perhaps I should take the initiative and strike her first? Hmm, she'll dodge it anyway."
             },
             {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "雷电将军关于神里绫人",
+                "content_zh": "神里一门，无愧于稻妻名门笔头之格。绫人虽然此前在三奉行事务中，耍了不少手段，但是本身忠心可鉴。既往不咎了。",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Raiden Shogun about Kamisato Ayato",
+                "content_en": "Kamisato... One of the most distinguished clans in all of Inazuma. Despite Ayato's trickery in regard to the Tri-Commission's affairs, he is nevertheless a loyal subject. His past misdeeds shall be excused."
+            },
+            {
                 "target_id": 34,
                 "target_zh": "神里绫华",
                 "title_zh": "雷电将军关于神里绫华",
@@ -3233,7 +3260,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "Hmm. That's the name the Anemo Archon takes these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -3434,6 +3461,15 @@
                 "content_en": "The captain of The Crux — a formidable woman indeed. She once promised to take me out onto the open ocean to get a look at the thunderstorm that seals off Inazuma from the outside world. It's a shame that to this day, I've never had the chance to take her up on the offer..."
             },
             {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "托马关于神里绫人",
+                "content_zh": "家主大人也够不容易的了。时局动荡，人心不安，同僚里又有不少贪官败类，想想都头疼。我所能做的，也就是在生活方面给予些照顾了。",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Thoma about Kamisato Ayato",
+                "content_en": "As head of the Kamisato Clan, he's in a tough position. With all the political upheaval, he has to contend with public disquiet on one hand and a bunch of self-serving, degenerate public officials on the other. It's best not to dwell on it. All I can do is make sure to look out for him when he's at home."
+            },
+            {
                 "target_id": 34,
                 "target_zh": "神里绫华",
                 "title_zh": "托马关于神里绫华",
@@ -3513,6 +3549,15 @@
                 "target_en": "Thoma",
                 "title_en": "Arataki Itto about Thoma",
                 "content_en": "Some of the boys have been telling me that he was the star of the show at the Vision Hunt Ceremony. I'm like — are you kidding me??? How come he gets his own special ceremony!? Was the hundredth Vision supposed to be, like, stronger than the other ninety-nine, or something? Pff, nah, it can't have been that, 'cause, uh, hello! They would've chosen me if that's what they were going for."
+            },
+            {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "荒泷一斗关于神里绫人",
+                "content_zh": "哈哈哈哈，我跟绫人兄可以说是相见恨晚啊！如果不是他提醒我「让温顺的虫子燃起斗志」是我一生都该坚守的觉悟，也许早在第七百八十次战败时，我就放弃斗虫了…哈哈，果然只有男人最懂男人，哎呀，我和他之间无需多言，在打牌和斗虫时，默契就已经悉数体现了。",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Arataki Itto about Kamisato Ayato",
+                "content_en": "Haha, I only wish I could have met Ayato sooner. He really taught me something. \"You can kindle the warrior spirit even in the weakest of bugs\"... Yep, I really took that one to heart. If it weren't for those words of wisdom, I'm pretty sure I would have given up beetle fighting after losing for the 780th time... Yeah, I guess sometimes it takes a warrior to understand a warrior. When we're playing trading card games or battling beetles, we're always totally on the same wavelength."
             },
             {
                 "target_id": 35,
@@ -3860,6 +3905,15 @@
                 "content_en": "Locking herself away in the Plane of Euthymia when she clearly wants to be out — it's just willful self-torture, really... On the other hand, it's also rather stubborn-but-cute, don't you think?"
             },
             {
+                "target_id": 47,
+                "target_zh": "神里绫人",
+                "title_zh": "八重神子关于神里绫人",
+                "content_zh": "社奉行家的那个小子啊，从小就不安分，别看他表面上笑得春风和煦，暗地里可不知道在盘算什么呢，令人讨厌…哼，我可跟他不是一类人，哪来同类相斥的说法。",
+                "target_en": "Kamisato Ayato",
+                "title_en": "Yae Miko about Kamisato Ayato",
+                "content_en": "The Yashiro rascal... he's always been an unpredictable one, even as a child. Don't be taken in by his warm smile. There's no knowing what devious scheme might be brewing inside his head — it's really quite maddening... What do you mean, \"sly as a fox\"? Hmph, if you're trying to insinuate that he and I are anything alike, you are sorely mistaken."
+            },
+            {
                 "target_id": 34,
                 "target_zh": "神里绫华",
                 "title_zh": "八重神子关于神里绫华",
@@ -3930,6 +3984,105 @@
                 "target_en": "Sayu",
                 "title_en": "Yae Miko about Sayu",
                 "content_en": "Ah yes, the little ninja child... If there's one thing she can do, it's stay hidden. Kano Nana constantly complains to me about it. Apparently, she now spends so much of her time searching for Sayu that she barely has any time to read anymore. If you ask me, I'd say that Sayu has a secret ally who is helping her hide all the time..."
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name_zh": "神里绫人",
+        "name_en": "Kamisato Ayato",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/03/14/6713b70c875d723eb22c9effda407377_2979852309102536594.png",
+        "ver": "2.6.1",
+        "lines": [
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "神里绫人关于神里绫华",
+                "content_zh": "我相信绫华的能力，但我也希望她能够保持一颗纯粹的心。权力斗争她不必参与，人世阴暗她也不必直面，这些理应由作为兄长的我来一一扫清…不小心说太多了，就当是你我之间的秘密吧。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Kamisato Ayato about Kamisato Ayaka",
+                "content_en": "I am confident in Ayaka's abilities. But I want her to be able to hold on to her innocence. She shouldn't have to get personally involved in power struggles, or confront the darker side of life head-on. As her older brother, it's my job to shield her from all of that... Heh, just... between the two of us, of course. Sorry, that got a little more private a little more quickly than I'd intended."
+            },
+            {
+                "target_id": 41,
+                "target_zh": "托马",
+                "title_zh": "神里绫人关于托马",
+                "content_zh": "托马对神里家的忠心毋庸置疑。很久以前我曾试探过他，如果不想往后被卷入无尽纷争的话，最好早日离开。他却还是留了下来，一直跟随着神里家，让我也省心不少。…现在，我完全信得过的人很少，托马算是一个。",
+                "target_en": "Thoma",
+                "title_en": "Kamisato Ayato about Thoma",
+                "content_en": "There is no doubt in my mind about Thoma's loyalty to the Kamisato Clan. A long time ago, partly to see where he stood, I advised him that he would be better off leaving if he didn't want to get drawn into the never-ending disputes that plague public life. Still, he chose to stay, and in all the time he's been with us, he's spared me much worry. There are very few people I trust completely these days, but Thoma is one of them."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "神里绫人关于早柚",
+                "content_zh": "她平时看起来是懒散了点，但在适当的时机，却总能给予重要帮助。你应该再清楚不过了吧？",
+                "target_en": "Sayu",
+                "title_en": "Kamisato Ayato about Sayu",
+                "content_en": "She looks awfully idle the majority of the time, and yet when it counts, she always rises to the occasion and provides indispensable assistance. Of course, you'd know far more about that than me, wouldn't you?"
+            },
+            {
+                "target_id": 35,
+                "target_zh": "宵宫",
+                "title_zh": "神里绫人关于宵宫",
+                "content_zh": "那位…为人爽朗的烟花店店主么？嗯…她和神里家往来还算密切。她和绫华年龄相仿，也很投缘。绫华恐怕也不会因为她的快人快语而困扰。毕竟绫华那孩子在小时候，就能坚定地守住本心。",
+                "target_en": "Yoimiya",
+                "title_en": "Kamisato Ayato about Yoimiya",
+                "content_en": "Ah, the fireworks store owner. Yes, a most... spirited young lady. The Kamisato Clan is on rather close terms with her. She is around the same age as Ayaka, and the two get along very well. I trust her direct and outspoken disposition won't lead Ayaka astray. Ayaka has always been staunchly true to herself, ever since she was a young child."
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "神里绫人关于雷电将军",
+                "content_zh": "为了追求「永恒」，将军大人以及整个稻妻，都付出了不小的代价。伤口需要时间来愈合，作为政局的调和者，我必然会尽到我的责任。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kamisato Ayato about the Raiden Shogun",
+                "content_en": "The cost of pursuing eternity has been great for the Almighty Shogun... and for all of Inazuma. These wounds will take time to heal, and as someone with a mediating role to play in the political process, I will be sure to fulfill that which is required of me."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "神里绫人关于八重神子",
+                "content_zh": "宫司大人于神里家有恩，可她却一直不太看得惯我，呵，恐怕你没少听她「那小子」「那小子」地称呼我吧。由于业务交集，我们偶有碰面，虽说大家各怀心思，但工作起来也称得上融洽。我并不讨厌这种感觉。嗯，与聪明人一起办事，效率就是会高得多。况且就算她再讨厌我，也不得不承认如果没有我，就没人能实现得了她那些「奇思妙想」了。",
+                "target_en": "Yae Miko",
+                "title_en": "Kamisato Ayato about Yae Miko",
+                "content_en": "Lady Guuji has been kind to us in the Kamisato Clan, but she has never quite taken to me personally. I trust you'll have heard the way she refers to me... \"the Yashiro rascal\" and other such flattering monikers. We run into each other semi-regularly, given the overlap in our work, and despite whatever private thoughts we each may have, our working relationship is quite a harmonious one. I have no great objection to this state of affairs — working with intelligent people always makes things highly efficient. In any case... However objectionable she might find me, she would be forced to admit that without me, she would have no one to help execute her weird and wonderful ideas."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "神里绫人关于九条裟罗",
+                "content_zh": "九条老头打得一手好算盘，磨砺出了一柄利剑。哼，只可惜，他没有算到，自己做不起这位执剑人。",
+                "target_en": "Kujou Sara",
+                "title_en": "Kamisato Ayato about Kujou Sara",
+                "content_en": "Old man Kujou capitalized on a golden opportunity to create a most formidable weapon indeed. The only flaw in his plan being, he is now no longer able to wield the weapon of his creation."
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "神里绫人关于枫原万叶",
+                "content_zh": "枫原家曾是神里家的下属，神里家的先祖当年未能保护他们周全，到我这里，仍有义务照拂他。虽说无法助他重振家业，但帮他逃脱天领奉行的追捕这种事还是做得到的。",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Kamisato Ayato about Kaedehara Kazuha",
+                "content_en": "Once upon a time, the Kaedehara Clan was a subordinate branch of the Kamisato Clan. My forebears may have failed to save his family from decline, but even today I have a duty to support him. Now, naturally, there is nothing I can do to restore his clan's former fortunes. But as for helping him avoid arrest by the Tenryou Commission, that is well within my capabilities..."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "神里绫人关于荒泷一斗",
+                "content_zh": "那家伙实在是个有趣的人。让温顺的鬼兜虫相互争斗，哈哈，有意思。嗯，虽然那次点拨实则是不经意之举，但没想到的是，他竟会直接与我称兄道弟，而且时至今日都还没发现我这位「绫人兄」的身份。呵呵，这样也好，我并不讨厌…单纯的人。",
+                "target_en": "Arataki Itto",
+                "title_en": "Kamisato Ayato about Arataki Itto",
+                "content_en": "Now he's an interesting case. The idea of pitting docile Onikabuto against each other in battle, I mean really... I was only speaking in polite platitudes when I gave him a that little pep talk, but to my surprise he started calling me \"bro\"... To this day, he calls me \"my bro Ayato\" without the faintest idea of my true identity. It's quite alright by me, though, I have nothing against his... eccentricities."
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "神里绫人关于凝光",
+                "content_zh": "璃月七星中的那位「天权」大人，嗯，她的手段我也略有耳闻。说来，我还收藏有一套限量版的「璃月千年」，你感兴趣吗？我差人拿出来，我们下一盘如何？",
+                "target_en": "Ningguang",
+                "title_en": "Kamisato Ayato about Ningguang",
+                "content_en": "I have heard a thing or two about how Her Eminence, the Tianquan operates. On the subject, I also happen to have a limited-edition copy of Liyue Millennial, if you're interested? What do you say, shall I have someone fetch it, so we can play a game?"
             }
         ]
     }
