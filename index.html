@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Genshin social network graph | 原神人物网络图</title>
 
-    <meta name="description"
-        content="interactive social network graph of Genshin characters based on voice lines| 原神人物社交网络图，可交互，基于语音文本">
-    <meta property="og:title" content="Genshin social network graph | 原神人物网络图">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://King-of-Infinite-Space.github.io/genshin-social-network">
-    <meta property="og:image" content="">
+    <meta
+      name="description"
+      content="interactive social network graph of Genshin characters based on voice lines| 原神人物社交网络图，可交互，基于语音文本"
+    />
+    <meta
+      property="og:title"
+      content="Genshin social network graph | 原神人物网络图"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://King-of-Infinite-Space.github.io/genshin-social-network"
+    />
+    <meta property="og:image" content="" />
 
     <!-- <link rel="icon" href="favicon.ico"> -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/w3-css@4.1.0/w3.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/w3-css@4.1.0/w3.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.18.2/dist/cytoscape.min.js"></script>
     <!-- cytoscape-fcose -->
     <script src="https://cdn.jsdelivr.net/npm/layout-base/layout-base.js"></script>
@@ -31,121 +41,165 @@
     <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/popper-max-size-modifier@0.2.0/dist/popper-max-size-modifier.esm.js"></script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.1/themes/light.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.1/themes/light.css"
+    />
 
     <script src="https://cdn.jsdelivr.net/npm/seedrandom@3.0.5/seedrandom.min.js"></script>
 
     <script type="text/javascript">
-        let src_base = 'page/'
-        if (window.location.hostname.includes("github.io")) {
-            src_base = "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/" + src_base
-        }
-        const ss = document.createElement('link')
-        ss.type = 'text/css'
-        ss.href = src_base + 'style.css'
-        ss.rel = 'stylesheet'
-        document.head.appendChild(ss)
+      let src_base = "page/"
+      if (window.location.hostname.includes("github.io")) {
+        src_base =
+          "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/" +
+          src_base
+      }
+      const ss = document.createElement("link")
+      ss.type = "text/css"
+      ss.href = src_base + "style.css"
+      ss.rel = "stylesheet"
+      document.head.appendChild(ss)
 
-        const icon = document.createElement('link')
-        icon.type = 'image/svg+xml'
-        icon.href = src_base + 'icon.svg'
-        icon.rel = 'icon'
-        document.head.appendChild(icon)
+      const icon = document.createElement("link")
+      icon.type = "image/svg+xml"
+      icon.href = src_base + "icon.svg"
+      icon.rel = "icon"
+      document.head.appendChild(icon)
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Page Content -->
     <div class="main-container">
-        <div id="cy"></div>
+      <div id="cy"></div>
     </div>
     <!-- Sidebar -->
     <div class="w3-light-grey w3-bar-block w3-border-left sidebar">
-        <h4 class="w3-bar-item">
-            <span lang="zh">原神人物网络图</span>
-            <span lang="en">Genshin social network</span>
-        </h4>
-        <div class="w3-bar-item" id="lang-switch">
-            中文
-            <div id="lang-slider-container">
-                <input id="lang-slider" type="range" value="0" min="0" max="1" disabled="true">
-            </div>
-            English
+      <h4 class="w3-bar-item">
+        <span lang="zh">原神人物网络图</span>
+        <span lang="en">Genshin social network</span>
+      </h4>
+      <div class="w3-bar-item" id="lang-switch">
+        中文
+        <div id="lang-slider-container">
+          <input
+            id="lang-slider"
+            type="range"
+            value="0"
+            min="0"
+            max="1"
+            disabled="true"
+          />
         </div>
-        <div class="w3-bar-item">
-            <!-- <h6>
+        English
+      </div>
+      <div class="w3-bar-item">
+        <!-- <h6>
                 <span lang="zh">说明</span>
                 <span lang="en">Instructions</span>
             </h6> -->
-            <span lang="zh">点击头像以选中，然后悬停于连线或相连头像以显示语音文本。人物头像可拖动。</span>
-            <span lang="en">Click an icon to select. Then hover on connected nodes or edges to show quotes. Icons
-                are draggable.</span>
-
+        <span lang="zh"
+          >点击头像以选中，然后悬停于连线或相连头像以显示语音文本。人物头像可拖动。</span
+        >
+        <span lang="en"
+          >Click an icon to select. Then hover on connected nodes or edges to
+          show quotes. Icons are draggable.</span
+        >
+      </div>
+      <div class="w3-bar-item">
+        <h6>
+          <span lang="zh">布局</span>
+          <span lang="en">Layout</span>
+        </h6>
+        <p class="p-option">
+          <input
+            class="w3-radio"
+            type="radio"
+            name="layout"
+            value="fcose"
+            checked
+          />
+          <label lang="zh">力导向 (fcose)</label>
+          <label lang="en">force-directed (fcose)</label>
+        </p>
+        <p class="p-option">
+          <input class="w3-radio" type="radio" name="layout" value="avsdf" />
+          <label lang="zh">圆周 (avsdf)</label>
+          <label lang="en">circle (avsdf)</label>
+        </p>
+        <p class="p-option">
+          <input
+            class="w3-radio"
+            type="radio"
+            name="layout"
+            value="concentric"
+          />
+          <label lang="zh">同心圆 (custom)</label>
+          <label lang="en">concentric (custom)</label>
+        </p>
+        <a
+          href="#"
+          class="w3-button w3-round-xlarge w3-border w3-border-blue w3-hover-blue button"
+          id="refreshGraph"
+        >
+          <span lang="zh">重置</span>
+          <span lang="en">Reset</span>
+        </a>
+      </div>
+      <div class="w3-bar-item">
+        <div>
+          <span lang="zh">人物数量 = </span
+          ><span lang="en">Total characters = </span
+          ><span id="totalNodes"></span>
         </div>
-        <div class="w3-bar-item">
-            <h6>
-                <span lang="zh">布局</span>
-                <span lang="en">Layout</span>
-            </h6>
-            <p class="p-option">
-                <input class="w3-radio" type="radio" name="layout" value="fcose" checked>
-                <label lang="zh">力导向 (fcose)</label>
-                <label lang="en">force-directed (fcose)</label>
-            </p>
-            <p class="p-option">
-                <input class="w3-radio" type="radio" name="layout" value="avsdf">
-                <label lang="zh">圆周 (avsdf)</label>
-                <label lang="en">circle (avsdf)</label>
-            </p>
-            <p class="p-option">
-                <input class="w3-radio" type="radio" name="layout" value="concentric">
-                <label lang="zh">同心圆 (custom)</label>
-                <label lang="en">concentric (custom)</label>
-            </p>
-            <a href="#" class="w3-button w3-round-xlarge w3-border w3-border-blue w3-hover-blue button"
-                id="refreshGraph">
-                <span lang="zh">重置</span>
-                <span lang="en">Reset</span>
-            </a>
+        <div>
+          <span lang="zh">平均连接 = </span
+          ><span lang="en">Average connections = </span
+          ><span id="avgConnections"></span>
         </div>
-        <div class="w3-bar-item">
-            <div>
-                <span lang="zh">人物数量 = </span><span lang="en">Total characters = </span><span id="totalNodes"></span>
-            </div>
-            <div>
-                <span lang="zh">平均连接 = </span><span lang="en">Average connections = </span><span
-                    id="avgConnections"></span>
-            </div>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="bottom-item" id="gh-icon-container">
+          <a
+            href="https://github.com/King-of-Infinite-Space/genshin-social-network"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
         </div>
-        <div class="sidebar-bottom">
-            <div class="bottom-item" id="gh-icon-container">
-                <a href="https://github.com/King-of-Infinite-Space/genshin-social-network" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path
-                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                    </svg>
-                </a>
-            </div>
-            <div class="bottom-item" id="credit">
-                <span lang="zh">仅用于研究目的<br>数据来自</span>
-                <span lang="en">for research purpose only<br>data from</span>
-                <a href="https://genshin.honeyhunterworld.com/" target="_blank" rel="noopener noreferrer">g-hhw</a>
-                <br>
-                <span lang="zh">游戏数据</span>
-                <span lang="en">game data</span>
-                © miHoYo
-            </div>
-            <!-- <div id="ad-test">
+        <div class="bottom-item" id="credit">
+          <span lang="zh">仅用于研究目的<br />数据来自</span>
+          <span lang="en">for research purpose only<br />data from</span>
+          <a
+            href="https://genshin.honeyhunterworld.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >g-hhw</a
+          >
+          <br />
+          <span lang="zh">游戏数据</span>
+          <span lang="en">game data</span>
+          © miHoYo
+        </div>
+        <!-- <div id="ad-test">
             </div> -->
-        </div>
+      </div>
     </div>
 
     <script type="text/javascript">
-        const sc = document.createElement('script')
-        sc.src = src_base + 'script.js'
-        document.body.appendChild(sc)
+      const sc = document.createElement("script")
+      sc.src = src_base + "script.js"
+      document.body.appendChild(sc)
     </script>
-
-</body>
-
+  </body>
 </html>
