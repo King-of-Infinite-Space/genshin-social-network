@@ -81,6 +81,13 @@ const cy = cytoscape({
       },
     },
     {
+      selector: ".dashed",
+      style: {
+        "line-style": "dashed",
+        "line-dash-pattern": [10, 8],
+      },
+    },
+    {
       selector: ".unconnectedEdges",
       style: {
         "line-color": "hsl(0, 0%, 85%)",
@@ -326,10 +333,25 @@ function setLayout(name, overwrite = false) {
 }
 
 function unselectElements() {
-  cy.$("node").removeClass("selectedNode")
-  cy.$("node").removeClass("connectedNodes")
-  cy.$("edge").removeClass("unconnectedEdges")
-  cy.$("edge").removeClass("connectedEdges")
+  cy.$("node").removeClass(["selectedNode", "connectedNodes"])
+  cy.$("edge").removeClass(["unconnectedEdges", "connectedEdges", "dashed"])
+}
+
+function selectNode(target) {
+  cy.edges().not(target.connectedEdges()).addClass("unconnectedEdges")
+  target.addClass("selectedNode")
+  const neighbors = target.neighborhood("node")
+  neighbors.addClass("connectedNodes")
+
+  neighbors.forEach((n) => {
+    const edgesIn = n.edgesTo(target)
+    const edgesOut = target.edgesTo(n)
+    edgesIn.addClass("connectedEdges")
+    edgesOut.addClass("connectedEdges")
+    if (edgesIn.length > 0 && edgesOut.length === 0) {
+      edgesIn.addClass("dashed")
+    }
+  })
 }
 
 // copied from https://www.npmjs.com/package/popper-max-size-modifier
@@ -465,18 +487,22 @@ function showStats() {
   cy.nodes().forEach(function (ele) {
     let nodesIn = ele.incomers().filter((ele) => ele.isNode())
     let nodesOut = ele.outgoers().filter((ele) => ele.isNode())
+    let edgesIn = ele.incomers().filter((ele) => ele.isEdge())
+    let edgesOut = ele.outgoers().filter((ele) => ele.isEdge())
     stats.push({
       id: ele.id(),
-      indegree: nodesIn.length,
-      outdegree: nodesOut.length,
-      connections: nodesIn.union(nodesOut).length,
+      nodesIn: nodesIn.length,
+      nodesOut: nodesOut.length,
+      edgesIn: edgesIn.length,
+      edgesOut: edgesOut.length,
+      nodesConnected: nodesIn.union(nodesOut).length,
     })
   })
-  let totalConnectios = stats.reduce((acc, cur) => acc + cur.connections, 0)
+  let totalConnectios = stats.reduce((acc, cur) => acc + cur.nodesConnected, 0)
   let avgConnections = Math.round((10 * totalConnectios) / totalNodes) / 10
   document.getElementById("totalNodes").innerHTML = totalNodes
   document.getElementById("avgConnections").innerHTML = avgConnections
-  return stats.sort((a, b) => b.connections - a.connections)
+  return stats.sort((a, b) => b.nodesConnected - a.nodesConnected)
 }
 
 async function getJson(url) {
@@ -542,19 +568,8 @@ async function main() {
           moveNodeTo(target, "center")
         }
       }
-
-      cy.$(".selectedNode").removeClass("selectedNode")
-      target.addClass("selectedNode")
-
-      cy.$(".connectedEdges").removeClass("connectedEdges")
-      cy.$("edge").addClass("unconnectedEdges")
-      let targetEdges = target.connectedEdges()
-      targetEdges.removeClass("unconnectedEdges")
-      targetEdges.addClass("connectedEdges")
-
-      cy.$(".connectedNodes").removeClass("connectedNodes")
-      target.neighborhood("node").addClass("connectedNodes")
-
+      unselectElements()
+      selectNode(target)
       if (getSelectedOption() === "concentric") {
         setLayout("concentricCustom")
       }
