@@ -234,23 +234,27 @@ def annotate_template(template, remote_data: list[dict]):
 
 
 def calc_ver(offset):
-    offset = 100 * int(offset[0]) + 10 * int(offset[-1])
-    # 2021-11-24 Wed v2.3.1
+    n_offset = int(100 * float(offset))
+    # 2022-6-1 Wed v2.7.1 (delayed 3 weeks)
     # 1 sub-version per 6 weeks, usually two banners
-    dd = (date.today() - date(2021, 11, 24)).days
-    v_main = 2
-    v_sub = 3 + dd // 42
-
+    dd = (date.today() - date(2022, 6, 1)).days
+    n_ref = 270
+    # 2.7.1 -> 270
+    # 2.7.2 -> 275
+    n_sub = dd // 42
     n_half = 1 + dd % 42 // 21
     # first half or second half
     d_half = dd % 21
-    v_banner = n_half + (d_half >= 14)
-
-    if v_banner > 2:
-        v_banner = 1
-        v_sub += 1
-    v_num = v_main * 100 + v_sub * 10 + v_banner + offset
-    return ".".join(list(str(v_num)))
+    # how long since last banner
+    n_banner = 5 * (n_half + (d_half >= 14) - 1)
+    # allows pre-updating if close to future banner
+    n = n_ref + n_sub * 10 + n_banner + n_offset
+    v = list(str(n))
+    if v[-1] == "0":
+        v[-1] = "1"
+    if v[-1] == "5":
+        v[-1] = "2"
+    return ".".join(v)
 
 
 def main():
