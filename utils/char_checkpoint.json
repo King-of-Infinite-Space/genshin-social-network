@@ -1,4 +1,94 @@
 {
+    "夜兰": {
+        "id": 48,
+        "name_zh": "夜兰",
+        "name_en": "Yelan",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/05/18/76cfc9a21e196fd316070196c1396950_2919759828280177295.png",
+        "ver": "2.7.1",
+        "lines": [
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "夜兰关于凝光·关系",
+                "content_zh": "我跟凝光认识得早，那时她还不是七星，我们合作了一段时间。她能提前当上七星，说不定也有我的功劳。呵，谁知道呢？总之，现在这份工作是她推荐给我的。确实不错，很适合我。",
+                "target_en": "Ningguang",
+                "title_en": "Yelan about Ningguang: Relationship",
+                "content_en": "I got to know Ningguang a long time ago, before she was a Qixing, and we worked together for a while. Maybe I'm partly to thank for the fact that she became a Qixing so quickly. Hehe, who can say? Anyway, she was the one who recommended this job to me. It was a good choice, I'm very well-suited to it."
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "夜兰关于凝光·期待",
+                "content_zh": "凝光是个不错的合作对象。不过我平日在外行走，得注意身份。总务司雇员见到七星，难免要尊称一声大人了。",
+                "target_en": "Ningguang",
+                "title_en": "Yelan about Ningguang: Expectations",
+                "content_en": "Ningguang is good to work with. But I have to be mindful of our identities when I'm out in public. When I meet a Qixing as an employee of the Ministry of Civil Affairs, they're \"Sir\" or \"Lady\" to me."
+            },
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "夜兰关于甘雨",
+                "content_zh": "那位秘书啊…我不可能像她那样，时刻不停地工作。何况她的效率同样无可挑剔。半仙的血统大概给了她不少便捷吧，不用睡觉也能保持精力。",
+                "target_en": "Ganyu",
+                "title_en": "Yelan about Ganyu",
+                "content_en": "Ah, the secretary... I could never work non-stop like she does, certainly not at that level of efficiency. I guess being half-adeptus must have its perks. Imagine not needing sleep to regain your energy levels..."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "夜兰关于刻晴",
+                "content_zh": "我不太喜欢把日程排得很满的人，他们没有给自己留下调整的余地，只要碰上意外，就会手忙脚乱，连累同僚。但「玉衡」不同，她总是有条不紊地办事，每次与她共事，都令我相当愉快。",
+                "target_en": "Keqing",
+                "title_en": "Yelan about Keqing",
+                "content_en": "I don't really like people who cram their schedules full, because it doesn't leave any room for negotiation. If something happens that they didn't anticipate, it throws their plans into oblivion, impacting not just themselves but their coworkers, too. But the Yuheng is different. She works in a very methodical way. I always enjoy working with her."
+            },
+            {
+                "target_id": 31,
+                "target_zh": "烟绯",
+                "title_zh": "夜兰关于烟绯",
+                "content_zh": "烟绯啊，我还挺喜欢她的。不谈以前的交情，作为鼎鼎有名的律法咨询师，她是璃月港内诸多情报的交汇点。每次帮她搞定麻烦，我都能顺带收获珍贵的线索。但她似乎对我有些敬重过度了。",
+                "target_en": "Yanfei",
+                "title_en": "Yelan about Yanfei",
+                "content_en": "I like Yanfei a lot. And I'm not talking about our friendship — as a high-profile legal consultant, important intel in Liyue Harbor is constantly flowing in her direction. Whenever I help her out, I always get some invaluable leads in return. I gotta say though, sometimes I think she respects me a little too much."
+            },
+            {
+                "target_id": 28,
+                "target_zh": "魈",
+                "title_zh": "夜兰关于魈",
+                "content_zh": "家族的长辈们曾说，要对「护法夜叉」保持最大的敬畏。据说我那疯疯癫癫的先祖路过望舒客栈时，都会少见地安分下来，想必是被他那驱除邪祟的威压给照顾了。但若是有一天，我有幸与那位「降魔大圣」并肩作战，我还是会以任务为重，不可能因为他的身份而有所顾忌。",
+                "target_en": "Xiao",
+                "title_en": "Yelan about Xiao",
+                "content_en": "The elders in my clan once said that we must always show the utmost respect to the Vigilant Yaksha. Apparently, the only time that our ancestor would gain some temporary relief from his insanity was when passing by the Wangshu Inn. It must have been the comforting effect of his presence that wards off evil spirits. That said, if I ever have the honor of fighting side by side with the Conqueror of Demons, I will focus only on the mission. I cannot let myself be distracted by concerns about his status."
+            },
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "夜兰关于香菱",
+                "content_zh": "香菱啊，讨人喜欢的小厨师，挑选食材的标准完全不输琉璃亭和新月轩。有时我会去她那里买些风干后的绝云椒椒。她似乎不理解我吃辣的方式，我也不想和她解释，这是家族的传统。",
+                "target_en": "Xiangling",
+                "title_en": "Yelan about Xiangling",
+                "content_en": "Ah, Xiangling, the lovely little chef. Her ingredients are always top quality, easily as good as Liuli Pavilion and Xinyue Kiosk. Sometimes I go to her for dried Jueyun Chilis... She doesn't seem to understand why I eat them in the way that I do, and I don't feel like trying to explain it to her, either. It's just a family tradition."
+            },
+            {
+                "target_id": 18,
+                "target_zh": "行秋",
+                "title_zh": "夜兰关于行秋",
+                "content_zh": "我当然记得他，飞云商会家的小少爷。我经常和他们家来往。也许以后，他也会成为眼观六路的能人呢？",
+                "target_en": "Xingqiu",
+                "title_en": "Yelan about Xingqiu",
+                "content_en": "Of course I remember him — the young master of the Feiyun Commerce Guild. I have dealings with his family all the time. Who knows... maybe one day, he'll be outsmarting everyone around him, too."
+            },
+            {
+                "target_id": 22,
+                "target_zh": "达达利亚",
+                "title_zh": "夜兰关于达达利亚",
+                "content_zh": "那位愚人众的执行官？他在无意中给我带来了一些好处。我原本打算彻查「岩上茶室」的前任老板，但那位执行官下手更快，强硬地上门讨债，还公开了前任老板做的假账，让他获罪入狱。我也因此顺利接管了岩上茶室，得到了一个不错的据点。",
+                "target_en": "Tartaglia",
+                "title_en": "Yelan about Tartaglia",
+                "content_en": "The Fatui harbinger? He helped me out once — unwittingly. I was planning a deep-reaching investigation into the former owner of the Yanshang Teahouse, but our harbinger friend got to him first. He showed up demanding payment of his debt, and also exposed his accounting fraud, which got him thrown in jail. That made it very easy for me to take over Yanshang Teahouse myself, and it's proven to be a very useful base."
+            }
+        ]
+    },
     "神里绫人": {
         "id": 47,
         "name_zh": "神里绫人",
@@ -927,7 +1017,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "That's still the name the Anemo Archon takes among mortals these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -1278,7 +1368,7 @@
                 "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
                 "target_en": "Yoimiya",
                 "title_en": "Kamisato Ayaka about Yoimiya",
-                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years. Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
             }
         ]
     },
@@ -1469,6 +1559,15 @@
                 "target_en": "Eula",
                 "title_en": "Yanfei about Eula",
                 "content_en": "Eula saved me once, and we've kept up correspondence ever since. She's very familiar with the Knights of Favonius' legislation, but has never been one to be bound by convention. She uses cunning logic to deal with problems flexibly... Perhaps the reason we get along so easily is that I'm a similar type myself. Still, I'll never acquire that carefree spirit of hers. We are in very different professions, after all."
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "烟绯关于夜兰",
+                "content_zh": "夜兰是总务司的雇员，帮我搞定过做假账的硬茬，我还请她吃了饭呢。不过…和她交谈的时候，总觉得自己的心思会被轻易看穿…嗯，以后千万不要站在她的对立面就好。",
+                "target_en": "Yelan",
+                "title_en": "Yanfei about Yelan",
+                "content_en": "Yelan is an employee of the Ministry of Civil Affairs — she once helped me crack a tough accounting fraud case. I treated her to dinner afterward. The only thing is... I feel like she's able to read my mind at any given moment when talking to her... Yes, in the future, I need to make absolutely sure I don't get on the wrong side of her."
             }
         ]
     },
@@ -1766,6 +1865,15 @@
                 "target_en": "Shenhe",
                 "title_en": "Ganyu about Shenhe",
                 "content_en": "I actually don't know her all that well — I've only heard bits and pieces from Cloud Retainer. From what I've heard, she can be quite ferocious. Whenever her temper gets the better of her, she is likely to start obliterating her surroundings. I wonder if maybe she's just... bored. Should... Should I recommend some work to keep her occupied?"
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "甘雨关于夜兰",
+                "content_zh": "虽说夜兰小姐每年有将近七成时间缺勤，但凝光会给她这样的特权，想必事出有因。当然，这不该是由我打听的事项，具体内容就不清楚了。不过，有天我回月海亭的路上，看到她和许多人有说有笑地吃着早点、喝着茶。我的内心深处…竟然有些羡慕。",
+                "target_en": "Yelan",
+                "title_en": "Ganyu about Yelan",
+                "content_en": "Even though Ms. Yelan is absent from work for the majority of the year, I'm sure Lady Ningguang must have her reasons for making exceptions for her. Of course, it wouldn't be my place to ask, so I don't know the details of their arrangement. I remember seeing her one day on my way back to Yuehai Pavilion, she was having breakfast with a group of people — they were all talking and laughing, eating, drinking tea... I must admit, I found myself feeling a little envious in that moment."
             }
         ]
     },
@@ -2380,6 +2488,15 @@
                 "target_en": "Yanfei",
                 "title_en": "Keqing about Yanfei",
                 "content_en": "The way I see it, the law is a summary of things done the right way in the past. However, it should also be continuously adapted and improved to match the needs of the present. Given that Liyue is about to undergo a radical transformation, legal talent is in great demand. With an assistant like Yanfei, I could spare myself a great deal of trouble."
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "刻晴关于夜兰",
+                "content_zh": "夜兰小姐的祖辈曾为七星效力，我的祖父也曾与她的家族有过学术合作。总体来说，她办事可靠，干净利落，时常为总务司提供重要的情报。虽然我也不清楚，夜兰小姐究竟是从哪听说这些消息的。",
+                "target_en": "Yelan",
+                "title_en": "Keqing about Yelan",
+                "content_en": "Ms. Yelan's ancestors used to serve the Qixing. My grandfather and her family have had academic collaborations in the past. All in all, she's reliable, efficient, and provides important intel to the Ministry of Civil Affairs. I can't say for sure how Ms. Yelan actually gets her intel, however..."
             }
         ]
     },
@@ -2560,6 +2677,15 @@
                 "target_en": "Shenhe",
                 "title_en": "Chongyun about Shenhe",
                 "content_en": "The elders in my clan have mentioned her before. The fate of her family... *sigh* It's something we can all sympathize with. I originally thought we would be able to bring a long-lost relative back into our clan. The elders were overjoyed, too, when they heard she was still alive — they even prepared gifts for her, and picked an auspicious day for a grand reunion. What we hadn't counted on was that most of the time, she's extremely difficult to track down. Wait a minute, based on our relative positions in the family tree, does that mean that I... There's no way I'd have to call her \"Auntie Shenhe\"... right?"
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "重云关于夜兰",
+                "content_zh": "我初任方士那会儿，受邀到委托人家中驱邪，离开时，曾撞见过这位女性。她把我的名字记在某个小册子里，或许是想确认我有没有做值得怀疑的事吧。不过就那一次，后来再没遇见过她。现在想想，大概是因为我平日打坐总是一动不动，谁看着都会觉得无趣吧。",
+                "target_en": "Yelan",
+                "title_en": "Chongyun about Yelan",
+                "content_en": "I met her once, back when I'd just become an exorcist. I'd taken a commission to perform an exorcism in someone's home, and was just leaving at the end when I ran into her. She wrote my name down in a booklet — I guess she just wanted to confirm I wasn't doing anything suspicious... Anyway, it was just that one time, I never saw her again after that.Now that I think about it, it's probably because the sight of me meditating motionless must be pretty boring to watch. Not exactly suspicious."
             }
         ]
     },
@@ -2722,6 +2848,15 @@
                 "target_en": "Shenhe",
                 "title_en": "Xingqiu about Shenhe",
                 "content_en": "I find that Miss Shenhe seems to look at me somewhat fiercely, so I daren't approach her lightly. Bizarre, did I inadvertently upset her? Or maybe... upset someone close to her?"
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "行秋关于夜兰",
+                "content_zh": "你听说过「一人千面」这个词语吗？夜兰小姐就给我这种感觉。上门来访的时候，家父和家兄以礼相待，她也还之以礼，就像是个亲切稳重的大姐姐。可在别的地方见到她时，又完全是不同的印象。",
+                "target_en": "Yelan",
+                "title_en": "Xingqiu about Yelan",
+                "content_en": "Have you heard the expression \"same person, different face\"? Ms. Yelan gives me precisely this feeling. When she came to visit my family, my father and brother treated her with respect, and she was pleasant and polite in return. She seemed like a kind and mature young lady to me. But when I saw her elsewhere, she gave a completely different impression."
             }
         ]
     },
@@ -2803,6 +2938,15 @@
                 "target_en": "Xinyan",
                 "title_en": "Xiangling about Xinyan",
                 "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "香菱关于夜兰",
+                "content_zh": "夜兰姐？我当然记得她啦。第一次见面时，我还猜她会喜欢那种清淡的菜式，没想到她是我见过最能吃辣的客人！菜肴里的辣味她觉得不够，居然把绝云椒椒直接嚼来吃！真了不起。",
+                "target_en": "Yelan",
+                "title_en": "Xiangling about Yelan",
+                "content_en": "Yelan? Of course, I remember her! When I first met her, I was certain she'd be the kind of gal who'd prefer lighter dishes... turned out that she can handle the most spice out of all my customers! Apparently, my dishes weren't spicy enough for her, because she started taking bites of raw Jueyun Chilies! Truly amazing."
             }
         ]
     },
@@ -3064,6 +3208,15 @@
                 "target_en": "Yun Jin",
                 "title_en": "Ningguang about Yun Jin",
                 "content_en": "Yun Jin... Are you able to appreciate her performances? It might be difficult at first, but I would encourage you to give it a chance. The reason why I decided to invest into her opera troupe is quite simple: Elegant art forms like these deserve to be passed down to future generations."
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "凝光关于夜兰",
+                "content_zh": "她是个很有意思的人，对我而言，也是绝对可信之人。八面玲珑，才能无可挑剔。呵呵，既然同为聪明人，希望你们能相处愉快。",
+                "target_en": "Yelan",
+                "title_en": "Ningguang about Yelan",
+                "content_en": "She's a very interesting character. I can say with the utmost confidence that she is someone I trust unreservedly. She handles herself impeccably, which means she stays beyond reproach. Hehe, since you both have high intelligence in common, hopefully you will get along very well."
             }
         ]
     },
@@ -3217,6 +3370,15 @@
                 "target_en": "Shenhe",
                 "title_en": "Xiao about Shenhe",
                 "content_en": "It seems Shenhe places a great deal of trust in you. Well, how could she not. There are few people in the world as kind and good-natured as you."
+            },
+            {
+                "target_id": 48,
+                "target_zh": "夜兰",
+                "title_zh": "魈关于夜兰",
+                "content_zh": "我听说她曾调查千岩军在层岩巨渊的相关痕迹。孤身追查秘密，想来也是有点本事的人。",
+                "target_en": "Yelan",
+                "title_en": "Xiao about Yelan",
+                "content_en": "I've heard that she once investigated The Chasm, following the trail of the Millelith. If she can investigate mysteries like that on her own, she must be someone of rare skill."
             }
         ]
     },
