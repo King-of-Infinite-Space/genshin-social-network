@@ -2764,6 +2764,15 @@
                 "target_en": "Yelan",
                 "title_en": "Yanfei about Yelan",
                 "content_en": "Yelan is an employee of the Ministry of Civil Affairs — she once helped me crack a tough accounting fraud case. I treated her to dinner afterward. The only thing is... I feel like she's able to read my mind at any given moment when talking to her... Yes, in the future, I need to make absolutely sure I don't get on the wrong side of her."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "烟绯关于久岐忍",
+                "content_zh": "阿忍？我记得她，那个来璃月留学专修律法的稻妻人嘛。为了完成课业实习，她专门约我讨论过案件，每次结束后又是鞠躬又是谢谢的，搞得我都有点不好意思了…当时就觉得，她将来一定会成为出色的律法专家。算起来，稻妻锁国的时间正好是她毕业前后，不知道她回去后一切还顺利吗…",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Yanfei about Kuki Shinobu",
+                "content_en": "Shinobu? I remember her, she's the Inazuman girl that came to Liyue as an exchange student to specialize in law. When she was doing her coursework, she used to meet with me to discuss some cases, and after we were done, she'd always bow and thank me, which would always make me a little embarrassed. I always felt like she was going to make an excellent lawyer in the future. Thinking about it, Inazuma went into lockdown right around the time she would have graduated. I wonder how she's been doing since she went back..."
             }
         ]
     },
@@ -3223,6 +3232,15 @@
                 "target_en": "Arataki Itto",
                 "title_en": "Sayu about Arataki Itto",
                 "content_en": "Why does he have to make such a racket? And how did he get so tall!?"
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "早柚关于久岐忍",
+                "content_zh": "没什么印象的名字，让我想想…欸？她是荒泷一斗的小弟吗？那肯定也是干扰睡眠的人，毕竟有个词叫做一丘之貉，啊不对，是一丘之狸！",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Sayu about Kuki Shinobu",
+                "content_en": "Doesn't ring a bell, umm... What? Arataki Itto's little sidekick? Ugh, well she's definitely gotta be a sleep disturbance then. Birds of a feather flock together..."
             }
         ]
     },
@@ -3423,6 +3441,15 @@
                 "target_en": "Arataki Itto",
                 "title_en": "Kujou Sara about Arataki Itto",
                 "content_en": "Tsk... I can't help but get a little irate when his name comes up. He kicked up a big fuss when I confiscated his Vision, by far the noisiest person... no, the noisiest oni I've ever encountered. He showed he was enough of a man to admit defeat, but the rematch he insisted upon... Tsk... To this day, I still don't want to talk about it. If you really must know, you can go and ask him yourself."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "九条裟罗关于久岐忍",
+                "content_zh": "以她的才华和资质，留在那个名为「荒泷派」的组织实在有点可惜。但不得不说，有她在，至少有效地阻止了闲散人士滋事扰民，减轻了天领奉行的负担。",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Kujou Sara about Kuki Shinobu",
+                "content_en": "With her talent and qualifications, it's a shame she decided to join the Arataki gang. I must concede, however, that at the very least, her presence has effectively prevented idlers from stirring up trouble and disturbing the public, reducing the burden on the Tenryou Commission."
             }
         ]
     },
@@ -3684,6 +3711,15 @@
                 "target_en": "Gorou",
                 "title_en": "Arataki Itto about Gorou",
                 "content_en": "Oh yeah, the doggy general in the resistance... Hey, I've gotta hand it to him, he may be on the small side, but he's got quite the fighting spirit. Also, he gives off this vibe that makes me feel all warm and fuzzy inside, almost as if he understands my innermost feelings... I mean, I've barely met the guy, so that's kinda weird."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "荒泷一斗关于久岐忍",
+                "content_zh": "荒泷派的弟兄们一般都会顺着我意，唯独这个忍啊，老是跟我唱反调！本大爷辛辛苦苦赢来的战利品，竟然被她一件件还了回去。哎呀，算了，看在她每次都会把我从牢房里捞出来，还替我们收拾了不少烂摊子，就不计较了。毕竟惹怒了她，我也没有好日子过…",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Arataki Itto about Kuki Shinobu",
+                "content_en": "Nobody questions my leadership in the gang, what I say goes — except when it comes to Shinobu. She's always challenging everything I say. And not only that — all the hard-earned loot I bring back and share with everyone? She goes and returns it! But also, she gets me out of jail, and out of every mess we get ourselves into, so I'll let it slide. Besides, I don't wanna get on her bad side... An angry Shinobu would make my life a nightmare."
             },
             {
                 "target_id": 36,
@@ -4056,6 +4092,15 @@
                 "target_en": "Sayu",
                 "title_en": "Yae Miko about Sayu",
                 "content_en": "Ah yes, the little ninja child... If there's one thing she can do, it's stay hidden. Kano Nana constantly complains to me about it. Apparently, she now spends so much of her time searching for Sayu that she barely has any time to read anymore. If you ask me, I'd say that Sayu has a secret ally who is helping her hide all the time..."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "八重神子关于久岐忍",
+                "content_zh": "听说阿幸的这位妹妹很有个性，虽说出自巫女世家，却远离神社，学了许多门手艺，甚至去过璃月留学，最后还加入了荒泷派…如此有趣的女孩子，应该让阿幸帮忙引荐一下，嗯，阿幸肯定不会拒绝我的。",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Yae Miko about Kuki Shinobu",
+                "content_en": "I've heard a lot about Miyuki's little sister. Quite the character, I'm told. Although she comes from a family of shrine maidens, she's gone her own way in life — tried her hand at many different trades, studied abroad in Liyue, even ended up joining the Arataki Gang... Fascinating girl. Maybe I should have Miyuki introduce me. Yes, that'll work — Miyuki wouldn't dream of refusing my request."
             }
         ]
     },
@@ -4245,6 +4290,60 @@
                 "target_en": "Tartaglia",
                 "title_en": "Yelan about Tartaglia",
                 "content_en": "The Fatui harbinger? He helped me out once — unwittingly. I was planning a deep-reaching investigation into the former owner of the Yanshang Teahouse, but our harbinger friend got to him first. He showed up demanding payment of his debt, and also exposed his accounting fraud, which got him thrown in jail. That made it very easy for me to take over Yanshang Teahouse myself, and it's proven to be a very useful base."
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name_zh": "久岐忍",
+        "name_en": "Kuki Shinobu",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/06/15/d9e1610f9201fd4d5e8ca93c21380485_2031480174215672233.png",
+        "ver": "2.7.2",
+        "lines": [
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "久岐忍关于雷电将军",
+                "content_zh": "解除锁国后，雷电将军陆续颁布了不少法令支持各行各业的发展。我在锁国期间考的证书全都派上了用场，荒泷派也不那么拮据了。祸福相依，没想到到头来还得感谢她。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kuki Shinobu about the Raiden Shogun",
+                "content_en": "After the Sakoku Decree was lifted, the Raiden Shogun issued many decrees aimed at supporting the development of various industries. All those certificates I received during the Sakoku Decree are coming in real handy now, and the gang is finally out of the red... Fate really does have its ways. Who would've thought after all that, I'd still have her to thank?"
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "久岐忍关于九条裟罗",
+                "content_zh": "九条小姐啊，她是我的朋友。嗯？我认识她让你觉得很意外吗？噢，你可能误会了，我加入荒泷派之前就跟她有交情。我们俩的切磋，还难分胜负呢。",
+                "target_en": "Kujou Sara",
+                "title_en": "Kuki Shinobu about Kujou Sara",
+                "content_en": "Madam Kujou? Yes, she's a friend of mine. Hmm? You're surprised that I know her? Oh, you must've misunderstood, I knew her from before I joined the Arataki Gang. Heh, in fact, it's hard to tell who's the winner whenever we spar."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "久岐忍关于八重神子",
+                "content_zh": "就连堂堂鸣神大社的宫司大人，都要靠副业来解闷，可见当巫女是有多无聊。我是绝对不会回去当巫女的。",
+                "target_en": "Yae Miko",
+                "title_en": "Kuki Shinobu about Yae Miko",
+                "content_en": "You can't imagine how boring it is to be a shrine maiden. Even Lady Guuji from the Grand Narukami Shrine has her publishing gig to break up the monotony. I will never go back to being a shrine maiden. Never."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "久岐忍关于荒泷一斗",
+                "content_zh": "老大有很多不算愉快的过去，却还能保持快乐阳光，挺难得的。他对我们很不错，他的纯粹也感染着荒泷派的大家。当然，这不能成为他横冲直撞影响别人的借口。如果他找你麻烦，尽管告诉我。我会好好收拾他，让他后悔对你无礼。",
+                "target_en": "Arataki Itto",
+                "title_en": "Kuki Shinobu about Arataki Itto",
+                "content_en": "The boss has a lot of unpleasant memories from his past, but he still manages to stay positive. I'd say that kind of resilience is pretty rare. He treats us well and his character has a good effect on everyone in the gang. Of course, it's never an excuse for him to run amok with no consideration for others. Just let me know if he ever causes you any trouble and I'll be sure to make him regret ever being rude to you."
+            },
+            {
+                "target_id": 31,
+                "target_zh": "烟绯",
+                "title_zh": "久岐忍关于烟绯",
+                "content_zh": "那时候跟家里闹翻了，只想着有多远逃多远，就跑去璃月学律法了。得亏这样，有幸认识了烟绯师姐。在律法咨询这块，她简直就是活字典。我？执业证书倒是有的，不过这个职业的约束也不少，并不是最适合我的。",
+                "target_en": "Yanfei",
+                "title_en": "Kuki Shinobu about Yanfei",
+                "content_en": "Back then I had an argument with my family and I only wanted to run away as far as I could. So, I went to study law in Liyue, but thanks to this experience, I got to meet Yanfei. She's like a walking law encyclopedia. Huh? Me? I have a certificate but there are a lot of restrictions for practicing law... It's not really the right field for me."
             }
         ]
     }

@@ -4274,5 +4274,77 @@
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
             }
         ]
+    },
+    "辛焱": {
+        "id": 25,
+        "name_zh": "辛焱",
+        "name_en": "Xinyan",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201125/2020112515344362241.png",
+        "ver": "1.1.2",
+        "lines": [
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "辛焱关于香菱",
+                "content_zh": "我经常去「万民堂」吃夜宵，香菱如果手头不忙，还经常跟我聊天，一直聊到很晚很晚。啊？你问我都点的啥？嗯…其实是香菱做啥我吃啥，哈哈。每次都不一样，味道也千变万化，她可以说是料理界的「摇滚明星」了！",
+                "target_en": "Xiangling",
+                "title_en": "Xinyan about Xiangling",
+                "content_en": "I have dinner at the Wanmin Restaurant often. If Xiangling's got some time on her hands, we'll chat till it's real late. Eh? You wanna know what I order? See... I actually eat everything she makes. It's never the same thing, and the flavor's different each time, too. Ooh, she's the rock star of the culinary world, she is!"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "辛焱关于钟离",
+                "content_zh": "以前没什么人听我的摇滚，有一天他突然来邀请我，说可以去他那里试试，合适的话可以去当驻唱歌手，我心里激动啊，终于有人理解我的音乐了！就直接答应了下来。结果去了场地才知道，他居然是那个「往生堂」的客卿…这明显不合适啊，真是个怪人。",
+                "target_en": "Zhongli",
+                "title_en": "Xinyan about Zhongli",
+                "content_en": "There was this one fellow who invited me to perform at his place, back when there weren't many who would give my music the time of day. I was touched, let me tell you what. Like, hey, someone gets it! I agreed right away... But when I got there, I found out that he was the consultant at the Wangsheng Funeral Parlor. What a weird guy. I mean, how was that appropriate?"
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "辛焱关于凝光",
+                "content_zh": "你知道千岩军吧？他们以前总是妨碍我，说什么这里也不准搭舞台，那里也不准，麻烦死了。咳咳，不过在我找总务司申诉之后，听说那个「天权星」专门修订了璃月的什么…呃…反正是某个规则，划定了演出专属场地，还要申请什么许可。哎…其实还是很麻烦，不过，好歹不用像之前一样，被赶得到处乱跑了嘛。",
+                "target_en": "Ningguang",
+                "title_en": "Xinyan about Ningguang",
+                "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
+            },
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "辛焱关于北斗",
+                "content_zh": "她啊，说话直爽，气量也大，聊起来特别投缘。「死兆星」号乘风破浪的故事，实在是太帅了，给了我很多摇滚的灵感。嘿嘿，我还专门写了一首歌给他们。现在，只要我唱第一句，好多船员都能跟我唱下去，都快变成船歌啦。",
+                "target_en": "Beidou",
+                "title_en": "Xinyan about Beidou",
+                "content_en": "Her? She speaks her mind and has a big heart, and we get on great. The Crux's adventures are real epic. They've given me tons of inspiration in the past! I even wrote them a song. Nowadays, I just need to sing the first line, and most all the sailors will join in. It's fast becoming a new sea shanty, it is."
+            },
+            {
+                "target_id": 19,
+                "target_zh": "重云",
+                "title_zh": "辛焱关于重云",
+                "content_zh": "他超有意思！看上去文静内向，但有一次演出，他好像是被朋友叫过来，要跟我说什么话。舞台上声音太大，我还没听清呢，他已经一个箭步跳上台来和我一起唱了，还唱得特别摇滚。这就叫「人不可貌相」吧。",
+                "target_en": "Chongyun",
+                "title_en": "Xinyan about Chongyun",
+                "content_en": "He's one interesting guy. He looks introverted enough, but there was this one time when he came to one of my performances. A friend brought him or something, and he had some words for me, but I couldn't hear 'em over the music. Before I knew it, he was right up there on the stage with me, singing and rockin' his heart out. Guess you really can't judge a book by its cover!"
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "辛焱关于胡桃",
+                "content_zh": "她明明是往生堂的堂主，却每天一副开开心心的样子，完全不知道在想什么。街上碰到的话，还会大大方方地和我打招呼，说什么「喜欢玩火的人，是生意兴隆的保障呢。」…呃，有、有点诡异。",
+                "target_en": "Hu Tao",
+                "title_en": "Xinyan about Hu Tao",
+                "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "辛焱关于云堇",
+                "content_zh": "告诉你个小秘密，别到处乱讲哦。那个人可喜欢摇滚了，不管多忙，一周都来听我三场，只多不少。按理说，「和裕茶馆」的戏班头牌，该喜欢什么琴棋书画，花鸟虫鱼才对吧？肯定是平时被憋坏了，哈哈哈。",
+                "target_en": "Yun Jin",
+                "title_en": "Xinyan about Yun Jin",
+                "content_en": "Tell you a secret — but you gotta keep it that way, you hear? She's real fond of rock 'n' roll. Comes to watch me at least three times a week no matter how packed her schedule is. You'd think that the head of Heyu Tea House's troupe would be into finer arts and all, eh? But I guess it gets suffocating after a while. Haha."
+            }
+        ]
     }
 }
