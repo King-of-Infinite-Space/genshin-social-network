@@ -2962,6 +2962,15 @@
                 "target_en": "Sangonomiya Kokomi",
                 "title_en": "Kaedehara Kazuha about Sangonomiya Kokomi",
                 "content_en": "During my time with the Resistance, there was no one among our ranks who wouldn't look up to Her Excellency. As someone with a great passion for military matters, victory at all costs isn't really part of her ethos. She'd always try to limit the casualties to the minimum while planning her next move. By some accounts, it also seems that she seeks to take charge of both internal and foreign affairs for Watatsumi Island. Wouldn't that be too much to expect of herself though?"
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "枫原万叶关于鹿野院平藏",
+                "content_zh": "别看我这位侦探朋友平日里潇洒随性，一旦他办起案子来，那些原本围绕在他身旁活泼灵动的风，就聚成了凌厉锐气。确实让人钦佩。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kaedehara Kazuha about Shikanoin Heizou",
+                "content_en": "Don't be deceived by his happy-go-lucky disposition. As soon as he gets working on a case, that restless energy he carries around turns into a razor-sharp focus. It's quite remarkable to witness."
             }
         ]
     },
@@ -2989,6 +2998,15 @@
                 "target_en": "Kujou Sara",
                 "title_en": "Kamisato Ayaka about Kujou Sara",
                 "content_en": "Kujou Sara of the Tenryou Commission is... not known to smile, and I have had my fair share of disputes with her. She is, however, a loyal servant to Inazuma, there is no question about that."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "神里绫华关于鹿野院平藏",
+                "content_zh": "鹿野院先生？他和九条小姐一样，是「天领奉行」的人。他…也是一个很有原则的人。对于这些「原则」的坚持，甚至比九条小姐更执着。只不过，什么事应该被算在这些「原则」之内，我想，或许只有鹿野院先生自己知道吧。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kamisato Ayaka about Shikanoin Heizou",
+                "content_en": "Mr. Shikanoin belongs to the Tenryou Commission, just like Miss Kujou. He is very... principled, sometimes even more determinedly so than Miss Kujou. The only thing is, when it comes to the question of which matters should be governed by his principles, I believe only Mr. Shikanoin himself knows the answer..."
             },
             {
                 "target_id": 36,
@@ -3042,7 +3060,7 @@
                 "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
                 "target_en": "Yoimiya",
                 "title_en": "Kamisato Ayaka about Yoimiya",
-                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years. Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
             }
         ]
     },
@@ -3105,7 +3123,7 @@
                 "content_zh": "有次神社祭典，绫华问我能不能为宫司大人准备玩乐用的烟花。可是…宫司大人不是要出席祭典，全程坐在神社里吗？然后我祭典的时候就一直看着她，想知道她要怎么放烟花。我等啊等，等啊等，结果等来了绫华，说宫司大人特别满意…欸？她已经放过了？难道，坐在里面的不是她？",
                 "target_en": "Yae Miko",
                 "title_en": "Yoimiya about Yae Miko",
-                "content_en": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release the fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
+                "content_en": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
             },
             {
                 "target_id": 42,
@@ -3350,7 +3368,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "That's still the name the Anemo Archon takes among mortals these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -3387,6 +3405,15 @@
                 "target_en": "Yoimiya",
                 "title_en": "Kujou Sara about Yoimiya",
                 "content_en": "As long as she is not setting off fireworks in my camp, I will cause her no trouble. Heh, yes, I know — all else aside, her fireworks are spectacular and brilliant, and she deserves all the praise she gets. The issue for me is that fireworks are fleeting in nature. After one brief moment of dazzling light, all that remains is the pitch-black night sky, the same as before. So I often have to caution myself not to become too captivated by this illusory spectacle. It is transient, but Inazuma is eternal, and my mission is to protect Inazuma."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "九条裟罗关于鹿野院平藏",
+                "content_zh": "鹿野院…虽说这位是我的同僚，但我对他没什么好感。总感觉他有很多自己的盘算，没有把组织的事放在第一位。要不是看在他探案有功的份上，早该对他多加管束。唉，真是头疼。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kujou Sara about Shikanoin Heizou",
+                "content_en": "Shikanoin and I may be colleagues, but I have few positive words to say about him. He seems preoccupied with his personal schemes while official duties take second place. The only reason I have not sought to bring him into line so far is that his investigations deliver results... *sigh* He is such a headache."
             },
             {
                 "target_id": 38,
@@ -3513,6 +3540,15 @@
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Sangonomiya Kokomi about Kaedehara Kazuha",
                 "content_en": "Kazuha once came and bunked with the resistance for a time. If I'm not mistaken, he got along very well with Gorou — they would often fight side-by-side in battle. Kazuha has a carefree personality and doesn't like constraints, but he would follow every command to the letter when he was among our ranks. In my opinion, not only is he an outstanding swordsman, but a very refined character."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "珊瑚宫心海关于鹿野院平藏",
+                "content_zh": "刚开始的时候，我非常诧异有人公开穿着天领奉行的制服来海祇岛。如果他是天领奉行的武士，就不该这么鲁莽；如果他是天领奉行的间谍，又不该这么招摇。不过接触过一段时间之后，我发现这位自称是「侦探」的鹿野院先生，对海祇岛的军事布防、政务商贸都不感兴趣，倒像是来旅游的。所以我只是加派了一些人手盯着他，并没有赶他离开。如果你见到他的话，倒是可以跟他聊上几句。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Sangonomiya Kokomi about Shikanoin Heizou",
+                "content_en": "Initially, I was astonished to see anyone coming to Watatsumi Island wearing a Tenryou Commission uniform. A Tenryou Commission samurai would never be that brazen, and a Tenryou Commission spy would never be that conspicuous. Shortly after, I discovered that he was a self-proclaimed \"detective\" by the name of Shikanoin, and that he took no interest in military, government, or commercial affairs. Instead, he seemed to have arrived for a bit of sightseeing. As such, I set a few eyes on him, but refrained from taking any action to remove him from the island. Be sure to talk to him if the chance ever presents itself."
             }
         ]
     },
@@ -3612,6 +3648,15 @@
                 "target_en": "Arataki Itto",
                 "title_en": "Thoma about Arataki Itto",
                 "content_en": "Hmm... Word on the street is that he's quite a character — apparently, he even has youkai heritage. Have you met him? If you two are close, maybe you could introduce me sometime. It's good to make friends from all walks of life... youkai included!"
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "托马关于鹿野院平藏",
+                "content_zh": "嚯，他可是天领奉行那边的「侦探」。他给人一种我行我素的感觉，不太容易打交道。另外，需要侦探出现的场合，一般也不会有什么好事。我还是和风暴中心保持距离吧。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Thoma about Shikanoin Heizou",
+                "content_en": "Ho, that guy is a detective for the Tenryou Commission. He seems to have his own way of doing things — not the easiest person to get along with. Also... Any situation that involves a detective is probably not one that's going to end well. I think I'll keep on giving him a wide berth."
             },
             {
                 "target_id": 1,
@@ -3819,6 +3864,15 @@
                 "target_en": "Sayu",
                 "title_en": "Gorou about Sayu",
                 "content_en": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "五郎关于鹿野院平藏",
+                "content_zh": "你说那个鬼鬼祟祟，游手好闲的侦探先生？毕竟是来自幕府的家伙，没办法完全信任，我会继续盯紧他的。说起来，他倒是有那么点探案的功夫。至于这是不是什么阴谋诡计…嗯，就得用时间来证明了。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Gorou about Shikanoin Heizou",
+                "content_en": "You mean that sneaky detective that never seems to actually be working on a case? Well, no one from the Shogunate can be fully trusted, so I'll be keeping my eyes and ears on him! On a separate note, he does have some talent for investigation. But how can we know that this isn't all part of some nefarious scheme? Hmm. Only time will tell, I suppose."
             }
         ]
     },
@@ -4344,6 +4398,106 @@
                 "target_en": "Yanfei",
                 "title_en": "Kuki Shinobu about Yanfei",
                 "content_en": "Back then I had an argument with my family and I only wanted to run away as far as I could. So, I went to study law in Liyue, but thanks to this experience, I got to meet Yanfei. She's like a walking law encyclopedia. Huh? Me? I have a certificate but there are a lot of restrictions for practicing law... It's not really the right field for me."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "久岐忍关于鹿野院平藏",
+                "content_zh": "他和普通天领奉行同心不一样，从未见他做什么巡逻、抓捕的活。他偶尔会找我买线索，作为交换，我希望他能在我去奉行所捞人时帮我美言几句，他也爽快答应了。这笔交易还算值，毕竟让弟兄们收集点市井见闻是很简单的事。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kuki Shinobu about Shikanoin Heizou",
+                "content_en": "He's different from the other Doushin of the Tenryou Commission. I have yet to see him on patrol or apprehend anyone, and he occasionally comes to me to buy intelligence. In exchange, I asked him to put in a good word for me whenever I'm bailing people out of the Police Station. He gladly agreed. I'd say that's a pretty good deal... After all, getting the boys to keep their eyes and ears open on the streets is easy enough."
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name_zh": "鹿野院平藏",
+        "name_en": "Shikanoin Heizou",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
+        "ver": "2.8.1",
+        "url_name": "heizo",
+        "lines": [
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "鹿野院平藏关于九条裟罗",
+                "content_zh": "九条裟罗大人啊…绝对是全天领奉行最严肃的人！真希望她能变得宽容一些，多多体谅下属，别再因为偶尔的缺勤责备我了。说到底，我也是为了查案嘛。",
+                "target_en": "Kujou Sara",
+                "title_en": "Shikanoin Heizou about Kujou Sara",
+                "content_en": "Madam Kujou Sara? Yeah, that lady's gotta be the most serious person in the entire Tenryou Commission. It would be nice if she could cut us a little slack and give everyone some breathing room — and she's always on my case about my occasional unexplained absences, but what can I say... I just go wherever the evidence leads me."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "鹿野院平藏关于荒泷一斗",
+                "content_zh": "受人所托，我去牢里给他捎过几次烤堇瓜，有次还正巧听到他在唱歌。说实话，歌词很烂，但唱得不错。蹲牢房的人能有这样的精神状态，不算多见。",
+                "target_en": "Arataki Itto",
+                "title_en": "Shikanoin Heizou about Arataki Itto",
+                "content_en": "I've done a few favors before to deliver Roasted Lavender Melon to him in prison. This one time, I overheard him singing. The lyrics... were complete trash, but I gotta say — he has a pretty good set of pipes. And it's not every day you come across an inmate who's in the mood to sing their heart out."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "鹿野院平藏关于久岐忍",
+                "content_zh": "荒泷派真是个自由多元的组织呀，无论是怎样的风格都能接纳。了不起，了不起，多亏那位阿忍小姐管教有方。我是怎么知道的？哈哈，这已经简单到连推理都算不上了吧？",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Shikanoin Heizou about Kuki Shinobu",
+                "content_en": "The Arataki Gang is a free and diverse organization that accepts anyone, regardless of their background. Pretty amazing if you ask me. They're lucky to have Shinobu to help keep them all in line. Hmm? How do I know all this? Haha, I mean... as deductions go, this one was pretty elementary."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "鹿野院平藏关于八重神子",
+                "content_zh": "说起来，宫司大人的八重堂也会出版推理小说吧？什么时候能请你当面引荐一番？在这个时代，要成为名侦探，实力以外，宣传也不能落下。哎呀呀，我哪有别的心思啦。",
+                "target_en": "Yae Miko",
+                "title_en": "Shikanoin Heizou about Yae Miko",
+                "content_en": "Come to think of it, Lady Guuji's publishing house also publishes murder mysteries, right? So... when can you introduce me? In this day and age, becoming a famous detective requires more than just ability — you need publicity, too. Huh? C'mon, I'm being serious here!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·共通点",
+                "content_zh": "万叶他呀，太可靠了。在他的提醒下，线索就像装宝石的匣子被翻倒一样，滚落得满地都是了。我要是也有他那种对于自然的感知力…哦！我明白了！「风」之于他，就像是「直觉」之于我吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Things in Common",
+                "content_en": "Oh, Kazuha? Yeah, he's a solid guy. With his help, I felt like a locked treasure chest of clues had been bust wide open and emptied all over the ground for me to see. If only I had his sensitivity to the natural world... Oh, I get it now! The wind to him must be like my intuition to me!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·邀请",
+                "content_zh": "好可惜呀！眼狩令废除后，我就不能堂堂正正地逮捕他了！不过这样一来，也就意味着…我可以光明正大地邀请他来天领奉行，跟我一起讨论案情了吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Invitation",
+                "content_en": "Ohh... It's such a pity! Since the Vision Hunt Decree's been repealed, I no longer have any grounds to officially arrest him. But then again... I guess now, I can just openly invite him to come to the Tenryou Commission and discuss cases with me."
+            },
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "鹿野院平藏关于五郎",
+                "content_zh": "在这位大将的叮嘱下，我的海祇岛之旅可是热闹了不少，到哪都有军士们盯着。天地良心，我不过是个平平无奇的观光群众，最多算个小小侦探，连白萝卜也不会惦记半根的呀。",
+                "target_en": "Gorou",
+                "title_en": "Shikanoin Heizou about Gorou",
+                "content_en": "General Gorou's constant suspicion made my trip to Watatsumi Island much more eventful... Everywhere I went, there were soldiers keeping me under close surveillance. Honestly, I was a regular, boring tourist just like everybody else. So what if I happen to be a detective in my day job? I was clearly minding my own business there."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "鹿野院平藏关于珊瑚宫心海",
+                "content_zh": "珊瑚宫大人我是没见过的。毕竟有她出席的场合，村民们会围个里三圈外三圈吧，我就不凑热闹啦。啊，对，最里面那层还要算上巫女！像我们这样的年轻人，想要获得大家的认可，总要多付出一点努力的。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Shikanoin Heizou about Sangonomiya Kokomi",
+                "content_en": "I've actually never seen Madam Sangonomiya before. Whenever she appears, practically the whole village crowds around her... I'm not about to contend with that. Oh, and even if you made it through all the villagers, there'd still be a circle of shrine maidens around her! For one of us young people to gain that kind of recognition from everyone, it must have taken a lot of work."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "鹿野院平藏关于神里绫华",
+                "content_zh": "我和神里家的大小姐，只能算点头之交吧。还好我的家族不是什么名门。那种生活，可不适合我呀。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Shikanoin Heizou about Kamisato Ayaka",
+                "content_en": "I'm barely acquainted with the daughter of the Kamisato Clan. I'm glad that I'm not from some sort of prestigious family like that... it's definitely not the kind of life for me."
             }
         ]
     }

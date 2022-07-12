@@ -4409,5 +4409,96 @@
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
             }
         ]
+    },
+    "鹿野院平藏": {
+        "id": 50,
+        "name_zh": "鹿野院平藏",
+        "name_en": "Shikanoin Heizou",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
+        "ver": "2.8.1",
+        "url_name": "heizo",
+        "lines": [
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "鹿野院平藏关于九条裟罗",
+                "content_zh": "九条裟罗大人啊…绝对是全天领奉行最严肃的人！真希望她能变得宽容一些，多多体谅下属，别再因为偶尔的缺勤责备我了。说到底，我也是为了查案嘛。",
+                "target_en": "Kujou Sara",
+                "title_en": "Shikanoin Heizou about Kujou Sara",
+                "content_en": "Madam Kujou Sara? Yeah, that lady's gotta be the most serious person in the entire Tenryou Commission. It would be nice if she could cut us a little slack and give everyone some breathing room — and she's always on my case about my occasional unexplained absences, but what can I say... I just go wherever the evidence leads me."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "鹿野院平藏关于荒泷一斗",
+                "content_zh": "受人所托，我去牢里给他捎过几次烤堇瓜，有次还正巧听到他在唱歌。说实话，歌词很烂，但唱得不错。蹲牢房的人能有这样的精神状态，不算多见。",
+                "target_en": "Arataki Itto",
+                "title_en": "Shikanoin Heizou about Arataki Itto",
+                "content_en": "I've done a few favors before to deliver Roasted Lavender Melon to him in prison. This one time, I overheard him singing. The lyrics... were complete trash, but I gotta say — he has a pretty good set of pipes. And it's not every day you come across an inmate who's in the mood to sing their heart out."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "鹿野院平藏关于久岐忍",
+                "content_zh": "荒泷派真是个自由多元的组织呀，无论是怎样的风格都能接纳。了不起，了不起，多亏那位阿忍小姐管教有方。我是怎么知道的？哈哈，这已经简单到连推理都算不上了吧？",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Shikanoin Heizou about Kuki Shinobu",
+                "content_en": "The Arataki Gang is a free and diverse organization that accepts anyone, regardless of their background. Pretty amazing if you ask me. They're lucky to have Shinobu to help keep them all in line. Hmm? How do I know all this? Haha, I mean... as deductions go, this one was pretty elementary."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "鹿野院平藏关于八重神子",
+                "content_zh": "说起来，宫司大人的八重堂也会出版推理小说吧？什么时候能请你当面引荐一番？在这个时代，要成为名侦探，实力以外，宣传也不能落下。哎呀呀，我哪有别的心思啦。",
+                "target_en": "Yae Miko",
+                "title_en": "Shikanoin Heizou about Yae Miko",
+                "content_en": "Come to think of it, Lady Guuji's publishing house also publishes murder mysteries, right? So... when can you introduce me? In this day and age, becoming a famous detective requires more than just ability — you need publicity, too. Huh? C'mon, I'm being serious here!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·共通点",
+                "content_zh": "万叶他呀，太可靠了。在他的提醒下，线索就像装宝石的匣子被翻倒一样，滚落得满地都是了。我要是也有他那种对于自然的感知力…哦！我明白了！「风」之于他，就像是「直觉」之于我吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Things in Common",
+                "content_en": "Oh, Kazuha? Yeah, he's a solid guy. With his help, I felt like a locked treasure chest of clues had been bust wide open and emptied all over the ground for me to see. If only I had his sensitivity to the natural world... Oh, I get it now! The wind to him must be like my intuition to me!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·邀请",
+                "content_zh": "好可惜呀！眼狩令废除后，我就不能堂堂正正地逮捕他了！不过这样一来，也就意味着…我可以光明正大地邀请他来天领奉行，跟我一起讨论案情了吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Invitation",
+                "content_en": "Ohh... It's such a pity! Since the Vision Hunt Decree's been repealed, I no longer have any grounds to officially arrest him. But then again... I guess now, I can just openly invite him to come to the Tenryou Commission and discuss cases with me."
+            },
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "鹿野院平藏关于五郎",
+                "content_zh": "在这位大将的叮嘱下，我的海祇岛之旅可是热闹了不少，到哪都有军士们盯着。天地良心，我不过是个平平无奇的观光群众，最多算个小小侦探，连白萝卜也不会惦记半根的呀。",
+                "target_en": "Gorou",
+                "title_en": "Shikanoin Heizou about Gorou",
+                "content_en": "General Gorou's constant suspicion made my trip to Watatsumi Island much more eventful... Everywhere I went, there were soldiers keeping me under close surveillance. Honestly, I was a regular, boring tourist just like everybody else. So what if I happen to be a detective in my day job? I was clearly minding my own business there."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "鹿野院平藏关于珊瑚宫心海",
+                "content_zh": "珊瑚宫大人我是没见过的。毕竟有她出席的场合，村民们会围个里三圈外三圈吧，我就不凑热闹啦。啊，对，最里面那层还要算上巫女！像我们这样的年轻人，想要获得大家的认可，总要多付出一点努力的。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Shikanoin Heizou about Sangonomiya Kokomi",
+                "content_en": "I've actually never seen Madam Sangonomiya before. Whenever she appears, practically the whole village crowds around her... I'm not about to contend with that. Oh, and even if you made it through all the villagers, there'd still be a circle of shrine maidens around her! For one of us young people to gain that kind of recognition from everyone, it must have taken a lot of work."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "鹿野院平藏关于神里绫华",
+                "content_zh": "我和神里家的大小姐，只能算点头之交吧。还好我的家族不是什么名门。那种生活，可不适合我呀。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Shikanoin Heizou about Kamisato Ayaka",
+                "content_en": "I'm barely acquainted with the daughter of the Kamisato Clan. I'm glad that I'm not from some sort of prestigious family like that... it's definitely not the kind of life for me."
+            }
+        ]
     }
 }
