@@ -303,6 +303,7 @@ def main():
     else:
         # resume from last checkpoint
         print(f"Retrying {' '.join(list(char_pending.keys()))}")
+        annotate_template(char_pending, char_list_remote)
         updater = Updater(checkpoint=char_checkpoint, pending=char_pending)
 
     print(f"Fetching quotes")
