@@ -50,6 +50,15 @@
                 "target_en": "Yanfei",
                 "title_en": "Kuki Shinobu about Yanfei",
                 "content_en": "Back then I had an argument with my family and I only wanted to run away as far as I could. So, I went to study law in Liyue, but thanks to this experience, I got to meet Yanfei. She's like a walking law encyclopedia. Huh? Me? I have a certificate but there are a lot of restrictions for practicing law... It's not really the right field for me."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "久岐忍关于鹿野院平藏",
+                "content_zh": "他和普通天领奉行同心不一样，从未见他做什么巡逻、抓捕的活。他偶尔会找我买线索，作为交换，我希望他能在我去奉行所捞人时帮我美言几句，他也爽快答应了。这笔交易还算值，毕竟让弟兄们收集点市井见闻是很简单的事。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kuki Shinobu about Shikanoin Heizou",
+                "content_en": "He's different from the other Doushin of the Tenryou Commission. I have yet to see him on patrol or apprehend anyone, and he occasionally comes to me to buy intelligence. In exchange, I asked him to put in a good word for me whenever I'm bailing people out of the Police Station. He gladly agreed. I'd say that's a pretty good deal... After all, getting the boys to keep their eyes and ears open on the streets is easy enough."
             }
         ]
     },
@@ -611,6 +620,15 @@
                 "target_en": "Sayu",
                 "title_en": "Gorou about Sayu",
                 "content_en": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "五郎关于鹿野院平藏",
+                "content_zh": "你说那个鬼鬼祟祟，游手好闲的侦探先生？毕竟是来自幕府的家伙，没办法完全信任，我会继续盯紧他的。说起来，他倒是有那么点探案的功夫。至于这是不是什么阴谋诡计…嗯，就得用时间来证明了。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Gorou about Shikanoin Heizou",
+                "content_en": "You mean that sneaky detective that never seems to actually be working on a case? Well, no one from the Shogunate can be fully trusted, so I'll be keeping my eyes and ears on him! On a separate note, he does have some talent for investigation. But how can we know that this isn't all part of some nefarious scheme? Hmm. Only time will tell, I suppose."
             }
         ]
     },
@@ -811,6 +829,15 @@
                 "content_en": "Hmm... Word on the street is that he's quite a character — apparently, he even has youkai heritage. Have you met him? If you two are close, maybe you could introduce me sometime. It's good to make friends from all walks of life... youkai included!"
             },
             {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "托马关于鹿野院平藏",
+                "content_zh": "嚯，他可是天领奉行那边的「侦探」。他给人一种我行我素的感觉，不太容易打交道。另外，需要侦探出现的场合，一般也不会有什么好事。我还是和风暴中心保持距离吧。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Thoma about Shikanoin Heizou",
+                "content_en": "Ho, that guy is a detective for the Tenryou Commission. He seems to have his own way of doing things — not the easiest person to get along with. Also... Any situation that involves a detective is probably not one that's going to end well. I think I'll keep on giving him a wide berth."
+            },
+            {
                 "target_id": 1,
                 "target_zh": "琴",
                 "title_zh": "托马关于琴",
@@ -890,6 +917,15 @@
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Sangonomiya Kokomi about Kaedehara Kazuha",
                 "content_en": "Kazuha once came and bunked with the resistance for a time. If I'm not mistaken, he got along very well with Gorou — they would often fight side-by-side in battle. Kazuha has a carefree personality and doesn't like constraints, but he would follow every command to the letter when he was among our ranks. In my opinion, not only is he an outstanding swordsman, but a very refined character."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "珊瑚宫心海关于鹿野院平藏",
+                "content_zh": "刚开始的时候，我非常诧异有人公开穿着天领奉行的制服来海祇岛。如果他是天领奉行的武士，就不该这么鲁莽；如果他是天领奉行的间谍，又不该这么招摇。不过接触过一段时间之后，我发现这位自称是「侦探」的鹿野院先生，对海祇岛的军事布防、政务商贸都不感兴趣，倒像是来旅游的。所以我只是加派了一些人手盯着他，并没有赶他离开。如果你见到他的话，倒是可以跟他聊上几句。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Sangonomiya Kokomi about Shikanoin Heizou",
+                "content_en": "Initially, I was astonished to see anyone coming to Watatsumi Island wearing a Tenryou Commission uniform. A Tenryou Commission samurai would never be that brazen, and a Tenryou Commission spy would never be that conspicuous. Shortly after, I discovered that he was a self-proclaimed \"detective\" by the name of Shikanoin, and that he took no interest in military, government, or commercial affairs. Instead, he seemed to have arrived for a bit of sightseeing. As such, I set a few eyes on him, but refrained from taking any action to remove him from the island. Be sure to talk to him if the chance ever presents itself."
             }
         ]
     },
@@ -926,6 +962,15 @@
                 "target_en": "Yoimiya",
                 "title_en": "Kujou Sara about Yoimiya",
                 "content_en": "As long as she is not setting off fireworks in my camp, I will cause her no trouble. Heh, yes, I know — all else aside, her fireworks are spectacular and brilliant, and she deserves all the praise she gets. The issue for me is that fireworks are fleeting in nature. After one brief moment of dazzling light, all that remains is the pitch-black night sky, the same as before. So I often have to caution myself not to become too captivated by this illusory spectacle. It is transient, but Inazuma is eternal, and my mission is to protect Inazuma."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "九条裟罗关于鹿野院平藏",
+                "content_zh": "鹿野院…虽说这位是我的同僚，但我对他没什么好感。总感觉他有很多自己的盘算，没有把组织的事放在第一位。要不是看在他探案有功的份上，早该对他多加管束。唉，真是头疼。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kujou Sara about Shikanoin Heizou",
+                "content_en": "Shikanoin and I may be colleagues, but I have few positive words to say about him. He seems preoccupied with his personal schemes while official duties take second place. The only reason I have not sought to bring him into line so far is that his investigations deliver results... *sigh* He is such a headache."
             },
             {
                 "target_id": 38,
@@ -1098,7 +1143,7 @@
                 "content_zh": "风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。",
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
-                "content_en": "That's still the name the Anemo Archon takes among mortals these days, is it? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+                "content_en": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
             }
         ]
     },
@@ -1242,7 +1287,7 @@
                 "content_zh": "有次神社祭典，绫华问我能不能为宫司大人准备玩乐用的烟花。可是…宫司大人不是要出席祭典，全程坐在神社里吗？然后我祭典的时候就一直看着她，想知道她要怎么放烟花。我等啊等，等啊等，结果等来了绫华，说宫司大人特别满意…欸？她已经放过了？难道，坐在里面的不是她？",
                 "target_en": "Yae Miko",
                 "title_en": "Yoimiya about Yae Miko",
-                "content_en": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release the fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
+                "content_en": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
             },
             {
                 "target_id": 42,
@@ -1378,6 +1423,15 @@
                 "target_en": "Sangonomiya Kokomi",
                 "title_en": "Kaedehara Kazuha about Sangonomiya Kokomi",
                 "content_en": "During my time with the Resistance, there was no one among our ranks who wouldn't look up to Her Excellency. As someone with a great passion for military matters, victory at all costs isn't really part of her ethos. She'd always try to limit the casualties to the minimum while planning her next move. By some accounts, it also seems that she seeks to take charge of both internal and foreign affairs for Watatsumi Island. Wouldn't that be too much to expect of herself though?"
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "枫原万叶关于鹿野院平藏",
+                "content_zh": "别看我这位侦探朋友平日里潇洒随性，一旦他办起案子来，那些原本围绕在他身旁活泼灵动的风，就聚成了凌厉锐气。确实让人钦佩。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kaedehara Kazuha about Shikanoin Heizou",
+                "content_en": "Don't be deceived by his happy-go-lucky disposition. As soon as he gets working on a case, that restless energy he carries around turns into a razor-sharp focus. It's quite remarkable to witness."
             }
         ]
     },
@@ -1405,6 +1459,15 @@
                 "target_en": "Kujou Sara",
                 "title_en": "Kamisato Ayaka about Kujou Sara",
                 "content_en": "Kujou Sara of the Tenryou Commission is... not known to smile, and I have had my fair share of disputes with her. She is, however, a loyal servant to Inazuma, there is no question about that."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "神里绫华关于鹿野院平藏",
+                "content_zh": "鹿野院先生？他和九条小姐一样，是「天领奉行」的人。他…也是一个很有原则的人。对于这些「原则」的坚持，甚至比九条小姐更执着。只不过，什么事应该被算在这些「原则」之内，我想，或许只有鹿野院先生自己知道吧。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kamisato Ayaka about Shikanoin Heizou",
+                "content_en": "Mr. Shikanoin belongs to the Tenryou Commission, just like Miss Kujou. He is very... principled, sometimes even more determinedly so than Miss Kujou. The only thing is, when it comes to the question of which matters should be governed by his principles, I believe only Mr. Shikanoin himself knows the answer..."
             },
             {
                 "target_id": 36,
@@ -1458,7 +1521,7 @@
                 "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
                 "target_en": "Yoimiya",
                 "title_en": "Kamisato Ayaka about Yoimiya",
-                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years. Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
             }
         ]
     },
@@ -2045,6 +2108,78 @@
                 "target_en": "Barbara",
                 "title_en": "Albedo about Barbara",
                 "content_en": "Barbara? She's a very earnest Deaconess. I once had the opportunity to sketch her a simple portrait... What happened to the sketch? Ah yes... Albert offered to purchase it, but I rejected his bid and gave it to the Acting Grand Master. Social relations... really require a lot of effort."
+            }
+        ]
+    },
+    "辛焱": {
+        "id": 25,
+        "name_zh": "辛焱",
+        "name_en": "Xinyan",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201125/2020112515344362241.png",
+        "ver": "1.1.2",
+        "lines": [
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "辛焱关于香菱",
+                "content_zh": "我经常去「万民堂」吃夜宵，香菱如果手头不忙，还经常跟我聊天，一直聊到很晚很晚。啊？你问我都点的啥？嗯…其实是香菱做啥我吃啥，哈哈。每次都不一样，味道也千变万化，她可以说是料理界的「摇滚明星」了！",
+                "target_en": "Xiangling",
+                "title_en": "Xinyan about Xiangling",
+                "content_en": "I have dinner at the Wanmin Restaurant often. If Xiangling's got some time on her hands, we'll chat till it's real late. Eh? You wanna know what I order? See... I actually eat everything she makes. It's never the same thing, and the flavor's different each time, too. Ooh, she's the rock star of the culinary world, she is!"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "辛焱关于钟离",
+                "content_zh": "以前没什么人听我的摇滚，有一天他突然来邀请我，说可以去他那里试试，合适的话可以去当驻唱歌手，我心里激动啊，终于有人理解我的音乐了！就直接答应了下来。结果去了场地才知道，他居然是那个「往生堂」的客卿…这明显不合适啊，真是个怪人。",
+                "target_en": "Zhongli",
+                "title_en": "Xinyan about Zhongli",
+                "content_en": "There was this one fellow who invited me to perform at his place, back when there weren't many who would give my music the time of day. I was touched, let me tell you what. Like, hey, someone gets it! I agreed right away... But when I got there, I found out that he was the consultant at the Wangsheng Funeral Parlor. What a weird guy. I mean, how was that appropriate?"
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "辛焱关于凝光",
+                "content_zh": "你知道千岩军吧？他们以前总是妨碍我，说什么这里也不准搭舞台，那里也不准，麻烦死了。咳咳，不过在我找总务司申诉之后，听说那个「天权星」专门修订了璃月的什么…呃…反正是某个规则，划定了演出专属场地，还要申请什么许可。哎…其实还是很麻烦，不过，好歹不用像之前一样，被赶得到处乱跑了嘛。",
+                "target_en": "Ningguang",
+                "title_en": "Xinyan about Ningguang",
+                "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
+            },
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "辛焱关于北斗",
+                "content_zh": "她啊，说话直爽，气量也大，聊起来特别投缘。「死兆星」号乘风破浪的故事，实在是太帅了，给了我很多摇滚的灵感。嘿嘿，我还专门写了一首歌给他们。现在，只要我唱第一句，好多船员都能跟我唱下去，都快变成船歌啦。",
+                "target_en": "Beidou",
+                "title_en": "Xinyan about Beidou",
+                "content_en": "Her? She speaks her mind and has a big heart, and we get on great. The Crux's adventures are real epic. They've given me tons of inspiration in the past! I even wrote them a song. Nowadays, I just need to sing the first line, and most all the sailors will join in. It's fast becoming a new sea shanty, it is."
+            },
+            {
+                "target_id": 19,
+                "target_zh": "重云",
+                "title_zh": "辛焱关于重云",
+                "content_zh": "他超有意思！看上去文静内向，但有一次演出，他好像是被朋友叫过来，要跟我说什么话。舞台上声音太大，我还没听清呢，他已经一个箭步跳上台来和我一起唱了，还唱得特别摇滚。这就叫「人不可貌相」吧。",
+                "target_en": "Chongyun",
+                "title_en": "Xinyan about Chongyun",
+                "content_en": "He's one interesting guy. He looks introverted enough, but there was this one time when he came to one of my performances. A friend brought him or something, and he had some words for me, but I couldn't hear 'em over the music. Before I knew it, he was right up there on the stage with me, singing and rockin' his heart out. Guess you really can't judge a book by its cover!"
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "辛焱关于胡桃",
+                "content_zh": "她明明是往生堂的堂主，却每天一副开开心心的样子，完全不知道在想什么。街上碰到的话，还会大大方方地和我打招呼，说什么「喜欢玩火的人，是生意兴隆的保障呢。」…呃，有、有点诡异。",
+                "target_en": "Hu Tao",
+                "title_en": "Xinyan about Hu Tao",
+                "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "辛焱关于云堇",
+                "content_zh": "告诉你个小秘密，别到处乱讲哦。那个人可喜欢摇滚了，不管多忙，一周都来听我三场，只多不少。按理说，「和裕茶馆」的戏班头牌，该喜欢什么琴棋书画，花鸟虫鱼才对吧？肯定是平时被憋坏了，哈哈哈。",
+                "target_en": "Yun Jin",
+                "title_en": "Xinyan about Yun Jin",
+                "content_en": "Tell you a secret — but you gotta keep it that way, you hear? She's real fond of rock 'n' roll. Comes to watch me at least three times a week no matter how packed her schedule is. You'd think that the head of Heyu Tea House's troupe would be into finer arts and all, eh? But I guess it gets suffocating after a while. Haha."
             }
         ]
     },
@@ -4272,78 +4407,6 @@
                 "target_en": "Eula",
                 "title_en": "Jean about Eula",
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
-            }
-        ]
-    },
-    "辛焱": {
-        "id": 25,
-        "name_zh": "辛焱",
-        "name_en": "Xinyan",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201125/2020112515344362241.png",
-        "ver": "1.1.2",
-        "lines": [
-            {
-                "target_id": 17,
-                "target_zh": "香菱",
-                "title_zh": "辛焱关于香菱",
-                "content_zh": "我经常去「万民堂」吃夜宵，香菱如果手头不忙，还经常跟我聊天，一直聊到很晚很晚。啊？你问我都点的啥？嗯…其实是香菱做啥我吃啥，哈哈。每次都不一样，味道也千变万化，她可以说是料理界的「摇滚明星」了！",
-                "target_en": "Xiangling",
-                "title_en": "Xinyan about Xiangling",
-                "content_en": "I have dinner at the Wanmin Restaurant often. If Xiangling's got some time on her hands, we'll chat till it's real late. Eh? You wanna know what I order? See... I actually eat everything she makes. It's never the same thing, and the flavor's different each time, too. Ooh, she's the rock star of the culinary world, she is!"
-            },
-            {
-                "target_id": 24,
-                "target_zh": "钟离",
-                "title_zh": "辛焱关于钟离",
-                "content_zh": "以前没什么人听我的摇滚，有一天他突然来邀请我，说可以去他那里试试，合适的话可以去当驻唱歌手，我心里激动啊，终于有人理解我的音乐了！就直接答应了下来。结果去了场地才知道，他居然是那个「往生堂」的客卿…这明显不合适啊，真是个怪人。",
-                "target_en": "Zhongli",
-                "title_en": "Xinyan about Zhongli",
-                "content_en": "There was this one fellow who invited me to perform at his place, back when there weren't many who would give my music the time of day. I was touched, let me tell you what. Like, hey, someone gets it! I agreed right away... But when I got there, I found out that he was the consultant at the Wangsheng Funeral Parlor. What a weird guy. I mean, how was that appropriate?"
-            },
-            {
-                "target_id": 16,
-                "target_zh": "凝光",
-                "title_zh": "辛焱关于凝光",
-                "content_zh": "你知道千岩军吧？他们以前总是妨碍我，说什么这里也不准搭舞台，那里也不准，麻烦死了。咳咳，不过在我找总务司申诉之后，听说那个「天权星」专门修订了璃月的什么…呃…反正是某个规则，划定了演出专属场地，还要申请什么许可。哎…其实还是很麻烦，不过，好歹不用像之前一样，被赶得到处乱跑了嘛。",
-                "target_en": "Ningguang",
-                "title_en": "Xinyan about Ningguang",
-                "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
-            },
-            {
-                "target_id": 15,
-                "target_zh": "北斗",
-                "title_zh": "辛焱关于北斗",
-                "content_zh": "她啊，说话直爽，气量也大，聊起来特别投缘。「死兆星」号乘风破浪的故事，实在是太帅了，给了我很多摇滚的灵感。嘿嘿，我还专门写了一首歌给他们。现在，只要我唱第一句，好多船员都能跟我唱下去，都快变成船歌啦。",
-                "target_en": "Beidou",
-                "title_en": "Xinyan about Beidou",
-                "content_en": "Her? She speaks her mind and has a big heart, and we get on great. The Crux's adventures are real epic. They've given me tons of inspiration in the past! I even wrote them a song. Nowadays, I just need to sing the first line, and most all the sailors will join in. It's fast becoming a new sea shanty, it is."
-            },
-            {
-                "target_id": 19,
-                "target_zh": "重云",
-                "title_zh": "辛焱关于重云",
-                "content_zh": "他超有意思！看上去文静内向，但有一次演出，他好像是被朋友叫过来，要跟我说什么话。舞台上声音太大，我还没听清呢，他已经一个箭步跳上台来和我一起唱了，还唱得特别摇滚。这就叫「人不可貌相」吧。",
-                "target_en": "Chongyun",
-                "title_en": "Xinyan about Chongyun",
-                "content_en": "He's one interesting guy. He looks introverted enough, but there was this one time when he came to one of my performances. A friend brought him or something, and he had some words for me, but I couldn't hear 'em over the music. Before I knew it, he was right up there on the stage with me, singing and rockin' his heart out. Guess you really can't judge a book by its cover!"
-            },
-            {
-                "target_id": 29,
-                "target_zh": "胡桃",
-                "title_zh": "辛焱关于胡桃",
-                "content_zh": "她明明是往生堂的堂主，却每天一副开开心心的样子，完全不知道在想什么。街上碰到的话，还会大大方方地和我打招呼，说什么「喜欢玩火的人，是生意兴隆的保障呢。」…呃，有、有点诡异。",
-                "target_en": "Hu Tao",
-                "title_en": "Xinyan about Hu Tao",
-                "content_en": "I've no clue what she's thinking, going around looking all happy-clappy like that when she's the head of the Wangsheng Funeral Parlor. Always greets me cheerily too, saying \"I like people who play with fire, they're good for business\" or somethin' like that... She's a bit bizarre, I tell you."
-            },
-            {
-                "target_id": 45,
-                "target_zh": "云堇",
-                "title_zh": "辛焱关于云堇",
-                "content_zh": "告诉你个小秘密，别到处乱讲哦。那个人可喜欢摇滚了，不管多忙，一周都来听我三场，只多不少。按理说，「和裕茶馆」的戏班头牌，该喜欢什么琴棋书画，花鸟虫鱼才对吧？肯定是平时被憋坏了，哈哈哈。",
-                "target_en": "Yun Jin",
-                "title_en": "Xinyan about Yun Jin",
-                "content_en": "Tell you a secret — but you gotta keep it that way, you hear? She's real fond of rock 'n' roll. Comes to watch me at least three times a week no matter how packed her schedule is. You'd think that the head of Heyu Tea House's troupe would be into finer arts and all, eh? But I guess it gets suffocating after a while. Haha."
             }
         ]
     }

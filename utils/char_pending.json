@@ -1,1 +1,9 @@
-{}
+{
+    "鹿野院平藏": {
+        "id": 50,
+        "name_zh": "鹿野院平藏",
+        "name_en": "Shikanoin Heizou",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
+        "ver": "2.8.1"
+    }
+}
