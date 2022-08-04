@@ -70,7 +70,7 @@ def update_char_list(update_list):
     gender_dict = {"女": "♀️", "男": "♂️"}
     for char in update_list:
         char["gender"] = gender_dict[char["gender"]]
-        filter = {"property": "name_zh", "text": {"equals": char["name_zh"]}}
+        filter = {"property": "name_zh", "rich_text": {"equals": char["name_zh"]}}
         q = notion.databases.query(database_id, filter=filter)
         if len(q["results"]):
             notion.pages.update(q["results"][0]["id"], properties=fillProps(char))
