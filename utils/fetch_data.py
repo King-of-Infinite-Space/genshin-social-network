@@ -4,6 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import subprocess
 import os
+import re
 import traceback
 from datetime import date
 
@@ -78,7 +79,7 @@ class Updater:
         else:
             lang_param = "CHS"
 
-        URL = "https://genshin.honeyhunterworld.com/db/char/%s/?lang=%s" % (
+        URL = "https://genshin.honeyhunterworld.com/%s/?lang=%s" % (
             url_name,
             lang_param,
         )
@@ -86,56 +87,49 @@ class Updater:
         lines = []
 
         S = requests.Session()
-        res = S.get(url=URL)
+        res = S.get(url=URL, timeout=10)
         soup = BeautifulSoup(res.content, "html.parser")
 
         # check name
         # display_name = soup.find('div', class_='custom_title').get_text()
         # if (display_name != name):
         #     raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
-        display_name = soup.select_one(".custom_title").get_text()
+        display_name = soup.select_one("h2.wp-block-post-title").get_text()
         if display_name != name:
             raise ValueError("Name mismatch: expect %s, got %s" % (name, display_name))
 
-        quote_start = soup.find("span", id="scroll_quotes")
+        quote_section = soup.find("section", id="char_quotes")
+        for tr in quote_section.find_all("tr"):
+            title = tr.contents[0].get_text()
 
-        ele = quote_start.next_sibling
-        while ele is not None and ele.name != "span":
-            table = ele.find("table")
-            if table is not None:
-                tr1, tr2 = table.contents[:2]
-                title = tr1.get_text()
+            target_name, target_id = self._find_quote_target(title, name, lang)
 
-                target_name, target_id = self._find_quote_target(title, name, lang)
+            if target_name is not None:
+                while title.endswith("…") or title.endswith("·") or title.endswith(" "):
+                    title = title[:-1]
 
-                if target_name is not None:
-                    while (
-                        title.endswith("…")
-                        or title.endswith("·")
-                        or title.endswith(" ")
-                    ):
-                        title = title[:-1]
-                    tr2_str = str(tr2).replace("<br/><color>", "\n")  # fischl
-                    tr2 = BeautifulSoup(tr2_str, "html.parser")
-                    v = tr2.get_text()
+                script_str = tr.contents[1].script.string
+                regex = re.search('(?<=line":").+?(?=",)', script_str)
+                line = regex.group()
+                line = line.encode().decode("unicode-escape")
+                line = line.replace("<br>", "\n")
+                line = re.sub(re.compile("<[^>]*>"), "", line)
+                # fischl: remove color tags
 
-                    if lang == "en":
-                        if title[:5] == "About":  # should always be true
-                            title = (
-                                name + " about" + title[5:]
-                            )  # change "About" to lower case
-                    else:
-                        title = name + title
-                    lines.append(
-                        {
-                            # 'from_'+lang : name,
-                            "target_id": target_id,
-                            "target_" + lang: target_name,
-                            "title_" + lang: title,
-                            "content_" + lang: v,
-                        }
-                    )
-            ele = ele.next_sibling
+                title = (
+                    f"{name} about {' '.join(title.split(' ')[1:])}"
+                    if lang == "en"
+                    else name + title
+                )
+                lines.append(
+                    {
+                        # 'from_'+lang : name,
+                        "target_id": target_id,
+                        "target_" + lang: target_name,
+                        "title_" + lang: title,
+                        "content_" + lang: line,
+                    }
+                )
 
         return lines
 
