@@ -31,6 +31,7 @@ class Updater:
             self.pending = pending.copy()
             self.template = checkpoint | pending
         self.count_pending = len(self.pending)
+        self.session = requests.Session()
 
     def _find_quote_target(self, title, current_name, lang) -> tuple[str, int]:
         about = {"en": "About ", "zh": "关于"}
@@ -86,8 +87,7 @@ class Updater:
 
         lines = []
 
-        S = requests.Session()
-        res = S.get(url=URL, timeout=10)
+        res = self.session.get(url=URL, timeout=10)
         soup = BeautifulSoup(res.content, "html.parser")
 
         # check name
@@ -257,8 +257,10 @@ def main():
     # loaded old data as a list of dicts
     with open(CHECKPOINT_PENDING) as f:
         char_pending = json.load(f)
+
     count_old = len(char_checkpoint)
-    count_total = count_old
+    count_total = len(char_checkpoint) + len(char_pending)
+
     print("Fetching remote data")
     char_list_remote = fetch_char_list()
     ver = calc_ver(char_list_remote[0]["ver"])
@@ -281,12 +283,13 @@ def main():
             return
 
         char_names_new = char_names[: count_total - count_old]
-        data_bwiki = fetch_data_bwiki(filter=char_names_new)
 
+        data_bwiki = fetch_data_bwiki(filter=char_names_new)
         data_update = []
         for k in char_names_new:
             template[k]["ver"] = ver
             data_update.append(template[k] | data_bwiki[k])
+
         updater = Updater(template=template)
         print(f"\tNew char {' '.join(char_names_new)}")
         try:
@@ -304,8 +307,9 @@ def main():
     print(f"\t{updater.count_pending} pending / {count_total} total")
     updater.fetch_quotes()
     # updated char_dict with quotes
-    print(f"Updated {updater.count_pending - len(updater.pending)} chars")
-    print(f"{len(updater.pending)} errors")
+    print(
+        f"{updater.count_pending - len(updater.pending)} updated  {len(updater.pending)} errors"
+    )
 
     with open(CHECKPOINT_PENDING, "w", encoding="utf8") as f:
         json.dump(updater.pending, f, ensure_ascii=False, indent=4)

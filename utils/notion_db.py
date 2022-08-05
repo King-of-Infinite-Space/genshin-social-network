@@ -1,9 +1,9 @@
+from socket import timeout
 import os
 from notion_client import Client
 
-notion = Client(auth=os.environ["NOTION_GENSHIN"])
+notion = Client(auth=os.environ["NOTION_GENSHIN"], timeout_ms=10000)
 database_id = "482ae398eca5496aaa0b28c87bc8ba70"
-schema = notion.databases.retrieve(database_id)["properties"]
 
 
 def getProp(page: dict, prop: str):
@@ -19,7 +19,7 @@ def getProp(page: dict, prop: str):
     return value
 
 
-def fillProps(data: dict):
+def fillProps(data: dict, schema: dict):
     d = {}
     for k in data:
         if data[k] is not None and data[k] != "":
@@ -67,14 +67,18 @@ def fetch_char_list():
 
 
 def update_char_list(update_list):
+    schema = notion.databases.retrieve(database_id)["properties"]
+
     gender_dict = {"女": "♀️", "男": "♂️"}
     for char in update_list:
         char["gender"] = gender_dict[char["gender"]]
         filter = {"property": "name_zh", "rich_text": {"equals": char["name_zh"]}}
         q = notion.databases.query(database_id, filter=filter)
         if len(q["results"]):
-            notion.pages.update(q["results"][0]["id"], properties=fillProps(char))
+            notion.pages.update(
+                q["results"][0]["id"], properties=fillProps(char, schema)
+            )
         else:
             notion.pages.create(
-                parent={"database_id": database_id}, properties=fillProps(char)
+                parent={"database_id": database_id}, properties=fillProps(char, schema)
             )
