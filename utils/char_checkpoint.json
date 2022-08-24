@@ -1,4 +1,176 @@
 {
+    "柯莱": {
+        "id": 52,
+        "name_zh": "柯莱",
+        "name_en": "Collei",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/15/3677cbc063b7ab3887ceb7f9a77287ac_1039229097287658400.png",
+        "ver": "3.0.1",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "柯莱关于提纳里",
+                "content_zh": "师父虽然平时说话有些严厉，还经常批评那些乱吃毒蘑菇的冒险家，但他其实是个很温柔的人。不仅会耐心地给我补课，还会为我读蒙德寄来的信。我一直很感激他！",
+                "target_en": "Tighnari",
+                "title_en": "Collei about Tighnari",
+                "content_en": "Although Master can be quite stern and is always criticizing adventurers for carelessly eating poisonous mushrooms, he is actually a gentle soul. He's so patient when he tutors me, and he even reads out letters from Mondstadt for me. I've always been very grateful to him."
+            },
+            {
+                "target_id": 2,
+                "target_zh": "安柏",
+                "title_zh": "柯莱关于安柏",
+                "content_zh": "安柏她真的很厉害，又热情又活泼，又勇敢又正义…是我最钦佩、最崇拜的人了！她总能像一团火一样照亮别人，要不是她，我肯定没法走到今天这一步…过了这么久，她现在一定变得更加沉稳、更加帅气了吧！真不知道什么时候才能赶上她。",
+                "target_en": "Amber",
+                "title_en": "Collei about Amber",
+                "content_en": "Amber is amazing. She's friendly and has tons of enthusiasm, plus she's really brave and always does the right thing... She's the person I admire most of all! She's like a cozy fire that makes everyone around her feel warm. There's no way I'd be where I am today without her... So much time has gone by — I bet she's even more cool and confident than ever these days! Who knows if I'll ever be able to match her."
+            },
+            {
+                "target_id": 4,
+                "target_zh": "凯亚",
+                "title_zh": "柯莱关于凯亚",
+                "content_zh": "蒙德的大家都还好吗？那阵子我可是惹了不少麻烦啊，要不要找个时间回去道歉呢…唔，但感觉一露面就会被那位骑兵队长捉弄…还是再等等吧，再等等…",
+                "target_en": "Kaeya",
+                "title_en": "Collei about Kaeya",
+                "content_en": "How's everyone in Mondstadt, are they good? I caused so much trouble back then, I sometimes wonder if I should make some time to go back there and apologize... Hmm, but what if I ran into the Cavalry Captain, and he started teasing me? ...Yeah, there's no rush, maybe I'll leave it a while longer."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "柯莱关于丽莎",
+                "content_zh": "明明已经过去了那么久，丽莎给我写信的时候，还是在叫我「小柯莱」，总感觉…嗯？你说她也叫你小可爱？噗…对不起，我不是有意要笑出来的…一下子就开心了好多啊。",
+                "target_en": "Lisa",
+                "title_en": "Collei about Lisa",
+                "content_en": "After all this time, Lisa still calls me \"Little Collei\" when she writes to me. I feel like by now she... hmm? She calls you \"cutie\"? Hahaha... Sorry, I don't mean to laugh, um... but I must say, that makes me feel a lot better."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "柯莱关于菲谢尔",
+                "content_zh": "…「断罪之皇女」？抱歉，我在蒙德待的时间不长，没有听过这样的人物。不过这个名字…嘶…咳，没什么。",
+                "target_en": "Fischl",
+                "title_en": "Collei about Fischl",
+                "content_en": "...\"Prinzessin der Verurteilung\"? ...Mmm, nope, sorry. I wasn't in Mondstadt for very long, so I didn't hear of her. That name, though... *grimace*... Ahem, nothing."
+            }
+        ]
+    },
+    "提纳里": {
+        "id": 51,
+        "name_zh": "提纳里",
+        "name_en": "Tighnari",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/15/1f88bdae2e99307e68a0bbfedf6cc74f_2882938237707913291.png",
+        "ver": "3.0.1",
+        "lines": [
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "提纳里关于柯莱",
+                "content_zh": "这孩子刚被带过来的时候，可以说是大字不识一个。不过问题不大。她学习勤奋，态度也认真，进步很快。只是，距离她习得精湛医术的目标还有很远的路要走。她有时会给自己很大的压力…噢，你有机会的话也多帮帮她吧？就当是我这个做师父的拜托你啦，多谢。",
+                "target_en": "Collei",
+                "title_en": "Tighnari about Collei",
+                "content_en": "When that child was first brought here, she was effectively illiterate. It wasn't a huge issue, though. She's a hard worker and a diligent student, so she's made good progress. Still, her goal is to learn advanced medical techniques, so she still has a long way to go. She sometimes puts too much pressure on herself... Help her out when you can, would you? Consider it a favor for me as her mentor. Thanks a lot."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "提纳里关于丽莎",
+                "content_zh": "我听赛诺说过他的这位师姐，是难得一见的天才，博学多闻，才华横溢，只可惜早早就回到了蒙德。难道她在进修的过程中，见到了「知识」令人畏惧的一面吗…",
+                "target_en": "Lisa",
+                "title_en": "Tighnari about Lisa",
+                "content_en": "Cyno has mentioned her before — an extraordinary genius with a veritable wealth of knowledge and talent. A pity that she returned to Mondstadt so long ago. Perhaps, in the course of her studies, she witnessed the horrifying side of knowledge..."
+            }
+        ]
+    },
+    "鹿野院平藏": {
+        "id": 50,
+        "name_zh": "鹿野院平藏",
+        "name_en": "Shikanoin Heizou",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
+        "url_name": "heizo",
+        "ver": "2.8.2",
+        "lines": [
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "鹿野院平藏关于九条裟罗",
+                "content_zh": "九条裟罗大人啊…绝对是全天领奉行最严肃的人！真希望她能变得宽容一些，多多体谅下属，别再因为偶尔的缺勤责备我了。说到底，我也是为了查案嘛。",
+                "target_en": "Kujou Sara",
+                "title_en": "Shikanoin Heizou about Kujou Sara",
+                "content_en": "Madam Kujou Sara? Yeah, that lady's gotta be the most serious person in the entire Tenryou Commission. It would be nice if she could cut us a little slack and give everyone some breathing room — and she's always on my case about my occasional unexplained absences, but what can I say... I just go wherever the evidence leads me."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "鹿野院平藏关于荒泷一斗",
+                "content_zh": "受人所托，我去牢里给他捎过几次烤堇瓜，有次还正巧听到他在唱歌。说实话，歌词很烂，但唱得不错。蹲牢房的人能有这样的精神状态，不算多见。",
+                "target_en": "Arataki Itto",
+                "title_en": "Shikanoin Heizou about Arataki Itto",
+                "content_en": "I've done a few favors before to deliver Roasted Lavender Melon to him in prison. This one time, I overheard him singing. The lyrics... were complete trash, but I gotta say — he has a pretty good set of pipes. And it's not every day you come across an inmate who's in the mood to sing their heart out."
+            },
+            {
+                "target_id": 49,
+                "target_zh": "久岐忍",
+                "title_zh": "鹿野院平藏关于久岐忍",
+                "content_zh": "荒泷派真是个自由多元的组织呀，无论是怎样的风格都能接纳。了不起，了不起，多亏那位阿忍小姐管教有方。我是怎么知道的？哈哈，这已经简单到连推理都算不上了吧？",
+                "target_en": "Kuki Shinobu",
+                "title_en": "Shikanoin Heizou about Kuki Shinobu",
+                "content_en": "The Arataki Gang is a free and diverse organization that accepts anyone, regardless of their background. Pretty amazing if you ask me. They're lucky to have Shinobu to help keep them all in line. Hmm? How do I know all this? Haha, I mean... as deductions go, this one was pretty elementary."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "鹿野院平藏关于八重神子",
+                "content_zh": "说起来，宫司大人的八重堂也会出版推理小说吧？什么时候能请你当面引荐一番？在这个时代，要成为名侦探，实力以外，宣传也不能落下。哎呀呀，我哪有别的心思啦。",
+                "target_en": "Yae Miko",
+                "title_en": "Shikanoin Heizou about Yae Miko",
+                "content_en": "Come to think of it, Lady Guuji's publishing house also publishes murder mysteries, right? So... when can you introduce me? In this day and age, becoming a famous detective requires more than just ability — you need publicity, too. Huh? C'mon, I'm being serious here!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·共通点",
+                "content_zh": "万叶他呀，太可靠了。在他的提醒下，线索就像装宝石的匣子被翻倒一样，滚落得满地都是了。我要是也有他那种对于自然的感知力…哦！我明白了！「风」之于他，就像是「直觉」之于我吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Things in Common",
+                "content_en": "Oh, Kazuha? Yeah, he's a solid guy. With his help, I felt like a locked treasure chest of clues had been bust wide open and emptied all over the ground for me to see. If only I had his sensitivity to the natural world... Oh, I get it now! The wind to him must be like my intuition to me!"
+            },
+            {
+                "target_id": 33,
+                "target_zh": "枫原万叶",
+                "title_zh": "鹿野院平藏关于枫原万叶·邀请",
+                "content_zh": "好可惜呀！眼狩令废除后，我就不能堂堂正正地逮捕他了！不过这样一来，也就意味着…我可以光明正大地邀请他来天领奉行，跟我一起讨论案情了吧！",
+                "target_en": "Kaedehara Kazuha",
+                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Invitation",
+                "content_en": "Ohh... It's such a pity! Since the Vision Hunt Decree's been repealed, I no longer have any grounds to officially arrest him. But then again... I guess now, I can just openly invite him to come to the Tenryou Commission and discuss cases with me."
+            },
+            {
+                "target_id": 43,
+                "target_zh": "五郎",
+                "title_zh": "鹿野院平藏关于五郎",
+                "content_zh": "在这位大将的叮嘱下，我的海祇岛之旅可是热闹了不少，到哪都有军士们盯着。天地良心，我不过是个平平无奇的观光群众，最多算个小小侦探，连白萝卜也不会惦记半根的呀。",
+                "target_en": "Gorou",
+                "title_en": "Shikanoin Heizou about Gorou",
+                "content_en": "General Gorou's constant suspicion made my trip to Watatsumi Island much more eventful... Everywhere I went, there were soldiers keeping me under close surveillance. Honestly, I was a regular, boring tourist just like everybody else. So what if I happen to be a detective in my day job? I was clearly minding my own business there."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "鹿野院平藏关于珊瑚宫心海",
+                "content_zh": "珊瑚宫大人我是没见过的。毕竟有她出席的场合，村民们会围个里三圈外三圈吧，我就不凑热闹啦。啊，对，最里面那层还要算上巫女！像我们这样的年轻人，想要获得大家的认可，总要多付出一点努力的。",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Shikanoin Heizou about Sangonomiya Kokomi",
+                "content_en": "I've actually never seen Madam Sangonomiya before. Whenever she appears, practically the whole village crowds around her... I'm not about to contend with that. Oh, and even if you made it through all the villagers, there'd still be a circle of shrine maidens around her! For one of us young people to gain that kind of recognition from everyone, it must have taken a lot of work."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "鹿野院平藏关于神里绫华",
+                "content_zh": "我和神里家的大小姐，只能算点头之交吧。还好我的家族不是什么名门。那种生活，可不适合我呀。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Shikanoin Heizou about Kamisato Ayaka",
+                "content_en": "I'm barely acquainted with the daughter of the Kamisato Clan. I'm glad that I'm not from some sort of prestigious family like that... it's definitely not the kind of life for me."
+            }
+        ]
+    },
     "久岐忍": {
         "id": 49,
         "name_zh": "久岐忍",
@@ -208,7 +380,7 @@
                 "target_id": 46,
                 "target_zh": "八重神子",
                 "title_zh": "神里绫人关于八重神子",
-                "content_zh": "宫司大人于神里家有恩，可她却一直不太看得惯我，呵，恐怕你没少听她「那小子」「那小子」地称呼我吧。由于业务交集，我们偶有碰面，虽说大家各怀心思，但工作起来也称得上融洽。我并不讨厌这种感觉。嗯，与聪明人一起办事，效率就是会高得多。况且就算她再讨厌我，也不得不承认如果没有我，就没人能实现得了她那些「奇思妙想」了。",
+                "content_zh": "宫司大人于神里家有恩，可她却一直不太看得惯我，呵，恐怕你没少听她「那小子」「那小子」地称呼我吧。\n由于业务交集，我们偶有碰面，虽说大家各怀心思，但工作起来也称得上融洽。我并不讨厌这种感觉。嗯，与聪明人一起办事，效率就是会高得多。况且就算她再讨厌我，也不得不承认如果没有我，就没人能实现得了她那些「奇思妙想」了。",
                 "target_en": "Yae Miko",
                 "title_en": "Kamisato Ayato about Yae Miko",
                 "content_en": "Lady Guuji has been kind to us in the Kamisato Clan, but she has never quite taken to me personally. I trust you'll have heard the way she refers to me... \"the Yashiro rascal\" and other such flattering monikers. We run into each other semi-regularly, given the overlap in our work, and despite whatever private thoughts we each may have, our working relationship is quite a harmonious one. I have no great objection to this state of affairs — working with intelligent people always makes things highly efficient. In any case... However objectionable she might find me, she would be forced to admit that without me, she would have no one to help execute her weird and wonderful ideas."
@@ -258,7 +430,7 @@
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220208/2022020813481182336.png",
         "alias_zh": "狐耳女人",
         "alias_en": "Lady with Fox Ears",
-        "url_name": "yaemiko",
+        "url_name": "yae",
         "ver": "2.5.1",
         "lines": [
             {
@@ -736,6 +908,7 @@
         "name_zh": "托马",
         "name_en": "Thoma",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211021/2021102110372681510.png",
+        "url_name": "tohma",
         "ver": "2.2.2",
         "lines": [
             {
@@ -760,10 +933,10 @@
                 "target_id": 38,
                 "target_zh": "雷电将军",
                 "title_zh": "托马关于雷电将军·未知",
-                "content_zh": "说实话，我对将军本人没什么怨恨。虽说她差点夺走我的神之眼，但那是因为她的立场特殊吧。立场不同是很正常的事情。我想不明白的，是她的目的。她所设想的永恒国度到底是什么样？为什么非得牺牲民众的愿望换取。我无法理解，也无法认同。",
+                "content_zh": "说实话，我对将军本人没什么怨恨。虽说她差点夺走我的神之眼，但那是因为她的立场特殊吧。立场不同是很正常的事情。\n我想不明白的，是她的目的。她所设想的永恒国度到底是什么样？为什么非得牺牲民众的愿望换取。我无法理解，也无法认同。",
                 "target_en": "Raiden Shogun",
                 "title_en": "Thoma about the Raiden Shogun: The Unknown",
-                "content_en": "Honestly, I don't harbor any resentment toward the Shogun. Yes, she almost took my Vision away, but ultimately that's just because of her unique perspective. Everyone has their own perspective, there's nothing strange about that.The only thing I don't understand is her goal in doing so. What does she imagine eternity really looks like for Inazuma? And why is sacrificing her people's aspirations so necessary to achieve it? I can neither understand nor agree with her approach."
+                "content_en": "Honestly, I don't harbor any resentment toward the Shogun. Yes, she almost took my Vision away, but ultimately that's just because of her unique perspective. Everyone has their own perspective, there's nothing strange about that.\nThe only thing I don't understand is her goal in doing so. What does she imagine eternity really looks like for Inazuma? And why is sacrificing her people's aspirations so necessary to achieve it? I can neither understand nor agree with her approach."
             },
             {
                 "target_id": 15,
@@ -967,10 +1140,10 @@
                 "target_id": 50,
                 "target_zh": "鹿野院平藏",
                 "title_zh": "九条裟罗关于鹿野院平藏",
-                "content_zh": "鹿野院…虽说这位是我的同僚，但我对他没什么好感。总感觉他有很多自己的盘算，没有把组织的事放在第一位。要不是看在他探案有功的份上，早该对他多加管束。唉，真是头疼。",
+                "content_zh": "鹿野院…虽说这位是我的同僚，但我对他没什么好感。总感觉他有很多自己的盘算，没有把组织的事放在第一位。要不是看在他探案有功的份上，早该对他多加管束。\n唉，真是头疼。",
                 "target_en": "Shikanoin Heizou",
                 "title_en": "Kujou Sara about Shikanoin Heizou",
-                "content_en": "Shikanoin and I may be colleagues, but I have few positive words to say about him. He seems preoccupied with his personal schemes while official duties take second place. The only reason I have not sought to bring him into line so far is that his investigations deliver results... *sigh* He is such a headache."
+                "content_en": "Shikanoin and I may be colleagues, but I have few positive words to say about him. He seems preoccupied with his personal schemes while official duties take second place. The only reason I have not sought to bring him into line so far is that his investigations deliver results... \n*sigh* He is such a headache."
             },
             {
                 "target_id": 38,
@@ -1095,10 +1268,10 @@
                 "target_id": 35,
                 "target_zh": "宵宫",
                 "title_zh": "雷电将军关于宵宫",
-                "content_zh": "是谁来着？啊，做烟火的。制造须臾幻象的人，沉醉于夏日幻觉的人，虽说如此，亦为我之臣民。嗯，在天领奉行属地里炸烟花？谁啊，她吗？",
+                "content_zh": "是谁来着？啊，做烟火的。制造须臾幻象的人，沉醉于夏日幻觉的人，虽说如此，亦为我之臣民。\n嗯，在天领奉行属地里炸烟花？谁啊，她吗？",
                 "target_en": "Yoimiya",
                 "title_en": "Raiden Shogun about Yoimiya",
-                "content_en": "Who? Ah, the firework maker. A manufacturer of fleeting illusions, enamored with the realm of fantasy and imagination, but a subject of mine nonetheless. Hmm? Fireworks were released on Tenryou Commission property? By whom... her?"
+                "content_en": "Who? Ah, the firework maker. A manufacturer of fleeting illusions, enamored with the realm of fantasy and imagination, but a subject of mine nonetheless. \nHmm? Fireworks were released on Tenryou Commission property? By whom... her?"
             },
             {
                 "target_id": 41,
@@ -1304,7 +1477,7 @@
                 "title_zh": "宵宫关于荒泷一斗·帮派",
                 "content_zh": "「荒泷派」？欸？！原来他不是无所事事的人呐？",
                 "target_en": "Arataki Itto",
-                "title_en": "Yoimiya about Arataki Itto: Arataki's Gang",
+                "title_en": "Yoimiya about Arataki Itto: Arataki’s Gang",
                 "content_en": "Arataki's gang? Huh!? So he isn't just someone with too much free time on his hands?"
             },
             {
@@ -1392,7 +1565,7 @@
                 "target_id": 38,
                 "target_zh": "雷电将军",
                 "title_zh": "枫原万叶关于雷电将军",
-                "content_zh": "离开稻妻后，我许多次扪心自问，我对雷电将军的不满是否源于那一次御前决斗，是否源于她对友人落下的那一刀？我想了很久，觉得不是的。我的友人是堂堂正正地死在了决斗场上，雷电将军的那一刀也并无不妥。我对她的不满，来源于「眼狩令」。没有任何人有资格剥夺他人的愿望，即便是「神」也不行。",
+                "content_zh": "离开稻妻后，我许多次扪心自问，我对雷电将军的不满是否源于那一次御前决斗，是否源于她对友人落下的那一刀？\n我想了很久，觉得不是的。我的友人是堂堂正正地死在了决斗场上，雷电将军的那一刀也并无不妥。我对她的不满，来源于「眼狩令」。没有任何人有资格剥夺他人的愿望，即便是「神」也不行。",
                 "target_en": "Raiden Shogun",
                 "title_en": "Kaedehara Kazuha about the Raiden Shogun",
                 "content_en": "I've asked myself this question many times since leaving Inazuma. Do I simply resent the Raiden Shogun because of what happened in that duel? Because of the lethal stroke she dealt my dear friend? I've thought about this a good long time, and I believe the answer is no. My friend died an honorable death in that duel, and the Shogun was not unjustified in her conduct. My dissatisfaction with her has its roots in the Vision Hunt Decree. No one has the right to rob another of their hopes and dreams — not even a god."
@@ -1518,10 +1691,10 @@
                 "target_id": 35,
                 "target_zh": "宵宫",
                 "title_zh": "神里绫华关于宵宫",
-                "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
+                "content_zh": "操办节庆庆典是社奉行和巫女众的责任，那位烟火专家也的确能让气氛热烈起来，彼此合作多了，因而渐渐熟络。\n嗯？治安和消防问题吗？我们也会一并纳入预先规划的。因为这些原因而看不到烟花，才会让人们心中留下缺憾吧。",
                 "target_en": "Yoimiya",
                 "title_en": "Kamisato Ayaka about Yoimiya",
-                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+                "content_en": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.\nHmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
             }
         ]
     },
@@ -1645,10 +1818,10 @@
                 "target_id": 21,
                 "target_zh": "七七",
                 "title_zh": "烟绯关于七七",
-                "content_zh": "听说那个采药姑娘给自己编写了一整套行为准则。瞧她身材娇小，办事却有条有理，实乃成大事之风范。后生可畏，后生可畏呀。就连我也要说一声佩服。",
+                "content_zh": "听说那个采药姑娘给自己编写了一整套行为准则。瞧她身材娇小，办事却有条有理，实乃成大事之风范。\n后生可畏，后生可畏呀。就连我也要说一声佩服。",
                 "target_en": "Qiqi",
                 "title_en": "Yanfei about Qiqi",
-                "content_en": "I heard that little herb gatherer has written out a whole set of behavioral rules for herself. She may be small, but boy, has she got her head screwed on! She's definitely destined for greatness...\"The young of today shall outperform us tomorrow,\" as they say. I must admit, she has my respect."
+                "content_en": "I heard that little herb gatherer has written out a whole set of behavioral rules for herself. She may be small, but boy, has she got her head screwed on! She's definitely destined for greatness...\n\"The young of today shall outperform us tomorrow,\" as they say. I must admit, she has my respect."
             },
             {
                 "target_id": 27,
@@ -1672,28 +1845,28 @@
                 "target_id": 29,
                 "target_zh": "胡桃",
                 "title_zh": "烟绯关于胡桃",
-                "content_zh": "常听人说「往生堂」堂主行事奇特，怕是沾了丧葬业的怪毛病。这算什么话？「往生堂」从事的可是正经行业，是构成商业的基本单位。而且工作就是工作，岂有高低贵贱，吉凶险恶之分？不过，那位堂主倒是没怎么来光顾过我的生意，唔…",
+                "content_zh": "常听人说「往生堂」堂主行事奇特，怕是沾了丧葬业的怪毛病。这算什么话？「往生堂」从事的可是正经行业，是构成商业的基本单位。而且工作就是工作，岂有高低贵贱，吉凶险恶之分？\n不过，那位堂主倒是没怎么来光顾过我的生意，唔…",
                 "target_en": "Hu Tao",
                 "title_en": "Yanfei about Hu Tao",
-                "content_en": "I always hear people saying that the director of the Wangsheng Funeral Parlor has an unorthodox approach to business. They think she's gone a little non compos mentis after being in the funeral business so long... What are these people talking about? The Wangsheng Funeral Parlor provides a legitimate and necessary service, which is the cornerstone of any successful enterprise. Work is just work — there are no good and bad jobs, or lucky and unlucky jobs, just jobs that need doing.If I had one gripe, it would be that the director rarely comes to me for legal advice, hmph..."
+                "content_en": "I always hear people saying that the director of the Wangsheng Funeral Parlor has an unorthodox approach to business. They think she's gone a little non compos mentis after being in the funeral business so long... What are these people talking about? The Wangsheng Funeral Parlor provides a legitimate and necessary service, which is the cornerstone of any successful enterprise. Work is just work — there are no good and bad jobs, or lucky and unlucky jobs, just jobs that need doing.\nIf I had one gripe, it would be that the director rarely comes to me for legal advice, hmph..."
             },
             {
                 "target_id": 24,
                 "target_zh": "钟离",
                 "title_zh": "烟绯关于钟离",
-                "content_zh": "钟离先生学识渊博，堪称行走的书库。你知道吗？我一眼就看出他深藏不露。这样的人大多不怕麻烦，就算遇上什么事也不会请我帮忙，依我看，他绝不是潜在客户。可不知为何，他身上总有些不可思议的熟悉感，我说不上来。问过老爹，他也支支吾吾说什么他也不明白，真是奇怪…总感觉，老爹有什么事不想告诉我。哼，没关系，大不了我自己找机会弄明白…",
+                "content_zh": "钟离先生学识渊博，堪称行走的书库。你知道吗？我一眼就看出他深藏不露。这样的人大多不怕麻烦，就算遇上什么事也不会请我帮忙，依我看，他绝不是潜在客户。\n可不知为何，他身上总有些不可思议的熟悉感，我说不上来。问过老爹，他也支支吾吾说什么他也不明白，真是奇怪…总感觉，老爹有什么事不想告诉我。哼，没关系，大不了我自己找机会弄明白…",
                 "target_en": "Zhongli",
                 "title_en": "Yanfei about Zhongli",
-                "content_en": "Mr. Zhongli has so much in-depth knowledge on so many topics, he's like a walking library, you know what I mean? He's a total savant, though he never flaunts it. I could tell just by looking at him. People like him rarely shy away from taking on complex problems alone, so in my estimation he's certainly not a potential client.And yet, somehow, I can't help but think I know him from somewhere, it's hard to describe the feeling... I asked my father about it, and he just said something to the effect of he didn't know either, though he seemed a little evasive. It was so strange... Anyway, makes me wonder if my father is hiding something from me. Hmph, alright then — if he won't tell me what's going on, I'll just have to find out for myself..."
+                "content_en": "Mr. Zhongli has so much in-depth knowledge on so many topics, he's like a walking library, you know what I mean? He's a total savant, though he never flaunts it. I could tell just by looking at him. People like him rarely shy away from taking on complex problems alone, so in my estimation he's certainly not a potential client.\nAnd yet, somehow, I can't help but think I know him from somewhere, it's hard to describe the feeling... I asked my father about it, and he just said something to the effect of he didn't know either, though he seemed a little evasive. It was so strange... Anyway, makes me wonder if my father is hiding something from me. Hmph, alright then — if he won't tell me what's going on, I'll just have to find out for myself..."
             },
             {
                 "target_id": 16,
                 "target_zh": "凝光",
                 "title_zh": "烟绯关于凝光",
-                "content_zh": "你知道「天权星」凝光小姐吧？她主管律法，也经常修正法典，每次增补删改的内容都多得要命。就在上次，全新的法典里又增加了三条律法，修改了一百二十一条律法注释，还新附了一堆典型判例，这次我又不知道要背到什么时候了…哼，不过她终归是商界出身，论律法，我可不会输给她，等我背完了这些，我一定要更加「努力」地工作…",
+                "content_zh": "你知道「天权星」凝光小姐吧？她主管律法，也经常修正法典，每次增补删改的内容都多得要命。就在上次，全新的法典里又增加了三条律法，修改了一百二十一条律法注释，还新附了一堆典型判例，这次我又不知道要背到什么时候了…\n哼，不过她终归是商界出身，论律法，我可不会输给她，等我背完了这些，我一定要更加「努力」地工作…",
                 "target_en": "Ningguang",
                 "title_en": "Yanfei about Ningguang",
-                "content_en": "You must have heard of the Tianquan, Ningguang? She's the highest authority where the law is concerned, and often makes amendments to the legal codices. Every round of additions, retractions, and revisions generates mountains of material. Why, the latest edition of the legal codices contained three new laws, 121 revised legal annotations, and an array of new legal precedents. Archons know how long it's going to take me to commit them to memory...Hmph... still, she's a businesswoman at heart, I'm not about to let her beat me when it comes to the law. Once I've finished memorizing these, I need to step up my productivity..."
+                "content_en": "You must have heard of the Tianquan, Ningguang? She's the highest authority where the law is concerned, and often makes amendments to the legal codices. Every round of additions, retractions, and revisions generates mountains of material. Why, the latest edition of the legal codices contained three new laws, 121 revised legal annotations, and an array of new legal precedents. Archons know how long it's going to take me to commit them to memory...\nHmph... still, she's a businesswoman at heart, I'm not about to let her beat me when it comes to the law. Once I've finished memorizing these, I need to step up my productivity..."
             },
             {
                 "target_id": 20,
@@ -1825,10 +1998,10 @@
                 "target_id": 24,
                 "target_zh": "钟离",
                 "title_zh": "胡桃关于钟离",
-                "content_zh": "钟离长得那么年轻，性格倒像是个老古董，什么都懂，却什么都不关心，他该不会…？嘻嘻…唉，算了，随他去吧。",
+                "content_zh": "钟离长得那么年轻，性格倒像是个老古董，什么都懂，却什么都不关心，他该不会…？嘻嘻…\n唉，算了，随他去吧。",
                 "target_en": "Zhongli",
                 "title_en": "Hu Tao about Zhongli",
-                "content_en": "Zhongli looks young, but his personality is a bit dusty. Knows everything, but doesn't fret over anything. Hmm... Couldn't be that he's a...Hehe, forget it, whatever."
+                "content_en": "Zhongli looks young, but his personality is a bit dusty. Knows everything, but doesn't fret over anything. Hmm... Couldn't be that he's a...\nHehe, forget it, whatever."
             },
             {
                 "target_id": 21,
@@ -2014,10 +2187,10 @@
                 "target_id": 31,
                 "target_zh": "烟绯",
                 "title_zh": "甘雨关于烟绯",
-                "content_zh": "烟绯呀…她还是个懵懂的小女孩时，就和我说过，要遵守契约，过上快乐的生活。如今她亭亭玉立，成了璃月的名人。律法咨询师的工作很繁杂，但她总是一副无忧无虑的模样，这让我十分安心。",
+                "content_zh": "烟绯呀…她还是个懵懂的小女孩时，就和我说过，要遵守契约，过上快乐的生活。如今她亭亭玉立，成了璃月的名人。\n律法咨询师的工作很繁杂，但她总是一副无忧无虑的模样，这让我十分安心。",
                 "target_en": "Yanfei",
                 "title_en": "Ganyu about Yanfei",
-                "content_en": "Ah, Yanfei... Even back when she was an innocent little girl, she would tell me that \"you have to keep your promises to live a happy life.\" Now, she's grown up to be a beautiful, graceful, and highly successful young woman.Although the work of a legal adviser is complicated, she always seems so carefree. This puts my mind at ease."
+                "content_en": "Ah, Yanfei... Even back when she was an innocent little girl, she would tell me that \"you have to keep your promises to live a happy life.\" Now, she's grown up to be a beautiful, graceful, and highly successful young woman.\nAlthough the work of a legal adviser is complicated, she always seems so carefree. This puts my mind at ease."
             },
             {
                 "target_id": 44,
@@ -2188,8 +2361,8 @@
         "name_zh": "钟离",
         "name_en": "Zhongli",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201120/2020112010371210769.png",
-        "alias_zh": "摩拉克斯",
-        "alias_en": "Morax",
+        "alias_zh": "摩拉克斯, 岩王帝君",
+        "alias_en": "Morax, Rex Lapis",
         "ver": "1.1.2",
         "lines": [
             {
@@ -2394,7 +2567,7 @@
                 "target_id": 24,
                 "target_zh": "钟离",
                 "title_zh": "达达利亚关于钟离·挑战",
-                "content_zh": "钟离先生，最近可好啊？嗯…还不错？看来他倒是挺适应作为「凡人」的生活嘛。可恶…竟然把我骗得团团转，只有痛痛快快地交战一场才能平息这份不甘！你说…我打不过他？哈哈哈…",
+                "content_zh": "钟离先生，最近可好啊？嗯…还不错？看来他倒是挺适应作为「凡人」的生活嘛。可恶…竟然把我骗得团团转，只有痛痛快快地交战一场才能平息这份不甘！\n你说…我打不过他？哈哈哈…",
                 "target_en": "Zhongli",
                 "title_en": "Tartaglia about Zhongli: Challenge",
                 "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
@@ -2430,7 +2603,7 @@
                 "target_id": 9,
                 "target_zh": "可莉",
                 "title_zh": "莫娜关于可莉",
-                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
+                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…\n啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
                 "target_en": "Klee",
                 "title_en": "Mona about Klee",
                 "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk* Although, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
@@ -2439,10 +2612,10 @@
                 "target_id": 6,
                 "target_zh": "迪卢克",
                 "title_zh": "莫娜关于迪卢克",
-                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。等等，「夜枭」象不象征财富来着？",
+                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。\n等等，「夜枭」象不象征财富来着？",
                 "target_en": "Diluc",
                 "title_en": "Mona about Diluc",
-                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival....Or, wait, maybe Noctua's the one tied to wealth...?"
+                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival.\n...Or, wait, maybe Noctua's the one tied to wealth...?"
             },
             {
                 "target_id": 4,
@@ -2466,7 +2639,7 @@
                 "target_id": 8,
                 "target_zh": "温迪",
                 "title_zh": "莫娜关于温迪",
-                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
+                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…\n咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
                 "target_en": "Venti",
                 "title_en": "Mona about Venti",
                 "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
@@ -2754,10 +2927,10 @@
                 "target_id": 32,
                 "target_zh": "优菈",
                 "title_zh": "砂糖关于优菈",
-                "content_zh": "游击骑士的工作很危险，优菈小姐的行动又格外大胆，所以我给她制作了一个侦察装置，这样她就不用潜入敌人的营地了。但优菈小姐的气势太吓人，我有点怕她，告诉她使用方法的时候，不小心漏掉了几条注意事项，结果真的发生了意外…怎么办？我会不会被她记仇了…",
+                "content_zh": "游击骑士的工作很危险，优菈小姐的行动又格外大胆，所以我给她制作了一个侦察装置，这样她就不用潜入敌人的营地了。但优菈小姐的气势太吓人，我有点怕她，告诉她使用方法的时候，不小心漏掉了几条注意事项，结果真的发生了意外…\n怎么办？我会不会被她记仇了…",
                 "target_en": "Eula",
                 "title_en": "Sucrose about Eula",
-                "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...Ah, what should I do... I hope she won't hold a grudge against me..."
+                "content_en": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...\nAh, what should I do... I hope she won't hold a grudge against me..."
             }
         ]
     },
@@ -2844,10 +3017,10 @@
                 "target_id": 48,
                 "target_zh": "夜兰",
                 "title_zh": "重云关于夜兰",
-                "content_zh": "我初任方士那会儿，受邀到委托人家中驱邪，离开时，曾撞见过这位女性。她把我的名字记在某个小册子里，或许是想确认我有没有做值得怀疑的事吧。不过就那一次，后来再没遇见过她。现在想想，大概是因为我平日打坐总是一动不动，谁看着都会觉得无趣吧。",
+                "content_zh": "我初任方士那会儿，受邀到委托人家中驱邪，离开时，曾撞见过这位女性。她把我的名字记在某个小册子里，或许是想确认我有没有做值得怀疑的事吧。不过就那一次，后来再没遇见过她。\n现在想想，大概是因为我平日打坐总是一动不动，谁看着都会觉得无趣吧。",
                 "target_en": "Yelan",
                 "title_en": "Chongyun about Yelan",
-                "content_en": "I met her once, back when I'd just become an exorcist. I'd taken a commission to perform an exorcism in someone's home, and was just leaving at the end when I ran into her. She wrote my name down in a booklet — I guess she just wanted to confirm I wasn't doing anything suspicious... Anyway, it was just that one time, I never saw her again after that.Now that I think about it, it's probably because the sight of me meditating motionless must be pretty boring to watch. Not exactly suspicious."
+                "content_en": "I met her once, back when I'd just become an exorcist. I'd taken a commission to perform an exorcism in someone's home, and was just leaving at the end when I ran into her. She wrote my name down in a booklet — I guess she just wanted to confirm I wasn't doing anything suspicious... Anyway, it was just that one time, I never saw her again after that.\nNow that I think about it, it's probably because the sight of me meditating motionless must be pretty boring to watch. Not exactly suspicious."
             }
         ]
     },
@@ -2862,46 +3035,46 @@
                 "target_id": 10,
                 "target_zh": "班尼特",
                 "title_zh": "菲谢尔关于班尼特",
-                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——奥兹：那个倒霉蛋，置之不理可不行。",
+                "content_zh": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——\n奥兹：那个倒霉蛋，置之不理可不行。",
                 "target_en": "Bennett",
                 "title_en": "Fischl about Bennett",
-                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—Oz: Someone needs to keep an eye on the unlucky fellow."
+                "content_en": "Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—\nOz: Someone needs to keep an eye on the unlucky fellow."
             },
             {
                 "target_id": 3,
                 "target_zh": "丽莎",
                 "title_zh": "菲谢尔关于丽莎",
-                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
+                "content_zh": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…\n奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
                 "target_en": "Lisa",
                 "title_en": "Fischl about Lisa",
-                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...Oz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
+                "content_en": "Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet gain access to a vast repository of wisdom...\nOz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again."
             },
             {
                 "target_id": 4,
                 "target_zh": "凯亚",
                 "title_zh": "菲谢尔关于凯亚",
-                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…奥兹：也可能暗地里是个海盗…？",
+                "content_zh": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…\n奥兹：也可能暗地里是个海盗…？",
                 "target_en": "Kaeya",
                 "title_en": "Fischl about Kaeya",
-                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...Oz: Or perhaps he's secretly an actual pirate?"
+                "content_en": "Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...\nOz: Or perhaps he's secretly an actual pirate?"
             },
             {
                 "target_id": 14,
                 "target_zh": "莫娜",
                 "title_zh": "菲谢尔关于莫娜",
-                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
+                "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
                 "target_en": "Mona",
                 "title_en": "Fischl about Mona",
-                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.Oz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
+                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
             },
             {
                 "target_id": 30,
                 "target_zh": "罗莎莉亚",
                 "title_zh": "菲谢尔关于罗莎莉亚",
-                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。奥兹：「虔信」？「忠实」？菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
+                "content_zh": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。\n奥兹：「虔信」？「忠实」？\n菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
                 "target_en": "Rosaria",
                 "title_en": "Fischl about Rosaria",
-                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.Oz: ...\"Devout believer,\" mein Fräulein?Fischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
+                "content_en": "Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: \"May you be struck down in the name of Lord Bartabos!\" One presumed that she was leading a prayer."
             }
         ]
     },
@@ -3117,6 +3290,7 @@
         "name_zh": "诺艾尔",
         "name_en": "Noelle",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200315/2020031516092797889.png",
+        "url_name": "noel",
         "ver": "1.0",
         "lines": [
             {
@@ -3483,10 +3657,10 @@
                 "target_id": 24,
                 "target_zh": "钟离",
                 "title_zh": "魈关于钟离",
-                "content_zh": "嗯…打听一下。请问钟离大人平日里都在…呃，遛鸟？赏花？品鉴古玩？…钟离大人做这些，是有什么深意…",
+                "content_zh": "嗯…打听一下。请问钟离大人平日里都在…呃，遛鸟？赏花？品鉴古玩？\n…钟离大人做这些，是有什么深意…",
                 "target_en": "Zhongli",
                 "title_en": "Xiao about Zhongli",
-                "content_en": "Can I ask... Zhongli — what does he do with his days? Huh? Birds, antiques, flowers...Hmm... What deeper meaning do they hold?"
+                "content_en": "Can I ask... Zhongli — what does he do with his days? Huh? Birds, antiques, flowers...\nHmm... What deeper meaning do they hold?"
             },
             {
                 "target_id": 15,
@@ -4190,6 +4364,7 @@
         "name_zh": "安柏",
         "name_en": "Amber",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718350213870.png",
+        "url_name": "ambor_021",
         "ver": "1.0",
         "lines": [
             {
@@ -4298,6 +4473,7 @@
         "name_zh": "琴",
         "name_en": "Jean",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718344593599.png",
+        "url_name": "qin",
         "ver": "1.0",
         "lines": [
             {
@@ -4407,97 +4583,6 @@
                 "target_en": "Eula",
                 "title_en": "Jean about Eula",
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
-            }
-        ]
-    },
-    "鹿野院平藏": {
-        "id": 50,
-        "name_zh": "鹿野院平藏",
-        "name_en": "Shikanoin Heizou",
-        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
-        "ver": "2.8.1",
-        "url_name": "heizo",
-        "lines": [
-            {
-                "target_id": 39,
-                "target_zh": "九条裟罗",
-                "title_zh": "鹿野院平藏关于九条裟罗",
-                "content_zh": "九条裟罗大人啊…绝对是全天领奉行最严肃的人！真希望她能变得宽容一些，多多体谅下属，别再因为偶尔的缺勤责备我了。说到底，我也是为了查案嘛。",
-                "target_en": "Kujou Sara",
-                "title_en": "Shikanoin Heizou about Kujou Sara",
-                "content_en": "Madam Kujou Sara? Yeah, that lady's gotta be the most serious person in the entire Tenryou Commission. It would be nice if she could cut us a little slack and give everyone some breathing room — and she's always on my case about my occasional unexplained absences, but what can I say... I just go wherever the evidence leads me."
-            },
-            {
-                "target_id": 42,
-                "target_zh": "荒泷一斗",
-                "title_zh": "鹿野院平藏关于荒泷一斗",
-                "content_zh": "受人所托，我去牢里给他捎过几次烤堇瓜，有次还正巧听到他在唱歌。说实话，歌词很烂，但唱得不错。蹲牢房的人能有这样的精神状态，不算多见。",
-                "target_en": "Arataki Itto",
-                "title_en": "Shikanoin Heizou about Arataki Itto",
-                "content_en": "I've done a few favors before to deliver Roasted Lavender Melon to him in prison. This one time, I overheard him singing. The lyrics... were complete trash, but I gotta say — he has a pretty good set of pipes. And it's not every day you come across an inmate who's in the mood to sing their heart out."
-            },
-            {
-                "target_id": 49,
-                "target_zh": "久岐忍",
-                "title_zh": "鹿野院平藏关于久岐忍",
-                "content_zh": "荒泷派真是个自由多元的组织呀，无论是怎样的风格都能接纳。了不起，了不起，多亏那位阿忍小姐管教有方。我是怎么知道的？哈哈，这已经简单到连推理都算不上了吧？",
-                "target_en": "Kuki Shinobu",
-                "title_en": "Shikanoin Heizou about Kuki Shinobu",
-                "content_en": "The Arataki Gang is a free and diverse organization that accepts anyone, regardless of their background. Pretty amazing if you ask me. They're lucky to have Shinobu to help keep them all in line. Hmm? How do I know all this? Haha, I mean... as deductions go, this one was pretty elementary."
-            },
-            {
-                "target_id": 46,
-                "target_zh": "八重神子",
-                "title_zh": "鹿野院平藏关于八重神子",
-                "content_zh": "说起来，宫司大人的八重堂也会出版推理小说吧？什么时候能请你当面引荐一番？在这个时代，要成为名侦探，实力以外，宣传也不能落下。哎呀呀，我哪有别的心思啦。",
-                "target_en": "Yae Miko",
-                "title_en": "Shikanoin Heizou about Yae Miko",
-                "content_en": "Come to think of it, Lady Guuji's publishing house also publishes murder mysteries, right? So... when can you introduce me? In this day and age, becoming a famous detective requires more than just ability — you need publicity, too. Huh? C'mon, I'm being serious here!"
-            },
-            {
-                "target_id": 33,
-                "target_zh": "枫原万叶",
-                "title_zh": "鹿野院平藏关于枫原万叶·共通点",
-                "content_zh": "万叶他呀，太可靠了。在他的提醒下，线索就像装宝石的匣子被翻倒一样，滚落得满地都是了。我要是也有他那种对于自然的感知力…哦！我明白了！「风」之于他，就像是「直觉」之于我吧！",
-                "target_en": "Kaedehara Kazuha",
-                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Things in Common",
-                "content_en": "Oh, Kazuha? Yeah, he's a solid guy. With his help, I felt like a locked treasure chest of clues had been bust wide open and emptied all over the ground for me to see. If only I had his sensitivity to the natural world... Oh, I get it now! The wind to him must be like my intuition to me!"
-            },
-            {
-                "target_id": 33,
-                "target_zh": "枫原万叶",
-                "title_zh": "鹿野院平藏关于枫原万叶·邀请",
-                "content_zh": "好可惜呀！眼狩令废除后，我就不能堂堂正正地逮捕他了！不过这样一来，也就意味着…我可以光明正大地邀请他来天领奉行，跟我一起讨论案情了吧！",
-                "target_en": "Kaedehara Kazuha",
-                "title_en": "Shikanoin Heizou about Kaedehara Kazuha: Invitation",
-                "content_en": "Ohh... It's such a pity! Since the Vision Hunt Decree's been repealed, I no longer have any grounds to officially arrest him. But then again... I guess now, I can just openly invite him to come to the Tenryou Commission and discuss cases with me."
-            },
-            {
-                "target_id": 43,
-                "target_zh": "五郎",
-                "title_zh": "鹿野院平藏关于五郎",
-                "content_zh": "在这位大将的叮嘱下，我的海祇岛之旅可是热闹了不少，到哪都有军士们盯着。天地良心，我不过是个平平无奇的观光群众，最多算个小小侦探，连白萝卜也不会惦记半根的呀。",
-                "target_en": "Gorou",
-                "title_en": "Shikanoin Heizou about Gorou",
-                "content_en": "General Gorou's constant suspicion made my trip to Watatsumi Island much more eventful... Everywhere I went, there were soldiers keeping me under close surveillance. Honestly, I was a regular, boring tourist just like everybody else. So what if I happen to be a detective in my day job? I was clearly minding my own business there."
-            },
-            {
-                "target_id": 40,
-                "target_zh": "珊瑚宫心海",
-                "title_zh": "鹿野院平藏关于珊瑚宫心海",
-                "content_zh": "珊瑚宫大人我是没见过的。毕竟有她出席的场合，村民们会围个里三圈外三圈吧，我就不凑热闹啦。啊，对，最里面那层还要算上巫女！像我们这样的年轻人，想要获得大家的认可，总要多付出一点努力的。",
-                "target_en": "Sangonomiya Kokomi",
-                "title_en": "Shikanoin Heizou about Sangonomiya Kokomi",
-                "content_en": "I've actually never seen Madam Sangonomiya before. Whenever she appears, practically the whole village crowds around her... I'm not about to contend with that. Oh, and even if you made it through all the villagers, there'd still be a circle of shrine maidens around her! For one of us young people to gain that kind of recognition from everyone, it must have taken a lot of work."
-            },
-            {
-                "target_id": 34,
-                "target_zh": "神里绫华",
-                "title_zh": "鹿野院平藏关于神里绫华",
-                "content_zh": "我和神里家的大小姐，只能算点头之交吧。还好我的家族不是什么名门。那种生活，可不适合我呀。",
-                "target_en": "Kamisato Ayaka",
-                "title_en": "Shikanoin Heizou about Kamisato Ayaka",
-                "content_en": "I'm barely acquainted with the daughter of the Kamisato Clan. I'm glad that I'm not from some sort of prestigious family like that... it's definitely not the kind of life for me."
             }
         ]
     }
