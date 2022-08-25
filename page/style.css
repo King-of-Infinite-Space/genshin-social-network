@@ -98,7 +98,7 @@ h6 {
 
 .tip-quote {
   white-space: pre-line;
-  font-family: serif, "KaiTi", "STKaiti";
+  font-family: "Source Serif", "Times New Roman", "KaiTi", "STKaiti", serif;
   font-size: 1.2em;
   margin-bottom: 5px;
   /*font-weight: 600;*/
