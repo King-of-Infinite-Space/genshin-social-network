@@ -4420,7 +4420,7 @@
         "name_en": "Shikanoin Heizou",
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
         "url_name": "heizo",
-        "ver": "2.8.2",
+        "ver": "2.8.1",
         "lines": [
             {
                 "target_id": 39,
@@ -4522,6 +4522,15 @@
                 "content_en": "When that child was first brought here, she was effectively illiterate. It wasn't a huge issue, though. She's a hard worker and a diligent student, so she's made good progress. Still, her goal is to learn advanced medical techniques, so she still has a long way to go. She sometimes puts too much pressure on herself... Help her out when you can, would you? Consider it a favor for me as her mentor. Thanks a lot."
             },
             {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "提纳里关于多莉",
+                "content_zh": "大名鼎鼎的桑歌玛哈巴依老爷——就是多莉啦。我能认识她，还是因为有次研究需要用到很稀有的材料，只有进货渠道成谜的多莉才能搞得到。啊那个…别问我找她买了什么，也别问我当时在研究什么，嗯。",
+                "target_en": "Dori",
+                "title_en": "Tighnari about Dori",
+                "content_en": "The renowned Lord Sangemah Bay is none other than Dori. I became acquainted with her through a previous research project. It had required very rare materials, and the only way I could get them was through her and her mysterious supply network. Uh... never you mind what I was buying and what I was researching, thank you very much!"
+            },
+            {
                 "target_id": 3,
                 "target_zh": "丽莎",
                 "title_zh": "提纳里关于丽莎",
@@ -4547,6 +4556,15 @@
                 "target_en": "Tighnari",
                 "title_en": "Collei about Tighnari",
                 "content_en": "Although Master can be quite stern and is always criticizing adventurers for carelessly eating poisonous mushrooms, he is actually a gentle soul. He's so patient when he tutors me, and he even reads out letters from Mondstadt for me. I've always been very grateful to him."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "柯莱关于多莉",
+                "content_zh": "有次我在巡林路上遇见了她，像是知道我口渴一样，她从袋子里掏出了一瓶看起来特别好喝的果汁…还好当时师父在场，制止了她。不然，我差点就一个冲动，把好不容易攒起来的摩拉都花出去了…",
+                "target_en": "Dori",
+                "title_en": "Collei about Dori",
+                "content_en": "I ran into her once on forest ranger duty. She pulled out a bottle of fruit juice from her bag that looked really tasty, as if she somehow knew I was thirsty... Fortunately, Master was there, and he stopped me from spending all of my hard-earned Mora in a moment of weakness..."
             },
             {
                 "target_id": 2,
@@ -4583,6 +4601,33 @@
                 "target_en": "Fischl",
                 "title_en": "Collei about Fischl",
                 "content_en": "...\"Prinzessin der Verurteilung\"? ...Mmm, nope, sorry. I wasn't in Mondstadt for very long, so I didn't hear of her. That name, though... *grimace*... Ahem, nothing."
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name_zh": "多莉",
+        "name_en": "Dori",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/29/b8a367991017a9f3c6bb445c5c8b68e6_1191967378101363412.png",
+        "ver": "3.0.2",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "多莉关于提纳里",
+                "content_zh": "他热爱学术就和我热爱摩拉一样。听说他经常会做一些神奇的小玩意儿，只可惜会用什么公务繁忙作为理由，拒绝和我合作批量生产，要不然…可以赚上一大笔摩拉呢！",
+                "target_en": "Tighnari",
+                "title_en": "Dori about Tighnari",
+                "content_en": "He loves learning as much as I love Mora. I heard he makes a lot of little interesting gadgets, but he refuses to partner with me to mass produce them. He always says he's too busy with work, but really it's just an excuse. *sigh* A shame, really... We could make an absolute fortune!"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "多莉关于岩王帝君",
+                "content_zh": "岩王帝君离去之前，我每天起来第一件事就是默念：财神在上，保佑多莉日进斗金。现在嘛，求神不如求己。多莉在此，保佑自己日进斗金！",
+                "target_en": "Zhongli",
+                "title_en": "Dori about Rex Lapis",
+                "content_en": "Before Rex Lapis parted from this world, I'd say a little prayer every morning: \"O great God of Wealth up above, please bless my day with more Mora to love.\" But uh, now, I guess I just pray to myself... \"O divine Dori right here and now, please bless my day with more Mora to count!\" Hehe."
             }
         ]
     }
