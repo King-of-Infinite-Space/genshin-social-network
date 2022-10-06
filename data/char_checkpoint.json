@@ -1,4 +1,67 @@
 {
+    "坎蒂丝": {
+        "id": 55,
+        "name_zh": "坎蒂丝",
+        "name_en": "Candace",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/22/4199ac7c190fe49d64215345c1c04f30_767621913108456368.png",
+        "ver": "3.1.1",
+        "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "坎蒂丝关于赛诺",
+                "content_zh": "教令院的大风纪官…之前很少到防沙壁的这一侧来，最近却常常出现。关于他，镀金旅团里似乎流传着一些相当可怕的传说…",
+                "target_en": "Cyno",
+                "title_en": "Candace about Cyno",
+                "content_en": "In the past, it was rare to see the Akademiya's General Mahamatra on this side of the Wall of Samiel, but recently he has been showing up here all the time. I believe that the Eremites have some truly terrifying stories to tell about him..."
+            }
+        ]
+    },
+    "赛诺": {
+        "id": 54,
+        "name_zh": "赛诺",
+        "name_en": "Cyno",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/21/377cfb0cf754a873c864e92208e540f0_2617971490404602601.png",
+        "ver": "3.1.1",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "赛诺关于提纳里·知识",
+                "content_zh": "提纳里和我见过的其他学者不同。他对知识同样有着很深的执着，却始终不会逾越那道红线。有些学者会将自己视为「实验室中的神明」，但提纳里不会，他一直平等地尊重每一种生命。听说他拒绝了教令院的聘请，我也站在他这一边。",
+                "target_en": "Tighnari",
+                "title_en": "Cyno about Tighnari: Knowledge",
+                "content_en": "Tighnari is different from other scholars I've met. He has the same wholehearted dedication to knowledge, but he will never cross the most important boundaries. Some scholars see themselves as gods within their own laboratories, but not Tighnari — he has always shown the same respect for every form of life. I've heard that he even declined a position in the Akademiya, and I support his decision."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "赛诺关于提纳里·笑话",
+                "content_zh": "提纳里曾劝我不要在饭桌上讲笑话，说是根本笑不出来。我不以为然，连讲了三个压箱底的笑话，并逐一解释了笑点…然后我的饭菜凉了。",
+                "target_en": "Tighnari",
+                "title_en": "Cyno about Tighnari: Jokes",
+                "content_en": "Tighnari once told me not to tell jokes at the dinner table, insisting that my jokes weren't funny at all. I did not share his opinion, so I told three of my best jokes in a row, and explained the premise of each in great detail. By the time I was done talking, my food was cold."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "赛诺关于柯莱",
+                "content_zh": "我曾经帮她封印了体内的魔神残骸，但封印的过程给她带来了很大的痛苦。那种程度的痛苦可能比死亡更让人害怕，她能够坚持下来，很了不起。",
+                "target_en": "Collei",
+                "title_en": "Cyno about Collei",
+                "content_en": "I once helped Collei seal away the god's remains in her body, but the process was an unthinkably painful one. To many, enduring that kind of pain would be a prospect more terrifying than death, so it was very admirable that she was able to persevere through it all."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "赛诺关于丽莎",
+                "content_zh": "丽莎和我曾向同一位贤者求学，我自然知道她的事。身为大风纪官，我也见过许多过分追求知识而引发的悲剧，所以能理解她的选择。",
+                "target_en": "Lisa",
+                "title_en": "Cyno about Lisa",
+                "content_en": "Of course I know about Lisa, we once both studied under the same sage. As General Mahamatra, I've seen many tragedies befall those seeking knowledge too assiduously, so it's easy for me to understand her decision."
+            }
+        ]
+    },
     "多莉": {
         "id": 53,
         "name_zh": "多莉",
@@ -6,6 +69,15 @@
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/29/b8a367991017a9f3c6bb445c5c8b68e6_1191967378101363412.png",
         "ver": "3.0.2",
         "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "多莉关于赛诺",
+                "content_zh": "我和他算是有点私交。毕竟能为他拿到「七圣召唤」所有周边产品的人，全须弥只有我一个。很罕见吧！教令院里居然有他这种特行独立，眼光不错，又从不讲价的人。",
+                "target_en": "Cyno",
+                "title_en": "Dori about Cyno",
+                "content_en": "You could say I know him. After all, I was the only merchant in all Sumeru who could acquire the full range of Genius Invokation TCG merch for him! Not bad, huh? I've gotta admit, it's pretty rare to see anyone from the Akademiya like him... independent and with a good head on his shoulders. Plus, he's never been one to haggle over prices."
+            },
             {
                 "target_id": 51,
                 "target_zh": "提纳里",
@@ -50,6 +122,15 @@
                 "target_en": "Dori",
                 "title_en": "Collei about Dori",
                 "content_en": "I ran into her once on forest ranger duty. She pulled out a bottle of fruit juice from her bag that looked really tasty, as if she somehow knew I was thirsty... Fortunately, Master was there, and he stopped me from spending all of my hard-earned Mora in a moment of weakness..."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "柯莱关于赛诺",
+                "content_zh": "欸…我们能不提他吗？不，大风纪官不是什么坏人，当初就是他带着我从蒙德回到了须弥，才让我有了安身的地方。只是一想起回须弥前那个「封印」的过程…唔…脖子后边又开始觉得痛了…",
+                "target_en": "Cyno",
+                "title_en": "Collei about Cyno",
+                "content_en": "Um... I'd rather not talk about him, if that's okay? Oh, no — the General Mahamatra isn't a bad guy or anything. Matter of fact, I have him to thank for bringing me back from Mondstadt to Sumeru and finding me a safe place to stay. It's just that... whenever I'm reminded of the sealing process just before leaving Mondstadt... ooh... the back of my neck starts hurting again..."
             },
             {
                 "target_id": 2,
@@ -104,6 +185,15 @@
                 "target_en": "Collei",
                 "title_en": "Tighnari about Collei",
                 "content_en": "When that child was first brought here, she was effectively illiterate. It wasn't a huge issue, though. She's a hard worker and a diligent student, so she's made good progress. Still, her goal is to learn advanced medical techniques, so she still has a long way to go. She sometimes puts too much pressure on herself... Help her out when you can, would you? Consider it a favor for me as her mentor. Thanks a lot."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "提纳里关于赛诺",
+                "content_zh": "你想见赛诺？那我丑话说在前头，被他因为公事追在屁股后面可是要倒大霉的。大风纪官毕竟位高权重，平日里还真不好找。不过他偶尔会到化城郭附近偷偷看望柯莱，就算他不想让人看见，我也能听出是他。",
+                "target_en": "Cyno",
+                "title_en": "Tighnari about Cyno",
+                "content_en": "You want to see Cyno...? Well, firstly, a word of caution: if he ever comes chasing you down for work-related reasons, prepare for the nightmare of a lifetime. Other than that, General Mahamatra is a high-ranking position, so it usually isn't easy to find him. But he does occasionally go to Gandharva Ville to see Collei. As much as he might want to stay unnoticed, he can't fool my ears, heh."
             },
             {
                 "target_id": 53,
@@ -2136,7 +2226,7 @@
                 "content_zh": "她可真是个有意思的人呐，跟别人都不一样。你说，要是我从现在开始天天吃仙草、喝山露，会不会也变成她那么不染红尘的样子？嘿嘿…",
                 "target_en": "Shenhe",
                 "title_en": "Hu Tao about Shenhe",
-                "content_en": "She is quite the fascinating individual, completely different from anyone else I've encountered. Do you think if I started eating divine herbs and drinking the dew of the mountains every single day, I'd be able to look as pure and pristine as she does? Hehe..."
+                "content_en": "She is quite the fascinating individual, completely different from anyone else I've encountered. Do you think if I started eating divine herbs and drinking the dew of the mountains every single day, I'd be able to look as pure and pristine as she does? Oh~!"
             }
         ]
     },
@@ -2651,7 +2741,7 @@
                 "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…\n啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
                 "target_en": "Klee",
                 "title_en": "Mona about Klee",
-                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk* Although, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
+                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk*\nAlthough, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
             },
             {
                 "target_id": 6,
@@ -2687,7 +2777,7 @@
                 "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…\n咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
                 "target_en": "Venti",
                 "title_en": "Mona about Venti",
-                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
+                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look...\nHuh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
             }
         ]
     },
@@ -3345,7 +3435,7 @@
                 "content_zh": "她是我非常尊敬的前辈，实力很强不说，对人也很亲切。她还教我怎么做「兔兔伯爵」，你看，我会把它当成护身符带在身边，做得不错吧？",
                 "target_en": "Amber",
                 "title_en": "Noelle about Amber",
-                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?"
+                "content_en": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright I think. Oh no, please do not be alarmed. There's no risk of explosion whatsoever."
             },
             {
                 "target_id": 9,
@@ -4094,7 +4184,7 @@
                 "content_zh": "迪奥娜对我的态度很是生硬，我也一直没找到合适的机会交流。如果是涉及到家族恩怨的话…嗯？不是？只是单纯地讨厌酒？没想到在这蒙德，也会有讨厌酒的酒保啊。",
                 "target_en": "Diona",
                 "title_en": "Diluc about Diona",
-                "content_en": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if its an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
+                "content_en": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if it's an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
             },
             {
                 "target_id": 32,
@@ -4185,114 +4275,6 @@
                 "target_en": "Noelle",
                 "title_en": "Barbara about Noelle",
                 "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Tee-hee!"
-            }
-        ]
-    },
-    "凯亚": {
-        "id": 4,
-        "name_zh": "凯亚",
-        "name_en": "Kaeya",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617001674227.png",
-        "ver": "1.0",
-        "lines": [
-            {
-                "target_id": 1,
-                "target_zh": "琴",
-                "title_zh": "凯亚关于琴",
-                "content_zh": "哦？代理团长大人，你可要多多支持她。",
-                "target_en": "Jean",
-                "title_en": "Kaeya about Jean",
-                "content_en": "What? The Acting Grand Master? You need to give her your full support."
-            },
-            {
-                "target_id": 3,
-                "target_zh": "丽莎",
-                "title_zh": "凯亚关于丽莎",
-                "content_zh": "丽莎啊…你千万记得要准时还书哦？上次因为这事儿惹她生了气，直到现在我左手的尺骨还是麻麻的。",
-                "target_en": "Lisa",
-                "title_en": "Kaeya about Lisa",
-                "content_en": "Oh Lisa. Hmm... You'd better not forget to return your books on time. I made that mistake once and boy was she angry. My arm is still numb from last time..."
-            },
-            {
-                "target_id": 2,
-                "target_zh": "安柏",
-                "title_zh": "凯亚关于安柏",
-                "content_zh": "侦察骑士是个机灵又正义的好骑士。可千万别在她面前做坏事喔。",
-                "target_en": "Amber",
-                "title_en": "Kaeya about Amber",
-                "content_en": "That Outrider is a clever and righteous knight. Be careful not to step out of line in front of her."
-            },
-            {
-                "target_id": 6,
-                "target_zh": "迪卢克",
-                "title_zh": "凯亚关于迪卢克",
-                "content_zh": "迪卢克？小时候的他挺可爱的。可如今却活在自己的世界里…总之是个无趣的家伙。",
-                "target_en": "Diluc",
-                "title_en": "Kaeya about Diluc",
-                "content_en": "Diluc? He was cute as a young lad. But nowadays he just seems to be in a world of his own... Overall, not much fun to hang out with."
-            },
-            {
-                "target_id": 9,
-                "target_zh": "可莉",
-                "title_zh": "凯亚关于可莉",
-                "content_zh": "可莉，看来还是没有掌握躲避代理团长检查的技巧啊，明明我已经点拨过她…哈哈，我说着玩玩的，你可别去揭发我哦。",
-                "target_en": "Klee",
-                "title_en": "Kaeya about Klee",
-                "content_en": "Klee. Seems she has failed to elude the Acting Grand Master's investigative skills, despite the pointers I gave her... Haha, I'm kidding, no need to go reporting me or anything."
-            },
-            {
-                "target_id": 26,
-                "target_zh": "阿贝多",
-                "title_zh": "凯亚关于阿贝多",
-                "content_zh": "阿贝多啊，沉稳优雅的小帅哥，而且才华横溢，是很讨人喜欢的类型。怎么，你也心动了？",
-                "target_en": "Albedo",
-                "title_en": "Kaeya about Albedo",
-                "content_en": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
-            },
-            {
-                "target_id": 23,
-                "target_zh": "迪奥娜",
-                "title_zh": "凯亚关于迪奥娜",
-                "content_zh": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
-                "target_en": "Diona",
-                "title_en": "Kaeya about Diona",
-                "content_en": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
-            },
-            {
-                "target_id": 12,
-                "target_zh": "菲谢尔",
-                "title_zh": "凯亚关于菲谢尔",
-                "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
-                "target_en": "Fischl",
-                "title_en": "Kaeya about Fischl",
-                "content_en": "What? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must make me a future royal progeny too, no?"
-            },
-            {
-                "target_id": 11,
-                "target_zh": "诺艾尔",
-                "title_zh": "凯亚关于诺艾尔",
-                "content_zh": "我受代理团长大人所托，暗中照顾这位后辈。不过她很懂事，不需要我操太多心。真是令人欣慰。",
-                "target_en": "Noelle",
-                "title_en": "Kaeya about Noelle",
-                "content_en": "I was entrusted by the Acting Grand Master to work in the background to support Noelle. But there hasn't been much for me to concern myself with — she has a good head on her shoulders. Quite the relief."
-            },
-            {
-                "target_id": 30,
-                "target_zh": "罗莎莉亚",
-                "title_zh": "凯亚关于罗莎莉亚",
-                "content_zh": "啊哈哈，你想知道罗莎莉亚修女的秘密吗？这个不能说。不过我对她印象还不错，比某人好多了。她能够诚实地面对自己。烂事就是烂事，提不起干劲就是提不起干劲。",
-                "target_en": "Rosaria",
-                "title_en": "Kaeya about Rosaria",
-                "content_en": "Ahaha, you want to know about the secrets of Sister Rosaria? That... I cannot tell you. Though my impression of her is not bad — certainly better than a certain someone whose name I won't bother to mention. She's honest with herself. She casts off that which she has no time for and she doesn't feign motivation for affairs that do not interest her."
-            },
-            {
-                "target_id": 13,
-                "target_zh": "砂糖",
-                "title_zh": "凯亚关于砂糖",
-                "content_zh": "别看砂糖文静又内向，据说，她在实验室里，收藏了很多特别的东西哦，很刺激，又很…露骨的那种。嗯？你问我？…我像是会偷看女孩子房间的人吗？",
-                "target_en": "Sucrose",
-                "title_en": "Kaeya about Sucrose",
-                "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
             }
         ]
     },
@@ -4401,6 +4383,24 @@
                 "target_en": "Sucrose",
                 "title_en": "Lisa about Sucrose",
                 "content_en": "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "丽莎关于赛诺",
+                "content_zh": "离开须弥之后，除了和恩师保持礼节性的通信，我和教令院已经没有什么往来了。幸好，不是每位被寄予了重望的弟子，都像我一样怠惰…听说那位师弟赛诺就相当活跃呢。",
+                "target_en": "Cyno",
+                "title_en": "Lisa about Cyno",
+                "content_en": "I've barely kept in touch with anyone from the Akademiya since leaving Sumeru, except for the occasional letters to my teachers out of basic courtesy. Fortunately, not every promising student turned out as lazy as I am... I heard that one of my juniors, Cyno, now leads quite the action-packed life."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "丽莎关于柯莱",
+                "content_zh": "小柯莱每次写信都会使用新词，尝试与之前不同的表述方式。呵呵，也难怪她进步得那么快。除了自己的努力之外，她那位善良而又热忱的师父，一定也给予了很多帮助吧。",
+                "target_en": "Collei",
+                "title_en": "Lisa about Collei",
+                "content_en": "Ah, dear little Collei. Every time she writes to me, she tries out new words and expressions she's learned recently... Hehe, no wonder she's improving so quickly. That wonderful and warmhearted master of hers must have helped a lot too."
             }
         ]
     },
@@ -4510,6 +4510,15 @@
                 "target_en": "Eula",
                 "title_en": "Amber about Eula",
                 "content_en": "Eula is a great friend of mine! You just need to get used to her sense of humor and you'll get along fine! The only reason she's misunderstood by so many people is her family name. How can I get them to see her for who she really is?"
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "安柏关于柯莱",
+                "content_zh": "n\\/a",
+                "target_en": "Collei",
+                "title_en": "Amber about Collei",
+                "content_en": "n\\/a"
             }
         ]
     },
@@ -4582,7 +4591,7 @@
                 "content_zh": "诺艾尔，嗯…那个努力想要成为西风骑士的少女。她的内心仍有软弱之处，现在这个阶段，也许还不适合让她接触外界的凶险。",
                 "target_en": "Noelle",
                 "title_en": "Jean about Noelle",
-                "content_en": "Noelle... She's very trying in her pursuit to become a Knight of Favonius. However, I fear she is not quite ready for the dangers that lie beyond Mondstadt's walls."
+                "content_en": "Noelle... She puts enormous effort into trying to become a Knight of Favonius. However, I fear she is not quite ready for the dangers that lie beyond Mondstadt's walls."
             },
             {
                 "target_id": 30,
@@ -4627,7 +4636,124 @@
                 "content_zh": "优菈？咳…请不要对她的身世耿耿于怀，西风骑士会公正地评价每个人。优菈明辨是非，才华出众，偶尔发表危险言论，也只是她的性格使然。哪怕她总是说要挑战我，我也不介意。",
                 "target_en": "Eula",
                 "title_en": "Jean about Eula",
-                "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I do not mind."
+                "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I don't mind."
+            }
+        ]
+    },
+    "凯亚": {
+        "id": 4,
+        "name_zh": "凯亚",
+        "name_en": "Kaeya",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617001674227.png",
+        "ver": "1.0",
+        "lines": [
+            {
+                "target_id": 1,
+                "target_zh": "琴",
+                "title_zh": "凯亚关于琴",
+                "content_zh": "哦？代理团长大人，你可要多多支持她。",
+                "target_en": "Jean",
+                "title_en": "Kaeya about Jean",
+                "content_en": "What? The Acting Grand Master? You need to give her your full support."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "凯亚关于丽莎",
+                "content_zh": "丽莎啊…你千万记得要准时还书哦？上次因为这事儿惹她生了气，直到现在我左手的尺骨还是麻麻的。",
+                "target_en": "Lisa",
+                "title_en": "Kaeya about Lisa",
+                "content_en": "Oh Lisa. Hmm... You'd better not forget to return your books on time. I made that mistake once and boy was she angry. My arm is still numb from last time..."
+            },
+            {
+                "target_id": 2,
+                "target_zh": "安柏",
+                "title_zh": "凯亚关于安柏",
+                "content_zh": "侦察骑士是个机灵又正义的好骑士。可千万别在她面前做坏事喔。",
+                "target_en": "Amber",
+                "title_en": "Kaeya about Amber",
+                "content_en": "That Outrider is a clever and righteous knight. Be careful not to step out of line in front of her."
+            },
+            {
+                "target_id": 6,
+                "target_zh": "迪卢克",
+                "title_zh": "凯亚关于迪卢克",
+                "content_zh": "迪卢克？小时候的他挺可爱的。可如今却活在自己的世界里…总之是个无趣的家伙。",
+                "target_en": "Diluc",
+                "title_en": "Kaeya about Diluc",
+                "content_en": "Diluc? He was cute as a young lad. But nowadays he just seems to be in a world of his own... Overall, not much fun to hang out with."
+            },
+            {
+                "target_id": 9,
+                "target_zh": "可莉",
+                "title_zh": "凯亚关于可莉",
+                "content_zh": "可莉，看来还是没有掌握躲避代理团长检查的技巧啊，明明我已经点拨过她…哈哈，我说着玩玩的，你可别去揭发我哦。",
+                "target_en": "Klee",
+                "title_en": "Kaeya about Klee",
+                "content_en": "Klee. Seems she has failed to elude the Acting Grand Master's investigative skills, despite the pointers I gave her... Haha, I'm kidding, no need to go reporting me or anything."
+            },
+            {
+                "target_id": 26,
+                "target_zh": "阿贝多",
+                "title_zh": "凯亚关于阿贝多",
+                "content_zh": "阿贝多啊，沉稳优雅的小帅哥，而且才华横溢，是很讨人喜欢的类型。怎么，你也心动了？",
+                "target_en": "Albedo",
+                "title_en": "Kaeya about Albedo",
+                "content_en": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
+            },
+            {
+                "target_id": 23,
+                "target_zh": "迪奥娜",
+                "title_zh": "凯亚关于迪奥娜",
+                "content_zh": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
+                "target_en": "Diona",
+                "title_en": "Kaeya about Diona",
+                "content_en": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "凯亚关于菲谢尔",
+                "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
+                "target_en": "Fischl",
+                "title_en": "Kaeya about Fischl",
+                "content_en": "What? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must make me a future royal progeny too, no?"
+            },
+            {
+                "target_id": 11,
+                "target_zh": "诺艾尔",
+                "title_zh": "凯亚关于诺艾尔",
+                "content_zh": "我受代理团长大人所托，暗中照顾这位后辈。不过她很懂事，不需要我操太多心。真是令人欣慰。",
+                "target_en": "Noelle",
+                "title_en": "Kaeya about Noelle",
+                "content_en": "I was entrusted by the Acting Grand Master to work in the background to support Noelle. But there hasn't been much for me to concern myself with — she has a good head on her shoulders. Quite the relief."
+            },
+            {
+                "target_id": 30,
+                "target_zh": "罗莎莉亚",
+                "title_zh": "凯亚关于罗莎莉亚",
+                "content_zh": "啊哈哈，你想知道罗莎莉亚修女的秘密吗？这个不能说。不过我对她印象还不错，比某人好多了。她能够诚实地面对自己。烂事就是烂事，提不起干劲就是提不起干劲。",
+                "target_en": "Rosaria",
+                "title_en": "Kaeya about Rosaria",
+                "content_en": "Ahaha, you want to know about the secrets of Sister Rosaria? That... I cannot tell you. Though my impression of her is not bad — certainly better than a certain someone whose name I won't bother to mention. She's honest with herself. She casts off that which she has no time for and she doesn't feign motivation for affairs that do not interest her."
+            },
+            {
+                "target_id": 13,
+                "target_zh": "砂糖",
+                "title_zh": "凯亚关于砂糖",
+                "content_zh": "别看砂糖文静又内向，据说，她在实验室里，收藏了很多特别的东西哦，很刺激，又很…露骨的那种。嗯？你问我？…我像是会偷看女孩子房间的人吗？",
+                "target_en": "Sucrose",
+                "title_en": "Kaeya about Sucrose",
+                "content_en": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "凯亚关于柯莱",
+                "content_zh": "嗯，柯莱？真是个怀念的名字，你可找对人了！我来告诉你过去发生的事情吧，干脆从头说起——保证原汁原味！",
+                "target_en": "Collei",
+                "title_en": "Kaeya about Collei",
+                "content_en": "Oh, Collei? Oho, now there's a name I haven't heard in a while... You came to the right person! Let me tell you her whole story, starting right from the very beginning, with all the delicious details!"
             }
         ]
     }

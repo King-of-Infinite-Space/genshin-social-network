@@ -10,10 +10,10 @@ from datetime import date
 
 from notion_db import fetch_char_list, update_char_list
 
-CHECKPOINT_OK = "utils/char_checkpoint.json"
-CHECKPOINT_PENDING = "utils/char_pending.json"
-DATA_FILE = "utils/char_data.json"
-DATA_FILE_MIN = "page/char_data_min.json"
+CHECKPOINT_OK = "data/char_checkpoint.json"
+CHECKPOINT_PENDING = "data/char_pending.json"
+DATA_FILE = "data/char_data.json"
+DATA_FILE_MIN = "data/char_data_min.json"
 
 #%%
 
@@ -228,21 +228,22 @@ def annotate_template(template, remote_data: list[dict]):
 
 
 def calc_ver(offset):
+    ref_ver = os.environ["REF_VER"]
+    if ref_ver is None:
+        return ""
+    ref_date = os.environ["REF_DATE"]
+    period = os.environ["PERIOD"]
     n_offset = int(100 * float(offset))
-    # 2022-6-1 Wed v2.7.1 (delayed 3 weeks)
-    # 1 sub-version per 6 weeks, usually two banners
-    dd = (date.today() - date(2022, 6, 1)).days
-    n_ref = 270
-    # 2.7.1 -> 270
-    # 2.7.2 -> 275
-    n_sub = dd // 42
-    n_half = 1 + dd % 42 // 21
-    # first half or second half
-    d_half = dd % 21
-    # how long since last banner
-    n_banner = 5 * (n_half + (d_half >= 14) - 1)
-    # allows pre-updating if close to future banner
-    n = n_ref + n_sub * 10 + n_banner + n_offset
+    dd = (date.today() - date.fromisoformat(ref_date)).days
+    ref_vers = ref_ver.split(".")
+    if ref_vers[-1] == "1":
+        ref_vers[-1] = "0"
+    else:
+        ref_vers[-1] = "5"
+    n_ref = int("".join(ref_vers))
+    n_banners = dd // int(period)
+
+    n = n_ref + n_banners * 5 + n_offset
     v = list(str(n))
     if v[-1] == "0":
         v[-1] = "1"
@@ -332,6 +333,8 @@ def main():
         print("Committing changes —— " + commit_msg)
         commit_changes(commit_msg)
         send_message(commit_msg)
+    else:
+        print(f"Commit message: {commit_msg}")
 
 
 def send_message(msg):

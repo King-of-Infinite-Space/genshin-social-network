@@ -1,17 +1,35 @@
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 3" # runs at 0:00 UTC every Wed
+
+env:
+  REF_VER: 3.1.1
+  REF_DATE: 2022-09-28
+  PERIOD: 18
 
 jobs:
-  update:
+  scheduler:
+    if: github.repository_owner == 'King-of-Infinite-Space'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          days=$(( ($(date +%s)-$(date +%s --date $REF_DATE))/(3600*24) ))
+          echo "$days days since reference v$REF_VER"
+          continue=$(( days % $PERIOD < 7 ))
+          [[ "$GITHUB_EVENT_NAME" = 'workflow_dispatch' ]] && continue=1
+          echo "::set-output name=continue::$continue"
+
+  updater:
+    needs: scheduler
+    if: needs.scheduler.outputs.continue == 1
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
-        uses: actions/checkout@v2
-        with:
-          ref: main
+        uses: actions/checkout@v3
 
       - name: setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: "3.9"
 

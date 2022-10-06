@@ -1,5 +1,8 @@
-// src_base = 'subfolder/' or jsdelivr CDN
-// defined in HTML
+const data_url = ["localhost", "127.0.0.1", ""].includes(
+  window.location.hostname
+)
+  ? "../data/char_data_min.json"
+  : "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/data/char_data_min.json"
 
 const langs = ["zh", "en"]
 
@@ -512,7 +515,7 @@ async function getJson(url) {
 }
 
 async function main() {
-  charData = await getJson(`${src_base}char_data_min.json`)
+  charData = await getJson(data_url)
   // create nodes
   for (const char of charData) {
     for (const l of langs) {
