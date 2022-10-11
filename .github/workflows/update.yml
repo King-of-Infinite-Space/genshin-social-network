@@ -18,7 +18,7 @@ jobs:
           echo "$days days since reference v$REF_VER"
           continue=$(( days % $PERIOD < 7 ))
           [[ "$GITHUB_EVENT_NAME" = 'workflow_dispatch' ]] && continue=1
-          echo "::set-output name=continue::$continue"
+          echo "continue=$continue" >> $GITHUB_OUTPUT
 
   updater:
     needs: scheduler
