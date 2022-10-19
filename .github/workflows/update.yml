@@ -12,8 +12,11 @@ jobs:
   scheduler:
     if: github.repository_owner == 'King-of-Infinite-Space'
     runs-on: ubuntu-latest
+    outputs:
+      continue: ${{ steps.step1.outputs.continue }}
     steps:
-      - run: |
+      - id: step1
+        run: |
           days=$(( ($(date +%s)-$(date +%s --date $REF_DATE))/(3600*24) ))
           echo "$days days since reference v$REF_VER"
           continue=$(( days % $PERIOD < 7 ))
