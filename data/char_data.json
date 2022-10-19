@@ -4621,6 +4621,15 @@
                 "content_en": "Um... I'd rather not talk about him, if that's okay? Oh, no — the General Mahamatra isn't a bad guy or anything. Matter of fact, I have him to thank for bringing me back from Mondstadt to Sumeru and finding me a safe place to stay. It's just that... whenever I'm reminded of the sealing process just before leaving Mondstadt... ooh... the back of my neck starts hurting again..."
             },
             {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "柯莱关于妮露",
+                "content_zh": "感觉她有点迷迷糊糊的样子，如果来化城郭附近表演的话，不会走着走着就迷路在深林里吧…那我可一定要好好看着她，尽我见习巡林员的职责。",
+                "target_en": "Nilou",
+                "title_en": "Collei about Nilou",
+                "content_en": "She seems a little absent-minded. If she ever comes to perform around Gandharva Ville, I'm worried she'll end up wandering off into the forest and getting lost... So I'll have to watch out for her, as a responsible trainee forest ranger should."
+            },
+            {
                 "target_id": 2,
                 "target_zh": "安柏",
                 "title_zh": "柯莱关于安柏",
@@ -4691,6 +4700,15 @@
                 "target_en": "Zhongli",
                 "title_en": "Dori about Rex Lapis",
                 "content_en": "Before Rex Lapis parted from this world, I'd say a little prayer every morning: \"O great God of Wealth up above, please bless my day with more Mora to love.\" But uh, now, I guess I just pray to myself... \"O divine Dori right here and now, please bless my day with more Mora to count!\" Hehe."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "多莉关于妮露",
+                "content_zh": "她的舞跳得不错，但只留在须弥，还是不能最大程度上发挥出她的价值…我是说，有点屈才。你说你说，如果能把她带出去，在提瓦特举办巡回演出的话，一共能赚多少摩拉呢？",
+                "target_en": "Nilou",
+                "title_en": "Dori about Nilou",
+                "content_en": "She's a good dancer, but definitely not making the most of her time by staying in Sumeru... I mean, it's a complete waste of her talent. If I took her on tour across all Teyvat, do you have any idea how much Mora I'd rake in?"
             }
         ]
     },
@@ -4729,6 +4747,15 @@
                 "content_en": "I once helped Collei seal away the god's remains in her body, but the process was an unthinkably painful one. To many, enduring that kind of pain would be a prospect more terrifying than death, so it was very admirable that she was able to persevere through it all."
             },
             {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "赛诺关于妮露",
+                "content_zh": "？？？",
+                "target_en": "Nilou",
+                "title_en": "Cyno about Nilou",
+                "content_en": "？？？"
+            },
+            {
                 "target_id": 3,
                 "target_zh": "丽莎",
                 "title_zh": "赛诺关于丽莎",
@@ -4754,6 +4781,51 @@
                 "target_en": "Cyno",
                 "title_en": "Candace about Cyno",
                 "content_en": "In the past, it was rare to see the Akademiya's General Mahamatra on this side of the Wall of Samiel, but recently he has been showing up here all the time. I believe that the Eremites have some truly terrifying stories to tell about him..."
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name_zh": "妮露",
+        "name_en": "Nilou",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/27/a5f2a564298709911b3ceef0289d183c_1572553848866085675.png",
+        "ver": "3.1.2",
+        "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "妮露关于赛诺",
+                "content_zh": "教令院的人，我不太敢接触，毕竟他们对歌舞艺术的印象都不好。我常常会想，那他们会通过什么来解闷呢？呃…你说赛诺的话，会玩「七圣召唤」？真是不可思议呢。",
+                "target_en": "Cyno",
+                "title_en": "Nilou about Cyno",
+                "content_en": "I don't really like interacting with people from the Akademiya because they don't view the arts too kindly. I often wonder what they do when they're bored... Huh, Cyno plays Genius Invokation TCG? I can't believe it..."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "妮露关于提纳里",
+                "content_zh": "据说他是很厉害的植物学家。那他分辨蘑菇的本领肯定很厉害，至少不会吃到毒蘑菇…好羡慕呀。",
+                "target_en": "Tighnari",
+                "title_en": "Nilou about Tighnari",
+                "content_en": "I hear he's a really talented botanist. He must be good at telling apart mushrooms. At least, he would never have to worry about eating a poisonous one... I'm so jealous."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "妮露关于柯莱",
+                "content_zh": "她偶尔会来看我的演出，是一位很热心的见习巡林员呢。她还提醒过我小心迷路，这是为什么呢？我也没有迷路过呀。",
+                "target_en": "Collei",
+                "title_en": "Nilou about Collei",
+                "content_en": "She sometimes comes to watch my performances. She's a really hard-working Trainee Forest Ranger. One time, she warned me about getting lost. What did she mean by that? It's not like I've gotten lost before..."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "妮露关于多莉",
+                "content_zh": "出手阔绰的多莉大商人也曾看过我跳舞。我记得，有一次她和祖拜尔先生商量了什么事情，之后就再也没来过了。会是什么事情呢？嗯…呃？你是说她可能想带我进行一场提瓦特巡演？不会吧，祖拜尔先生肯定帮忙拒绝了吧…应该拒绝了吧…",
+                "target_en": "Dori",
+                "title_en": "Nilou about Dori",
+                "content_en": "The big-spending merchant Dori has watched me dance before. I remember that she talked with Mr. Zubayr once, and then never came back. Did something happen? ...Huh? She wanted me to go on tour around Teyvat? No way, Mr. Zubayr definitely would've refused for me! ...Ahh, please tell me he has..."
             }
         ]
     }
