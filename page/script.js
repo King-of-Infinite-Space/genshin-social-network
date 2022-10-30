@@ -621,8 +621,7 @@ async function main() {
   }
 
   fetch(
-    "https://kois.pythonanywhere.com/plus?url=" +
-      encodeURIComponent(window.location.href),
+    "https://count.lnfinite.space/page/genshin-social-network?plus=1",
     { credentials: "include" }
   )
     .then((res) => res.text())

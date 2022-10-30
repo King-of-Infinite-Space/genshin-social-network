@@ -1,4 +1,4 @@
-**—> [king-of-infinite-space.github.io/genshin-social-network](https://king-of-infinite-space.github.io/genshin-social-network) <—**
+**—> [genshin-social-network.vercel.app](https://genshin-social-network.vercel.app/) <—**
 
 ---
 
@@ -50,10 +50,4 @@ I don't even play this game (only read and watch the stories). I'm against gacha
 [uzair-ashraf/genshin-impact-wish-simulator: A React web application to simulate Genshin Impact gacha in the browser](https://github.com/uzair-ashraf/genshin-impact-wish-simulator)\
 [GenshinMap/genshinmap.github.io: A flexible, community-driven interactive map for Genshin Impact.](https://github.com/GenshinMap/genshinmap.github.io)
 
----
-
-Page visits
-![Hits](https://kois.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fking-of-infinite-space.github.io%2Fgenshin-social-network)
-
-Repo visits
-![Hits](https://kois.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FKing-of-Infinite-Space%2Fgenshin-social-network)
+<img src='https://count.lnfinite.space/repo/genshin-social-network.svg?plus=1' width='0' height='0' />
