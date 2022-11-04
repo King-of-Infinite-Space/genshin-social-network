@@ -228,10 +228,10 @@
                 "target_id": 52,
                 "target_zh": "柯莱",
                 "title_zh": "安柏关于柯莱",
-                "content_zh": "n\\/a",
+                "content_zh": "柯莱和我写信说，她的「魔鳞病」已经彻底康复…我太为她高兴了！真想下一秒就飞到她身边，紧紧地抱住她。她还说很想念蒙德的大家，想等哪一天独当一面之后，亲口来汇报自己的成长…啊，要是能赶上下一次羽球节就好了，我都快等不及了！",
                 "target_en": "Collei",
                 "title_en": "Amber about Collei",
-                "content_en": "n\\/a"
+                "content_en": "Collei wrote to me saying that her Eleazar has been completely cured... I'm so happy for her! I wish I could fly to her side right now and give her the biggest hug! She also said she misses everyone in Mondstadt, and that once she's ready, she'll come visit us in person and tell us all about her progress... Oh, it would be great if she could make it in time for the next Ludi Harpastum. Aaah I can't wait to see her again!"
             }
         ]
     },
@@ -792,6 +792,15 @@
                 "target_en": "Raiden Shogun",
                 "title_en": "Venti about Baal",
                 "content_en": "So, I hear you defeated the mighty Raiden Shogun? Ah, I recall the days when she was a kagemusha, seeking to perfect her martial prowess. Hehe, she now no doubt employs a wide range of reasoning to get you to train with her. Oh but yes, come close and I shall let you in on her weakness — desserts!"
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "温迪关于布耶尔",
+                "content_zh": "你说草神啊，说到草神，就会先想到她那关于「梦境」的权能吧？与我所作的那些诗歌一样，她所创造的梦境也一样充满了浪漫与想象，我们可是很合得来呢。",
+                "target_en": "Nahida",
+                "title_en": "Venti about Buer",
+                "content_en": "The first thing you think of when you hear \"Dendro Archon\" is her power over dreams. Her dreams are akin to my ballads: full of emotion and imagination. It goes without saying that we get along really well."
             }
         ]
     },
@@ -2190,6 +2199,15 @@
                 "target_en": "Raiden Shogun",
                 "title_en": "Zhongli about Baal",
                 "content_en": "Time tempers all volition. Yet she would give up everyone for her beliefs. Perhaps it is for this very reason that she has come to where she stands today... Should the chance come by me, I too would like to learn of the Eternity for which she so earnestly endeavors."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "钟离关于布耶尔",
+                "content_zh": "智慧之神布耶尔，不仅统管整个须弥，还肩负着守护世界树的职责。若非有大智慧，的确难以司掌这些。拯救世界树一事，整个提瓦特的生灵都理应向她致谢。",
+                "target_en": "Nahida",
+                "title_en": "Zhongli about Buer",
+                "content_en": "As well as ruling over all of Sumeru, the God of Wisdom, Buer, has a duty to guard Irminsul. Only one who possesses great wisdom could hope to shoulder these responsibilities. All life in Teyvat owes her gratitude for saving Irminsul."
             }
         ]
     },
@@ -3408,6 +3426,15 @@
                 "target_en": "Venti",
                 "title_en": "Raiden Shogun about Venti",
                 "content_en": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "雷电将军关于布耶尔",
+                "content_zh": "我很欣赏她的谦逊，谦逊也的确是智者的美德。她的权能理应可以做到许多超乎想象的事，但布耶尔只是将它用在「纠正与守护」之上…真是个温柔的神明。",
+                "target_en": "Nahida",
+                "title_en": "Raiden Shogun about Buer",
+                "content_en": "I admire her humility; it is a sign of true wisdom. With the power she holds, Buer is capable of doing many things beyond our wildest imaginations... and yet, she uses her power only to right wrongs and to protect. She is a truly gentle god."
             }
         ]
     },
@@ -4560,11 +4587,20 @@
             {
                 "target_id": 54,
                 "target_zh": "赛诺",
-                "title_zh": "提纳里关于赛诺",
+                "title_zh": "提纳里关于赛诺·大风纪官",
                 "content_zh": "你想见赛诺？那我丑话说在前头，被他因为公事追在屁股后面可是要倒大霉的。大风纪官毕竟位高权重，平日里还真不好找。不过他偶尔会到化城郭附近偷偷看望柯莱，就算他不想让人看见，我也能听出是他。",
                 "target_en": "Cyno",
-                "title_en": "Tighnari about Cyno",
+                "title_en": "Tighnari about Cyno: General Mahamatra",
                 "content_en": "You want to see Cyno...? Well, firstly, a word of caution: if he ever comes chasing you down for work-related reasons, prepare for the nightmare of a lifetime. Other than that, General Mahamatra is a high-ranking position, so it usually isn't easy to find him. But he does occasionally go to Gandharva Ville to see Collei. As much as he might want to stay unnoticed, he can't fool my ears, heh."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "提纳里关于赛诺·为什么呢",
+                "content_zh": "在导师被救出来后，我给他写了一封问候信，但没想到导师说已经有人以我的名义拜访过他了，并在回信的结尾附上了一个问题：「为什么大风纪官说要靠须弥『强威』重振贤者们的名望？」\n…问得好，到底是为什么呢。",
+                "target_en": "Cyno",
+                "title_en": "Tighnari about Cyno: Good Question",
+                "content_en": "After my adviser's rescue, I wrote him a letter to send my regards. To my surprise, he wrote back saying that someone had already given him my regards in person. He ended the letter with a query \"Why is the General Mahamatra saying he wants to leverage the full might of Sumeru to restore the reputation of sages?\" ...Good question. I'd like to know, too."
             },
             {
                 "target_id": 53,
@@ -4583,6 +4619,15 @@
                 "target_en": "Lisa",
                 "title_en": "Tighnari about Lisa",
                 "content_en": "Cyno has mentioned her before — an extraordinary genius with a veritable wealth of knowledge and talent. A pity that she returned to Mondstadt so long ago. Perhaps, in the course of her studies, she witnessed the horrifying side of knowledge..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "提纳里关于小吉祥草王",
+                "content_zh": "我在上学的时候曾听过这样的说法：「植物的历史，便是草之国的历史。」也许说者无心，但我总觉得此话另有深意。如果我有一天能见到小草神大人，她会给我解释吗？",
+                "target_en": "Nahida",
+                "title_en": "Tighnari about Lesser Lord Kusanali",
+                "content_en": "As a student, I once heard this saying: \"Plants and the Land of Dendro share the same history.\" It could just be one of those things that people say, but I've always felt that there's a deeper meaning to those words... If I meet Lesser Lord Kusanali one day, I wonder... if she would explain them to me?"
             }
         ]
     },
@@ -4610,6 +4655,15 @@
                 "target_en": "Dori",
                 "title_en": "Collei about Dori",
                 "content_en": "I ran into her once on forest ranger duty. She pulled out a bottle of fruit juice from her bag that looked really tasty, as if she somehow knew I was thirsty... Fortunately, Master was there, and he stopped me from spending all of my hard-earned Mora in a moment of weakness..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "柯莱关于小吉祥草王",
+                "content_zh": "草神啊…小时候我很多次想大声问问神明，为什么要让我经历这么多苦难。唉，说不定就连神明自己，也经历着各种无奈的事吧。",
+                "target_en": "Nahida",
+                "title_en": "Collei about Lesser Lord Kusanali",
+                "content_en": "The Dendro Archon... When I was a kid, there were so many times when I just wanted to scream out to the gods and ask them why, why did I have to go through so much pain...? *sigh* But, for all I know, maybe the gods feel just as helpless about everything they have to endure as I did back then."
             },
             {
                 "target_id": 54,
@@ -4702,6 +4756,15 @@
                 "content_en": "Before Rex Lapis parted from this world, I'd say a little prayer every morning: \"O great God of Wealth up above, please bless my day with more Mora to love.\" But uh, now, I guess I just pray to myself... \"O divine Dori right here and now, please bless my day with more Mora to count!\" Hehe."
             },
             {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "多莉关于小吉祥草王",
+                "content_zh": "在须弥，小吉祥草王的信徒非常少。你问我吗？啊，如果她愿意给我摩拉的话，我就是她永恒的信徒。",
+                "target_en": "Nahida",
+                "title_en": "Dori about Lesser Lord Kusanali",
+                "content_en": "In Sumeru, Lesser Lord Kusanali has very few believers. Hmm? Am I one? Heh, if she's willing to pay me, I'd be her loyal believer for all eternity."
+            },
+            {
                 "target_id": 56,
                 "target_zh": "妮露",
                 "title_zh": "多莉关于妮露",
@@ -4747,13 +4810,22 @@
                 "content_en": "I once helped Collei seal away the god's remains in her body, but the process was an unthinkably painful one. To many, enduring that kind of pain would be a prospect more terrifying than death, so it was very admirable that she was able to persevere through it all."
             },
             {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "赛诺关于纳西妲",
+                "content_zh": "评价神明…这在我看来是略微有些僭越的事情。不过在同行的那段时间里，我也亲眼见证了她的智慧、勇气与决心。相较于那些只靠臆想就对她指指点点的贤者，我应该更有资格下这个结论：她是一位优秀的、值得尊敬的神明。",
+                "target_en": "Nahida",
+                "title_en": "Cyno about Nahida",
+                "content_en": "Commenting on a god might be overstepping my position a little... But when I was working with her, I personally witnessed her wisdom, courage, and determination. Compared with those sages who constantly undermined and criticized her without a shred of evidence, I think I can provide a more reliable assessment: She is an exceptional deity who is worthy of everyone's respect."
+            },
+            {
                 "target_id": 56,
                 "target_zh": "妮露",
                 "title_zh": "赛诺关于妮露",
-                "content_zh": "？？？",
+                "content_zh": "我能从她身上感到对舞蹈的热情与执念，这份执念非常坚定，不会轻易改变。希望以后，她也可以用自己热爱的舞蹈为他人带去快乐。",
                 "target_en": "Nilou",
                 "title_en": "Cyno about Nilou",
-                "content_en": "？？？"
+                "content_en": "I can sense her enthusiasm and passion for dancing — it has become an integral part of her being. I hope that she will always be able to use the art she loves to bring happiness to other people."
             },
             {
                 "target_id": 3,
@@ -4773,6 +4845,15 @@
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/22/4199ac7c190fe49d64215345c1c04f30_767621913108456368.png",
         "ver": "3.1.1",
         "lines": [
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "坎蒂丝关于小吉祥草王",
+                "content_zh": "草神啊…作为阿赫玛尔血脉延续的我既然能在此安然生存，或许也仰赖她的仁慈吧。不过，虽说心中怀有淡薄的感激之念，但我毕竟是沙漠的子嗣…",
+                "target_en": "Nahida",
+                "title_en": "Candace about Lesser Lord Kusanali",
+                "content_en": "Perhaps it is a testament to the Dendro Archon's benevolence that I, a descendant of the Al-Ahmar bloodline, am able to live peacefully on this land. If so, I suppose I am grateful for this much, but... I am first and foremost a child of the desert."
+            },
             {
                 "target_id": 54,
                 "target_zh": "赛诺",
@@ -4826,6 +4907,80 @@
                 "target_en": "Dori",
                 "title_en": "Nilou about Dori",
                 "content_en": "The big-spending merchant Dori has watched me dance before. I remember that she talked with Mr. Zubayr once, and then never came back. Did something happen? ...Huh? She wanted me to go on tour around Teyvat? No way, Mr. Zubayr definitely would've refused for me! ...Ahh, please tell me he has..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "妮露关于小吉祥草王",
+                "content_zh": "大巴扎的大家都很喜欢小吉祥草王大人，好想听听她对我跳的花神之舞的评价呀…啊！不、不，还是算了算了。她真的来了，我肯定会紧张得不得了。",
+                "target_en": "Nahida",
+                "title_en": "Nilou about Lesser Lord Kusanali",
+                "content_en": "The people of the Great Bazaar love Lesser Lord Kusanali. I'd love to hear her thoughts on my Dance of Sabzeruz... Oh, no, no, forget it... If she were in the audience, I'd get stage fright..."
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name_zh": "纳西妲",
+        "name_en": "Nahida",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/10/20/62cb7fb1815d9d05d3ece2e0d8e85c7d_8731082942818264376.png",
+        "alias_zh": "小吉祥草王, 布耶尔",
+        "alias_en": "Lesser Lord Kusanali, Buer",
+        "ver": "3.2.1",
+        "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "纳西妲关于赛诺·笑话",
+                "content_zh": "他讲的笑话确实深奥，还挺有意思的。嗯？你有哪句没听懂吗？那我解释给你听吧。",
+                "target_en": "Cyno",
+                "title_en": "Nahida about Cyno: Jokes",
+                "content_en": "His jokes are like buried treasure: gems hidden beneath the surface. They're a lot of fun. Hmm? Well, which part didn't you get? Okay, I can explain it for you."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "纳西妲关于赛诺·职责",
+                "content_zh": "在面对秩序与正义的冲突之时，不是每一位「大风纪官」都能得出绝对坚定的答案。他应该最清楚，妥协的结果只有无路可退，所以他现在能回到属于他的位置上，对整个须弥而言都是一大幸事。",
+                "target_en": "Cyno",
+                "title_en": "Nahida about Cyno: Duty",
+                "content_en": "Not every General Mahamatra would take such a clear-cut and decisive stance when faced with a conflict between order and justice. He must know only too well that compromise is a path that leads to a dead end, so it's extremely fortunate for all of Sumeru that he's now been able to return to his rightful post."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "纳西妲关于提纳里",
+                "content_zh": "雨林能够对抗「死域」的侵蚀，至今都生机焕发，巡林官们的付出举足轻重，而提纳里又是他们之中的佼佼者。只是…希望他可以稍稍温柔一些，这样才更有利于巡林员招新纳贤嘛。",
+                "target_en": "Tighnari",
+                "title_en": "Nahida about Tighnari",
+                "content_en": "The Forest Watchers played an essential role in helping the rainforest to withstand the Withering and continue to flourish, and Tighnari is the best of them all. Still... I do hope he learns to be a little gentler with people. Otherwise, it's gonna be difficult for the Forest Rangers to attract new top talent."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "纳西妲关于柯莱",
+                "content_zh": "我听说过她的故事，她的坚韧如宝石般璀璨夺目。她经历了太多，希望须弥的葱绿能够长久地庇护她，令她像普通的女孩子那样健康成长。",
+                "target_en": "Collei",
+                "title_en": "Nahida about Collei",
+                "content_en": "When I heard her story for the first time, her tenacity shone through like a dazzling gemstone. She's been through so much... I hope that just as the rainforest supports all kinds of life, Sumeru will always provide a safe and nurturing environment for her, so that she can grow up healthy and strong."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "纳西妲关于妮露",
+                "content_zh": "我曾经借用别人的身体，问她想不想让小吉祥草王来看她的舞蹈…虽然我已经悄悄看了很多次，但按理来说，应该要我本人到场，才算是对她「花神诞祭」表演的尊重。结果我却被委婉地拒绝了…唔，有点伤心。",
+                "target_en": "Nilou",
+                "title_en": "Nahida about Nilou",
+                "content_en": "I once borrowed someone else's body to ask her if she'd mind allowing Lesser Lord Kusanali to watch her dance... Actually, I had already watched her lots of times before in secret, but I wanted to attend her dance at the Sabzeruz Festival properly, in person, as a sign of respect. Anyway, it turned out that she gently declined the offer... I was a little sad about that."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "纳西妲关于多莉",
+                "content_zh": "她见到我的第一句话就是，「我看上了你的宫殿，怎么卖啊？」净善宫怎么可能卖给她呢？不过她的问题确实把我问住了，我想了好久，也不知道净善宫该定价多少摩拉…",
+                "target_en": "Dori",
+                "title_en": "Nahida about Dori",
+                "content_en": "The first thing she said when she saw me was \"Nice palace. How much?\" Of course, I couldn't possibly sell her the Sanctuary of Surasthana. But still, her question had me stumped. I thought about it long and hard, but I still can't figure out how much Mora it's worth..."
             }
         ]
     }
