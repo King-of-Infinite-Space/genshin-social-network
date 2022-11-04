@@ -10,6 +10,11 @@ from datetime import date
 
 from notion_db import fetch_char_list, update_char_list
 
+if not os.getenv("GITHUB_ACTIONS"):
+    from dotenv import load_dotenv
+
+    load_dotenv()
+
 CHECKPOINT_OK = "data/char_checkpoint.json"
 CHECKPOINT_PENDING = "data/char_pending.json"
 DATA_FILE = "data/char_data.json"
@@ -41,7 +46,8 @@ class Updater:
                 if about[lang] in title and name in title:
                     return name, char["id"]
                 if "alias_" + lang in char:
-                    for alias in char["alias_" + lang].split(", "):
+                    for alias in char["alias_" + lang].split(","):
+                        alias = alias.strip()
                         if about[lang] in title and alias in title:
                             return name, char["id"]
         return None, None
