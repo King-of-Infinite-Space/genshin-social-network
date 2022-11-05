@@ -84,10 +84,17 @@ const cy = cytoscape({
       },
     },
     {
-      selector: ".dashed",
+      selector: ".inOnly",
       style: {
         "line-style": "dashed",
-        "line-dash-pattern": [10, 8],
+        "line-dash-pattern": [10, 10],
+      },
+    },
+    {
+      selector: ".outOnly",
+      style: {
+        "line-style": "dashed",
+        "line-dash-pattern": [6, 4],
       },
     },
     {
@@ -236,7 +243,7 @@ function getLayout(name) {
       nodeSeparation: 150,
       nodeRepulsion: (node) => 100000, // node => 4500
       idealEdgeLength: (edge) => 80,
-      edgeElasticity: (edge) => 0.05,
+      edgeElasticity: (edge) => 0.03,
       ready: () => {
         if (cy.$(".selectedNodeTemp").length > 0) {
           // prevent different node size affecting layout
@@ -337,7 +344,12 @@ function setLayout(name, overwrite = false) {
 
 function unselectElements() {
   cy.$("node").removeClass(["selectedNode", "connectedNodes"])
-  cy.$("edge").removeClass(["unconnectedEdges", "connectedEdges", "dashed"])
+  cy.$("edge").removeClass([
+    "unconnectedEdges",
+    "connectedEdges",
+    "inOnly",
+    "outOnly",
+  ])
 }
 
 function selectNode(target) {
@@ -352,7 +364,10 @@ function selectNode(target) {
     edgesIn.addClass("connectedEdges")
     edgesOut.addClass("connectedEdges")
     if (edgesIn.length > 0 && edgesOut.length === 0) {
-      edgesIn.addClass("dashed")
+      edgesIn.addClass("inOnly")
+    }
+    if (edgesOut.length > 0 && edgesIn.length === 0) {
+      edgesOut.addClass("outOnly")
     }
   })
 }
@@ -620,10 +635,9 @@ async function main() {
     setLayout(getSelectedOption(), true)
   }
 
-  fetch(
-    "https://count.lnfinite.space/page/genshin-social-network?plus=1",
-    { credentials: "include" }
-  )
+  fetch("https://count.lnfinite.space/page/genshin-social-network?plus=1", {
+    credentials: "include",
+  })
     .then((res) => res.text())
     .then((text) => console.log(text))
 }
