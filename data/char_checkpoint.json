@@ -1,4 +1,67 @@
 {
+    "莱依拉": {
+        "id": 58,
+        "name_zh": "莱依拉",
+        "name_en": "Layla",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/10/20/f5b95c8f39180f0bf83303c6316439c4_2737625808068154153.png",
+        "ver": "3.2.2",
+        "lines": [
+            {
+                "target_id": 14,
+                "target_zh": "莫娜",
+                "title_zh": "莱依拉关于莫娜",
+                "content_zh": "在明论派学者的小圈子里，阿斯托洛吉斯·莫娜·梅姬斯图斯发表在《蒸汽鸟报》上的星相学文章名气不小。那些文章专业性都很强，但却能被学者之外的群体喜欢，要做到这点还是挺不容易的…欸？我把她的名字念得很流利？因为…厉害的人…得多多尊敬。",
+                "target_en": "Mona",
+                "title_en": "Layla about Mona",
+                "content_en": "Mona Megistus, the Astrologist... Her astrology column in The Steambird is well-known among Rtawahist scholars. Her articles always cover super specialized topics, but can still be appreciated by non-academics. That's no easy feat... Huh? Her name seems to just roll off my tongue? Uh, that's just because... I have a lot of respect for... amazing people."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "莱依拉关于丽莎",
+                "content_zh": "啊，我知道你在说谁了。丽莎·敏兹，传说中只用了两年就学成毕业的素论派天才，要是我也能有这样的头脑…你在蒙德的时候见过她本人？真、真的吗？她平时都是怎么学习的？看些什么书，做些什么工作？我…我该从哪里向她学起？",
+                "target_en": "Lisa",
+                "title_en": "Layla about Lisa",
+                "content_en": "Oh, I know who you're talking about. Lisa Minci — the legendary Spantamad prodigy who graduated in just two years. If only I had her brains... Huh? You met her in person when you were in Mondstadt? R—Really? So... what's her studying process like? What books does she read, and what kind of work does she do? Where... Where should I start if I want to learn from her?"
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "莱依拉关于多莉",
+                "content_zh": "多、莉、吗…我咬着牙、攥着拳头在她那里买过一次东西，她看我结账很痛快，好像误以为我是什么有钱人，后来还一直寄商品宣传单给我，唔…真是天大的误会！那次购物的代价…不仅把我的奖学金垫进去了，接下来的大半年里，我吃饭都不敢多要肉，买书还得等打折…",
+                "target_en": "Dori",
+                "title_en": "Layla about Dori",
+                "content_en": "Oh... D—Dori... ahem... I took the plunge and bought something from her once. She looked euphoric as I was settling the bill — I think she assumed I was some sort of mega-rich person. Kept relentlessly sending product ads to me in the mail afterwards. Ugh... biggest mistake of my life! I paid such a huge price for it... 'cause not only did I spend all of my scholarship money in one go, but for most of the next year, I had to survive mainly on cheap vegetables, and I couldn't buy textbooks unless they were on sale..."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "莱依拉关于赛诺",
+                "content_zh": "「大风纪官」大人很擅长「七圣召唤」吗…啊我是在想，有机会的话，说不定可以和他打一局。像「七圣召唤」这种牌类游戏，熟练掌握运算技巧的人玩起来总是简单一点，我反而…不一定…或许不会输给他。",
+                "target_en": "Cyno",
+                "title_en": "Layla about Cyno",
+                "content_en": "The General Mahamatra is really good at Genius Invokation TCG? Ooh, I wonder if... I mean, if I ever got the chance, maybe I could play a game with him. Card games like Genius Invokation TCG are always easier when you're good at mental math, so actually, I... I dunno, but... I might not necessarily lose to him."
+            },
+            {
+                "target_id": 55,
+                "target_zh": "坎蒂丝",
+                "title_zh": "莱依拉关于坎蒂丝",
+                "content_zh": "我第一次梦游醒来的时候，曾经见到过你描述的这个人，原来她叫坎蒂丝啊。我还记得自己醒来的那一刻…所有报告和文章都被完成了。当时的感觉就好像…好像我每天对着星空念叨，终于被星星听见了，它们派了一位使者来帮助我，呜呜…太感动了！",
+                "target_en": "Candace",
+                "title_en": "Layla about Candace",
+                "content_en": "...Huh, I saw someone who matches that description when I woke up after sleepwalking for the first time. \"Candace,\" huh? Now I know. I still remember the moment I woke up... All of my reports and essays were done. At the time, it felt like... like after pleading to the stars for days and days, now they'd finally heard me, and sent a messenger to help me... I felt so touched!"
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "莱依拉关于小吉祥草王",
+                "content_zh": "伟大的智慧之神，我最近每晚都在熬夜复习，考试就请让我通过吧！拜托了拜托了…",
+                "target_en": "Nahida",
+                "title_en": "Layla about Lesser Lord Kusanali",
+                "content_en": "Dear Mighty God of Wisdom, I've been studying late into the night for days on end, please let me pass this exam! Please, please... Zzz..."
+            }
+        ]
+    },
     "纳西妲": {
         "id": 57,
         "name_zh": "纳西妲",
@@ -133,6 +196,15 @@
                 "target_en": "Nahida",
                 "title_en": "Candace about Lesser Lord Kusanali",
                 "content_en": "Perhaps it is a testament to the Dendro Archon's benevolence that I, a descendant of the Al-Ahmar bloodline, am able to live peacefully on this land. If so, I suppose I am grateful for this much, but... I am first and foremost a child of the desert."
+            },
+            {
+                "target_id": 58,
+                "target_zh": "莱依拉",
+                "title_zh": "坎蒂丝关于莱依拉",
+                "content_zh": "「状若梦游的古怪少女」么…我确实在防沙壁附近看到过，虽然完全听不懂她说的话和写在纸上的一堆算式…不过，她似乎说完那些心情变好了许多。或许这是她排解心中压力的方式吧。",
+                "target_en": "Layla",
+                "title_en": "Candace about Layla",
+                "content_en": "An eccentric girl who always seems to be in a trance...? Yes, I believe I've seen her before — near the Wall of Samiel. I couldn't make sense of what she was saying, nor the calculations she wrote down, but she seemed to be in a much better mood after she'd finished. Perhaps this is her way of relieving stress."
             },
             {
                 "target_id": 54,
@@ -394,6 +466,15 @@
                 "target_en": "Dori",
                 "title_en": "Tighnari about Dori",
                 "content_en": "The renowned Lord Sangemah Bay is none other than Dori. I became acquainted with her through a previous research project. It had required very rare materials, and the only way I could get them was through her and her mysterious supply network. Uh... never you mind what I was buying and what I was researching, thank you very much!"
+            },
+            {
+                "target_id": 58,
+                "target_zh": "莱依拉",
+                "title_zh": "提纳里关于莱依拉",
+                "content_zh": "我听说过她，远近闻名的「梦游怪人」。关于她「梦游」的传闻真是千奇百怪，什么怪力千斤顶啦，夜闯阿如村啦，徒手翻越防沙壁啦…甚至还有说她能边睡边写完十万字论文的！这都什么跟什么，哪也不挨哪。",
+                "target_en": "Layla",
+                "title_en": "Tighnari about Layla",
+                "content_en": "I've heard of her, the famous \"Sleepwalking Eccentric.\" The rumors about her sleepwalking are really quite absurd: feats of superhuman strength, sprinting through Aaru Village at night, scaling the Wall of Samiel with her bare hands... Some even say that she can write a 100,000-word thesis while asleep! What a load of nonsense."
             },
             {
                 "target_id": 3,
@@ -3634,7 +3715,7 @@
                 "content_zh": "夜兰姐？我当然记得她啦。第一次见面时，我还猜她会喜欢那种清淡的菜式，没想到她是我见过最能吃辣的客人！菜肴里的辣味她觉得不够，居然把绝云椒椒直接嚼来吃！真了不起。",
                 "target_en": "Yelan",
                 "title_en": "Xiangling about Yelan",
-                "content_en": "Yelan? Of course, I remember her! When I first met her, I was certain she'd be the kind of gal who'd prefer lighter dishes... turned out that she can handle the most spice out of all my customers! Apparently, my dishes weren't spicy enough for her, because she started taking bites of raw Jueyun Chilies! Truly amazing."
+                "content_en": "Yelan? Of course, I remember her! When I first met her, I was certain she'd be the kind of gal who'd prefer lighter dishes... turned out that she can handle the most spice out of all my customers! Apparently, my dishes weren't spicy enough for her, because she started taking bites of raw Jueyun Chilis! Truly amazing."
             }
         ]
     },
