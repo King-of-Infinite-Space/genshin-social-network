@@ -49,7 +49,10 @@
     <script src="https://cdn.jsdelivr.net/npm/seedrandom@3.0.5/seedrandom.min.js"></script>
 
     <script type="text/javascript">
-      let src_base = ""
+      let src_base =
+        window.location.hostname === "github.io"
+          ? "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/page/"
+          : ""
       const stylesheet = document.createElement("link")
       stylesheet.type = "text/css"
       stylesheet.href = src_base + "style.css"
