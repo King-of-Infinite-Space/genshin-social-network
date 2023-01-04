@@ -4,10 +4,10 @@ on:
     - cron: "0 0 * * 3" # runs at 0:00 UTC every Wed
 
 env:
-  REF_VER: 3.1.1
-  REF_DATE: 2022-09-28
-  PERIOD: 18
-
+  REF_VER: 3.4.1
+  REF_DATE: 2023-01-18
+  PERIOD: 21
+  
 jobs:
   scheduler:
     if: github.repository_owner == 'King-of-Infinite-Space'
@@ -19,8 +19,9 @@ jobs:
         run: |
           days=$(( ($(date +%s)-$(date +%s --date $REF_DATE))/(3600*24) ))
           echo "$days days since reference v$REF_VER"
-          continue=$(( days % $PERIOD < 7 ))
+          continue=$(( days % $PERIOD == 0  ))
           [[ "$GITHUB_EVENT_NAME" = 'workflow_dispatch' ]] && continue=1
+          # manual run is allowed regardless of date
           echo "continue=$continue" >> $GITHUB_OUTPUT
 
   updater:
