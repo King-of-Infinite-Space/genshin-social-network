@@ -1,4 +1,149 @@
 {
+    "瑶瑶": {
+        "id": 62,
+        "name_zh": "瑶瑶",
+        "name_en": "Yaoyao",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/01/13/676ae3ebfbb61c724eae558e88cc731d_2601869312625208755.png",
+        "ver": "3.4.1",
+        "lines": [
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "瑶瑶关于香菱",
+                "content_zh": "师姐她最近…没有去找什么奇怪的食材吧？上次她说要生吃云来大章鱼，可让我担心坏了，要是吃坏了肚子可怎么办呀？她又不喜欢吃白先生的苦药。我求了师父一起劝住了她，可不要又看上另一种危险的食材了…哎…",
+                "target_en": "Xiangling",
+                "title_en": "Yaoyao about Xiangling",
+                "content_en": "Xiangling hasn't been, um... looking for strange ingredients lately, has she? She gave me a real fright last time. She said she was about to try some raw octopus from the Sea of Clouds. One of these days, she'll give herself an upset stomach — then what's she gonna do? 'Cause she definitely doesn't like taking Dr. Baizhu's medicine... Anyway, I got Master to try and talk some sense into her, too. Who knows what dangerous thing she'll be trying to eat next... *sigh*"
+            },
+            {
+                "target_id": 21,
+                "target_zh": "七七",
+                "title_zh": "瑶瑶关于七七·好朋友",
+                "content_zh": "七七是我最好的朋友！她有时候会忘记我，但我知道她不是故意的，只要提醒她看一下笔记，她马上就能想起来。",
+                "target_en": "Qiqi",
+                "title_en": "Yaoyao about Qiqi: Friends",
+                "content_en": "Qiqi's my best friend! She forgets who I am sometimes, but I know she doesn't mean it... I just have to remind her to check her notebook, and she remembers me right away."
+            },
+            {
+                "target_id": 21,
+                "target_zh": "七七",
+                "title_zh": "瑶瑶关于七七·一辈子",
+                "content_zh": "其实我也悄悄问过白先生，有没有办法治好她…嗯…没关系的，就算要提醒她一辈子，我也没关系的。",
+                "target_en": "Qiqi",
+                "title_en": "Yaoyao about Qiqi: Forever",
+                "content_en": "I once asked Dr. Baizhu in private if there's any way to cure her, and, um... But it doesn't matter. I'll probably have to keep reminding her who I am for my whole life, but that's okay."
+            },
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "瑶瑶关于甘雨",
+                "content_zh": "甘雨姐姐的工作一直很多，听说上次她还因为劳累，不小心趴在草地上睡着了，哎，让人担心！要不…我们进行一个「突击检查」！过去看看她有没有好好照顾自己吧？啊…稍等我一下，我去准备些甘雨姐姐喜欢吃的花花草草…",
+                "target_en": "Ganyu",
+                "title_en": "Yaoyao about Ganyu",
+                "content_en": "Ganyu always has a lot of work to do. I heard that one time, she was so tired she accidentally fell asleep on the grass. *sigh* I do worry about her, you know! Hmm, maybe... we could go do a \"surprise inspection\"! You know, check in and make sure she's taking care of herself. Oh! Uh... Wait a minute, I'll go get some of her favorite plants for her to eat..."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "瑶瑶关于刻晴",
+                "content_zh": "刻晴姐姐为人细心，做事周全。逢年过节总会来问候师父，这就是所谓的「尊师重道」吧？还是说「知文达礼」比较合适？…总之，我也要向刻晴姐姐学习！",
+                "target_en": "Keqing",
+                "title_en": "Yaoyao about Keqing",
+                "content_en": "Keqing's a very thoughtful person, and she always does a good job of everything. She also makes sure to pay Master a visit at every festival... She's what you call a \"bastion of piety.\" Or wait, maybe it's \"paragon of propriety\"? ...Well, anyway, I think I can learn a lot from her!"
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "瑶瑶关于云堇",
+                "content_zh": "云堇姐姐呀，她舞枪舞得可好啦，她表演的璃月戏也非常受欢迎，师父偶尔也会带我去看哦。只要有云堇姐姐登台，场面必是座无虚席，门不停宾…但、但…她唱的是什么意思呀？",
+                "target_en": "Yun Jin",
+                "title_en": "Yaoyao about Yun Jin",
+                "content_en": "Now, Yun Jin's really good at spear dancing, and her Liyue opera performances are very popular. Master even takes me to go see them sometimes. You won't find an empty seat when she's on stage... but, um... does anyone understand what she's singing about?"
+            },
+            {
+                "target_id": 15,
+                "target_zh": "北斗",
+                "title_zh": "瑶瑶关于北斗",
+                "content_zh": "北斗姐姐的船，好气派~要不是我和甘雨姐姐约好了不往船上跑，我连要在哪里搭个小小的床铺都想好了。",
+                "target_en": "Beidou",
+                "title_en": "Yaoyao about Beidou",
+                "content_en": "Beidou's ship is amazing! If I hadn't promised Ganyu that I wouldn't go on board anymore, I know exactly where I'd set up my own little bed, hee-hee."
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "瑶瑶关于申鹤",
+                "content_zh": "申鹤姐姐远离世俗多年，这次好不容易回到了璃月港，难免有很多不适应的地方。我也想帮着甘雨姐姐一起照顾她…可我要怎么开口，才不会让她觉得不自在呢？",
+                "target_en": "Shenhe",
+                "title_en": "Yaoyao about Shenhe",
+                "content_en": "Shenhe's been away from the human world for years and years, so it's no wonder that she's still adjusting to life in Liyue Harbor. I'd love to help Ganyu take care of her... But how do I ask her in a way that won't make her feel uncomfortable?"
+            },
+            {
+                "target_id": 31,
+                "target_zh": "烟绯",
+                "title_zh": "瑶瑶关于烟绯",
+                "content_zh": "烟绯姐姐有一本厚厚的法典，就连休假来探望师父的时候，都随身带着呢，真厉害呀~能一直拿着这么重的东西，还要读这么难懂的东西…",
+                "target_en": "Yanfei",
+                "title_en": "Yaoyao about Yanfei",
+                "content_en": "Yanfei takes that huge legal codex everywhere, even when she comes to pay Master a visit on her days off. She's incredible! I don't know how she carries that heavy thing around all the time, and I can't imagine how much hard work it must be to read it..."
+            }
+        ]
+    },
+    "艾尔海森": {
+        "id": 61,
+        "name_zh": "艾尔海森",
+        "name_en": "Alhaitham",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/01/10/bfd6f03d6e5057f0ea946bd5c8490f88_864998469933466014.png",
+        "url_name": "Alhatham",
+        "ver": "3.4.1",
+        "lines": [
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "艾尔海森关于小吉祥草王",
+                "content_zh": "过于小瞧或敬畏神明都是不可取的。神明需要信徒，同时神明也是生物链中的一环。所以我并不因为参与拯救过神明而自豪，希望小吉祥草王也不必介怀。",
+                "target_en": "Nahida",
+                "title_en": "Alhaitham about Lesser Lord Kusanali",
+                "content_en": "One should neither dismiss nor overly revere the divine. Gods require followers, and they are also part of a biological hierarchy. That's why I don't take any pride in the fact that I helped rescue a god. I hope Lesser Lord Kusanali doesn't take offense."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "艾尔海森关于提纳里",
+                "content_zh": "好像很多人觉得他脾气不够好，我倒认为有失偏颇。当初卡维把房子建在死域上，搞出很大一个烂摊子，给巡林队添了不少麻烦。即使如此这位巡林官也没有记恨卡维，还愿意请他在家里吃饭…可能就是因为世界上有这样的好人，才能让卡维继续生存下去吧。",
+                "target_en": "Tighnari",
+                "title_en": "Alhaitham about Tighnari",
+                "content_en": "Apparently, a lot of people think he has a bad temperament, but I don't think they're giving him a fair chance. When Kaveh built a house right over a Withering Zone and created a huge mess, it ended up being a real headache for the Forest Rangers. Even so, this Forest Ranger didn't hold it against Kaveh. He even invited Kaveh to his house for a meal. Hmm, maybe it's good people like him who allow people like Kaveh to survive."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "艾尔海森关于多莉",
+                "content_zh": "她精明又警觉，懂得如何将梦想落实到实际，是能把生活过得很好的聪明人。没有要包庇她的意思，但立场不同并不影响我认可她的生活态度。",
+                "target_en": "Dori",
+                "title_en": "Alhaitham about Dori",
+                "content_en": "She's sharp and always keeps an eye out for herself. She knows how to take life by the reins and make her dreams a reality. I'm not condoning her actions, but just because we stand on different sides doesn't mean that I can't appreciate her attitude towards life."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "艾尔海森关于赛诺",
+                "content_zh": "「集群意识」的案件增加了风纪官们的工作量，但我并没有什么心理压力。说到底，该起事件的根本成因并不在我。赛诺应该也是明白人，后来没再为这事找过我。",
+                "target_en": "Cyno",
+                "title_en": "Alhaitham about Cyno",
+                "content_en": "The hivemind case certainly added to the matra's workload, but my conscience is clear. The root cause of what ultimately transpired actually has nothing to do with me at all. I'm sure Cyno appreciates that, as he hasn't once approached me about the incident."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "艾尔海森关于妮露",
+                "content_zh": "艺术家的优点和缺点都很明显。妮露在扬长避短方面做得非常好，所以能过得简单又快乐。",
+                "target_en": "Nilou",
+                "title_en": "Alhaitham about Nilou",
+                "content_en": "The strengths and weaknesses of a performing artist are quite clear. Nilou knows how to play to her strengths, which enables her to live a happy and simple life."
+            }
+        ]
+    },
     "珐露珊": {
         "id": 60,
         "name_zh": "珐露珊",
@@ -160,6 +305,15 @@
                 "content_en": "...Huh, I saw someone who matches that description when I woke up after sleepwalking for the first time. \"Candace,\" huh? Now I know. I still remember the moment I woke up... All of my reports and essays were done. At the time, it felt like... like after pleading to the stars for days and days, now they'd finally heard me, and sent a messenger to help me... I felt so touched!"
             },
             {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "莱依拉关于艾尔海森",
+                "content_zh": "职务达到书记官这种高度的人，应该就不用发愁能不能立项、能不能成功了吧。不对，既然都当了书记官，应该连项目都不用做了。真好啊…",
+                "target_en": "Alhaitham",
+                "title_en": "Layla about Alhaitham",
+                "content_en": "I bet someone who's good enough to get a job like Scribe never has to worry about whether their projects will get approved or be successful. Wait... Oh shoot, if he's a Scribe, he probably doesn't have to do any projects in the first place. So lucky..."
+            },
+            {
                 "target_id": 57,
                 "target_zh": "纳西妲",
                 "title_zh": "莱依拉关于小吉祥草王",
@@ -223,6 +377,15 @@
                 "target_en": "Collei",
                 "title_en": "Nahida about Collei",
                 "content_en": "When I heard her story for the first time, her tenacity shone through like a dazzling gemstone. She's been through so much... I hope that just as the rainforest supports all kinds of life, Sumeru will always provide a safe and nurturing environment for her, so that she can grow up healthy and strong."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "纳西妲关于艾尔海森",
+                "content_zh": "他拥有很超前的知识体系，并且每时每刻都在保持思考，或许这个世界上没有什么事能瞒过他吧。然而对智慧者而言，普通人的凡庸是一种与生俱来的错吗？那都是「我们」不可分割的一部分。",
+                "target_en": "Alhaitham",
+                "title_en": "Nahida about Alhaitham",
+                "content_en": "He holds a body of knowledge more advanced than most could imagine, and his mind is constantly thinking, so maybe nothing in this world could ever fool him. But is the wise man truly wise to view the mediocre majority as defective? Because without them, there is no us."
             },
             {
                 "target_id": 56,
@@ -333,6 +496,15 @@
                 "content_en": "An eccentric girl who always seems to be in a trance...? Yes, I believe I've seen her before — near the Wall of Samiel. I couldn't make sense of what she was saying, nor the calculations she wrote down, but she seemed to be in a much better mood after she'd finished. Perhaps this is her way of relieving stress."
             },
             {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "坎蒂丝关于艾尔海森",
+                "content_zh": "真是奇怪的须弥学者，跟我接触过的其他学者都有些不太一样，他的想法与见解都很独到…希望他的这份锐利，不会打扰到阿如村的安宁吧。",
+                "target_en": "Alhaitham",
+                "title_en": "Candace about Alhaitham",
+                "content_en": "A truly unusual scholar, unlike any other I've ever met. He sees and thinks about things in his own unique way... I only hope he never wields his sharp mind against the peace of Aaru Village."
+            },
+            {
                 "target_id": 54,
                 "target_zh": "赛诺",
                 "title_zh": "坎蒂丝关于赛诺",
@@ -376,6 +548,15 @@
                 "target_en": "Collei",
                 "title_en": "Cyno about Collei",
                 "content_en": "I once helped Collei seal away the god's remains in her body, but the process was an unthinkably painful one. To many, enduring that kind of pain would be a prospect more terrifying than death, so it was very admirable that she was able to persevere through it all."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "赛诺关于艾尔海森",
+                "content_zh": "我不太喜欢过于聪明的人，他们总是自认为能掌控一切，从而经常在危险的边缘游走。不过艾尔海森还算稳定，在绝大部分场合，他确实有掌控局面、化险为夷的能力。",
+                "target_en": "Alhaitham",
+                "title_en": "Cyno about Alhaitham",
+                "content_en": "I don't really like people who are too smart. They think they can control everything, and constantly venture to the fringes of danger. But Alhaitham is one of the more reliable ones. In most cases, he is actually in control of things and has the ability to avert potential disaster."
             },
             {
                 "target_id": 57,
@@ -439,6 +620,15 @@
                 "target_en": "Tighnari",
                 "title_en": "Dori about Tighnari",
                 "content_en": "He loves learning as much as I love Mora. I heard he makes a lot of little interesting gadgets, but he refuses to partner with me to mass produce them. He always says he's too busy with work, but really it's just an excuse. *sigh* A shame, really... We could make an absolute fortune!"
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "多莉关于艾尔海森",
+                "content_zh": "他以前试探过我的手下。所以说，教令院的家伙真是又呆板又不诚恳。我又何必冒这个风险呢？懂了吗？小跟班。",
+                "target_en": "Alhaitham",
+                "title_en": "Dori about Alhaitham",
+                "content_en": "He once came nosing around, asking my minions some questions to see what he could find out. Like I said, those Akademiya people are just pig-headed and dishonest. Why should I take the risk of others prying into my business? Right, my young apprentice?"
             },
             {
                 "target_id": 24,
@@ -600,7 +790,16 @@
                 "content_zh": "在导师被救出来后，我给他写了一封问候信，但没想到导师说已经有人以我的名义拜访过他了，并在回信的结尾附上了一个问题：「为什么大风纪官说要靠须弥『强威』重振贤者们的名望？」\n…问得好，到底是为什么呢。",
                 "target_en": "Cyno",
                 "title_en": "Tighnari about Cyno: Good Question",
-                "content_en": "After my adviser's rescue, I wrote him a letter to send my regards. To my surprise, he wrote back saying that someone had already given him my regards in person. He ended the letter with a query \"Why is the General Mahamatra saying he wants to leverage the full might of Sumeru to restore the reputation of sages?\" ...Good question. I'd like to know, too."
+                "content_en": "After my adviser's rescue, I wrote him a letter to send my regards. To my surprise, he wrote back saying that someone had already given him my regards in person. He ended the letter with a question \"The General Mahamatra said he hopes that the sages will enjoy 'a more tasteful reputation' thanks to the efforts of our Darshan. Whatever do you suppose he meant by 'a more tasteful reputation'?\" ...It's a good question. I'd like to know, too."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "提纳里关于艾尔海森",
+                "content_zh": "小心艾尔海森。啊，倒不是说他是什么坏蛋啦，但他做事始终被理性主导，总会有让常人觉得无法接受的地方。不信的话可以去看看他的室友，经常被他气得比风史莱姆还鼓。",
+                "target_en": "Alhaitham",
+                "title_en": "Tighnari about Alhaitham",
+                "content_en": "Be careful of Alhaitham. I'm not saying he's a bad guy, but he purely operates by rationality, so people often find his actions unacceptable. If you don't believe me, just ask his housemate — thanks to Alhaitham, he has more pent-up frustration than an angry Anemo Slime."
             },
             {
                 "target_id": 53,
@@ -979,7 +1178,7 @@
                 "content_zh": "那家伙实在是个有趣的人。让温顺的鬼兜虫相互争斗，哈哈，有意思。嗯，虽然那次点拨实则是不经意之举，但没想到的是，他竟会直接与我称兄道弟，而且时至今日都还没发现我这位「绫人兄」的身份。呵呵，这样也好，我并不讨厌…单纯的人。",
                 "target_en": "Arataki Itto",
                 "title_en": "Kamisato Ayato about Arataki Itto",
-                "content_en": "Now he's an interesting case. The idea of pitting docile Onikabuto against each other in battle, I mean really... I was only speaking in polite platitudes when I gave him a that little pep talk, but to my surprise he started calling me \"bro\"... To this day, he calls me \"my bro Ayato\" without the faintest idea of my true identity. It's quite alright by me, though, I have nothing against his... eccentricities."
+                "content_en": "Now he's an interesting case. Pitting docile Onikabuto against each other in battle... heh, that's a first... I was only speaking in polite platitudes when I gave him that little pep talk, but to my surprise he started calling me \"bro\"... To this day, he calls me \"my bro Ayato\" without the faintest idea of my true identity. It's quite alright by me, though, I have nothing against his... unique character."
             },
             {
                 "target_id": 16,
@@ -1396,7 +1595,7 @@
                 "content_zh": "哈哈哈哈，我跟绫人兄可以说是相见恨晚啊！如果不是他提醒我「让温顺的虫子燃起斗志」是我一生都该坚守的觉悟，也许早在第七百八十次战败时，我就放弃斗虫了…哈哈，果然只有男人最懂男人，哎呀，我和他之间无需多言，在打牌和斗虫时，默契就已经悉数体现了。",
                 "target_en": "Kamisato Ayato",
                 "title_en": "Arataki Itto about Kamisato Ayato",
-                "content_en": "Haha, I only wish I could have met Ayato sooner. He really taught me something. \"You can kindle the warrior spirit even in the weakest of bugs\"... Yep, I really took that one to heart. If it weren't for those words of wisdom, I'm pretty sure I would have given up beetle fighting after losing for the 780th time... Yeah, I guess sometimes it takes a warrior to understand a warrior. When we're playing trading card games or battling beetles, we're always totally on the same wavelength."
+                "content_en": "Haha, I only wish I could have met my bro Ayato sooner. He really taught me something. \"You can kindle the warrior spirit in even the weakest of bugs\"... Yep, I really took that one to heart. If it weren't for those words of wisdom, I'm pretty sure I would have given up beetle fighting after losing for the 780th time... Heh, I guess sometimes it takes a warrior to understand a warrior. When we're playing trading card games or battling beetles, we're always totally on the same wavelength."
             },
             {
                 "target_id": 35,
@@ -2753,6 +2952,15 @@
                 "content_en": "Recently, everyone in Yujing Terrace has been saying nasty things about The Crux Fleet. But in my personal opinion, Beidou's contribution to Liyue Harbor goes far beyond what those miserable, rumor-loving heathens could even contemplate! ...Oops! I'm sorry, I... I'm not quite sure how that one slipped out..."
             },
             {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "甘雨关于瑶瑶",
+                "content_zh": "瑶瑶啊…我是受总务司那边的熟人托付，在城内好生照顾她，别让她再往船上跑…你问我总务司的业务范围？唔…不，不知道呢。",
+                "target_en": "Yaoyao",
+                "title_en": "Ganyu about Yaoyao",
+                "content_en": "Yaoyao... Someone I know at the Ministry of Civil Affairs tasked me with keeping an eye on her in the city, making sure she doesn't try and sneak aboard The Crux... Oh, you want to know what the Ministry of Civil Affairs does? ...Who knows, am I right!? Heh... Who knows what they do? ...Not me..."
+            },
+            {
                 "target_id": 28,
                 "target_zh": "魈",
                 "title_zh": "甘雨关于魈",
@@ -3275,6 +3483,15 @@
                 "target_en": "Xinyan",
                 "title_en": "Qiqi about Xinyan",
                 "content_en": "...Who?"
+            },
+            {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "七七关于瑶瑶",
+                "content_zh": "可爱…像小团雀。",
+                "target_en": "Yaoyao",
+                "title_en": "Qiqi about Yaoyao",
+                "content_en": "Cute. Like a nice little finch."
             }
         ]
     },
@@ -3652,7 +3869,7 @@
                 "content_zh": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
                 "target_en": "Mona",
                 "title_en": "Fischl about Mona",
-                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task."
+                "content_en": "Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: The poor lass was trying desperately not to laugh. It was no easy task."
             },
             {
                 "target_id": 30,
@@ -3823,7 +4040,7 @@
                 "content_zh": "北斗姐姐人特别好！跟着她出去航海的话，每次都能捕获到好多新鲜的食材！章鱼脚拿来煲汤最好，海天青就要用辣椒好好炝一炝。不光北斗姐姐，「南十字」的船员们都很喜欢我做的菜呢。",
                 "target_en": "Beidou",
                 "title_en": "Xiangling about Beidou",
-                "content_en": "Oh, Beidou is the greatest! Every time I go out sailing with her, she always manages to fish up lots of fresh ingredients! Octopus tentacles go great in soup, and seaweed fries up great with some chilies. Not just Beidou, but everyone on board The Crux loves my cooking."
+                "content_en": "Oh, Beidou is the greatest! Every time I go out sailing with her, she always manages to fish up lots of fresh ingredients! Octopus tentacles go great in soup, and seaweed fries up great with some chilis. Not just Beidou, but everyone on board The Crux loves my cooking."
             },
             {
                 "target_id": 24,
@@ -3853,13 +4070,22 @@
                 "content_en": "Ganyu? Oh... Oh yeah! I remember her — vegetarian, right? She doesn't come to the Wanmin Restaurant very often — but when she does, she sits alone in the corner and eats her meal in total silence. Poor girl, she seems kinda lonely... I always give her an extra-large portion because I feel sorry for her. Funniest thing is, she eats every last bite, every time! I wouldn't have guessed she had such an appetite just by looking at her."
             },
             {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "香菱关于瑶瑶",
+                "content_zh": "嘿嘿，她啊，是我引以为豪的小师妹喔！不过呀，她很久没来「万民堂」玩儿了。是大师父放心不下吧…哼，明明生的云来大章鱼那么好吃，瑶瑶上次不光不让我吃，还叫上大师父一起训斥我，呜…有时候真不知道，到底谁才是师姐了。",
+                "target_en": "Yaoyao",
+                "title_en": "Xiangling about Yaoyao",
+                "content_en": "Hee-hee, I'm proud to call her my junior! She hasn't swung by the Wanmin Restaurant in ages, though. Maybe master is trying to protect her from me or something... Last time we hung out, I was about to dig into some fresh raw octopus from the Sea of Clouds, but not only did she stop me from eating it, she sent master to tell me off too! Ugh... Honestly, sometimes it feels like I'm the one who gets treated like the junior..."
+            },
+            {
                 "target_id": 25,
                 "target_zh": "辛焱",
                 "title_zh": "香菱关于辛焱",
                 "content_zh": "辛焱经常来「万民堂」吃夜宵喔！像行秋、重云他们不敢试吃的新品，辛焱就会毫不犹豫地下筷…而且有八成以上的概率喜欢！哎，真是很不错的人呐。",
                 "target_en": "Xinyan",
                 "title_en": "Xiangling about Xinyan",
-                "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
+                "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine times out of ten, she enjoys them too! She's great."
             },
             {
                 "target_id": 48,
@@ -4088,6 +4314,15 @@
                 "content_en": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"even the most meticulous can fall prey to happenstance.\" When there are important affairs to deal with, it is always safer to investigate and resolve them personally."
             },
             {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "凝光关于瑶瑶",
+                "content_zh": "是在谈论甘雨正帮忙照看着的小姑娘么。呵，不用紧张，此事我并无声张的打算。就当那个船长，总能做一两件聪明事吧。对了，这瑶瑶，近来光顾着吃海产了，你得想办法劝劝甘雨，叫她为瑶瑶多补充些瓜果蔬菜才对。",
+                "target_en": "Yaoyao",
+                "title_en": "Ningguang about Yaoyao",
+                "content_en": "I presume you mean the girl whom Ganyu has taken under her wing. Do not worry, I have no plans to make this matter public. I am content to extend some leniency to the odd bit of mischievous maneuvering by that boat captain. One thing, though — Yaoyao seems to have become somewhat enamored with seafood lately. You should try to convince her to include some more fruits and vegetables in her diet."
+            },
+            {
                 "target_id": 20,
                 "target_zh": "刻晴",
                 "title_zh": "凝光关于刻晴",
@@ -4221,6 +4456,15 @@
                 "target_en": "Xinyan",
                 "title_en": "Beidou about Xinyan",
                 "content_en": "She's got a great personality, that one! The guys in the crew love that rock and roll of hers. Me? We have common ground, just... not when it comes to taste in music."
+            },
+            {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "北斗关于瑶瑶",
+                "content_zh": "瑶瑶这个小家伙啊，总是爱到船上来玩。但她那副扑闪着眼睛，见什么都新奇的样子，让谁都狠不下心来赶她走。唉，差点要打乱出航的计划。",
+                "target_en": "Yaoyao",
+                "title_en": "Beidou about Yaoyao",
+                "content_en": "Yaoyao always comes on board to play when we're in the harbor. Trouble is, when it's time for her to go she gives you the puppy eyes, and no one has the heart to send her away... Means we're always cutting it quite close by the time we manage to set sail."
             },
             {
                 "target_id": 33,
@@ -4708,7 +4952,7 @@
                 "content_zh": "温迪的声音很好听！不过，他唱的歌跟我擅长的风格差异很大。我试着偷偷学过…那旋律还真是复杂呀。",
                 "target_en": "Venti",
                 "title_en": "Barbara about Venti",
-                "content_en": "Venti's voice is amazing! But the songs he sings and the ones I'm good at are very different. I tried to learn them but... the melodies are just so complicated."
+                "content_en": "Venti's voice is amazing! But all the songs he sings and the ones I'm good at are very different. I tried to learn them but... the melodies are just so complicated."
             },
             {
                 "target_id": 10,
@@ -4735,7 +4979,7 @@
                 "content_zh": "诺艾尔实在是太可爱了！人又温柔，还很有耐心，跟她在一起的时候，完全不会有什么压力…哦，对了，她做的茶点也很特别。又香，又甜，而且很健康，嘿嘿。",
                 "target_en": "Noelle",
                 "title_en": "Barbara about Noelle",
-                "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Tee-hee!"
+                "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Hehehe!"
             }
         ]
     },
@@ -5069,7 +5313,7 @@
                 "content_zh": "阿贝多，大多数时候都呆在自己的工坊里，捣鼓一些很厉害的东西。但是，见到他的时候，会有种猜不透他在想些什么的感觉。嗯，猜不透呢…",
                 "target_en": "Albedo",
                 "title_en": "Amber about Albedo",
-                "content_en": "Albedo spends most of his time in his workshop, tinkering away with all of his awesome stuff. But, when you see him in person, you never can quite tell what he's thinking... Who knows what goes on in that mind of his..."
+                "content_en": "Albedo spends most of his time in his workshop, tinkering away with all of his awesome stuff. But, when you see him in person, you can never quite tell what he is thinking, not a clue at all."
             },
             {
                 "target_id": 11,
@@ -5078,7 +5322,7 @@
                 "content_zh": "你问诺艾尔吗？她的韧性可是很强的。作为前辈，你也要多照顾她一点哦。",
                 "target_en": "Noelle",
                 "title_en": "Amber about Noelle",
-                "content_en": "You wanna know about Noelle? She's super resilient. Still, since she's younger than us we should still look out for her."
+                "content_en": "You wanna know about Noelle? She's incredibly resilient. Still, as her predecessors, we should do what we can to help her out."
             },
             {
                 "target_id": 32,
