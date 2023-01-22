@@ -4,9 +4,9 @@ on:
     - cron: "0 0 * * 3" # runs at 0:00 UTC every Wed
 
 env:
-  REF_VER: 3.4.1
-  REF_DATE: 2023-01-18
-  PERIOD: 21
+  REF_VER: ${{ vars.REF_VER }}
+  REF_DATE: ${{ vars.REF_DATE }}
+  PERIOD: ${{ vars.PERIOD }}
   
 jobs:
   scheduler:
@@ -46,4 +46,6 @@ jobs:
           MSG_URL: ${{ secrets.MSG_URL }}
           PAYLOAD1: ${{ secrets.PAYLOAD1 }}
           NOTION_GENSHIN: ${{ secrets.NOTION_GENSHIN }}
+          URL_ZH: ${{ vars.URL_ZH }}
+          URL_EN: ${{ vars.URL_EN }}
         run: python ./utils/fetch_data.py

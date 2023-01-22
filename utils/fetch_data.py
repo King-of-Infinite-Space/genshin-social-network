@@ -10,11 +10,6 @@ from datetime import date
 
 from notion_db import fetch_char_list, update_char_list
 
-if not os.getenv("GITHUB_ACTIONS"):
-    from dotenv import load_dotenv
-
-    load_dotenv()
-
 CHECKPOINT_OK = "data/char_checkpoint.json"
 CHECKPOINT_PENDING = "data/char_pending.json"
 DATA_FILE = "data/char_data.json"
@@ -161,19 +156,12 @@ class Updater:
 
 
 def fetch_char_api() -> dict[str, dict[str, str]]:
-    # api from https://ys.mihoyo.com/main/character/mondstadt
-    # channelId 150 mondstadt, 151 liyue, 324 inazuma; 152 seems to be all chars, stumbled across
-    # alternatively from english / other language website https://genshin.mihoyo.com/en/character/mondstadt
-    # 487, 488, 1108 [489 all]
-    URL_zh = "https://ys.mihoyo.com/content/ysCn/getContentList?pageSize=100&pageNum=1&channelId=152"
-    URL_en = "https://genshin.mihoyo.com/content/yuanshen/getContentList?pageSize=100&pageNum=1&channelId=489"
-    # without &order=asc newest first
 
     S = requests.Session()
 
-    res = S.get(url=URL_zh, timeout=20)
+    res = S.get(url=os.getenv('URL_ZH'), timeout=20)
     data = res.json()
-    res2 = S.get(url=URL_en, timeout=20)
+    res2 = S.get(url=os.getenv('URL_EN'), timeout=20)
     data2 = res2.json()
     char_count = data["data"]["total"]
     char_list_zh = data["data"]["list"]
@@ -188,7 +176,7 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
         d = {
             "id": char_count - i,  # last one = 1
             "name_zh": name,
-            "name_en": char_list_en[i]["title"],
+            "name_en": char_list_en[i]["sTitle"],
         }
         # order may be slightly different, but remote data should fix it
         for subentry in entry["ext"]:
