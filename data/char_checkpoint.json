@@ -1,4 +1,85 @@
 {
+    "迪希雅": {
+        "id": 63,
+        "name_zh": "迪希雅",
+        "name_en": "Dehya",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/02/03/2926f9b9e00ac8443a660bab7333e996_1234439353888963053.png",
+        "ver": "3.5.1",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "迪希雅关于提纳里",
+                "content_zh": "哈哈哈，你别说，我还真的差点和这位巡林官做成过一笔生意。之前我经人介绍，要做他进沙漠考察时的向导。不过后来不知道为什么这单生意取消了，我记得…好像是这位巡林官实在耐不住热，还是其他什么原因来着。",
+                "target_en": "Tighnari",
+                "title_en": "Dehya about Tighnari",
+                "content_en": "Hahaha, the one that got away... I came thiiis close to doing a job for that guy. A contact put us in touch — I was supposed to be his guide through the desert for some kind of investigation. But then it got canceled out of the blue, no idea why. Wait, actually... I think there was something about him not being good with the heat? I'm not sure, but it could have been that..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "迪希雅关于小吉祥草王",
+                "content_zh": "哼，我之前还以为，教令院里顶多是有一群自私自利的鬣狗在蝇营狗苟，结果…居然还有这么几匹喂不熟的白眼狼在作乱。依我看，那位小吉祥草王真是慈悲得有些过头了，对付这种劣兽，最好是连骨头都锤碎掉！就这么放他们去林子里歇着，真是太便宜他们了。",
+                "target_en": "Nahida",
+                "title_en": "Dehya about Lesser Lord Kusanali",
+                "content_en": "Hmph... You know, I always thought the Akademiya's worst were just a bunch of greedy dogs, each fighting for their slice of the pie... Nope. Turns out they were a vicious pack of wolves who betrayed the whole nation. If you want my opinion... Lesser Lord Kusanali was too good to them. Those animals didn't deserve her mercy — she should've broken every single bone in their bodies! Instead, they got a nice little vacation in the rainforest... To say they got off lightly is just putting it mildly."
+            },
+            {
+                "target_id": 55,
+                "target_zh": "坎蒂丝",
+                "title_zh": "迪希雅关于坎蒂丝",
+                "content_zh": "你说坎蒂丝啊，她什么都好，就是性子犟得和驮兽一样。我和她说了好多次，别老是绷着弦，偶尔也要给自己放个假，比如去须弥城里逛逛，买点漂亮衣服首饰…但她总是说不放心村子，拒绝了我好多次。唉，实在不行，下次我帮她守村子，然后再拜托团里的妹子们带她进城玩玩好了。",
+                "target_en": "Candace",
+                "title_en": "Dehya about Candace",
+                "content_en": "Ah, Candace... I love her to bits, but she can be as stubborn as a Sumpter Beast sometimes. I keep telling her she oughtta cut herself some slack, take some time off, maybe go take a walk around Sumeru City, buy herself some nice new clothes or jewelry... but she always says the same old thing: She can't bear to leave the village unprotected. I dunno how many times she's turned me down now. Ugh, if I really can't persuade her, I guess I'll just have to watch the village for her sometime, and get one of my Eremite girls to take her shopping..."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "迪希雅关于艾尔海森",
+                "content_zh": "他曾经邀请我过去教令院任职，但我过不惯那种死水一潭般的生活，就拒绝了。不过这位书记官说话时那种七拐八绕，又夹枪带棒的腔调，倒是很符合我对教令院学者的印象…",
+                "target_en": "Alhaitham",
+                "title_en": "Dehya about Alhaitham",
+                "content_en": "He offered me a position in the Akademiya once. I declined — working in a place like that would bore me to death. He, on the other hand, is exactly the kind of person I can imagine working there... always talking in long, convoluted sentences, and in that snooty tone... Tsk."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "迪希雅关于赛诺",
+                "content_zh": "那位「大风纪官」？是个雷厉风行的狠角色，处理某些事情的方法，也挺对我胃口的。",
+                "target_en": "Cyno",
+                "title_en": "Dehya about Cyno",
+                "content_en": "The General Mahamatra? Doesn't suffer fools gladly, and certainly doesn't beat around the bush. Having seen the way he works, he gets a thumbs up from me."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "迪希雅关于妮露",
+                "content_zh": "解决了那件事之后，妮露也能更加自由地跳舞了吧。哦她上次还说，要把自己用的香粉捎一份给我，但我经常在外面奔波，就只能让她先送去坎蒂丝那里。唔…我也该找个时间过去看看了。",
+                "target_en": "Nilou",
+                "title_en": "Dehya about Nilou",
+                "content_en": "Now that the whole saga with the Akademiya's over, I guess she can finally dance as much as she wants. She offered me some of her face powder last time I saw her, but in this line of work, it'd be wasted on me, so I told her to give it to Candace instead. Hmm... I wonder how she's liking it? I need to go check sometime..."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "迪希雅关于多莉",
+                "content_zh": "那个商人啊。据说她那里什么都有得卖，只是价钱贵了点？哈哈，那我还挺希望和她见几面的，毕竟…有些佣兵需要的东西，在市场上真是拿钱都买不到啊。",
+                "target_en": "Dori",
+                "title_en": "Dehya about Dori",
+                "content_en": "Ah, the famous merchant. I've heard that her prices aren't cheap, but is it true that she can get a hold of anything you want? Hahaha, then I should start talking to her, 'cause uh... some of the supplies we mercs need are impossible to get anywhere else on the market, no matter what you're willing to pay."
+            },
+            {
+                "target_id": 58,
+                "target_zh": "莱依拉",
+                "title_zh": "迪希雅关于莱依拉",
+                "content_zh": "那个成天迷迷糊糊的小丫头啊，我有印象。之前我在沙漠边缘的一个绿洲碰见过她，她好像是跟着教令院的什么队伍来观察星象，不过我也没有太留意。啥？坎蒂丝…星空的使者…这都什么乱七八糟的？这丫头不会还没睡醒吧。",
+                "target_en": "Layla",
+                "title_en": "Dehya about Layla",
+                "content_en": "Ahh, the sleepy girl, yeah, I think I remember her. I ran into her once at an oasis on the outskirts of the desert. She was out with some group from the Akademiya doing astronomical observations, or something. I wasn't really paying attention. ...Huh? Candace... what now? Emissary from the stars? The heck is that all about? Almost sounds like she didn't wake up before getting out of bed."
+            }
+        ]
+    },
     "瑶瑶": {
         "id": 62,
         "name_zh": "瑶瑶",
@@ -141,6 +222,15 @@
                 "target_en": "Nilou",
                 "title_en": "Alhaitham about Nilou",
                 "content_en": "The strengths and weaknesses of a performing artist are quite clear. Nilou knows how to play to her strengths, which enables her to live a happy and simple life."
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "艾尔海森关于迪希雅",
+                "content_zh": "能力很强的人，留在镀金旅团里有些浪费。要是她能接受我的提议来教令院任职就好了，有这样的帮手，我们的工作也会轻松不少。不过她对安稳的生活不感兴趣，我能理解。可惜了。",
+                "target_en": "Dehya",
+                "title_en": "Alhaitham about Dehya",
+                "content_en": "It's a waste for such a capable person to remain among the Eremites. If only she'd consider my suggestion to join the Akademiya... Our work would become a lot easier with someone like her around, but a predictable life isn't exactly her cup of tea — I can understand that. *sigh* What a pity."
             }
         ]
     },
@@ -451,6 +541,15 @@
                 "content_en": "She sometimes comes to watch my performances. She's a really hard-working Trainee Forest Ranger. One time, she warned me about getting lost. What did she mean by that? It's not like I've gotten lost before..."
             },
             {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "妮露关于迪希雅",
+                "content_zh": "最近发生了那么多事情，总觉得很不可思议。我原本想为迪希雅和迪娜泽黛挑选一些合适的礼物。但我自己拿不定主意，嗯…要是把大巴扎朋友们推荐的品种全送去，又太多了。哎呀，到底该怎么办才好呢？",
+                "target_en": "Dehya",
+                "title_en": "Nilou about Dehya",
+                "content_en": "It's hard to believe that so many things have happened recently... I wanted to pick out a good present for Dehya and Dunyarzad, but I just can't make up my mind. Everyone at the Grand Bazaar has given me many suggestions, but if I took them all, it'd be too much... What should I do..."
+            },
+            {
                 "target_id": 53,
                 "target_zh": "多莉",
                 "title_zh": "妮露关于多莉",
@@ -512,6 +611,15 @@
                 "target_en": "Cyno",
                 "title_en": "Candace about Cyno",
                 "content_en": "In the past, it was rare to see the Akademiya's General Mahamatra on this side of the Wall of Samiel, but recently he has been showing up here all the time. I believe that the Eremites have some truly terrifying stories to tell about him..."
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "坎蒂丝关于迪希雅",
+                "content_zh": "迪希雅，她每次带着镀金旅团的人在阿如村寄宿的时候，都能约束好手下的行动，可以说…给我免了很多麻烦。迪希雅小姐，跟看上去大大咧咧的样子不同，是个非常可爱的人哦。",
+                "target_en": "Dehya",
+                "title_en": "Candace about Dehya",
+                "content_en": "Whenever Dehya brings any of her Eremites to stay at Aaru Village, she always keeps them on their very best behavior. I have to say, it makes my life a lot easier. Ah, Dehya... She might look like trouble at first, but the truth is that she's really quite adorable."
             }
         ]
     },
@@ -629,6 +737,15 @@
                 "target_en": "Alhaitham",
                 "title_en": "Dori about Alhaitham",
                 "content_en": "He once came nosing around, asking my minions some questions to see what he could find out. Like I said, those Akademiya people are just pig-headed and dishonest. Why should I take the risk of others prying into my business? Right, my young apprentice?"
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "多莉关于迪希雅",
+                "content_zh": "有时候我会雇佣她帮忙保护商队。毕竟她实力不错，要价也不高，可以说是性价比最优之选。",
+                "target_en": "Dehya",
+                "title_en": "Dori about Dehya",
+                "content_en": "I hire her to help escort my caravans from time to time. After all, she's got the muscle, and her price is reasonable. When it comes to cost-performance ratio, she's always the best pick."
             },
             {
                 "target_id": 24,
@@ -836,6 +953,15 @@
                 "target_en": "Nahida",
                 "title_en": "Tighnari about Lesser Lord Kusanali",
                 "content_en": "As a student, I once heard this saying: \"Plants and the Land of Dendro share the same history.\" It could just be one of those things that people say, but I've always felt that there's a deeper meaning to those words... If I meet Lesser Lord Kusanali one day, I wonder... if she would explain them to me?"
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "提纳里关于迪希雅",
+                "content_zh": "之前情况危急，都没来得及好好向她道谢。能有这样强大又可靠的同伴是件非常幸运的事情，想要拉拢她的人一定不少。不过迪希雅看上去不像是愿意加入教令院或者巡林队的样子，我就不去自讨没趣了。",
+                "target_en": "Dehya",
+                "title_en": "Tighnari about Dehya",
+                "content_en": "Everything happened so fast, and I didn't get the chance to properly thank her. To have a capable and reliable person like her on your side is extremely fortunate. I'm sure she must have many groups trying to persuade her to join their ranks. But she definitely doesn't strike me as the kind of person who would be interested in joining the Akademiya or the Forest Rangers, so I'll spare myself the inevitable rejection."
             },
             {
                 "target_id": 60,
@@ -3905,7 +4031,7 @@
                 "content_zh": "「天权」大人是我不得不敬重的人。不然会给家父以及家兄添麻烦。嗯？对她本人，我想想。嗯…还是算了，不说人坏话了。",
                 "target_en": "Ningguang",
                 "title_en": "Xingqiu about Ningguang",
-                "content_en": "In her capacity as the Tianquan, I am obliged to respect her. Otherwise, it could create issues for my father and brother. On a personal level? Let me think... I think I will go with \"No comment,\" I shan't speak ill of others."
+                "content_en": "In her capacity as the Tianquan, I am obliged to respect her. Otherwise, it could create issues for my father and brother. On a personal level? Let me think... I think I will go with \"no comment.\" I shan't speak ill of others."
             },
             {
                 "target_id": 19,
@@ -3932,7 +4058,7 @@
                 "content_zh": "那个小姑娘，正是「往生堂」的当代堂主。嗯？问我怎样看待她的为人？…行事作风嘛，坊间传闻是作不了数的。真想了解一个人，还得看她真正想要的是什么。",
                 "target_en": "Hu Tao",
                 "title_en": "Xingqiu about Hu Tao",
-                "content_en": "Ah yes, the young lady who is now the Director of the Wangsheng Funeral Parlor. If you're asking what I think about her as a person... Well, there are all sorts of rumors about the way she works. But I think if you really want to understand someone, you need to find out what they are really after."
+                "content_en": "Ah yes, the young lady who is now the Master of the Wangsheng Funeral Parlor. If you're asking what I think about her as a person... Well, there are all sorts of rumors about the way she works. But I think if you really want to understand someone, you need to find out what they are really after."
             },
             {
                 "target_id": 21,
@@ -4392,7 +4518,7 @@
                 "content_zh": "凝光啊，从「璃月七星」的角度上来说已经做得很好了吧。只是，我要负责的对象从来就是我的船和兄弟们，不是什么「璃月七星」啊。",
                 "target_en": "Ningguang",
                 "title_en": "Beidou about Ningguang: Liyue Qixing",
-                "content_en": "Ningguang eh? As far as Liyue Qixing is concerned, she seems to be doing a good job. But for me, my responsibility lies with my ship and my men, and not with Liyue Qixing."
+                "content_en": "Ningguang, eh? As far as Liyue Qixing is concerned, she seems to be doing a good job. But for me, my responsibility lies with my ship and my men, and not with Liyue Qixing."
             },
             {
                 "target_id": 16,
@@ -5060,7 +5186,7 @@
                 "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
                 "target_en": "Fischl",
                 "title_en": "Kaeya about Fischl",
-                "content_en": "What? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must make me a future royal progeny too, no?"
+                "content_en": "Hmm? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must also make me a descendant of some kind of former royal lineage, no?"
             },
             {
                 "target_id": 11,
@@ -5322,7 +5448,7 @@
                 "content_zh": "你问诺艾尔吗？她的韧性可是很强的。作为前辈，你也要多照顾她一点哦。",
                 "target_en": "Noelle",
                 "title_en": "Amber about Noelle",
-                "content_en": "You wanna know about Noelle? She's incredibly resilient. Still, as her predecessors, we should do what we can to help her out."
+                "content_en": "You wanna know about Noelle? She's super resilient. Still, since she's younger than us, we should look out for her."
             },
             {
                 "target_id": 32,
