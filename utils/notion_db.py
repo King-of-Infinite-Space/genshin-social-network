@@ -36,7 +36,7 @@ def fillProps(data: dict, schema: dict):
     return d
 
 
-def fetch_char_list():
+def fetch_remote_dict():
     response = notion.databases.query(
         database_id,
         sorts=[
@@ -47,22 +47,18 @@ def fetch_char_list():
         ],
     )
     pages = response["results"]
-    chars = []
+    chars = {}
     for page in pages:
         char = {}
         for prop in [
             "id",
             "name_zh",
             "name_en",
-            "alias_zh",
-            "alias_en",
             "url_name",
             "ver",
         ]:
-            value = getProp(page, prop)
-            if value != "":
-                char[prop] = value
-        chars.append(char)
+            char[prop] = getProp(page, prop)
+        chars[char["name_zh"]] = char
     return chars
 
 

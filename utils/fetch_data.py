@@ -8,29 +8,28 @@ import re
 import traceback
 from datetime import date
 
-from notion_db import fetch_char_list, update_char_list
+from notion_db import fetch_remote_dict, update_char_list
 
 CHECKPOINT_OK = "data/char_checkpoint.json"
 CHECKPOINT_PENDING = "data/char_pending.json"
 DATA_FILE = "data/char_data.json"
 DATA_FILE_MIN = "data/char_data_min.json"
+ALIAS_FILE = "data/alias.json"
 
 #%%
 
 
 class Updater:
-    def __init__(self, template=None, checkpoint=None, pending=None) -> None:
-        if template is not None:
-            self.new = True
-            self.data = {}
-            self.pending = template.copy()
-            self.template = template.copy()
-        else:
-            self.new = False
-            self.data = checkpoint.copy()
-            self.pending = pending.copy()
-            self.template = checkpoint | pending
-        self.count_pending = len(self.pending)
+    def __init__(self, pending: dict, checkpoint={}, remote={}, alias={}) -> None:
+        self.data = checkpoint.copy()
+        self.pending = pending.copy()
+        self.template = checkpoint | pending
+        self.remote = remote
+        for k in self.remote:
+            self.template[k].update(self.remote[k])
+            del self.template[k]["url_name"]
+            # i'm using different id from official
+        self.alias = alias
         self.session = requests.Session()
 
     def _find_quote_target(self, title, current_name, lang) -> tuple[str, int]:
@@ -40,9 +39,8 @@ class Updater:
             if name != current_name:
                 if about[lang] in title and name in title:
                     return name, char["id"]
-                if "alias_" + lang in char:
-                    for alias in char["alias_" + lang].split(","):
-                        alias = alias.strip()
+                if char["name_zh"] in self.alias:
+                    for alias in self.alias[char["name_zh"]]["alias_" + lang]:
                         if about[lang] in title and alias in title:
                             return name, char["id"]
         return None, None
@@ -58,6 +56,7 @@ class Updater:
                 lines.append({**lines_zh[i], **lines_en[i]})
             else:
                 # reordering not implemented
+                print(lines_zh[i]["target_id"], lines_en[i]["target_id"])
                 print(lines_zh[i]["title_zh"], lines_en[i]["title_en"])
                 raise ValueError("Quote targets don't match")
         return lines
@@ -67,8 +66,9 @@ class Updater:
         get lines from *char* to other chars
         """
         name = char["name_" + lang]
-        if "url_name" in char:
-            url_name = char["url_name"]
+        name_zh = char["name_zh"]
+        if self.remote[name_zh]["url_name"]:
+            url_name = self.remote[name_zh]["url_name"]
         elif len(char["name_zh"]) == len(char["name_en"].split(" ")):
             # 2-char chinese full names, Hu Tao, Yun Jin
             url_name = char["name_en"].replace(" ", "")
@@ -135,14 +135,15 @@ class Updater:
         return lines
 
     def fetch_quotes(self):
+        count_pending = len(self.pending)
+        print(f"\t{count_pending} pending / {len(self.template)} total")
+        # updated char_dict with quotes
         i = 1
         for char in list(self.pending.values()):
             try:
                 lines_zh = self._fetch_quotes_hhw(char, "zh")
                 lines_en = self._fetch_quotes_hhw(char, "en")
-                print(
-                    f"\t{i} / {self.count_pending}  {char['name_zh']} ({len(lines_zh)})"
-                )
+                print(f"\t{i} / {count_pending}  {char['name_zh']} ({len(lines_zh)})")
                 lines = self._merge_lines(lines_zh, lines_en)
             except KeyboardInterrupt:
                 raise KeyboardInterrupt
@@ -153,15 +154,17 @@ class Updater:
                 self.data[char["name_zh"]]["lines"] = lines
                 del self.pending[char["name_zh"]]
             i += 1
+        print(f"\t{count_pending - len(self.pending)} updated")
+        print(f"\t{len(self.pending)} errors")
 
 
 def fetch_char_api() -> dict[str, dict[str, str]]:
 
     S = requests.Session()
 
-    res = S.get(url=os.getenv('URL_ZH'), timeout=20)
+    res = S.get(url=os.getenv("URL_ZH"), timeout=20)
     data = res.json()
-    res2 = S.get(url=os.getenv('URL_EN'), timeout=20)
+    res2 = S.get(url=os.getenv("URL_EN"), timeout=20)
     data2 = res2.json()
     char_count = data["data"]["total"]
     char_list_zh = data["data"]["list"]
@@ -215,18 +218,13 @@ def fetch_data_bwiki(filter=None):
     return chars
 
 
-def annotate_template(template, remote_data: list[dict]):
-    for char in remote_data:
-        if char["name_zh"] in template:
-            template[char["name_zh"]].update(char)
-
-
-def calc_ver(offset):
+def calc_ver():
     ref_ver = os.environ["REF_VER"]
     if ref_ver is None:
         return ""
     ref_date = os.environ["REF_DATE"]
     period = os.environ["PERIOD"]
+    offset = os.getenv("VER_ADJUST", "0.0")
     n_offset = int(100 * float(offset))
     dd = (date.today() - date.fromisoformat(ref_date)).days
     ref_vers = ref_ver.split(".")
@@ -246,65 +244,68 @@ def calc_ver(offset):
     return ".".join(v)
 
 
+def update_remote(official_dict, remote_dict, ver):
+    names = [k for k in official_dict.keys() if k not in remote_dict.keys()]
+    data_bwiki = fetch_data_bwiki(filter=names)
+    data_update = [official_dict[k] | data_bwiki[k] for k in names]
+    for d in data_update:
+        d["ver"] = ver
+    update_char_list(data_update)
+    print(f"\t{len(data_update)} entries updated")
+
+
 def main():
     with open(CHECKPOINT_OK) as f:
         char_checkpoint = json.load(f)
     # loaded old data as a list of dicts
     with open(CHECKPOINT_PENDING) as f:
         char_pending = json.load(f)
+    # load aliases
+    with open(ALIAS_FILE) as f:
+        aliases = json.load(f)
 
-    count_old = len(char_checkpoint)
-    count_total = len(char_checkpoint) + len(char_pending)
+    ver = calc_ver()
 
     print("Fetching remote data")
-    char_list_remote = fetch_char_list()
-    ver = calc_ver(char_list_remote[0]["ver"])
-    print(f"Updating for v{ver}")
+    remote_dict = fetch_remote_dict()
 
     if len(char_pending) == 0:
         # start anew
+        print(f"Updating for v{ver}")
         print("Fetching mhy api")
-        template = fetch_char_api()
-        annotate_template(template, char_list_remote)
+        official_dict = fetch_char_api()
 
         # got current chars, building from it
-        char_names = list(template.keys())
-        count_total = len(template)
+        char_names = list(official_dict.keys())
+        count_total = len(official_dict)
         print(f"\tLast3 {' '.join(char_names[:3])}")
 
+        count_old = len(char_checkpoint)
         if count_total <= count_old:
             print(f"\t{count_total} released / {count_old} saved")
             print("Already up to date")
             return
 
         char_names_new = char_names[: count_total - count_old]
-
-        data_bwiki = fetch_data_bwiki(filter=char_names_new)
-        data_update = []
-        for k in char_names_new:
-            template[k]["ver"] = ver
-            data_update.append(template[k] | data_bwiki[k])
-
-        updater = Updater(template=template)
         print(f"\tNew char {' '.join(char_names_new)}")
-        try:
-            print("Updating remote data")
-            update_char_list(data_update)
-        except:
-            traceback.print_exc()
+
+        print("Updating remote data")
+        update_remote(official_dict, remote_dict, ver)
+
+        updater = Updater(official_dict, remote=remote_dict, alias=aliases)
     else:
         # resume from last checkpoint
-        print(f"Retrying {' '.join(list(char_pending.keys()))}")
-        annotate_template(char_pending, char_list_remote)
-        updater = Updater(checkpoint=char_checkpoint, pending=char_pending)
+        print(f"Retrying for v{ver}")
+        print(f"\t{' '.join(list(char_pending.keys()))}")
+        updater = Updater(
+            char_pending,
+            checkpoint=char_checkpoint,
+            remote=remote_dict,
+            alias=aliases,
+        )
 
     print(f"Fetching quotes")
-    print(f"\t{updater.count_pending} pending / {count_total} total")
     updater.fetch_quotes()
-    # updated char_dict with quotes
-    print(
-        f"{updater.count_pending - len(updater.pending)} updated  {len(updater.pending)} errors"
-    )
 
     with open(CHECKPOINT_PENDING, "w", encoding="utf8") as f:
         json.dump(updater.pending, f, ensure_ascii=False, indent=4)

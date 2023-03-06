@@ -1,0 +1,26 @@
+{
+    "纳西妲": {
+        "alias_zh": ["小吉祥草王", "布耶尔"],
+        "alias_en": ["Lesser Lord Kusanali", "Buer"]
+    },
+    "八重神子": {
+        "alias_zh": ["狐耳女人"],
+        "alias_en": ["the Lady with Fox Ears"],
+        "_comment": ["荒泷一斗"]
+    },
+    "雷电将军": {
+        "alias_zh": ["巴尔"],
+        "alias_en": ["Baal"],
+        "_comment": ["温迪/钟离"]
+    },
+    "钟离": {
+        "alias_zh": ["摩拉克斯", "岩王帝君"],
+        "alias_en": ["Morax", "Rex Lapis"],
+        "_comment": ["温迪/甘雨/雷电将军","多莉"]
+    },
+    "温迪": {
+        "alias_zh": ["风之神"],
+        "alias_en": ["the Anemo Archon"],
+        "_comment": ["刻晴"]
+    }
+}
