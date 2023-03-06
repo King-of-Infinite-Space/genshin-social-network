@@ -1,4 +1,14 @@
 {
+    "流浪者": {
+        "alias_zh": ["散兵","国崩"],
+        "alias_en": ["The Balladeer","Kunikuzushi"],
+        "_comment": ["纳西妲/达达利亚","雷电将军/八重神子"]
+    },
+    "达达利亚": {
+        "alias_zh": ["公子"],
+        "alias_en": ["Childe"],
+        "_comment": ["流浪者"]
+    },
     "纳西妲": {
         "alias_zh": ["小吉祥草王", "布耶尔"],
         "alias_en": ["Lesser Lord Kusanali", "Buer"]

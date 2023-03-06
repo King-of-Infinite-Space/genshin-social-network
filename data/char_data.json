@@ -4,7 +4,6 @@
         "name_zh": "琴",
         "name_en": "Jean",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718344593599.png",
-        "url_name": "qin",
         "ver": "1.0",
         "lines": [
             {
@@ -122,7 +121,6 @@
         "name_zh": "安柏",
         "name_en": "Amber",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718350213870.png",
-        "url_name": "ambor_021",
         "ver": "1.0",
         "lines": [
             {
@@ -699,8 +697,6 @@
         "name_zh": "温迪",
         "name_en": "Venti",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200306/2020030617031747812.png",
-        "alias_zh": "巴巴托斯, 风之神",
-        "alias_en": "Barbatos, Anemo Archon",
         "ver": "1.0",
         "lines": [
             {
@@ -989,7 +985,6 @@
         "name_zh": "诺艾尔",
         "name_en": "Noelle",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200315/2020031516092797889.png",
-        "url_name": "noel",
         "ver": "1.0",
         "lines": [
             {
@@ -2044,6 +2039,15 @@
                 "target_en": "Zhongli",
                 "title_en": "Tartaglia about Zhongli: Challenge",
                 "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
+            },
+            {
+                "target_id": 59,
+                "target_zh": "流浪者",
+                "title_zh": "达达利亚关于「散兵」",
+                "content_zh": "他带着「神之心」与我们失去了联络，后面才有了追回那颗心的行动。我倒是不介意去四处走走，说不定还能在哪儿和你偶遇？",
+                "target_en": "Wanderer",
+                "title_en": "Tartaglia about The Balladeer",
+                "content_en": "After he took the Gnosis, we lost all contact with him. Now comes the task of trying to hunt it down and get it back... I actually don't mind it — it means I get to travel all over. Wonder if I'll run into you somewhere along the way?"
             }
         ]
     },
@@ -2142,8 +2146,6 @@
         "name_zh": "钟离",
         "name_en": "Zhongli",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20201120/2020112010371210769.png",
-        "alias_zh": "摩拉克斯, 岩王帝君",
-        "alias_en": "Morax, Rex Lapis",
         "ver": "1.1.2",
         "lines": [
             {
@@ -2783,7 +2785,6 @@
         "name_zh": "烟绯",
         "name_en": "Yanfei",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210420/2021042014093440786.png",
-        "url_name": "feiyan",
         "ver": "1.5.1",
         "lines": [
             {
@@ -3242,7 +3243,7 @@
                 "title_zh": "宵宫关于荒泷一斗·帮派",
                 "content_zh": "「荒泷派」？欸？！原来他不是无所事事的人呐？",
                 "target_en": "Arataki Itto",
-                "title_en": "Yoimiya about Arataki Itto: Arataki’s Gang",
+                "title_en": "Yoimiya about Arataki Itto: Arataki's Gang",
                 "content_en": "Arataki's gang? Huh!? So he isn't just someone with too much free time on his hands?"
             },
             {
@@ -3377,9 +3378,6 @@
         "name_zh": "雷电将军",
         "name_en": "Raiden Shogun",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20210817/2021081714114216212.png",
-        "alias_zh": "巴尔",
-        "alias_en": "Baal",
-        "url_name": "shougun",
         "ver": "2.1.1",
         "lines": [
             {
@@ -3444,6 +3442,15 @@
                 "target_en": "Sangonomiya Kokomi",
                 "title_en": "Raiden Shogun about Sangonomiya Kokomi",
                 "content_en": "Indeed. It was I who slew Orobaxi. But I also allowed the people of Sangonomiya to continue worshiping it as the Watatsumi Omikami, so that it might enjoy their offerings. Now, Sangonomiya has destroyed the local Narukami Shrine and rebels against the Shogunate. As the Divine Priestess representing the Watatsumi Omikami, she must be held accountable."
+            },
+            {
+                "target_id": 59,
+                "target_zh": "流浪者",
+                "title_zh": "雷电将军关于国崩",
+                "content_zh": "那小子是制造将军的副产物。对他不加以管束，应该是因为我内心还是觉得对他有所亏欠吧。",
+                "target_en": "Wanderer",
+                "title_en": "Raiden Shogun about Kunikuzushi",
+                "content_en": "He came about as a byproduct of creating the Shogun. Perhaps it's because I feel like I owe him something, but I do not wish to assert control over him."
             },
             {
                 "target_id": 42,
@@ -3668,7 +3675,6 @@
         "name_zh": "托马",
         "name_en": "Thoma",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20211021/2021102110372681510.png",
-        "url_name": "tohma",
         "ver": "2.2.2",
         "lines": [
             {
@@ -4164,9 +4170,6 @@
         "name_zh": "八重神子",
         "name_en": "Yae Miko",
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220208/2022020813481182336.png",
-        "alias_zh": "狐耳女人",
-        "alias_en": "Lady with Fox Ears",
-        "url_name": "yae",
         "ver": "2.5.1",
         "lines": [
             {
@@ -4231,6 +4234,15 @@
                 "target_en": "Sangonomiya Kokomi",
                 "title_en": "Yae Miko about Sangonomiya Kokomi",
                 "content_en": "These Divine Priestesses seem to be getting cuter every generation. I wonder how she looks performing the Dance of Divine Peace... Perhaps even little schools of fish swish around her while she spins. If she's ever looking for a more experienced head shrine maiden to learn from, I'd be quite happy to share a few tips with her... Hehe, as long as she asked me nicely, of course."
+            },
+            {
+                "target_id": 59,
+                "target_zh": "流浪者",
+                "title_zh": "八重神子关于国崩",
+                "content_zh": "我当时就觉得那是个麻烦，不过她却说毕竟是自己创造之物不愿出手。早知变成现在这样，还不如当初就瞒着她处理掉算了。现在？呵…现在，已经变麻烦啦。",
+                "target_en": "Wanderer",
+                "title_en": "Yae Miko about Kunikuzushi",
+                "content_en": "I thought it was a disaster waiting to happen at the time, but she insisted that she wasn't going to lift a finger against the object of her own creation. Had I known how things would unfold, I would have simply disposed of it without her knowing. Hmm? What about now? Hehe... Well, we're no longer waiting for the disaster to happen, are we?"
             },
             {
                 "target_id": 42,
@@ -4527,7 +4539,6 @@
         "name_zh": "鹿野院平藏",
         "name_en": "Shikanoin Heizou",
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/07/8cb39b11a39045288b7ef800b9c8a085_4905643200701802462.png",
-        "url_name": "heizo",
         "ver": "2.8.1",
         "lines": [
             {
@@ -5086,8 +5097,6 @@
         "name_zh": "纳西妲",
         "name_en": "Nahida",
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/10/20/62cb7fb1815d9d05d3ece2e0d8e85c7d_8731082942818264376.png",
-        "alias_zh": "小吉祥草王, 布耶尔",
-        "alias_en": "Lesser Lord Kusanali, Buer",
         "ver": "3.2.1",
         "lines": [
             {
@@ -5161,6 +5170,15 @@
                 "target_en": "Faruzan",
                 "title_en": "Nahida about Faruzan",
                 "content_en": "She is suffering from exposure to remnants of King Deshret's power. It's as if the great tortoise of time accidentally threw her off its back and left her suspended in the past. If you're interested, you should be able to catch a glimpse of Sumeru from a bygone age through her."
+            },
+            {
+                "target_id": 59,
+                "target_zh": "流浪者",
+                "title_zh": "纳西妲关于散兵",
+                "content_zh": "当他自认为追寻已久的愿望终于实现，他眼中所见的究竟是满足，还是更大的空虚呢？正是因为我们不会飞，才会无比向往天空…让他好好想想吧，在拥抱过空无一物的天空之后。",
+                "target_en": "Wanderer",
+                "title_en": "Nahida about The Balladeer",
+                "content_en": "When he finally achieved the ambition he thought he'd been pursuing all along, was he content at last, or only emptier still? We only yearn for the skies because we cannot fly... Hmm, perhaps he should reflect on this once he has held the sheer emptiness of the skies in his grasp."
             }
         ]
     },
@@ -5271,6 +5289,15 @@
                 "content_en": "She completely neglected her own creation, and to add insult to injury, she said it was because she \"couldn't bring herself to intervene\" in my fate..."
             },
             {
+                "target_id": 22,
+                "target_zh": "达达利亚",
+                "title_zh": "流浪者关于「公子」",
+                "content_zh": "头脑简单，四肢也不甚发达。让他做最后一席都是在拉低执行官的整体水准。万幸，我已经不在其列了。",
+                "target_en": "Tartaglia",
+                "title_en": "Wanderer about Childe",
+                "content_en": "He's simple of mind and not that strong of body. Naming him to the lowest-ranked seat lowered the Harbingers' collective prestige. Thankfully, I'm no longer part of that group."
+            },
+            {
                 "target_id": 46,
                 "target_zh": "八重神子",
                 "title_zh": "流浪者关于八重神子",
@@ -5358,7 +5385,6 @@
         "name_zh": "艾尔海森",
         "name_en": "Alhaitham",
         "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/01/10/bfd6f03d6e5057f0ea946bd5c8490f88_864998469933466014.png",
-        "url_name": "Alhatham",
         "ver": "3.4.1",
         "lines": [
             {
