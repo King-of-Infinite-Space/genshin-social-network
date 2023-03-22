@@ -6,7 +6,7 @@ import subprocess
 import os
 import re
 import traceback
-from datetime import date
+from datetime import datetime
 
 from notion_db import fetch_remote_dict, update_char_list
 
@@ -67,7 +67,7 @@ class Updater:
         """
         name = char["name_" + lang]
         name_zh = char["name_zh"]
-        if self.remote[name_zh]["url_name"]:
+        if name_zh in self.remote and self.remote[name_zh]["url_name"]:
             url_name = self.remote[name_zh]["url_name"]
         elif len(char["name_zh"]) == len(char["name_en"].split(" ")):
             # 2-char chinese full names, Hu Tao, Yun Jin
@@ -226,7 +226,7 @@ def calc_ver():
     period = os.environ["PERIOD"]
     offset = os.getenv("VER_ADJUST", "0.0")
     n_offset = int(100 * float(offset))
-    dd = (date.today() - date.fromisoformat(ref_date)).days
+    dd = (datetime.utcnow() - datetime.fromisoformat(ref_date)).days
     ref_vers = ref_ver.split(".")
     if ref_vers[-1] == "1":
         ref_vers[-1] = "0"
