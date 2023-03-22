@@ -1,1 +1,8 @@
-{}
+{
+    "米卡": {
+        "id": 64,
+        "name_zh": "米卡",
+        "name_en": "Mika",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/02/06/d1bd63a9d2f41a7bfa927811e219493d_6450551595359459959.png"
+    }
+}

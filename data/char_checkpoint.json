@@ -2731,6 +2731,24 @@
                 "target_en": "Yanfei",
                 "title_en": "Eula about Yanfei: Assessment",
                 "content_en": "We've kept in touch ever since. I like how smart she is. She knows the rules, but she also knows how to be flexible and act according to the situation. A few of the Knights would do well to take a leaf out of her book... Also, with her smarts, maybe she could help me track someone down that I've been looking for... She does owe me a favor from last time, after all."
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "优菈关于米卡·沟通",
+                "content_zh": "米卡被分来游击小队的时候，我以为他会像之前某些人一样，没干几天就想走了。没想到他不声不响，任务却完成得相当出色，还主动承担了所有跑腿的任务，替我和其他人沟通。哼，一个两个都想着照顾我，也不知道是谁教出来的。",
+                "target_en": "Mika",
+                "title_en": "Eula about Mika: Communication",
+                "content_en": "When Mika was assigned to the Reconnaissance Company, I thought that he'd only last a few days, just like the others before him. But he surprised me. He never made a peep, but he completed all of his tasks quite admirably. He even volunteered to run errands for me, and assist with communication... Hmph... I don't know who is going around telling people that I need looking after..."
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "优菈关于米卡·回归",
+                "content_zh": "这次米卡从远征队回来，性格没什么变化，实力倒是强劲了不少。看来大团长没有怠慢对大家的训练。嗯？你说他自己都没发现？那是他迟钝吧…或者说，谦虚。毕竟是我小队的成员，这种事，看一眼就知道了。",
+                "target_en": "Mika",
+                "title_en": "Eula about Mika: Returning",
+                "content_en": "Mika's personality hasn't changed one bit since he's been out with the expedition, though his abilities have improved significantly. The Grand Master is clearly making sure nobody neglects their training... Hmm? Mika's unaware of his own improvement? It must be one of his blind spots... or perhaps he's just being humble. Either way, things like this don't escape me. I know my team."
             }
         ]
     },
@@ -5251,6 +5269,15 @@
                 "target_en": "Collei",
                 "title_en": "Kaeya about Collei",
                 "content_en": "Oh, Collei? Oho, now there's a name I haven't heard in a while... You came to the right person! Let me tell you her whole story, starting right from the very beginning, with all the delicious details!"
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "凯亚关于米卡",
+                "content_zh": "刚开始接触那会儿，我看米卡容易紧张，就跟他开了一点无关痛痒的小玩笑。哪知他更紧张了，连笑都笑得很僵硬…最后还特意写信道歉。欸，这种单纯老实的品质，难道是施密特家族的遗传？",
+                "target_en": "Mika",
+                "title_en": "Kaeya about Mika",
+                "content_en": "When I first met Mika, he seemed like the nervous type, so I decided to joke around with him a little. I didn't count on that making him even more nervous... His smile looked as if it were plastered onto his face, and in the end, he even wrote me a letter of apology. Tsk-tsk. Does taking everything so seriously run in the Schmidts' blood?"
             }
         ]
     },
@@ -5377,6 +5404,15 @@
                 "target_en": "Collei",
                 "title_en": "Lisa about Collei",
                 "content_en": "Ah, dear little Collei. Every time she writes to me, she tries out new words and expressions she's learned recently... Hehe, no wonder she's improving so quickly. That wonderful and warmhearted master of hers must have helped a lot too."
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "丽莎关于米卡",
+                "content_zh": "真羡慕霍夫曼先生有这样一位擅长照顾人的弟弟。不仅帮着打点生活起居，连喝醉后的护理也无微不至。啊，我也好想什么都不用操心，懒洋洋地度过每一天啊…嗯？你说我现在也差不多？哼，小可爱…胆子变大了嘛。",
+                "target_en": "Mika",
+                "title_en": "Lisa about Mika",
+                "content_en": "I do rather envy Huffman for having such a caring little brother. Mika takes care of everything around the house and even looks after him when he's drunk... Ah, how nice it must be to lounge around all day without a care in the world... Hmm? What do you mean, I already do that? You're getting quite bold these days, aren't you, cutie?"
             }
         ]
     },
@@ -5494,6 +5530,15 @@
                 "target_en": "Collei",
                 "title_en": "Amber about Collei",
                 "content_en": "Collei wrote to me saying that her Eleazar has been completely cured... I'm so happy for her! I wish I could fly to her side right now and give her the biggest hug! She also said she misses everyone in Mondstadt, and that once she's ready, she'll come visit us in person and tell us all about her progress... Oh, it would be great if she could make it in time for the next Ludi Harpastum. Aaah I can't wait to see her again!"
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "安柏关于米卡",
+                "content_zh": "哦，米卡是优菈那儿的老队员了，最初可能是看我和优菈关系比较好吧，总是长官长官地叫我。在我跟他分享自己的侦察心得之后，他又改叫我前辈了…弄得我挺不好意思的。明明我们的职责不一样，他在绘制地图上的专业性，是我怎么都比不上的。",
+                "target_en": "Mika",
+                "title_en": "Amber about Mika",
+                "content_en": "Oh! Mika's a veteran of Eula's team. When he first arrived, it was always \"Yes, Commander!\" every time he spoke to me — I guess it must have been because he saw how close I was with Eula. But then, even after I told him I was actually an Outrider, he still called me \"Ma'am\"... It was so embarrassing. We have completely different responsibilities, after all. I definitely could never match his expertise in cartography."
             }
         ]
     },
@@ -5611,6 +5656,15 @@
                 "target_en": "Eula",
                 "title_en": "Jean about Eula",
                 "content_en": "Eula? Um... Please, do not hold her unfortunate background against her. The Knights of Favonius evaluate each person impartially. Eula has a clear sense of right and wrong and is more talented than most. The controversial statements that she makes from time to time are just a product of her personality. For instance, she always mentions wanting to challenge me, but I don't mind."
+            },
+            {
+                "target_id": 64,
+                "target_zh": "米卡",
+                "title_zh": "琴关于米卡",
+                "content_zh": "大团长选中米卡作为远征队的前侦骨干，不仅是出于任务需要，更是看中了他踏实勤恳的品质。从我个人角度而言，我也很荣幸能与这样的同伴共事。",
+                "target_en": "Mika",
+                "title_en": "Jean about Mika",
+                "content_en": "The Grand Master placed Mika on the front line of the expedition team not simply because he met the requirements of the mission — more importantly, he was impressed by Mika's hardworking and grounded nature. From my own perspective, I feel very honored to work with someone like him."
             }
         ]
     }
