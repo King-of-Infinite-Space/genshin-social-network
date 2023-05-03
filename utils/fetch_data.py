@@ -112,8 +112,10 @@ class Updater:
                 script_str = tr.contents[1].script.string
                 regex = re.search('(?<=line":").+?(?=",)', script_str)
                 line = regex.group()
+                line = line.replace("\\/", "/")
                 line = line.encode().decode("unicode-escape")
                 line = line.replace("<br>", "\n")
+                line = line.replace("<br/>", "\n")
                 line = re.sub(re.compile("<[^>]*>"), "", line)
                 # fischl: remove color tags
 
@@ -246,10 +248,10 @@ def calc_ver():
 
 def update_remote(official_dict, remote_dict, ver):
     names = [k for k in official_dict.keys() if k not in remote_dict.keys()]
+    for k in names:
+        official_dict[k]["ver"] = ver
     data_bwiki = fetch_data_bwiki(filter=names)
     data_update = [official_dict[k] | data_bwiki[k] for k in names]
-    for d in data_update:
-        d["ver"] = ver
     update_char_list(data_update)
     print(f"\t{len(data_update)} entries updated")
 
