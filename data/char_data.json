@@ -1555,6 +1555,15 @@
         "ver": "1.0",
         "lines": [
             {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "香菱关于白术",
+                "content_zh": "嗯？我闻到了雾虚花的香气！是白先生，白先生来帮你看病了吗？你是哪里不舒服，头晕还是胃疼？还是嗓子痒？还是没力气？哦…没生病啊。那还好。不然白先生会给你超——苦的药哦。",
+                "target_en": "Baizhu",
+                "title_en": "Xiangling about Baizhu",
+                "content_en": "I can smell Mist Flowers! It must be Dr. Baizhu! What is he doing here? *Shocked* Are you OK? Do you feel faint? Is your stomach sore? Or is it a sore throat? I've got it, you're fatigued from all that adventuring! No?... You're fine? Phew! Otherwise, he would've made you drink some traditional herbal medicine — it's so bitter!"
+            },
+            {
                 "target_id": 16,
                 "target_zh": "凝光",
                 "title_zh": "香菱关于凝光",
@@ -1915,6 +1924,15 @@
                 "content_en": "You know what, I think her music rocks. Too noisy by traditional standards, for sure, but I don't care. Good music is good music. And good music should reach the widest possible audience."
             },
             {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "刻晴关于白术",
+                "content_zh": "白术先生的医术备受居民的信赖，如果有什么疑难杂症，去找他肯定不会有错。你说…那些奇怪的传闻？我只知道有一件事是真的，他开的药，确实特别苦，不止是小孩子觉得…给我都留下了很深刻的印象。",
+                "target_en": "Baizhu",
+                "title_en": "Keqing about Baizhu",
+                "content_en": "Everyone has faith in Dr. Baizhu's medical skills. He's the right guy to go to when you can't figure out what's wrong with you. Oh... the rumors, you say? The only one that I know for a fact is true is how disgusting his medicine tastes. It's not just the kids who find it bitter, it's left me with some horrible memories, too!"
+            },
+            {
                 "target_id": 17,
                 "target_zh": "香菱",
                 "title_zh": "刻晴关于香菱",
@@ -2004,6 +2022,15 @@
         "img_url": "https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814265912018.png",
         "ver": "1.0",
         "lines": [
+            {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "七七关于白术",
+                "content_zh": "我记不起来白先生的脸了，但是也没什么关系…",
+                "target_en": "Baizhu",
+                "title_en": "Qiqi about Baizhu",
+                "content_en": "I can never remember Dr. Baizhu's face. But I don't mind."
+            },
             {
                 "target_id": 29,
                 "target_zh": "胡桃",
@@ -2320,6 +2347,15 @@
                 "content_en": "Y'know, the Millelith used to get in my way all the time. Can't set up a stage here, can't perform there. Real bother, it was... Ahem. But after I wrote to the Ministry of Civil Affairs, I heard that the Tianquan amended one of Liyue's... Uh, some rule or something. She designated some spots for performances to take place, so long as you apply. *sigh* It's still a load of trouble if you ask me, but it's better than being harangued by those Millelith every time, so..."
             },
             {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "辛焱关于白术",
+                "content_zh": "白术先生开的药方保养嗓子效果一流，为了答谢他，我在他面前来了一段即兴摇滚，结果…他养的那条蛇就晕了过去。从那以后，那条蛇看到我就一个劲儿地往白术先生的衣领里面钻，哈哈哈。我从那以后才知道，蛇原来对震动很敏感。",
+                "target_en": "Baizhu",
+                "title_en": "Xinyan about Baizhu",
+                "content_en": "Dr. Baizhu's prescriptions are the tops at preserving my voice. I did an impromptu performance for him as thanks, but... the snake he keeps around his neck fainted away. Haha, now it ducks up Dr. Baizhu's sleeve every time I'm around. I only discovered afterwards that snakes are very sensitive to vibrations."
+            },
+            {
                 "target_id": 15,
                 "target_zh": "北斗",
                 "title_zh": "辛焱关于北斗",
@@ -2581,6 +2617,15 @@
                 "content_en": "Beidou? I have nothing to do with her. Though there is such a thing as the leviathan. As a mere human, she has proven her power in defeating Haishan."
             },
             {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "魈关于白术",
+                "content_zh": "你想…托付白术研制缓解我痛苦的药物？呵…你的好意我心领了。凡人的药物，对仙人是无法起效的。",
+                "target_en": "Baizhu",
+                "title_en": "Xiao about Baizhu",
+                "content_en": "You want... Baizhu to make a medicine to take away my pain? I understand your intentions, but mortal medicine has no effect on adepti."
+            },
+            {
                 "target_id": 29,
                 "target_zh": "胡桃",
                 "title_zh": "魈关于胡桃",
@@ -2651,6 +2696,15 @@
                 "target_en": "Qiqi",
                 "title_en": "Hu Tao about Qiqi",
                 "content_en": "Have you seen Qiqi? Tell me where she is, quickly. I need to go seal her away, hee-hee!"
+            },
+            {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "胡桃关于白术",
+                "content_zh": "白术？哼，麻烦的家伙。",
+                "target_en": "Baizhu",
+                "title_en": "Hu Tao about Baizhu",
+                "content_en": "Baizhu? Ugh, that guy..."
             },
             {
                 "target_id": 16,
@@ -4119,6 +4173,15 @@
                 "content_en": "That gentleman claims to be a mortal, yet is very familiar with my master, who is an adeptus. Master once said: \"If you see him drinking on a stone stool in front of my abode, do not disturb him. Let him sit quietly for a while.\" And that's precisely what I did."
             },
             {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "申鹤关于白术",
+                "content_zh": "他的药草品质很好，为人也随和周到。相比起来，脖子上的小蛇倒是口无遮拦…放心，我没有动手。我还不至于和一条蛇置气。",
+                "target_en": "Baizhu",
+                "title_en": "Shenhe about Baizhu",
+                "content_en": "The quality of his medicinal herbs is as good as it gets, he is also easy-going and considerate of others. By comparison, the little snake on his neck has no filter at all... Haha, don't worry, I didn't lift a finger against it, I won't go as far as getting into a quarrel with a snake."
+            },
+            {
                 "target_id": 29,
                 "target_zh": "胡桃",
                 "title_zh": "申鹤关于胡桃",
@@ -4722,6 +4785,15 @@
                 "content_en": "Be careful of Alhaitham. I'm not saying he's a bad guy, but he purely operates by rationality, so people often find his actions unacceptable. If you don't believe me, just ask his housemate — thanks to Alhaitham, he has more pent-up frustration than an angry Anemo Slime."
             },
             {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "提纳里关于卡维",
+                "content_zh": "卡维是须弥著名的建筑师，代表作就是那座醒目的卡萨扎莱宫。当初在设计建造的时候，他还来找我咨询过有没有合适的观赏植物推荐。但不知是怎么搞的，他在宫殿完工后却给自己欠了一屁股的债，目前正被学弟艾尔海森接济，借住在他家。这个…该说是幸，还是不幸呢…",
+                "target_en": "Kaveh",
+                "title_en": "Tighnari about Kaveh",
+                "content_en": "Kaveh is a famous architect in Sumeru. The Palace of Alcazarzaray is his magnum opus. During the initial planning, he even asked me to recommend suitable ornamental flora. I don't know why or how, but he ended up heavily in debt after the palace was completed. Alhaitham is helping out by letting him stay at his place, but... I don't know whether that's a blessing or a curse..."
+            },
+            {
                 "target_id": 53,
                 "target_zh": "多莉",
                 "title_zh": "提纳里关于多莉",
@@ -4821,6 +4893,15 @@
                 "content_en": "Um... I'd rather not talk about him, if that's okay? Oh, no — the General Mahamatra isn't a bad guy or anything. Matter of fact, I have him to thank for bringing me back from Mondstadt to Sumeru and finding me a safe place to stay. It's just that... whenever I'm reminded of the sealing process just before leaving Mondstadt... ooh... the back of my neck starts hurting again..."
             },
             {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "柯莱关于卡维",
+                "content_zh": "大风纪官曾带着他来我们这里吃过一顿饭。在餐前水果刚端上桌的时候，他就开始大谈他那个又不讲情理又固执的室友，我们连插话的时机都找不到。只能点点头，憋着笑，吃完了整顿饭。唉，真是不容易。",
+                "target_en": "Kaveh",
+                "title_en": "Collei about Kaveh",
+                "content_en": "The General Mahamatra once brought him to our place for a meal. From the moment the fruit arrived on the table, he ranted non-stop about his difficult and stubborn roommate for the entire meal. We didn't get a single word in the whole time. We just nodded along and tried to stifle our laughter. It took a lot of effort."
+            },
+            {
                 "target_id": 56,
                 "target_zh": "妮露",
                 "title_zh": "柯莱关于妮露",
@@ -4911,6 +4992,15 @@
                 "content_en": "He once came nosing around, asking my minions some questions to see what he could find out. Like I said, those Akademiya people are just pig-headed and dishonest. Why should I take the risk of others prying into my business? Right, my young apprentice?"
             },
             {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "多莉关于卡维",
+                "content_zh": "他是跟我有合作的妙论派的人之一，和某些教令院的死脑筋不一样，是个会为理想奋斗的人，我很欣赏他。我悄悄借了他一大——笔摩拉，让他造出了我的艾尔卡萨扎莱宫。可以说没有善良的多莉的资助，就没有今天的卡维。",
+                "target_en": "Kaveh",
+                "title_en": "Dori about Kaveh",
+                "content_en": "Ah yeah, he's one of the Kshahrewar people that I work with. Unlike the more closed-minded people at the Akademiya, he actually has his own dreams that he's fighting for. I, for one, really respect that. I secretly lent him some Mora — and I mean a LOT of Mora — to build my Palace of Alcazarzaray. One thing's for sure — without Dori the benevolent benefactor, Kaveh would not be where he is today, hehe."
+            },
+            {
                 "target_id": 63,
                 "target_zh": "迪希雅",
                 "title_zh": "多莉关于迪希雅",
@@ -4990,6 +5080,15 @@
                 "target_en": "Alhaitham",
                 "title_en": "Cyno about Alhaitham",
                 "content_en": "I don't really like people who are too smart. They think they can control everything, and constantly venture to the fringes of danger. But Alhaitham is one of the more reliable ones. In most cases, he is actually in control of things and has the ability to avert potential disaster."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "赛诺关于卡维",
+                "content_zh": "提纳里和柯莱没有亲口说出来，但他们之间的眼神交流已经说明了一切。卡维分享的亲身经历比我准备的笑话有趣多了。我的看法？我觉得他们会为这种事情发笑，反倒是挺好笑的。",
+                "target_en": "Kaveh",
+                "title_en": "Cyno about Kaveh",
+                "content_en": "Tighnari and Collei never said it to my face, but they found Kaveh's personal anecdotes far more entertaining than the jokes I had prepared... I could see it on their faces. Hmm? What did I think about that? Well, I thought it was funny that they could laugh at such a situation."
             },
             {
                 "target_id": 57,
@@ -5118,6 +5217,15 @@
                 "content_en": "She sometimes comes to watch my performances. She's a really hard-working Trainee Forest Ranger. One time, she warned me about getting lost. What did she mean by that? It's not like I've gotten lost before..."
             },
             {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "妮露关于卡维",
+                "content_zh": "我听说是他建造了华美的艾尔卡萨扎莱宫，能建造出那样的作品，过程应该快乐又陶醉吧。就像我练舞的时候一样，只要一想到能跳给大家看，就充满了喜悦和动力呢。",
+                "target_en": "Kaveh",
+                "title_en": "Nilou about Kaveh",
+                "content_en": "I heard he was the one who built the magnificent Palace of Alcazarzaray. He must have had a wonderful time making such a masterpiece, like when I'm in the middle of dance practice. Just thinking about dancing for everyone gives me so much happiness and motivation."
+            },
+            {
                 "target_id": 63,
                 "target_zh": "迪希雅",
                 "title_zh": "妮露关于迪希雅",
@@ -5215,6 +5323,15 @@
                 "target_en": "Dori",
                 "title_en": "Nahida about Dori",
                 "content_en": "The first thing she said when she saw me was \"Nice palace. How much?\" Of course, I couldn't possibly sell her the Sanctuary of Surasthana. But still, her question had me stumped. I thought about it long and hard, but I still can't figure out how much Mora it's worth..."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "纳西妲关于卡维",
+                "content_zh": "他对须弥推行智慧这一事的理解，已经非常接近本质了，很可惜的是，他掌握的真相无法成为这个国度的主流。什么？你说他和艾尔海森是室友？世上居然还有这种可能性…",
+                "target_en": "Kaveh",
+                "title_en": "Nahida about Kaveh",
+                "content_en": "He has an almost-perfect grasp of what it truly means for Sumeru to be a Nation of Wisdom. Sadly, the truth as he understands it will never be accepted as the mainstream. Hmm? He's roommates with Alhaitham? Wow... the world really is full of surprises..."
             },
             {
                 "target_id": 60,
@@ -5424,6 +5541,15 @@
                 "content_en": "Sometimes, she'll lower her head and keep her distance when she sees me. However, she's all smiles and greetings at night... I don't quite get her. Anyway, most kids in Rtawahist are geniuses. A quirk or two isn't anything to concern myself with."
             },
             {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "珐露珊关于卡维",
+                "content_zh": "卡维这孩子是个好苗子。我跟他随便聊过一些机关构造原理，怎么说呢…尽管浪漫思想和艺术细胞都有些过甚，但还算有自己的想法，不容易。听说他日子过得有点紧，我一直等着哪天拿到经费就请他吃顿好的…等着吧。",
+                "target_en": "Kaveh",
+                "title_en": "Faruzan about Kaveh",
+                "content_en": "Kaveh's a good kid with great potential. I had a casual chat with him once about some principles of mechanism construction. Hmm, how should I put it... He's too much of an artsy romantic, but at least he has some original ideas, which is rare nowadays. I've heard that he's fallen on some hard times, so I'm planning to invite him out for a good meal once my funding gets approved. It'll happen soon, promise."
+            },
+            {
                 "target_id": 56,
                 "target_zh": "妮露",
                 "title_zh": "珐露珊关于妮露",
@@ -5449,6 +5575,24 @@
                 "target_en": "Nahida",
                 "title_en": "Alhaitham about Lesser Lord Kusanali",
                 "content_en": "One should neither dismiss nor overly revere the divine. Gods require followers, and they are also part of a biological hierarchy. That's why I don't take any pride in the fact that I helped rescue a god. I hope Lesser Lord Kusanali doesn't take offense."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "艾尔海森关于卡维·关怀",
+                "content_zh": "他对所有人和事都抱有过度的关怀心，可能是因为他自己太脆弱了吧，整天大惊小怪的。",
+                "target_en": "Kaveh",
+                "title_en": "Alhaitham about Kaveh: Overly Sensitive",
+                "content_en": "Kaveh tends to be overly sensitive about everyone and everything he crosses paths with, and he's constantly making a fuss about nothing. Maybe it's because he's too emotionally fragile..."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "艾尔海森关于卡维·上当",
+                "content_zh": "有人在路边摆摊，说只要卖出一个手工钥匙扣，就会有一个贫困家庭的孩子吃上饱饭。卡维买了十几个回来。\n在医疗服务都免费提供的须弥…我不多说了。",
+                "target_en": "Kaveh",
+                "title_en": "Alhaitham about Kaveh: Getting Duped",
+                "content_en": "Someone set up a stand on the street saying that for each handmade keychain they sold, a child in poverty would be given a meal. Kaveh bought at least a dozen.\n...This is Sumeru, where even healthcare is free. I needn't say more."
             },
             {
                 "target_id": 51,
@@ -5530,6 +5674,15 @@
                 "target_en": "Qiqi",
                 "title_en": "Yaoyao about Qiqi: Forever",
                 "content_en": "I once asked Dr. Baizhu in private if there's any way to cure her, and, um... But it doesn't matter. I'll probably have to keep reminding her who I am for my whole life, but that's okay."
+            },
+            {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "瑶瑶关于白术",
+                "content_zh": "白先生开的方子可有效啦。虽然苦是有点苦，但这就是所谓的「良药苦口」吧！我理解的！哎呀，你怕苦吗？别担心，我这边有蜜枣，喝完药吃一颗就好了。",
+                "target_en": "Baizhu",
+                "title_en": "Yaoyao about Baizhu",
+                "content_en": "Dr. Baizhu's prescriptions are pretty effective. They're bitter, that's for sure, but they always say that about medicine: \"the bitter the better\"! So I get it. Huh? Too bitter for you? Don't worry, I've got some Candied Dates here. One of these after you finish your medicine will take the taste away."
             },
             {
                 "target_id": 27,
@@ -5755,6 +5908,186 @@
                 "target_en": "Albedo",
                 "title_en": "Mika about Albedo",
                 "content_en": "The Chief Alchemist has been very kind to me. He helped me make all the survey equipment I use in the field... I even have some pens he made that will work even when I'm hanging upside down from a tree. But it seems that making artistic sketches is quite different from making maps. I've tried to make some sketches of a target area as supplemental intel before, and word has it that Captain Albedo went silent for a long time when he saw them..."
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name_zh": "白术",
+        "name_en": "Baizhu",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/03/15/91d73bb4468762e12179ee84cebed661_3161005390131117182.png",
+        "ver": "3.6.2",
+        "lines": [
+            {
+                "target_id": 21,
+                "target_zh": "七七",
+                "title_zh": "白术关于七七",
+                "content_zh": "你猜得没错，封住七七一缕神智的的确是仙人的秘法。也是多亏七七，我才摸索出了保住将死之人的方法。既然仙人都怜悯这孩子，施法将她留在「此岸」，那我顺水推舟收留她，又有何不妥呢？",
+                "target_en": "Qiqi",
+                "title_en": "Baizhu about Qiqi",
+                "content_en": "Yes, you've guessed correctly. The preservation of a thread of Qiqi's consciousness was in fact the work of the adepti. It's also thanks to Qiqi that I managed to come up with a way to save someone on the brink of death. Since the adepti took pity on this child and even used their arts to keep her on this side of existence, I thought I'd take the opportunity to keep her around the pharmacy. There's no harm in that, is there?"
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "白术关于胡桃·道不同",
+                "content_zh": "观念不同而已，我对胡堂主本人并无意见。非要说的话，应该是她防备我居多吧。",
+                "target_en": "Hu Tao",
+                "title_en": "Baizhu about Hu Tao: Different Approach",
+                "content_en": "We have some differences in ideology, that's all. I don't harbor any ill-will toward Director Hu. If anything, I think she's more wary of me."
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "白术关于胡桃·疲惫",
+                "content_zh": "白术：有可能的话，我还是希望胡堂主做生意时注意些方式方法。\n长生：哦，原来你还记着她到「不卜庐」门口打广告的事啊。\n白术：唉，没事的时候，也别总是惦记七七了。\n长生：你其实对她有意见吧？\n白术：我又怎么会真跟她计较呢，只是每次她把七七带走，我都要费劲拜托总务司寻人，实在太累人了。",
+                "target_en": "Hu Tao",
+                "title_en": "Baizhu about Hu Tao: Exhausting Encounters",
+                "content_en": "Baizhu: If possible, I sincerely wish that Director Hu would be more sensible about her business practices.\nChangsheng: Oh, so you haven't forgotten about the time when she was disseminating flyers right outside of Bubu Pharmacy.\nBaizhu: *sigh* I just wish that she wouldn't be so concerned about Qiqi whenever she has nothing better to do.\nChangsheng: Sounds like you have something against her...\nBaizhu: It's not that I take issue with Director Hu... It's just that every time she kidnaps Qiqi, I have to go all the way to the Ministry of Civil Affairs to get someone to sort it all out. It's... quite exhausting."
+            },
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "白术关于甘雨",
+                "content_zh": "仙家体质强健，即便身体有恙，不需药物也能自愈。不像凡夫俗子，一旦伤筋动骨，没有医治非落下残疾不可。",
+                "target_en": "Ganyu",
+                "title_en": "Baizhu about Ganyu",
+                "content_en": "Those with the blood of the adepti have strong constitutions. Even when she is ill or injured, she does not require any medicine to recover. She isn't like your average mortal, who would be left with long-term residual issues if they did not receive medical treatment after a serious injury."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "白术关于刻晴",
+                "content_zh": "从面部状态来看，玉衡星应该是习惯了熬夜，且思虑过多，才会时不时显露疲态。想要保养好身体的话，还得放下工作，静养为宜。可惜她太过上进，似乎是打定了主意要用健康换事业，我这话说了她未必听得进去。",
+                "target_en": "Keqing",
+                "title_en": "Baizhu about Keqing",
+                "content_en": "If I were to hazard a guess about her health from a face reading, I would presume the Yuheng's frequent looks of exhaustion are due to her long-time habits of burning the midnight oil and never giving her mind a rest. If she wishes to maintain her health, she should stop working and relax from time to time. Unfortunately, she is overly ambitious, and seems to be completely willing to trade her health for her career. Even if I were to tell her this myself, I'm afraid she would not listen to me."
+            },
+            {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "白术关于瑶瑶",
+                "content_zh": "…这孩子每次来找七七玩耍时都要和我抱怨药苦，问我有没有不苦的药。治病救人的药，哪有不苦的呢？",
+                "target_en": "Yaoyao",
+                "title_en": "Baizhu about Yaoyao",
+                "content_en": "Every time she comes to play with Qiqi, she complains about the taste of medicine and asks me if I have anything that isn't bitter. If the medicine will save someone's life, who cares how bitter it tastes, hmm?"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "白术关于钟离",
+                "content_zh": "钟离先生这样的博学多闻之士，哪怕是聊起偏门的古医方也能从容应答，肯定自有一套养生调理的讲究。普通的头疼脑热他自己就能解决了，的确没必要到我这里来开方子。",
+                "target_en": "Zhongli",
+                "title_en": "Baizhu about Zhongli",
+                "content_en": "Ah, Zhongli... Yes, I can tell he is very knowledgeable. He can carry a conversation even when discussing niche topics like ancient medicine. He must also have some habits and practices for himself when it comes to healthy living. The common headache or fever should pose no problem for him, so he doesn't need a prescription from me."
+            },
+            {
+                "target_id": 28,
+                "target_zh": "魈",
+                "title_zh": "白术关于魈",
+                "content_zh": "白术：降魔大圣杀生为护生，心有大慈悲。我曾有幸亲眼见过他本人，还将昏迷的他带回庐中照顾了一天，只可惜当时我不识仙师真身，又没来得及多交谈几句，他就独自离开了。\n长生：后来你们不是又见过嘛，不用遗憾啦。\n白术：说得也是。",
+                "target_en": "Xiao",
+                "title_en": "Baizhu about Xiao",
+                "content_en": "Baizhu: Only the most magnanimous soul could labor to preserve life by slaying evil spirits. I was once fortunate enough to see the Conqueror of Demons with my own eyes. We even brought him back to the pharmacy to take care of him for a day. Unfortunately, I did not know his true identity at the time, and didn't even have a chance to speak with him before he left on his own.\nChangsheng: But you've seen him since then, haven't you? There's no reason to be upset.\nBaizhu: Yes, you're right."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "白术关于提纳里",
+                "content_zh": "原来须弥教令院里有你的相识？那能否麻烦你帮我与这位提纳里先生联络一番，我有不少药草方面的事情想要请教。",
+                "target_en": "Tighnari",
+                "title_en": "Baizhu about Tighnari",
+                "content_en": "Ah, so you have an acquaintance from the Sumeru Akademiya? In that case, could I trouble you to introduce me to this Tighnari? I have many questions about herbal medicine that I would like to ask him."
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name_zh": "卡维",
+        "name_en": "Kaveh",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/03/15/db3834416088a151c71b3bbce8f8ed60_4163662997412179228.png",
+        "ver": "3.6.2",
+        "lines": [
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "卡维关于小吉祥草王",
+                "content_zh": "小吉祥草王是一位非常贤明的神，充满智慧，更拥有常人无法匹敌的美德。她能理解包容他人，在须弥这样的学术之国里，她的沉稳叫我钦佩。\n偶尔我会想，神明难道就毫无烦恼吗？智慧时常伴随困惑而生，那什么才算得上真正的幸福？",
+                "target_en": "Nahida",
+                "title_en": "Kaveh about Lesser Lord Kusanali",
+                "content_en": "Lesser Lord Kusanali is a wise and capable god. Not only is she extremely knowledgeable, she also possesses virtue far beyond mortal comprehension. I have only the utmost respect for her tolerance of others — especially in a nation of learning like Sumeru, that takes great equanimity.\nSometimes, though, I do stop to wonder... Surely even the gods must have their struggles, too? Oftentimes, confusion is the beginning of wisdom... In which case, how can we ever achieve true happiness?"
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "卡维关于艾尔海森·脾气",
+                "content_zh": "谁都不可能从人群中找出第二个像他一样令人无语的家伙！这话就算他本人来了我也敢说。\n你也知道他很聪明，都说聪明人容易脾气差，这话算是对了一半吧，可他不一样…他完全清楚怎么表现得更符合大众定义的友好，只是不想。\n假如你觉得他脾气很好，或者觉得他死板教条像台机器，那说明你们还不够熟。他就是太有性格，普通人理解不了。",
+                "target_en": "Alhaitham",
+                "title_en": "Kaveh about Alhaitham: Temperament",
+                "content_en": "I guarantee you'll never meet anyone else who's as infuriating as him! And for the record, yes, I would say that to his face. Sure, he's smart, and sure, geniuses often come with a bad temper, but that's only half the story with him... He knows perfectly well how to appear friendly and likable to others, he just doesn't want to.\nIf he ever gives you the impression that he doens't really have a temper, or that he's rigidly logical like a machine, then you just don't know him well enough yet. He definitely has a personality, it's just... too big a personality. Most people wouldn't get it."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "卡维关于艾尔海森·复杂",
+                "content_zh": "艾尔海森帮了我一些忙，如果我们的关系还像学生时代那么好，我肯定会三天两头感谢他。现在嘛…说不出口，也不想就这么承认。\n该说是有好有坏吗？很多事就像命运的恶作剧…不是重来几次就能看清的。当然，能认识这样一个人也算难得，他要是能收起性格中比较恶劣的部分就更好了。好吧不可能。",
+                "target_en": "Alhaitham",
+                "title_en": "Kaveh about Alhaitham: It's Complicated",
+                "content_en": "Alhaitham helped me out a fair amount recently. If we were still as close as we were during our student days, then I'd be thanking him every chance I got. Now, though... I can't seem get a word of appreciation out of my mouth. Even if I could, I wouldn't want to give him the satisfaction.\nI guess you could say our relationship is something of a mixed bag these days? Honestly, with everything that's happened, it almost feels like the universe has been playing pranks on us... It's hard to make sense of it all... too much to process for one lifetime. I will say that it's not every day that you get to know someone like him — I just wish he could rein in some of the worst excesses of his personality. Okay, yeah, that's never gonna happen."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "卡维关于提纳里",
+                "content_zh": "提纳里啊，你见到他就会明白的，他是非常好的人，善良又渊博，而且从不将知识当成炫耀的资本。他是真心喜欢他的工作。\n建造卡萨扎莱宫那段时间我向他请教过挑选园艺花卉的办法，他回信给我，后来还帮我处理了一些别的问题。噢对，赛诺也是我通过他认识的。",
+                "target_en": "Tighnari",
+                "title_en": "Kaveh about Tighnari",
+                "content_en": "Ah, Tighnari... He's one of the nicest guys you could know. If you've met him, you'll know what I mean. He's kind, and he has enormous expertise in his field, but he never brags about it in front of other people. And he seems to genuinely care about his work.\nBack when I was building the Palace of Alcazarzaray, I asked him for some tips on how to pick out the right ornamental plants. After he wrote back to me, he also helped me out with some other issues, too. Oh, and I almost forgot — he was the one who first introduced me to Cyno."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "卡维关于多莉",
+                "content_zh": "多莉是卡萨扎莱宫的主人…你说什么？废话，卡萨扎莱宫当然不是我的…别说了别说了！\n她很精明，懂得如何控制别人为自己办事。我…呃…我因为一些原因欠她钱，那件事很复杂…反、反正，还是希望她手下留情，别总是为钱的问题折腾我。她明明可以成为更善良的好人的啊，怎么会这样呢？",
+                "target_en": "Dori",
+                "title_en": "Kaveh about Dori",
+                "content_en": "Dori is the owner of the Palace of Alcazarzaray... Excuse me? Mine? No, don't be ridiculous. I know full well that it doesn't belong to me... I know, I know, but... argh, please, let's not go there!\nDori is a shrewd one. She knows how to coerce others into doing things for her. I, uh... For, ahem, various reasons, I now owe her a large sum of money. It all got quite complicated in the end, but... A—Anyway, I wish she'd show me a little mercy, and stop making my life a misery for the sake of Mora. I swear, she doesn't seem like a bad person at heart, so... I just don't understand, how did she turn out like this?"
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "卡维关于赛诺",
+                "content_zh": "赛诺看似冷酷无情，其实很热心肠。记得当初提纳里说要给我介绍他最好的朋友，我一回头就看见一个气势惊人的风纪官走进门…真没想到，本来以为那种类型的风纪官不会跟学者走得太近。\n不过赛诺的冷笑话我受不了，冬天听到那些会汗毛倒竖。他约你一起去提纳里家吃饭的话，你最好多穿件外套。",
+                "target_en": "Cyno",
+                "title_en": "Kaveh about Cyno",
+                "content_en": "Cyno can come across as cold and ruthless, but he's actually a very big-hearted guy. I still remember how shocked I was when Tighnari said he was gonna introduce me to his best friend, and then a couple of seconds later, an incredibly intimidating matra comes walking through the door... I honestly never expected to meet a matra who's so comfortable hanging out with scholars. Gotta say though, I can't stand his sense of humor. It really makes my skin crawl. If he ever invites you to a meal at Tighnari's place, make sure someone's bringing beer, because no one should have to endure Cyno's humor while sober."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "卡维关于柯莱",
+                "content_zh": "我和柯莱见过不少次了，她一直跟在提纳里身边，既是助手也是学生。柯莱做事很认真，又有耐心，比同龄人可靠不少。\n嗯…不过能看出来，她的心事不少。",
+                "target_en": "Collei",
+                "title_en": "Kaveh about Collei",
+                "content_en": "I've met Collei quite a few times now. As Tighnari's student and assistant, she follows him everywhere. With her diligence and patience, she's much more responsible than most other kids her age. But, umm... I can also tell that she's got a lot going on inside."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "卡维关于妮露",
+                "content_zh": "妮露作为舞蹈家的实力毋容置疑，祖拜尔剧场能招到这样一位演员未免太走运了点。\n听说她性格也很好，跳舞时一直在笑，对每个观众都说鼓励的话。等有时间，我也会去看她的演出。",
+                "target_en": "Nilou",
+                "title_en": "Kaveh about Nilou",
+                "content_en": "Nilou's talent as a dancer is indisputable. Zubayr Theater really lucked out when they recruited her. I've heard that she has a great personality too — she always smiles and says encouraging things to her audience when she's performing. Once I can find some time, I'll have to catch one of her shows."
+            },
+            {
+                "target_id": 60,
+                "target_zh": "珐露珊",
+                "title_zh": "卡维关于珐露珊",
+                "content_zh": "珐露珊前辈心直口快，听说教令院有些学生怕她，能理解，不过她从来没有什么坏心思，就是一心扑在自己感兴趣的学问上。有人觉得知论派都难相处，这个嘛…哈哈。\n她应该也请你当她的学生了吧？的确，珐露珊前辈有时像个疯狂的推销员…学问倒都是真的，这点不会错。",
+                "target_en": "Faruzan",
+                "title_en": "Kaveh about Faruzan",
+                "content_en": "Madam Faruzan doesn't mince her words, so I can understand why some students at the Akademiya are afraid of her. She doesn't have any bad intentions, though — all she wants is to devote herself completely to the research that interests her. Some people say that all Haravatat scholars are hard to get along with, and uh... heh, I'll let you be the judge of that.\nI assume she's already asked you to be her student? She sure is a little intense when she's doing the hard sell, huh... But she can walk the walk too. She really does know her stuff."
             }
         ]
     }
