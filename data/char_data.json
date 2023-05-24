@@ -319,7 +319,7 @@
                 "content_zh": "莫娜？似乎是一位很优秀的魔导师小姐呢。但我并不是她们「魔女会」的成员哦。古树考察，组织茶会，一听就是麻烦的事情吧。",
                 "target_en": "Mona",
                 "title_en": "Lisa about Mona",
-                "content_en": "Mona? She seems to be an excellent mage, but I'm not a part of their Hexenzirkel. The idea of Irminsul exploration and formal tea parties just leaves me cold."
+                "content_en": "As for Mona? She seems to be an excellent mage, but I'm not a part of their Hexenzirkel. The idea of Irminsul exploration and formal tea parties just leaves me cold."
             },
             {
                 "target_id": 26,
@@ -1309,7 +1309,7 @@
                 "content_zh": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
                 "target_en": "Lisa",
                 "title_en": "Mona about Lisa",
-                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe 'becomes lazy' is more accurate than 'comes to rest,' in this case."
+                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe \"becomes lazy\" is more accurate than \"comes to rest,\" in this case."
             },
             {
                 "target_id": 8,
@@ -1561,7 +1561,7 @@
                 "content_zh": "嗯？我闻到了雾虚花的香气！是白先生，白先生来帮你看病了吗？你是哪里不舒服，头晕还是胃疼？还是嗓子痒？还是没力气？哦…没生病啊。那还好。不然白先生会给你超——苦的药哦。",
                 "target_en": "Baizhu",
                 "title_en": "Xiangling about Baizhu",
-                "content_en": "I can smell Mist Flowers! It must be Dr. Baizhu! What is he doing here? *Shocked* Are you OK? Do you feel faint? Is your stomach sore? Or is it a sore throat? I've got it, you're fatigued from all that adventuring! No?... You're fine? Phew! Otherwise, he would've made you drink some traditional herbal medicine — it's so bitter!"
+                "content_en": "I can smell Mist Grass! It must be Dr. Baizhu! What is he doing here? *Shocked* Are you OK? Do you feel faint? Is your stomach sore? Or is it a sore throat? I've got it, you're fatigued from all that adventuring! No?... You're fine? Phew! Otherwise, he would've made you drink some traditional herbal medicine — it's so bitter!"
             },
             {
                 "target_id": 16,
@@ -3389,6 +3389,15 @@
                 "target_en": "Klee",
                 "title_en": "Yoimiya about Klee",
                 "content_en": "Wait, you said there was a kid in Mondstadt who was good at making bombs?... Now, they aren't much different from fireworks. In other words, she might be a genius... Ohh, I'd love to meet her. *sigh* But isn't it dangerous to let children play with explosives? Don't the people of Mondstadt worry about that?"
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "宵宫关于绮良良",
+                "content_zh": "你说「狛荷屋」的那位快递员呀，她手脚可麻利啦。做烟花的时候，时常有一两种决定颜色的材料消耗得比别的都快，这种时候，她总能很快补来新货，帮了大忙。有次我送了她一个烟花，想要表达感谢。她却怎么也不敢放，说是之前被烟花的动静吓到过。哈哈，那就只好让她跑到远远的地方，我来放给她看喽。",
+                "target_en": "Kirara",
+                "title_en": "Yoimiya about Kirara",
+                "content_en": "The courier from Komaniya Express? She's super reliable and really quick on her feet! Ingredients used in coloring the fireworks always run out quickly, but she always delivers a new batch right when I need them! I gave her a firework once as a thank-you gift, but she was too scared to light it, saying that she got spooked once by the sound of fireworks. Hehe, so I told her to find a nice viewing spot far away and set it off for her."
             }
         ]
     },
@@ -3470,6 +3479,15 @@
                 "target_en": "Kuki Shinobu",
                 "title_en": "Sayu about Kuki Shinobu",
                 "content_en": "Doesn't ring a bell, umm... What? Arataki Itto's little sidekick? Ugh, well she's definitely gotta be a sleep disturbance then. Birds of a feather flock together..."
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "早柚关于绮良良",
+                "content_zh": "有次我午觉睡醒，感觉身后暖和和的，一转头就看见有只猫正蜷着睡觉，关键是有一对毛茸茸的尾巴！吓得我差点从树枝上掉下去。这，这也是变身术吗？",
+                "target_en": "Kirara",
+                "title_en": "Sayu about Kirara",
+                "content_en": "One time, when I woke up from an afternoon nap, I felt something warm against my back. I turned around and saw a cat curled up fast asleep. You wouldn't believe this — it had not only one, but two fluffy tails! I almost fell from the tree in surprise. I—Is this some form of ninjutsu too?"
             }
         ]
     },
@@ -3703,6 +3721,15 @@
                 "target_en": "Kuki Shinobu",
                 "title_en": "Kujou Sara about Kuki Shinobu",
                 "content_en": "With her talent and qualifications, it's a shame she decided to join the Arataki gang. I must concede, however, that at the very least, her presence has effectively prevented idlers from stirring up trouble and disturbing the public, reducing the burden on the Tenryou Commission."
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "九条裟罗关于绮良良",
+                "content_zh": "近来总觉得暗处有奇怪的视线，待我确认时又消失无踪。真是不明所以的恶作剧。你说…是只猫又？嗯…既然有事找我，堂堂正正报上名来就行。",
+                "target_en": "Kirara",
+                "title_en": "Kujou Sara about Kirara",
+                "content_en": "Recently, I often feel a mysterious gaze from the shadows that disappears as soon as I turn to look. What an absurd prank... Huh? A nekomata, you say? Huh... She should've just come right up to me if she needed something."
             }
         ]
     },
@@ -4396,6 +4423,15 @@
                 "target_en": "Kuki Shinobu",
                 "title_en": "Yae Miko about Kuki Shinobu",
                 "content_en": "I've heard a lot about Miyuki's little sister. Quite the character, I'm told. Although she comes from a family of shrine maidens, she's gone her own way in life — tried her hand at many different trades, studied abroad in Liyue, even ended up joining the Arataki Gang... Fascinating girl. Maybe I should have Miyuki introduce me. Yes, that'll work — Miyuki wouldn't dream of refusing my request."
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "八重神子关于绮良良",
+                "content_zh": "最近对人类社会感兴趣的妖怪真是越来越多了。这种趋势，该说是好事吗？我的态度？哎呀，当然是劝大家及时行乐啦。再说，乖乖掏钱请客吃饭的小后辈，谁会不喜欢呢？",
+                "target_en": "Kirara",
+                "title_en": "Yae Miko about Kirara",
+                "content_en": "More youkai have expressed an interest in the human world lately. I wonder if that's a good thing or not. You want to know what I think? Hehe, I would tell them to live for the moment. Besides, how could I ever dislike a little youkai who would willingly take us out to dinner and pay for the meal?"
             }
         ]
     },
@@ -4764,7 +4800,7 @@
                 "content_zh": "你想见赛诺？那我丑话说在前头，被他因为公事追在屁股后面可是要倒大霉的。大风纪官毕竟位高权重，平日里还真不好找。不过他偶尔会到化城郭附近偷偷看望柯莱，就算他不想让人看见，我也能听出是他。",
                 "target_en": "Cyno",
                 "title_en": "Tighnari about Cyno: General Mahamatra",
-                "content_en": "You want to see Cyno...? Well, firstly, a word of caution: if he ever comes chasing you down for work-related reasons, prepare for the nightmare of a lifetime. Other than that, General Mahamatra is a high-ranking position, so it usually isn't easy to find him. But he does occasionally go to Gandharva Ville to see Collei. As much as he might want to stay unnoticed, he can't fool my ears, heh."
+                "content_en": "You want to see Cyno...? Well, firstly, a word of caution: if he ever comes chasing you down for work-related reasons, prepare for the nightmare of a lifetime. Other than that, General Mahamatra is a high-ranking position, so it usually isn't easy to find him. But he does occasionally go to Gandharva Ville to see Collei. As much as he might want to stay unnoticed, he can't fool my ears."
             },
             {
                 "target_id": 54,
@@ -4782,7 +4818,7 @@
                 "content_zh": "小心艾尔海森。啊，倒不是说他是什么坏蛋啦，但他做事始终被理性主导，总会有让常人觉得无法接受的地方。不信的话可以去看看他的室友，经常被他气得比风史莱姆还鼓。",
                 "target_en": "Alhaitham",
                 "title_en": "Tighnari about Alhaitham",
-                "content_en": "Be careful of Alhaitham. I'm not saying he's a bad guy, but he purely operates by rationality, so people often find his actions unacceptable. If you don't believe me, just ask his housemate — thanks to Alhaitham, he has more pent-up frustration than an angry Anemo Slime."
+                "content_en": "Be careful of Alhaitham. I'm not saying he's a bad guy, but he purely operates by rationality, so people often find his actions unacceptable. If you don't believe me, just ask his roommate — thanks to Alhaitham, he has more pent-up frustration than an angry Anemo Slime."
             },
             {
                 "target_id": 66,
@@ -4818,7 +4854,7 @@
                 "content_zh": "我听赛诺说过他的这位师姐，是难得一见的天才，博学多闻，才华横溢，只可惜早早就回到了蒙德。难道她在进修的过程中，见到了「知识」令人畏惧的一面吗…",
                 "target_en": "Lisa",
                 "title_en": "Tighnari about Lisa",
-                "content_en": "Cyno has mentioned her before — an extraordinary genius with a veritable wealth of knowledge and talent. A pity that she returned to Mondstadt so long ago. Perhaps, in the course of her studies, she witnessed the horrifying side of knowledge..."
+                "content_en": "Cyno has mentioned her before — an extraordinary genius with a veritable wealth of knowledge and talent. A pity that she returned to Mondstadt so long ago. Perhaps, in the course of her study, she witnessed the horrifying side of knowledge..."
             },
             {
                 "target_id": 57,
@@ -4827,7 +4863,7 @@
                 "content_zh": "我在上学的时候曾听过这样的说法：「植物的历史，便是草之国的历史。」也许说者无心，但我总觉得此话另有深意。如果我有一天能见到小草神大人，她会给我解释吗？",
                 "target_en": "Nahida",
                 "title_en": "Tighnari about Lesser Lord Kusanali",
-                "content_en": "As a student, I once heard this saying: \"Plants and the Land of Dendro share the same history.\" It could just be one of those things that people say, but I've always felt that there's a deeper meaning to those words... If I meet Lesser Lord Kusanali one day, I wonder... if she would explain them to me?"
+                "content_en": "As a student, I once heard this saying: \"Plants and the Land of Dendro share the same history.\" It could just be one of those things that people say, but I've always felt that there's a deeper meaning to those words... If I meet Lesser Lord Kusanali one day, I wonder if she would explain them to me?"
             },
             {
                 "target_id": 63,
@@ -5035,6 +5071,15 @@
                 "target_en": "Nilou",
                 "title_en": "Dori about Nilou",
                 "content_en": "She's a good dancer, but definitely not making the most of her time by staying in Sumeru... I mean, it's a complete waste of her talent. If I took her on tour across all Teyvat, do you have any idea how much Mora I'd rake in?"
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "多莉关于绮良良",
+                "content_zh": "在我跨国收购物资的时候，她为我送过好几次货。服务又好，收费还便宜。哦，对了，她很喜欢各种漂亮的小饰品，我这刚好进了一些，须弥特色，纯手工制品，可精致了。怎么样，要不要买来送给她呀？我给你打折。",
+                "target_en": "Kirara",
+                "title_en": "Dori about Kirara",
+                "content_en": "She delivered several orders to me when I was stocking up on goods from outside of Sumeru. Her service is great, and her prices are low. Oh, I think she's into pretty accessories, and I happen to have some handmade Sumeru specialties on sale! Wanna buy some as a gift for her? I can give you a discount!"
             }
         ]
     },
@@ -5799,7 +5844,7 @@
                 "content_zh": "解决了那件事之后，妮露也能更加自由地跳舞了吧。哦她上次还说，要把自己用的香粉捎一份给我，但我经常在外面奔波，就只能让她先送去坎蒂丝那里。唔…我也该找个时间过去看看了。",
                 "target_en": "Nilou",
                 "title_en": "Dehya about Nilou",
-                "content_en": "Now that the whole saga with the Akademiya's over, I guess she can finally dance as much as she wants. She offered me some of her face powder last time I saw her, but in this line of work, it'd be wasted on me, so I told her to give it to Candace instead. Hmm... I wonder how she's liking it? I need to go check sometime..."
+                "content_en": "Now that the whole saga with the Akademiya's over, I guess she can finally dance as much as she wants. She offered me some of her face powder last time I saw her, but I didn't have the time to go fetch it. So I told her to give it to Candace instead. Hmm... I wonder how she's liking it? I need to go check sometime..."
             },
             {
                 "target_id": 53,
@@ -6088,6 +6133,60 @@
                 "target_en": "Faruzan",
                 "title_en": "Kaveh about Faruzan",
                 "content_en": "Madam Faruzan doesn't mince her words, so I can understand why some students at the Akademiya are afraid of her. She doesn't have any bad intentions, though — all she wants is to devote herself completely to the research that interests her. Some people say that all Haravatat scholars are hard to get along with, and uh... heh, I'll let you be the judge of that.\nI assume she's already asked you to be her student? She sure is a little intense when she's doing the hard sell, huh... But she can walk the walk too. She really does know her stuff."
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name_zh": "绮良良",
+        "name_en": "Kirara",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/05/11/968ccf69c47165ea873b948f3b03d06c_6946501208081322342.png",
+        "ver": "3.7.1",
+        "lines": [
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "绮良良关于八重神子",
+                "content_zh": "神子大人是稻妻远近闻名的大妖怪。我这样新生的妖怪，难免心生敬畏。但没想到，这位狐妖大人非常和蔼可亲，不仅主动来见我，还教会了我很多有用的知识。比如人类社会的礼仪、与人交往的方法、还有油豆腐的炸法什么的…咦？你说最后那个不知道也行？",
+                "target_en": "Yae Miko",
+                "title_en": "Kirara about Yae Miko",
+                "content_en": "Lady Miko is a widely renowned kitsune youkai in Inazuma, so it's natural for young youkai like myself to approach her with reverence. But contrary to my expectations, she was surprisingly amiable. She even came to visit me in person and taught me lots of useful stuff about how to survive in human society! Things like proper human etiquette, ways to approach people, and different fried tofu recipes... Huh? That last one was just for her?"
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "绮良良关于雷电将军",
+                "content_zh": "送到天守阁的快递都包装得特别精美，里三层外三层的。该说不愧是献给那位将军大人的吗…不过，里面装的到底是什么呢？有时还会散发出香香的味道…",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kirara about the Raiden Shogun",
+                "content_en": "Parcels sent to Tenshukaku are all packaged intricately with multiple layers of wrapping. Maybe that's what they call a package fit for the Almighty Shogun. Some of them smell really good... I wonder what's inside."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "绮良良关于鹿野院平藏",
+                "content_zh": "我跟那位侦探在很久以前打过交道。他知道我是「猫又」之后，找过我帮忙打听离家出走的猫猫们去了哪儿。我刚开始还挺乐意的，但后来听到猫猫说什么「就是想到外面走走嘛」、「回去后好无聊啊」什么的，有些心软，就谎称没见过它们。可是那位侦探，好像看得出我在说谎。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kirara about Shikanoin Heizou",
+                "content_en": "I crossed paths with that detective a long while back. Once he learned that I was a nekomata, he started asking me to investigate the whereabouts of missing cats. I was happy to help at first, but then I'd hear the cats say things like \"I just want to see the outside world!\" or \"I get so bored when I'm at home,\" I felt bad for them. So I lied, telling him that I hadn't seen any cat at all. But it seemed like he could see right through me..."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "绮良良关于九条裟罗",
+                "content_zh": "我一直想找那位天狗大人聊聊天。可她是天领奉行的大将，一直都是充满威严的模样，到现在我都只敢趴在远远的地方看她。我…我就是好奇她的翅膀啦。平时会觉得不方便吗？还有那些掉下来的羽毛怎么办？唔…要是拿来垫在箱子里的话，睡起来一定很舒服吧？",
+                "target_en": "Kujou Sara",
+                "title_en": "Kirara about Kujou Sara",
+                "content_en": "I've always wanted to have a chat with the Lady Tengu. Maybe it's because she's the general of the Tenryou Commission, but I find her quite intimidating, so I've only ever watched her from afar. I—I'm just curious about her wings, you know? Are they ever an inconvenience? How does she deal with shedding feathers? Mm... Speaking of the feathers, I think lining my box with them would be super comfy."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "绮良良关于荒泷一斗",
+                "content_zh": "他明明是只鬼，却和人类混得那么熟，还有自己的帮派！唔，好厉害啊。我是不是也该向他请教请教呢？",
+                "target_en": "Arataki Itto",
+                "title_en": "Kirara about Arataki Itto",
+                "content_en": "He's an oni, but he gets along with humans perfectly — he even has his own gang! Oh, I'm so jealous. Maybe I should go ask him for some advice."
             }
         ]
     }

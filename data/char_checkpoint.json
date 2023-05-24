@@ -6135,5 +6135,59 @@
                 "content_en": "The Grand Master placed Mika on the front line of the expedition team not simply because he met the requirements of the mission — more importantly, he was impressed by Mika's hardworking and grounded nature. From my own perspective, I feel very honored to work with someone like him."
             }
         ]
+    },
+    "绮良良": {
+        "id": 67,
+        "name_zh": "绮良良",
+        "name_en": "Kirara",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2023/05/11/968ccf69c47165ea873b948f3b03d06c_6946501208081322342.png",
+        "ver": "3.7.1",
+        "lines": [
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "绮良良关于八重神子",
+                "content_zh": "神子大人是稻妻远近闻名的大妖怪。我这样新生的妖怪，难免心生敬畏。但没想到，这位狐妖大人非常和蔼可亲，不仅主动来见我，还教会了我很多有用的知识。比如人类社会的礼仪、与人交往的方法、还有油豆腐的炸法什么的…咦？你说最后那个不知道也行？",
+                "target_en": "Yae Miko",
+                "title_en": "Kirara about Yae Miko",
+                "content_en": "Lady Miko is a widely renowned kitsune youkai in Inazuma, so it's natural for young youkai like myself to approach her with reverence. But contrary to my expectations, she was surprisingly amiable. She even came to visit me in person and taught me lots of useful stuff about how to survive in human society! Things like proper human etiquette, ways to approach people, and different fried tofu recipes... Huh? That last one was just for her?"
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "绮良良关于雷电将军",
+                "content_zh": "送到天守阁的快递都包装得特别精美，里三层外三层的。该说不愧是献给那位将军大人的吗…不过，里面装的到底是什么呢？有时还会散发出香香的味道…",
+                "target_en": "Raiden Shogun",
+                "title_en": "Kirara about the Raiden Shogun",
+                "content_en": "Parcels sent to Tenshukaku are all packaged intricately with multiple layers of wrapping. Maybe that's what they call a package fit for the Almighty Shogun. Some of them smell really good... I wonder what's inside."
+            },
+            {
+                "target_id": 50,
+                "target_zh": "鹿野院平藏",
+                "title_zh": "绮良良关于鹿野院平藏",
+                "content_zh": "我跟那位侦探在很久以前打过交道。他知道我是「猫又」之后，找过我帮忙打听离家出走的猫猫们去了哪儿。我刚开始还挺乐意的，但后来听到猫猫说什么「就是想到外面走走嘛」、「回去后好无聊啊」什么的，有些心软，就谎称没见过它们。可是那位侦探，好像看得出我在说谎。",
+                "target_en": "Shikanoin Heizou",
+                "title_en": "Kirara about Shikanoin Heizou",
+                "content_en": "I crossed paths with that detective a long while back. Once he learned that I was a nekomata, he started asking me to investigate the whereabouts of missing cats. I was happy to help at first, but then I'd hear the cats say things like \"I just want to see the outside world!\" or \"I get so bored when I'm at home,\" I felt bad for them. So I lied, telling him that I hadn't seen any cat at all. But it seemed like he could see right through me..."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "绮良良关于九条裟罗",
+                "content_zh": "我一直想找那位天狗大人聊聊天。可她是天领奉行的大将，一直都是充满威严的模样，到现在我都只敢趴在远远的地方看她。我…我就是好奇她的翅膀啦。平时会觉得不方便吗？还有那些掉下来的羽毛怎么办？唔…要是拿来垫在箱子里的话，睡起来一定很舒服吧？",
+                "target_en": "Kujou Sara",
+                "title_en": "Kirara about Kujou Sara",
+                "content_en": "I've always wanted to have a chat with the Lady Tengu. Maybe it's because she's the general of the Tenryou Commission, but I find her quite intimidating, so I've only ever watched her from afar. I—I'm just curious about her wings, you know? Are they ever an inconvenience? How does she deal with shedding feathers? Mm... Speaking of the feathers, I think lining my box with them would be super comfy."
+            },
+            {
+                "target_id": 42,
+                "target_zh": "荒泷一斗",
+                "title_zh": "绮良良关于荒泷一斗",
+                "content_zh": "他明明是只鬼，却和人类混得那么熟，还有自己的帮派！唔，好厉害啊。我是不是也该向他请教请教呢？",
+                "target_en": "Arataki Itto",
+                "title_en": "Kirara about Arataki Itto",
+                "content_en": "He's an oni, but he gets along with humans perfectly — he even has his own gang! Oh, I'm so jealous. Maybe I should go ask him for some advice."
+            }
+        ]
     }
 }
