@@ -542,6 +542,7 @@ async function main() {
       data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
       style: {
         "background-image": char.img_url,
+        "background-image-crossorigin": "null",
       },
     })
   }
