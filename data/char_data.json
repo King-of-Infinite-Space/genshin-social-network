@@ -1642,7 +1642,7 @@
                 "content_zh": "辛焱经常来「万民堂」吃夜宵喔！像行秋、重云他们不敢试吃的新品，辛焱就会毫不犹豫地下筷…而且有八成以上的概率喜欢！哎，真是很不错的人呐。",
                 "target_en": "Xinyan",
                 "title_en": "Xiangling about Xinyan",
-                "content_en": "Xinyan always comes to the Wanming Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine times out of ten, she enjoys them too! She's great."
+                "content_en": "Xinyan always comes to the Wanmin Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine times out of ten, she enjoys them too! She's great."
             },
             {
                 "target_id": 48,
@@ -2416,7 +2416,7 @@
                 "content_zh": "虽然在学术方面的合作非常愉快，但课题以外的部分，砂糖也有很多她自己的坚持。比如我告诉她我们是平辈，叫我阿贝多就好，她却坚持要用尊称。…只好随她去了。",
                 "target_en": "Sucrose",
                 "title_en": "Albedo about Sucrose: Habits",
-                "content_en": "Working with Sucrose on alchemy research is quite pleasant, but she has some... stubborn qualities in regards to certain aspects unrelated to research. For example, I have told her numerous times to just call me \"Albedo\" since we are about the same age, but she insists on addressing me in an excessively formal manner. *sigh* ...Whatever she prefers, I guess."
+                "content_en": "Working with Sucrose on alchemy research is quite pleasant, but she has some... stubborn qualities in regards to certain aspects unrelated to research. For example, I have told her numerous times to just call me \"Albedo\" since we are hardly generations apart, but she insists on addressing me in an excessively formal manner. *sigh* ...Whatever she prefers, I guess."
             },
             {
                 "target_id": 3,
@@ -6069,7 +6069,7 @@
                 "content_zh": "谁都不可能从人群中找出第二个像他一样令人无语的家伙！这话就算他本人来了我也敢说。\n你也知道他很聪明，都说聪明人容易脾气差，这话算是对了一半吧，可他不一样…他完全清楚怎么表现得更符合大众定义的友好，只是不想。\n假如你觉得他脾气很好，或者觉得他死板教条像台机器，那说明你们还不够熟。他就是太有性格，普通人理解不了。",
                 "target_en": "Alhaitham",
                 "title_en": "Kaveh about Alhaitham: Temperament",
-                "content_en": "I guarantee you'll never meet anyone else who's as infuriating as him! And for the record, yes, I would say that to his face. Sure, he's smart, and sure, geniuses often come with a bad temper, but that's only half the story with him... He knows perfectly well how to appear friendly and likable to others, he just doesn't want to.\nIf he ever gives you the impression that he doens't really have a temper, or that he's rigidly logical like a machine, then you just don't know him well enough yet. He definitely has a personality, it's just... too big a personality. Most people wouldn't get it."
+                "content_en": "I guarantee you'll never meet anyone else who's as infuriating as him! And for the record, yes, I would say that to his face. Sure, he's smart, and sure, geniuses often come with a bad temper, but that's only half the story with him... He knows perfectly well how to appear friendly and likable to others, he just doesn't want to.\nIf he ever gives you the impression that he doesn't really have a temper, or that he's rigidly logical like a machine, then you just don't know him well enough yet. He definitely has a personality, it's just... too big a personality. Most people wouldn't get it."
             },
             {
                 "target_id": 61,
@@ -6078,7 +6078,7 @@
                 "content_zh": "艾尔海森帮了我一些忙，如果我们的关系还像学生时代那么好，我肯定会三天两头感谢他。现在嘛…说不出口，也不想就这么承认。\n该说是有好有坏吗？很多事就像命运的恶作剧…不是重来几次就能看清的。当然，能认识这样一个人也算难得，他要是能收起性格中比较恶劣的部分就更好了。好吧不可能。",
                 "target_en": "Alhaitham",
                 "title_en": "Kaveh about Alhaitham: It's Complicated",
-                "content_en": "Alhaitham helped me out a fair amount recently. If we were still as close as we were during our student days, then I'd be thanking him every chance I got. Now, though... I can't seem get a word of appreciation out of my mouth. Even if I could, I wouldn't want to give him the satisfaction.\nI guess you could say our relationship is something of a mixed bag these days? Honestly, with everything that's happened, it almost feels like the universe has been playing pranks on us... It's hard to make sense of it all... too much to process for one lifetime. I will say that it's not every day that you get to know someone like him — I just wish he could rein in some of the worst excesses of his personality. Okay, yeah, that's never gonna happen."
+                "content_en": "Alhaitham helped me out a fair amount recently. If we were still as close as we were during our student days, then I'd be thanking him every chance I got. Now, though... I can't seem to get a word of appreciation out of my mouth. Even if I could, I wouldn't want to give him the satisfaction.\nI guess you could say our relationship is something of a mixed bag these days? Honestly, with everything that's happened, it almost feels like the universe has been playing pranks on us... It's hard to make sense of it all... too much to process for one lifetime. I will say that it's not every day that you get to know someone like him — I just wish he could rein in some of the worst excesses of his personality. Okay, yeah, that's never gonna happen."
             },
             {
                 "target_id": 51,
@@ -6187,6 +6187,69 @@
                 "target_en": "Arataki Itto",
                 "title_en": "Kirara about Arataki Itto",
                 "content_en": "He's an oni, but he gets along with humans perfectly — he even has his own gang! Oh, I'm so jealous. Maybe I should go ask him for some advice."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "绮良良关于林尼",
+                "content_zh": "我在枫丹见过一位魔术师，他能把各种东西变不见，还能把各种东西变出来！他用的一定也是妖力吧？一定是这样吧？这么说…他也是只妖怪？",
+                "target_en": "Lyney",
+                "title_en": "Kirara about Lyney",
+                "content_en": "So I met this magician in Fontaine who could make anything disappear, then make it reappear out of thin air! He must've used some kind of youkai power to make that happen, right? Hmm... Is he a youkai too, then?"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name_zh": "林尼",
+        "name_en": "Lyney",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/7b47aa8ac8e2a35ae5e7d37d264dcb93_8832500935181332478.png",
+        "ver": "4.0.1",
+        "lines": [
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "林尼关于琳妮特·模式",
+                "content_zh": "你觉得妹妹她话很少？明白了，那是运行模式不对。下次，先对她说「激活，聊天模式」，运气好的话，她会和你说上很长一段话。你问运气不好要怎么办？别担心呀，就算被她瞪几眼，你也见到了和平时不一样的琳妮特！",
+                "target_en": "Lynette",
+                "title_en": "Lyney about Lynette: Modes",
+                "content_en": "You think my sister doesn't talk much? Oh, she's probably just not in the right mode. Next time, start by saying \"Activate Chat Mode\" to her. If you're lucky, she might have a great deal of things to say to you. Hmm, and if you're not lucky...? Well, she'll just stare for a while, but hey, at least you'll get to see a different side of her!"
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "林尼关于琳妮特·双子",
+                "content_zh": "我和妹妹从小到大都在一起，艰难的时光只要有彼此就能度过，开心的时候也会和对方共享。家人，就是我们最宝贵的归宿。我们都能理解你与家人分别的痛苦…如果发现了任何线索，一定会告诉你的。",
+                "target_en": "Lynette",
+                "title_en": "Lyney about Lynette: Twins",
+                "content_en": "My sister and I have always been inseparable. There's no hardship we can't overcome as long as we're together, and similarly, we share all our joys with each other. There's nothing in the world I treasure more than my family, so I know what it must be like for you... And if I find out anything at all that might help you, I'll be sure to let you know."
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name_zh": "琳妮特",
+        "name_en": "Lynette",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/c2759cdfc8206689f137d38ca5c6fe98_1943079451542028396.png",
+        "ver": "4.0.1",
+        "lines": [
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "琳妮特关于林尼·默契",
+                "content_zh": "我和林尼一直都待在一起，我们即使不开口也能明白对方的想法，所以单独相处时，他会比平时要安静。你问我他说的哪些是真话，哪些是假话？其实我都知道，但这是最高保密事项。",
+                "target_en": "Lyney",
+                "title_en": "Lynette about Lyney: Unspoken Understanding",
+                "content_en": "I have always been together with Lyney, and we can tell what the other is thinking without speaking. Thus, he tends to be more quiet than normal when we are alone. Hmm? Can I tell when he's lying or telling the truth? Of course I can, but this matter is top secret."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "琳妮特关于林尼·担忧",
+                "content_zh": "林尼平时总是自信不疑，做起事来游刃有余，或者说，他让所有人都以为他一直如此，所以在遇到麻烦的时候，他也总会想要一个人完美地解决…如果遇到这种情况，还请多多关照他吧。",
+                "target_en": "Lyney",
+                "title_en": "Lynette about Lyney: Worries",
+                "content_en": "Lyney is normally quite confident, and does everything with incredible ease... or at least, that's how he wants everyone else to see him. So when he runs into difficulties, he always wants to solve everything perfectly on his own... if this happens, please be sure to take good care of him."
             }
         ]
     }
