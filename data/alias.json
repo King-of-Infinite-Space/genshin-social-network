@@ -20,7 +20,7 @@
     },
     "雷电将军": {
         "alias_zh": ["巴尔"],
-        "alias_en": ["Baal"],
+        "alias_en": ["Baal", "the Raiden Shogun"],
         "_comment": ["温迪/钟离"]
     },
     "钟离": {
