@@ -183,12 +183,11 @@ class Updater:
         print(f"\t{len(self.pending)} errors")
 
     def update_remote_table(self):
-        print("Updating remote table")
+        print("Updating notion table")
         new_dict = {}
         for k in self.template:
             if k not in self.remote:
-                new_dict[k] = self.data[k].copy()
-                del new_dict[k]["lines"]
+                new_dict[k] = self.template[k] | self.char_table[k]
         data_update = list(new_dict.values())
         update_char_list(data_update)
         print(f"\t{len(data_update)} entries updated")
@@ -322,8 +321,8 @@ def main():
             ver
         )
     
-    updater.fetch_quotes()
     updater.update_remote_table()
+    updater.fetch_quotes()
 
 
     with open(CHECKPOINT_PENDING, "w", encoding="utf8") as f:
