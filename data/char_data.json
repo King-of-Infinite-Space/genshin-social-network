@@ -6223,6 +6223,15 @@
                 "target_en": "Lynette",
                 "title_en": "Lyney about Lynette: Twins",
                 "content_en": "My sister and I have always been inseparable. There's no hardship we can't overcome as long as we're together, and similarly, we share all our joys with each other. There's nothing in the world I treasure more than my family, so I know what it must be like for you... And if I find out anything at all that might help you, I'll be sure to let you know."
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "林尼关于菲米尼",
+                "content_zh": "我这位天真的弟弟，至今还相信童话故事。真让人有些羡慕。哦，这不是他自己告诉我的，是有次我不小心看到了他锁在秘密抽屉里的东西…真的是不小心哦！所以还请你不要告诉他，不然他肯定会生我气的。",
+                "target_en": "Freminet",
+                "title_en": "Lyney about Freminet",
+                "content_en": "My naive little brother still believes in fairy tales. I envy him, really. Uh, just to be clear though, he didn't actually tell me that. I just happened to see what he keeps in his secret drawer once... Really, it was an accident! So please don't tell him, or he'll get mad at me for sure."
             }
         ]
     },
@@ -6250,6 +6259,51 @@
                 "target_en": "Lyney",
                 "title_en": "Lynette about Lyney: Worries",
                 "content_en": "Lyney is normally quite confident, and does everything with incredible ease... or at least, that's how he wants everyone else to see him. So when he runs into difficulties, he always wants to solve everything perfectly on his own... if this happens, please be sure to take good care of him."
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "琳妮特关于菲米尼",
+                "content_zh": "他是个细腻温柔的孩子，却有些喜欢妄自菲薄…或许是和之前的经历有关吧。有时候他给我的感觉就像是林尼的反面…既然两边都是我的家人，意见不合时，我会负责弥合分歧。",
+                "target_en": "Freminet",
+                "title_en": "Lynette about Freminet",
+                "content_en": "He is a delicate and gentle child, but also tends to belittle himself... perhaps due to his previous experiences. Sometimes he feels like the antithesis of Lyney... but since they're both family, when their opinions clash, I will bridge their differences."
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name_zh": "菲米尼",
+        "name_en": "Freminet",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/5d33262b4a7de7b0be0ac08b859a8442_2143832214208786446.png",
+        "ver": "4.0.2",
+        "lines": [
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "菲米尼关于林尼·表演",
+                "content_zh": "在家里，林尼时常会向我表演一些小魔术。一旦我笑了的话，他就会特别开心，说那个魔术肯定会让观众都满意…我平时真的笑那么少吗？",
+                "target_en": "Lyney",
+                "title_en": "Freminet about Lyney: Magic Shows",
+                "content_en": "At home, Lyney's always showing me his magic tricks. Whenever I smile, he grins excitedly and says the audience is definitely going to love this one... Do I really smile so rarely?"
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "菲米尼关于林尼·面具",
+                "content_zh": "林尼是我们小队中的领袖，总是以哥哥的身份自居…我能看出他硬撑的时候，也尝试过劝他不要一直戴着面具…但他不肯承认，我们还起过争执…从那之后，我就不再触碰这个话题了。",
+                "target_en": "Lyney",
+                "title_en": "Freminet about Lyney: Mask",
+                "content_en": "Lyney is our team leader, and acts like everyone's older brother... But I can tell that he puts on a brave face sometimes. I tried to talk to him about it once — told him that he doesn't need to wear a mask all the time. But he denied it, and we ended up having an argument... Since then, I've never brought it up with him again."
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "菲米尼关于琳妮特",
+                "content_zh": "同样的任务，如果交给林尼或者琳妮特，他们就能完成得很出色，而我却办不好。琳妮特总宽慰我说大家各有所长，家里那些突然出故障的器械都在靠我维修…哈，我在其他方面也能这么得心应手就好了。",
+                "target_en": "Lynette",
+                "title_en": "Freminet about Lynette",
+                "content_en": "If you assigned Lyney and Lynette with the same mission, they'd both do an outstanding job. But not me. Lynette is always comforting me, saying that everyone has their strengths, and how everyone relies on me to fix things around the house when they break down... If only I was half as good at anything else."
             }
         ]
     }
