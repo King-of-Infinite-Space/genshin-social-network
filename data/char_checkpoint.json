@@ -1,4 +1,22 @@
 {
+    "那维莱特": {
+        "id": 71,
+        "name_zh": "那维莱特",
+        "name_en": "Neuvillette",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/9ee54053e4b710d163fd828c7d60c7e8_8925976294680302563.png",
+        "ver": "4.1.1",
+        "lines": [
+            {
+                "target_id": 8,
+                "target_zh": "温迪",
+                "title_zh": "那维莱特关于风之神",
+                "content_zh": "？？？",
+                "target_en": "Venti",
+                "title_en": "Neuvillette about the Anemo Archon",
+                "content_en": "？？？"
+            }
+        ]
+    },
     "菲米尼": {
         "id": 70,
         "name_zh": "菲米尼",
@@ -32,6 +50,15 @@
                 "target_en": "Lynette",
                 "title_en": "Freminet about Lynette",
                 "content_en": "If you assigned Lyney and Lynette with the same mission, they'd both do an outstanding job. But not me. Lynette is always comforting me, saying that everyone has their strengths, and how everyone relies on me to fix things around the house when they break down... If only I was half as good at anything else."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "菲米尼关于那维莱特",
+                "content_zh": "有次我浮出海面时，正巧见到最高审判官大人独自站在海边。他或许在想心事，或许在看风景…我当然没问。我只和他匆匆对了一眼就潜回海里了。事后想想像是做了亏心事一样…唉。",
+                "target_en": "Neuvillette",
+                "title_en": "Freminet about Neuvillette",
+                "content_en": "One day when I surfaced after a dive, the Chief Justice was just standing there alone on the beach. I don't know whether he had something on his mind, or was just enjoying the view... Obviously, I didn't ask. I only locked eyes with him for a split-second before disappearing back underwater. Thinking back, I must have looked so guilty... *sigh*"
             }
         ]
     },
@@ -68,6 +95,15 @@
                 "target_en": "Freminet",
                 "title_en": "Lynette about Freminet",
                 "content_en": "He is a delicate and gentle child, but also tends to belittle himself... perhaps due to his previous experiences. Sometimes he feels like the antithesis of Lyney... but since they're both family, when their opinions clash, I will bridge their differences."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "琳妮特关于那维莱特",
+                "content_zh": "最高审判官总给我一种奇怪的疏离感，明明言行谈吐都很谦和…还是说，他也不怎么喜欢跟人打交道呢？不过他和美露莘们说话的时候，倒是很亲切。",
+                "target_en": "Neuvillette",
+                "title_en": "Lynette about Neuvillette",
+                "content_en": "The Chief Justice always feels strangely aloof, though his words are always humble... or perhaps he just doesn't like dealing with humans? After all, when he speaks with Melusines, he's actually quite friendly."
             }
         ]
     },
@@ -104,6 +140,15 @@
                 "target_en": "Freminet",
                 "title_en": "Lyney about Freminet",
                 "content_en": "My naive little brother still believes in fairy tales. I envy him, really. Uh, just to be clear though, he didn't actually tell me that. I just happened to see what he keeps in his secret drawer once... Really, it was an accident! So please don't tell him, or he'll get mad at me for sure."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "林尼关于那维莱特",
+                "content_zh": "那维莱特先生很少公开露面，似乎刻意和人们保持着距离。一开始我还以为是我的错觉，但观察最最敏锐的琳妮特也有同感，那看来确实是这样了。",
+                "target_en": "Neuvillette",
+                "title_en": "Lyney about Neuvillette",
+                "content_en": "Monsieur Neuvillette rarely appears in public, almost as if he's intentionally trying to put some distance between himself and the people. At first, I thought it might be just me, but my ever-observant sister noticed it too, so I suppose that must really be the case."
             }
         ]
     },
@@ -5133,7 +5178,7 @@
                 "content_zh": "「玉衡星」…她最近的变化可真不小。璃月究竟更需要曾经的她，还是更需要现在的她呢？可能要多花一些时间，才能判断吧。",
                 "target_en": "Keqing",
                 "title_en": "Ningguang about Keqing",
-                "content_en": "Yuheng... She has changed a lot recently. But is Liyue better off with the Yuheng we have now, or the Yuheng we used to know? Only time will tell."
+                "content_en": "The Yuheng... She has changed a lot recently. But is Liyue better off with the Yuheng we have now, or the Yuheng we used to know? Only time will tell."
             },
             {
                 "target_id": 1,
@@ -5169,7 +5214,7 @@
                 "content_zh": "云堇啊…怎么样，你听得惯她的戏吗？起初可能是有些难懂，试着耐下性子多品味一下吧。我投资她的戏班不为别的，只是觉得，这般典雅的艺术，值得被一直传承下去。",
                 "target_en": "Yun Jin",
                 "title_en": "Ningguang about Yun Jin",
-                "content_en": "Yun Jin... Are you able to appreciate her performances? It might be difficult at first, but I would encourage you to give it a chance. The reason why I decided to invest into her opera troupe is quite simple: Elegant art forms like these deserve to be passed down to future generations."
+                "content_en": "Yun Jin... Are you able to appreciate her performances? It might be difficult at first, but I would encourage you to give it a chance. The reason I decided to invest into her opera troupe is quite simple: Elegant art forms like these deserve to be passed down to future generations."
             },
             {
                 "target_id": 48,
