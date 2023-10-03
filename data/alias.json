@@ -10,8 +10,9 @@
         "_comment": ["流浪者"]
     },
     "纳西妲": {
-        "alias_zh": ["小吉祥草王", "布耶尔"],
-        "alias_en": ["Lesser Lord Kusanali", "Buer"]
+        "alias_zh": ["小吉祥草王", "布耶尔", "草之神"],
+        "alias_en": ["Lesser Lord Kusanali", "Buer", "the Dendro Archon"],
+        "_comment": ["", "温迪/钟离/雷电将军", "那维莱特"]
     },
     "八重神子": {
         "alias_zh": ["狐耳女人"],
@@ -19,18 +20,18 @@
         "_comment": ["荒泷一斗"]
     },
     "雷电将军": {
-        "alias_zh": ["巴尔"],
-        "alias_en": ["Baal", "the Raiden Shogun"],
-        "_comment": ["温迪/钟离"]
+        "alias_zh": ["巴尔", "雷之神"],
+        "alias_en": ["Baal", "the Raiden Shogun", "the Electro Archon"],
+        "_comment": ["温迪/钟离", "", "那维莱特"]
     },
     "钟离": {
-        "alias_zh": ["摩拉克斯", "岩王帝君"],
-        "alias_en": ["Morax", "Rex Lapis"],
-        "_comment": ["温迪/甘雨/雷电将军","多莉"]
+        "alias_zh": ["摩拉克斯", "岩王帝君", "岩之神"],
+        "alias_en": ["Morax", "Rex Lapis", "the Geo Archon"],
+        "_comment": ["温迪/甘雨/雷电将军","多莉", "那维莱特"]
     },
     "温迪": {
         "alias_zh": ["风之神"],
         "alias_en": ["the Anemo Archon"],
-        "_comment": ["刻晴"]
+        "_comment": ["刻晴/那维莱特"]
     }
 }
