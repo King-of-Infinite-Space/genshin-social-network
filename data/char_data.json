@@ -6342,6 +6342,15 @@
         "ver": "4.1.1",
         "lines": [
             {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "那维莱特关于岩之神",
+                "content_zh": "？？？",
+                "target_en": "Zhongli",
+                "title_en": "Neuvillette about the Geo Archon",
+                "content_en": "？？？"
+            },
+            {
                 "target_id": 8,
                 "target_zh": "温迪",
                 "title_zh": "那维莱特关于风之神",
@@ -6349,6 +6358,60 @@
                 "target_en": "Venti",
                 "title_en": "Neuvillette about the Anemo Archon",
                 "content_en": "？？？"
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "那维莱特关于雷之神",
+                "content_zh": "？？？",
+                "target_en": "Raiden Shogun",
+                "title_en": "Neuvillette about the Electro Archon",
+                "content_en": "？？？"
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "那维莱特关于草之神",
+                "content_zh": "？？？",
+                "target_en": "Nahida",
+                "title_en": "Neuvillette about the Dendro Archon",
+                "content_en": "？？？"
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "那维莱特关于莱欧斯利",
+                "content_zh": "莱欧斯利确实是一个值得信赖的人。他的头衔和名誉都是我给他争取的。是不是觉得我被他的话术和向上经营欺骗了？稻妻有句话叫「不说即是花」。",
+                "target_en": "Wriothesley",
+                "title_en": "Neuvillette about Wriothesley",
+                "content_en": "Wriothesley is a trustworthy man. I fought hard for the title and reputation he now has. I expect you to think that I've simply been duped by his flattery and appearance of loyalty... But to that, I would quote the Inazuman proverb: \"The words unspoken are the flower.\" Which means, some things are best left unsaid."
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name_zh": "莱欧斯利",
+        "name_en": "Wriothesley",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/c096289444775cca45d9a582c2251751_2269727048272096048.png",
+        "ver": "4.1.2",
+        "lines": [
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "莱欧斯利关于那维莱特",
+                "content_zh": "记得有次被那维莱特叫去上面谈事情，走到沫芒宫门口正好看到他在路边淋雨。我替他打了伞，他礼貌地道了谢，表情却不大自然。我大概是打扰到了什么吧。",
+                "target_en": "Neuvillette",
+                "title_en": "Wriothesley about Neuvillette",
+                "content_en": "I was once summoned by Neuvillette to discuss some matters with him in his office. When I approached the Palais Mermonia, I saw him standing by the road, completely drenched in the rain. I held out an umbrella for him, and while he thanked me politely, his expression was a little... distressed, I guess. I can only assume that I had disturbed him in the middle of something."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "莱欧斯利关于林尼",
+                "content_zh": "我承认，拔除「壁炉之家」安插在水下的眼线是种挑衅。而他们的回应是只派几个孩子下来，的确令我有些难办。是真心觉得他们也可以被牺牲，还是看准了我不会对小孩下狠手呢…唉。",
+                "target_en": "Lyney",
+                "title_en": "Wriothesley about Lyney",
+                "content_en": "I'll admit that when I removed the House of the Hearth's spies in the underworld, that was kind of an intentional provocation to the Fatui. But their only response was to send down a bunch of children... Was it because they truly saw those kids as disposable? Or because they knew I wouldn't have it in me to let them come to serious harm? *sigh*"
             }
         ]
     }
