@@ -1,4 +1,13 @@
 {
+    "林尼": {
+        "alias_zh": ["林尼和琳妮特","林尼与琳妮特"],
+        "alias_en": ["Lyney and Lynette"],
+        "_comment": ["那维莱特","芙宁娜"]
+    },
+    "琳妮特": {
+        "alias_zh": ["林尼和琳妮特","林尼与琳妮特"],
+        "alias_en": ["Lyney and Lynette"]
+    },
     "流浪者": {
         "alias_zh": ["散兵","国崩"],
         "alias_en": ["The Balladeer","Kunikuzushi"],
