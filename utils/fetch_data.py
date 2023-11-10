@@ -7,8 +7,9 @@ import os
 import re
 import traceback
 from datetime import datetime
+from collections import defaultdict
 
-from notion_db import fetch_remote_dict, update_char_list
+from notion_db import fetch_my_table, update_char_list
 
 CHECKPOINT_OK = "data/char_checkpoint.json"
 CHECKPOINT_PENDING = "data/char_pending.json"
@@ -20,9 +21,7 @@ ALIAS_FILE = "data/alias.json"
 
 
 class Updater:
-    def __init__(
-        self, pending: dict, checkpoint: dict, alias: dict, ver: str
-    ) -> None:
+    def __init__(self, pending: dict, checkpoint: dict, alias: dict, ver: str) -> None:
         self.data = checkpoint.copy()
         self.pending = pending.copy()
         self.template = checkpoint | pending
@@ -31,48 +30,45 @@ class Updater:
         self.session = requests.Session()
 
         print("Fetching notion table")
-        self.remote = fetch_remote_dict()
+        self.my_table = fetch_my_table()
+        # for "ver" and "id"
         print("Fetching hhw table")
-        self.char_table = fetch_char_table()
+        self.hhw_table = fetch_hhw_table()
+        # for "name_en", "url_name", "rarity", "weapon", "element", 
         for k, char in self.template.items():
             if char.get("name_en") is None:
-                char["name_en"] = self.char_table[k]["name_en"]
-            if k in self.remote:
-                char["ver"] = self.remote[k]["ver"]
-                char["id"] = self.remote[k]["id"]
+                char["name_en"] = self.hhw_table[k]["name_en"]
+            if k in self.my_table:
+                char["ver"] = self.my_table[k]["ver"]
+                char["id"] = self.my_table[k]["id"]
                 # overwrite id (old chars slightly different from official)
             else:
                 char["ver"] = self.ver
 
-        self.name_to_id = {}
+        self.alias_keys = defaultdict(list)
+        # key is name_zh, an alias may map to multiple keys
         for name, char in self.template.items():
-            self.name_to_id[char["name_zh"]] = char["id"]
-            self.name_to_id[char["name_en"]] = char["id"]
+            self.alias_keys[char["name_zh"]].append(name)
+            self.alias_keys[char["name_en"]].append(name)
             if name in self.alias:
                 for _alias in self.alias[name]["alias_zh"]:
-                    self.name_to_id[_alias] = char["id"]
+                    self.alias_keys[_alias].append(name)
                 for _alias in self.alias[name]["alias_en"]:
-                    self.name_to_id[_alias] = char["id"]
-        self.id_to_key = {v["id"]: k for k, v in self.template.items()}
+                    self.alias_keys[_alias].append(name)
 
-    def _find_quote_target(self, title, current_id, lang) -> tuple[str, int]:
+    def _find_quote_targets(self, title, current_key, lang) -> list[str]:
         about = {"en": "About ", "zh": "关于"}
         splitter = {"en": ":", "zh": "·"}
         title = title.replace("」", "").replace("「", "")
         if title.startswith(about[lang]):
             target_name = title.split(splitter[lang])[0]
             target_name = target_name[len(about[lang]) :]
-            if target_name in self.name_to_id:
-                target_id = self.name_to_id[target_name]
-                if target_id != current_id:
-                    k = self.id_to_key[target_id]
-                    target_name_canon = self.template[k]["name_" + lang]
-                    return target_name_canon, target_id
-        return None, None
+            if target_name in self.alias_keys:
+                if current_key not in self.alias_keys[target_name]:
+                    # found target, and is not self
+                    return self.alias_keys[target_name]
 
-    def _merge_lines(
-        self, lines_zh: list[dict], lines_en: list[dict]
-    ) -> list[dict]:
+    def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
         lines = []
         if len(lines_zh) != len(lines_en):
             raise ValueError(
@@ -93,8 +89,7 @@ class Updater:
         get lines from *char* to other chars
         """
         name = self.template[name_zh]["name_" + lang]
-        current_id = self.template[name_zh]["id"]
-        url_name = self.char_table[name_zh]["url_name"]
+        url_name = self.hhw_table[name_zh]["url_name"]
 
         if lang == "en":
             lang_param = "EN"
@@ -117,17 +112,15 @@ class Updater:
         #     raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
         display_name = soup.select_one("h2.wp-block-post-title").get_text()
         if display_name != name:
-            raise ValueError(
-                "Name mismatch: expect %s, got %s" % (name, display_name)
-            )
+            raise ValueError("Name mismatch: expect %s, got %s" % (name, display_name))
 
         quote_section = soup.find("section", id="char_quotes")
         for tr in quote_section.find_all("tr"):
             title = tr.contents[0].get_text()
             title = title.rstrip(" …")
-            target_name, target_id = self._find_quote_target(title, current_id, lang)
+            target_keys = self._find_quote_targets(title, name_zh, lang)
 
-            if target_name is not None:
+            if target_keys is not None:
                 script_str = tr.contents[1].script.string
                 regex = re.search('(?<=line":").+?(?=",)', script_str)
                 line = regex.group()
@@ -143,15 +136,18 @@ class Updater:
                     if lang == "en"
                     else name + title
                 )
-                lines.append(
-                    {
-                        # 'from_'+lang : name,
-                        "target_id": target_id,
-                        "target_" + lang: target_name,
-                        "title_" + lang: title,
-                        "content_" + lang: line,
-                    }
-                )
+                for k in target_keys:
+                    target_id = self.template[k]["id"]
+                    target_name = self.template[k]["name_" + lang]
+                    lines.append(
+                        {
+                            # 'from_'+lang : name,
+                            "target_id": target_id,
+                            "target_" + lang: target_name,
+                            "title_" + lang: title,
+                            "content_" + lang: line,
+                        }
+                    )
 
         return lines
 
@@ -165,10 +161,7 @@ class Updater:
             try:
                 lines_zh = self._fetch_quotes_hhw(k, "zh")
                 lines_en = self._fetch_quotes_hhw(k, "en")
-                print(
-                    f"\t{i} / {count_pending} "
-                    f" {k} ({len(lines_zh)})"
-                )
+                print(f"\t{i} / {count_pending}  {k} ({len(lines_zh)})")
                 lines = self._merge_lines(lines_zh, lines_en)
             except KeyboardInterrupt:
                 raise KeyboardInterrupt
@@ -186,8 +179,8 @@ class Updater:
         print("Updating notion table")
         new_dict = {}
         for k in self.template:
-            if k not in self.remote:
-                new_dict[k] = self.template[k] | self.char_table[k]
+            if k not in self.my_table:
+                new_dict[k] = self.template[k] | self.hhw_table[k]
         data_update = list(new_dict.values())
         update_char_list(data_update)
         print(f"\t{len(data_update)} entries updated")
@@ -218,7 +211,7 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
     return char_dict
 
 
-def fetch_char_table():
+def fetch_hhw_table():
     char_table_temp = {}
     lang_params = {"zh": "CHS", "en": "EN"}
     for lang, lang_param in lang_params.items():
@@ -244,7 +237,7 @@ def fetch_char_table():
                 char_table_temp[url_name].update(char)
             else:
                 char_table_temp[url_name] = char
-    char_table = {char['name_zh']: char for char in char_table_temp.values()}
+    char_table = {char["name_zh"]: char for char in char_table_temp.values()}
     return char_table
 
 
@@ -273,6 +266,7 @@ def calc_ver():
         v[-1] = "2"
     return ".".join(v)
 
+
 def main():
     with open(CHECKPOINT_OK) as f:
         char_checkpoint = json.load(f)
@@ -284,7 +278,7 @@ def main():
         aliases = json.load(f)
 
     ver = calc_ver()
-
+    time_start = datetime.now()
     if len(char_pending) == 0:
         # start anew
         print(f"Updating for v{ver}")
@@ -312,18 +306,11 @@ def main():
         resume = True
         print(f"Retrying for v{ver}")
         print(f"\t{' '.join(list(char_pending.keys()))}")
-        
 
-    updater = Updater(
-            char_pending,
-            char_checkpoint,
-            aliases,
-            ver
-        )
-    
+    updater = Updater(char_pending, char_checkpoint, aliases, ver)
+
     updater.update_remote_table()
     updater.fetch_quotes()
-
 
     with open(CHECKPOINT_PENDING, "w", encoding="utf8") as f:
         json.dump(updater.pending, f, ensure_ascii=False, indent=4)
@@ -350,6 +337,8 @@ def main():
         send_message(commit_msg)
     else:
         print(f"Commit message: {commit_msg}")
+    time_end = datetime.now()
+    print(f"Time elapsed: {(time_end - time_start).total_seconds():.0f}s")
 
 
 def send_message(msg):
