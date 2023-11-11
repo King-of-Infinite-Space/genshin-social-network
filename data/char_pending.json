@@ -1,1 +1,23 @@
-{}
+{
+    "赛诺": {
+        "id": 54,
+        "name_zh": "赛诺",
+        "name_en": "Cyno",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/21/377cfb0cf754a873c864e92208e540f0_2617971490404602601.png",
+        "ver": "3.1.1"
+    },
+    "多莉": {
+        "id": 53,
+        "name_zh": "多莉",
+        "name_en": "Dori",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/29/b8a367991017a9f3c6bb445c5c8b68e6_1191967378101363412.png",
+        "ver": "3.0.2"
+    },
+    "柯莱": {
+        "id": 52,
+        "name_zh": "柯莱",
+        "name_en": "Collei",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/15/3677cbc063b7ab3887ceb7f9a77287ac_1039229097287658400.png",
+        "ver": "3.0.1"
+    }
+}
