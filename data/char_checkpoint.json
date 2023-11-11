@@ -6378,5 +6378,293 @@
                 "content_en": "The Grand Master placed Mika on the front line of the expedition team not simply because he met the requirements of the mission — more importantly, he was impressed by Mika's hardworking and grounded nature. From my own perspective, I feel very honored to work with someone like him."
             }
         ]
+    },
+    "赛诺": {
+        "id": 54,
+        "name_zh": "赛诺",
+        "name_en": "Cyno",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/09/21/377cfb0cf754a873c864e92208e540f0_2617971490404602601.png",
+        "ver": "3.1.1",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "赛诺关于提纳里·知识",
+                "content_zh": "提纳里和我见过的其他学者不同。他对知识同样有着很深的执着，却始终不会逾越那道红线。有些学者会将自己视为「实验室中的神明」，但提纳里不会，他一直平等地尊重每一种生命。听说他拒绝了教令院的聘请，我也站在他这一边。",
+                "target_en": "Tighnari",
+                "title_en": "Cyno about Tighnari: Knowledge",
+                "content_en": "Tighnari is different from other scholars I've met. He has the same wholehearted dedication to knowledge, but he will never cross the most important boundaries. Some scholars see themselves as gods within their own laboratories, but not Tighnari — he has always shown the same respect for every form of life. I've heard that he even declined a position in the Akademiya, and I support his decision."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "赛诺关于提纳里·笑话",
+                "content_zh": "提纳里曾劝我不要在饭桌上讲笑话，说是根本笑不出来。我不以为然，连讲了三个压箱底的笑话，并逐一解释了笑点…然后我的饭菜凉了。",
+                "target_en": "Tighnari",
+                "title_en": "Cyno about Tighnari: Jokes",
+                "content_en": "Tighnari once told me not to tell jokes at the dinner table, insisting that my jokes weren't funny at all. I did not share his opinion, so I told three of my best jokes in a row, and explained the premise of each in great detail. By the time I was done talking, my food was cold."
+            },
+            {
+                "target_id": 52,
+                "target_zh": "柯莱",
+                "title_zh": "赛诺关于柯莱",
+                "content_zh": "我曾经帮她封印了体内的魔神残骸，但封印的过程给她带来了很大的痛苦。那种程度的痛苦可能比死亡更让人害怕，她能够坚持下来，很了不起。",
+                "target_en": "Collei",
+                "title_en": "Cyno about Collei",
+                "content_en": "I once helped Collei seal away the god's remains in her body, but the process was an unthinkably painful one. To many, enduring that kind of pain would be a prospect more terrifying than death, so it was very admirable that she was able to persevere through it all."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "赛诺关于艾尔海森",
+                "content_zh": "我不太喜欢过于聪明的人，他们总是自认为能掌控一切，从而经常在危险的边缘游走。不过艾尔海森还算稳定，在绝大部分场合，他确实有掌控局面、化险为夷的能力。",
+                "target_en": "Alhaitham",
+                "title_en": "Cyno about Alhaitham",
+                "content_en": "I don't really like people who are too smart. They think they can control everything, and constantly venture to the fringes of danger. But Alhaitham is one of the more reliable ones. In most cases, he is actually in control of things and has the ability to avert potential disaster."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "赛诺关于卡维",
+                "content_zh": "提纳里和柯莱没有亲口说出来，但他们之间的眼神交流已经说明了一切。卡维分享的亲身经历比我准备的笑话有趣多了。我的看法？我觉得他们会为这种事情发笑，反倒是挺好笑的。",
+                "target_en": "Kaveh",
+                "title_en": "Cyno about Kaveh",
+                "content_en": "Tighnari and Collei never said it to my face, but they found Kaveh's personal anecdotes far more entertaining than the jokes I had prepared... I could see it on their faces. Hmm? What did I think about that? Well, I thought it was funny that they could laugh at such a situation."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "赛诺关于纳西妲",
+                "content_zh": "评价神明…这在我看来是略微有些僭越的事情。不过在同行的那段时间里，我也亲眼见证了她的智慧、勇气与决心。相较于那些只靠臆想就对她指指点点的贤者，我应该更有资格下这个结论：她是一位优秀的、值得尊敬的神明。",
+                "target_en": "Nahida",
+                "title_en": "Cyno about Nahida",
+                "content_en": "Commenting on a god might be overstepping my position a little... But when I was working with her, I personally witnessed her wisdom, courage, and determination. Compared with those sages who constantly undermined and criticized her without a shred of evidence, I think I can provide a more reliable assessment: She is an exceptional deity who is worthy of everyone's respect."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "赛诺关于妮露",
+                "content_zh": "我能从她身上感到对舞蹈的热情与执念，这份执念非常坚定，不会轻易改变。希望以后，她也可以用自己热爱的舞蹈为他人带去快乐。",
+                "target_en": "Nilou",
+                "title_en": "Cyno about Nilou",
+                "content_en": "I can sense her enthusiasm and passion for dancing — it has become an integral part of her being. I hope that she will always be able to use the art she loves to bring happiness to other people."
+            },
+            {
+                "target_id": 60,
+                "target_zh": "珐露珊",
+                "title_zh": "赛诺关于珐露珊",
+                "content_zh": "我曾仔细翻阅过记载珐露珊前辈失踪的案卷，那时候我怀疑她进行了某种危险的研究…不过与她见面之后，我就彻底打消了这个念头。虽然相处起来有些困难，不过她就像一位喜欢絮絮叨叨的长辈，心里会为他人着想，不会做什么出格的事情。",
+                "target_en": "Faruzan",
+                "title_en": "Cyno about Faruzan",
+                "content_en": "I've carefully browsed through the case files regarding Faruzan's disappearance. At the time, I thought maybe she had been conducting some kind of dangerous research, but once I met her in person, I completely abandoned that idea. Though it might be a little hard for me to get along with her, she mostly reminds me of a kindly and chatty parent. She is considerate of others, and would never do anything imprudent."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "赛诺关于丽莎",
+                "content_zh": "丽莎和我曾向同一位贤者求学，我自然知道她的事。身为大风纪官，我也见过许多过分追求知识而引发的悲剧，所以能理解她的选择。",
+                "target_en": "Lisa",
+                "title_en": "Cyno about Lisa",
+                "content_en": "Of course I know about Lisa, we once both studied under the same sage. As General Mahamatra, I've seen many tragedies befall those seeking knowledge too assiduously, so it's easy for me to understand her decision."
+            }
+        ]
+    },
+    "多莉": {
+        "id": 53,
+        "name_zh": "多莉",
+        "name_en": "Dori",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/29/b8a367991017a9f3c6bb445c5c8b68e6_1191967378101363412.png",
+        "ver": "3.0.2",
+        "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "多莉关于赛诺",
+                "content_zh": "我和他算是有点私交。毕竟能为他拿到「七圣召唤」所有周边产品的人，全须弥只有我一个。很罕见吧！教令院里居然有他这种特行独立，眼光不错，又从不讲价的人。",
+                "target_en": "Cyno",
+                "title_en": "Dori about Cyno",
+                "content_en": "You could say I know him. After all, I was the only merchant in all Sumeru who could acquire the full range of Genius Invokation TCG merch for him! Not bad, huh? I've gotta admit, it's pretty rare to see anyone from the Akademiya like him... independent and with a good head on his shoulders. Plus, he's never been one to haggle over prices."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "多莉关于提纳里",
+                "content_zh": "他热爱学术就和我热爱摩拉一样。听说他经常会做一些神奇的小玩意儿，只可惜会用什么公务繁忙作为理由，拒绝和我合作批量生产，要不然…可以赚上一大笔摩拉呢！",
+                "target_en": "Tighnari",
+                "title_en": "Dori about Tighnari",
+                "content_en": "He loves learning as much as I love Mora. I heard he makes a lot of little interesting gadgets, but he refuses to partner with me to mass produce them. He always says he's too busy with work, but really it's just an excuse. *sigh* A shame, really... We could make an absolute fortune!"
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "多莉关于艾尔海森",
+                "content_zh": "他以前试探过我的手下。所以说，教令院的家伙真是又呆板又不诚恳。我又何必冒这个风险呢？懂了吗？小跟班。",
+                "target_en": "Alhaitham",
+                "title_en": "Dori about Alhaitham",
+                "content_en": "He once came nosing around, asking my minions some questions to see what he could find out. Like I said, those Akademiya people are just pig-headed and dishonest. Why should I take the risk of others prying into my business? Right, my young apprentice?"
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "多莉关于卡维",
+                "content_zh": "他是跟我有合作的妙论派的人之一，和某些教令院的死脑筋不一样，是个会为理想奋斗的人，我很欣赏他。我悄悄借了他一大——笔摩拉，让他造出了我的艾尔卡萨扎莱宫。可以说没有善良的多莉的资助，就没有今天的卡维。",
+                "target_en": "Kaveh",
+                "title_en": "Dori about Kaveh",
+                "content_en": "Ah yeah, he's one of the Kshahrewar people that I work with. Unlike the more closed-minded people at the Akademiya, he actually has his own dreams that he's fighting for. I, for one, really respect that. I secretly lent him some Mora — and I mean a LOT of Mora — to build my Palace of Alcazarzaray. One thing's for sure — without Dori the benevolent benefactor, Kaveh would not be where he is today, hehe."
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "多莉关于迪希雅",
+                "content_zh": "有时候我会雇佣她帮忙保护商队。毕竟她实力不错，要价也不高，可以说是性价比最优之选。",
+                "target_en": "Dehya",
+                "title_en": "Dori about Dehya",
+                "content_en": "I hire her to help escort my caravans from time to time. After all, she's got the muscle, and her price is reasonable. When it comes to cost-performance ratio, she's always the best pick."
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "多莉关于岩王帝君",
+                "content_zh": "岩王帝君离去之前，我每天起来第一件事就是默念：财神在上，保佑多莉日进斗金。现在嘛，求神不如求己。多莉在此，保佑自己日进斗金！",
+                "target_en": "Zhongli",
+                "title_en": "Dori about Rex Lapis",
+                "content_en": "Before Rex Lapis parted from this world, I'd say a little prayer every morning: \"O great God of Wealth up above, please bless my day with more Mora to love.\" But uh, now, I guess I just pray to myself... \"O divine Dori right here and now, please bless my day with more Mora to count!\" Hehe."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "多莉关于小吉祥草王",
+                "content_zh": "在须弥，小吉祥草王的信徒非常少。你问我吗？啊，如果她愿意给我摩拉的话，我就是她永恒的信徒。",
+                "target_en": "Nahida",
+                "title_en": "Dori about Lesser Lord Kusanali",
+                "content_en": "In Sumeru, Lesser Lord Kusanali has very few believers. Hmm? Am I one? Heh, if she's willing to pay me, I'd be her loyal believer for all eternity."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "多莉关于妮露",
+                "content_zh": "她的舞跳得不错，但只留在须弥，还是不能最大程度上发挥出她的价值…我是说，有点屈才。你说你说，如果能把她带出去，在提瓦特举办巡回演出的话，一共能赚多少摩拉呢？",
+                "target_en": "Nilou",
+                "title_en": "Dori about Nilou",
+                "content_en": "She's a good dancer, but definitely not making the most of her time by staying in Sumeru... I mean, it's a complete waste of her talent. If I took her on tour across all Teyvat, do you have any idea how much Mora I'd rake in?"
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "多莉关于绮良良",
+                "content_zh": "在我跨国收购物资的时候，她为我送过好几次货。服务又好，收费还便宜。哦，对了，她很喜欢各种漂亮的小饰品，我这刚好进了一些，须弥特色，纯手工制品，可精致了。怎么样，要不要买来送给她呀？我给你打折。",
+                "target_en": "Kirara",
+                "title_en": "Dori about Kirara",
+                "content_en": "She delivered several orders to me when I was stocking up on goods from outside of Sumeru. Her service is great, and her prices are low. Oh, I think she's into pretty accessories, and I happen to have some handmade Sumeru specialties on sale! Wanna buy some as a gift for her? I can give you a discount!"
+            }
+        ]
+    },
+    "柯莱": {
+        "id": 52,
+        "name_zh": "柯莱",
+        "name_en": "Collei",
+        "img_url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/15/3677cbc063b7ab3887ceb7f9a77287ac_1039229097287658400.png",
+        "ver": "3.0.1",
+        "lines": [
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "柯莱关于提纳里",
+                "content_zh": "师父虽然平时说话有些严厉，还经常批评那些乱吃毒蘑菇的冒险家，但他其实是个很温柔的人。不仅会耐心地给我补课，还会为我读蒙德寄来的信。我一直很感激他！",
+                "target_en": "Tighnari",
+                "title_en": "Collei about Tighnari",
+                "content_en": "Although Master can be quite stern and is always criticizing adventurers for carelessly eating poisonous mushrooms, he is actually a gentle soul. He's so patient when he tutors me, and he even reads out letters from Mondstadt for me. I've always been very grateful to him."
+            },
+            {
+                "target_id": 53,
+                "target_zh": "多莉",
+                "title_zh": "柯莱关于多莉",
+                "content_zh": "有次我在巡林路上遇见了她，像是知道我口渴一样，她从袋子里掏出了一瓶看起来特别好喝的果汁…还好当时师父在场，制止了她。不然，我差点就一个冲动，把好不容易攒起来的摩拉都花出去了…",
+                "target_en": "Dori",
+                "title_en": "Collei about Dori",
+                "content_en": "I ran into her once on forest ranger duty. She pulled out a bottle of fruit juice from her bag that looked really tasty, as if she somehow knew I was thirsty... Fortunately, Master was there, and he stopped me from spending all of my hard-earned Mora in a moment of weakness..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "柯莱关于小吉祥草王",
+                "content_zh": "草神啊…小时候我很多次想大声问问神明，为什么要让我经历这么多苦难。唉，说不定就连神明自己，也经历着各种无奈的事吧。",
+                "target_en": "Nahida",
+                "title_en": "Collei about Lesser Lord Kusanali",
+                "content_en": "The Dendro Archon... When I was a kid, there were so many times when I just wanted to scream out to the gods and ask them why, why did I have to go through so much pain...? *sigh* But, for all I know, maybe the gods feel just as helpless about everything they have to endure as I did back then."
+            },
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "柯莱关于赛诺",
+                "content_zh": "欸…我们能不提他吗？不，大风纪官不是什么坏人，当初就是他带着我从蒙德回到了须弥，才让我有了安身的地方。只是一想起回须弥前那个「封印」的过程…唔…脖子后边又开始觉得痛了…",
+                "target_en": "Cyno",
+                "title_en": "Collei about Cyno",
+                "content_en": "Um... I'd rather not talk about him, if that's okay? Oh, no — the General Mahamatra isn't a bad guy or anything. Matter of fact, I have him to thank for bringing me back from Mondstadt to Sumeru and finding me a safe place to stay. It's just that... whenever I'm reminded of the sealing process just before leaving Mondstadt... ooh... the back of my neck starts hurting again..."
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "柯莱关于卡维",
+                "content_zh": "大风纪官曾带着他来我们这里吃过一顿饭。在餐前水果刚端上桌的时候，他就开始大谈他那个又不讲情理又固执的室友，我们连插话的时机都找不到。只能点点头，憋着笑，吃完了整顿饭。唉，真是不容易。",
+                "target_en": "Kaveh",
+                "title_en": "Collei about Kaveh",
+                "content_en": "The General Mahamatra once brought him to our place for a meal. From the moment the fruit arrived on the table, he ranted non-stop about his difficult and stubborn roommate for the entire meal. We didn't get a single word in the whole time. We just nodded along and tried to stifle our laughter. It took a lot of effort."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "柯莱关于妮露",
+                "content_zh": "感觉她有点迷迷糊糊的样子，如果来化城郭附近表演的话，不会走着走着就迷路在深林里吧…那我可一定要好好看着她，尽我见习巡林员的职责。",
+                "target_en": "Nilou",
+                "title_en": "Collei about Nilou",
+                "content_en": "She seems a little absent-minded. If she ever comes to perform around Gandharva Ville, I'm worried she'll end up wandering off into the forest and getting lost... So I'll have to watch out for her, as a responsible trainee forest ranger should."
+            },
+            {
+                "target_id": 2,
+                "target_zh": "安柏",
+                "title_zh": "柯莱关于安柏",
+                "content_zh": "安柏她真的很厉害，又热情又活泼，又勇敢又正义…是我最钦佩、最崇拜的人了！她总能像一团火一样照亮别人，要不是她，我肯定没法走到今天这一步…过了这么久，她现在一定变得更加沉稳、更加帅气了吧！真不知道什么时候才能赶上她。",
+                "target_en": "Amber",
+                "title_en": "Collei about Amber",
+                "content_en": "Amber is amazing. She's friendly and has tons of enthusiasm, plus she's really brave and always does the right thing... She's the person I admire most of all! She's like a cozy fire that makes everyone around her feel warm. There's no way I'd be where I am today without her... So much time has gone by — I bet she's even more cool and confident than ever these days! Who knows if I'll ever be able to match her."
+            },
+            {
+                "target_id": 4,
+                "target_zh": "凯亚",
+                "title_zh": "柯莱关于凯亚",
+                "content_zh": "蒙德的大家都还好吗？那阵子我可是惹了不少麻烦啊，要不要找个时间回去道歉呢…唔，但感觉一露面就会被那位骑兵队长捉弄…还是再等等吧，再等等…",
+                "target_en": "Kaeya",
+                "title_en": "Collei about Kaeya",
+                "content_en": "How's everyone in Mondstadt, are they good? I caused so much trouble back then, I sometimes wonder if I should make some time to go back there and apologize... Hmm, but what if I ran into the Cavalry Captain, and he started teasing me? ...Yeah, there's no rush, maybe I'll leave it a while longer."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "柯莱关于丽莎",
+                "content_zh": "明明已经过去了那么久，丽莎给我写信的时候，还是在叫我「小柯莱」，总感觉…嗯？你说她也叫你小可爱？噗…对不起，我不是有意要笑出来的…一下子就开心了好多啊。",
+                "target_en": "Lisa",
+                "title_en": "Collei about Lisa",
+                "content_en": "After all this time, Lisa still calls me \"Little Collei\" when she writes to me. I feel like by now she... hmm? She calls you \"cutie\"? Hahaha... Sorry, I don't mean to laugh, um... but I must say, that makes me feel a lot better."
+            },
+            {
+                "target_id": 12,
+                "target_zh": "菲谢尔",
+                "title_zh": "柯莱关于菲谢尔",
+                "content_zh": "…「断罪之皇女」？抱歉，我在蒙德待的时间不长，没有听过这样的人物。不过这个名字…嘶…咳，没什么。",
+                "target_en": "Fischl",
+                "title_en": "Collei about Fischl",
+                "content_en": "...\"Prinzessin der Verurteilung\"? ...Mmm, nope, sorry. I wasn't in Mondstadt for very long, so I didn't hear of her. That name, though... *grimace*... Ahem, nothing."
+            },
+            {
+                "target_id": 60,
+                "target_zh": "珐露珊",
+                "title_zh": "柯莱关于珐露珊",
+                "content_zh": "呃…老实说，我不太擅长应付这位前辈…虽然她经常夸我勤奋好学，但我真的是因为学得太慢，没办法了，才总是在补习啊！还有一回，我不小心看到了她的研究笔记，虽然只瞟了一眼，但那绝对是全须弥最可怕的书！——上面全是古文，我连半个字都看不懂。",
+                "target_en": "Faruzan",
+                "title_en": "Collei about Faruzan",
+                "content_en": "Um... To be honest, I don't really know how to handle people like Madam Faruzan... She's always saying that I'm a hardworking student and eager to learn, but that's because I have to be! I'm a slow learner, so I have to put in the extra effort. Oh, there was a time when I accidentally saw her research journal — only for a second, though. It was all written in old script, and I couldn't even make out half of it... Definitely the scariest book in Teyvat!"
+            }
+        ]
     }
 }
