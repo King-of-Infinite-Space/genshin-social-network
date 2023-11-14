@@ -2,3 +2,5 @@ local/*
 *.log
 *.pyc
 .env
+.vscode
+.vercel
