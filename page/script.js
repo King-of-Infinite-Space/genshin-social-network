@@ -548,11 +548,11 @@ async function main() {
   }
   // create edges
   for (const sourceChar of charData) {
-    for (const line of sourceChar.lines) {
+    for (const [index, line] of sourceChar.lines.entries()) {
       cy.add({
         group: "edges",
         data: {
-          id: line.title_en, // A关于B
+          id: `${sourceChar.name_en}_${index}`,
           source: sourceChar.name_en,
           target: line.target_en,
           ...line,
