@@ -6288,6 +6288,15 @@
                 "content_en": "The Hydro Archon, Lady Furina, is very unpredictable, and her manner of speech can be quite provocative, almost as if she sees talking itself like some sort of performance. The people of Fontaine have a particular soft spot for excitement and drama, which is why many hold her in high esteem."
             },
             {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "林尼关于娜维娅",
+                "content_zh": "没想到她在不认识我的情况下愿意出手相助。要是没有你们的话，我和琳妮特肯定无法脱身…总之，非常感谢你们。就请让我等待一个阳光灿烂的日子，邀请大家去露泽咖啡厅吃最美味的茶点吧。",
+                "target_en": "Navia",
+                "title_en": "Lyney about Navia",
+                "content_en": "I didn't think that she'd be willing to help strangers like us. If it hadn't been for all of you, Lynette and I wouldn't have been acquitted... Thank you so much. I'll have to wait for a lovely, sunny day to invite everyone to Café Lutece for the most wonderful afternoon tea!"
+            },
+            {
                 "target_id": 73,
                 "target_zh": "夏洛蒂",
                 "title_zh": "林尼关于夏洛蒂",
@@ -6349,6 +6358,15 @@
                 "target_en": "Furina",
                 "title_en": "Lynette about Furina",
                 "content_en": "Lady Furina's behavior is incredibly hard to explain, and I can't discern any useful intelligence from observing her. I always feel like her every move and action is an act, and she is playing different people... She truly is an Archon, one cannot apply the logic of ordinary humans to her."
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "琳妮特关于娜维娅",
+                "content_zh": "虽然是「刺玫会」的新会长，作风却像邻居家爱管闲事的大姐姐呢。要是「家」里真有这么一位姐姐就好了…啊，这话好像不太合适…",
+                "target_en": "Navia",
+                "title_en": "Lynette about Navia",
+                "content_en": "Though she's the new president of Spina di Rosula, her style is more like the nosy big sister next door. If we really had a sister like her in the \"House of the Hearth,\" that would be really great... I know I probably shouldn't be wishing for anyone to be an orphan, but..."
             },
             {
                 "target_id": 73,
@@ -6421,6 +6439,15 @@
                 "target_en": "Furina",
                 "title_en": "Freminet about Furina: Verdict",
                 "content_en": "...Okay fine. I've seen what the Hydro Archon's like when she's sitting in the audience. In my view, she's a very charismatic speaker, but it's her silences that intrigue me more. Her eyes... they're like the darkness at the bottom of the ocean. Hiding a deep secret, afraid of anyone ever getting close to her... Ah! Sorry, I... I let my imagination get the better of me."
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "菲米尼关于娜维娅",
+                "content_zh": "我听林尼聊了事情经过，很感谢你和娜维娅小姐的慷慨与热心，也请代我向她转达…欸？当面道谢？我、我有点…唔，肚子突然疼起来了，抱歉先走一步。",
+                "target_en": "Navia",
+                "title_en": "Freminet about Navia",
+                "content_en": "Lyney told me everything. I'm so grateful to you and Navia for your warmth and generosity. Please pass on my thanks when you see her... Huh? Tell her myself? ...Uh, I, uh... Ooh, I've suddenly got stomach cramps — sorry, gotta dash."
             },
             {
                 "target_id": 73,
@@ -6511,6 +6538,15 @@
                 "target_en": "Furina",
                 "title_en": "Neuvillette about Furina",
                 "content_en": "Now, the curtain has finally fallen on her \"performance\"... The character she portrayed was an imaginary one, yet in playing that role she fulfilled her duties... Though she is meek and full of doubt by nature, she was able to use madness to stiffen her resolve and see her duty through to its conclusion. The work that she has done over the centuries is truly immense. If she were to ever make a return to the stage, I should personally attend the performance and give her my heartfelt applause... Yes, I must do so when the opportunity arises."
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "那维莱特关于娜维娅",
+                "content_zh": "虽然这么说很对不起她，但无论是当时无意的触怒她、接受她的道歉还是我此时感受到的内疚，全部有种疏离的感觉，仿佛沉卧湖底看星星。我并不是有意的，我也知道很难有机会弥补。情绪并不像是水，能迅速地修复自己，恢复平静。",
+                "target_en": "Navia",
+                "title_en": "Neuvillette about Navia",
+                "content_en": "I regret to say that after my various interactions with her — such as when I inadvertently angered her, and when I accepted her apology — and even now, in spite of the guilt I continue to feel over what happened to her father, I feel... very distant from her, as if I'm observing the starry sky from the bottom of a deep lake. It is by no means intentional, and I also know it is not something that I can easily make up for. Unlike water, emotion does not settle quickly once agitated, nor is it naturally inclined towards equilibrium."
             }
         ]
     },
@@ -6547,6 +6583,15 @@
                 "target_en": "Lyney",
                 "title_en": "Wriothesley about Lyney",
                 "content_en": "I'll admit that when I removed the House of the Hearth's spies in the underworld, that was kind of an intentional provocation to the Fatui. But their only response was to send down a bunch of children... Was it because they truly saw those kids as disposable? Or because they knew I wouldn't have it in me to let them come to serious harm? *sigh*"
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "莱欧斯利关于娜维娅",
+                "content_zh": "梅洛彼得堡和刺玫会有一些物资方面的合作，但仅限于此。并不是不信任娜维娅小姐或是质疑她的能力——实际上恰恰相反——只不过，我们之间水下水上的事务互不干涉是我与卡雷斯先生约好的规矩，维持不变就好。",
+                "target_en": "Navia",
+                "title_en": "Wriothesley about Navia",
+                "content_en": "The Fortress of Meropide works with Spina di Rosula on some matters regarding supplies and logistics, but we don't have any other dealings. This isn't because I don't trust Navia or her abilities, in fact, I hold her in quite high regard. The only reason we continue to stay out of each other's way is because I wanna honor the agreement I made with the late Mr. Callas."
             }
         ]
     },
@@ -6555,8 +6600,17 @@
         "name_zh": "夏洛蒂",
         "name_en": "Charlotte",
         "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/72bd4cb919b45738bf71817d2670ed34_5842617070511413222.png",
-        "ver": "4.1.2",
+        "ver": "4.2.1",
         "lines": [
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "夏洛蒂关于娜维娅",
+                "content_zh": "娜维娅的父亲沉冤得雪，「少女连环失踪案」也结了案，她总算可以稍微放下点心了。真不知道为什么，她最近总是成为各种坏新闻的主角，还好我把报社里所有关于她的报道都揽了过来，尽量控制着稿件内容。\n虽然…因为这件事我也被欧芙小姐训了很多次，但为了帮上她，还有和她约好的那篇深度独家访谈，我挨点骂也值得了！",
+                "target_en": "Navia",
+                "title_en": "Charlotte about Navia",
+                "content_en": "Now that her father's name's been cleared, and the case of the serial disappearances of young women is resolved, I guess Navia must be able to finally breathe a little easier. I don't know why, but somehow, she's found herself at the epicenter of all sorts of bad news lately... Luckily for her, I've been snatching up all the articles that mention her and doing whatever damage control I can before they get published. Heh, and uh... then getting told off constantly by Euphrasie for interfering... But y'know, I think Navia deserves a break, so I'm happy to take one for the team. Also, she agreed to do an in-depth exclusive interview, which definitely sweetens the deal!"
+            },
             {
                 "target_id": 68,
                 "target_zh": "林尼",
@@ -6618,7 +6672,7 @@
         "name_zh": "芙宁娜",
         "name_en": "Furina",
         "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/6b3e34fb09616b569998330b968cd2a0_7412056999317051015.png",
-        "ver": "4.1.2",
+        "ver": "4.2.1",
         "lines": [
             {
                 "target_id": 69,
@@ -6648,6 +6702,24 @@
                 "content_en": "I'm very grateful to Neuvillette for all the hard work he's done for Fontaine in the past few centuries. It seems he doesn't intend to investigate my crimes of deceiving the people. Anyway, we're no longer working in tandem, and it's been a long time since I've been to the Palais Mermonia. I imagine that this is good for both of us, right?"
             },
             {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "芙宁娜关于娜维娅·甜点",
+                "content_zh": "你尝过娜维娅烤的马卡龙吗？不得不承认，她对甜点的造诣已经非常深厚，完全不在我之下。口感和甜度暂且不提，她画在马卡龙上的图案也太可爱了吧？简直就是艺术品！她到底是怎么做到的，难道真的只是天赋？我的内心中竟然会产生一种挫败感…下次一定要向她好好打听一下！",
+                "target_en": "Navia",
+                "title_en": "Furina about Navia: Desserts",
+                "content_en": "Have you tried Navia's macarons? I have to admit that her skills in dessert-making are comparable to mine. The design she paints on the macarons is so cute, don't you think? Not to mention the texture and sweetness... They truly are a work of art! How does she do it? Does it really all boil down to talent? Ugh, I can't believe I'm feeling a little jealous... I'll have to ask her for some tips next time!"
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "芙宁娜关于娜维娅·内心",
+                "content_zh": "她是一个很坚强的人。坚强的人不管发生什么都会很快振作起来，装作没事的样子，这样身边的人就无需背负额外的压力。我见证过卡雷斯与克洛琳德的决斗，娜维娅她…在这方面越来越像自己的父亲了。",
+                "target_en": "Navia",
+                "title_en": "Furina about Navia: Inner Thoughts",
+                "content_en": "She's a very strong person. Strong people will always manage to keep themselves together no matter what happens, acting like everything is fine. Doing so prevents other people around them from needlessly bearing additional pressure. I saw the duel between Callas and Clorinde... and I can say that in this respect, Navia is becoming more and more like her father."
+            },
+            {
                 "target_id": 73,
                 "target_zh": "夏洛蒂",
                 "title_zh": "芙宁娜关于夏洛蒂",
@@ -6664,6 +6736,69 @@
                 "target_en": "Wriothesley",
                 "title_en": "Furina about Wriothesley",
                 "content_en": "I haven't communicated with him much, but Neuvillette claims he's trustworthy, so I suppose he must be a good person. Oh, come to think of it, I've received some tea from Wriothesley before and it was exquisite!"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name_zh": "娜维娅",
+        "name_en": "Navia",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/9050fcca1dec27019d07fa0b6e963167_5969912828240491970.png",
+        "ver": "4.3.1",
+        "lines": [
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "娜维娅关于夏洛蒂",
+                "content_zh": "比起跑新闻时的热情和速度，夏洛蒂的拍照技术更让我惊讶。她之前随手给我拍过一张半身照，光影效果好像精心绘制的油画一样。既能写出意想不到的报道，又能拍出最能抓人眼球的画片，她大概天生就是要做记者的吧。",
+                "target_en": "Charlotte",
+                "title_en": "Navia about Charlotte",
+                "content_en": "Charlotte's known for her fast-and-furious reporting, but it's her photography skills that really impress me. She once snapped a quick photo of me, a waist-up shot, and the result was absolutely stunning — it was like looking at an oil painting. She seems to have a knack for writing extraordinary news stories and taking the most eye-catching photos. Guess she was born to be a journalist."
+            },
+            {
+                "target_id": 74,
+                "target_zh": "芙宁娜",
+                "title_zh": "娜维娅关于芙宁娜",
+                "content_zh": "小时候有幸观看过一次芙宁娜大人参与义演的歌剧，票可难买了！虽然扮演的是别的角色，但她看起来反而比平常站在高处演讲时更自然些…现在回想起来，竟然不是错觉。",
+                "target_en": "Furina",
+                "title_en": "Navia about Furina",
+                "content_en": "I was lucky enough to catch her in an opera when I was young. Even though it was a charity show, the tickets were nearly impossible to get! She was performing in character then, but I thought she seemed more in her element then than she ever did as an Archon, giving speeches up in the opera box... Looking back, I guess my intuition was right."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "娜维娅关于那维莱特",
+                "content_zh": "那维莱特先生啊，既复杂又简单。怎么说呢…就像海里的礁石，磕磕绊绊的，但假如理解了其中的规律，也不是完全没法观测。",
+                "target_en": "Neuvillette",
+                "title_en": "Navia about Neuvillette",
+                "content_en": "Ah, how to describe Monsieur Neuvillette... He's... complex, in some ways — but very straightforward in others. I guess a good analogy would be rocky reefs in the sea: Trying to navigate through obstacles you can't see makes for a bumpy ride, but if you can figure out how they work, you start to spot the signs."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "娜维娅关于莱欧斯利",
+                "content_zh": "想和他谈点东西可费劲了。克洛琳德说在既定的合约基础上可以放心与他合作，但千万不要相信他说的每一句话。怪不得老爹以前从不插手水下的事，保险起见，还是维持原样吧。",
+                "target_en": "Wriothesley",
+                "title_en": "Navia about Wriothesley",
+                "content_en": "Trying to discuss anything with that guy is an exhausting process. Clorinde says I needn't have any reservations about collaborating with him in the scope of our preexisting agreement, but I still shouldn't trust everything that comes out of his mouth. No wonder my father never tried to get involved with the affairs of the Fortress... I think I'll play it safe and keep things that way."
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "娜维娅关于林尼和琳妮特",
+                "content_zh": "我知道大魔术师说话总会有些浮夸啦，但能看出，林尼是真心对待身边亲友的。有时候他表现出的责任感，可比他的年纪大多了…\n哦对了，他之前免费给白淞镇的小朋友们变过魔术呢！有机会的话，下次也请他和琳妮特小姐一起来吃马卡龙吧。琳妮特小姐经常凭空变出茶杯来喝茶，那应该不会讨厌甜点吧？",
+                "target_en": "Lynette",
+                "title_en": "Navia about Lyney and Lynette",
+                "content_en": "I know magicians can often be all bravado and razzmatazz, but I can tell that Lyney is a sincere guy who cares deeply about his friends and family. He's so mature for his age, it catches me off guard sometimes... Oh, and how could I forget — it was so kind of him to try and cheer up the children in Poisson with an impromptu free magic show during the flood! I'll have to invite him and Lynette over for some macarons at my place when I get the chance. I know Lynette's always conjuring teacups out of thin air, so surely at least she's a fan of a proper tea break?"
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "娜维娅关于林尼和琳妮特",
+                "content_zh": "我知道大魔术师说话总会有些浮夸啦，但能看出，林尼是真心对待身边亲友的。有时候他表现出的责任感，可比他的年纪大多了…\n哦对了，他之前免费给白淞镇的小朋友们变过魔术呢！有机会的话，下次也请他和琳妮特小姐一起来吃马卡龙吧。琳妮特小姐经常凭空变出茶杯来喝茶，那应该不会讨厌甜点吧？",
+                "target_en": "Lyney",
+                "title_en": "Navia about Lyney and Lynette",
+                "content_en": "I know magicians can often be all bravado and razzmatazz, but I can tell that Lyney is a sincere guy who cares deeply about his friends and family. He's so mature for his age, it catches me off guard sometimes... Oh, and how could I forget — it was so kind of him to try and cheer up the children in Poisson with an impromptu free magic show during the flood! I'll have to invite him and Lynette over for some macarons at my place when I get the chance. I know Lynette's always conjuring teacups out of thin air, so surely at least she's a fan of a proper tea break?"
             }
         ]
     }
