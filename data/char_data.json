@@ -6457,6 +6457,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Freminet about Charlotte",
                 "content_en": "For some reason, Charlotte never believes me when I say I'm just an ordinary diver. She's convinced that my past is full of news stories waiting for her to dig up... Am I really that bad of a liar?"
+            },
+            {
+                "target_id": 76,
+                "target_zh": "夏沃蕾",
+                "title_zh": "菲米尼关于夏沃蕾",
+                "content_zh": "听说夏沃蕾小姐常去博蒙特工坊，为火枪购置最昂贵精细的零件。我要是能挣到很多钱的话，说不定也能给佩伊换上性能更好的零件了吧。",
+                "target_en": "Chevreuse",
+                "title_en": "Freminet about Chevreuse",
+                "content_en": "I hear that Chevreuse is a regular customer of Beaumont Workshop. She always purchases the most expensive and advanced components for her musket. If I make enough Mora, maybe one day I can afford to upgrade Pers's components."
             }
         ]
     },
@@ -6592,6 +6601,15 @@
                 "target_en": "Navia",
                 "title_en": "Wriothesley about Navia",
                 "content_en": "The Fortress of Meropide works with Spina di Rosula on some matters regarding supplies and logistics, but we don't have any other dealings. This isn't because I don't trust Navia or her abilities, in fact, I hold her in quite high regard. The only reason we continue to stay out of each other's way is because I wanna honor the agreement I made with the late Mr. Callas."
+            },
+            {
+                "target_id": 76,
+                "target_zh": "夏沃蕾",
+                "title_zh": "莱欧斯利关于夏沃蕾",
+                "content_zh": "被特巡队关照过的犯人大多挺老实的，这位队长功不可没。",
+                "target_en": "Chevreuse",
+                "title_en": "Wriothesley about Chevreuse",
+                "content_en": "Most inmates seem to gain a new level of respect for the rules after receiving attention from the Special Security and Surveillance Patrol. As the captain, Chevreuse is an instrumental part of that team."
             }
         ]
     },
@@ -6799,6 +6817,78 @@
                 "target_en": "Lyney",
                 "title_en": "Navia about Lyney and Lynette",
                 "content_en": "I know magicians can often be all bravado and razzmatazz, but I can tell that Lyney is a sincere guy who cares deeply about his friends and family. He's so mature for his age, it catches me off guard sometimes... Oh, and how could I forget — it was so kind of him to try and cheer up the children in Poisson with an impromptu free magic show during the flood! I'll have to invite him and Lynette over for some macarons at my place when I get the chance. I know Lynette's always conjuring teacups out of thin air, so surely at least she's a fan of a proper tea break?"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name_zh": "夏沃蕾",
+        "name_en": "Chevreuse",
+        "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/64fe10ded54cecbe6255163a11727f4c_8737437011054981966.png",
+        "ver": "4.3.2",
+        "lines": [
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "夏沃蕾关于娜维娅",
+                "content_zh": "我听说过和娜维娅小姐父亲有关的那件谋杀案，当时在执律庭也闹得沸沸扬扬，不少人都因为这件案件而吵个不停…\n好在如今案件已然昭雪，真正的凶犯也已经伏法…「正义」总算是正式入席了。",
+                "target_en": "Navia",
+                "title_en": "Chevreuse about Navia",
+                "content_en": "I've heard about the murder case involving Navia's father. It caused quite the stir in the Maison Gardiennage at the time. It was the source of many disagreements, I believe.\nFortunately, the truth has come to light and the true culprit has been held accountable... Justice may not always be swift, but it always prevails in the end."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "夏沃蕾关于林尼",
+                "content_zh": "我认识这位大魔术师。有一次我们逮捕了一位涉嫌故意伤害、拐骗和谋杀的魔术师，却一直弄不清他的犯罪手法。最后还是请来了林尼先生做顾问，才找到了关键物证，顺利将嫌疑人定了罪。听说一位小说家对这件罪案很感兴趣，写了一本用魔术手法犯罪的推理小说。\n不过…小说的细节描述实在太过详细，现在还处于脱敏期，暂时是无法出版了。",
+                "target_en": "Lyney",
+                "title_en": "Chevreuse about Lyney",
+                "content_en": "Lyney is quite the famous magician. We once had a case where we arrested a magician suspected of deliberate harm, fraudulent behavior, and murder, but we could never figure out his methods. In the end, we brought on Lyney as a consultant. He helped us find a crucial piece of evidence that led to the successful conviction of the suspect. I heard that an author actually used that case as the basis for their mystery novel about a magician who used their craft to commit crimes.\nUnfortunately... the author ended up going a little overboard on the graphic detail, and since the crime is still fresh in everyone's minds, it'll be a while before they're able to get it published."
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "夏沃蕾关于菲米尼",
+                "content_zh": "我有一次出门买零件的时候遇见过这位潜水员，当时我们都想要买下店里剩下的唯一一个通用零件。我刚想说把那枚零件让给他，但他却一下子缩回了手，低着头一路小跑出了店里。说难听点，简直像个犯人一样…",
+                "target_en": "Freminet",
+                "title_en": "Chevreuse about Freminet",
+                "content_en": "I once saw Freminet in a shop when we both reached for the same gadget. It was the last one available, but just as I was about to tell him he could have it, he withdrew his hand and ran out of the store. It might sound odd, but he fled like the Gardes were after him."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "夏沃蕾关于莱欧斯利",
+                "content_zh": "莱欧斯利先生的工作卓有成效。至少罪人们都清楚地知道，「梅洛彼得堡」并不是一个养老的好去处。这对我们的审讯工作提供了很大帮助。",
+                "target_en": "Wriothesley",
+                "title_en": "Chevreuse about Wriothesley",
+                "content_en": "The work Wriothesley does is highly effective. As least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+            },
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "夏沃蕾关于夏洛蒂",
+                "content_zh": "这是一位让人头疼的记者小姐。每次重案发生后，无论我们怎么封锁现场，她都能第一时间出现在最近的地方…有次我的一名手下甚至把她列为了第一嫌疑人，羁押了足足半个月，但她还是在拘留室里写完了报道…我要找个时间，正式和她的主编谈谈了。",
+                "target_en": "Charlotte",
+                "title_en": "Chevreuse about Charlotte",
+                "content_en": "Charlotte is the type of reporter that really gives you a headache. Whenever there's a major case, she's always one of the first people in the vicinity no matter how hard we try to secure the scene. One time, she was even detained as a suspect for half a month, but she was still able to finish her article while in custody... I really do need to find the time to have a formal conversation with her editor about her behavior."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "夏沃蕾关于那维莱特",
+                "content_zh": "众人皆知，最高审判官大人在审判时全无私情。有人说他少了点人情味，但在我看来，正义本就不该被人情干扰。违律者即有罪，仅此而已。",
+                "target_en": "Neuvillette",
+                "title_en": "Chevreuse about Neuvillette",
+                "content_en": "Everyone knows that the Iudex abstains himself of all personal emotion when presiding over a trial. Some even say he lacks the warmth of human emotion. But the way I see it, justice should remain uncorrupted by personal feelings. Those who break the law bear guilt. It's as simple as that."
+            },
+            {
+                "target_id": 74,
+                "target_zh": "芙宁娜",
+                "title_zh": "夏沃蕾关于芙宁娜",
+                "content_zh": "芙宁娜大人…有段时间突然指定我们进行什么…花枪表演训练。她不仅要求我们全员装配一种特制的「礼仪铳枪」，还要接受特殊的舞枪训练…还好，因为她始终找不到喜欢的仪仗曲，这件事就草草作罢了。",
+                "target_en": "Furina",
+                "title_en": "Chevreuse about Furina",
+                "content_en": "Lady Furina once ordered us to carry out some sort of... ceremonial musketeer performance. She not only wanted each of us outfitted with special \"ceremonial muskets,\" but she wanted us to practice all sorts of specialized drill formations as well. Luckily, in the end, she couldn't find the right song to pair with the performance and the matter was dropped entirely."
             }
         ]
     }
