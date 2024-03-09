@@ -34,7 +34,7 @@ class Updater:
         # for "ver" and "id"
         print("Fetching hhw table")
         self.hhw_table = fetch_hhw_table()
-        # for "name_en", "url_name", "rarity", "weapon", "element", 
+        # for "name_en", "url_name", "rarity", "weapon", "element",
         for k, char in self.template.items():
             if char.get("name_en") is None:
                 char["name_en"] = self.hhw_table[k]["name_en"]
@@ -191,22 +191,30 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
 
     res = S.get(url=os.getenv("URL_ZH"), timeout=20)
     data = res.json()
-    char_count = data["data"]["total"]
+    char_count = data["data"]["iTotal"]
     char_list_zh = data["data"]["list"]
     char_dict = {}
     for i, entry in enumerate(char_list_zh):
-        name = entry["title"]
+        name = entry["sTitle"]
         d = {
             "id": char_count - i,  # last one = 1
             "name_zh": name,
             "name_en": None,
         }
         # order may be slightly different, but remote data should fix it
-        for subentry in entry["ext"]:
-            if subentry["arrtName"] == "角色-ICON":
-                img_url = subentry["value"][0]["url"]
-                d["img_url"] = img_url
-                break
+        img_url = None
+        for entry in json.loads(entry["sExt"]).values():
+            # entry is a list of dicts
+            for entry_item in entry:
+                if img_url is None and "name" in entry_item and (
+                    entry_item["name"].startswith("UI_AvatarIcon_")
+                    or entry_item["name"].endswith(f"{name}.png")
+                    or entry_item["name"].endswith("头像.png")
+                ):
+                    img_url = entry_item["url"]
+        if img_url is None:
+            raise ValueError(f"Image url missing for {name}")
+        d["img_url"] = img_url
         char_dict[name] = d
     return char_dict
 
@@ -326,9 +334,7 @@ def main():
         with open(DATA_FILE_MIN, "w", encoding="utf8") as f:
             json.dump(char_data, f, ensure_ascii=False, separators=(",", ":"))
         print("Wrote data files")
-        commit_msg = (
-            f"v{ver} {' '.join([char['name_zh'] for char in char_data if char['ver']==ver])}"
-        )
+        commit_msg = f"v{ver} {' '.join([char['name_zh'] for char in char_data if char['ver']==ver])}"
     else:
         commit_msg = f"v{ver} update checkpoint"
     if os.getenv("GITHUB_ACTIONS") is not None:
