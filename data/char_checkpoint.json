@@ -1,4 +1,220 @@
 {
+    "嘉明": {
+        "id": 78,
+        "name_zh": "嘉明",
+        "name_en": "Gaming",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/119433/55246234a19233fcb97b0188aae1ae87_2452464298189101184.png",
+        "ver": "4.4.1",
+        "lines": [
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "嘉明关于香菱",
+                "content_zh": "香菱大师傅有好多拿手菜，我最喜欢那味水煮黑背鲈，虽然每次都用水涮了两次先吃，还是辣得我「嘶哈嘶哈」，哈哈哈，不愧是万民堂的生招牌，用料真足火候真猛！下次我还吃！",
+                "target_en": "Xiangling",
+                "title_en": "Gaming about Xiangling",
+                "content_en": "Pretty much everything Chef Xiangling cooks is a winner, but my favorite has to be her Black-Back Perch Stew. I always try to rinse off the molten lava sauce before each bite, but I'm still like \"ss, ah, ss, ah\" trying to cool my mouth down, hahaha! Worth every bite though, and they do generous portions — you can see why it's Wanmin's signature dish. I'll be back for my next fix soon!"
+            },
+            {
+                "target_id": 18,
+                "target_zh": "行秋",
+                "title_zh": "嘉明关于行秋",
+                "content_zh": "飞云商会是镖局的老主顾了，印象中一直都是他们的大少爷在打理生意上的事情，有次行秋少爷难得主动问起镖物的事，我就一五一十地将飞云商会最近货物的路线和收发日子告诉他，结果他问的是能不能透露一下万文集舍最新那批货什么时候到，哈哈哈。",
+                "target_en": "Xingqiu",
+                "title_en": "Gaming about Xingqiu",
+                "content_en": "The Feiyun Commerce Guild's a longtime client of the Secure Transport Agency. The older brother's the one who usually takes care of business with us, but there was one time when Xingqiu piped up with a question for me. So I start rambling away, giving him all the routes and delivery dates for all their recent orders... Turns out all he wanted to know was when the Wanwen Bookhouse is getting their next delivery in, hahaha..."
+            },
+            {
+                "target_id": 19,
+                "target_zh": "重云",
+                "title_zh": "嘉明关于重云",
+                "content_zh": "听说那位仁兄有「纯阳之体」，按照我们那边的说法，他体内可能虚火很旺啊，应该多喝点凉茶喔他。",
+                "target_en": "Chongyun",
+                "title_en": "Gaming about Chongyun",
+                "content_en": "I heard that guy's got a \"pure-yang spirit\"? Where I'm from, we call that heatiness. Dude needs to drink more herbal teas, for real."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "嘉明关于刻晴",
+                "content_zh": "多得玉衡星大人，她带头整治完遗珑埠跟璃月港之间的运输路段之后，盗贼都不敢那么猖獗了。我会不会失业？哈哈，那又未必，就算不用跟贼人打架了，担担抬抬这种粗重工夫总要有人干的嘛。",
+                "target_en": "Keqing",
+                "title_en": "Gaming about Keqing",
+                "content_en": "It's all thanks to the Yuheng that we don't get so many bandits on the road between Liyue Harbor and Yilong Wharf anymore. She's the one who spearheaded the crackdown on all that. ...You think my job's at risk, huh? Haha, they ain't gonna get rid of me that easily. Sure, maybe there's no more bandits to fight, but you're always gonna need a strong pair of arms to lug the cargo around."
+            },
+            {
+                "target_id": 65,
+                "target_zh": "白术",
+                "title_zh": "嘉明关于白术",
+                "content_zh": "走镖也好舞兽也好，跌打损伤都是家常便饭。好在有白大夫，他配的药真是舟车劳顿、居家旅行的必备良药，镖局的兄弟们都托我来璃月港的时候帮手带点回去的。",
+                "target_en": "Baizhu",
+                "title_en": "Gaming about Baizhu",
+                "content_en": "Working as a guard and doing Wushou Dancing means I have a pretty injury-prone lifestyle. Good thing is, Dr. Baizhu's medicine is always there to save the day. Seriously, it's like the one thing people should pack before going on a long journey or family vacation. My workmates at the Secure Transport Agency always get me to bring some back for them when I come to Liyue Harbor."
+            },
+            {
+                "target_id": 21,
+                "target_zh": "七七",
+                "title_zh": "嘉明关于七七",
+                "content_zh": "七七小妹妹非常热心，见我每次来不卜庐都抓很多药，觉得我是因为身体僵硬才会摔跤受伤，所以教我做了柔软体操，哈哈，好简单的，你也试试？来，一二七七…二二七七…",
+                "target_en": "Qiqi",
+                "title_en": "Gaming about Qiqi",
+                "content_en": "Ah, Qiqi, the lovable munchkin. She's convinced that all my accidents are due to stiff joints, so whenever I'm at Bubu Pharmacy stocking up on medicine, she makes me do some stretches with her to limber me up, haha. It's easy, wanna try? Ok, after me: One, two three, four; two, two, three, four..."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "嘉明关于云堇",
+                "content_zh": "云堇大师是我榜样啊！不管内行外行，听过她的曲的都说好。真是不得了，什么时候「威水队」能做到「云翰社」一半的影响力…我做梦都会笑醒！",
+                "target_en": "Yun Jin",
+                "title_en": "Gaming about Yun Jin",
+                "content_en": "Yun Jin's a huge inspiration to me! Everyone agrees that she's a fantastic singer, from the experts to the casual listener. Incredible. If the Mighty Mythical Beasts ever get half as successful as the Yun-Han Opera Troupe... don't pinch me, 'cause I won't wanna wake up!"
+            },
+            {
+                "target_id": 25,
+                "target_zh": "辛焱",
+                "title_zh": "嘉明关于辛焱",
+                "content_zh": "辛焱的演唱实在是太有感染力了！文仔听的时候也一直摇头晃脑的，喜欢得不得了！有机会的话真想请她一起办一个「火爆摇滚舞兽会」，你见识多，你觉得有没有搞头？",
+                "target_en": "Xinyan",
+                "title_en": "Gaming about Xinyan",
+                "content_en": "Xinyan's music is fire! No pun intended. Man Chai goes crazy for it — always gets him moshing away like a mad gremlin. I'd love to do a joint show together one day. \"Roaring Beasts: A Rock 'N' Roll Wushou Dance.\" Whaddya think, has it got legs?"
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "嘉明关于闲云",
+                "content_zh": "闲云姨很关照我，见我的兽首磨损了，马上说要做十个八个比我人还高的兽首给我，我讲到口水都干了，她才同意在我原来这个上改良…现在我这个兽首，又威武又轻便，兽披随时随地都能飘起来，就像有仙风托住一样！我超喜欢！",
+                "target_en": "Xianyun",
+                "title_en": "Gaming about Xianyun",
+                "content_en": "Aunty Xianyun always has my back. Once, she saw that my Wushou head was looking a little worse for wear, and instantly said she could make, like, ten more for me, all twice my size. She was pretty insistent — it took me forever to talk her down to just remodeling the one I already had... And boy, is this an improvement! It looks way more impressive, it's much lighter, and the lion blanket constantly rustles in the air like there's an adeptal wind making it dance. I couldn't be happier with it!"
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "嘉明关于钟离",
+                "content_zh": "我猜那位钟离先生一定是位出身富贵的文人雅士。不管我运货到茶馆还是戏台，都能撞见他在喝茶听书，一看就懂很多的样子。哇，有次无意中听到他跟别人讲茶，当时我就觉得他跟我老爸肯定可以讲通宵了…",
+                "target_en": "Zhongli",
+                "title_en": "Gaming about Zhongli",
+                "content_en": "Mr. Zhongli seems like the kind of guy who had an expensive education. Seems like whenever I make a delivery to a teahouse or opera house, he's always there drinking tea, listening to the storyteller, and looking like the smartest guy in the room. Dude, I once overheard him talking to someone about tea — I was like, man, if he ever got talking to my dad, that conversation would go on all night..."
+            },
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "嘉明关于夏洛蒂",
+                "content_zh": "哦，那位记者小姐啊嘛！我知道她！遗珑埠的枫丹人都喜欢看蒸汽鸟报，我也经常蹭着看看，有很多不得了的新闻都是她写的喔！哦！我记得你还上过头条啊！是不是？",
+                "target_en": "Charlotte",
+                "title_en": "Gaming about Charlotte",
+                "content_en": "Oh, yeah, yeah, the journalist, I know who you mean! All the Fontainians in Yilong Wharf read The Steambird, and sometimes I take a peekski too. Seems like all the best articles have her name on them. Wait! And you were on the front page once! That was you, right?"
+            }
+        ]
+    },
+    "闲云": {
+        "id": 77,
+        "name_zh": "闲云",
+        "name_en": "Xianyun",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/119432/796395c5d6e8db88d96d841f3688e5d1_4724765006036447968.png",
+        "ver": "4.4.1",
+        "lines": [
+            {
+                "target_id": 27,
+                "target_zh": "甘雨",
+                "title_zh": "闲云关于甘雨",
+                "content_zh": "本仙问甘雨平时加班都在忙些什么，她说了一堆拗口的词，什么会议纪要、工作总结、年度报告、财务预算…哼，若非她的仙麟血脉，又有本仙传授的养生之法，可应付不来这些繁文缛节…你下次记得替本仙问她，有没有每天喝本仙研制的明目清心茶？",
+                "target_en": "Ganyu",
+                "title_en": "Xianyun about Ganyu",
+                "content_en": "One once asked Ganyu what she typically works on during her overtime hours. Her response was filled with hideous-sounding words, such as \"meeting minutes,\" \"summaries,\" \"annual reports,\" \"financial projections\"... Hmph, were she not of qilin blood, and had one not taught to her the secrets of cultivating health, this avalanche of bureaucratic writ would have surely overwhelmed her... When you see her next, would you check that she's been drinking her Qingxin Infusion of Clear Sight on a daily basis?"
+            },
+            {
+                "target_id": 44,
+                "target_zh": "申鹤",
+                "title_zh": "闲云关于申鹤",
+                "content_zh": "申鹤说她有一次给万民堂送外卖，为了节省时间，直接踩着屋顶过去，从屋顶跳到人家门口，把顾客吓了一跳，差点要喊千岩军…好在她来去如风，没等顾客喊出口，早已放下外卖消失不见了。申鹤这孩子处理危机的能力真是越来越强，本仙很是欣慰。",
+                "target_en": "Shenhe",
+                "title_en": "Xianyun about Shenhe",
+                "content_en": "Shenhe told me that once, when she was delivering an order for Wanmin Restaurant, she ran across the rooftops to save time. Her customer was terrified when she jumped down onto their doorstep, and was about to call for the Millelith... Fortunately, Shenhe disappeared as quickly as she arrived, leaving the food delivery behind and making haste before the customer had time to react. It seems she is growing more proficient at handling crises all the time — one could not be more pleased."
+            },
+            {
+                "target_id": 24,
+                "target_zh": "钟离",
+                "title_zh": "闲云关于钟离",
+                "content_zh": "帝君听说本仙要在璃月港置办住宅，便跟本仙细数家居装潢与家具购置的注意事项。采光通风、木材定制、瓷器选购、还有花卉摆放…本仙听得头都快大了，在人间居住竟要这般费心吗？",
+                "target_en": "Zhongli",
+                "title_en": "Xianyun about Zhongli",
+                "content_en": "When Rex Lapis first heard of one's plan to take up residence in Liyue Harbor, he recited a long and detailed list of considerations for the furnishing and adornment of a home. Natural lighting, ventilation, bespoke woodwork, procuring porcelain, placement of plants and flowers... One's mind felt ready to explode from the deluge of information. Do all facets of life in the human world take so much effort?"
+            },
+            {
+                "target_id": 28,
+                "target_zh": "魈",
+                "title_zh": "闲云关于魈",
+                "content_zh": "降魔大圣比本仙还安静，千百年的聚会，就没几次他愿意出面的。本仙倒是听说你和他交情不错，平时你都跟他聊些什么？要不然，下次你找他的时候，本仙做一份「豆腐布丁」让你带去吧。",
+                "target_en": "Xiao",
+                "title_en": "Xianyun about Xiao",
+                "content_en": "The Conqueror of Demons is even more withdrawn than oneself — he has been sighted a mere handful of times at social gatherings over the centuries... One was interested to learn that you are on rather good terms with him — what sort of conversations do the two of you tend to have? Oh, and do let me know when you next plan to see him. Perhaps one could make some tofu pudding for you to pass on to him."
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "闲云关于胡桃",
+                "content_zh": "那丫头年纪轻轻，说话稀奇古怪，但看「往生堂」的人却对她毕恭毕敬，连帝君都客气，还给她当那什么「客卿」…听说她对食物的品味也不同寻常，这号奇人，倒让本仙有些兴趣。",
+                "target_en": "Hu Tao",
+                "title_en": "Xianyun about Hu Tao",
+                "content_en": "That young lady says the most bizarre-sounding things, yet she appears to be rather highly regarded by the staff of the Wangsheng Funeral Parlor — even Rex Lapis himself saw fit to serve under her in some sort of \"consultancy\" capacity... Allegedly, she is similarly peculiar when it comes to her taste in food. One must admit, one finds eccentrics like her rather intriguing."
+            },
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "闲云关于香菱",
+                "content_zh": "本仙闲聊时跟她说起过机关烹饪神机的事，那丫头竟然说，做菜还是得亲自动手才地道…哼，本仙造机关也是亲自动手，怎么就不地道了？本仙可得跟她比比…不过她做的璃月菜肴确实风味极佳…待本仙想想怎么改进机关…",
+                "target_en": "Xiangling",
+                "title_en": "Xianyun about Xiangling",
+                "content_en": "One happened to mention the Supreme Cuisine Machine in conversation with Xiangling once, but one was rather taken aback when she responded by saying that a dish is inauthentic unless it is prepared by hand... Hmph, are one's devices not also the work of one's hands? Inauthentic indeed... A contest is in order! ...Although, her mastery of Liyue cuisine is indeed impressive... Yes — the contest shall have to wait until one has made a few improvements to the device..."
+            },
+            {
+                "target_id": 16,
+                "target_zh": "凝光",
+                "title_zh": "闲云关于凝光",
+                "content_zh": "这位「天权星」做起事还算八面玲珑，讲话也滴水不漏。哼，不得不说，璃月港在他们七星的治理下也算欣欣向荣。本仙也在细心观察，研究其中奥秘…咳，此事你知道即可，不要对她讲。",
+                "target_en": "Ningguang",
+                "title_en": "Xianyun about Ningguang",
+                "content_en": "The Tianquan conducts her business with great adroitness, and is meticulous in her speech. Hmph, one must admit that Liyue is thriving under the governance of the Qixing. One has been observing her closely in the hope of discovering her secret... Ahem, that was for your ears only — please do not relay it to her."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "闲云关于刻晴",
+                "content_zh": "她逢年过节便会代表七星来拜访本仙，给本仙送来节日贺礼，真是个有心的孩子。看她做事干练，考虑又周全，甘雨与她共事，应该也不用本仙过于操心…",
+                "target_en": "Keqing",
+                "title_en": "Xianyun about Keqing",
+                "content_en": "Keqing is a thoughtful child. She visits me on behalf of the Qixing every festival without fail, and always brings a gift. With such a capable and considerate colleague by her side, perhaps one needn't worry too much about Ganyu..."
+            },
+            {
+                "target_id": 45,
+                "target_zh": "云堇",
+                "title_zh": "闲云关于云堇",
+                "content_zh": "「璃月戏」有不少以仙人传说为蓝本的故事，其中也有以本仙的经历改编的戏曲…本仙当然未曾看过，看别人在台上演自己，难道不会尴尬吗？至于她以申鹤的经历创作的戏，待本仙空闲，倒是可以去品鉴一番。",
+                "target_en": "Yun Jin",
+                "title_en": "Xianyun about Yun Jin",
+                "content_en": "There are many Liyue operas adapted from stories about the adepti, including some based on one's own life and exploits... One has never watched those, of course — what could be more embarrassing than watching someone else play oneself on the stage? One would, however, be interested to evaluate how well Yun Jin did in her adaptation of Shenhe's story, when one has time to go and see it."
+            },
+            {
+                "target_id": 62,
+                "target_zh": "瑶瑶",
+                "title_zh": "闲云关于瑶瑶",
+                "content_zh": "有一次，瑶瑶把我的眼镜借了过去，戴在了自己的鼻梁上，一个人乐呵呵地笑了半天…孩子啊，总能找到独属于孩子的乐趣。",
+                "target_en": "Yaoyao",
+                "title_en": "Xianyun about Yaoyao",
+                "content_en": "Yaoyao once pinched my glasses from my face and tried them on for herself — she found it terribly entertaining, and couldn't stop giggling... Ah, children are able to find all sorts of ways to amuse themselves."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "闲云关于嘉明",
+                "content_zh": "嘉明这小伙为人热情，说话有趣，也从来不会夸夸其谈，本仙很是看重。说起最初和他相遇的时候，看到本仙在池边歇脚，他还主动拿出吃食与本仙分享呢。后来他说在他眼里，比起仙人，本仙更像是一位可敬的长辈。呵呵，那本仙自然也该以长辈的身份照顾他喽。",
+                "target_en": "Gaming",
+                "title_en": "Xianyun about Gaming",
+                "content_en": "One is very fond of Gaming. He is good-hearted and entertaining in conversation, but never grandiloquent. We first met when one was resting by a lake, and he very kindly shared some of his provisions with me. Later, he commented that one seemed to be a wise elder, worthier of respect than even the adepti themselves... Hehe, this wise elder will be sure to look out for him after that."
+            }
+        ]
+    },
     "夏沃蕾": {
         "id": 76,
         "name_zh": "夏沃蕾",
@@ -41,6 +257,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Chevreuse about Wriothesley",
                 "content_en": "The work Wriothesley does is highly effective. As least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "夏沃蕾关于千织",
+                "content_zh": "千织处理纠纷的方式有些激进。但她凭借自己的门路和人脉，为特巡队提供过很多次情报。作为回礼，我会在她把人丢出店门、或是掀翻恶性竞争对手的店铺时睁一只眼闭一只眼。事后调查你会发现，千织总是有理的那一方。她只是懒得和人废话罢了。",
+                "target_en": "Chiori",
+                "title_en": "Chevreuse about Chiori",
+                "content_en": "Chiori's method of resolving disputes is bit radical. But, she has quite the network at her disposal and has provided the Special Security and Surveillance Patrol with intelligence on more than one occasion. In return, I turn a blind eye whenever she throws someone out the door or runs a malignant competitor out of business. If you look into it, you'll find that Chiori is always in the right. She's just not the type to waste her breath on explanations."
             },
             {
                 "target_id": 73,
@@ -86,6 +311,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Navia about Charlotte",
                 "content_en": "Charlotte's known for her fast-and-furious reporting, but it's her photography skills that really impress me. She once snapped a quick photo of me, a waist-up shot, and the result was absolutely stunning — it was like looking at an oil painting. She seems to have a knack for writing extraordinary news stories and taking the most eye-catching photos. Guess she was born to be a journalist."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "娜维娅关于千织",
+                "content_zh": "这位为枫丹时尚带来异国风情的服装设计师，私下里帮过刺玫会不少忙呢。她说我的奇思妙想给她提供了好多创作灵感，以我对她的了解来看，应该不是客气话。但当我请她做一个十米高的礼帽时，她却严词拒绝了。唉，要是能摆在店门前，应该是很惹眼的宣传手段呀！",
+                "target_en": "Chiori",
+                "title_en": "Navia about Chiori",
+                "content_en": "Ah, the fashion designer who brought the coolest Inazuman trends to Fontaine? She's actually been a great help to the Spina behind the scenes. She says my unorthodox ideas always give her a lot of inspiration for her work, and from what I can tell, I think she means it. Still, she drew the line at my request for a ten-meter-tall top hat. *sigh* Missed opportunity, if you ask me... Imagine seeing one of those in front of the shop! It would be a great way to draw in customers."
             },
             {
                 "target_id": 74,
@@ -250,6 +484,15 @@
                 "content_en": "So... Did you get to meet the Duke in person? Yeah? Any nuggets of information that I should know about? Never mind the Credit Coupons, the Coupon Cafeteria, \"If a man will not work, he shall not eat\"... That's all just generic filler. I'm talking about personal anecdotes about the man of Meropide himself... What do you mean, \"confidentiality\"? Aw, not you, too! We had a deal! That does it — remember that gigantic feast I treated you to? I want my money back! Get your butts back to prison and do your time, you swindlers, you!"
             },
             {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "夏洛蒂关于千织",
+                "content_zh": "我曾经仔细观察过「千织屋」。店里除了枫丹贵妇人和慕名而至的外国游客之外，还经常会来一些看起来就不好惹的角色！有的一身肌肉、脸上留疤，有的蒙面戴帽、怀里揣刀…但不管怎样，他们手上几乎都提着礼物样式的东西，态度也毕恭毕敬。呃…那些态度不好的，出门时都是飞出来的，我还抓拍过那样的瞬间呢！",
+                "target_en": "Chiori",
+                "title_en": "Charlotte about Chiori",
+                "content_en": "I did a little snooping around at Chioriya Boutique once. Aside from the wealthy housewives of Fontaine and the box-ticking tourists from overseas, some of the regular customers there look like really rough characters! Big muscly types with scars on their face, guys in masks and hats with their swords drawn... But they always come bearing gifts and acting like humble servants. Uh... Well, mostly. Anyone with a bad attitude is literally sent flying back out the door. Seriously! I snapped a photo of a guy being thrown out once, he was like four feet in the air!"
+            },
+            {
                 "target_id": 70,
                 "target_zh": "菲米尼",
                 "title_zh": "夏洛蒂关于菲米尼",
@@ -355,7 +598,7 @@
                 "content_zh": "纵使天地翻覆，也无法停止我对于僭位七神的巡游审判。微风与希望之神获赠了风之大权，他也需要列席候审。你说他大部分时间都只是个醉汉，没有什么危险的了？那也得先见见吧。",
                 "target_en": "Venti",
                 "title_en": "Neuvillette about the Anemo Archon",
-                "content_en": "I shall fulfill my vow to judge all of The Seven in turn, even if the sky should fall and the ground give way. As the recipient of the Authority of Anemo, the God of Breeze and Hope must also stand trial. ...Hmm? He spends most of his time being a harmless drunkard, you say? Well, even so, I must meet him for myself and proceed from there."
+                "content_en": "I shall fulfill my vow to judge all of The Seven in turn, even if the sky should fall and the ground give way. As the recipient of the Authority of Anemo, the God of Breeze and Hope must also stand trial. ...Hmm? He spends most of his time being a harmless drunkard? Well, even so, I must meet him for myself and proceed from there."
             },
             {
                 "target_id": 38,
@@ -364,7 +607,7 @@
                 "content_zh": "我作为重获全龙之格的孑遗，就算是让大海所有的水逆行回天，也需要履行我的誓言与责任。鸣神赢取了雷之大权，注定留名于僭权者之列。嗯，你说她现在蛰居于心成净土之中，极少现身？那我过几百年再去吧。",
                 "target_en": "Raiden Shogun",
                 "title_en": "Neuvillette about the Electro Archon",
-                "content_en": "As a survivor of the dragon race who has regained my full dragonhood, I must fulfill my oath and obligations even if it means returning all the water in the oceans back to the heavens. In taking the Authority of Electro, the Narukami placed herself on the list of the usurpers. Oh, so she has isolated herself in the Plane of Euthymia, and now rarely appears in public? Then I shall pay her a visit in another few centuries."
+                "content_en": "As a survivor of the dragon race who has regained my full dragonhood, I must fulfill my oaths and obligations even if it means returning all the water in the oceans back to the heavens. In taking the Authority of Electro, the Narukami placed herself on the list of the usurpers, she will... Oh, you say she has isolated herself in the Plane of Euthymia, and now rarely appears in public? Then I shall pay her a visit in another few centuries."
             },
             {
                 "target_id": 57,
@@ -574,6 +817,15 @@
                 "content_en": "Though she's the new president of Spina di Rosula, her style is more like the nosy big sister next door. If we really had a sister like her in the \"House of the Hearth,\" that would be really great... I know I probably shouldn't be wishing for anyone to be an orphan, but..."
             },
             {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "琳妮特关于千织",
+                "content_zh": "我跟林尼的演出服都是请她定制的。有一次林尼用小刀表演魔术，不小心划到了袖口，后来被她数落了好久…真可怕。幸好每次去她店里，都可以躲到林尼背后。",
+                "target_en": "Chiori",
+                "title_en": "Lynette about Chiori",
+                "content_en": "The costumes Lyney and I wear for performances were specially tailored by Chiori. Once, Lyney was using a small knife for a magic trick, and accidentally cut the cuff of his sleeve a bit. She scolded us nonstop... it was scary. Luckily, I can hide behind Lyney whenever we go to her shop."
+            },
+            {
                 "target_id": 73,
                 "target_zh": "夏洛蒂",
                 "title_zh": "琳妮特关于夏洛蒂",
@@ -635,6 +887,15 @@
                 "target_en": "Furina",
                 "title_en": "Lyney about Furina",
                 "content_en": "The Hydro Archon, Lady Furina, is very unpredictable, and her manner of speech can be quite provocative, almost as if she sees talking itself like some sort of performance. The people of Fontaine have a particular soft spot for excitement and drama, which is why many hold her in high esteem."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "林尼关于千织",
+                "content_zh": "恭维话在她那里是行不通的，只有真正懂得欣赏的人，才能让她另眼相待。你问她怎么看我？这问题可让我有些伤心哦，我可是既懂欣赏，又对大家真心相待的人呀。",
+                "target_en": "Chiori",
+                "title_en": "Lyney about Chiori",
+                "content_en": "Flattery won't get you anywhere with her. She'll only give those who can truly appreciate her art a second look. How does she see me, you ask? Come on now, that hurts! Not only am I a connoisseur of the arts, but honest about it too, as I am in all my dealings!"
             },
             {
                 "target_id": 75,
@@ -716,6 +977,15 @@
                 "target_en": "Lyney",
                 "title_en": "Kirara about Lyney",
                 "content_en": "So I met this magician in Fontaine who could make anything disappear, then make it reappear out of thin air! He must've used some kind of youkai power to make that happen, right? Hmm... Is he a youkai too, then?"
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "绮良良关于千织",
+                "content_zh": "千织姐对我很好，以前经常遇见她外出研究布料的做法和配色。虽然她一直很担心我会抓坏那些衣料，但它们那么漂亮，我根本舍不得啦。她现在在枫丹开了家店，有时也会叫我去送货。嘿嘿，我身上这套衣服就是她帮我改良的。",
+                "target_en": "Chiori",
+                "title_en": "Kirara about Chiori",
+                "content_en": "She's really nice to me. I often ran into her in the past when she was out researching ways to make fabrics and develop color palettes. She was always worried that I'd leave claw marks all over her beautiful textiles, but come on, why would I do that to her? She's running a store in Fontaine now and sometimes asks me to deliver stuff to her. Hehe, she even helped me tailor the clothes I'm wearing now."
             }
         ]
     },
@@ -896,6 +1166,15 @@
                 "target_en": "Tighnari",
                 "title_en": "Baizhu about Tighnari",
                 "content_en": "Ah, so you have an acquaintance from the Sumeru Akademiya? In that case, could I trouble you to introduce me to this Tighnari? I have many questions about herbal medicine that I would like to ask him."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "白术关于嘉明",
+                "content_zh": "比起这个年纪的寻常少年，他身上有更多伤痕旧患，每每过来又常添不少淤青扭损…唉，劝恐怕是劝不住的。我教过他一些包扎和养护的方法，希望对他有帮助。",
+                "target_en": "Gaming",
+                "title_en": "Baizhu about Gaming",
+                "content_en": "Gaming has quite a lot of scars and old injuries compared to other people his age. And every time he comes to see me, he always seems to have a new bruise here, and a new sprain there... *sigh* No matter how many times I insist that he needs to be more careful, it always goes in one ear and out the other. All I can do is teach him some useful techniques for dressing and treating his wounds. I hope he finds them useful."
             }
         ]
     },
@@ -1166,6 +1445,15 @@
                 "target_en": "Yanfei",
                 "title_en": "Yaoyao about Yanfei",
                 "content_en": "Yanfei takes that huge legal codex everywhere, even when she comes to pay Master a visit on her days off. She's incredible! I don't know how she carries that heavy thing around all the time, and I can't imagine how much hard work it must be to read it..."
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "瑶瑶关于闲云",
+                "content_zh": "那天我去找师父的时候，见到师父在和一位很有气质的姐姐聊天。她自称「闲云」，还想逗逗我呢，但我一眼就看出来她是留云阿姨啦！毕竟，看师父那高兴的样子，没有半点生分，分明是见到了一位老友嘛！",
+                "target_en": "Xianyun",
+                "title_en": "Yaoyao about Xianyun",
+                "content_en": "When I went to look for Master the other day, I found her chatting with a very elegant-looking lady. She said her name was \"Xianyun,\" but her hijinks didn't fool me! I could tell it was Aunty Cloud Retainer right away! I mean, Master looked like she was really happy to see her, so how could it be a stranger? Evidently, she was an old friend!"
             }
         ]
     },
@@ -2732,6 +3020,15 @@
                 "target_en": "Xiao",
                 "title_en": "Shenhe about Xiao",
                 "content_en": "My first impression of him was that he's not one to smile. After meeting him again more recently, however, he's still as reserved as ever, but... he seems a lot more relaxed now. Maybe he... met someone special."
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "申鹤关于闲云",
+                "content_zh": "上回，师父带漱玉来万民堂吃饭，漱玉言谈间已有了几分师父的神形…我也是在师父的呵护下如此成长，不知道我的举止，是否也带着些师父的样子呢…",
+                "target_en": "Xianyun",
+                "title_en": "Shenhe about Xianyun",
+                "content_en": "The last time Master and Shuyu came to dine at Wanmin Restaurant, I noticed that Shuyu seemed to have adopted a number of Master's mannerisms. It gave me pause for thought... I grew up under Master's care, too. Is it possible that I have subconsciously picked up a thing or two from her as well...?"
             }
         ]
     },
@@ -4324,6 +4621,15 @@
                 "target_en": "Yelan",
                 "title_en": "Ganyu about Yelan",
                 "content_en": "Even though Ms. Yelan is absent from work for the majority of the year, I'm sure Lady Ningguang must have her reasons for making exceptions for her. Of course, it wouldn't be my place to ask, so I don't know the details of their arrangement. I remember seeing her one day on my way back to Yuehai Pavilion, she was having breakfast with a group of people — they were all talking and laughing, eating, drinking tea... I must admit, I found myself feeling a little envious in that moment."
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "甘雨关于闲云",
+                "content_zh": "留云真君…啊，我是说，闲云小姐，她不久前约我一同逛街，却在每个摊位前都停下脚步，一定要把每件商品细细看过一遍才离开。等我们记起要吃饭时，已经夕阳西下了。这让我想起了从前在山中修行的日子，光阴也如同现在一样，转瞬即逝…",
+                "target_en": "Xianyun",
+                "title_en": "Ganyu about Xianyun",
+                "content_en": "Cloud Retainer... Oh, I mean, Ms. Xianyun — we went shopping together a while back, but we ended up stopping at every single stall, and she wanted to inspect every item they sold before we could leave. When we finally remembered to get something to eat, it was already dark out. It really reminded me of the time I used to spend training in the mountains with her... Back then, time also seemed to pass in the blink of an eye..."
             }
         ]
     },
@@ -4477,6 +4783,15 @@
                 "target_en": "Yun Jin",
                 "title_en": "Xinyan about Yun Jin",
                 "content_en": "Tell you a secret — but you gotta keep it that way, you hear? She's real fond of rock 'n' roll. Comes to watch me at least three times a week no matter how packed her schedule is. You'd think that the head of Heyu Tea House's troupe would be into finer arts and all, eh? But I guess it gets suffocating after a while. Haha."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "辛焱关于嘉明",
+                "content_zh": "他第一次说我是「摇滚发烧友」的时候，我还仔细摸了摸额头，回答他说「没有啊」，结果他来了句「你绝对是」，我们争论了小半天，最后才发现是误会，他跟我说「发烧友」就是「爱好者」的意思。哈哈哈，他可真好玩，我要把这个词写进歌里！",
+                "target_en": "Gaming",
+                "title_en": "Xinyan about Gaming",
+                "content_en": "The first time Gaming told me I had a bad case of \"rock 'n' roll fever,\" I checked my forehead to see if he was right. My temperature was fine, so I denied it. But he insisted it was true. We went back and forth arguing about it for hours before I realized it was all just a misunderstanding. Gaming explained that it was just another way to say you're a fan of something. Hahaha, there's never a dull moment when Gaming's around. Anyway, I've definitely come 'round to \"rock 'n' roll fever\" as an expression — I'll have to work it into the lyrics next time I write a song!"
             }
         ]
     },
@@ -4594,6 +4909,15 @@
                 "target_en": "Furina",
                 "title_en": "Zhongli about Furina",
                 "content_en": "She made a contract with her own self to save the nation, strictly adhered to it for over five centuries without once wavering, and even fooled the Heavenly Principles in the end... I have great respect for approaches to justice that place exacting demands not only on others, but also on the self. Though her divinity has vanished and the throne of the Archon is no more, Furina will go down in Fontaine's history as a God of Justice worthy of recognition."
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "钟离关于闲云",
+                "content_zh": "我听不少商人聊起过「闲云」的逸闻。说是这位女子看似倨傲，不喜言谈，交谈一番却发现她性格耿直，作风正派，是位值得结交的良友。我为她高兴。但「出手阔绰」这条评价，嗯，也有不少人对我说过…",
+                "target_en": "Xianyun",
+                "title_en": "Zhongli about Xianyun",
+                "content_en": "I hear many merchants of Liyue tell tales of a Ms. Xianyun. By most accounts, she appears proud and taciturn upon first glance, yet in conversation, people find her to be forthright and fair-minded, and they are pleased to make her acquaintance. I am glad to hear this. But... I have also heard a great many accounts lauding her readiness to part with large sums of Mora..."
             }
         ]
     },
@@ -4720,78 +5044,6 @@
                 "target_en": "Wanderer",
                 "title_en": "Tartaglia about The Balladeer",
                 "content_en": "After he took the Gnosis, we lost all contact with him. Now comes the task of trying to hunt it down and get it back... I actually don't mind it — it means I get to travel all over. Wonder if I'll run into you somewhere along the way?"
-            }
-        ]
-    },
-    "莫娜": {
-        "id": 14,
-        "name_zh": "莫娜",
-        "name_en": "Mona",
-        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718352334387.png",
-        "ver": "1.0",
-        "lines": [
-            {
-                "target_id": 1,
-                "target_zh": "琴",
-                "title_zh": "莫娜关于琴",
-                "content_zh": "那位西风骑士团代理团长？她的「命之座」是「幼狮座」，象征着力量，还有过早担负的责任。「雄狮」早早离群，但她会继续成长，直到能完全继承狮群的荣耀。",
-                "target_en": "Jean",
-                "title_en": "Mona about Jean",
-                "content_en": "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader."
-            },
-            {
-                "target_id": 26,
-                "target_zh": "阿贝多",
-                "title_zh": "莫娜关于阿贝多",
-                "content_zh": "阿贝多？啊…我真羡慕他，只用专注于研究就好，不用管其他的杂事，真是美好的生活啊。如果那个老太婆脑筋正常一点，我应该也过着这种生活吧…",
-                "target_en": "Albedo",
-                "title_en": "Mona about Albedo",
-                "content_en": "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself..."
-            },
-            {
-                "target_id": 9,
-                "target_zh": "可莉",
-                "title_zh": "莫娜关于可莉",
-                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…\n啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
-                "target_en": "Klee",
-                "title_en": "Mona about Klee",
-                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk*\nAlthough, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
-            },
-            {
-                "target_id": 6,
-                "target_zh": "迪卢克",
-                "title_zh": "莫娜关于迪卢克",
-                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。\n等等，「夜枭」象不象征财富来着？",
-                "target_en": "Diluc",
-                "title_en": "Mona about Diluc",
-                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival.\n...Or, wait, maybe Noctua's the one tied to wealth...?"
-            },
-            {
-                "target_id": 4,
-                "target_zh": "凯亚",
-                "title_zh": "莫娜关于凯亚",
-                "content_zh": "凯亚·亚尔伯里奇吗？他的「孔雀羽座」象征着高贵，但同时也象征着「华丽的掩饰」。他以为已经和过去一刀两断。但到了命中注定的那天，他依然必须做出自己的选择。",
-                "target_en": "Kaeya",
-                "title_en": "Mona about Kaeya",
-                "content_en": "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make."
-            },
-            {
-                "target_id": 3,
-                "target_zh": "丽莎",
-                "title_zh": "莫娜关于丽莎",
-                "content_zh": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
-                "target_en": "Lisa",
-                "title_en": "Mona about Lisa",
-                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe \"becomes lazy\" is more accurate than \"comes to rest,\" in this case."
-            },
-            {
-                "target_id": 8,
-                "target_zh": "温迪",
-                "title_zh": "莫娜关于温迪",
-                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…\n咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
-                "target_en": "Venti",
-                "title_en": "Mona about Venti",
-                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look...\nHuh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
             }
         ]
     },
@@ -5008,6 +5260,78 @@
                 "target_en": "Yelan",
                 "title_en": "Keqing about Yelan",
                 "content_en": "Ms. Yelan's ancestors used to serve the Qixing. My grandfather and her family have had academic collaborations in the past. All in all, she's reliable, efficient, and provides important intel to the Ministry of Civil Affairs. I can't say for sure how Ms. Yelan actually gets her intel, however..."
+            }
+        ]
+    },
+    "莫娜": {
+        "id": 14,
+        "name_zh": "莫娜",
+        "name_en": "Mona",
+        "img_url": "https://uploadstatic.mihoyo.com/contentweb/20220127/2022012718352334387.png",
+        "ver": "1.0",
+        "lines": [
+            {
+                "target_id": 1,
+                "target_zh": "琴",
+                "title_zh": "莫娜关于琴",
+                "content_zh": "那位西风骑士团代理团长？她的「命之座」是「幼狮座」，象征着力量，还有过早担负的责任。「雄狮」早早离群，但她会继续成长，直到能完全继承狮群的荣耀。",
+                "target_en": "Jean",
+                "title_en": "Mona about Jean",
+                "content_en": "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader."
+            },
+            {
+                "target_id": 26,
+                "target_zh": "阿贝多",
+                "title_zh": "莫娜关于阿贝多",
+                "content_zh": "阿贝多？啊…我真羡慕他，只用专注于研究就好，不用管其他的杂事，真是美好的生活啊。如果那个老太婆脑筋正常一点，我应该也过着这种生活吧…",
+                "target_en": "Albedo",
+                "title_en": "Mona about Albedo",
+                "content_en": "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself..."
+            },
+            {
+                "target_id": 9,
+                "target_zh": "可莉",
+                "title_zh": "莫娜关于可莉",
+                "content_zh": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…\n啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
+                "target_en": "Klee",
+                "title_en": "Mona about Klee",
+                "content_en": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk*\nAlthough, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I..."
+            },
+            {
+                "target_id": 6,
+                "target_zh": "迪卢克",
+                "title_zh": "莫娜关于迪卢克",
+                "content_zh": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。\n等等，「夜枭」象不象征财富来着？",
+                "target_en": "Diluc",
+                "title_en": "Mona about Diluc",
+                "content_en": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival.\n...Or, wait, maybe Noctua's the one tied to wealth...?"
+            },
+            {
+                "target_id": 4,
+                "target_zh": "凯亚",
+                "title_zh": "莫娜关于凯亚",
+                "content_zh": "凯亚·亚尔伯里奇吗？他的「孔雀羽座」象征着高贵，但同时也象征着「华丽的掩饰」。他以为已经和过去一刀两断。但到了命中注定的那天，他依然必须做出自己的选择。",
+                "target_en": "Kaeya",
+                "title_en": "Mona about Kaeya",
+                "content_en": "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make."
+            },
+            {
+                "target_id": 3,
+                "target_zh": "丽莎",
+                "title_zh": "莫娜关于丽莎",
+                "content_zh": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
+                "target_en": "Lisa",
+                "title_en": "Mona about Lisa",
+                "content_en": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe \"becomes lazy\" is more accurate than \"comes to rest,\" in this case."
+            },
+            {
+                "target_id": 8,
+                "target_zh": "温迪",
+                "title_zh": "莫娜关于温迪",
+                "content_zh": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…\n咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
+                "target_en": "Venti",
+                "title_en": "Mona about Venti",
+                "content_en": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look...\nHuh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
             }
         ]
     },
@@ -5368,6 +5692,15 @@
                 "target_en": "Yelan",
                 "title_en": "Xingqiu about Yelan",
                 "content_en": "Have you heard the expression \"same person, different face\"? Ms. Yelan gives me precisely this feeling. When she came to visit my family, my father and brother treated her with respect, and she was pleasant and polite in return. She seemed like a kind and mature young lady to me. But when I saw her elsewhere, she gave a completely different impression."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "行秋关于嘉明",
+                "content_zh": "嘉明的工作颇有侠之风范。试想，功夫盖世的黑衣少年携手威武镇煞的瑞兽，在月黑风高夜，将盗贼与恶徒打得落花流水，狼狈而逃…等他得空，真想听他多分享一些走镖路途中的见闻。你也一起来吧？",
+                "target_en": "Gaming",
+                "title_en": "Xingqiu about Gaming",
+                "content_en": "Gaming's work has all the trappings of a chivalric hero. Picture the scene — on a dark and moonless night, a lone young figure clad in black stands fearless on a secluded country road. They say his mastery of the martial arts is unparalleled, and the mythical beast by his side always does his bidding... Bandits and brigands beware, for none who challenge him come away unscathed... When he has the time, I'd love to hear more about his experiences as a guard. You should come along too."
             }
         ]
     },
@@ -5476,6 +5809,15 @@
                 "target_en": "Yelan",
                 "title_en": "Xiangling about Yelan",
                 "content_en": "Yelan? Of course, I remember her! When I first met her, I was certain she'd be the kind of gal who'd prefer lighter dishes... turned out that she can handle the most spice out of all my customers! Apparently, my dishes weren't spicy enough for her, because she started taking bites of raw Jueyun Chilis! Truly amazing."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "香菱关于嘉明",
+                "content_zh": "哎呀，知道嘉明要来，我就会早早备上一大壶茶水，方便他涮辣菜。我提议说给他做一份不辣的，但他却摆着手说就喜欢原汁原味的配方…不会错的，那不是客套话，我能分辨出真正食客的眼神！嘿嘿，那我当然也不能让他失望啦！",
+                "target_en": "Gaming",
+                "title_en": "Xiangling about Gaming",
+                "content_en": "Oh boy, once I know Gaming is coming, I make sure to prepare a huge pot of tea in advance. You know, so he can wash some of the spicy food down. I've offered to tone down the spice a bit for him, but he absolutely insists that he prefers the authentic flavor... And he's not even just saying that to be polite. Believe me, I know a true foodie when I see one! Anyway, if that's what he prefers, then who am I to disappoint, hehe!"
             }
         ]
     },
@@ -5755,6 +6097,15 @@
                 "target_en": "Yelan",
                 "title_en": "Ningguang about Yelan",
                 "content_en": "She's a very interesting character. I can say with the utmost confidence that she is someone I trust unreservedly. She handles herself impeccably, which means she stays beyond reproach. Hehe, since you both have high intelligence in common, hopefully you will get along very well."
+            },
+            {
+                "target_id": 77,
+                "target_zh": "闲云",
+                "title_zh": "凝光关于闲云",
+                "content_zh": "再过些时日，我打算约闲云女士去茶室小坐。我恰巧收集了一些机巧玩物，想听听她的高见，也想趁此机会，听她讲讲仙人在璃月港生活的趣事。至于为我递这份邀请函的人选…你可有意？",
+                "target_en": "Xianyun",
+                "title_en": "Ningguang about Xianyun",
+                "content_en": "I plan to have Lady Xianyun over for a casual conversation over tea in a few days. I happen to have in my possession a number of mechanical devices, and I would be most interested to hear her insights on their design and use. It would also be a fine opportunity to hear about her experiences as an adeptus adapting to a new life in Liyue Harbor. All I require now is a suitable candidate to deliver the invitation to her on my behalf... Would you be interested, Player?"
             }
         ]
     },
