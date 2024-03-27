@@ -1561,7 +1561,7 @@
                 "content_zh": "再过些时日，我打算约闲云女士去茶室小坐。我恰巧收集了一些机巧玩物，想听听她的高见，也想趁此机会，听她讲讲仙人在璃月港生活的趣事。至于为我递这份邀请函的人选…你可有意？",
                 "target_en": "Xianyun",
                 "title_en": "Ningguang about Xianyun",
-                "content_en": "I plan to have Lady Xianyun over for a casual conversation over tea in a few days. I happen to have in my possession a number of mechanical devices, and I would be most interested to hear her insights on their design and use. It would also be a fine opportunity to hear about her experiences as an adeptus adapting to a new life in Liyue Harbor. All I require now is a suitable candidate to deliver the invitation to her on my behalf... Would you be interested, Player?"
+                "content_en": "I plan to have Lady Xianyun over for a casual conversation over tea in a few days. I happen to have in my possession a number of mechanical devices, and I would be most interested to hear her insights on their design and use. It would also be a fine opportunity to hear about her experiences as an adeptus adapting to a new life in Liyue Harbor. All I require now is a suitable candidate to deliver the invitation to her on my behalf... Would you be interested, {NICKNAME}?"
             }
         ]
     },
@@ -6313,6 +6313,15 @@
                 "target_en": "Lyney",
                 "title_en": "Kirara about Lyney",
                 "content_en": "So I met this magician in Fontaine who could make anything disappear, then make it reappear out of thin air! He must've used some kind of youkai power to make that happen, right? Hmm... Is he a youkai too, then?"
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "绮良良关于千织",
+                "content_zh": "千织姐对我很好，以前经常遇见她外出研究布料的做法和配色。虽然她一直很担心我会抓坏那些衣料，但它们那么漂亮，我根本舍不得啦。她现在在枫丹开了家店，有时也会叫我去送货。嘿嘿，我身上这套衣服就是她帮我改良的。",
+                "target_en": "Chiori",
+                "title_en": "Kirara about Chiori",
+                "content_en": "She's really nice to me. I often ran into her in the past when she was out researching ways to make fabrics and develop color palettes. She was always worried that I'd leave claw marks all over her beautiful textiles, but come on, why would I do that to her? She's running a store in Fontaine now and sometimes asks me to deliver stuff to her. Hehe, she even helped me tailor the clothes I'm wearing now."
             }
         ]
     },
@@ -6367,6 +6376,15 @@
                 "target_en": "Furina",
                 "title_en": "Lyney about Furina",
                 "content_en": "The Hydro Archon, Lady Furina, is very unpredictable, and her manner of speech can be quite provocative, almost as if she sees talking itself like some sort of performance. The people of Fontaine have a particular soft spot for excitement and drama, which is why many hold her in high esteem."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "林尼关于千织",
+                "content_zh": "恭维话在她那里是行不通的，只有真正懂得欣赏的人，才能让她另眼相待。你问她怎么看我？这问题可让我有些伤心哦，我可是既懂欣赏，又对大家真心相待的人呀。",
+                "target_en": "Chiori",
+                "title_en": "Lyney about Chiori",
+                "content_en": "Flattery won't get you anywhere with her. She'll only give those who can truly appreciate her art a second look. How does she see me, you ask? Come on now, that hurts! Not only am I a connoisseur of the arts, but honest about it too, as I am in all my dealings!"
             },
             {
                 "target_id": 75,
@@ -6448,6 +6466,15 @@
                 "target_en": "Navia",
                 "title_en": "Lynette about Navia",
                 "content_en": "Though she's the new president of Spina di Rosula, her style is more like the nosy big sister next door. If we really had a sister like her in the \"House of the Hearth,\" that would be really great... I know I probably shouldn't be wishing for anyone to be an orphan, but..."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "琳妮特关于千织",
+                "content_zh": "我跟林尼的演出服都是请她定制的。有一次林尼用小刀表演魔术，不小心划到了袖口，后来被她数落了好久…真可怕。幸好每次去她店里，都可以躲到林尼背后。",
+                "target_en": "Chiori",
+                "title_en": "Lynette about Chiori",
+                "content_en": "The costumes Lyney and I wear for performances were specially tailored by Chiori. Once, Lyney was using a small knife for a magic trick, and accidentally cut the cuff of his sleeve a bit. She scolded us nonstop... it was scary. Luckily, I can hide behind Lyney whenever we go to her shop."
             },
             {
                 "target_id": 73,
@@ -6738,6 +6765,15 @@
                 "content_en": "So... Did you get to meet the Duke in person? Yeah? Any nuggets of information that I should know about? Never mind the Credit Coupons, the Coupon Cafeteria, \"If a man will not work, he shall not eat\"... That's all just generic filler. I'm talking about personal anecdotes about the man of Meropide himself... What do you mean, \"confidentiality\"? Aw, not you, too! We had a deal! That does it — remember that gigantic feast I treated you to? I want my money back! Get your butts back to prison and do your time, you swindlers, you!"
             },
             {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "夏洛蒂关于千织",
+                "content_zh": "我曾经仔细观察过「千织屋」。店里除了枫丹贵妇人和慕名而至的外国游客之外，还经常会来一些看起来就不好惹的角色！有的一身肌肉、脸上留疤，有的蒙面戴帽、怀里揣刀…但不管怎样，他们手上几乎都提着礼物样式的东西，态度也毕恭毕敬。呃…那些态度不好的，出门时都是飞出来的，我还抓拍过那样的瞬间呢！",
+                "target_en": "Chiori",
+                "title_en": "Charlotte about Chiori",
+                "content_en": "I did a little snooping around at Chioriya Boutique once. Aside from the wealthy housewives of Fontaine and the box-ticking tourists from overseas, some of the regular customers there look like really rough characters! Big muscly types with scars on their face, guys in masks and hats with their swords drawn... But they always come bearing gifts and acting like humble servants. Uh... Well, mostly. Anyone with a bad attitude is literally sent flying back out the door. Seriously! I snapped a photo of a guy being thrown out once, he was like four feet in the air!"
+            },
+            {
                 "target_id": 70,
                 "target_zh": "菲米尼",
                 "title_zh": "夏洛蒂关于菲米尼",
@@ -6855,6 +6891,15 @@
                 "content_en": "Charlotte's known for her fast-and-furious reporting, but it's her photography skills that really impress me. She once snapped a quick photo of me, a waist-up shot, and the result was absolutely stunning — it was like looking at an oil painting. She seems to have a knack for writing extraordinary news stories and taking the most eye-catching photos. Guess she was born to be a journalist."
             },
             {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "娜维娅关于千织",
+                "content_zh": "这位为枫丹时尚带来异国风情的服装设计师，私下里帮过刺玫会不少忙呢。她说我的奇思妙想给她提供了好多创作灵感，以我对她的了解来看，应该不是客气话。但当我请她做一个十米高的礼帽时，她却严词拒绝了。唉，要是能摆在店门前，应该是很惹眼的宣传手段呀！",
+                "target_en": "Chiori",
+                "title_en": "Navia about Chiori",
+                "content_en": "Ah, the fashion designer who brought the coolest Inazuman trends to Fontaine? She's actually been a great help to the Spina behind the scenes. She says my unorthodox ideas always give her a lot of inspiration for her work, and from what I can tell, I think she means it. Still, she drew the line at my request for a ten-meter-tall top hat. *sigh* Missed opportunity, if you ask me... Imagine seeing one of those in front of the shop! It would be a great way to draw in customers."
+            },
+            {
                 "target_id": 74,
                 "target_zh": "芙宁娜",
                 "title_zh": "娜维娅关于芙宁娜",
@@ -6943,6 +6988,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Chevreuse about Wriothesley",
                 "content_en": "The work Wriothesley does is highly effective. As least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "夏沃蕾关于千织",
+                "content_zh": "千织处理纠纷的方式有些激进。但她凭借自己的门路和人脉，为特巡队提供过很多次情报。作为回礼，我会在她把人丢出店门、或是掀翻恶性竞争对手的店铺时睁一只眼闭一只眼。事后调查你会发现，千织总是有理的那一方。她只是懒得和人废话罢了。",
+                "target_en": "Chiori",
+                "title_en": "Chevreuse about Chiori",
+                "content_en": "Chiori's method of resolving disputes is bit radical. But, she has quite the network at her disposal and has provided the Special Security and Surveillance Patrol with intelligence on more than one occasion. In return, I turn a blind eye whenever she throws someone out the door or runs a malignant competitor out of business. If you look into it, you'll find that Chiori is always in the right. She's just not the type to waste her breath on explanations."
             },
             {
                 "target_id": 73,
@@ -7186,6 +7240,87 @@
                 "target_en": "Charlotte",
                 "title_en": "Gaming about Charlotte",
                 "content_en": "Oh, yeah, yeah, the journalist, I know who you mean! All the Fontainians in Yilong Wharf read The Steambird, and sometimes I take a peekski too. Seems like all the best articles have her name on them. Wait! And you were on the front page once! That was you, right?"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name_zh": "千织",
+        "name_en": "Chiori",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/122706/82831308dc78c0f0b07d3fc63b3b7458_2925875741205054732.png",
+        "ver": "4.5.1",
+        "lines": [
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "千织关于娜维娅",
+                "content_zh": "她曾经很认真地「拜托」我设计各种奇奇怪怪的东西，比如为船舵的每个把手都设计一个不同的头冠。那时我忍不住翻了个白眼，说我最多把她的帽子设计成一条船。\n那些说我想法超前的人恐怕是没跟娜维娅聊过天。",
+                "target_en": "Navia",
+                "title_en": "Chiori about Navia",
+                "content_en": "She used to beg me to help her design all kinds of strange things. For example, little crowns for every handle on a ship's helm... I couldn't help but roll my eyes at her request, and tell her that the most I would do is design her hat like a boat.\nThose who say I'm ahead of my time have clearly never spoken to her."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "千织关于林尼",
+                "content_zh": "我做不出一顶能隐藏秘密的礼帽，但他通过魔术可以。有时我很好奇，他的帽子里装了那么多的秘密，戴起来会是什么感觉。对我来说，还是想到什么就说出来会比较轻松。",
+                "target_en": "Lyney",
+                "title_en": "Chiori about Lyney",
+                "content_en": "I can't make a hat that could hide secrets, but it seems Lyney can enchant his hat to do just that... I'm a little curious about how it feels to wear a hat full of so many tricks and secrets like his. As for me, I don't need the burden of all that, it's easiest to just say what's on my mind."
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "千织关于琳妮特",
+                "content_zh": "这位助手小姐不太说话，但她很信任我。我似乎很讨猫喜欢啊…",
+                "target_en": "Lynette",
+                "title_en": "Chiori about Lynette",
+                "content_en": "The magician's assistant sure doesn't say much, but I know she trusts me. You know, I sure get a lot of love from cats..."
+            },
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "千织关于夏洛蒂",
+                "content_zh": "有次夏洛蒂来店里想采访我，我说别了又没什么新鲜事。结果她刚一出门，就有个醉汉来店里闹事，被她记录下了全程…真是见了鬼了。只听说过记者追新闻，现在还有新闻会追记者？",
+                "target_en": "Charlotte",
+                "title_en": "Chiori about Charlotte",
+                "content_en": "One time, Charlotte came into the shop, hoping to do an interview with me. I told her there was no point, because there was nothing new to talk about. But just as she was leaving, a drunkard came stumbling into the shop and started causing trouble. She recorded the whole thing... What a fiasco. I've heard of journalists chasing leads, but now it seems news chases the journalists."
+            },
+            {
+                "target_id": 76,
+                "target_zh": "夏沃蕾",
+                "title_zh": "千织关于夏沃蕾",
+                "content_zh": "和夏沃蕾的合作与谈话都很省力。这导致每次跟她告别，重新面对顾客的时候，我都有种不适应的感觉。",
+                "target_en": "Chevreuse",
+                "title_en": "Chiori about Chevreuse",
+                "content_en": "Working with Chevreuse and talking with her are a cinch. So easy, in fact, that whenever I say goodbye to her and return to tending to my customers again, it takes me a moment to shift gears mentally."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "千织关于莱欧斯利",
+                "content_zh": "一些朋友和合作者向我聊起过他，我很佩服他的手腕，但我也没打算改变自己的做事方式。",
+                "target_en": "Wriothesley",
+                "title_en": "Chiori about Wriothesley",
+                "content_en": "Yes. Some of my friends and partners have mentioned him to me before. I admire his skills at management and diplomacy, but I certainly have no intention of changing my way of doing things."
+            },
+            {
+                "target_id": 67,
+                "target_zh": "绮良良",
+                "title_zh": "千织关于绮良良",
+                "content_zh": "从前在稻妻，我到野外找设计灵感的时候，总有只绿眼睛的猫喜欢跟在我身边。那家伙好像对我手上布料的颜色和花纹很感兴趣，心情好了还会蹭蹭我的小腿。\n后来，我一眼就认出了这个绿眼睛、背后还长着两条尾巴的女孩。她看那些新奇东西的眼神，这么多年就没有变过。",
+                "target_en": "Kirara",
+                "title_en": "Chiori about Kirara",
+                "content_en": "While I was still in Inazuma, there was a cat with green eyes that always liked to follow me whenever I went out into the wild in search of inspiration. The kitty seemed to be very interested in the colors and patterns of the fabric I was carrying. She would even come up and rub her head against my legs when she was in a good mood.\nLater, I recognized those green eyes again, but on a girl with two tails. The way she gazed at new and intriguing things still had not changed after so many years."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "千织关于神里绫华",
+                "content_zh": "如果不是儿时贪玩，我恐怕也不会有机会认识这位神里家的大小姐。有次我翻进了神里家的院子，她的手鞠恰好滚到墙边。她见到我时既惊讶又兴奋，我陪她玩了好一会儿，又聊了很久的天…但最后我还是被人发现了，于是这短暂的友情就以我被人提了出去而告终。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Chiori about Kamisato Ayaka",
+                "content_en": "If I wasn't always slipping away to go play when I was a child, I probably would never have had the chance to meet the young lady of the Kamisato Clan. There was one time when I climbed my way into the Kamisato Clan's courtyard, and her Temari just happened to roll over towards the wall. I could tell that she was both surprised and happy to see me. We played together and chatted for quite some time, but I was discovered in the end. And so, our brief friendship came to an end as I was kicked off the premises."
             }
         ]
     }
