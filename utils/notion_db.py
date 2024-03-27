@@ -65,28 +65,7 @@ def fetch_my_table():
 def update_char_list(update_list):
     schema = notion.databases.retrieve(database_id)["properties"]
 
-    gender_dict = {"女": "♀️", "男": "♂️"}
-    weapon_dict = {
-        "sword": "单",
-        "claymore": "双",
-        "polearm": "长",
-        "bow": "弓",
-        "catalyst": "法",
-    }
-    element_dict = {
-        "anemo": "风",
-        "geo": "岩",
-        "electro": "雷",
-        "hydro": "水",
-        "pyro": "火",
-        "cryo": "冰",
-        "dendro": "草",
-    }
     for char in update_list:
-        # char["gender"] = gender_dict[char["gender"]]
-        char["weapon"] = weapon_dict[char["weapon"]]
-        char["element"] = element_dict[char["element"]]
-        char["rarity"] = int(char["rarity"])
         filter = {"property": "name_zh", "rich_text": {"equals": char["name_zh"]}}
         q = notion.databases.query(database_id, filter=filter)
         if len(q["results"]):

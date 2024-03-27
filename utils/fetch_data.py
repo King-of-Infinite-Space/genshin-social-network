@@ -1,60 +1,66 @@
 # %%
 import requests
 import json
-from bs4 import BeautifulSoup
 import subprocess
 import os
 import re
+import gzip
 import traceback
 from datetime import datetime
 from collections import defaultdict
 
 from notion_db import fetch_my_table, update_char_list
 
-CHECKPOINT_OK = "data/char_checkpoint.json"
-CHECKPOINT_PENDING = "data/char_pending.json"
 DATA_FILE = "data/char_data.json"
 DATA_FILE_MIN = "data/char_data_min.json"
 ALIAS_FILE = "data/alias.json"
-
 # %%
 
 
 class Updater:
-    def __init__(self, pending: dict, checkpoint: dict, alias: dict, ver: str) -> None:
-        self.data = checkpoint.copy()
-        self.pending = pending.copy()
-        self.template = checkpoint | pending
-        self.alias = alias
-        self.ver = ver
+    def __init__(self, template: dict, template_extra: dict, ver: str) -> None:
+        self.data = {}
         self.session = requests.Session()
 
-        print("Fetching notion table")
-        self.my_table = fetch_my_table()
-        # for "ver" and "id"
-        print("Fetching hhw table")
-        self.hhw_table = fetch_hhw_table()
-        # for "name_en", "url_name", "rarity", "weapon", "element",
-        for k, char in self.template.items():
-            if char.get("name_en") is None:
-                char["name_en"] = self.hhw_table[k]["name_en"]
-            if k in self.my_table:
-                char["ver"] = self.my_table[k]["ver"]
-                char["id"] = self.my_table[k]["id"]
+        for name in template:
+            char = template[name].copy()
+            if name in template_extra:
+                char["ver"] = template_extra[name]["ver"]
+                char["id"] = template_extra[name]["id"]
+                char["name_en"] = template_extra[name]["name_en"]
                 # overwrite id (old chars slightly different from official)
             else:
-                char["ver"] = self.ver
+                char["ver"] = ver
+            self.data[name] = char
 
-        self.alias_keys = defaultdict(list)
-        # key is name_zh, an alias may map to multiple keys
-        for name, char in self.template.items():
-            self.alias_keys[char["name_zh"]].append(name)
-            self.alias_keys[char["name_en"]].append(name)
-            if name in self.alias:
-                for _alias in self.alias[name]["alias_zh"]:
-                    self.alias_keys[_alias].append(name)
-                for _alias in self.alias[name]["alias_en"]:
-                    self.alias_keys[_alias].append(name)
+        with open(ALIAS_FILE, "r", encoding="utf8") as f:
+            aliases = json.load(f)
+
+        self.alias_to_name = defaultdict(list)
+        # an alias may map to multiple names (e.g. Lyney & Lynette)
+        for name, char in self.data.items():
+            self.alias_to_name[char["name_zh"]].append(name)
+            self.alias_to_name[char["name_en"]].append(name)
+            if name in aliases:
+                for _alias in aliases[name]["alias_zh"]:
+                    self.alias_to_name[_alias].append(name)
+                for _alias in aliases[name]["alias_en"]:
+                    self.alias_to_name[_alias].append(name)
+
+        self.quotes_zh = self._load_quotes("zh")
+        self.quotes_en = self._load_quotes("en")
+
+    def _load_quotes(self, lang):
+        if lang == "zh":
+            j = json.load(
+                gzip.open("data_raw/chinesesimplified-voiceovers.min.json.gzip", "r")
+            )
+            return j["data"]["ChineseSimplified"]["voiceovers"]
+        elif lang == "en":
+            j = json.load(gzip.open("data_raw/english-voiceovers.min.json.gzip", "r"))
+            return j["data"]["English"]["voiceovers"]
+        else:
+            raise ValueError("Invalid language for quotes")
 
     def _find_quote_targets(self, title, current_key, lang) -> list[str]:
         about = {"en": "About ", "zh": "关于"}
@@ -62,11 +68,11 @@ class Updater:
         title = title.replace("」", "").replace("「", "")
         if title.startswith(about[lang]):
             target_name = title.split(splitter[lang])[0]
-            target_name = target_name[len(about[lang]) :]
-            if target_name in self.alias_keys:
-                if current_key not in self.alias_keys[target_name]:
+            target_name = target_name.removeprefix(about[lang])
+            if target_name in self.alias_to_name:
+                if current_key not in self.alias_to_name[target_name]:
                     # found target, and is not self
-                    return self.alias_keys[target_name]
+                    return self.alias_to_name[target_name]
 
     def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
         lines = []
@@ -84,132 +90,140 @@ class Updater:
                 raise ValueError("Quote targets don't match")
         return lines
 
-    def _fetch_quotes_hhw(self, name_zh, lang="zh") -> list[dict]:
+    def _find_char_quotes(self, name_zh, lang="zh") -> list[dict]:
         """
         get lines from *char* to other chars
         """
-        name = self.template[name_zh]["name_" + lang]
-        url_name = self.hhw_table[name_zh]["url_name"]
-
-        if lang == "en":
-            lang_param = "EN"
-        else:
-            lang_param = "CHS"
-
-        URL = "https://genshin.honeyhunterworld.com/%s/?lang=%s" % (
-            url_name,
-            lang_param,
-        )
-
+        name = self.data[name_zh]["name_" + lang]
+        k = self.data[name_zh]["name_en"].lower().replace(" ", "")
         lines = []
 
-        res = self.session.get(url=URL, timeout=10)
-        soup = BeautifulSoup(res.content, "html.parser")
+        quotes_dict = self.quotes_zh if lang == "zh" else self.quotes_en
 
-        # check name
-        # display_name = soup.find('div', class_='custom_title').get_text()
-        # if (display_name != name):
-        #     raise ValueError('Name mismatch: expect %s, got %s' % (name, display_name))
-        display_name = soup.select_one("h2.wp-block-post-title").get_text()
-        if display_name != name:
-            raise ValueError("Name mismatch: expect %s, got %s" % (name, display_name))
-
-        quote_section = soup.find("section", id="char_quotes")
-        for tr in quote_section.find_all("tr"):
-            title = tr.contents[0].get_text()
+        for q in quotes_dict[k]["friendLines"]:
+            title = q["title"]
             title = title.rstrip(" …")
             target_keys = self._find_quote_targets(title, name_zh, lang)
 
             if target_keys is not None:
-                script_str = tr.contents[1].script.string
-                regex = re.search('(?<=line":").+?(?=",)', script_str)
-                line = regex.group()
-                line = line.replace("\\/", "/")
-                line = line.encode().decode("unicode-escape")
-                line = line.replace("<br>", "\n")
-                line = line.replace("<br/>", "\n")
-                line = re.sub(re.compile("<[^>]*>"), "", line)
-                # fischl: remove color tags
-
                 title = (
                     f"{name} about" + title.removeprefix("About")
                     if lang == "en"
                     else name + title
                 )
                 for k in target_keys:
-                    target_id = self.template[k]["id"]
-                    target_name = self.template[k]["name_" + lang]
+                    target_id = self.data[k]["id"]
+                    target_name = self.data[k]["name_" + lang]
                     lines.append(
                         {
                             # 'from_'+lang : name,
                             "target_id": target_id,
                             "target_" + lang: target_name,
                             "title_" + lang: title,
-                            "content_" + lang: line,
+                            "content_" + lang: q["description"],
                         }
                     )
 
         return lines
 
-    def fetch_quotes(self):
-        print("Fetching quotes")
-        count_pending = len(self.pending)
-        print(f"\t{count_pending} pending / {len(self.template)} total")
-        # updated char_dict with quotes
-        i = 1
-        for k in list(self.pending.keys()):
-            try:
-                lines_zh = self._fetch_quotes_hhw(k, "zh")
-                lines_en = self._fetch_quotes_hhw(k, "en")
-                print(f"\t{i} / {count_pending}  {k} ({len(lines_zh)})")
-                lines = self._merge_lines(lines_zh, lines_en)
-            except KeyboardInterrupt:
-                raise KeyboardInterrupt
-            except:
-                traceback.print_exc()
-            else:
-                self.data[k] = self.template[k].copy()
-                self.data[k]["lines"] = lines
-                del self.pending[k]
-            i += 1
-        print(f"\t{count_pending - len(self.pending)} updated")
-        print(f"\t{len(self.pending)} errors")
+    def find_quotes(self):
+        print("Finding quotes")
+        for name_zh in self.data:
+            char = self.data[name_zh]
+            lines_zh = self._find_char_quotes(name_zh, "zh")
+            lines_en = self._find_char_quotes(name_zh, "en")
+            lines = self._merge_lines(lines_zh, lines_en)
+            char["lines"] = lines
 
-    def update_remote_table(self):
-        print("Updating notion table")
-        new_dict = {}
-        for k in self.template:
-            if k not in self.my_table:
-                new_dict[k] = self.template[k] | self.hhw_table[k]
-        data_update = list(new_dict.values())
+    def print_diff(self, data_prev):
+        chars_prev = {char["name_zh"]: char for char in data_prev}
+        for name, char in self.data.items():
+            n_prev = len(chars_prev[name]["lines"]) if name in chars_prev else 0
+            n_now = len(char["lines"])
+            if n_now != n_prev:
+                print(f"  {name} {char['name_en']} (+{n_now-n_prev}={n_now})")
+
+    def update_remote_table(self, char_names_new: list[str]):
+        # WIP
+        data_update = []
+        keys = [
+            "id",
+            "name_zh",
+            "name_en",
+            "img_url",
+            "ver",
+            "gender",
+            "region",
+            "rarity",
+            "weapon",
+            "element",
+            "height",
+        ]
+        for name in char_names_new:
+            char_info = self.session.get(
+                f"https://genshin-db-api.vercel.app/api/v5/characters?query={name}&queryLanguages=ChineseSimplified&resultLanguage=ChineseSimplified"
+            ).json()
+            char = {}
+            for k in keys:
+                if k in self.data[name]:
+                    char[k] = self.data[name][k]
+                elif k in char_info:
+                    char[k] = char_info[k]
+                elif k == "weapon":
+                    char[k] = char_info["weaponText"][0]
+                elif k == "element":
+                    char[k] = char_info["elementText"]
+                elif k == "height":
+                    h = 1
+                    if char_info["bodyType"].split("_")[1] in ["BOY", "GIRL"]:
+                        h = 2
+                    if char_info["bodyType"].split("_")[1] in ["MALE", "LADY"]:
+                        h = 3
+                    char[k] = h
+            char["gender"] = "♀️" if char["gender"] == "女" else "♂️"
+            data_update.append(char)
         update_char_list(data_update)
-        print(f"\t{len(data_update)} entries updated")
+        print(f"Added {len(data_update)} chars to notion")
+
+    def write_data_file(self):
+        char_data = list(self.data.values())
+        char_data.sort(key=lambda x: x["id"])
+        with open(DATA_FILE, "w", encoding="utf8") as f:
+            json.dump(char_data, f, ensure_ascii=False, indent=4)
+        with open(DATA_FILE_MIN, "w", encoding="utf8") as f:
+            json.dump(char_data, f, ensure_ascii=False, separators=(",", ":"))
+        print("Wrote data files")
 
 
 def fetch_char_api() -> dict[str, dict[str, str]]:
     S = requests.Session()
 
-    res = S.get(url=os.getenv("URL_ZH"), timeout=20)
-    data = res.json()
-    char_count = data["data"]["iTotal"]
-    char_list_zh = data["data"]["list"]
+    data_zh = S.get(url=os.getenv("URL_ZH"), timeout=20).json()
+    data_en = S.get(url=os.getenv("URL_EN"), timeout=20).json()
+    char_list_zh = data_zh["data"]["list"]
+    char_list_en = data_en["data"]["list"]
+    char_count = data_zh["data"]["iTotal"]
     char_dict = {}
     for i, entry in enumerate(char_list_zh):
         name = entry["sTitle"]
         d = {
             "id": char_count - i,  # last one = 1
             "name_zh": name,
-            "name_en": None,
+            "name_en": char_list_en[i]["sTitle"],
         }
         # order may be slightly different, but remote data should fix it
         img_url = None
         for entry in json.loads(entry["sExt"]).values():
             # entry is a list of dicts
             for entry_item in entry:
-                if img_url is None and "name" in entry_item and (
-                    entry_item["name"].startswith("UI_AvatarIcon_")
-                    or entry_item["name"].endswith(f"{name}.png")
-                    or entry_item["name"].endswith("头像.png")
+                if (
+                    img_url is None
+                    and "name" in entry_item
+                    and (
+                        entry_item["name"].startswith("UI_AvatarIcon_")
+                        or entry_item["name"].endswith(f"{name}.png")
+                        or entry_item["name"].endswith("头像.png")
+                    )
                 ):
                     img_url = entry_item["url"]
         if img_url is None:
@@ -219,34 +233,31 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
     return char_dict
 
 
-def fetch_hhw_table():
-    char_table_temp = {}
-    lang_params = {"zh": "CHS", "en": "EN"}
-    for lang, lang_param in lang_params.items():
-        URL = "https://genshin.honeyhunterworld.com/fam_chars/?lang=%s" % lang_param
-        res = requests.get(url=URL, timeout=10)
-        soup = BeautifulSoup(res.content, "html.parser")
-        table = soup.select_one("table.genshin_table")
-        s = table.script.string
-        s = s.replace("\\/", "/")
-        s = s.encode().decode("unicode-escape")
-        s = re.search("\(\[.*\]\)", s).group()[1:-1]
-        rows = s.split("],")
-        for r in rows:
-            char = {}
-            cells = r.strip('[]"').split('","')
-            name = re.search(">(.*)<", cells[1]).group(1)
-            url_name = re.search("/(.*)/\?", cells[1]).group(1)
-            char["url_name"] = url_name
-            char["name_" + lang] = name
-            for i, k in enumerate(["rarity", "weapon", "element"]):
-                char[k] = re.search(">(.*?)<", cells[2 + i]).group(1)
-            if url_name in char_table_temp:
-                char_table_temp[url_name].update(char)
-            else:
-                char_table_temp[url_name] = char
-    char_table = {char["name_zh"]: char for char in char_table_temp.values()}
-    return char_table
+def download_quotes():
+    # download file from url
+    url_prefix = "https://github.com/theBowja/genshin-db-dist/raw/main/data/gzips/"
+    files = [
+        "english-voiceovers.min.json.gzip",
+        "chinesesimplified-voiceovers.min.json.gzip",
+    ]
+    os.makedirs("data_raw", exist_ok=True)
+    print("Downloading quotes")
+    for fn in files:
+        file_path = f"data_raw/{fn}"
+        if (
+            os.path.exists(file_path)
+            and (
+                datetime.now() - datetime.fromtimestamp(os.path.getmtime(file_path))
+            ).days
+            < 1
+        ):
+            print(f"  {fn} downloaded today")
+        else:
+            print(f"  {fn}")
+            url = url_prefix + fn
+            r = requests.get(url)
+            with open(f"data_raw/{fn}", "wb") as f:
+                f.write(r.content)
 
 
 def calc_ver():
@@ -276,75 +287,50 @@ def calc_ver():
 
 
 def main():
-    with open(CHECKPOINT_OK) as f:
-        char_checkpoint = json.load(f)
-    # loaded old data as a list of dicts
-    with open(CHECKPOINT_PENDING) as f:
-        char_pending = json.load(f)
     # load aliases
-    with open(ALIAS_FILE) as f:
-        aliases = json.load(f)
+    with open(DATA_FILE, "r") as f:
+        data_prev = json.load(f)
 
     ver = calc_ver()
-    time_start = datetime.now()
-    if len(char_pending) == 0:
-        # start anew
-        print(f"Updating for v{ver}")
-        print("Fetching mhy api")
-        official_dict = fetch_char_api()
 
-        # got current chars, building from it
-        char_names = list(official_dict.keys())
-        count_total = len(official_dict)
-        print(f"\tLast3 {' '.join(char_names[:3])}")
+    print(f"Updating for v{ver}")
+    print("Fetching mhy api")
+    official_dict = fetch_char_api()
 
-        count_old = len(char_checkpoint)
-        if count_total <= count_old:
-            print(f"\t{count_total} released / {count_old} saved")
-            print("Already up to date")
-            return
+    # got current chars, building from it
+    char_names = list(official_dict.keys())
+    count_total = len(official_dict)
+    print(f"  Last3 {' '.join(char_names[:3])}")
 
-        char_names_new = char_names[: count_total - count_old]
-        print(f"\tNew char {' '.join(char_names_new)}")
+    count_old = len(data_prev)
+    if count_total <= count_old:
+        print(f"  {count_total} released / {count_old} saved")
+        print("Already up to date")
+        return
 
-        char_pending = official_dict
-        char_checkpoint = {}
-    else:
-        # resume from last checkpoint
-        resume = True
-        print(f"Retrying for v{ver}")
-        print(f"\t{' '.join(list(char_pending.keys()))}")
+    char_names_new = char_names[: count_total - count_old]
+    print(f"  New char {' '.join(char_names_new)}")
 
-    updater = Updater(char_pending, char_checkpoint, aliases, ver)
+    download_quotes()
 
-    updater.update_remote_table()
-    updater.fetch_quotes()
+    print("Fetching notion table")
+    my_table = fetch_my_table()
 
-    with open(CHECKPOINT_PENDING, "w", encoding="utf8") as f:
-        json.dump(updater.pending, f, ensure_ascii=False, indent=4)
-    with open(CHECKPOINT_OK, "w", encoding="utf8") as f:
-        json.dump(updater.data, f, ensure_ascii=False, indent=4)
-    print("Wrote checkpoint")
+    updater = Updater(official_dict, my_table, ver)
 
-    if len(updater.pending) == 0:
-        char_data = list(updater.data.values())
-        char_data.sort(key=lambda x: x["id"])
-        with open(DATA_FILE, "w", encoding="utf8") as f:
-            json.dump(char_data, f, ensure_ascii=False, indent=4)
-        with open(DATA_FILE_MIN, "w", encoding="utf8") as f:
-            json.dump(char_data, f, ensure_ascii=False, separators=(",", ":"))
-        print("Wrote data files")
-        commit_msg = f"v{ver} {' '.join([char['name_zh'] for char in char_data if char['ver']==ver])}"
-    else:
-        commit_msg = f"v{ver} update checkpoint"
+    updater.find_quotes()
+    updater.print_diff(data_prev)
+    updater.update_remote_table(char_names_new)
+    updater.write_data_file()
+
+    commit_msg = f"v{ver} {' '.join([char['name_zh']+char['name_en'] for char in updater.data.values() if char['ver']==ver])}"
+
     if os.getenv("GITHUB_ACTIONS") is not None:
         print("Committing changes —— " + commit_msg)
         commit_changes(commit_msg)
         send_message(commit_msg)
     else:
         print(f"Commit message: {commit_msg}")
-    time_end = datetime.now()
-    print(f"Time elapsed: {(time_end - time_start).total_seconds():.0f}s")
 
 
 def send_message(msg):

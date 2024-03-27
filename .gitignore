@@ -4,3 +4,4 @@ local/*
 .env
 .vscode
 .vercel
+data_raw/*
