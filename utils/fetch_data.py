@@ -65,7 +65,6 @@ class Updater:
     def _find_quote_targets(self, title, current_key, lang) -> list[str]:
         about = {"en": "About ", "zh": "关于"}
         splitter = {"en": ":", "zh": "·"}
-        title = title.replace("」", "").replace("「", "")
         if title.startswith(about[lang]):
             target_name = title.split(splitter[lang])[0]
             target_name = target_name.removeprefix(about[lang])
