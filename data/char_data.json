@@ -2140,6 +2140,15 @@
                 "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
             },
             {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "达达利亚关于「仆人」",
+                "content_zh": "我不讨厌有自己打算的人。毕竟我加入愚人众，也是为了获得更多争斗的机会。但这个人，我不喜欢。如果背叛能够获得收益，她会毫不留情地向女皇大人挥剑。她的眼里只有疯狂。",
+                "target_en": "Arlecchino",
+                "title_en": "Tartaglia about The Knave",
+                "content_en": "Look, I've got nothing against people who have their own agendas — I myself joined the Fatui to get more experience in combat. But I don't like her at all. If she stood to benefit from betraying others, she'd turn against the Tsaritsa in a heartbeat. There isn't a sane bone in her body."
+            },
+            {
                 "target_id": 59,
                 "target_zh": "流浪者",
                 "title_zh": "达达利亚关于「散兵」",
@@ -5604,6 +5613,15 @@
                 "content_en": "She completely neglected her own creation, and to add insult to injury, she said it was because she \"couldn't bring herself to intervene\" in my fate..."
             },
             {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "流浪者关于「仆人」",
+                "content_zh": "道貌岸然的伪君子。她对人展露「优雅」与「亲切」都只是为了更好地「控制」罢了。而直面过她疯狂一面的人，大多已经…呼~。",
+                "target_en": "Arlecchino",
+                "title_en": "Wanderer about The Knave",
+                "content_en": "A wolf in sheep's clothing. To exert a higher level of control over people, she puts on a graceful and cordial front. Most of those who have seen her true, crazy self... have gone poof."
+            },
+            {
                 "target_id": 22,
                 "target_zh": "达达利亚",
                 "title_zh": "流浪者关于「公子」",
@@ -6333,6 +6351,24 @@
         "ver": "4.0.1",
         "lines": [
             {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "林尼关于「父亲」·家",
+                "content_zh": "「父亲」给了我们一个家，教导我们成长，告诉我们每个人应该努力的方向。我能做的也很简单。保持忠诚之心，以及…守护我们的家。",
+                "target_en": "Arlecchino",
+                "title_en": "Lyney about \"Father\": Family",
+                "content_en": "\"Father\" gave us a family, raised us, and told each of us what we should work towards. In turn, what I can do is very simple... Remain loyal, and protect our home."
+            },
+            {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "林尼关于「父亲」·王",
+                "content_zh": "在这座只有孩子们构成的王国里，「父亲」是我们的王。我知道国王早晚会选继承者，也知道那会是我…但同时，我对那样的情况感到恐惧…请不要告诉任何人，尤其是妹妹和菲米尼。",
+                "target_en": "Arlecchino",
+                "title_en": "Lyney about \"Father\": King",
+                "content_en": "Ours is a kingdom consisting only of children, and \"Father\" is our king. No king rules forever, of course, and I know that one day I will be chosen as \"Father's\" successor... But that also terrifies me... Please don't mention this to anyone, especially my sister and Freminet."
+            },
+            {
                 "target_id": 69,
                 "target_zh": "琳妮特",
                 "title_zh": "林尼关于琳妮特·模式",
@@ -6441,6 +6477,15 @@
                 "content_en": "He is a delicate and gentle child, but also tends to belittle himself... perhaps due to his previous experiences. Sometimes he feels like the antithesis of Lyney... but since they're both family, when their opinions clash, I will bridge their differences."
             },
             {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "琳妮特关于「父亲」",
+                "content_zh": "「父亲」表达爱意的方式…不一定能被每个人接受，但就是因为有「父亲」在，家…才得以为家。",
+                "target_en": "Arlecchino",
+                "title_en": "Lynette about \"Father\"",
+                "content_en": "Oh, how \"Father\" expresses love... well, not everyone can accept it. But it is only because of \"Father\" that home... can be called home."
+            },
+            {
                 "target_id": 71,
                 "target_zh": "那维莱特",
                 "title_zh": "琳妮特关于那维莱特",
@@ -6494,6 +6539,24 @@
         "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/5d33262b4a7de7b0be0ac08b859a8442_2143832214208786446.png",
         "ver": "4.0.2",
         "lines": [
+            {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "菲米尼关于「父亲」·眼泪",
+                "content_zh": "「父亲」不喜欢孩子们哭，说眼泪是感性和软弱的混合物。被「父亲」训斥过后，我总要忍到水下才敢哭出来。还好海露花会陪着我。",
+                "target_en": "Arlecchino",
+                "title_en": "Freminet about \"Father\": Tears",
+                "content_en": "\"Father\" doesn't like it when children cry. \"Father\" says tears are the product of emotion and weakness. So when \"Father\" scolds me, I hold it in until I'm underwater, where no one can hear me cry. At least I have the Romaritime Flowers to keep me company."
+            },
+            {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "菲米尼关于「父亲」·教导",
+                "content_zh": "小时候，我受到的教育是：为了家，我们应该献出自己的生命。自从「父亲」掌权后，这一理念产生了变化。「父亲」说我们每一个人都很重要，必须得重视自己的生命，发挥所有力量，在这个世界上站稳脚跟…说实话，这比单纯服从命令难多了。",
+                "target_en": "Arlecchino",
+                "title_en": "Freminet about \"Father\": Teaching",
+                "content_en": "When I was little, I was taught that we should be ready to give our lives for our family. But when \"Father\" took control, this philosophy changed. \"Father\" said that every one of us is important, and we have to value our own lives, be our strongest selves, and stand on our own two feet in this world... But actually, all of that's much harder than just following orders."
+            },
             {
                 "target_id": 68,
                 "target_zh": "林尼",
@@ -6855,6 +6918,15 @@
                 "content_en": "She's a very strong person. Strong people will always manage to keep themselves together no matter what happens, acting like everything is fine. Doing so prevents other people around them from needlessly bearing additional pressure. I saw the duel between Callas and Clorinde... and I can say that in this respect, Navia is becoming more and more like her father."
             },
             {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "芙宁娜关于「仆人」",
+                "content_zh": "「仆人」？谁，谁呀？我已经忘掉了哦，把那么可怕的身影留在脑海中，晚上睡觉都会做噩梦的。",
+                "target_en": "Arlecchino",
+                "title_en": "Furina about The Knave",
+                "content_en": "The Knave? Wh—Who's that? Oh... Uh, I'd already forgotten about her... Keeping such a terrible figure like her in your mind will only give you nightmares."
+            },
+            {
                 "target_id": 73,
                 "target_zh": "夏洛蒂",
                 "title_zh": "芙宁娜关于夏洛蒂",
@@ -6925,6 +6997,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Navia about Wriothesley",
                 "content_en": "Trying to discuss anything with that guy is an exhausting process. Clorinde says I needn't have any reservations about collaborating with him in the scope of our preexisting agreement, but I still shouldn't trust everything that comes out of his mouth. No wonder my father never tried to get involved with the affairs of the Fortress... I think I'll play it safe and keep things that way."
+            },
+            {
+                "target_id": 80,
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "娜维娅关于「仆人」",
+                "content_zh": "她是一位威严却又慈爱的领导者，有「一家之主」的风范。不过能成为愚人众的执行官，她一定也有手段狠厉的一面。\n所以放心吧，我会永远记得她帮助过白淞镇的恩情，但在其他方面也会留心的。",
+                "target_en": "Arlecchino",
+                "title_en": "Navia about The Knave",
+                "content_en": "She is a formidable but caring leader, and definitely comes across like a master of the house. But she's still a Fatui Harbinger, and that means she must have a more ruthless side. So don't worry — while I'll always appreciate what she did for Poisson, I'm not about to let my guard down around her completely."
             },
             {
                 "target_id": 69,
@@ -7321,6 +7402,69 @@
                 "target_en": "Kamisato Ayaka",
                 "title_en": "Chiori about Kamisato Ayaka",
                 "content_en": "If I wasn't always slipping away to go play when I was a child, I probably would never have had the chance to meet the young lady of the Kamisato Clan. There was one time when I climbed my way into the Kamisato Clan's courtyard, and her Temari just happened to roll over towards the wall. I could tell that she was both surprised and happy to see me. We played together and chatted for quite some time, but I was discovered in the end. And so, our brief friendship came to an end as I was kicked off the premises."
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name_zh": "阿蕾奇诺",
+        "name_en": "Arlecchino",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/123214/002a7e54d3b70ac98b5aef6d9be471f7_1553980919875153435.png",
+        "ver": "4.6.1",
+        "lines": [
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "阿蕾奇诺关于林尼",
+                "content_zh": "克雷薇曾问过我一个问题：什么是真正的「家」？我无法回答，因为构成壁炉之家的，正是一群「无家可归」的人。\n我否定家中不合理的地方，制定新的规矩，杀死库嘉维娜，成为了孩子们的「父亲」。但我很清楚，这仍然算不上真正的家。我会把这个问题保留下去。期待有一天，林尼能够给我全新的答案。",
+                "target_en": "Lyney",
+                "title_en": "Arlecchino about Lyney",
+                "content_en": "Clervie once asked me what a \"real home\" looks like, but I had no answer for her. How could any of us know the answer when the House of the Hearth is made up entirely of people who never had a place to call home.\nBy killing Crucabena, I was able to assume the identity of \"Father\" and rebuild the House under a new set of rules. Still, I'm well aware that, even with these efforts, the House is far from that ideal. As for what a real home truly looks like, I suppose that question is best put to the side for now... Perhaps one day, Lyney will be able to give me a new answer."
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "阿蕾奇诺关于琳妮特",
+                "content_zh": "沉静的性格是琳妮特的特点，也是她的优势。我相信她足够聪明理解到这一点。她在那支小队中有着无可替代的作用，而这么做，也令她感到幸福。作为「父亲」，我会给她足够的空间施展才华。",
+                "target_en": "Lynette",
+                "title_en": "Arlecchino about Lynette",
+                "content_en": "Lynette's uniquely calm personality is also her strength, and I believe she is more than clever enough to recognize that. She is an irreplaceable part of that little team of three, and I would imagine that role brings her much joy. As her \"Father,\" my duty is merely to give her the space to put those talents to good use."
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "阿蕾奇诺关于菲米尼",
+                "content_zh": "菲米尼的内心非常复杂，藏着各种各样的感情。他会将许多无关的问题归因到自己，并为此感到很难过，其他孩子未必能理解他在想什么。我注意到你的情感也很细腻，或许你能和他成为很好的朋友。",
+                "target_en": "Freminet",
+                "title_en": "Arlecchino about Freminet",
+                "content_en": "Freminet has a complex mind and often hides his emotions. He blames himself for things that aren't his doing and allows them to eat away at his conscience. I would imagine the other children might find it difficult to understand his manner of thinking, but you seem to share a similar delicate sensibility — perhaps you two would make good friends."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "阿蕾奇诺关于那维莱特",
+                "content_zh": "工作，以及私下，那维莱特先生刻意维持着一种「距离感」。很多人说他不近人情，我认为恰恰相反，就像律法的冰冷源于其庇护众生的公平，这本质上是一种特殊的善意。",
+                "target_en": "Neuvillette",
+                "title_en": "Arlecchino about Neuvillette",
+                "content_en": "Monsieur Neuvillette intentionally maintains a certain \"distance\" in professional and private settings. Many say this makes him cold and unfeeling, but I believe the truth is just the opposite. In order for all beings to be treated equally under the law, a certain level of emotional distance is expected. Maintaining that kind of indifference is, in itself, a demonstration of kindness."
+            },
+            {
+                "target_id": 74,
+                "target_zh": "芙宁娜",
+                "title_zh": "阿蕾奇诺关于芙宁娜",
+                "content_zh": "我托林尼帮忙带去了一些蛋糕，分给剧团的人做茶点。蛋糕是孩子们亲手做的，用「热心观众」的名义赠送，希望她喜欢。",
+                "target_en": "Furina",
+                "title_en": "Arlecchino about Furina",
+                "content_en": "I asked Lyney to deliver an assortment of cakes for her theater troupe to enjoy during teatime. The children made the cakes themselves as a gesture to express the support and enthusiasm of her \"audience.\" I do hope she enjoys them."
+            },
+            {
+                "target_id": 22,
+                "target_zh": "达达利亚",
+                "title_zh": "阿蕾奇诺关于「公子」",
+                "content_zh": "平心而论，他的性格并不适合做执行官。他常以善意揣测别人，也常被别人利用。当然，他的天赋很好，仍然在不断成长，对他的评价不必急于一时。",
+                "target_en": "Tartaglia",
+                "title_en": "Arlecchino about Childe",
+                "content_en": "Objectively speaking, his personality is ill-suited to that of a Harbinger. He often tries to think the best of others... and finds himself used by them as a result. Of course, he is very talented. With time, I'm sure he'll come into his own. I see no need to judge him too early."
             }
         ]
     }
