@@ -36,16 +36,16 @@ class Updater:
         with open(ALIAS_FILE, "r", encoding="utf8") as f:
             aliases = json.load(f)
 
-        self.alias_to_name = defaultdict(list)
+        self.alias_to_name = {}
         # an alias may map to multiple names (e.g. Lyney & Lynette)
         for name, char in self.data.items():
-            self.alias_to_name[char["name_zh"]].append(name)
-            self.alias_to_name[char["name_en"]].append(name)
+            self.alias_to_name[char["name_zh"]] = name
+            self.alias_to_name[char["name_en"]] = name
             if name in aliases:
                 for _alias in aliases[name]["alias_zh"]:
-                    self.alias_to_name[_alias].append(name)
+                    self.alias_to_name[_alias] = name
                 for _alias in aliases[name]["alias_en"]:
-                    self.alias_to_name[_alias].append(name)
+                    self.alias_to_name[_alias] = name
 
         self.quotes_zh = self._load_quotes("zh")
         self.quotes_en = self._load_quotes("en")
@@ -65,13 +65,14 @@ class Updater:
     def _find_quote_targets(self, title, current_key, lang) -> list[str]:
         about = {"en": "About ", "zh": "关于"}
         splitter = {"en": ":", "zh": "·"}
+        target_text = title.split(splitter[lang])[0]
+        target_keys = []
         if title.startswith(about[lang]):
-            target_name = title.split(splitter[lang])[0]
-            target_name = target_name.removeprefix(about[lang])
-            if target_name in self.alias_to_name:
-                if current_key not in self.alias_to_name[target_name]:
+            for alias in self.alias_to_name:
+                if  self.alias_to_name[alias] != current_key and alias.lower() in target_text.lower():
                     # found target, and is not self
-                    return self.alias_to_name[target_name]
+                    target_keys.append(self.alias_to_name[alias])
+        return target_keys
 
     def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
         lines = []

@@ -4,19 +4,10 @@
         "alias_en": ["The Knave","\"Father\""],
         "_comment": ["", "林尼/琳妮特/菲米尼"]
     },
-    "林尼": {
-        "alias_zh": ["林尼和琳妮特","林尼与琳妮特"],
-        "alias_en": ["Lyney and Lynette"],
-        "_comment": ["那维莱特","芙宁娜"]
-    },
-    "琳妮特": {
-        "alias_zh": ["林尼和琳妮特","林尼与琳妮特"],
-        "alias_en": ["Lyney and Lynette"]
-    },
     "流浪者": {
-        "alias_zh": ["「散兵」","散兵","国崩"],
+        "alias_zh": ["散兵","国崩"],
         "alias_en": ["The Balladeer","Kunikuzushi"],
-        "_comment": ["达达利亚","纳西妲","雷电将军/八重神子"]
+        "_comment": ["达达利亚「」/纳西妲","雷电将军/八重神子"]
     },
     "达达利亚": {
         "alias_zh": ["「公子」"],
@@ -35,8 +26,8 @@
     },
     "雷电将军": {
         "alias_zh": ["巴尔", "雷之神"],
-        "alias_en": ["Baal", "the Raiden Shogun", "the Electro Archon"],
-        "_comment": ["温迪/钟离", "", "那维莱特"]
+        "alias_en": ["Baal", "the Electro Archon"],
+        "_comment": ["温迪/钟离", "那维莱特"]
     },
     "钟离": {
         "alias_zh": ["摩拉克斯", "岩王帝君", "岩之神"],
