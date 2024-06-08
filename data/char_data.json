@@ -4981,6 +4981,15 @@
                 "target_en": "Faruzan",
                 "title_en": "Tighnari about Faruzan",
                 "content_en": "Madam Faruzan possesses an extensive wealth of knowledge. I often invite her to inspect the mechanisms in the rainforest. The next time she's in Gandharva Ville... *sigh* I hope she doesn't sneak Collei more food. Nutrition is like medicine: moderation is key."
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "提纳里关于赛索斯",
+                "content_zh": "你说赛索斯？他很有意思，有点像赛诺的远房亲戚，而且很好相处。上次他来化城郭作客，抢着要秀一手搭帐篷的技术，还跟赛诺争着捞鱼，柯莱觉得自己的工作被替代了，很郁闷呢。\n大家都说赛索斯很擅长逗自己开心，过得很快活，工作起来又很认真。噢，说工作好像不太贴切，缄默之殿的事对他而言，比起工作更像是义务。如果你在沙漠需要帮助，可以找他。",
+                "target_en": "Sethos",
+                "title_en": "Tighnari about Sethos",
+                "content_en": "Sethos? Pretty interesting guy. He's like a distant cousin of Cyno's. Really easy to get along with. Last time he visited us in Gandharva Ville, he insisted on showing off his tent-pitching skills and had a fishing competition with Cyno. Collei got really upset, because she thought there was nothing for her to do anymore...\nPeople say Sethos is good at keeping himself amused — he certainly seems pretty cheerful. But he takes his work very seriously. Hmm, although I don't know how accurate \"work\" is — I think he sees his role at the Temple of Silence as more of a kind of duty. Anyway, if you ever find yourself needing assistance in the desert, I'm sure he'd be a good person to go to."
             }
         ]
     },
@@ -5269,6 +5278,15 @@
                 "target_en": "Lisa",
                 "title_en": "Cyno about Lisa",
                 "content_en": "Of course I know about Lisa, we once both studied under the same sage. As General Mahamatra, I've seen many tragedies befall those seeking knowledge too assiduously, so it's easy for me to understand her decision."
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "赛诺关于赛索斯",
+                "content_zh": "赛索斯很有责任心，我绝对认可他作为战士的能力，也钦佩他的勇气。他也帮了我很多，有他在，教令院与缄默之殿的合作一定会更顺利。\n不过我觉得他身上还有一处欠缺，就是牌打得太少。每次见面我都邀请他打几局，他总有事在身，要吃饭了、有事要办、要去见朋友…全是借口！他在须弥城最熟的朋友不就我们几个吗？",
+                "target_en": "Sethos",
+                "title_en": "Cyno about Sethos",
+                "content_en": "Sethos has a strong sense of responsibility. I have the utmost respect for his skill as a warrior, and I admire his courage. He's also been a great help to me personally, and I'm sure that cooperation between the Akademiya and the Temple of Silence will go very smoothly with him leading the Temple.\nNevertheless, he does have one flaw — he doesn't play nearly enough Genius Invokation TCG for my liking. Every time I invite him to play, he's either busy with work, about to go out for a meal, or has existing plans with other friends... Excuses, all of them! Are we not his best friends in all of Sumeru City?"
             }
         ]
     },
@@ -5323,6 +5341,15 @@
                 "target_en": "Dehya",
                 "title_en": "Candace about Dehya",
                 "content_en": "Whenever Dehya brings any of her Eremites to stay at Aaru Village, she always keeps them on their very best behavior. I have to say, it makes my life a lot easier. Ah, Dehya... She might look like trouble at first, but the truth is that she's really quite adorable."
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "坎蒂丝关于赛索斯",
+                "content_zh": "赤王的子民永远保有骄傲，他也是如此。我听说了他的事，赫曼努比斯的威光将与有能力的人共存。听说他最近在须弥城很活跃，还跟赛诺他们提起阿如村，说是想来作客，我很期待。",
+                "target_en": "Sethos",
+                "title_en": "Candace about Sethos",
+                "content_en": "The sons and daughters of King Deshret are a proud people, and he is no exception. I have heard his tale, of Hermanubis's glory dwelling within a worthy vessel. I also understand he has been active in Sumeru City recently? Apparently, he has spoken to Cyno and other friends of his plans to visit Aaru Village. I look forward to hosting him."
             }
         ]
     },
@@ -5647,6 +5674,15 @@
                 "target_en": "Kaedehara Kazuha",
                 "title_en": "Wanderer about Kaedehara Kazuha",
                 "content_en": "You speak of the descendant of the Kaedehara clan? Then isn't he... Wait, he also possesses an Anemo Vision? ...And even managed to take on the Raiden Shogun's Musou no Hitotachi? Hehe... Ahahahaha!"
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "流浪者关于赛索斯",
+                "content_zh": "你为什么觉得我会认识他？就因为他经常追在我后面吵着要看我的帽子吗？我们没怎么说过话，第一次见面他就问我是不是叫阿帽，这又何尝不是以貌取人？哼，阿帽，这个名字倒是流传开了…",
+                "target_en": "Sethos",
+                "title_en": "Wanderer about Sethos",
+                "content_en": "What makes you think I know him? The fact that he's always following me around and asking for a closer look at my hat? We've barely spoken before. The first time we met, he came up and asked me if I was Hat Guy... Last time I checked, judging someone by their appearance is superficial. Hmph, somehow, everyone knows the name \"Hat Guy\" now..."
             }
         ]
     },
@@ -5719,6 +5755,15 @@
                 "target_en": "Nilou",
                 "title_en": "Faruzan about Nilou",
                 "content_en": "I remember her; she's a courteous girl. I've only been to the Grand Bazaar a few times, but she's already remembered my name and face, and she's even tried to get the others to stop arguing with me. She really gets it! All youngsters should be more like her."
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "珐露珊关于赛索斯",
+                "content_zh": "噢？那个新来的小子？来得正好！我还不知道他是哪个院的，最近老看到他晃来晃去，街上呀，商店里呀，餐馆里呀…哪儿都有他，这孩子说起话来一直点头，像个…像个小狗脑袋？能说会道得很呢，应该是个好苗子。哎，你要是认识他，记得劝他转到我门下来。前辈我呀，肯定不会让他吃亏的。",
+                "target_en": "Sethos",
+                "title_en": "Faruzan about Sethos",
+                "content_en": "Oh? You mean the new arrival? Yes, didn't he show up at the perfect time! I still don't know which Darshan he belongs to, but I seem to run into him all the time these days: out on the streets, in shops, at restaurants... It's like he's everywhere at once. The way he nods his head when he talks, it's like... oh, I don't know, like... a little puppy, yes. Eloquent young fellow, too. Seems like a good egg. Anyway, are you acquainted with him? You must encourage him to enroll in my classes. Tell him Madam Faruzan will take good care of him."
             }
         ]
     },
@@ -5989,6 +6034,15 @@
                 "target_en": "Layla",
                 "title_en": "Dehya about Layla",
                 "content_en": "Ahh, the sleepy girl, yeah, I think I remember her. I ran into her once at an oasis on the outskirts of the desert. She was out with some group from the Akademiya doing astronomical observations, or something. I wasn't really paying attention. ...Huh? Candace... what now? Emissary from the stars? The heck is that all about? Almost sounds like she didn't wake up before getting out of bed."
+            },
+            {
+                "target_id": 82,
+                "target_zh": "赛索斯",
+                "title_zh": "迪希雅关于赛索斯",
+                "content_zh": "我也是最近才知道他来自缄默之殿。哎呀，不好意思，我对缄默之殿这类神秘组织了解很少嘛。以前倒是在沙漠里见过他几回，他很好沟通，我的佣兵兄弟在沙漠遇到麻烦，他还把饮用水分给他们过。是个不错的人。",
+                "target_en": "Sethos",
+                "title_en": "Dehya about Sethos",
+                "content_en": "Oh yeah, I only found out about him being from the Temple of Silence recently, too. Ahh, sorry, no — I'm no expert in mysterious organizations like that. Seen him a few times in the desert though. He's very down-to-earth. Once when my guys got into some trouble in the desert, he was kind enough to share his drinking water with them. Nice guy."
             }
         ]
     },
@@ -6439,6 +6493,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Lyney about Charlotte",
                 "content_en": "Charlotte has been trying to get me to agree to an interview ever since we met... Ugh, it feels like she's already asked twenty times now. She has a good nose for finding news, and she's the persistent type, too. But to be honest, I have no desire to find myself in the spotlight of one of her breaking news stories, and so I've found all sorts of reasons to decline each time."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "林尼关于克洛琳德",
+                "content_zh": "作为决斗代理人，克洛琳德小姐颇有名望。但我最近在报纸上看到，她似乎麻烦缠身…媒体非常喜欢挖掘她的故事，至于她本人…应该相当厌恶这种行为吧。",
+                "target_en": "Clorinde",
+                "title_en": "Lyney about Clorinde",
+                "content_en": "Clorinde's quite famous as a Champion Duelist. But from what I've read in the papers, she seems to have gotten into a bit of a pickle. The media's been all over her story, and she's... Well, she's the type that definitely doesn't enjoy that kind of attention."
             }
         ]
     },
@@ -6511,6 +6574,15 @@
                 "target_en": "Navia",
                 "title_en": "Lynette about Navia",
                 "content_en": "Though she's the new president of Spina di Rosula, her style is more like the nosy big sister next door. If we really had a sister like her in the \"House of the Hearth,\" that would be really great... I know I probably shouldn't be wishing for anyone to be an orphan, but..."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "琳妮特关于克洛琳德",
+                "content_zh": "我曾经奉命观摩过她的决斗，仅仅是从旁观察，就能感觉到令人害怕的寒意…真不知道在决斗场上直面她会是什么感觉…嗯，希望这辈子都不要知道。",
+                "target_en": "Clorinde",
+                "title_en": "Lynette about Clorinde",
+                "content_en": "I was once ordered to observe a duel of hers. Even just as a bystander, the coldness radiating from her was absolutely chilling... I don't know what it would be like to face her directly in a duel, and I hope I will never find out."
             },
             {
                 "target_id": 79,
@@ -6630,6 +6702,15 @@
                 "content_en": "For some reason, Charlotte never believes me when I say I'm just an ordinary diver. She's convinced that my past is full of news stories waiting for her to dig up... Am I really that bad of a liar?"
             },
             {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "菲米尼关于克洛琳德",
+                "content_zh": "克洛琳德小姐对我有救命之恩，却说不需要我做任何「报答」。给别人添了麻烦，到头来只能空洞地道谢…这种感觉，真不好受啊。",
+                "target_en": "Clorinde",
+                "title_en": "Freminet about Clorinde",
+                "content_en": "I owe Clorinde my life, but she says she doesn't want anything from me in return... It's not a nice feeling, having put someone out so much, and only being able to offer empty thank-yous in return."
+            },
+            {
                 "target_id": 76,
                 "target_zh": "夏沃蕾",
                 "title_zh": "菲米尼关于夏沃蕾",
@@ -6691,6 +6772,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Neuvillette about Wriothesley",
                 "content_en": "Wriothesley is a trustworthy man. I fought hard for the title and reputation he now has. I expect you to think that I've simply been duped by his flattery and appearance of loyalty... But to that, I would quote the Inazuman proverb: \"The words unspoken are the flower.\" Which means, some things are best left unsaid."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "那维莱特关于克洛琳德",
+                "content_zh": "克洛琳德凭借其超群实力成为了现任决斗代理人中的实力巅峰。她是逐影猎人这一行业的后继者，有她在，审判庭的公正更有保障。另外她会比外观看上去更有人情味一些。",
+                "target_en": "Clorinde",
+                "title_en": "Neuvillette about Clorinde",
+                "content_en": "Clorinde's peerless skills have made her the most powerful Champion Duelist in our nation. As a successor to the Marechaussee Hunters of old, she plays a vital role in ensuring the fairness and impartiality of the courtroom. Also, she's actually not as stoic as she might appear."
             },
             {
                 "target_id": 69,
@@ -6756,6 +6846,15 @@
                 "content_en": "Miss Furina displayed a severe lack of interest in my trial and excused herself early, probably because I pleaded guilty to all charges as soon as they were announced. Disappointing the Hydro Archon is a big deal, so... suppose I've got no choice but to keep gifting her copious amounts of the highest quality tea."
             },
             {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "莱欧斯利关于克洛琳德",
+                "content_zh": "克洛琳德应该是你能找到的最好的决斗代理人了，实力有目共睹。我从未和她比试过，没有那个必要。",
+                "target_en": "Clorinde",
+                "title_en": "Wriothesley about Clorinde",
+                "content_en": "Clorinde is the best Champion Duelist you can find. Her combat prowess is already the stuff of legend. I've never fought her myself, but that's because there's never been a need for it."
+            },
+            {
                 "target_id": 68,
                 "target_zh": "林尼",
                 "title_zh": "莱欧斯利关于林尼",
@@ -6817,6 +6916,15 @@
                 "target_en": "Lynette",
                 "title_en": "Charlotte about Lynette",
                 "content_en": "No matter what question you pose to her, Lynette just calmly lowers her eyes with an expressionless look on her face. It's like she's some sort of... clockwork doll. I'm really tempted to write an article titled something like: \"The Genius Magician's Puppet Assistant: Magic's Best-Kept Secret\"... but I have a sneaking suspicion that even that wouldn't get a reaction out of her."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "夏洛蒂关于克洛琳德",
+                "content_zh": "克洛琳德小姐可是枫丹廷里最著名，也最神秘的「决斗代理人」，我从私人渠道打听到，她会用一些神秘的仪式维护自己的武器。也许这就是她在决斗中常胜不败的关键？可她曾公开表示过不想接受记者的采访…我应该没法当面问她这个问题了。",
+                "target_en": "Clorinde",
+                "title_en": "Charlotte about Clorinde",
+                "content_en": "Clorinde is the most well-known Champion Duelist in Fontaine, but she's also the most mysterious. I have a source who tells me that she uses some sort of mystical ritual to keep her weapon as good as new... Could this be the secret behind her famously undefeated track record in the Duelists' Ring? Ah, I'd love to spring that question on her one day... but I don't think I'll get the chance. She's publicly stated that she doesn't accept interviews."
             },
             {
                 "target_id": 72,
@@ -6943,6 +7051,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Furina about Wriothesley",
                 "content_en": "I haven't communicated with him much, but Neuvillette claims he's trustworthy, so I suppose he must be a good person. Oh, come to think of it, I've received some tea from Wriothesley before and it was exquisite!"
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "芙宁娜关于克洛琳德",
+                "content_zh": "在我印象里，克洛琳德平时不喜交谈。但她几次站在我的身旁，保护我的安全，我对她非常信任。嗯…我还真有一点想念她，不过现在没什么去见她的理由了。对了！下次邀请她来一起开茶会吧！",
+                "target_en": "Clorinde",
+                "title_en": "Furina about Clorinde",
+                "content_en": "As I remember, Clorinde isn't very talkative, but she has stood by me and protected me on several occasions, so I trust her very much. Hmm... I do miss her ever so slightly, but I don't have any real reason to see her now. Oh, right! I should invite her to my next tea party!"
             }
         ]
     },
@@ -6953,6 +7070,15 @@
         "img_url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/9050fcca1dec27019d07fa0b6e963167_5969912828240491970.png",
         "ver": "4.3.1",
         "lines": [
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "娜维娅关于克洛琳德",
+                "content_zh": "她平时话不多，表情也不多，但还是能看出来喜怒哀乐的。之前老爹的事卡在我们之间，唔…有些隔阂吧，就算是那段日子，我也不爱她小心翼翼的样子…还是现在这样比较好。",
+                "target_en": "Clorinde",
+                "title_en": "Navia about Clorinde",
+                "content_en": "She might not say much, or show a lot of emotion, but I can tell that she feels deeply. After my father's death, I... well, it caused quite a rift between us for a long time. But even then, I never did like having her constantly walking on eggshells around me... I much prefer how things are now."
+            },
             {
                 "target_id": 73,
                 "target_zh": "夏洛蒂",
@@ -7060,6 +7186,15 @@
                 "target_en": "Freminet",
                 "title_en": "Chevreuse about Freminet",
                 "content_en": "I once saw Freminet in a shop when we both reached for the same gadget. It was the last one available, but just as I was about to tell him he could have it, he withdrew his hand and ran out of the store. It might sound odd, but he fled like the Gardes were after him."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "夏沃蕾关于克洛琳德",
+                "content_zh": "这位决斗代理人在枫丹廷可是大名鼎鼎啊。我们两人职务不同，我不会随意评价她的工作。但我相信，她接下那些代理决斗的原因，都是发自她内心的「正义」。",
+                "target_en": "Clorinde",
+                "title_en": "Chevreuse about Clorinde",
+                "content_en": "Clorinde has built quite the reputation for herself in Fontaine as a Champion Duelist. Our positions are different, so I'm not at liberty to make any comments about her work. But I trust that she takes on those duels out of her own sense of justice."
             },
             {
                 "target_id": 72,
@@ -7465,6 +7600,186 @@
                 "target_en": "Tartaglia",
                 "title_en": "Arlecchino about Childe",
                 "content_en": "Objectively speaking, his personality is ill-suited to that of a Harbinger. He often tries to think the best of others... and finds himself used by them as a result. Of course, he is very talented. With time, I'm sure he'll come into his own. I see no need to judge him too early."
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name_zh": "克洛琳德",
+        "name_en": "Clorinde",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/123893/0bd854ede1c0879aacb3514d8a045c93_6247000454784019266.png",
+        "ver": "4.7.1",
+        "lines": [
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "克洛琳德关于夏洛蒂",
+                "content_zh": "夏洛蒂小姐是一位识趣的记者，我对她没什么坏印象。\n毕竟，夏洛蒂小姐既不会在上班的路上堵截拍摄我，也不会跟踪我去咖啡馆，记录我今天喝了什么咖啡。最值得称赞的是，她明确地知道，我不接受记者采访，所以不会来自讨没趣。",
+                "target_en": "Charlotte",
+                "title_en": "Clorinde about Charlotte",
+                "content_en": "Charlotte is one of the more tactful journalists out there. I don't have anything negative to say about her.\nUnlike some, she doesn't ambush me with her Kamera on my way to work, or follow me to the coffee shop to report on what I'm drinking today... And most commendably of all, she is well aware that I do not do interviews and doesn't nag me about it continuously."
+            },
+            {
+                "target_id": 74,
+                "target_zh": "芙宁娜",
+                "title_zh": "克洛琳德关于芙宁娜",
+                "content_zh": "从前参加茶会的时候，我总是扶着剑站在她背后，现在我却能在长桌对面就座，与她分享茶点。\n位置变化之后，我开始理解为什么她会成天念叨着「控制体态」了。",
+                "target_en": "Furina",
+                "title_en": "Clorinde about Furina",
+                "content_en": "In the past, I always stood behind her at tea parties, sword at the ready. But now, I get to sit at the table and enjoy the tea and treats along with her.\nI'm now beginning to understand why she complains all the time about how hard it is to maintain her physique."
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "克洛琳德关于娜维娅",
+                "content_zh": "娜维娅最近心情很好，隔几天就会拉我去「桌上剧团」玩新剧本。\n选材五花八门。除了担任了几次剧本主持人，我也作为玩家和她共同参与了几场冒险。但我会尽量避免扮演和审判庭有关的角色，防止气氛变得太过严肃…",
+                "target_en": "Navia",
+                "title_en": "Clorinde about Navia",
+                "content_en": "Navia's been in a good mood lately. It seems like every other day she's asking me to join her at Tabletop Troupe for a new script.\nThe story is always so different. Save for the few times when I've taken the role of Game Master, I often play in character and join her on the adventure. But I do try to avoid playing any characters from the court, so as not to make the atmosphere too serious..."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "克洛琳德关于那维莱特",
+                "content_zh": "最高审判官的权威无可置疑，他总是能做出最公正的判决。必要的时候，我也会用剑再次强调判决的公正性。",
+                "target_en": "Neuvillette",
+                "title_en": "Clorinde about Neuvillette",
+                "content_en": "No one is in any doubt as to the Iudex's authority. He always delivers a fair verdict — and when necessary, I will reiterate the fairness of this verdict with my sword."
+            },
+            {
+                "target_id": 76,
+                "target_zh": "夏沃蕾",
+                "title_zh": "克洛琳德关于夏沃蕾",
+                "content_zh": "夏沃蕾队长，我听说过她的大名。她曾经因为抓捕凶犯时的手段太过强硬，而遭到过几次起诉。她应诉时态度依然十分强硬，将对方驳得哑口无言，实在出色。",
+                "target_en": "Chevreuse",
+                "title_en": "Clorinde about Chevreuse",
+                "content_en": "Ah yes, Captain Chevreuse. That's a name I've heard before. She has been landed with lawsuits on several occasions, after being accused of using excessive force when arresting culprits. She refuted the allegations just as forcefully during her testimony, leaving the plaintiff speechless. I think she's outstanding."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "克洛琳德关于林尼",
+                "content_zh": "这位大魔术师的职业素养值得称赞。如果有空的话，我会以观众的身份享受他的魔术表演。",
+                "target_en": "Lyney",
+                "title_en": "Clorinde about Lyney",
+                "content_en": "I have to applaud the great magician for the level of professionalism he displays in his craft. If I ever have the time, I would very much like to enjoy one of his shows as a regular audience member."
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "克洛琳德关于菲米尼",
+                "content_zh": "有天我收到了一个包裹，装着迷你机械玩具和表达谢意的卡片。那份玩具十分精致，下次有机会，我会对菲米尼先生当面表达一下感谢…最好不要当面？好吧，那我也写份卡片，请你帮我带给他。",
+                "target_en": "Freminet",
+                "title_en": "Clorinde about Freminet",
+                "content_en": "One day, I received a parcel containing a miniature mechanical toy and a thank-you card. The toy was exquisitely made. I must thank Mr. Freminet in person when I get the opportunity... Hm? The opportunity may be hard to come by, you say? Very well, then I too shall write a thank-you card. Please pass it on to him for me."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "克洛琳德关于千织",
+                "content_zh": "我买过她家的衣服，质量不错。但平时，我更习惯穿现在这套工作制服，一方面它可以明确地阐述出我的身份，另一方面是因为我喜欢熟悉的事物。这套制服就像是我的剑，熟悉且适用，不必多做更换。",
+                "target_en": "Chiori",
+                "title_en": "Clorinde about Chiori",
+                "content_en": "I've bought clothes from her store before. They're good quality. But most of the time, I prefer to wear my work uniform. Partly because it serves to clearly communicate my identity, and partly because I like things that are familiar. Just like my sword, this uniform is familiar and functional — I have no desire to change it."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "克洛琳德关于莱欧斯利",
+                "content_zh": "梅洛彼得堡并不是一处好打理的地方。能让那个地方保持相对的稳定，莱欧斯利的手腕无可置疑。\n其中应该不乏一些不能明说的手段，这就不是我们能知道的了。",
+                "target_en": "Wriothesley",
+                "title_en": "Clorinde about Wriothesley",
+                "content_en": "Managing the Fortress of Meropide is no mean feat. Wriothesley is undoubtedly a highly capable person if he can maintain relative stability in a place like that.\nI highly suspect that he keeps quiet about some of the methods he uses, but there's no way we can know."
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name_zh": "赛索斯",
+        "name_en": "Sethos",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/123895/be909232b7ab3924affe5524b58bfa68_5389910610082045425.png",
+        "ver": "4.7.1",
+        "lines": [
+            {
+                "target_id": 54,
+                "target_zh": "赛诺",
+                "title_zh": "赛索斯关于赛诺",
+                "content_zh": "赛诺很优秀，无愧于赫曼努比斯力量的传承。作为「大风纪官」，他对知识与智慧有着至高的敬畏之心。如果教令院能与缄默之殿再次合作，有他在我会放心很多。\n哦对了，他还有个难得的优点，就是讲话很好笑。",
+                "target_en": "Cyno",
+                "title_en": "Sethos about Cyno",
+                "content_en": "Cyno is truly outstanding — absolutely a worthy heir to Henrmanubis's power. As General Mahamatra, he has the utmost reverence for knowledge and wisdom. If the Akademiya and the Temple of Silence do start working together again, I'll take comfort in the fact that he's there.\nOh yeah, and another great thing about Cyno: You know the way he talks? It's just... so funny."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "赛索斯关于提纳里",
+                "content_zh": "提纳里挺厉害的。我后来才听说他不太适应沙漠的气候，决斗之仪那时可完全没看出来啊。我也没想到他会写信邀请我去化城郭做客，说是让我有机会见见赛诺的朋友们。你说，他们平常吃饭都会讲那种笑话吗？真期待！",
+                "target_en": "Tighnari",
+                "title_en": "Sethos about Tighnari",
+                "content_en": "Tighnari's made of strong stuff. I only found out after the fact that he doesn't cope well with the desert climate — never would've guessed from how he performed in the Rite of Duels. I was also surprised when he sent me a letter inviting me to visit Gandharva Ville, saying it would be a good chance to meet some of Cyno's friends. Are those guys always such a hoot with their jokes? Dinner with them must be hilarious — I can't wait!"
+            },
+            {
+                "target_id": 66,
+                "target_zh": "卡维",
+                "title_zh": "赛索斯关于艾尔海森和卡维",
+                "content_zh": "我在酒馆见过他俩。也在咖啡馆见过。…好像在大巴扎也有一次。那位建筑师总是嘀嘀咕咕一些不想被别人知道的事情，但实际上嘛…哎，可不是我故意偷听，这样两位先生凑在一起，很难不引人注意吧。",
+                "target_en": "Kaveh",
+                "title_en": "Sethos about Alhaitham and Kaveh",
+                "content_en": "I saw those two at the tavern once. And another time at the cafe. ...Actually, I think I saw them once at the Grand Bazaar, too. The architect guy, he's always talking in a hushed tone — I guess he doesn't want people to hear, but uh... Okay, it's not like I purposely listen in, it's just... Something about those two guys hanging out together, you just can't look away."
+            },
+            {
+                "target_id": 61,
+                "target_zh": "艾尔海森",
+                "title_zh": "赛索斯关于艾尔海森和卡维",
+                "content_zh": "我在酒馆见过他俩。也在咖啡馆见过。…好像在大巴扎也有一次。那位建筑师总是嘀嘀咕咕一些不想被别人知道的事情，但实际上嘛…哎，可不是我故意偷听，这样两位先生凑在一起，很难不引人注意吧。",
+                "target_en": "Alhaitham",
+                "title_en": "Sethos about Alhaitham and Kaveh",
+                "content_en": "I saw those two at the tavern once. And another time at the cafe. ...Actually, I think I saw them once at the Grand Bazaar, too. The architect guy, he's always talking in a hushed tone — I guess he doesn't want people to hear, but uh... Okay, it's not like I purposely listen in, it's just... Something about those two guys hanging out together, you just can't look away."
+            },
+            {
+                "target_id": 59,
+                "target_zh": "流浪者",
+                "title_zh": "赛索斯关于流浪者",
+                "content_zh": "这位小哥，是不是外国来的留学生啊？帽子挺别致的。有次我想凑近了仔细看看，但眨眼的功夫他就咻地一下消失了。可惜，下次不会再让他跑了。而且听人说那哥们很有想法，我要和他多聊聊！",
+                "target_en": "Wanderer",
+                "title_en": "Sethos about the Wanderer",
+                "content_en": "Who is that guy, anyway? A foreign exchange student, or something? He has a pretty incredible hat, never seen anything like it. I tried to get a closer look once, but then I blinked and he was gone. Shame. I won't let him get away next time, though. I also hear he has some pretty interesting ideas... Gotta have a chat with him sometime!"
+            },
+            {
+                "target_id": 63,
+                "target_zh": "迪希雅",
+                "title_zh": "赛索斯关于迪希雅",
+                "content_zh": "「炽鬃之狮」，沙漠里人人都听说过这个名号。你也知道，镀金旅团里可不都是好人，像迪希雅这样正直可靠的就更少了。如果你要来大赤沙海探险，迪希雅是做向导第二好的人选。第一嘛，当然是我咯？",
+                "target_en": "Dehya",
+                "title_en": "Sethos about Dehya",
+                "content_en": "Flame-Mane... everyone in the desert knows that name. The Eremites aren't exactly saints, as I'm sure you know, but Dehya's one of the few solid and dependable ones out there. If you ever want to explore the Great Red Sand, Dehya's the second-best guide you could ask for. First-best being me, obviously."
+            },
+            {
+                "target_id": 55,
+                "target_zh": "坎蒂丝",
+                "title_zh": "赛索斯关于坎蒂丝",
+                "content_zh": "你被坎蒂丝招待过吗？她做饭超大份的，连我都差点没吃完。不过吃饭就好了，千万别吃她的拳头。",
+                "target_en": "Candace",
+                "title_en": "Sethos about Candace",
+                "content_en": "Have you ever experienced Candace's hospitality? She cooks very generous portions — even I could barely finish. So long as you're on the receiving end of her hospitality and not her wrath, you'll live a long and happy life."
+            },
+            {
+                "target_id": 60,
+                "target_zh": "珐露珊",
+                "title_zh": "赛索斯关于珐露珊",
+                "content_zh": "很少见到比我还自来熟的人！在教令院附近闲逛时被她当成了新生，非要带我进去参观，还说什么现在加入知论派就能享受二十种语言教材大礼包，包教包会，吓我一大跳。问了别的学生才知道这是他们院的内部笑话，根本没有这种毕业要求。所以到底哪里好笑？只会让人更不想加入吧。",
+                "target_en": "Faruzan",
+                "title_en": "Sethos about Faruzan",
+                "content_en": "It's so rare to meet someone even more chummy than me! One minute I was taking a stroll near the Akademiya, the next minute she'd taken me on as a student, and was insisting on giving me a tour. She gave me a real fright, though, because she said that if I joined Haravatat, I'd get the 20-tongues language-learning package, mastery of all 100% guaranteed... I asked around, and it seems like that's just an in-joke among Akademiya students — there is no 20-language graduation requirement after all. But I don't get it... how is that funny? It's only gonna put people off studying there."
+            },
+            {
+                "target_id": 56,
+                "target_zh": "妮露",
+                "title_zh": "赛索斯关于妮露",
+                "content_zh": "我是个闲不住的人，但不介意在祖拜尔剧场多站一会儿，看看这位小姐的舞蹈。能让人内心宁静也是一种很难得的能力。",
+                "target_en": "Nilou",
+                "title_en": "Sethos about Nilou",
+                "content_en": "I usually can't stay still for more than a few minutes, but Zubayr Theater is one place I don't mind just standing and watching while Nilou dances on the stage. It's a rare skill to be able to bring people such a sense of peace."
             }
         ]
     }
