@@ -6801,6 +6801,15 @@
                 "content_en": "Their performances are just fascinating, don't you think? They draw you into a magical world where, on one hand, everything that takes place is part of an elaborate deception — but on the other, all manner of miracles are possible if you are only willing to believe."
             },
             {
+                "target_id": 83,
+                "target_zh": "希格雯",
+                "title_zh": "那维莱特关于希格雯",
+                "content_zh": "希格雯不知道过得好不好。要是她受欺负了我一定要把莱欧斯利喊进城里质问。她是那么脆弱，又那么的善良。上次她回来还给我带了留影机底片，还说想要听我继续点评纳塔的水…距离她下一个假期还要多久？",
+                "target_en": "Sigewinne",
+                "title_en": "Neuvillette about Sigewinne",
+                "content_en": "I don't know how Sigewinne is faring these days. But if I hear so much as the whiff of a rumor that she's being bullied, I shall summon Wriothesley here and demand an explanation. She's so kind and vulnerable... She brought me some Kamera film the last time she visited, and asked to listen to more of my commentary on the water of Natlan... How long is it until her next vacation?"
+            },
+            {
                 "target_id": 74,
                 "target_zh": "芙宁娜",
                 "title_zh": "那维莱特关于芙宁娜",
@@ -6844,6 +6853,15 @@
                 "target_en": "Furina",
                 "title_en": "Wriothesley about Furina",
                 "content_en": "Miss Furina displayed a severe lack of interest in my trial and excused herself early, probably because I pleaded guilty to all charges as soon as they were announced. Disappointing the Hydro Archon is a big deal, so... suppose I've got no choice but to keep gifting her copious amounts of the highest quality tea."
+            },
+            {
+                "target_id": 83,
+                "target_zh": "希格雯",
+                "title_zh": "莱欧斯利关于希格雯",
+                "content_zh": "希格雯护士长具备一名医护人员所需的全部美德，并关心着身边每一位同伴。\n不过她似乎从我身上学走了一些坏习惯，比如时常和她的美露莘朋友们打赌，看谁能偷偷在我的东西上贴更多贴纸。不，我并不觉得困扰。",
+                "target_en": "Sigewinne",
+                "title_en": "Wriothesley about Sigewinne",
+                "content_en": "Sigewinne the head nurse possesses all the virtues associated with the medical profession and genuinely cares for the well-being of everyone around her.\nShe seems to have picked up some bad habits from me, though, like frequently betting with her Melusine friends over who'd be able to put more stickers on my belongings. Hm? No, I'm not actually bothered by it."
             },
             {
                 "target_id": 81,
@@ -7222,6 +7240,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Chevreuse about Charlotte",
                 "content_en": "Charlotte is the type of reporter that really gives you a headache. Whenever there's a major case, she's always one of the first people in the vicinity no matter how hard we try to secure the scene. One time, she was even detained as a suspect for half a month, but she was still able to finish her article while in custody... I really do need to find the time to have a formal conversation with her editor about her behavior."
+            },
+            {
+                "target_id": 83,
+                "target_zh": "希格雯",
+                "title_zh": "夏沃蕾关于希格雯",
+                "content_zh": "特巡队和美露莘的交情由来已久。我们经常和逐影庭里的美露莘合作。她们善良、诚实又可靠，在处理某些重案时，还能发挥无可替代的作用…而我个人，也和几位美露莘关系不错。希格雯护士长就是其中一位。\n从过去到现在，美露莘都是我们不可或缺的同伴。如果…再有任何人胆敢用任何方式污蔑中伤她们，那么特巡队的枪口，绝不会留情。",
+                "target_en": "Sigewinne",
+                "title_en": "Chevreuse about Sigewinne",
+                "content_en": "The Special Security and Surveillance Patrol has a long-lasting friendship with the Melusines. We often collaborate with the Melusines who work in the Marechaussee Phantom. They're kind, honest, and reliable. When it comes to handling major cases, the role they play is irreplaceable. I, myself, am quite close to several Melusines, Sigewinne included.\nMelusines have long been one of our most indispensable partners. If there continue to be those who dare to slander and belittle their name, then they'll find themselves looking down the barrels of our muskets."
             },
             {
                 "target_id": 71,
@@ -7690,6 +7717,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Clorinde about Wriothesley",
                 "content_en": "Managing the Fortress of Meropide is no mean feat. Wriothesley is undoubtedly a highly capable person if he can maintain relative stability in a place like that.\nI highly suspect that he keeps quiet about some of the methods he uses, but there's no way we can know."
+            },
+            {
+                "target_id": 83,
+                "target_zh": "希格雯",
+                "title_zh": "克洛琳德关于希格雯",
+                "content_zh": "希格雯小姐是一位优秀的护士，既擅长治疗身体的伤痛，又懂得如何疗愈人的内心。即使是梅洛彼得堡里的那些心怀恶孽的凶徒，想必也会被她的美德和善心感动，内心涌起一丝善念。\n这一丝善念，或许就能成为他们踏上改邪归正之路的契机。",
+                "target_en": "Sigewinne",
+                "title_en": "Clorinde about Sigewinne",
+                "content_en": "Miss Sigewinne is an excellent nurse, equally adept at treating the injured and comforting the distressed. I'm sure that her kind and loving nature brings out what little good there may be even in the vilest offenders of the Fortress of Meropide.\nAnd maybe that just might serve as enough of a motivation for them to change their ways."
             }
         ]
     },
@@ -7780,6 +7816,105 @@
                 "target_en": "Nilou",
                 "title_en": "Sethos about Nilou",
                 "content_en": "I usually can't stay still for more than a few minutes, but Zubayr Theater is one place I don't mind just standing and watching while Nilou dances on the stage. It's a rare skill to be able to bring people such a sense of peace."
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name_zh": "希格雯",
+        "name_en": "Sigewinne",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/123896/c70a894a0ffe472765493fdef81583a9_8791418509207304542.png",
+        "ver": "4.7.2",
+        "lines": [
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "希格雯关于那维莱特·敬爱",
+                "content_zh": "那维莱特先生将美露莘们带来枫丹廷，给我们安排了合适的工作。我们跟他一起尝试着融入枫丹，发掘着人类的美好。就我而言，我非常敬爱他，也很喜爱人类。嗯？你问那维莱特先生和人类同时掉进水里先救谁？很简单，他一定会跟我一起合力救人类上岸哦。",
+                "target_en": "Neuvillette",
+                "title_en": "Sigewinne about Neuvillette: Respect",
+                "content_en": "Monsieur Neuvillette was the one who brought the Melusines to the Court of Fontaine and found jobs for us to do. Together, we integrated into Fontaine society and learned about the wonders of humanity. I have huge respect for him, and I really like humans too. Hmm? Who would I save first if Monsieur Neuvillette and a human fell into the water? Well, that's easy. He'd definitely help me bring the human safely to shore."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "希格雯关于那维莱特·眷属",
+                "content_zh": "美露莘是那维莱特先生的眷属，但不代表他会给予我们超出律法和公正的偏爱。当初我乖乖接受了那维莱特先生的审判，我认同他的判决。还记得出发去梅洛彼得堡那天下了好大好大的雨，但我一点都不觉得雨点冰冷，反而非常温润，就像那维莱特先生的目光一样…",
+                "target_en": "Neuvillette",
+                "title_en": "Sigewinne about Neuvillette: Familiars",
+                "content_en": "We Melusines are Monsieur Neuvillette's familiars, but that doesn't mean he shows us any favor beyond what is fair and legal. I willingly accepted when he put me on trial, and I fully agreed with his verdict. I remember the day I left for the Fortress of Meropide, it was raining really hard. But I didn't feel like the raindrops were cold at all. They were warm and gentle, just like the way Monsieur Neuvillette looks at me..."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "希格雯关于莱欧斯利",
+                "content_zh": "公爵是我见过最能忍受疼痛的人，那时他还没这么高大和强壮，每次来医务室缝合伤口时都拒绝打麻醉针，说着要保持清醒之类的话，真是个很了不起的小大人呢。现在嘛，当然是个了不起的大大人咯。",
+                "target_en": "Wriothesley",
+                "title_en": "Sigewinne about Wriothesley",
+                "content_en": "The Duke has the highest pain tolerance of anyone I've ever met. He wasn't always big and strong like he is now, but even in the beginning, he'd always refuse an anesthetic injection when he came to the infirmary to get stitches. He'd say something about wanting to keep a sharp mind, or something. I thought to myself, wow, what an impressive little grown-up he is. He's gone on to become an equally impressive big grown-up, too."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "希格雯关于克洛琳德",
+                "content_zh": "克洛琳德小姐讲话时不会有太多面部表情，很难通过她的面部神态读懂她的心情…你说她用了我送的唇膏？真的吗？呵呵，她能喜欢那真的太好了，那个颜色果然很适合她对吧！",
+                "target_en": "Clorinde",
+                "title_en": "Sigewinne about Clorinde",
+                "content_en": "Miss Clorinde doesn't make a lot of facial expressions when she talks. It's pretty difficult to tell what mood she's in from what her face is doing... She used the lipstick I gave her? Really? Hee-hee, I'm so glad she likes it! I knew that color would go great on her!"
+            },
+            {
+                "target_id": 75,
+                "target_zh": "娜维娅",
+                "title_zh": "希格雯关于娜维娅",
+                "content_zh": "枫丹美容协会定期会举办交流会，我很珍惜跟大家聊天的机会。大部分人听到我的夸赞后都会低着头红着脸说哪有哪有，只有娜维娅小姐每次都会高兴大方地接受夸奖，然后握着我的手邀请我一起合影留念。她就像株光芒四射的黄玫瑰，不管白天黑夜晴天阴天都那么的耀眼呢。",
+                "target_en": "Navia",
+                "title_en": "Sigewinne about Navia",
+                "content_en": "The Fontaine Beauty Association holds regular meetings, and I really appreciate getting the chance to chat with everyone there. Most people, when I compliment them, just blush, lower their head, and try to brush it off. But Navia's different — she's always very happy to receive praise, and then she comes to shake my hand and take a photo with me as a souvenir. She's like a shining yellow rose who lights up the world around her, and whether it's daytime or nighttime, sunny or gloomy, she always looks dazzling."
+            },
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "希格雯关于夏洛蒂",
+                "content_zh": "我喜欢看夏洛蒂小姐拍的画片，可以很好地观察到大家在不同情景下的面部肌肉，紧绷的、松弛的、上扬的、垮下来的…嘿嘿，非常值得回味。",
+                "target_en": "Charlotte",
+                "title_en": "Sigewinne about Charlotte",
+                "content_en": "I love looking at Charlotte's photos. You get to see what everyone's facial muscles do in all sorts of different situations: tensed up, relaxed, stretching up, drooping down... Hehe, I remember them all very fondly."
+            },
+            {
+                "target_id": 68,
+                "target_zh": "林尼",
+                "title_zh": "希格雯关于林尼",
+                "content_zh": "我很抱歉对林尼先生打出了那枪麻醉针…在当时那种紧急的情况下，那的确是让他受到最少伤害的办法…庆幸的是，后来他了解到我没有恶意后，也放心地让我治疗了菲米尼先生。",
+                "target_en": "Lyney",
+                "title_en": "Sigewinne about Lyney",
+                "content_en": "I still feel sorry for firing that tranquilizer shot at Mr. Lyney... It was an emergency situation, and that was the least harmful way of incapacitating him... Thankfully, he was okay with letting me take care of Mr. Freminet once he understood that I bore them no ill will."
+            },
+            {
+                "target_id": 69,
+                "target_zh": "琳妮特",
+                "title_zh": "希格雯关于琳妮特",
+                "content_zh": "琳妮特小姐兼具了人类和猫猫的双重可爱！我稍微观察了一下，她在喝茶和吃蛋糕时耳朵会微微向前，呵呵，真想摸摸她的头…你也一样？下次我们一起去征求她的同意吧？",
+                "target_en": "Lynette",
+                "title_en": "Sigewinne about Lynette",
+                "content_en": "Lynette is cute two times over: human-being-cute, and kitty-cute! After observing her a little bit, I noticed that her ears lean forward when she's having tea and cake. Hee-hee, I just wanna stroke her on the head... You too? Why don't we ask her for permission next time?"
+            },
+            {
+                "target_id": 70,
+                "target_zh": "菲米尼",
+                "title_zh": "希格雯关于菲米尼",
+                "content_zh": "他的身体恢复后主动找到了我道谢，是个很有礼貌的孩子呢。讲话轻声细语的…看得出平时大概不太擅长主动跟别人打交道，但我能感受到他的内心世界一定非常丰富而细腻，因为他仔细地翻看了美露莘们画的画，看得极其入神。",
+                "target_en": "Freminet",
+                "title_en": "Sigewinne about Freminet",
+                "content_en": "He made a point of coming to thank me after he recovered — what a lovely boy. He speaks so quietly, though... He probably doesn't go out of his way to talk to other people much. But I could tell that he has a rich and detailed inner world, because he looked so captivated as he was looking through some Melusines' paintings."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "希格雯关于千织",
+                "content_zh": "美露莘的身体跟人类不同，很难买到合适的衣服。就算是我，试穿人类的童装时也会烦恼尾巴应该怎么摆放…不过好在千织小姐推出了针对美露莘的定制服务，现在所有美露莘朋友都有机会穿上喜欢的漂亮衣服啦。",
+                "target_en": "Chiori",
+                "title_en": "Sigewinne about Chiori",
+                "content_en": "Melusines have different bodies than human beings, so it's hard to find clothes that fit. Even for me — I never know what to do with my tail when I'm trying on human clothes... But luckily, Chiori offers a Melusine tailoring service, so now all my Melusine friends have the chance to wear the pretty clothes they love."
             }
         ]
     }
