@@ -6502,6 +6502,15 @@
                 "target_en": "Clorinde",
                 "title_en": "Lyney about Clorinde",
                 "content_en": "Clorinde's quite famous as a Champion Duelist. But from what I've read in the papers, she seems to have gotten into a bit of a pickle. The media's been all over her story, and she's... Well, she's the type that definitely doesn't enjoy that kind of attention."
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "林尼关于艾梅莉埃",
+                "content_zh": "你闻过她设计的香水吗？我还挺喜欢的，原本想买一瓶试试…但琳妮特的尾巴似乎有不同的意见。那我也只好算喽。",
+                "target_en": "Emilie",
+                "title_en": "Lyney about Emilie",
+                "content_en": "Have you ever gotten a whiff of the perfumes she makes? I quite liked them and was thinking to buy myself a bottle... But Lynette's tail indicated that she didn't share my opinion, so that was the end of that!"
             }
         ]
     },
@@ -6601,6 +6610,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Lynette about Charlotte",
                 "content_en": "Uh... I was eventually cornered by her for interviews a few times. The way she persistently asked even after Lyney rejected her all those times, I really have to commend her perseverance. Too bad for her, though... despite preparing all those questions, I never answered a single one."
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "琳妮特关于艾梅莉埃",
+                "content_zh": "这位香水设计师小姐的作品热门到需要凌晨排队抢购。但我对香水的味道太敏感，打出喷嚏来就太失礼了…所以只能绕着走。",
+                "target_en": "Emilie",
+                "title_en": "Lynette about Emilie",
+                "content_en": "Her perfume products are so popular that you have to get in line before the break of dawn to have a chance at snapping any up. However, I'm far too sensitive to the smell of perfume, and it's really rude to sneeze... so I have to take the long way around."
             }
         ]
     },
@@ -6891,6 +6909,15 @@
                 "content_en": "The Fortress of Meropide works with Spina di Rosula on some matters regarding supplies and logistics, but we don't have any other dealings. This isn't because I don't trust Navia or her abilities, in fact, I hold her in quite high regard. The only reason we continue to stay out of each other's way is because I wanna honor the agreement I made with the late Mr. Callas."
             },
             {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "莱欧斯利关于艾梅莉埃",
+                "content_zh": "梅洛彼得堡应该用不上她的服务，有些痕迹就是作为「前车之鉴」被留下来的。…气味也是痕迹的一种，不是吗？",
+                "target_en": "Emilie",
+                "title_en": "Wriothesley about Emilie",
+                "content_en": "The Fortress of Meropide doesn't need her services. Yet some things are best preserved the way they are, warts and all, so people don't make the same mistakes twice... I say warts, but yeah. I mean the smell."
+            },
+            {
                 "target_id": 76,
                 "target_zh": "夏沃蕾",
                 "title_zh": "莱欧斯利关于夏沃蕾",
@@ -6952,6 +6979,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Charlotte about Wriothesley",
                 "content_en": "So... Did you get to meet the Duke in person? Yeah? Any nuggets of information that I should know about? Never mind the Credit Coupons, the Coupon Cafeteria, \"If a man will not work, he shall not eat\"... That's all just generic filler. I'm talking about personal anecdotes about the man of Meropide himself... What do you mean, \"confidentiality\"? Aw, not you, too! We had a deal! That does it — remember that gigantic feast I treated you to? I want my money back! Get your butts back to prison and do your time, you swindlers, you!"
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "夏洛蒂关于艾梅莉埃",
+                "content_zh": "艾梅莉埃小姐的香水是整个枫丹廷里最好的！前两天她还向我推荐一款兼具驱虫、快速止汗、遮蔽汗水味的香水呢，这款香水对我这种经常出外勤的人可太重要了。我今天还喷了一些在手腕上…喏，你闻闻，可香了。",
+                "target_en": "Emilie",
+                "title_en": "Charlotte about Emilie",
+                "content_en": "Emilie makes the best perfume in the whole Court of Fontaine. She introduced me to this amazing one the other day that works as an insect repellent, anti-perspirant, and deodorant all in one! It's a total life-saver for someone like me who spends so much time zooming around all over the place. I actually sprayed some on my wrist today... Go on, take a whiff, it's heavenly!"
             },
             {
                 "target_id": 79,
@@ -7222,6 +7258,15 @@
                 "target_en": "Wriothesley",
                 "title_en": "Chevreuse about Wriothesley",
                 "content_en": "The work Wriothesley does is highly effective. As least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "夏沃蕾关于艾梅莉埃",
+                "content_zh": "我俩私交不错，我有好几次请她用专业的化学知识来帮我分析物证、追缉凶犯。她还能帮忙发现很多看不见的信息，比如犯人用了什么香水、送过什么花，甚至去过什么地方、踩过什么泥土…她从没错过。",
+                "target_en": "Emilie",
+                "title_en": "Chevreuse about Emilie",
+                "content_en": "Emilie is a good friend. Her expert knowledge of chemistry has been a great help to me many times when analyzing evidence or tracking down a killer. She helps us discover information that no one else can see, like what type of perfume a suspect wore or what type of flowers they sent as a gift. She can even determine the places they've been right down to the very dirt they've stepped in... Plus, she's never been wrong."
             },
             {
                 "target_id": 79,
@@ -7539,6 +7584,15 @@
                 "content_en": "Working with Chevreuse and talking with her are a cinch. So easy, in fact, that whenever I say goodbye to her and return to tending to my customers again, it takes me a moment to shift gears mentally."
             },
             {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "千织关于艾梅莉埃",
+                "content_zh": "艾梅莉埃的香水很受欢迎。出于商业合作，我会请她将试做中的香水小样送到「千织屋」，让爱洛芙悄悄喷在顾客们使用的试衣间，然后我再将顾客们的反馈告诉她。但这么长时间下来，没有一位顾客说我试衣间里的味道奇怪，反倒是纷纷来问我店里的香水哪里有卖。出于好奇，每次她发售香水成品的时候，我也会买一瓶来闻闻。不得不说，那种每次都能品出新鲜感的香味，实为天才之作。",
+                "target_en": "Emilie",
+                "title_en": "Chiori about Emilie",
+                "content_en": "Emilie's perfumes are very popular. We have a business agreement where I ask her to deliver small quantities of perfume she's working on to Chioriya Boutique. I let Eloffe secretly spray the perfume in the fitting room, and then I'll let her know any feedback I get from the customers. Even after all this time, I've never once had a customer ever say that my fitting room smelled strange. In fact, they usually come one after another to ask where they can buy the fragrance. Out of curiosity, I always buy a bottle when she brings them to sell in her shop. I have to say that such fragrances which can always bring a sense of refreshment are truly works of art."
+            },
+            {
                 "target_id": 72,
                 "target_zh": "莱欧斯利",
                 "title_zh": "千织关于莱欧斯利",
@@ -7726,6 +7780,15 @@
                 "target_en": "Sigewinne",
                 "title_en": "Clorinde about Sigewinne",
                 "content_en": "Miss Sigewinne is an excellent nurse, equally adept at treating the injured and comforting the distressed. I'm sure that her kind and loving nature brings out what little good there may be even in the vilest offenders of the Fortress of Meropide.\nAnd maybe that just might serve as enough of a motivation for them to change their ways."
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "克洛琳德关于艾梅莉埃",
+                "content_zh": "我听说过这名香水设计师小姐，对她真正的职业也有所耳闻。偶尔一次，我遇到她正在抚摸一只路边的小狗，脸上挂着温和的笑意。我们互相点头后就道别了。",
+                "target_en": "Emilie",
+                "title_en": "Clorinde about Emilie",
+                "content_en": "I've heard that she's a perfumer. I've also heard a little about her true profession. I saw her out on the street once. She was stroking a little dog, and had a gentle smile on her face. We nodded at each other, then each went our separate ways."
             }
         ]
     },
@@ -7743,7 +7806,7 @@
                 "content_zh": "赛诺很优秀，无愧于赫曼努比斯力量的传承。作为「大风纪官」，他对知识与智慧有着至高的敬畏之心。如果教令院能与缄默之殿再次合作，有他在我会放心很多。\n哦对了，他还有个难得的优点，就是讲话很好笑。",
                 "target_en": "Cyno",
                 "title_en": "Sethos about Cyno",
-                "content_en": "Cyno is truly outstanding — absolutely a worthy heir to Henrmanubis's power. As General Mahamatra, he has the utmost reverence for knowledge and wisdom. If the Akademiya and the Temple of Silence do start working together again, I'll take comfort in the fact that he's there.\nOh yeah, and another great thing about Cyno: You know the way he talks? It's just... so funny."
+                "content_en": "Cyno is truly outstanding — absolutely a worthy heir to Hermanubis's power. As General Mahamatra, he has the utmost reverence for knowledge and wisdom. If the Akademiya and the Temple of Silence do start working together again, I'll take comfort in the fact that he's there.\nOh yeah, and another great thing about Cyno: You know the way he talks? It's just... so funny."
             },
             {
                 "target_id": 51,
@@ -7915,6 +7978,96 @@
                 "target_en": "Chiori",
                 "title_en": "Sigewinne about Chiori",
                 "content_en": "Melusines have different bodies than human beings, so it's hard to find clothes that fit. Even for me — I never know what to do with my tail when I'm trying on human clothes... But luckily, Chiori offers a Melusine tailoring service, so now all my Melusine friends have the chance to wear the pretty clothes they love."
+            },
+            {
+                "target_id": 84,
+                "target_zh": "艾梅莉埃",
+                "title_zh": "希格雯关于艾梅莉埃",
+                "content_zh": "艾梅莉埃小姐设计的香水经常登上各种美容杂志的推荐榜单上。我已经计划好了，下次休假我会提早结束在沫芒宫的拜访，抽出时间在枫丹廷好好逛逛，多买一些艾梅莉埃小姐的香水回去，送给可爱的女孩子们，嘻嘻。",
+                "target_en": "Emilie",
+                "title_en": "Sigewinne about Emilie",
+                "content_en": "I always see Miss Emilie's perfumes being recommended in beauty magazines. So I've hatched a plan. The next time I take a vacation, I'm gonna cut my visit to the Palais Mermonia a little short, so I can take some time to go shopping in the Court of Fontaine. I'm gonna buy loads and loads of Emilie's perfumes to bring back and give to all the lovely little girls here, hee-hee."
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name_zh": "艾梅莉埃",
+        "name_en": "Emilie",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/124975/cfefe228a0419b0b3a24663c5536024c_1043244422480491576.png",
+        "ver": "4.8.2",
+        "lines": [
+            {
+                "target_id": 76,
+                "target_zh": "夏沃蕾",
+                "title_zh": "艾梅莉埃关于夏沃蕾",
+                "content_zh": "不知她有没有向你提起过，我们是通过工作认识的。不过大部分时间我们并不会进行特别严肃的对话，记得有次她看了一本小说，讲的是有人使用人体组织制作香水的故事。按照书中的想象，最后的成品是惊为天人的杰作，但以我的经验，实际上大概不会有这么美妙的结果…\n不过夏沃蕾的重点不在这里，她当时正在努力盘算其中各方应当承担的法律责任呢。",
+                "target_en": "Chevreuse",
+                "title_en": "Emilie about Chevreuse",
+                "content_en": "I'm not sure if she ever mentioned it, but we met each other through work. Although, most of our conversations aren't nearly as serious as our jobs would suggest. One time, she told me she read a novel about a perfumer who makes a scent using human tissue. Fictional, of course, but in the story it turns out to be astonishingly successful — the finest perfume ever made. Based on my own experience, I find it hard to believe the scent would turn out quite so wonderful in real life...\nChevreuse wasn't too focused on the feasibility, though. She was too busy trying to unravel all the legal liabilities involved in a situation like that."
+            },
+            {
+                "target_id": 79,
+                "target_zh": "千织",
+                "title_zh": "艾梅莉埃关于千织",
+                "content_zh": "千织小姐是位对流行趋势很敏锐的设计师。尽管我们的工作内容完全不同，我还是很喜欢听她介绍服装设计的思路与创意。她选香水的眼光也很不错，经常在试做样品的阶段就挑中了上市后会大卖的那款。",
+                "target_en": "Chiori",
+                "title_en": "Emilie about Chiori",
+                "content_en": "As a designer, Chiori has a keen eye for trends. Although we deal in completely different products, I still enjoy listening to her talk about the creative thought process behind her designs. Not to mention, she has a pretty good eye when it comes to perfume. Whenever I have her test out my new products, she always manages to pick the one that ends up selling the best."
+            },
+            {
+                "target_id": 73,
+                "target_zh": "夏洛蒂",
+                "title_zh": "艾梅莉埃关于夏洛蒂",
+                "content_zh": "这是一位活力四射的小姐呢。会有不少人觉得她很「麻烦」吧，但这位记者小姐在知道了我的真实工作后却没有大范围地传播。这并不是她必须要帮我的忙，甚至与她的职业需求有所冲突，所以我对她印象不错。如果她需要帮助，我是不会拒绝的。",
+                "target_en": "Charlotte",
+                "title_en": "Emilie about Charlotte",
+                "content_en": "Ah, a truly energetic young lady. Being a journalist, I would imagine quite a few people see her as nothing but trouble, but that hasn't been my experience. Even after discovering the true nature of my work, she still chose to keep it to herself. This despite the fact that she had no reason to help me, and it probably wasn't in her professional interests to do so. So, I have quite a high opinion of her. If she ever needed my help, I would certainly not refuse."
+            },
+            {
+                "target_id": 81,
+                "target_zh": "克洛琳德",
+                "title_zh": "艾梅莉埃关于克洛琳德",
+                "content_zh": "枫丹廷大概没有人不知道这位实力顶尖的决斗代理人吧。但我不觉得克洛琳德小姐会不好相处，越是武力强大的人，反而越不抗拒沟通。",
+                "target_en": "Clorinde",
+                "title_en": "Emilie about Clorinde",
+                "content_en": "I'm fairly certain everyone in Fontaine knows that name. She's a formidable Champion Duelist, after all. Although, I find her quite easy to get along with. In my experience, the stronger a person is in combat, the more open they are in conversation."
+            },
+            {
+                "target_id": 83,
+                "target_zh": "希格雯",
+                "title_zh": "艾梅莉埃关于希格雯",
+                "content_zh": "如果没记错的话，希格雯小姐应该在我还不记事的时候就见过我了…对了，我是不是没说过，因为家父就职于逐影庭，我家常有美露莘来做客，听说我出生后被很多美露莘小姐们关照过。\n不过希格雯小姐并没有拿我当后辈看待，还对我的香水一直赞赏有加。我做了新的样品时，常常会给她多留一份。",
+                "target_en": "Sigewinne",
+                "title_en": "Emilie about Sigewinne",
+                "content_en": "If I'm not mistaken, I believe Miss Sigewinne met me when I was very young — too young to remember... Ah, I probably haven't told you, my father works for the Marechaussee Phantom, so we often have Melusines over as guests. Apparently, the Melusines were often the ones looking after me as a baby.\nBut, Miss Sigewinne has never treated me as her junior. She always speaks highly of my perfumes, so whenever I make a new sample, I usually set aside an extra for her."
+            },
+            {
+                "target_id": 71,
+                "target_zh": "那维莱特",
+                "title_zh": "艾梅莉埃关于那维莱特",
+                "content_zh": "调香师在嗅觉疲劳时有一种很简单的缓解方法，就是饮用清水。我对水的品质并无苛刻的要求，但出于好奇，我参加过一次那维莱特先生举办的品水会。\n他对每种水的特征都有着缥缈却又十分独到的见解，就像杂志上对香水的评价文章一样。他在了解到我的需求后，向我推荐水源的态度也十分真诚。出于敬重，我时不时会专门购买他推荐的种类。",
+                "target_en": "Neuvillette",
+                "title_en": "Emilie about Neuvillette",
+                "content_en": "As a perfumer, if your sense of smell starts to become dull, there's actually quite an easy solution — drinking fresh water. I'm not usually strict about the water I drink, but, out of curiosity, I once attended a water-tasting event organized by Monsieur Neuvillette.\nHe had such an abstract yet distinctive understanding of the distinguishing features of different types of water. It almost reminded me of the way magazine articles talk about perfume. He took the time to understand my needs, and recommended a few water sources to me with utmost sincerity. He was so considerate, sometimes, I choose to buy the varieties he recommended, even if just out of respect for him."
+            },
+            {
+                "target_id": 72,
+                "target_zh": "莱欧斯利",
+                "title_zh": "艾梅莉埃关于莱欧斯利",
+                "content_zh": "你认识莱欧斯利先生？呵呵，你果然不是一般人，据我所知，这位公爵大人十分低调，甚至不太有人知道他的存在。那维莱特先生曾想将我引荐给他，不过他似乎表示梅洛彼得堡没有需要我工作的场合。\n我从未当面见过这位先生，对他自然不甚了解，但恕我冒然揣度…也许他是不想将某些痕迹清洗得太过干净，从而留作警示吧。",
+                "target_en": "Wriothesley",
+                "title_en": "Emilie about Wriothesley",
+                "content_en": "You know Wriothesley? Haha, well aren't you full of surprises. From what I know, the Duke tries to keep a very low profile — most people don't even know he exists. Monsieur Neuvillette once tried to recommend my services to him, but apparently he thought that the Fortress of Meropide would have no occasion for them.\nI can't know what his reasons were for turning me down, as I've never met him in person. But if I was to speculate... I would say perhaps there are certain things he doesn't want washed away. Perhaps he prefers to leave them there... as a warning."
+            },
+            {
+                "target_id": 51,
+                "target_zh": "提纳里",
+                "title_zh": "艾梅莉埃关于提纳里",
+                "content_zh": "我和他见面不多，但常有书信往来。一开始是他不知通过什么渠道，辗转联系到我，字里行间十分客气。一位知名植物学家向我请教花卉知识，着实令我受宠若惊。不过我也就此抓住机会，向他咨询了很多关于须弥香料的知识，他都帮我一一解答了。\n现在我们之间的书信就随意了很多，他还时常提起他身边的同伴们。我很开心能通过这样的机会结交到更多有趣的朋友。",
+                "target_en": "Tighnari",
+                "title_en": "Emilie about Tighnari",
+                "content_en": "I've only met him in person a few times, but we communicate by letter often. He reached out to me first, writing a letter after tracking down my details through some roundabout way. He was extremely polite, and it was incredibly flattering to have such a renowned botanist ask for my flower-related expertise. But, I also saw it as a chance to learn from him. I decided to ask some of my own questions, particularly about perfume ingredients from Sumeru, and he gave me thorough answers to each and every one.\nNow, our correspondence is much more casual. He even tells me about his companions sometimes. I really am delighted I got this opportunity to make a new friend."
             }
         ]
     }
