@@ -8070,5 +8070,41 @@
                 "content_en": "I've only met him in person a few times, but we communicate by letter often. He reached out to me first, writing a letter after tracking down my details through some roundabout way. He was extremely polite, and it was incredibly flattering to have such a renowned botanist ask for my flower-related expertise. But, I also saw it as a chance to learn from him. I decided to ask some of my own questions, particularly about perfume ingredients from Sumeru, and he gave me thorough answers to each and every one.\nNow, our correspondence is much more casual. He even tells me about his companions sometimes. I really am delighted I got this opportunity to make a new friend."
             }
         ]
+    },
+    {
+        "id": 85,
+        "name_zh": "玛拉妮",
+        "name_en": "Mualani",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/125367/61b24fd8f87c161b924e42a1c02655bf_6784098904729395654.png",
+        "ver": "5.0.1",
+        "lines": [
+            {
+                "target_id": 86,
+                "target_zh": "卡齐娜",
+                "title_zh": "玛拉妮关于卡齐娜",
+                "content_zh": "卡齐娜说话会考虑很多，性格又很温和善良。明明很出色，却因为不争辩而被周围的人看轻。唉，我从不怀疑她的实力，唯一担心的，是她不够自信，容易听信那些抨击她的话…所以，除了鼓励她，我还要把她的优点告诉其他人。相信总有一天，大家会做出改变的！",
+                "target_en": "Kachina",
+                "title_en": "Mualani about Kachina",
+                "content_en": "Kachina is incredibly gentle and kind. From everything she says, it's clear she's always thinking about others. She has so many great qualities, but she's constantly overlooked and ridiculed because she doesn't stand up for herself. *sigh* I know she can handle herself, it's just... I worry about her lack of confidence. More often than not, she ends up believing the awful things people say about her. So, I've made it my personal mission to encourage her and share her strengths with all the people around me. I'm sure one day, everyone will see her in a new light!"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name_zh": "卡齐娜",
+        "name_en": "Kachina",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/125372/dcb5792bc05e58821d605507ff0b8db0_7294348797889643745.png",
+        "ver": "5.0.1",
+        "lines": [
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "卡齐娜关于玛拉妮",
+                "content_zh": "玛拉妮是我的第一个好朋友。遇到她之前，我都不知道这个世界上有这么好的人，还有这么多好玩的事情。看，这是我们合影的画片。她说是要在合影时一起往上跳…你说我动作看着有点僵硬？嘿嘿…被你发现了…当时镜头外有很多人在看着我们，让我有点紧张…",
+                "target_en": "Mualani",
+                "title_en": "Kachina about Mualani",
+                "content_en": "Mualani's my first good friend! Before I met her, I never even knew that people as sweet as her existed, or how many fun things there are in the world! Look, this is a photo of us! She said we should jump right when they took the photo... I look a bit stiff? Hehe, you caught me! A lot of people were staring at us when we took this photo, so I was really nervous..."
+            }
+        ]
     }
 ]
