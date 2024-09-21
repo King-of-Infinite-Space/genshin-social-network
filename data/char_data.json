@@ -8086,6 +8086,15 @@
                 "target_en": "Kachina",
                 "title_en": "Mualani about Kachina",
                 "content_en": "Kachina is incredibly gentle and kind. From everything she says, it's clear she's always thinking about others. She has so many great qualities, but she's constantly overlooked and ridiculed because she doesn't stand up for herself. *sigh* I know she can handle herself, it's just... I worry about her lack of confidence. More often than not, she ends up believing the awful things people say about her. So, I've made it my personal mission to encourage her and share her strengths with all the people around me. I'm sure one day, everyone will see her in a new light!"
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "玛拉妮关于基尼奇",
+                "content_zh": "阿乔一天讲的话比基尼奇一年的话还多，在这种情况下，基尼奇居然不受一点干扰，总能做出自己的判断，这还挺不容易的。回想起来，好像只有在聊运势话题的时候，他俩才会出奇一致地呈现出一副不关心的态度…",
+                "target_en": "Kinich",
+                "title_en": "Mualani about Kinich",
+                "content_en": "Ajaw will say more in a day than Kinich in a whole year. It can't be easy having to deal with all of Ajaw's antics, but somehow Kinich always manages to do his own thing. Now that I think about it, the only time they seem equally uninterested is when I talk about horoscopes..."
             }
         ]
     },
@@ -8104,6 +8113,42 @@
                 "target_en": "Mualani",
                 "title_en": "Kachina about Mualani",
                 "content_en": "Mualani's my first good friend! Before I met her, I never even knew that people as sweet as her existed, or how many fun things there are in the world! Look, this is a photo of us! She said we should jump right when they took the photo... I look a bit stiff? Hehe, you caught me! A lot of people were staring at us when we took this photo, so I was really nervous..."
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "卡齐娜关于基尼奇",
+                "content_zh": "基尼奇哥哥还是玛拉妮介绍给我认识的呢。不瞒你说，一开始我有点害怕他，因为他的眼神看起来…稍微有一点凶。我后来才知道，他私底下教训过欺负我的坏蛋。但在我送他回礼的时候，他又不肯收下，说是已经得到了足额的报酬…",
+                "target_en": "Kinich",
+                "title_en": "Kachina about Kinich",
+                "content_en": "It was Mualani who introduced me to him! To be honest, I was a little scared of him at first, because his eyes... well, he's got a scary look. It was only later that I found out that he secretly taught my bullies a lesson. But when I tried to give him a gift to thank him, he refused to take it. He said something along the lines of having already received enough compensation..."
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name_zh": "基尼奇",
+        "name_en": "Kinich",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/125706/05a63a2a78f89f0c033bbd77e6dfa54b_2985143624371104657.png",
+        "ver": "5.0.2",
+        "lines": [
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "基尼奇关于玛拉妮",
+                "content_zh": "我接过她的委托。她出钱让我担任「战斗顾问」，金额不菲，我答应了。但合作几次后，却看出她身手不赖。再三追问下，才知道所谓「战斗顾问」是要教授卡齐娜野外生存技巧…\n原来是和「自然」战斗。嗯，在我概念里，这叫「生活」。\n总之，这笔生意做完，我多了两位熟客。",
+                "target_en": "Mualani",
+                "title_en": "Kinich about Mualani",
+                "content_en": "I've taken jobs from her before. She offered to pay me to act as a \"battle advisor,\" and the Mora was good, so I accepted. After working with her a few times, though, I noticed she's not exactly a pushover. When I pressed her about it, she eventually admitted that \"battle advisor\" was just code for mentoring Kachina in wilderness survival...\nSo a \"battle against nature,\" then. Hmm, I'd probably just call that \"life.\"\nAnyway, that business is concluded, and I now have two new acquaintances."
+            },
+            {
+                "target_id": 86,
+                "target_zh": "卡齐娜",
+                "title_zh": "基尼奇关于卡齐娜",
+                "content_zh": "我见过和她有关的委托。「回声之子」里有些差劲的家伙嫉妒她拥有「古名」，拐弯抹角地雇人对她的龙伙伴下手。我已让他们付出了代价。",
+                "target_en": "Kachina",
+                "title_en": "Kinich about Kachina",
+                "content_en": "I saw a job posting about her once. Some lowlifes from her tribe got jealous that she'd received an ancient name, and basically tried to order a hit on her Saurian companion... They paid the price, I made sure of that."
             }
         ]
     }
