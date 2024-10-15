@@ -8095,6 +8095,15 @@
                 "target_en": "Kinich",
                 "title_en": "Mualani about Kinich",
                 "content_en": "Ajaw will say more in a day than Kinich in a whole year. It can't be easy having to deal with all of Ajaw's antics, but somehow Kinich always manages to do his own thing. Now that I think about it, the only time they seem equally uninterested is when I talk about horoscopes..."
+            },
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "玛拉妮关于希诺宁",
+                "content_zh": "连火神大人都认可的工匠实力毋庸置疑，就算古名变得稀碎，她也绝对能修得天衣无缝吧？啊！我刚刚是不是说了很不吉利的话？这么重要的东西怎么能弄碎！呸呸呸，刚刚我什么都没说过，你也什么都没听到，好吗？",
+                "target_en": "Xilonen",
+                "title_en": "Mualani about Xilonen",
+                "content_en": "If the Pyro Archon acknowledges a craftsperson, then you know she's good. Even if an Ancient Name got all smashed up, I bet she could make it good as new again. Wait, did I just jinx something? An Ancient Name absolutely cannot get smashed. That would be so bad. I take it back! I take it back! I didn't say anything. And you didn't hear anything either, alright?"
             }
         ]
     },
@@ -8122,6 +8131,15 @@
                 "target_en": "Kinich",
                 "title_en": "Kachina about Kinich",
                 "content_en": "It was Mualani who introduced me to him! To be honest, I was a little scared of him at first, because his eyes... well, he's got a scary look. It was only later that I found out that he secretly taught my bullies a lesson. But when I tried to give him a gift to thank him, he refused to take it. He said something along the lines of having already received enough compensation..."
+            },
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "卡齐娜关于希诺宁",
+                "content_zh": "在我获得古名后，帕加尔叔叔带我去找了希诺宁姐姐，请她帮我打造了冲天转转，她的手艺简直出神入化。\n后来，我们交流过宝石收藏与存储的经验，还欣赏了彼此的珍品。她的收藏品状态非常好，肯定照顾得十分细致。但她自己的生活…似乎要更加随性？有一次我找了她很久都没找到，最后发现她在一棵大树上晒着太阳睡着了…",
+                "target_en": "Xilonen",
+                "title_en": "Kachina about Xilonen",
+                "content_en": "After I received my Ancient Name, Uncle Pacal took me to see her and asked her to make Turbo Twirly for me. Her craftsmanship really is out of this world!\nLater, we discussed our experiences collecting and storing gems, and even admired each other's collections. Everything in her collection is in top condition, so she must take great care of them. She seems to take a more... casual approach to her own life, though... Once, I went looking for her, and couldn't find her for ages! I eventually found her basking in the sunshine in a big tree, sound asleep..."
             }
         ]
     },
@@ -8149,6 +8167,51 @@
                 "target_en": "Kachina",
                 "title_en": "Kinich about Kachina",
                 "content_en": "I saw a job posting about her once. Some lowlifes from her tribe got jealous that she'd received an ancient name, and basically tried to order a hit on her Saurian companion... They paid the price, I made sure of that."
+            },
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "基尼奇关于希诺宁",
+                "content_zh": "有次我路过「回声之子」，看到了一个奇怪的委托。委托人希望得到一种好养的植物。我把肉龙掌的种子送了过去，配了花盆和肥料。这种植物分布广泛，在荒野上都长势旺盛。可我过段时间去拿报酬的时候，才发现盆里连小苗都没长出来。\n我为高估希诺宁的园艺能力支付了代价。这是我为数不多以失败而告终的委托。",
+                "target_en": "Xilonen",
+                "title_en": "Kinich about Xilonen",
+                "content_en": "I saw a strange job posting once while passing by the Children of Echoes' territory. The requester was looking for a hardy plant that wouldn't take much maintenance, so I brought over some Saurian claw succulent seeds, along with a pot and some fertilizer. It grows well all over Natlan, even in the most barren areas. But when I went to collect my payment, I saw that not a single seedling had sprouted from the pot.\nI paid the price for overestimating Xilonen's gardening skills. This was one of the few failed jobs on my record."
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name_zh": "希诺宁",
+        "name_en": "Xilonen",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/126200/de28e561e90adfefc7dc0b07363e9b84_5399504452962509974.png",
+        "ver": "5.1.1",
+        "lines": [
+            {
+                "target_id": 86,
+                "target_zh": "卡齐娜",
+                "title_zh": "希诺宁关于卡齐娜",
+                "content_zh": "之前卡齐娜拜托我打造一枚钻探器，而且这枚钻探器要同时兼顾钻探和弹跳功能。造起来倒是不复杂，反倒是调整座椅角度时花了不少时间。最后，卡齐娜还是同意了我的意见，拆除了座椅，采用了和钻探器的动力核心联动的手动操作装置…\n呃…为什么卡齐娜操作「冲天转转」的时候，自己也会跳来跳去？\n这是卡齐娜的要求。她说自己很喜欢操纵钻探器跳跃时的颠簸感，所以特地让我削减了一部分减震系统。\n不然，我下次再给卡齐娜做一套咬具吧。要是她在蹦蹦跳跳的时候咬伤自己的舌头就糟糕了…",
+                "target_en": "Kachina",
+                "title_en": "Xilonen about Kachina",
+                "content_en": "Kachina commissioned me to forge a drill for her that could not only bore into the ground, but also jump around. It wasn't that complicated to make, but adjusting the angle of the seat was tricky. In the end, Kachina took my suggestion to ditch the seat in favor of a manual control system that connects to the power core of the drill...\nHuh? Why does Kachina bounce around when she's operating the Turbo Twirly?\nThat's how she wanted it. She said she prefers having direct sensory feedback while she's driving, so I removed part of the shock absorption system.\nI do wonder if I should make her some mouthguards next, though. The last thing I want is for her to bite her tongue while using the drill..."
+            },
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "希诺宁关于玛拉妮",
+                "content_zh": "玛拉妮很擅长运动，无论是冲浪，还是在「游隙灵道」滑行，我都没见过比她动作更顺畅，表情更轻松的人。而且，直到现在为止，我都没见过玛拉妮出过失误。\n如果有人或者龙挡路怎么办？唔…她应该会拎起对方继续滑走吧。",
+                "target_en": "Mualani",
+                "title_en": "Xilonen about Mualani",
+                "content_en": "Mualani is an amazing athlete. I've never seen anyone make surfing or gliding on the Spiritways look so smooth or easy. In fact, I have yet to see Mualani ever slip up.\nHmm? What would happen if a person or Saurian got in her way? Hmm, I'm pretty sure she would just scoop them up and keep gliding along."
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "希诺宁关于基尼奇",
+                "content_zh": "基尼奇人还不错，但那个阿乔实在让人喜欢不起来。\n话说回来，阿乔到底是从哪出现的？要是它来源于某台仪器，那我也许还真能让它永远闭嘴。唔，要不然我挑个时间，去和基尼奇说说吧…",
+                "target_en": "Kinich",
+                "title_en": "Xilonen about Kinich",
+                "content_en": "Kinich is nice, but that Ajaw is really hard to be around.\nSpeaking of, where did Ajaw even come from? If he originated from some kind of device, then there is actually a chance that I could make him shut up forever. Oh, maybe I should find some time to go over and discuss this with Kinich..."
             }
         ]
     }
