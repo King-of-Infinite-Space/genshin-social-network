@@ -8097,6 +8097,15 @@
                 "content_en": "Ajaw will say more in a day than Kinich in a whole year. It can't be easy having to deal with all of Ajaw's antics, but somehow Kinich always manages to do his own thing. Now that I think about it, the only time they seem equally uninterested is when I talk about horoscopes..."
             },
             {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "玛拉妮关于恰斯卡",
+                "content_zh": "我小时候就跟恰斯卡见过面，我们还因为争夺玩具之类的原因打过几次架呢…在得知她成为「调停人」之后，我还挺意外的。听说有的人是慢慢长大的，有的人就蜕变得很快。我的成长期…是不是还没到啊？",
+                "target_en": "Chasca",
+                "title_en": "Mualani about Chasca",
+                "content_en": "I met Chasca when I was little. We even fought over toys a few times... I was pretty surprised when I heard she became a Peacekeeper. They say some people mature really slowly, while others grow up in an instant. Sometimes, I wonder if I've even started..."
+            },
+            {
                 "target_id": 88,
                 "target_zh": "希诺宁",
                 "title_zh": "玛拉妮关于希诺宁",
@@ -8131,6 +8140,15 @@
                 "target_en": "Kinich",
                 "title_en": "Kachina about Kinich",
                 "content_en": "It was Mualani who introduced me to him! To be honest, I was a little scared of him at first, because his eyes... well, he's got a scary look. It was only later that I found out that he secretly taught my bullies a lesson. But when I tried to give him a gift to thank him, he refused to take it. He said something along the lines of having already received enough compensation..."
+            },
+            {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "卡齐娜关于恰斯卡",
+                "content_zh": "她是纳塔有名的「调停人」，据说任何争斗都能被她轻松摆平。她会这么做，恐怕是像我一样，很讨厌人与人之间起什么冲突吧…",
+                "target_en": "Chasca",
+                "title_en": "Kachina about Chasca",
+                "content_en": "She's a famous \"peacemaker\" in Natlan! They say she can resolve any conflict, no sweat. I guess that she probably does it because like me, she's really not a fan of people getting into fights with each other..."
             },
             {
                 "target_id": 88,
@@ -8169,6 +8187,15 @@
                 "content_en": "I saw a job posting about her once. Some lowlifes from her tribe got jealous that she'd received an ancient name, and basically tried to order a hit on her Saurian companion... They paid the price, I made sure of that."
             },
             {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "基尼奇关于恰斯卡",
+                "content_zh": "我见过她处理委托。我们对于解决争端的手段存在分歧。通常我会让一方彻底闭嘴，但她会让两方都说不出话，等到他们终于能在病床上开口的时候，早就忘了为何争执。",
+                "target_en": "Chasca",
+                "title_en": "Kinich about Chasca",
+                "content_en": "I've seen how she handles her work. Our methods of conflict-resolution are quite different. I tend to get one party to shut up, but she silences both. By the time they wake up in their sick beds, they have nothing further to say, because they've forgotten whatever it was they were fighting about."
+            },
+            {
                 "target_id": 88,
                 "target_zh": "希诺宁",
                 "title_zh": "基尼奇关于希诺宁",
@@ -8205,6 +8232,15 @@
                 "content_en": "Mualani is an amazing athlete. I've never seen anyone make surfing or gliding on the Spiritways look so smooth or easy. In fact, I have yet to see Mualani ever slip up.\nHmm? What would happen if a person or Saurian got in her way? Hmm, I'm pretty sure she would just scoop them up and keep gliding along."
             },
             {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "希诺宁关于恰斯卡",
+                "content_zh": "为了能飞上天，恰斯卡的「枪」可费了我不少功夫。首先要尽可能保证枪体在高速机动中的稳定性，其次就是要特制出适应高空作战的普通弹药和特种弹药，最后，还要考虑到空中开火的后坐力和瞄准问题…\n但恰斯卡对我说，最后两个问题不用担心，我只需要在枪上装载最基础的机械瞄具，剩下的她会靠自己的能力解决。\n事实证明，恰斯卡确实把她的「枪」驾驭得很好，真不愧是「花羽会」的空中王牌。",
+                "target_en": "Chasca",
+                "title_en": "Xilonen about Chasca",
+                "content_en": "To get Chasca's gun up and running in high altitude was no easy task. First, I had to make sure it would remain stable and reliable in high speed combat. Then, I had to develop standard and special ammunition that could be used for combat at high altitudes. And finally, I had to consider how to solve the issues of recoil and accuracy while flying...\nBut Chasca told me the last two issues were no big deal, and that she'd be able to manage as long as I installed some basic mechanical crosshairs.\nChasca has definitely proven to be an expert user of that weapon. Goes to show that she really is a flying ace of the Flower-Feather Clan."
+            },
+            {
                 "target_id": 87,
                 "target_zh": "基尼奇",
                 "title_zh": "希诺宁关于基尼奇",
@@ -8212,6 +8248,96 @@
                 "target_en": "Kinich",
                 "title_en": "Xilonen about Kinich",
                 "content_en": "Kinich is nice, but that Ajaw is really hard to be around.\nSpeaking of, where did Ajaw even come from? If he originated from some kind of device, then there is actually a chance that I could make him shut up forever. Oh, maybe I should find some time to go over and discuss this with Kinich..."
+            },
+            {
+                "target_id": 90,
+                "target_zh": "欧洛伦",
+                "title_zh": "希诺宁关于欧洛伦",
+                "content_zh": "按照负负得正的理论，一群怪人里的怪人应该是正常人才对，但显然欧洛伦另辟蹊径了。\n不过他人还不错，后来托伊法给「回声之子」送来不少水果和蜂蜜，大概是觉得给大家添麻烦了吧。我都不知道还能通过燃素蜜虫获得这么甜的蜜呢，看来他确实有些本事。\n…唉，怎么会有人养什么活什么呢？",
+                "target_en": "Ororon",
+                "title_en": "Xilonen about Ororon",
+                "content_en": "If two negatives make a positive, then a weirdo in a group of weirdos should just be normal, but Ororon somehow still seems a little off to me.\nStill, he seems plenty nice as a person. He even had Ifa bring a bunch of fruit and honey to the Children of Echoes, presumably because he thought he had caused too much trouble for us. I had no idea you could get such sweet honey from Phlogiston Aphids, so he must know what he's doing.\n*sigh* How can some people be such naturals with plants and animals?"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name_zh": "恰斯卡",
+        "name_en": "Chasca",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/126888/4074c30639ab8bd3c3e949038c55c889_7985757713221276229.png",
+        "ver": "5.2.1",
+        "lines": [
+            {
+                "target_id": 86,
+                "target_zh": "卡齐娜",
+                "title_zh": "恰斯卡关于卡齐娜",
+                "content_zh": "「每只绒翼龙在学会飞行前都曾跌落山崖。」卡齐娜的胜利不是一朝一夕突然降临的奇迹，而是长久努力积累出的结果。像她这样的战士，理应获得更多尊重和荣誉。",
+                "target_en": "Kachina",
+                "title_en": "Chasca about Kachina",
+                "content_en": "\"Every Qucusaur falls from its nest before it learns to fly.\" Kachina didn't magically become a champion overnight. Her victory was a result of consistent, tireless effort over a very long time. She's an outstanding warrior who deserves all the honor and respect she can get."
+            },
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "恰斯卡关于玛拉妮",
+                "content_zh": "玛拉妮说我们小时候因为争抢玩具的原因打过架，不过我已经没什么印象了。\n嗯…难道是因为我小时候打过的架实在太多？还是说那时候我想要抢夺的并不是什么「玩具」…而是盯上了冲浪板的水上狩猎性能…\n呵，不管是因为什么而起，跟玛拉妮闹的矛盾，都留不到下一天。",
+                "target_en": "Mualani",
+                "title_en": "Chasca about Mualani",
+                "content_en": "Mualani says we got into a fight as kids over some toy we both wanted, but I don't remember any of that.\nHmm... I wonder if it's because I got into so many fights that I just lost track of them all? I also wonder if it was actually her surfboard I was after, rather than a toy... I'll bet I just wanted the ability to go hunting on water.\nHeh, whatever it was, I doubt our feud lasted more than a day. It never does with Mualani."
+            },
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "恰斯卡关于希诺宁",
+                "content_zh": "希诺宁她看着总是提不起劲，但真要较起劲来可比谁都认真。\n我请她帮忙打造枪械的时候没想太多，只是给了最基本的需求，就把这事放在了脑后。等到她正式开始动工，她抓着我问了一整天平时的飞行习惯和使用预期，出了满地的图纸跟废案…真没想到我也会有比她先困到睡着的一天。\n后来她还硬是让我背下了她写的《枪械维护手册》，说是免得我以后天天来烦她…不过她真正的意思，大概是让我「注意安全，谨慎飞行」吧。",
+                "target_en": "Xilonen",
+                "title_en": "Chasca about Xilonen",
+                "content_en": "She might come across as low-energy, but make no mistake — she's one of the most diligent people you'll ever meet.\nWhen I asked her to build my gun for me, I barely put any thought into it, just gave her a general idea of what I wanted, and left it with her. Then, once she started working on it in earnest, she spent an entire day questioning me — what would a typical day's flying look like, how often I was expecting to use it, and so on — and by the end of the day, there were abandoned designs schemes all over the floor... I was so exhausted that I fell asleep even before she did.\nThen she wrote a whole maintenance guide, which she forced me to learn by heart so I wouldn't come bugging her with issues every day... Well, that's what she said. But I suspect her real reason was that she wanted to make sure I'd look after myself and fly safe."
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "恰斯卡关于基尼奇",
+                "content_zh": "我最早见到阿乔的时候，还以为它跟基尼奇也是情同家人的关系，没想到错得离谱…原来人跟龙还能这么相处。\n不过阿乔会人类语言这点倒是挺让我羡慕的，要是「妈妈」也能开口说话，我们就不用靠比划跟猜测来聊天了。",
+                "target_en": "Kinich",
+                "title_en": "Chasca about Kinich",
+                "content_en": "When I first saw Ajaw, I thought \"Oh, Kinich has a saurian he treats like family, too\"... Blissfully unaware of how far off the mark I was. Their relationship is... truly one-of-a-kind.\nAlthough I will say, Ajaw's mastery of the human language makes me pretty envious. I wish mom could talk like that, too, so we could do away with the whole body-language-based guesswork-game."
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name_zh": "欧洛伦",
+        "name_en": "Ororon",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/126889/2a247e0e85ce8d3b8090183b9f75cb5e_8153831234503981247.png",
+        "ver": "5.2.1",
+        "lines": [
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "欧洛伦关于希诺宁",
+                "content_zh": "她好像很喜欢待在高处，尤其是树上。我发现倒挂在树枝上会比躺在上面更解压，有机会可以和她交流下心得。欸，不好吗？大家总说要换个角度看世界，像希诺宁这样的发明家，应该很需要吧。",
+                "target_en": "Xilonen",
+                "title_en": "Ororon about Xilonen",
+                "content_en": "She seems to enjoy relaxing in high places, especially trees. In my experience, hanging upside down from a tree branch is more relaxing than lying on top of one. Maybe I should share that with her sometime... What? But don't we all need a change of perspective every now and then? Shouldn't that be even more true for an inventor like Xilonen?"
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "欧洛伦关于基尼奇",
+                "content_zh": "那个阿乔很有意思。它年纪很大，却又年纪很小。基尼奇正好相反，他年纪很小，但年纪很大。你…你能明白我的意思对吧？",
+                "target_en": "Kinich",
+                "title_en": "Ororon about Kinich",
+                "content_en": "Ajaw is an interesting case. He's old, but also young... And Kinich is just the opposite — young, but also old. You know what I mean, right?"
+            },
+            {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "欧洛伦关于恰斯卡",
+                "content_zh": "恰斯卡很厉害，也很出名。只要她一来，人们就都不吵架了，开始和和气气地握手。最讲理的家伙原来叫「武力威慑」，是个不错的名字。",
+                "target_en": "Chasca",
+                "title_en": "Ororon about Chasca",
+                "content_en": "Chasca is famous for a reason. She's an amazing mediator. The minute she shows up, all the fighting stops, and everyone starts shaking hands like the best of friends. She has a pretty convincing method, apparently — \"armed deterrence\"... Not a bad name."
             }
         ]
     }
