@@ -69,7 +69,10 @@ class Updater:
         target_keys = []
         if title.startswith(about[lang]):
             for alias in self.alias_to_name:
-                if  self.alias_to_name[alias] != current_key and alias.lower() in target_text.lower():
+                if (
+                    self.alias_to_name[alias] != current_key
+                    and alias.lower() in target_text.lower()
+                ):
                     # found target, and is not self
                     target_keys.append(self.alias_to_name[alias])
         return target_keys
@@ -288,7 +291,7 @@ def calc_ver():
 
 def main():
     # load aliases
-    with open(DATA_FILE, "r") as f:
+    with open(DATA_FILE, "r", encoding="utf8") as f:
         data_prev = json.load(f)
 
     ver = calc_ver()
