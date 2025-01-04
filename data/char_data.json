@@ -8079,6 +8079,15 @@
         "ver": "5.0.1",
         "lines": [
             {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "玛拉妮关于玛薇卡",
+                "content_zh": "火神大人是纳塔最备受敬仰的头号人物，我很崇拜她，不仅因为她是火神大人，更因为…她冲浪的样子真的很帅！\n我邀请过她参加水上竞速项目…嗯？你好奇我们的输赢？那你和我先比一场吧，你赢过我我就告诉你！",
+                "target_en": "Mavuika",
+                "title_en": "Mualani about Mavuika",
+                "content_en": "The Pyro Archon is the most respected figure in all of Natlan. I really admire her, not only because she's the Pyro Archon, but because... she looks super cool when she surfs!\nI've challenged her to a race before, actually... Huh? You wanna know who was faster? In that case, let's race, and I'll tell you once you beat me!"
+            },
+            {
                 "target_id": 86,
                 "target_zh": "卡齐娜",
                 "title_zh": "玛拉妮关于卡齐娜",
@@ -8103,7 +8112,16 @@
                 "content_zh": "我小时候就跟恰斯卡见过面，我们还因为争夺玩具之类的原因打过几次架呢…在得知她成为「调停人」之后，我还挺意外的。听说有的人是慢慢长大的，有的人就蜕变得很快。我的成长期…是不是还没到啊？",
                 "target_en": "Chasca",
                 "title_en": "Mualani about Chasca",
-                "content_en": "I met Chasca when I was little. We even fought over toys a few times... I was pretty surprised when I heard she became a Peacekeeper. They say some people mature really slowly, while others grow up in an instant. Sometimes, I wonder if I've even started..."
+                "content_en": "I met Chasca when I was little. We even fought over toys a few times... I was pretty surprised when I heard she became a Peacemaker. They say some people mature really slowly, while others grow up in an instant. Sometimes, I wonder if I've even started..."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "玛拉妮关于茜特菈莉",
+                "content_zh": "茜特菈莉奶奶绝对是「烟谜主」最最资深的祭司，不是小前辈不是中前辈，是一等一的大前辈！她给我预测过的事情都超灵验的，很久之前她说过我在生意上的幸运色是粉色和蓝色，果不其然，现在店里销量最高的就是粉色蓝色搭配售卖的豚豚球。\n最近我去缠着她，哦不，探望她，她还提到有一个外来者能给我带来吉兆…等等，欸，你不就是外来者嘛！",
+                "target_en": "Citlali",
+                "title_en": "Mualani about Citlali",
+                "content_en": "Granny Citlali is without a doubt the most experienced priestess I've ever seen. She's more than just an elder, she's like the coolest elder ever! Her predictions are always super accurate. A long time ago, she said the lucky colors for my business were pink and blue. Sure enough, pink and blue floaters are now my top sellers!\nWhile I was bugging her... uh, I mean, visiting her recently, she mentioned there was an outlander who could bring me good fortune... Ah, wait a sec! Aren't you an outlander!?"
             },
             {
                 "target_id": 88,
@@ -8151,6 +8169,15 @@
                 "content_en": "She's a famous \"peacemaker\" in Natlan! They say she can resolve any conflict, no sweat. I guess that she probably does it because like me, she's really not a fan of people getting into fights with each other..."
             },
             {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "卡齐娜关于茜特菈莉",
+                "content_zh": "玛拉妮和我说了，你们能救出我，还多亏了她的发明。「灵觉髓石」坏掉了，我也有不可推脱的责任…后来我鼓起勇气去找她道歉了，并且让她在我收藏的石头里挑几块，她挠着头说：「这，我不挑一个是不是很麻烦啊。拿个差不多的我们就两清，是吧？」最后只拿走了最不起眼的一块黑曜石，就摆了摆手让我走了。你说，我要不要再帮她找点什么？她喜欢什么，你知道吗？",
+                "target_en": "Citlali",
+                "title_en": "Kachina about Citlali",
+                "content_en": "Mualani told me that you were only able to save me thanks to her invention, so I have to accept my share of the responsibility for the destruction of the Spiritspeaker Stone. I worked up the courage to apologize to her in person, and asked her to pick a few rocks from my collection as repayment. She scratched her head and said, \"Well, it'll become an issue if I don't pick one, won't it? Then... We'll be even as long as I pick something reasonably similar, right?\" In the end, she waved me off after taking the most unremarkable piece of obsidian I had. What do you think? Should I try to get her something else? Do you know the kind of thing she likes?"
+            },
+            {
                 "target_id": 88,
                 "target_zh": "希诺宁",
                 "title_zh": "卡齐娜关于希诺宁",
@@ -8168,6 +8195,15 @@
         "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/125706/05a63a2a78f89f0c033bbd77e6dfa54b_2985143624371104657.png",
         "ver": "5.0.2",
         "lines": [
+            {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "基尼奇关于玛薇卡",
+                "content_zh": "一直以来，都是我索取别人的代价，直到火神大人用「还魂诗」将我从夜神之国送归。当作为支付「代价」的一方…我才完全体会到了它的含义。其于强者为筹码，其于弱者为赌注。关键的是，你是否有下注的胆量。",
+                "target_en": "Mavuika",
+                "title_en": "Kinich about Mavuika",
+                "content_en": "For most of my life, I've been getting others to pay a price. Then, the Pyro Archon used the Ode of Resurrection to bring me back from the Night Kingdom, and suddenly I was the one paying the price... Only then did I finally understand it from both sides. To the stronger party, the \"price\" is a bargaining chip, and to the weaker party, it's a sign of what's at stake. What matters is whether you have the courage to make the gamble."
+            },
             {
                 "target_id": 85,
                 "target_zh": "玛拉妮",
@@ -8203,6 +8239,15 @@
                 "target_en": "Xilonen",
                 "title_en": "Kinich about Xilonen",
                 "content_en": "I saw a strange job posting once while passing by the Children of Echoes' territory. The requester was looking for a hardy plant that wouldn't take much maintenance, so I brought over some Saurian claw succulent seeds, along with a pot and some fertilizer. It grows well all over Natlan, even in the most barren areas. But when I went to collect my payment, I saw that not a single seedling had sprouted from the pot.\nI paid the price for overestimating Xilonen's gardening skills. This was one of the few failed jobs on my record."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "基尼奇关于茜特菈莉",
+                "content_zh": "或许你猜到了，我也接过她的委托，帮她从一位稻妻商人处购买一摞摞沉重的纸制阅读品。我无意打探雇主隐私，可「烟谜主」的读物，不是缝在织物上的吗？",
+                "target_en": "Citlali",
+                "title_en": "Kinich about Citlali",
+                "content_en": "As you can probably guess, I've taken jobs from her before. I helped her purchase a heavy stack of paper-based reading material from an Inazuman merchant. Not to pry into my clients' private affairs, but... don't the Masters of the Night-Wind use woven fabric instead of paper?"
             }
         ]
     },
@@ -8241,6 +8286,15 @@
                 "content_en": "To get Chasca's gun up and running in high altitude was no easy task. First, I had to make sure it would remain stable and reliable in high speed combat. Then, I had to develop standard and special ammunition that could be used for combat at high altitudes. And finally, I had to consider how to solve the issues of recoil and accuracy while flying...\nBut Chasca told me the last two issues were no big deal, and that she'd be able to manage as long as I installed some basic mechanical crosshairs.\nChasca has definitely proven to be an expert user of that weapon. Goes to show that she really is a flying ace of the Flower-Feather Clan."
             },
             {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "希诺宁关于玛薇卡",
+                "content_zh": "玛薇卡向我提出过不少异想天开的委托。\n比如，要我打造一柄耐热的剑，剑的整体都要耐得住她的火焰，不至于她一发力，整柄剑都会在她手里融化；还有拜托我打造一副特制的墨镜，这样她操纵火焰战斗的时候，能更好地看清周围的敌人…\n最莫名其妙的还是那台驰轮车。那段时间她天天跑到我的工坊里念叨，非要我给她做一台用燃素驱动的代步驾具，还塞给我了一大堆不知道从哪弄来的设计图…最后我实在受不了了，花了整整三个月，帮她做好了那台驰轮车。结果我听说，这家伙天天开着驰轮车在纳塔的野外到处狂奔，还没人能去管她…\n…比起这些事，为一位外来的旅行者打造「古名」，反倒像是一件相对来说比较靠谱的事务了。",
+                "target_en": "Mavuika",
+                "title_en": "Xilonen about Mavuika",
+                "content_en": "Mavuika has approached me with quite a few ridiculous commissions.\nFor example, she wanted me to make her a heat-resistant sword that could withstand her flames and wouldn't melt in her hands. Oh yeah, she also asked me if I could make her a special pair of sunglasses that would let her better see enemies through the flames in combat...\nBut the most bizarre request was that bike of hers... At the time, she would keep coming to the workshop to talk about it and insist that I make her a phlogiston-powered vehicle. She even shoved a bunch of design schematics in front of me, and yeah, who even knows where she got those... I eventually couldn't take it anymore and gave in. It took me three whole months to complete it. I heard she's been driving it through the Natlan wilderness and that no one can stop her... So yeah...\nCompared to all of that, I'd say forging an Ancient Name for an outlander is really a relatively reasonable task."
+            },
+            {
                 "target_id": 87,
                 "target_zh": "基尼奇",
                 "title_zh": "希诺宁关于基尼奇",
@@ -8248,6 +8302,15 @@
                 "target_en": "Kinich",
                 "title_en": "Xilonen about Kinich",
                 "content_en": "Kinich is nice, but that Ajaw is really hard to be around.\nSpeaking of, where did Ajaw even come from? If he originated from some kind of device, then there is actually a chance that I could make him shut up forever. Oh, maybe I should find some time to go over and discuss this with Kinich..."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "希诺宁关于茜特菈莉",
+                "content_zh": "茜特菈莉有时候会来我的工坊买矿石。据她说，有些矿石磨成粉后能够做成可服用的药物，帮助她进行占卜和祭祀。我有没有拜托她进行过占卜？没有，我对尚未发生的事情没有兴趣。当下的事务就够我操心的了，而且我总是会在占卜仪式上犯困…",
+                "target_en": "Citlali",
+                "title_en": "Xilonen about Citlali",
+                "content_en": "Citlali would occasionally come to my workshop to buy some ore. According to her, some ores can be crushed into powder and taken as medicine to help her with divinations and ceremonies. Hm? Have I ever asked her to read my fortune? No, I'm not interested in knowing the future. I already have enough to worry about with all my present work. Besides, I always get sleepy during divination rituals..."
             },
             {
                 "target_id": 90,
@@ -8295,6 +8358,15 @@
                 "content_en": "She might come across as low-energy, but make no mistake — she's one of the most diligent people you'll ever meet.\nWhen I asked her to build my gun for me, I barely put any thought into it, just gave her a general idea of what I wanted, and left it with her. Then, once she started working on it in earnest, she spent an entire day questioning me — what would a typical day's flying look like, how often I was expecting to use it, and so on — and by the end of the day, there were abandoned designs schemes all over the floor... I was so exhausted that I fell asleep even before she did.\nThen she wrote a whole maintenance guide, which she forced me to learn by heart so I wouldn't come bugging her with issues every day... Well, that's what she said. But I suspect her real reason was that she wanted to make sure I'd look after myself and fly safe."
             },
             {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "恰斯卡关于玛薇卡",
+                "content_zh": "有人因为我在「归火圣夜巡礼」中的胜率高，就拿我和火神大人进行比较。这太片面了。如果把我比作树梢上的一只鹫，那火神大人便是天上的太阳。实力越强，越是知道她的深不可测。我只是赢了几场比赛，而她…却冠绝了整个时代。\n——但也正因为这样，我才能清晰地看见，自己想要飞向的高度，到底在哪里。",
+                "target_en": "Mavuika",
+                "title_en": "Chasca about Mavuika",
+                "content_en": "Some people compare me to the Pyro Archon because of my track record in the Pilgrimage. It's a meaningless comparison. If the Pilgrimage was a tree, and I was a vulture on the highest branch, then the Pyro Archon would be the sun in the sky... The stronger you get, the more you appreciate the sheer size of the gulf between you and her. I just won a few championships — she's the champion of an entire era.\nBut at least being on top with a clear view of the sky means I can see exactly how high I want to fly from here."
+            },
+            {
                 "target_id": 87,
                 "target_zh": "基尼奇",
                 "title_zh": "恰斯卡关于基尼奇",
@@ -8302,6 +8374,15 @@
                 "target_en": "Kinich",
                 "title_en": "Chasca about Kinich",
                 "content_en": "When I first saw Ajaw, I thought \"Oh, Kinich has a saurian he treats like family, too\"... Blissfully unaware of how far off the mark I was. Their relationship is... truly one-of-a-kind.\nAlthough I will say, Ajaw's mastery of the human language makes me pretty envious. I wish mom could talk like that, too, so we could do away with the whole body-language-based guesswork-game."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "恰斯卡关于茜特菈莉",
+                "content_zh": "听老爹说，当年他们请教了全纳塔最富学识的长老们，来为我制定控制深渊影响的方案。当时他们各执己见、争论不休，都没人留意到茜特菈莉一声不吭地走出了门。等她回来，只见她把酒和菜往自己面前一放，自顾自地吃了起来…一时间全桌人鸦雀无声。\n光看外表，还真难想象她有这么高的资历跟辈分。",
+                "target_en": "Citlali",
+                "title_en": "Chasca about Citlali",
+                "content_en": "My dad told me that when I was little, they gathered all of the most learned elders in Natlan and asked them to come up with a plan for managing my Abyss condition. They all disagreed on the best approach, and it turned into a drawn-out debate. At some point, Citlali quietly left the room, but they were all too busy arguing to notice. When she got back, she put some food and wine down in front of her, ignored everyone, and just started eating... the table suddenly went very quiet.\nJust by looking at her, you'd never know how much seniority and experience she has."
             }
         ]
     },
@@ -8338,6 +8419,159 @@
                 "target_en": "Chasca",
                 "title_en": "Ororon about Chasca",
                 "content_en": "Chasca is famous for a reason. She's an amazing mediator. The minute she shows up, all the fighting stops, and everyone starts shaking hands like the best of friends. She has a pretty convincing method, apparently — \"armed deterrence\"... Not a bad name."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "欧洛伦关于茜特菈莉",
+                "content_zh": "奶奶其实是个很直白的人，高兴或者不高兴都会直接表现出来，也不太擅长掩饰自己的情感。你看上去像是她的同辈，或者…甚至比她更大？\n抱歉，这样好像不太礼貌，我不多问了。但如果真是这样，就请你多和她聊聊天吧，奶奶大概受够了身边都是晚辈，见到你会很开心的。",
+                "target_en": "Citlali",
+                "title_en": "Ororon about Citlali",
+                "content_en": "Granny is actually a very straightforward person. She wears her emotions on her sleeve, you know? It's hard for her to hide what she's feeling. You're the same age as her, right? Or... are you even older?\nSorry, I shouldn't ask. That was probably rude... But, if I'm right, maybe you could spend more time together. Granny's been surrounded by people younger than her for a long time, and she's probably had enough. I know she'll be happy to see you."
+            },
+            {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "欧洛伦关于玛薇卡",
+                "content_zh": "我之前并不认识火神大人。\n我的意思是，我当然知道火神是谁，但并不像当面对过话的那种「认识」。在这之前，火神大人对我来说更像一种刻写着力量的图腾，一个象征着掌控全局的标志。这在我心中并不算切实的了解，所以我产生了疑问。\n现在疑问消失了不少，我很开心，也有些心虚和羞愧…她似乎从不迷茫，知道火焰为何长燃，所以无论如何不能让其熄灭。我希望…希望自己能成为帮得上纳塔的人。\n当然，关于她我还有一些思考…上次在宴会上见到她吃了很多很多绿叶蔬菜，我们还聊了这件事，她说她很喜欢营养均衡的感觉。总觉得，是比想象中更细致的人。",
+                "target_en": "Mavuika",
+                "title_en": "Ororon about Mavuika",
+                "content_en": "I didn't really know the Pyro Archon before all this.\nI mean, I knew of her, but I didn't KNOW know her, you know? I used to think of her like a totem engraved with the word \"strength,\" like a symbol of total power and control. But, it never went deeper than that, so doubt started to creep in.\nNow that I know her better, I feel grateful, but I'm also a little disappointed in myself... She seems so sure of her purpose. She has a fire inside her and knows exactly why it burns, so she won't ever let the flames go out. I want that... I want to be someone who can help Natlan.\nAnyway, so there's that, and um... I also noticed her eating a lot of leafy vegetables at the victory feast. When I asked her about it, she said she likes to keep a balanced diet. Kinda surprised me somehow. I guess she's more mindful of the little things than I expected."
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name_zh": "茜特菈莉",
+        "name_en": "Citlali",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/127616/e0ea0a8d21fbbc785914e4d2c69c15f2_4804360565785840410.png",
+        "ver": "5.3.1",
+        "lines": [
+            {
+                "target_id": 90,
+                "target_zh": "欧洛伦",
+                "title_zh": "茜特菈莉关于欧洛伦",
+                "content_zh": "哼哼。",
+                "target_en": "Ororon",
+                "title_en": "Citlali about Ororon",
+                "content_en": "Hmph."
+            },
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "茜特菈莉关于玛拉妮",
+                "content_zh": "玛拉妮和我之间有笔算不清楚的账。她应该付我的报酬、弄坏我家门的赔偿、实付报酬、蹭我零食、给我带的小吃…总之算不清了。如果她不介意的话，我倒是想就此两清。正应该睡觉的周末上午十一点…啊，没什么！总之，突然被她咚咚咚锤门，太可怕了。",
+                "target_en": "Mualani",
+                "title_en": "Citlali about Mualani",
+                "content_en": "Between me and Mualani, I honestly don't know who owes who anymore. She breaks my door, owes me Mora, steals my food, but then she brings me snacks and pays for other things... It's too hard to keep track. I'm more than happy to just call it even at this point. Anything to get her to stop waking me up at eleven in the morning... Oh, I mean, um... Never mind! She just startles me with her knocking, that's all."
+            },
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "茜特菈莉关于希诺宁",
+                "content_zh": "像她这样既不在乎关于我的奇怪谣言，又不会过分热情的人相处起来最轻松不过了。啊，不是——在你面前我也很轻松。我拘谨的本性都不自觉流露了！",
+                "target_en": "Xilonen",
+                "title_en": "Citlali about Xilonen",
+                "content_en": "She's someone who completely ignores the rumors about me and doesn't go overboard with friendliness. So, I always feel comfortable around her. Oh! Not that I feel uncomfortable around you! I'm just... overthinking everything, as usual... Great, now you know that, too."
+            },
+            {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "茜特菈莉关于玛薇卡",
+                "content_zh": "玛薇卡这家伙…咳咳，不好意思，火神大人她前些日子突然过来找我说了一大堆话。后来我半夜吃宵夜时才明白她过来炫耀了什么。有一句异邦的古话，想想还挺适合她的。「圣者谦卑，只有谈到自己责任时，会骄傲地加一句『我说句大话…』」。",
+                "target_en": "Mavuika",
+                "title_en": "Citlali about Mavuika",
+                "content_en": "Heh, Mavuika... *ahem* I mean, the Archon came to talk to me the other day. It wasn't until I was eating snacks in the middle of the night that I realized she was basically bragging the whole time! There's an ancient saying from another land that goes, \"Saints are humble until you ask them about their duty — that's when their pride stands tall.\" I think that fits her perfectly."
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "茜特菈莉对神里绫华",
+                "content_zh": "…哈，小妹，你转过来给我看看。嘶，这是《奥西兹小姐事件簿》啊，嗨，我还以为是《赫尔洛克》系列的女二号呢。枫丹的衣服在我看来都一样。行了，你继续吧，我没事了。",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Citlali about Kamisato Ayaka",
+                "content_en": "...You, young lady over there, turn around and let me have a look. Ah, so this is from The Case Files of Miss Orith. I thought it was the second female lead from Great Detective Herlock. All Fontaine clothes look the same to me. Alright, you can be on your way now. That's all I wanted to say."
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "茜特菈莉关于基尼奇",
+                "content_zh": "他身边的那个小东西有点烦人。他是你朋友吗？那我想想还有什么别的印象…他本人还是挺可靠的。嗯。",
+                "target_en": "Kinich",
+                "title_en": "Citlali about Kinich",
+                "content_en": "The small thing that follows him around is a nasty piece of work. Oh, Kinich is a friend of yours? Huh, what else can I say about him... He's pretty reliable, I suppose."
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name_zh": "玛薇卡",
+        "name_en": "Mavuika",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/127622/147a22ef8d2be797225611dd75f89544_3524164967491316719.png",
+        "ver": "5.3.1",
+        "lines": [
+            {
+                "target_id": 88,
+                "target_zh": "希诺宁",
+                "title_zh": "玛薇卡关于希诺宁",
+                "content_zh": "希诺宁是纳塔最优秀的工匠之一，不仅掌握古名的打造方法，还对秘源技术颇有研究，就算是需要创造前所未有的东西，她也勇于挑战，总能拿出好的结果，虽然过程通常会有点波折…嗯，比如改设计之类的。",
+                "target_en": "Xilonen",
+                "title_en": "Mavuika about Xilonen",
+                "content_en": "Xilonen is one of the best craftsmen in Natlan. She has the ability to forge Ancient Names and is well-versed in Secret Source technology. Not to mention, she never backs away from a challenge, even when it's completely uncharted territory. The process isn't without twists and turns — like design changes and other modifications — but the results speak for themselves."
+            },
+            {
+                "target_id": 91,
+                "target_zh": "茜特菈莉",
+                "title_zh": "玛薇卡关于茜特菈莉",
+                "content_zh": "很多人觉得她脾气古怪，难以相处，我认为只是普通的琐事不配让她放在心上。当真正需要她担心的事出现，她会有多认真，你们应该已经见识过了…有时候我觉得像她这样的性格很容易被卷入险境，所以我会向她隐瞒一些东西，可是…想要不被她洞察到也很难，她太敏锐了。",
+                "target_en": "Citlali",
+                "title_en": "Mavuika about Citlali",
+                "content_en": "Many people find her strange or difficult to get along with. But, this is how I see it — Citlali doesn't concern herself with trivial matters, but she's always there when it counts. I'm sure you've seen that for yourself. She's someone who can easily tunnel vision and get herself embroiled in trouble, so I try to keep certain things from her. But, she can see right through me... She's too sharp."
+            },
+            {
+                "target_id": 89,
+                "target_zh": "恰斯卡",
+                "title_zh": "玛薇卡关于恰斯卡",
+                "content_zh": "能在深渊的影响下存活，本就是种奇迹，更令人感动的是，她在纳塔邂逅的人与龙，共同帮助她找到了活下去的「理由」。现在我已无须担心她的坚韧，但我还是想要尽我所能，为她留出一个更加温柔的「居所」——再坚强的人，也需要休息。",
+                "target_en": "Chasca",
+                "title_en": "Mavuika about Chasca",
+                "content_en": "Being able to survive under the influence of Abyssal corrosion was already a miracle, but thanks to the people and Saurians of this land, she even found a reason not just to survive, but to live. I have every faith in her fortitude, but I will still do what I can to make this land a \"gentler\" place — even the strongest among us need a break sometimes."
+            },
+            {
+                "target_id": 90,
+                "target_zh": "欧洛伦",
+                "title_zh": "玛薇卡关于欧洛伦",
+                "content_zh": "在我看来，他的真实性格和外在表现出的东西相去甚远，他就像是一块被冰块包裹的熔岩，让他冷静下来的东西是族人与朋友，让他躁动不安的则是守护他们的冲动，与成为英雄的使命感…这种情绪并不理智，但又难能可贵。",
+                "target_en": "Ororon",
+                "title_en": "Mavuika about Ororon",
+                "content_en": "In my opinion, Ororon's true personality is very different from what he projects on the outside — like lava covered in ice. His tribe and his friends bring him peace, but his drive to protect them and his need to become a hero leave him restless. It's inadvisable to act on impulse, but these are precious qualities all the same."
+            },
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "玛薇卡关于玛拉妮",
+                "content_zh": "她和图帕克的性格完全不同，却都继承了「沃摩延」之名。「团结」重要的并不是方式，而是内心中珍视友人与家园，愿意为此献出全力的精神…虽然我这么说，但当时的玛拉妮一定没想这么多，她只是很清楚，卡齐娜与她自己的生命同等重要。",
+                "target_en": "Mualani",
+                "title_en": "Mavuika about Mualani",
+                "content_en": "In terms of personality, Mualani and Tupac are completely different, and yet both inherited the name, Umoja. Unity lies not in a particular action, but in a state of mind — a willingness to give your all for your nation, family and friends. But, I doubt Mualani was thinking about any of that back then. She knew one thing to be true — that Kachina's life was worth any risk to her own."
+            },
+            {
+                "target_id": 87,
+                "target_zh": "基尼奇",
+                "title_zh": "玛薇卡关于基尼奇",
+                "content_zh": "「马力卜」除了回火还有一个含义是「代价」，你们可能会疑问，相较于其他古名，这并非是一个表达积极含义的词语。但其实「代价」象征着时刻保持清醒，敢于分析现状，提出问题，哪怕是泼冷水和说丧气话，如果没有这样的人在，众人很容易因情绪而陷入死局，因小失大。",
+                "target_en": "Kinich",
+                "title_en": "Mavuika about Kinich",
+                "content_en": "In addition to the Turnfire, Malipo has another meaning, \"cost\" or \"price.\" It may seem less overtly heroic compared to the other Ancient Names, but in truth, Malipo teaches us to be calm and analytical — to ask the questions people may not want to hear. Without people who possess these qualities, it's just too easy for the rest of us to act on impulse and emotion, and make decisions we'll come to regret."
+            },
+            {
+                "target_id": 86,
+                "target_zh": "卡齐娜",
+                "title_zh": "玛薇卡关于卡齐娜",
+                "content_zh": "在你们帮助卡齐娜从夜神之国平安归来之后，我去了她家，和首领一起再次表达了歉意，还送去了一些慰问品。迷失在夜神之国的这段经历会在卡齐娜的成长中残留很多影响，而这些影响本不应该发生…我对此负有责任。",
+                "target_en": "Kachina",
+                "title_en": "Mavuika about Kachina",
+                "content_en": "After you rescued Kachina from the Night Kingdom, I visited her family with Chief Pacal, and brought a few gifts to once again apologize for what happened. Kachina's time in the Night Kingdom left her with many scars she will have to carry into the future — scars she should never have had to bear... And for that, the fault is mine."
             }
         ]
     }
