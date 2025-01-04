@@ -1,5 +1,4 @@
-**—> [genshin-social-network.vercel.app](https://genshin-social-network.vercel.app/) <—**\
-alt link **—> [king-of-infinite-space.github.io/genshin-social-network](https://king-of-infinite-space.github.io/genshin-social-network/)**
+**[king-of-infinite-space.github.io/genshin-social-network](https://king-of-infinite-space.github.io/genshin-social-network/)**
 
 ---
 
