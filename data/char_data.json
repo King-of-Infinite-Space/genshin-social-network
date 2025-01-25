@@ -1679,6 +1679,15 @@
                 "target_en": "Gaming",
                 "title_en": "Xiangling about Gaming",
                 "content_en": "Oh boy, once I know Gaming is coming, I make sure to prepare a huge pot of tea in advance. You know, so he can wash some of the spicy food down. I've offered to tone down the spice a bit for him, but he absolutely insists that he prefers the authentic flavor... And he's not even just saying that to be polite. Believe me, I know a true foodie when I see one! Anyway, if that's what he prefers, then who am I to disappoint, hehe!"
+            },
+            {
+                "target_id": 93,
+                "target_zh": "蓝砚",
+                "title_zh": "香菱关于蓝砚",
+                "content_zh": "锅巴很喜欢她！第一天见面就不停地跟她握手，不知道的还以为他们认识了很久呢哈哈！我已经蓝师傅约好啦，让她带我去抓昆虫，采野蕈…嘻嘻，等我的新菜创作出来之后，你们都要来吃哦！",
+                "target_en": "Lan Yan",
+                "title_en": "Xiangling about Lan Yan",
+                "content_en": "Guoba loves Lan Yan! They spent soooooo long shaking hands when they first met, it was like they'd known each other forever, haha. Lan Yan actually promised to take me foraging for wild mushrooms and insects... Hehe, once my new dish is ready, you've gotta come try it!"
             }
         ]
     },
@@ -2048,6 +2057,15 @@
                 "target_en": "Yelan",
                 "title_en": "Keqing about Yelan",
                 "content_en": "Ms. Yelan's ancestors used to serve the Qixing. My grandfather and her family have had academic collaborations in the past. All in all, she's reliable, efficient, and provides important intel to the Ministry of Civil Affairs. I can't say for sure how Ms. Yelan actually gets her intel, however..."
+            },
+            {
+                "target_id": 93,
+                "target_zh": "蓝砚",
+                "title_zh": "刻晴关于蓝砚",
+                "content_zh": "蓝师傅为人谦和，手艺精湛，往后总务司或有更多推广民间工艺的筹划，还要仰赖像她这样的手工大师支持。欸…抛开工作不谈？那自然也很欢迎她多来璃月港玩，我们应该挺聊得来的。",
+                "target_en": "Lan Yan",
+                "title_en": "Keqing about Lan Yan",
+                "content_en": "Madame Lan is a lovely young lady and a very talented craftswoman. As the Ministry of Civil Affairs works to promote local craftmanship in the future, we will certainly consult masters like her. Oh, what about outside of work? Of course, she's welcome in Liyue Harbor any time. I find her company very enjoyable."
             }
         ]
     },
@@ -2867,6 +2885,15 @@
                 "target_en": "Shenhe",
                 "title_en": "Hu Tao about Shenhe",
                 "content_en": "She is quite the fascinating individual, completely different from anyone else I've encountered. Do you think if I started eating divine herbs and drinking the dew of the mountains every single day, I'd be able to look as pure and pristine as she does? Oh~!"
+            },
+            {
+                "target_id": 93,
+                "target_zh": "蓝砚",
+                "title_zh": "胡桃关于蓝砚",
+                "content_zh": "蓝姑娘啊…她实力不俗，可不仅仅是「皮毛」这么简单。奇门秘术可真了不得，病气死气都被搬走啦。哎呀，可谓是——世风日上，身强力壮，往生堂的生意越来越难做喽。",
+                "target_en": "Lan Yan",
+                "title_en": "Hu Tao about Lan Yan",
+                "content_en": "Lan Yan, you say? She's a lot stronger than she looks. She claims to only know a few of the Qimen arts, but she can get rid of dangerous things like fetor and illnesses! Aiya, there's only one problem... Removing all the bad stuff and making everyone all fit and strong isn't exactly good for the funeral business!"
             }
         ]
     },
@@ -7528,6 +7555,15 @@
                 "target_en": "Charlotte",
                 "title_en": "Gaming about Charlotte",
                 "content_en": "Oh, yeah, yeah, the journalist, I know who you mean! All the Fontainians in Yilong Wharf read The Steambird, and sometimes I take a peekski too. Seems like all the best articles have her name on them. Wait! And you were on the front page once! That was you, right?"
+            },
+            {
+                "target_id": 93,
+                "target_zh": "蓝砚",
+                "title_zh": "嘉明关于蓝砚",
+                "content_zh": "认识她，你有食神啦！你让蓝砚带你去山里吃农家菜，点名要去可以自带食材加工的农庄，你说是嘉明指定那家，她就知道了。那条山路特别难走，没有她这样有经验的本地人带路，我怕你走到天黑都找不到。你们尽管去吃，报我名字就行，老板认识我的，吃完入我数！",
+                "target_en": "Lan Yan",
+                "title_en": "Gaming about Lan Yan",
+                "content_en": "Being friends with Lan Yan is a food-lover's dream! You've gotta ask her to take you into the mountains to try the local dishes. There's even a place where you can bring your own ingredients. Just tell her Gaming told you about it, and she'll know the one. The mountain roads are hard to navigate, so you'll definitely need her to lead the way. Don't want you getting lost out there! Anyway, eat as much as you want, okay? The boss is my friend, so just put it on my tab and call it a day!"
             }
         ]
     },
@@ -8572,6 +8608,78 @@
                 "target_en": "Kachina",
                 "title_en": "Mavuika about Kachina",
                 "content_en": "After you rescued Kachina from the Night Kingdom, I visited her family with Chief Pacal, and brought a few gifts to once again apologize for what happened. Kachina's time in the Night Kingdom left her with many scars she will have to carry into the future — scars she should never have had to bear... And for that, the fault is mine."
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name_zh": "蓝砚",
+        "name_en": "Lan Yan",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/127666/b426464fc7f1b760b37946dca23f85f9_7613123317131424662.png",
+        "ver": "5.3.2",
+        "lines": [
+            {
+                "target_id": 17,
+                "target_zh": "香菱",
+                "title_zh": "蓝砚关于香菱",
+                "content_zh": "都说第一印象很重要，在万民堂吃过在璃月港的第一顿饭后，我就后悔了。后悔怎么没有早点来璃月港，这样说不定能早点认识香菱！她听说我老家山里有许多罕见食材后，忙不迭就开始计划来沉玉谷的行程了，到时我一定得让她满载而归。",
+                "target_en": "Xiangling",
+                "title_en": "Lan Yan about Xiangling",
+                "content_en": "Everyone says first impressions are important, and the first time I ate at Wanmin Restaurant, I had so much regret... regret that it took me so long to visit Liyue Harbor! I could have met Xiangling way sooner... In any case, as soon as she heard me talk about all the rare ingredients in the mountains of my hometown, she started planning a trip to Chenyu Vale! I'll make sure she doesn't go home empty-handed!"
+            },
+            {
+                "target_id": 29,
+                "target_zh": "胡桃",
+                "title_zh": "蓝砚关于胡桃",
+                "content_zh": "胡堂主给人感觉总是嘻嘻哈哈的，哪怕在危急的困境中她都没有忘记说玩笑话来安抚我…我跟她认识的时间不长，她一直都这样乐观积极吗？嗯…不管怎样，至少从今天开始，祝愿她笑的时候是真的很开心，而不是为了不让身边的人担心。",
+                "target_en": "Hu Tao",
+                "title_en": "Lan Yan about Hu Tao",
+                "content_en": "Director Hu always seems so upbeat and cheerful. Even when the situation was desperate, she was always there with a joke to cheer me up. I haven't known her long, so I was wondering... Is she always like that? Hmm... In any case, starting from today, I hope all her smiles are out of genuine happiness, rather than an effort to reassure other people."
+            },
+            {
+                "target_id": 20,
+                "target_zh": "刻晴",
+                "title_zh": "蓝砚关于刻晴",
+                "content_zh": "玉衡大人什么时候能闲下来呢？海灯节期间看她东奔西跑忙个不停，也没能找到机会请她吃顿饭，好好感谢她的招待…我还想拜托她帮我梳一对跟她一样的猫猫耳朵呢…会不会很僭越？但直觉告诉我她不会介意欸…",
+                "target_en": "Keqing",
+                "title_en": "Lan Yan about Keqing",
+                "content_en": "When will the Yuheng finally take a break? She was running all over the place during the Lantern Rite. I wanted to treat her to a meal to thank her for her kindness, but I never had the chance... I was also hoping she could do my hair into a pair of cat ears just like hers. But... maybe that's asking too much. Although, something tells me she wouldn't mind..."
+            },
+            {
+                "target_id": 18,
+                "target_zh": "行秋",
+                "title_zh": "蓝砚关于行秋",
+                "content_zh": "我曾在山林里偶遇过行秋少爷几回，他身边没有飞云商会的伙计跟着，看起来不像在办公事…在那以后他时不时会给我送几本最新出版的志怪小说，请我帮他保守秘密。完了…我是不是不小心说出来了…这下请你帮我们俩都保守住秘密啊！",
+                "target_en": "Xingqiu",
+                "title_en": "Lan Yan about Xingqiu",
+                "content_en": "I've run into master Xingqiu several times in the mountains. He wasn't accompanied by anyone from the Feiyun Commerce Guild, so it never seemed like official business. After those chance encounters, he often brought me copies of the newest supernatural novels, and I promised to never tell anyone. Except... I definitely just told you, didn't I? Please keep that secret for the both of us, {NICKNAME}!"
+            },
+            {
+                "target_id": 19,
+                "target_zh": "重云",
+                "title_zh": "蓝砚关于重云",
+                "content_zh": "有一次我跟着爷爷上门占卦，正巧碰到他从事主家中沮丧离开…我本以为屋里头的情况不容乐观，就连他也无计可施了。可我进屋后并没有感受到任何不妙的气息，爷爷这边得出的也是吉卦…兴许是他费了大功夫，累到没力气说话了。你说他很可能什么都没做？那我就更不懂了…",
+                "target_en": "Chongyun",
+                "title_en": "Lan Yan about Chongyun",
+                "content_en": "One time, I was out with grandpa on one of his house calls, when I saw Chongyun leave the house with a dejected look on his face. Given how helpless he looked, I assumed the situation must have been bad, but I didn't sense an ominous presence within the house. Grandpa's reading didn't predict any misfortune, either. Maybe he spent a lot of energy getting rid of the problem and was too tired to talk... Huh? You think it's possible he didn't do anything at all? That makes me even more confused..."
+            },
+            {
+                "target_id": 78,
+                "target_zh": "嘉明",
+                "title_zh": "蓝砚关于嘉明",
+                "content_zh": "我跟嘉明从小就认识，还记得他小时候是家喻户晓的淘气大魔王，现在完全看不出来？哈哈，也许这就是成长吧，我也跟小时候不太一样呢。但有一点他始终没变——就是走到哪总会带点好吃的在身上，每次回来都不会忘记给家乡朋友带些外地的点心。当然，更不会忘记打包一堆家乡小吃带走…",
+                "target_en": "Gaming",
+                "title_en": "Lan Yan about Gaming",
+                "content_en": "I've known Gaming since we were kids! He was quite the neighborhood terror back then, haha. Hm? That doesn't sound like him? Well, he's matured a lot since then, just like I have. One thing hasn't changed, though — he still carries snacks with him wherever he goes. He always comes back from his travels with a ton of goodies to share with his friends. And, of course, he never leaves without stocking up on his hometown favorites..."
+            },
+            {
+                "target_id": 21,
+                "target_zh": "七七",
+                "title_zh": "蓝砚关于七七",
+                "content_zh": "七七姑娘喜欢小团雀对吗？想用藤皮编一只送给她…你知道她喜欢什么颜色吗？",
+                "target_en": "Qiqi",
+                "title_en": "Lan Yan about Qiqi",
+                "content_en": "Qiqi likes finches, right? I'm thinking of making her one out of rattan! Do you know her favorite color?"
             }
         ]
     }
