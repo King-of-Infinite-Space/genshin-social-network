@@ -1684,7 +1684,7 @@
                 "target_id": 93,
                 "target_zh": "蓝砚",
                 "title_zh": "香菱关于蓝砚",
-                "content_zh": "锅巴很喜欢她！第一天见面就不停地跟她握手，不知道的还以为他们认识了很久呢哈哈！我已经蓝师傅约好啦，让她带我去抓昆虫，采野蕈…嘻嘻，等我的新菜创作出来之后，你们都要来吃哦！",
+                "content_zh": "锅巴很喜欢她！第一天见面就不停地跟她握手，不知道的还以为他们认识了很久呢哈哈！我已经跟蓝师傅约好啦，让她带我去抓昆虫，采野蕈…嘻嘻，等我的新菜创作出来之后，你们都要来吃哦！",
                 "target_en": "Lan Yan",
                 "title_en": "Xiangling about Lan Yan",
                 "content_en": "Guoba loves Lan Yan! They spent soooooo long shaking hands when they first met, it was like they'd known each other forever, haha. Lan Yan actually promised to take me foraging for wild mushrooms and insects... Hehe, once my new dish is ready, you've gotta come try it!"
@@ -3596,6 +3596,15 @@
                 "target_en": "Kirara",
                 "title_en": "Sayu about Kirara",
                 "content_en": "One time, when I woke up from an afternoon nap, I felt something warm against my back. I turned around and saw a cat curled up fast asleep. You wouldn't believe this — it had not only one, but two fluffy tails! I almost fell from the tree in surprise. I—Is this some form of ninjutsu too?"
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "早柚关于梦见月瑞希",
+                "content_zh": "奇怪的紫色妖怪…被她盯着的时候，感觉好像要被吃掉一样…唔！惹不起，我还是躲着她走吧！",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Sayu about Yumemizuki Mizuki",
+                "content_en": "That strange, purple youkai... Every time she looks at me, I get this feeling like she could devour me whole... Eek! I can't afford to get on her bad side, so I'm just gonna stay out of her way!"
             }
         ]
     },
@@ -3730,6 +3739,15 @@
                 "target_en": "Furina",
                 "title_en": "Raiden Shogun about Furina",
                 "content_en": "For five centuries I dueled the Raiden Shogun in my personal realm of consciousness, to confirm the steadfastness of my will. Yet this Furina you speak of, though possessing only a frail human body, committed herself to acting out her part every second of every day for five hundred years — a true battle of the spirit. Her willpower has indeed reached the level of a god."
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "雷电将军关于梦见月瑞希",
+                "content_zh": "梦见月瑞希是神子的旧识，不过，我有些看不明白她们两位的关系…既是彼此无可替代的友人，又不愿将感情置于台面。总是为某些计划相持不下，想要决出高低…鉴于这些计划的核心都是帮助民众享受生活，我便不多说什么了。",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Raiden Shogun about Yumemizuki Mizuki",
+                "content_en": "Yumemizuki Mizuki is one of Miko's old acquaintances, but I struggle to understand their friendship. Though they share an irreplaceable bond, they seem reluctant to associate with each other in public, instead engaging in a long-standing business feud. In the end, much of their rivalry centers around projects that end up improving people's lives, so I see no reason to intervene."
             }
         ]
     },
@@ -3919,6 +3937,15 @@
                 "target_en": "Shikanoin Heizou",
                 "title_en": "Sangonomiya Kokomi about Shikanoin Heizou",
                 "content_en": "Initially, I was astonished to see anyone coming to Watatsumi Island wearing a Tenryou Commission uniform. A Tenryou Commission samurai would never be that brazen, and a Tenryou Commission spy would never be that conspicuous. Shortly after, I discovered that he was a self-proclaimed \"detective\" by the name of Shikanoin, and that he took no interest in military, government, or commercial affairs. Instead, he seemed to have arrived for a bit of sightseeing. As such, I set a few eyes on him, but refrained from taking any action to remove him from the island. Be sure to talk to him if the chance ever presents itself."
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "珊瑚宫心海关于梦见月瑞希",
+                "content_zh": "瑞希小姐的能力与才艺有目共睹。我曾想请她出任顾问，协力我一同发展海祇岛的各式文化项目。但几次交谈过后，我便明白，瑞希小姐的目光放眼在整个稻妻。我期待能够早日见证她的成就。如有任何需要，海祇岛也随时欢迎她的到来。",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Sangonomiya Kokomi about Yumemizuki Mizuki",
+                "content_en": "Miss Mizuki's talents are well-known throughout the land. I had some ideas for a few projects around Watatsumi Island and was hoping to bring her on as a consultant. But, after talking with her, it became clear that she has much bigger dreams in mind. I'm looking forward to the day when she brings that vision to fruition. In the meantime, Watatsumi Island is always open to her."
             }
         ]
     },
@@ -4558,6 +4585,24 @@
                 "target_en": "Kirara",
                 "title_en": "Yae Miko about Kirara",
                 "content_en": "More youkai have expressed an interest in the human world lately. I wonder if that's a good thing or not. You want to know what I think? Hehe, I would tell them to live for the moment. Besides, how could I ever dislike a little youkai who would willingly take us out to dinner and pay for the meal?"
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "八重神子关于梦见月瑞希·产业竞争",
+                "content_zh": "「焦虑劳累之人根本读不进小说」？唉，我们「八重堂」真是失败啊，旗下的小说还是趣味性不足，到现在为止，还没能推出足够获得瑞希小姐认可的小说。再给我的编辑和作家一点时间吧，要是接下来的作品还是没法让瑞希店长点头，我这个没用的主编，就只能亲自给瑞希小姐写一本小说咯，名字…就叫「梦貘记」好了。",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Yae Miko about Yumemizuki Mizuki: Business Rivalry",
+                "content_en": "\"Anxiety and exhaustion strip people of the emotional energy for novels\"? Hmph, well, I suppose Yae Publishing House needs to work harder, then. Apparently, we haven't published a single volume to Miss Mizuki's liking. I'll give my editors and writers more time... If we still can't satisfy her, then as the Editor-in-Chief, I suppose I'll have to write one myself. Hm...\"The Baku Chronicles\" has a nice ring to it, hmm?"
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "八重神子关于梦见月瑞希·重遇",
+                "content_zh": "瑞希刚回来稻妻那一会，总是一副揣着心事的样子，明明在路上看见了我，却还要把目光撇开…我？我当然没有主动搭讪她。还想多看一阵她那副别扭的模样呢。如果我没想错，等我们俩擦肩而过之后，她还要扭过头，瞪着眼睛瞅我两眼…要是我这时候再回头看她，只怕瑞希要被我吓得露出原形，捂着耳朵飘走了。\n不过现在嘛…她都已经会在闲事月刊的读者来信里给我挑刺了。食梦貘的成长，真是迅速哪。",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Yae Miko about Yumemizuki Mizuki: Reunion",
+                "content_en": "When Mizuki first returned to Inazuma, she was so skittish. Whenever she saw me on the street, she would immediately avert her eyes... Oh, me? No, I didn't call her out on it. It was pretty fun to watch her squirm, actually. Sometimes, she would turn back to sneak a glance once we passed each other... I thought about turning around to face her, but I'm sure it would have scared her straight back into her baku form and sent her running for the hills.\nBut, now... she's a lot more comfortable. Well, comfortable enough to criticize me in the reader correspondence column of That's Life, at least. The baku are quick to adapt, I suppose."
             }
         ]
     },
@@ -6996,7 +7041,7 @@
                 "content_zh": "克洛琳德小姐可是枫丹廷里最著名，也最神秘的「决斗代理人」，我从私人渠道打听到，她会用一些神秘的仪式维护自己的武器。也许这就是她在决斗中常胜不败的关键？可她曾公开表示过不想接受记者的采访…我应该没法当面问她这个问题了。",
                 "target_en": "Clorinde",
                 "title_en": "Charlotte about Clorinde",
-                "content_en": "Clorinde is the most well-known Champion Duelist in Fontaine, but she's also the most mysterious. I have a source who tells me that she uses some sort of mystical ritual to keep her weapon as good as new... Could this be the secret behind her famously undefeated track record in the Duelists' Ring? Ah, I'd love to spring that question on her one day... but I don't think I'll get the chance. She's publicly stated that she doesn't accept interviews."
+                "content_en": "Clorinde is one of the most well-known Champion Duelists in Fontaine, but she's also the most mysterious. I have a source who tells me that she uses some sort of mystical ritual to keep her weapon as good as new... Could this be the secret behind her famously undefeated track record in the Duelists' Ring? Ah, I'd love to spring that question on her one day... but I don't think I'll get the chance. She's publicly stated that she doesn't accept interviews."
             },
             {
                 "target_id": 72,
@@ -7284,7 +7329,7 @@
                 "content_zh": "莱欧斯利先生的工作卓有成效。至少罪人们都清楚地知道，「梅洛彼得堡」并不是一个养老的好去处。这对我们的审讯工作提供了很大帮助。",
                 "target_en": "Wriothesley",
                 "title_en": "Chevreuse about Wriothesley",
-                "content_en": "The work Wriothesley does is highly effective. As least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+                "content_en": "The work Wriothesley does is highly effective. At least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
             },
             {
                 "target_id": 84,
@@ -8167,6 +8212,15 @@
                 "target_en": "Xilonen",
                 "title_en": "Mualani about Xilonen",
                 "content_en": "If the Pyro Archon acknowledges a craftsperson, then you know she's good. Even if an Ancient Name got all smashed up, I bet she could make it good as new again. Wait, did I just jinx something? An Ancient Name absolutely cannot get smashed. That would be so bad. I take it back! I take it back! I didn't say anything. And you didn't hear anything either, alright?"
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "玛拉妮关于梦见月瑞希",
+                "content_zh": "你的人脉还挺广嘛！瑞希是我们「流泉之众」的朋友，虽然模样看起来文静，但她有可多话能聊啦。无论什么话题，她都能轻松接住话头，然后和人一直聊下去…嘿嘿，有时候，和她聊着聊着都会忘记时间…\n噢对了！她在我们这儿的分店铺最近要开张了，有空的话，也来给她的店捧捧场吧？我给她带了紫色的豚豚球作为开业礼物，希望她喜欢！",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Mualani about Yumemizuki Mizuki",
+                "content_en": "Wow, you really know just about everybody! Mizuki's a good friend of the People of the Springs. She might come across as the quiet type, but she's actually really chatty. Whatever the conversation, she can keep it going for as long as you let her... Hehe, it's easy to lose track of time when you're talking to her.\nOh, this reminds me! She's opening a new branch of her business in Natlan soon. Have you got time? You wanna come show your support? I'm gonna give her some purple floaters as a gift. I hope she likes them!"
             }
         ]
     },
@@ -8608,6 +8662,15 @@
                 "target_en": "Kachina",
                 "title_en": "Mavuika about Kachina",
                 "content_en": "After you rescued Kachina from the Night Kingdom, I visited her family with Chief Pacal, and brought a few gifts to once again apologize for what happened. Kachina's time in the Night Kingdom left her with many scars she will have to carry into the future — scars she should never have had to bear... And for that, the fault is mine."
+            },
+            {
+                "target_id": 94,
+                "target_zh": "梦见月瑞希",
+                "title_zh": "玛薇卡关于梦见月瑞希",
+                "content_zh": "我对这位稻妻客人印象不错。听说她初来纳塔的时候，对「流泉之众」那边的温泉颇为上心，还四处打听和温泉有关的技艺。但她的钻研不为谋利，而是旨在改善人们的精神状态。如此纯粹的目的，理应获得我们的敬重与帮助。\n说起来…稻妻的现任执政也喜欢泡温泉吗？要是此事属实，我似乎知道该如何和她拉近关系了。",
+                "target_en": "Yumemizuki Mizuki",
+                "title_en": "Mavuika about Yumemizuki Mizuki",
+                "content_en": "Ah, she left a very positive impression. When she first arrived in Natlan, I heard that she had a great deal of interest in our hot springs and spent quite some time studying their properties. But, it wasn't for profit. She was interested in their role in improving mental health. Such a pure cause deserved our support and respect.\nSpeaking of which... Is it true that the current Archon of Inazuma enjoys hot springs as well? If that's the case, I believe I've found a good starting point for our next conversation."
             }
         ]
     },
@@ -8680,6 +8743,114 @@
                 "target_en": "Qiqi",
                 "title_en": "Lan Yan about Qiqi",
                 "content_en": "Qiqi likes finches, right? I'm thinking of making her one out of rattan! Do you know her favorite color?"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name_zh": "梦见月瑞希",
+        "name_en": "Yumemizuki Mizuki",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/129667/f2d25033c05685ef81ead5d61f8f3748_5477665563261234894.png",
+        "ver": "5.4.1",
+        "lines": [
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "梦见月瑞希关于八重神子·旧事",
+                "content_zh": "几百年前，我们曾是邻居。神子那家伙…以前可没这么沉迷于各种乐子。有时我还挺怀念的——她刚刚学会化为人形，天真单纯的那段时光…那个时候，她每天都要过来找我，让我尝尝她今天的梦是什么味道。\n我记得…有樱花、纸张、墨水、三彩团子，还有油豆腐。每次她都要抓着我化成人形，跑到城里寻找和梦里滋味对应的东西，要是被人发现了，我们就会唰地一下变成原来的模样，掉头就跑。我常常还跟不上她。",
+                "target_en": "Yae Miko",
+                "title_en": "Yumemizuki Mizuki about Yae Miko: Past History",
+                "content_en": "Hundreds of years ago, we were neighbors. Miko was a lot more serious about her pursuits back then, but still, the innocence of youth permeated everything. I miss those days sometimes — Miko had just learned to transform into a human, and life was so simple... Every day, she would come find me and let me taste her dreams.\nNotes of sakura blossom, paper, ink, Tricolor Dango, and Fried Tofu... That's what I remember. She would beg me to transform into a human with her and drag me into town to find things that matched the flavors of her dreams. If someone caught us, we would immediately transform back into our original forms, and make a break for it. Miko ran so fast, she would leave me in the dust half the time."
+            },
+            {
+                "target_id": 46,
+                "target_zh": "八重神子",
+                "title_zh": "梦见月瑞希关于八重神子·现状",
+                "content_zh": "现在，她已经是「八重宫司」大人了，不知道她如今的梦境，还留有多少原来的气味。\n当然，我没有再尝过她的梦境。擅自吞吃他人的梦，是我们一族的绝对禁忌。就算宫司大人来找我，请我再尝尝她梦境的味道，我…恐怕也会拒绝吧。如今的我们，已经是彼此的竞争对手了。这次我必须跟上她。",
+                "target_en": "Yae Miko",
+                "title_en": "Yumemizuki Mizuki about Yae Miko: Current Situation",
+                "content_en": "Now, Miko is the Guuji of the Grand Narukami Shrine. After growing up, I never tried one of her dreams again. Who knows if any of the flavors are the same as back then...\nConsuming dreams without permission is the ultimate taboo for my kind. Even if she came to me and asked after so long, I... I think I would refuse. We're business rivals now, and I intend to keep up with her this time."
+            },
+            {
+                "target_id": 38,
+                "target_zh": "雷电将军",
+                "title_zh": "梦见月瑞希关于雷电将军",
+                "content_zh": "三川花祭后，我鼓起勇气邀请将军大人共浴。那时，她的一缕侧发飘进了温泉水里。我很想伸手帮她挽起来，却又担心这样的肢体接触会显得冒昧。一想到神子会面不改色地这么做，我就不由沮丧…我的修行，还需精进。",
+                "target_en": "Raiden Shogun",
+                "title_en": "Yumemizuki Mizuki about the Raiden Shogun",
+                "content_en": "I worked up the courage to invite the Almighty Shogun to the bathhouse after the Mikawa Flower Festival. As she settled into the pool, a strand of her hair drifted into the water. I thought about reaching out to fix it, but I was worried it would be too casual a gesture for such a noble figure. Of course, I doubt Miko would even hesitate... It's an unfortunate reminder that I still have a long way to go as a youkai."
+            },
+            {
+                "target_id": 40,
+                "target_zh": "珊瑚宫心海",
+                "title_zh": "梦见月瑞希关于珊瑚宫心海",
+                "content_zh": "海祇岛的那位现人神巫女举止端庄，与她交谈总是让我心情舒畅。今后，若是要在海祇岛拓展「秋沙钱汤」或其他店铺的业务，我还想与她多多合作…",
+                "target_en": "Sangonomiya Kokomi",
+                "title_en": "Yumemizuki Mizuki about Sangonomiya Kokomi",
+                "content_en": "The Divine Priestess of Watatsumi Island is a dignified and well-mannered lady. Speaking with her always lifts my spirits. If I open a new branch of Aisa Bathhouse on Watatsumi Island or some other kind of business, I hope I have more chances to work with her..."
+            },
+            {
+                "target_id": 35,
+                "target_zh": "宵宫",
+                "title_zh": "梦见月瑞希关于宵宫",
+                "content_zh": "你是说那位「夏祭的女王」么？嗯，我对她的印象很深。\n每隔一段时间，我都会做一次诊疗统计，看看稻妻哪里的居民最容易心力憔悴，哪里的居民心情还算开朗，哪里的居民又经常做噩梦…\n而宵宫小姐家附近的人们，几乎没有来诊疗过，我想，应该是宵宫小姐帮助了他们吧，有这么一位开朗活泼的邻居作伴，想不开心都难啊。",
+                "target_en": "Yoimiya",
+                "title_en": "Yumemizuki Mizuki about Yoimiya",
+                "content_en": "Oh, you mean the Queen of the Summer Festival? Yes, she is quite memorable.\nEvery once in a while, I perform a mental health survey to see if there are areas around Inazuma where people are more likely to need treatment...\nIt turns out, those who live near Miss Yoimiya have need very little, and I doubt that's a coincidence. It's hard to be anything but positive with such a bright and cheerful person around!"
+            },
+            {
+                "target_id": 34,
+                "target_zh": "神里绫华",
+                "title_zh": "梦见月瑞希关于神里绫华",
+                "content_zh": "绫华小姐…在我离开稻妻前，她还只是个小女孩，那时她就在练习花道和剑道了。我有一次曾经被她的兄长暗中请去，为她消解忧郁。\n她的梦境里…尽是老旧的木料味，混合着湿重的雨水气息，就像是一座摇摇欲坠的木亭，孤零零地伫立在暴雨里。我尽力为她诊疗，总算让她得以平和入睡。\n不知道绫华小姐心里的那座木亭，如今是否已经找到了支撑，能够安然呆在暴雨里了呢…",
+                "target_en": "Kamisato Ayaka",
+                "title_en": "Yumemizuki Mizuki about Kamisato Ayaka",
+                "content_en": "Ah, Miss Ayaka... She was still a little girl when I left Inazuma, but even then, she had already started studying flower arranging and the art of the sword. Her brother once enlisted my services in secret, hoping to alleviate some of her anxieties.\nWhat I remember of her dream... was the smell of old timber and heavy rain, like a lone, wooden pavilion on the verge of collapse amid a storm. I did my best to treat her, until she finally fell into a peaceful slumber.\nMany years have passed since then. I hope she's found people to lean on, so she doesn't have to weather that storm alone..."
+            },
+            {
+                "target_id": 39,
+                "target_zh": "九条裟罗",
+                "title_zh": "梦见月瑞希关于九条裟罗",
+                "content_zh": "在之前，九条将军会定期请我去为天领奉行的人员做诊疗，其他人的心境有时候会有一些动摇，但在九条将军的梦里，我一直都只闻见了冷冷的金属味，既没有雨，也没有太阳，就像是满满堆放着「玉钢」的库房一样。\n我对九条将军这样心智刚强的人非常敬重。\n一个人，到底吃多少苦，要怎么做…才能把自己的心锻炼成如今这样呢？",
+                "target_en": "Kujou Sara",
+                "title_en": "Yumemizuki Mizuki about Kujou Sara",
+                "content_en": "She often enlists my services to help the members of the Tenryou Commission. It's not uncommon to see doubt and fear in their minds, but her mindscape is always cold, hard metal. No rain, no sun — like a safe of pure Jade Steel, unflinching and impenetrable.\nI have a lot of respect for her because of that.\nAlthough, I can only imagine what resilience it took to get to that point..."
+            },
+            {
+                "target_id": 36,
+                "target_zh": "早柚",
+                "title_zh": "梦见月瑞希关于早柚",
+                "content_zh": "呵呵，除了长高的烦恼外，几乎无忧无虑的小貉…她的梦境一定很甜美。要不是她有预感般绕着我走，我还真想请她来「秋沙钱汤」工作。",
+                "target_en": "Sayu",
+                "title_en": "Yumemizuki Mizuki about Sayu",
+                "content_en": "Hehe, she's quite the carefree little mujina, her only trouble, of course, being the desire to grow taller... I'm sure her dreams are exceedingly sweet. I'd love to invite her to come work at the bathhouse, but she's always avoiding me. Heh, perhaps she can see through my intentions..."
+            },
+            {
+                "target_id": 92,
+                "target_zh": "玛薇卡",
+                "title_zh": "梦见月瑞希关于玛薇卡",
+                "content_zh": "火神玛薇卡女士？怎么说呢…她是那种，光是看一眼都会让人觉得想要戴上墨镜的人。她就像是真正的太阳那样，只要她握住你的手，你心中所有阴霾和忧郁都会在一瞬间被燃烧殆尽。\n尝、尝过梦境的味道没有？没有没有没有没有，我可不敢细致地尝，之前玛薇卡女士亲切地邀请我，但我一踏进她的梦里，就和跳进了火山一样，烫得我直咳嗽…\n可能是我的妖力还不够吧…",
+                "target_en": "Mavuika",
+                "title_en": "Yumemizuki Mizuki about Mavuika",
+                "content_en": "The Pyro Archon? Hm, how should I put it... Lady Mavuika is the kind of person who shines so bright, just laying eyes on her is enough to warrant sunglasses. Like the actual sun, she has a way of burning away haze and illuminating darkness, even with a simple handshake.\n...Hm? Have I ever tasted one of her dreams? No, no, no, no, no... I wouldn't dare. She let me try once, but stepping into her dream was like jumping into a volcano, or choking on ash. All I could do was cough...\nPerhaps my youkai powers simply aren't strong enough yet..."
+            },
+            {
+                "target_id": 85,
+                "target_zh": "玛拉妮",
+                "title_zh": "梦见月瑞希关于玛拉妮",
+                "content_zh": "玛拉妮啊…她是我见过最热心的人了，长住纳塔期间，我定居的地方正是「流泉之众」，要是没有她的帮助，我在「流泉之众」的店铺可开不起来。当时她直接带着我去「话事处」找火神女士，确实吓了我一跳…\n不过，她的性格也像是海浪一样，有时候飞上浪尖，有时候沉在浪底，还有时候潜进暗流里，我根本捉摸不透她…\n心理？不用担心她，她是我见过心理状态最好的人之一。我可能还需要向她倾诉呢…",
+                "target_en": "Mualani",
+                "title_en": "Yumemizuki Mizuki about Mualani",
+                "content_en": "Ah, Mualani... She is the friendliest person I've ever met. I lived with the People of the Springs during my time in Natlan, and I never could have opened up my shop there without her help. She dragged me to the Speaker's Chamber, and just like that, I was face-to-face with the Pyro Archon with no warning at all, scared out of my mind...\nHer personality is like a wave, sometimes cresting high above the water, gliding deep beneath the surface, or even crashing straight against the shore. It's hard to keep up...\nOh, her mental state? I don't think you need to worry. She's in a very good spot. If anything, I should go to her for therapy..."
+            },
+            {
+                "target_id": 57,
+                "target_zh": "纳西妲",
+                "title_zh": "梦见月瑞希关于纳西妲",
+                "content_zh": "我造访过须弥，在那位神明的权能范围内，我无法触及任何人的梦境，更不必谈影响和吞食。但那种感觉并非被压制，不曾令我难受，更像一种心平气和的约定…我想，她一定是位友善的神明。",
+                "target_en": "Nahida",
+                "title_en": "Yumemizuki Mizuki about Nahida",
+                "content_en": "I've visited Sumeru before. Within the borders of her authority, it's impossible for me to make contact with anyone's dreams, much less affect or consume them. Her presence isn't oppressive, however — what I sensed felt more like a solemn promise between a god and her people... My impression is that she must be a very kind-hearted god."
             }
         ]
     }
