@@ -228,6 +228,7 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
                         entry_item["name"].startswith("UI_AvatarIcon_")
                         or entry_item["name"].endswith(f"{name}.png")
                         or entry_item["name"].endswith("头像.png")
+                        or entry_item["name"].endswith("Icon.png")
                     )
                 ):
                     img_url = entry_item["url"]
