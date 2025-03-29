@@ -1,13 +1,17 @@
 {
+    "玛薇卡": {
+        "alias_zh": ["赫布里穆","火之神","火神大人"],
+        "alias_en": ["Haborym", "the Pyro Archon"]
+    },
     "阿蕾奇诺": {
         "alias_zh": ["「仆人」","「父亲」"],
         "alias_en": ["The Knave","\"Father\""],
         "_comment": ["", "林尼/琳妮特/菲米尼"]
     },
     "流浪者": {
-        "alias_zh": ["散兵","国崩"],
+        "alias_zh": ["「散兵」","散兵","国崩"],
         "alias_en": ["The Balladeer","Kunikuzushi"],
-        "_comment": ["达达利亚「」/纳西妲","雷电将军/八重神子"]
+        "_comment": ["达达利亚/纳西妲","雷电将军/八重神子"]
     },
     "达达利亚": {
         "alias_zh": ["「公子」"],
