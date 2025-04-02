@@ -62,12 +62,12 @@ class Updater:
         else:
             raise ValueError("Invalid language for quotes")
 
-    def _find_quote_targets(self, title, current_key, lang) -> list[str]:
+    def _find_quote_targets(self, title, current_key, lang) -> set[str]:
         about_str = ["About ", "关于", "对"]
         # 茜特菈莉 "对神里绫华…"
         splitter = {"en": ":", "zh": "·"}
         target_text = title.split(splitter[lang])[0]
-        target_keys = []
+        target_keys = set()
         if not any(title.startswith(s) for s in about_str):
             return target_keys
         for alias in self.alias_to_name:
@@ -76,7 +76,7 @@ class Updater:
                 and alias.lower() in target_text.lower()
             ):
                 # found target, and is not self
-                target_keys.append(self.alias_to_name[alias])
+                target_keys.add(self.alias_to_name[alias])
         return target_keys
 
     def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
@@ -110,24 +110,26 @@ class Updater:
             title = title.rstrip(" …")
             target_keys = self._find_quote_targets(title, name_zh, lang)
 
-            if target_keys is not None:
-                title = (
-                    f"{name} {title[0].lower()}{title[1:]}"  # About Y -> X about Y
-                    if lang == "en"
-                    else name + title
+            if not target_keys:
+                continue
+            
+            title = (
+                f"{name} {title[0].lower()}{title[1:]}"  # About Y -> X about Y
+                if lang == "en"
+                else name + title
+            )
+            for k in target_keys:
+                target_id = self.data[k]["id"]
+                target_name = self.data[k]["name_" + lang]
+                lines.append(
+                    {
+                        # 'from_'+lang : name,
+                        "target_id": target_id,
+                        "target_" + lang: target_name,
+                        "title_" + lang: title,
+                        "content_" + lang: q["description"],
+                    }
                 )
-                for k in target_keys:
-                    target_id = self.data[k]["id"]
-                    target_name = self.data[k]["name_" + lang]
-                    lines.append(
-                        {
-                            # 'from_'+lang : name,
-                            "target_id": target_id,
-                            "target_" + lang: target_name,
-                            "title_" + lang: title,
-                            "content_" + lang: q["description"],
-                        }
-                    )
 
         return lines
 
