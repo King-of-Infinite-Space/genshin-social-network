@@ -3,13 +3,11 @@ import requests
 import json
 import subprocess
 import os
-import re
-import gzip
 import traceback
 from datetime import datetime
-from collections import defaultdict
 
-from notion_db import fetch_my_table, update_char_list
+from prepare_data import download_data, prepare_data
+from notion_db import update_remote_table
 
 DATA_FILE = "data/char_data.json"
 DATA_FILE_MIN = "data/char_data_min.json"
@@ -17,198 +15,118 @@ ALIAS_FILE = "data/alias.json"
 # %%
 
 
-class Updater:
-    def __init__(self, template: dict, template_extra: dict, ver: str) -> None:
-        self.data = {}
-        self.session = requests.Session()
+def make_graph(edge_data, node_data):
+    """
+    process edges to get lines between chars
+    """
+    name_to_avatarID = {entry["name_zh"]: entry["avatarId"] for entry in node_data}
+    avatarID_to_nameZH = {entry["avatarId"]: entry["name_zh"] for entry in node_data}
+    avatarID_to_nameEN = {entry["avatarId"]: entry["name_en"] for entry in node_data}
+    target_to_avatarID = {}  # target can be name or alias
 
-        for name in template:
-            char = template[name].copy()
-            if name in template_extra:
-                char["ver"] = template_extra[name]["ver"]
-                char["id"] = template_extra[name]["id"]
-                char["name_en"] = template_extra[name]["name_en"]
-                # overwrite id (old chars slightly different from official)
-            else:
-                char["ver"] = ver
-            self.data[name] = char
+    aliases = json.load(open(ALIAS_FILE, encoding="utf8"))
+    for char in node_data:
+        target_to_avatarID[char["name_zh"]] = char["avatarId"]
+        target_to_avatarID[char["name_en"]] = char["avatarId"]
+        name = char["name_zh"]
+        if name in aliases:
+            for _alias in aliases[name]["alias_zh"] + aliases[name]["alias_en"]:
+                target_to_avatarID[_alias] = name_to_avatarID[name]
 
-        with open(ALIAS_FILE, "r", encoding="utf8") as f:
-            aliases = json.load(f)
-
-        self.alias_to_name = {}
-        # an alias may map to multiple names (e.g. Lyney & Lynette)
-        for name, char in self.data.items():
-            self.alias_to_name[char["name_zh"]] = name
-            self.alias_to_name[char["name_en"]] = name
-            if name in aliases:
-                for _alias in aliases[name]["alias_zh"]:
-                    self.alias_to_name[_alias] = name
-                for _alias in aliases[name]["alias_en"]:
-                    self.alias_to_name[_alias] = name
-
-        self.quotes_zh = self._load_quotes("zh")
-        self.quotes_en = self._load_quotes("en")
-
-    def _load_quotes(self, lang):
-        if lang == "zh":
-            j = json.load(
-                gzip.open("data_raw/chinesesimplified-voiceovers.min.json.gzip", "r")
-            )
-            return j["data"]["ChineseSimplified"]["voiceovers"]
-        elif lang == "en":
-            j = json.load(gzip.open("data_raw/english-voiceovers.min.json.gzip", "r"))
-            return j["data"]["English"]["voiceovers"]
-        else:
-            raise ValueError("Invalid language for quotes")
-
-    def _find_quote_targets(self, title, current_key, lang) -> set[str]:
+    def process_title(title, prefix="", remove_about=False, strip=False) -> str:
+        if strip:
+            title = title.rstrip("…")
         about_str = ["About ", "关于", "对"]
         # 茜特菈莉 "对神里绫华…"
+        if remove_about:
+            for s in about_str:
+                title = title.removeprefix(s)
+        return prefix + title
+
+    def find_quote_targets(title, curr_avatarID, lang) -> set[str]:
         splitter = {"en": ":", "zh": "·"}
         target_text = title.split(splitter[lang])[0]
-        target_keys = set()
-        if not any(title.startswith(s) for s in about_str):
-            return target_keys
-        for alias in self.alias_to_name:
+        target_avatarIds = set()
+        if process_title(title, remove_about=True) == title:
+            return target_avatarIds
+        for target in target_to_avatarID:
             if (
-                self.alias_to_name[alias] != current_key
-                and alias.lower() in target_text.lower()
+                target_to_avatarID[target] != curr_avatarID
+                and target.lower() in target_text.lower()
             ):
                 # found target, and is not self
-                target_keys.add(self.alias_to_name[alias])
-        return target_keys
+                target_avatarIds.add(target_to_avatarID[target])
+        return target_avatarIds
 
-    def _merge_lines(self, lines_zh: list[dict], lines_en: list[dict]) -> list[dict]:
-        lines = []
-        if len(lines_zh) != len(lines_en):
-            raise ValueError(
-                f"{len(lines_zh)} ZH and {len(lines_en)} EN lines don't match"
-            )
-        for i in range(len(lines_zh)):
-            if lines_zh[i]["target_id"] == lines_en[i]["target_id"]:
-                lines.append({**lines_zh[i], **lines_en[i]})
-            else:
-                # reordering not implemented
-                print(lines_zh[i]["target_id"], lines_en[i]["target_id"])
-                print(lines_zh[i]["title_zh"], lines_en[i]["title_en"])
-                raise ValueError("Quote targets don't match")
-        return lines
+    char_dict = {entry["name_zh"]: entry | {"lines": []} for entry in node_data}
 
-    def _find_char_quotes(self, name_zh, lang="zh") -> list[dict]:
-        """
-        get lines from *char* to other chars
-        """
-        name = self.data[name_zh]["name_" + lang]
-        k = self.data[name_zh]["name_en"].lower().replace(" ", "")
-        lines = []
+    for edge in edge_data:
+        targets = set()
+        for lang in ["zh", "en"]:
+            targets |= find_quote_targets(edge["title_" + lang], edge["avatarId"], lang)
+        if not targets:
+            continue
+        source_id = edge["avatarId"]
+        for target_id in targets:
+            line = {
+                "target_zh": avatarID_to_nameZH[target_id],
+                "title_zh": process_title(
+                    edge["title_zh"],
+                    prefix=avatarID_to_nameZH[source_id],
+                    strip=True
+                ),
+                "content_zh": edge["content_zh"],
+                "target_en": avatarID_to_nameEN[target_id],
+                "title_en": process_title(
+                    edge["title_en"],
+                    prefix=avatarID_to_nameEN[source_id] + " about",
+                    remove_about=True, strip=True
+                ),
+                "content_en": edge["content_en"],
+            }
+            char_dict[avatarID_to_nameZH[source_id]]["lines"].append(line)
 
-        quotes_dict = self.quotes_zh if lang == "zh" else self.quotes_en
-
-        for q in quotes_dict[k]["friendLines"]:
-            title = q["title"]
-            title = title.rstrip(" …")
-            target_keys = self._find_quote_targets(title, name_zh, lang)
-
-            if not target_keys:
-                continue
-            
-            title = (
-                f"{name} {title[0].lower()}{title[1:]}"  # About Y -> X about Y
-                if lang == "en"
-                else name + title
-            )
-            for k in target_keys:
-                target_id = self.data[k]["id"]
-                target_name = self.data[k]["name_" + lang]
-                lines.append(
-                    {
-                        # 'from_'+lang : name,
-                        "target_id": target_id,
-                        "target_" + lang: target_name,
-                        "title_" + lang: title,
-                        "content_" + lang: q["description"],
-                    }
-                )
-
-        return lines
-
-    def find_quotes(self):
-        print("Finding quotes")
-        for name_zh in self.data:
-            char = self.data[name_zh]
-            lines_zh = self._find_char_quotes(name_zh, "zh")
-            lines_en = self._find_char_quotes(name_zh, "en")
-            lines = self._merge_lines(lines_zh, lines_en)
-            char["lines"] = lines
-
-    def print_diff(self, data_prev):
-        chars_prev = {char["name_zh"]: char for char in data_prev}
-        for name, char in self.data.items():
-            n_prev = len(chars_prev[name]["lines"]) if name in chars_prev else 0
-            n_now = len(char["lines"])
-            if n_now != n_prev:
-                print(f"  {name} {char['name_en']} (+{n_now-n_prev}={n_now})")
-
-    def update_remote_table(self, char_names_new: list[str]):
-        # WIP
-        data_update = []
-        keys = [
-            "id",
-            "name_zh",
-            "name_en",
-            "img_url",
-            "ver",
-            "gender",
-            "region",
-            "rarity",
-            "weapon",
-            "element",
-            "height",
-        ]
-        for name in char_names_new:
-            char_info = self.session.get(
-                f"https://genshin-db-api.vercel.app/api/v5/characters?query={name}&queryLanguages=ChineseSimplified&resultLanguage=ChineseSimplified"
-            ).json()
-            char = {}
-            for k in keys:
-                if k in self.data[name]:
-                    char[k] = self.data[name][k]
-                elif k in char_info:
-                    char[k] = char_info[k]
-                elif k == "weapon":
-                    char[k] = char_info["weaponText"][0]
-                elif k == "element":
-                    char[k] = char_info["elementText"]
-                elif k == "height":
-                    h = 1
-                    if char_info["bodyType"].split("_")[1] in ["BOY", "GIRL"]:
-                        h = 2
-                    if char_info["bodyType"].split("_")[1] in ["MALE", "LADY"]:
-                        h = 3
-                    char[k] = h
-            char["gender"] = "♀️" if char["gender"] == "女" else "♂️"
-            data_update.append(char)
-        update_char_list(data_update)
-        print(f"Added {len(data_update)} chars to notion")
-
-    def write_data_file(self):
-        char_data = list(self.data.values())
-        char_data.sort(key=lambda x: x["id"])
-        with open(DATA_FILE, "w", encoding="utf8") as f:
-            json.dump(char_data, f, ensure_ascii=False, indent=4)
-        with open(DATA_FILE_MIN, "w", encoding="utf8") as f:
-            json.dump(char_data, f, ensure_ascii=False, separators=(",", ":"))
-        print("Wrote data files")
+    return char_dict
 
 
-def fetch_char_api() -> dict[str, dict[str, str]]:
+def merge_data(char_dict: dict, offical_dict: dict, prev_dict: dict, ver: str):
+    char_dict_new = {}
+    for name in offical_dict:
+        char = {}
+        char["id"] = prev_dict.get(name, offical_dict[name])["id"]
+        char["name_zh"] = char_dict[name]["name_zh"]
+        char["name_en"] = char_dict[name]["name_en"]
+        char["img_url"] = offical_dict[name]["img_url"]
+        char["ver"] = prev_dict.get(name, {"ver": ver})["ver"]
+        char["lines"] = char_dict[name]["lines"]
+        char_dict_new[name] = char
+    return char_dict_new
+
+
+def print_diff(char_dict, prev_dict):
+    print("New lines")
+    for name, char in char_dict.items():
+        n_prev = len(prev_dict[name]["lines"]) if name in prev_dict else 0
+        n_now = len(char["lines"])
+        if n_now != n_prev:
+            print(f"  {name} {char['name_en']} (+{n_now - n_prev}={n_now})")
+
+
+def write_data_file(char_dict: dict):
+    char_data = list(char_dict.values())
+    char_data.sort(key=lambda x: x["id"])
+    with open(DATA_FILE, "w", encoding="utf8") as f:
+        json.dump(char_data, f, ensure_ascii=False, indent=4)
+    with open(DATA_FILE_MIN, "w", encoding="utf8") as f:
+        json.dump(char_data, f, ensure_ascii=False, separators=(",", ":"))
+    print("Wrote data files")
+
+
+def fetch_char_official() -> dict[str, dict[str, str]]:
     S = requests.Session()
 
     data_zh = S.get(url=os.getenv("URL_ZH"), timeout=20).json()
-    data_en = S.get(url=os.getenv("URL_EN"), timeout=20).json()
     char_list_zh = data_zh["data"]["list"]
-    char_list_en = data_en["data"]["list"]
     char_count = data_zh["data"]["iTotal"]
     char_dict = {}
     for i, entry in enumerate(char_list_zh):
@@ -216,9 +134,9 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
         d = {
             "id": char_count - i,  # last one = 1
             "name_zh": name,
-            "name_en": char_list_en[i]["sTitle"],
         }
-        # order may be slightly different, but remote data should fix it
+        # I assigned different id for older chars
+        # fix it later with previous data (or remote table)
         img_url = None
         for entry in json.loads(entry["sExt"]).values():
             # entry is a list of dicts
@@ -241,33 +159,6 @@ def fetch_char_api() -> dict[str, dict[str, str]]:
     return char_dict
 
 
-def download_quotes():
-    # download file from url
-    url_prefix = "https://github.com/theBowja/genshin-db-dist/raw/main/data/gzips/"
-    files = [
-        "english-voiceovers.min.json.gzip",
-        "chinesesimplified-voiceovers.min.json.gzip",
-    ]
-    os.makedirs("data_raw", exist_ok=True)
-    print("Downloading quotes")
-    for fn in files:
-        file_path = f"data_raw/{fn}"
-        if (
-            os.path.exists(file_path)
-            and (
-                datetime.now() - datetime.fromtimestamp(os.path.getmtime(file_path))
-            ).days
-            < 1
-        ):
-            print(f"  {fn} downloaded today")
-        else:
-            print(f"  {fn}")
-            url = url_prefix + fn
-            r = requests.get(url)
-            with open(f"data_raw/{fn}", "wb") as f:
-                f.write(r.content)
-
-
 def calc_ver():
     ref_ver = os.environ["REF_VER"]
     if ref_ver is None:
@@ -276,7 +167,7 @@ def calc_ver():
     period = os.environ["PERIOD"]
     offset = os.getenv("VER_ADJUST", "0.0")
     n_offset = int(100 * float(offset))
-    dd = (datetime.utcnow() - datetime.fromisoformat(ref_date)).days
+    dd = (datetime.now() - datetime.fromisoformat(ref_date)).days
     ref_vers = ref_ver.split(".")
     if ref_vers[-1] == "1":
         ref_vers[-1] = "0"
@@ -294,44 +185,48 @@ def calc_ver():
     return ".".join(v)
 
 
-def main():
-    # load aliases
-    with open(DATA_FILE, "r", encoding="utf8") as f:
-        data_prev = json.load(f)
-
-    ver = calc_ver()
-
-    print(f"Updating for v{ver}")
-    print("Fetching mhy api")
-    official_dict = fetch_char_api()
-
-    # got current chars, building from it
+def find_new_chars(official_dict, data_prev):
+    """
+    get new chars from official dict
+    """
     char_names = list(official_dict.keys())
     count_total = len(official_dict)
-    print(f"  Last3 {' '.join(char_names[:3])}")
-
     count_old = len(data_prev)
     if count_total <= count_old:
-        print(f"  {count_total} released / {count_old} saved")
-        print("Already up to date")
-        return
-
+        return []
     char_names_new = char_names[: count_total - count_old]
-    print(f"  New char {' '.join(char_names_new)}")
+    return char_names_new
 
-    download_quotes()
 
-    print("Fetching notion table")
-    my_table = fetch_my_table()
+def main():
+    with open(DATA_FILE, "r", encoding="utf8") as f:
+        data_prev = json.load(f)
+    prev_dict = {char["name_zh"]: char for char in data_prev}
 
-    updater = Updater(official_dict, my_table, ver)
+    ver = calc_ver()
+    print(f"Updating for v{ver}")
 
-    updater.find_quotes()
-    updater.print_diff(data_prev)
-    updater.update_remote_table(char_names_new)
-    updater.write_data_file()
+    print("Fetching mhy api")
+    official_dict = fetch_char_official()
 
-    commit_msg = f"v{ver} {' '.join([char['name_zh']+char['name_en'] for char in updater.data.values() if char['ver']==ver])}"
+    new_names = find_new_chars(official_dict, prev_dict)
+    if not new_names:
+        print("No new chars found")
+        return
+    print(f"  New char {' '.join(new_names)}")
+
+    download_data()
+    node_data, edge_data = prepare_data()
+    char_dict = make_graph(edge_data, node_data)
+
+    char_dict = merge_data(char_dict, official_dict, prev_dict, ver)
+
+    print_diff(char_dict, prev_dict)
+    write_data_file(char_dict)
+
+    update_remote_table(char_dict, new_names)
+
+    commit_msg = f"v{ver} {' '.join([char['name_zh'] + char['name_en'] for char in char_dict if char['ver'] == ver])}"
 
     if os.getenv("GITHUB_ACTIONS") is not None:
         print("Committing changes —— " + commit_msg)

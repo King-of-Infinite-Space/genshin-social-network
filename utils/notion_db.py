@@ -1,5 +1,5 @@
-from socket import timeout
 import os
+import requests
 from notion_client import Client
 
 notion = Client(auth=os.environ["NOTION_GENSHIN"], timeout_ms=10000)
@@ -61,16 +61,62 @@ def fetch_my_table():
         chars[char["name_zh"]] = char
     return chars
 
+def update_remote_table(char_dict: dict, new_names: list[str]):
+    update_list = []
+    keys = [
+        "id",
+        "name_zh",
+        "name_en",
+        "img_url",
+        "ver",
+        "gender",
+        "region",
+        "rarity",
+        "weapon",
+        "element",
+        "height",
+    ]
+    for name in new_names:
+        try:
+            char_info = requests.get(
+                f"https://genshin-db-api.vercel.app/api/v5/characters?query={name}&queryLanguages=ChineseSimplified&resultLanguage=ChineseSimplified"
+            ).json()
+        except Exception as e:
+            print(f"Error fetching {name}: {e}")
+            continue
+        entry = {}
+        for k in keys:
+            if k in char_dict[name]:
+                entry[k] = char_dict[name][k]
+            elif k in char_info:
+                entry[k] = char_info[k]
+            elif k == "weapon":
+                entry[k] = char_info["weaponText"][0]
+            elif k == "element":
+                entry[k] = char_info["elementText"]
+            elif k == "height":
+                h = 1
+                if char_info["bodyType"].split("_")[1] in ["BOY", "GIRL"]:
+                    h = 2
+                if char_info["bodyType"].split("_")[1] in ["MALE", "LADY"]:
+                    h = 3
+                entry[k] = h
+        entry["gender"] = "♀️" if entry["gender"] == "女" else "♂️"
+        update_list.append(entry)
 
-def update_char_list(update_list):
     schema = notion.databases.retrieve(database_id)["properties"]
 
-    for char in update_list:
-        filter = {"property": "name_zh", "rich_text": {"equals": char["name_zh"]}}
+    added_count = 0
+    for entry in update_list:
+        # Check if entry with same name already exists
+        filter = {"property": "name_zh", "rich_text": {"equals": entry["name_zh"]}}
         q = notion.databases.query(database_id, filter=filter)
-        if len(q["results"]):
-            raise Exception("Character already exists in remote table")
-        else:
+        
+        # Only add if there are no existing entries with this name
+        if len(q["results"]) == 0:
             notion.pages.create(
-                parent={"database_id": database_id}, properties=fillProps(char, schema)
+                parent={"database_id": database_id}, properties=fillProps(entry, schema)
             )
+            added_count += 1
+    
+    print(f"Added {added_count} / {len(new_names)} chars to notion")
