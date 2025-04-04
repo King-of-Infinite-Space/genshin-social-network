@@ -43,6 +43,11 @@ def make_graph(edge_data, node_data):
                 title = title.removeprefix(s)
         return prefix + title
 
+    def process_content(content) -> str:
+        # fix line break
+        content = content.replace("\\n", "\n")
+        return content
+
     def find_quote_targets(title, curr_avatarID, lang) -> set[str]:
         splitter = {"en": ":", "zh": "·"}
         target_text = title.split(splitter[lang])[0]
@@ -75,14 +80,14 @@ def make_graph(edge_data, node_data):
                     prefix=avatarID_to_nameZH[source_id],
                     strip=True
                 ),
-                "content_zh": edge["content_zh"],
+                "content_zh": process_content(edge["content_zh"]),
                 "target_en": avatarID_to_nameEN[target_id],
                 "title_en": process_title(
                     edge["title_en"],
                     prefix=avatarID_to_nameEN[source_id] + " about",
                     remove_about=True, strip=True
                 ),
-                "content_en": edge["content_en"],
+                "content_en": process_content(edge["content_en"]),
             }
             char_dict[avatarID_to_nameZH[source_id]]["lines"].append(line)
 
@@ -226,7 +231,7 @@ def main():
 
     update_remote_table(char_dict, new_names)
 
-    commit_msg = f"v{ver} {' '.join([char['name_zh'] + char['name_en'] for char in char_dict if char['ver'] == ver])}"
+    commit_msg = f"v{ver} {' '.join([char['name_zh'] + char['name_en'] for char in char_dict.values() if char['ver'] == ver])}"
 
     if os.getenv("GITHUB_ACTIONS") is not None:
         print("Committing changes —— " + commit_msg)
