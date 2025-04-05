@@ -84,7 +84,7 @@ def make_graph(edge_data, node_data):
                 "target_en": avatarID_to_nameEN[target_id],
                 "title_en": process_title(
                     edge["title_en"],
-                    prefix=avatarID_to_nameEN[source_id] + " about",
+                    prefix=avatarID_to_nameEN[source_id] + " about ",
                     remove_about=True, strip=True
                 ),
                 "content_en": process_content(edge["content_en"]),
