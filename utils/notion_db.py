@@ -62,7 +62,6 @@ def fetch_my_table():
     return chars
 
 def update_remote_table(char_dict: dict, new_names: list[str]):
-    update_list = []
     keys = [
         "id",
         "name_zh",
@@ -76,44 +75,51 @@ def update_remote_table(char_dict: dict, new_names: list[str]):
         "element",
         "height",
     ]
+    weapon_map = {
+        "WEAPON_SWORD_ONE_HAND": "单手剑",
+        "WEAPON_CLAYMORE": "双手剑",
+        "WEAPON_POLE": "长柄武器",
+        "WEAPON_BOW": "弓",
+        "WEAPON_CATALYST": "法器"
+    }
+    height_map = {
+        "BODY_LOLI": 1,
+        "BODY_BOY": 2,
+        "BODY_GIRL": 2,
+        "BODY_MALE": 3,
+        "BODY_LADY": 3,
+    }
+    gender_map = {
+        "BODY_LOLI": "♀️",
+        "BODY_GIRL": "♀️",
+        "BODY_LADY": "♀️",
+    }
+    region_map = {
+        "MONDSTADT": "蒙德",
+        "LIYUE": "璃月",
+        "INAZUMA": "稻妻",
+        "SUMERU": "须弥",
+        "FONTAINE": "枫丹",
+        "NATLAN": "纳塔",
+        "FATUI": "至冬",
+        "SNEZHNAYA": "至冬", # not exist yet, just a guess
+    }
+    update_list = []
     for name in new_names:
-        try:
-            char_info = requests.get(
-                f"https://genshin-db-api.vercel.app/api/v5/characters?query={name}&queryLanguages=ChineseSimplified&resultLanguage=ChineseSimplified"
-            ).json()
-        except Exception as e:
-            print(f"Error fetching {name}: {e}")
-            continue
-        entry = {}
-        for k in keys:
-            if k in char_dict[name]:
-                entry[k] = char_dict[name][k]
-            elif k in char_info:
-                entry[k] = char_info[k]
-            elif k == "weapon":
-                entry[k] = char_info["weaponText"][0]
-            elif k == "element":
-                entry[k] = char_info["elementText"]
-            elif k == "height":
-                h = 1
-                if char_info["bodyType"].split("_")[1] in ["BOY", "GIRL"]:
-                    h = 2
-                if char_info["bodyType"].split("_")[1] in ["MALE", "LADY"]:
-                    h = 3
-                entry[k] = h
-        entry["gender"] = "♀️" if entry["gender"] == "女" else "♂️"
+        char = char_dict[name]
+        entry = {k: char.get(k, "") for k in keys}
+        entry["weapon"] = weapon_map.get(char["weaponType"], " ")[0]
+        entry["height"] = height_map.get(char["bodyType"], 1)
+        entry["gender"] = gender_map.get(char["bodyType"], "♂️")
+        entry["region"] = region_map.get(char["region"], "坎瑞亚")
         update_list.append(entry)
 
     schema = notion.databases.retrieve(database_id)["properties"]
 
+    prev_table_dict = fetch_my_table()
     added_count = 0
     for entry in update_list:
-        # Check if entry with same name already exists
-        filter = {"property": "name_zh", "rich_text": {"equals": entry["name_zh"]}}
-        q = notion.databases.query(database_id, filter=filter)
-        
-        # Only add if there are no existing entries with this name
-        if len(q["results"]) == 0:
+        if entry["name_zh"] not in prev_table_dict:
             notion.pages.create(
                 parent={"database_id": database_id}, properties=fillProps(entry, schema)
             )

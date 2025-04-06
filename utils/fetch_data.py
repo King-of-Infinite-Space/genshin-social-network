@@ -97,13 +97,11 @@ def make_graph(edge_data, node_data):
 def merge_data(char_dict: dict, offical_dict: dict, prev_dict: dict, ver: str):
     char_dict_new = {}
     for name in offical_dict:
-        char = {}
+        # char_dict may contain extra test characters
+        char = char_dict[name].copy()
         char["id"] = prev_dict.get(name, offical_dict[name])["id"]
-        char["name_zh"] = char_dict[name]["name_zh"]
-        char["name_en"] = char_dict[name]["name_en"]
         char["img_url"] = offical_dict[name]["img_url"]
         char["ver"] = prev_dict.get(name, {"ver": ver})["ver"]
-        char["lines"] = char_dict[name]["lines"]
         char_dict_new[name] = char
     return char_dict_new
 
@@ -118,7 +116,15 @@ def print_diff(char_dict, prev_dict):
 
 
 def write_data_file(char_dict: dict):
-    char_data = list(char_dict.values())
+    allowed_keys = [
+        "id",
+        "name_zh",
+        "name_en",
+        "img_url",
+        "ver",
+        "lines",
+    ]
+    char_data = [{k: char[k] for k in allowed_keys} for char in char_dict.values()]
     char_data.sort(key=lambda x: x["id"])
     with open(DATA_FILE, "w", encoding="utf8") as f:
         json.dump(char_data, f, ensure_ascii=False, indent=4)
