@@ -1525,6 +1525,14 @@
                 "target_en": "Lan Yan",
                 "title_en": "Xiangling about Lan Yan",
                 "content_en": "Guoba loves Lan Yan! They spent soooooo long shaking hands when they first met, it was like they'd known each other forever, haha. Lan Yan actually promised to take me foraging for wild mushrooms and insects... Hehe, once my new dish is ready, you've gotta come try it!"
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "香菱关于爱可菲",
+                "content_zh": "啊！那个枫丹的厨师姐姐，我很喜欢她！那天她请我试吃了许多新奇的菜品，里边的口感非常…那个词怎么说的来着？哦，是「精准」！就像用各种味道的食材，在嘴里精雕细琢地制成了一尊雕塑！她对做菜过程中每个环节、每种原料的控制手法，都让我眼界大开。我是不是也该托申鹤去找闲云姨，做个能够定时定量还定温度的机关，再来学学她的手法呢？",
+                "target_en": "Escoffier",
+                "title_en": "Xiangling about Escoffier",
+                "content_en": "Oh! You mean that chef from Fontaine, right? She's great! I got to try a bunch of her new dishes the other day. They were all so... what's the word... precise! It was like she took all the flavors and ingredients in her dishes and transformed them into art! I was amazed at how meticulous everything was — every measurement, every technique executed to perfection! I kinda want Shenhe to ask Aunty Xianyun to make me a precision cooking machine of my own, so I can try out Escoffier's style of cooking!"
             }
         ]
     },
@@ -6056,6 +6064,14 @@
                 "target_en": "Emilie",
                 "title_en": "Lynette about Emilie",
                 "content_en": "Her perfume products are so popular that you have to get in line before the break of dawn to have a chance at snapping any up. However, I'm far too sensitive to the smell of perfume, and it's really rude to sneeze... so I have to take the long way around."
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "琳妮特关于爱可菲",
+                "content_zh": "嗯…看爱可菲今天的尾巴…估计是开发出让她满意的新甜点了，期待下次茶话会。",
+                "target_en": "Escoffier",
+                "title_en": "Lynette about Escoffier",
+                "content_en": "Hmm... I saw her tail wagging today. Must mean the new confection she came up with is a keeper. I'm looking forward trying it at the next tea party."
             }
         ]
     },
@@ -6428,6 +6444,14 @@
                 "target_en": "Furina",
                 "title_en": "Charlotte about Furina",
                 "content_en": "Lady Furina has a very captivating presence. She was born to be a star. Euphrasie once assigned a journalist to shadow her, but he quit not long into the assignment... From what I've heard, the reason he left was that Furina insisted on seeing every photo he took of her right away, and she'd make him redo it if she wasn't happy with how it turned out. Apparently, she was so picky that the poor guy once had to take 127 shots of her in the same pose before she was content..."
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "夏洛蒂关于爱可菲",
+                "content_zh": "说起来都有点不好意思了，托爱可菲小姐的厨，我试吃了许多厉害的菜肴…她自己的新品，她酒店下属的新品，甚至是学员的新品…我都快变成兼职美食评论家了，一分摩拉都不用付，就能吃遍枫丹最新最棒的美食！",
+                "target_en": "Escoffier",
+                "title_en": "Charlotte about Escoffier",
+                "content_en": "I've tried so many amazing dishes thanks to her! Between her work, the other chefs at her Hotel, and her apprentices, I can almost call myself a food critic at this point. I feel a little bad, getting to eat the finest food in Fontaine for free... But, I'm not complaining, either!"
             }
         ]
     },
@@ -6509,6 +6533,14 @@
                 "target_en": "Clorinde",
                 "title_en": "Furina about Clorinde",
                 "content_en": "As I remember, Clorinde isn't very talkative, but she has stood by me and protected me on several occasions, so I trust her very much. Hmm... I do miss her ever so slightly, but I don't have any real reason to see her now. Oh, right! I should invite her to my next tea party!"
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "芙宁娜关于爱可菲",
+                "content_zh": "哦？没想到，你也认识我的「甜点大校」…多亏了爱可菲，我曾在限量的「德波大蛋糕」之外，获得过许多精彩的选择。可惜现在的我，已经支付不起沫芒宫开给她的那种薪水啦。嗯？别担心，我们保持着联络呢，我还是会用亲手制作的菜肴回应她的…最近我就研究了一款「香辛果鱼肉冻通心粉」…有兴趣吗？下次做给你尝尝。",
+                "target_en": "Escoffier",
+                "title_en": "Furina about Escoffier",
+                "content_en": "Oh? You've met my Patissiere Supreme? Thanks to Escoffier, I used to have my pick of delectable confections, even beyond Gateau Debord. Unfortunately, after everything that happened, I can no longer afford what the Palais Mermonia was paying her. Hm? Oh, don't worry, we're still in touch. I like to send her homemade dishes of my own. I even invented a new one not too long ago — \"Harra Fruit Fish Jelly Macaroni\"... Sounds good, right? I'll make it for you sometime."
             }
         ]
     },
@@ -6590,6 +6622,14 @@
                 "target_en": "Lyney",
                 "title_en": "Navia about Lyney and Lynette",
                 "content_en": "I know magicians can often be all bravado and razzmatazz, but I can tell that Lyney is a sincere guy who cares deeply about his friends and family. He's so mature for his age, it catches me off guard sometimes... Oh, and how could I forget — it was so kind of him to try and cheer up the children in Poisson with an impromptu free magic show during the flood! I'll have to invite him and Lynette over for some macarons at my place when I get the chance. I know Lynette's always conjuring teacups out of thin air, so surely at least she's a fan of a proper tea break?"
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "娜维娅关于爱可菲",
+                "content_zh": "我的好朋友爱可菲呀，她总算是结束闭关了。听说，她在开发超越「德波大蛋糕」的新品，一直闷在自己的专属厨房里。再这样下去，眼睛都要畏光了吧？不如，我们约上她，找个时间出门野餐吧？阳伞和墨镜随她选。和爱可菲出行，普普通通的郊游都会变成一场美食之旅哦。",
+                "target_en": "Escoffier",
+                "title_en": "Navia about Escoffier",
+                "content_en": "My good friend Escoffier is finally out and about again... It's about time. Shutting herself away like that, all to try and surpass her own magnum opus, Gateau Debord. It's a wonder she can even stand the sunlight after all that time inside. You know what? We should all go for a picnic sometime! I'll make sure to bring her a pair of sunglasses and a parasol. Believe me, you're in for a treat! With Escoffier, even the simplest of outings feel like fine dining!"
             }
         ]
     },
@@ -7302,6 +7342,14 @@
                 "target_en": "Emilie",
                 "title_en": "Sigewinne about Emilie",
                 "content_en": "I always see Miss Emilie's perfumes being recommended in beauty magazines. So I've hatched a plan. The next time I take a vacation, I'm gonna cut my visit to the Palais Mermonia a little short, so I can take some time to go shopping in the Court of Fontaine. I'm gonna buy loads and loads of Emilie's perfumes to bring back and give to all the lovely little girls here, hee-hee."
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "希格雯关于爱可菲",
+                "content_zh": "爱可菲小姐在梅洛彼得堡待的时间不长，但她给了我很大的鼓励哦！我做的每一杯饮品，她都认认真真，不紧不慢地喝完了，而且还非常细致地向我描述了她感受到的味道…虽然她的专业用词我听不太明白，但她的面部表情僵硬得十分可爱哦！有机会的话，我还想给她再寄几箱健康奶昔！",
+                "target_en": "Escoffier",
+                "title_en": "Sigewinne about Escoffier",
+                "content_en": "Miss Escoffier wasn't in the Fortress long, but she was a delightful presence! Whenever I made her a beverage, she would get so serious, taking these small, careful sips, it took her forever to finish! And then, she would go into a bunch of detail about the flavor profile... A lot of it went over my head, but the way her face would contort in response to the flavor was so cute! I should send her some milkshakes for old time's sake!"
             }
         ]
     },
@@ -7375,6 +7423,14 @@
                 "target_en": "Tighnari",
                 "title_en": "Emilie about Tighnari",
                 "content_en": "I've only met him in person a few times, but we communicate by letter often. He reached out to me first, writing a letter after tracking down my details through some roundabout way. He was extremely polite, and it was incredibly flattering to have such a renowned botanist ask for my flower-related expertise. But, I also saw it as a chance to learn from him. I decided to ask some of my own questions, particularly about perfume ingredients from Sumeru, and he gave me thorough answers to each and every one.\nNow, our correspondence is much more casual. He even tells me about his companions sometimes. I really am delighted I got this opportunity to make a new friend."
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "艾梅莉埃关于爱可菲",
+                "content_zh": "爱可菲小姐是位勤奋好学的大厨。能将枯燥的调香知识听得津津有味，已属难得。她还擅于总结和归纳事物之间微小的联系，拥有着将各类知识迅速应用于实践的行动力。有人羡慕地称她为枫丹烹饪史上的「天才」，我丝毫不怀疑她成功背后的缘由。",
+                "target_en": "Escoffier",
+                "title_en": "Emilie about Escoffier",
+                "content_en": "Miss Escoffier is a diligent and studious chef. Normally, dry lectures about perfumery would put someone to sleep, but not her. On top of that, her mind is so quick — she can recognize subtle links between pieces of information and can instantly put her knowledge into practice. Some people think she was blessed with a natural culinary gift. But, I believe the secret to her success is self-evident."
             }
         ]
     },
@@ -7440,6 +7496,14 @@
                 "target_en": "Xilonen",
                 "title_en": "Mualani about Xilonen",
                 "content_en": "If the Pyro Archon acknowledges a craftsperson, then you know she's good. Even if an Ancient Name got all smashed up, I bet she could make it good as new again. Wait, did I just jinx something? An Ancient Name absolutely cannot get smashed. That would be so bad. I take it back! I take it back! I didn't say anything. And you didn't hear anything either, alright?"
+            },
+            {
+                "target_zh": "伊法",
+                "title_zh": "玛拉妮关于伊法",
+                "content_zh": "伊法这个人可上道了！无论叫他出来玩什么他都乐呵呵的，而且做什么都又快又利索。要不是因为他已经干了医生这一行，我倒是挺希望他能来当水上运动教练。部族差异？小意思啦，根本不成问题！",
+                "target_en": "Ifa",
+                "title_en": "Mualani about Ifa",
+                "content_en": "Ifa is the best! No matter what we invite him to do, he's always happy to join. And he's super quick and efficient at everything, too. If he wasn't already working as a vet, I think he'd make a pretty great water sports coach. Hmm? Is he from a different tribe? Well, yeah, but that won't be a problem at all!"
             },
             {
                 "target_zh": "梦见月瑞希",
@@ -7521,6 +7585,14 @@
                 "target_en": "Mavuika",
                 "title_en": "Kachina about the Pyro Archon",
                 "content_en": "I never could have dreamed that the Pyro Archon herself would one day call me a hero of Natlan... She's the idol of every warrior in our land, so being recognized by her is like... *sniffle* I just get overwhelmed every time I think about it, sorry... *sniffle* Sorry, sorry! I shouldn't have started crying..."
+            },
+            {
+                "target_zh": "伊法",
+                "title_zh": "卡齐娜关于伊法",
+                "content_zh": "伊法哥哥是个很厉害的龙医生！凡是给他看过病的小龙，回来后都作息规律、不乱吃乱跑，几乎再没生过病啦。所以每当大家发现有龙身体不舒服，第一反应都是请他飞过来看一看。",
+                "target_en": "Ifa",
+                "title_en": "Kachina about Ifa",
+                "content_en": "Ifa's a really amazing sauro-vet! Any little Saurian who sees him comes back and starts living a healthy life! They eat right, sleep well, don't cause trouble, and basically don't get sick again! So whenever a Saurian's looking sick, everyone's first thought is to ask him to fly over and have a look!"
             }
         ]
     },
@@ -7588,6 +7660,14 @@
                 "content_en": "As you can probably guess, I've taken jobs from her before. I helped her purchase a heavy stack of paper-based reading material from an Inazuman merchant. Not to pry into my clients' private affairs, but... don't the Masters of the Night-Wind use woven fabric instead of paper?"
             },
             {
+                "target_zh": "伊法",
+                "title_zh": "基尼奇关于伊法",
+                "content_zh": "<color=#37FFFF>基尼奇：</color>我委托过他。有次阿乔说自己「病」了，大哭大闹不肯停下。既然如此，理应送它去看最好的龙医生。他医术的确不错，阿乔被请进诊所后没一会儿就痊愈了。\n<color=#37FFFF>阿乔：</color>你…你知道什么啊你！他就是个庸医，庸医！…你、你都不知道他说了什么你都！",
+                "target_en": "Ifa",
+                "title_en": "Kinich about Ifa",
+                "content_en": "<color=#37FFFF>Kinich:</color> I've enlisted his services before. It was when Ajaw said he was \"ill\"... Whatever it was, he was ranting and crying incessantly. So, I figured it only made sense to take him to the best sauro-vet I could find. And he really is a pro. Ajaw wasn't inside for long, but when Ifa brought him out, he was cured.\n<color=#37FFFF>Ajaw:</color> Gah... What do you know about medicine! He's not even a real doctor, he's a quack! A charlatan! ...You weren't even there, you don't know what he said! Ugh."
+            },
+            {
                 "target_zh": "瓦雷莎",
                 "title_zh": "基尼奇关于瓦雷莎",
                 "content_zh": "<color=#37FFFF>基尼奇：</color>在几次清剿危险魔物的委托中，她恰好从旁经过，却主动向我提供了帮助。客气点讲，她的战斗技巧很单纯，主要靠速度和力量上的优势撞翻对手…不客气点讲，单纯过度了。\n<color=#37FFFF>阿乔：</color>怎么不说下去？呵呵。基尼奇这小子为表感谢，请她来吃「悬木人」的特色菜。结果她一个人就点了三十多份「咚咚嘭嘭」，三十多份啊！还全吃下去了。你没看见，当时这只吝啬鬼基尼奇的脸都要急绿了，哈哈哈哈。",
@@ -7651,6 +7731,14 @@
                 "target_en": "Citlali",
                 "title_en": "Xilonen about Citlali",
                 "content_en": "Citlali would occasionally come to my workshop to buy some ore. According to her, some ores can be crushed into powder and taken as medicine to help her with divinations and ceremonies. Hm? Have I ever asked her to read my fortune? No, I'm not interested in knowing the future. I already have enough to worry about with all my present work. Besides, I always get sleepy during divination rituals..."
+            },
+            {
+                "target_zh": "伊法",
+                "title_zh": "希诺宁关于伊法",
+                "content_zh": "伊法来部族里治疗过嵴锋龙，手法非常不错，也很会照顾。无论是多调皮的小龙，在他面前都乖乖地不乱动。\n伊法说，多亏了我给他打造的那一套龙用注射器，就算不套上针管，对龙和人也非常有威慑力。你想看看吗？我还留了一套样品呢。\n你等会啊，我把最大的那根注射器拿出来…哎，你别往后退啊，上面没套针管，很安全的。",
+                "target_en": "Ifa",
+                "title_en": "Xilonen about Ifa",
+                "content_en": "Ifa has come to the tribe before to heal some Tepetlisaurs. He is very skilled, and knows how to care for his patients. Even the most rambunctious Saurians will sit quietly when he's around.\nIfa said it's all thanks to the set of Saurian syringes I made for him. Even without the needle on it, it's enough to deter any person or Saurian from misbehaving. Would you like to see it? I still have a sample set if you're interested.\nWait here, I'll go fetch the biggest one... Huh? Why are you backing away? The needle isn't even attached, it's completely safe."
             },
             {
                 "target_zh": "欧洛伦",
@@ -7726,6 +7814,14 @@
                 "content_en": "My dad told me that when I was little, they gathered all of the most learned elders in Natlan and asked them to come up with a plan for managing my Abyss condition. They all disagreed on the best approach, and it turned into a drawn-out debate. At some point, Citlali quietly left the room, but they were all too busy arguing to notice. When she got back, she put some food and wine down in front of her, ignored everyone, and just started eating... the table suddenly went very quiet.\nJust by looking at her, you'd never know how much seniority and experience she has."
             },
             {
+                "target_zh": "伊法",
+                "title_zh": "恰斯卡关于伊法",
+                "content_zh": "葵可跟老爹经常找他讨论医术。从空中工坊回来之后，我第一时间就去找伊法来检查姐姐的情况。但他只是看了一眼，撂下一句「没多大问题，库斯可能解决」就转头去治别的病号了…唉，事实也证明他的眼光确实毒辣，是我关心则乱了。",
+                "target_en": "Ifa",
+                "title_en": "Chasca about Ifa",
+                "content_en": "Chuychu and my dad have discussed medicine with him countless times. So after I got back from the airborne workshop, the first thing I did was take Coya to get checked out by him. But he seemed so dismissive — he took one glance, said \"it's nothing serious, Cusco can handle it,\" and then immediately left to deal with another patient... *sigh* He was right, of course. I was just worrying too much."
+            },
+            {
                 "target_zh": "伊安珊",
                 "title_zh": "恰斯卡关于伊安珊",
                 "content_zh": "我一直觉得「让自己变得更强」和「让别人也变得更强」是两种不同的才能。能兼具这两者的人少之又少，伊安珊就是其一。\n比如我就不太懂该怎么教人。每次给飞行队的成员讲解示范，总是要在一些简单枯燥又显而易见的技巧上说明半天…还会反复被问「这怎么就显而易见了？」\n要是换了伊安珊来，「花羽会」每年通过飞行试炼的人估计能翻上一番吧…可惜她的培训项目里向来没有飞行。",
@@ -7765,6 +7861,14 @@
                 "target_en": "Chasca",
                 "title_en": "Ororon about Chasca",
                 "content_en": "Chasca is famous for a reason. She's an amazing mediator. The minute she shows up, all the fighting stops, and everyone starts shaking hands like the best of friends. She has a pretty convincing method, apparently — \"armed deterrence\"... Not a bad name."
+            },
+            {
+                "target_zh": "伊法",
+                "title_zh": "欧洛伦关于伊法",
+                "content_zh": "别看伊法经常教训病号，他和龙们的关系其实很好。闲下来他会在诊所门口弹吉他，让围上来的龙一个一个跟着唱。\n但其实就是呜呜叫啦。我如果碰到了也会加入。我是说加入龙。",
+                "target_en": "Ifa",
+                "title_en": "Ororon about Ifa",
+                "content_en": "Ifa may scold his patients a lot, but he actually has a great relationship with the saurians. Whenever he has some time off, he'd play the guitar in front of the clinic, and a bunch of saurians would gather around and sing along.\nAlthough, it's more like noise than actual singing. I like to join in when I'm around, too... with the saurians, I mean."
             },
             {
                 "target_zh": "茜特菈莉",
@@ -7951,6 +8055,14 @@
                 "target_en": "Varesa",
                 "title_en": "Mavuika about Varesa",
                 "content_en": "During the Pilgrimage, I cover all the expenses at the Weary Inn, and without fail, there's always an order for a party tray for eighty. I used to assume it was someone ordering for a large group of friends, but as it turns out... Varesa ordered it all for herself."
+            },
+            {
+                "target_zh": "伊法",
+                "title_zh": "玛薇卡关于伊法",
+                "content_zh": "除了精湛的医术外，一个好医生往往拥有很强的沟通能力。而当与医患语言不通时，就需要更敏锐的观察力和同理心。这就是为什么伊法总是能和不同性格的人交上朋友吧。\n所以说，如有人或者龙和伊法关系不好…哈哈，我想应该不是伊法的问题。",
+                "target_en": "Ifa",
+                "title_en": "Mavuika about Ifa",
+                "content_en": "The truly great doctors often possess vast medical knowledge as well as great communication skills. And, when the patient and the doctor do not speak the same language, observation and empathy become even more important. That's why Ifa can make friends with just about anyone.\nSuffice it to say, if someone is on bad terms with Ifa — human or saurian — I doubt the problem lies with him, haha."
             },
             {
                 "target_zh": "梦见月瑞希",
@@ -8194,6 +8306,14 @@
                 "target_en": "Dori",
                 "title_en": "Varesa about Dori",
                 "content_en": "Oh... Isn't she that... big boss lady who's surprisingly small... but still has infinitely deep pockets? Oof... she's a fierce haggler... Every time she comes to buy fruit from us, she manages to slash at least thirty to forty percent off the selling price, and that's on a good day! On the plus side, though, at least she buys huge amounts — multiple cartloads at a time. And she lets me pet her Shaggy Sumpter Beast. It's so fluffy, and such a big cutie..."
+            },
+            {
+                "target_zh": "爱可菲",
+                "title_zh": "瓦雷莎关于爱可菲",
+                "content_zh": "爱可菲小姐好严格…她餐厅批量进购我的水果前，每次都要抽出几个，去做什么…「采样分析」，甜度和风味物质差一丝丝，她都不会点头…不过，她做的菜肴真好吃啊，真好吃啊…欸嘿嘿…要是能每天吃到就好了！那应该是，神明级别的待遇？",
+                "target_en": "Escoffier",
+                "title_en": "Varesa about Escoffier",
+                "content_en": "Miss Escoffier has really strict standards... Every time her restaurant places a bulk order for my fruit, she picks out a few for... what's it called... yeah, \"sample analysis.\" If the sweetness or flavor is even slightly off, she rejects the whole batch... But then again, her cooking? Out of this world. Sooo delicious... Hehehe... If only I could eat it every day! I guess I'd probably have to be a god to afford that."
             }
         ]
     },
@@ -8267,6 +8387,184 @@
                 "target_en": "Varesa",
                 "title_en": "Iansan about Varesa: Moderation",
                 "content_en": "My biggest concern for Varesa right now is that her energy management seems out of control. Her metabolism seems like it's stuck on a high-burn mode, meaning she wastes an awful lot of energy, and I suspect that's the cause of her alarming appetite. I do hope she takes some time to look into what makes her this way. I'd love to see her gain the ability to manage her energy expenditure a little better, so she doesn't need to eat like a horse every single meal... I mean, it's nice to see her thoroughly enjoy her food, but at the same time, I want to urge her to be more mindful of what she's putting in her body. It's never a good idea to just gorge yourself — you have to pay attention to nutrition and quantity, and especially limit your fat and sugar intake. Much better to get her diet under control now than have to deal with the consequences when she develops health issues later in life."
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name_zh": "爱可菲",
+        "name_en": "Escoffier",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/155766/16418e9de1cb6681723c6002234bc27f_7701212555215823781.png",
+        "ver": "5.6.1",
+        "lines": [
+            {
+                "target_zh": "芙宁娜",
+                "title_zh": "爱可菲关于芙宁娜·初遇",
+                "content_zh": "我刚入行时，在瓦萨里回廊的小餐馆工作。有一次，芙宁娜大人结束演出后突发奇想，随机选了一家店用餐。我当时忙得晕头转向，听说有客人想见主厨，连刀都没放下，就匆匆去了客人的餐位，结果迎面撞上芙宁娜大人，脑袋里一片空白…后来，我凭本能准备了一份「铃兰糖霜剧院蛋糕」，幸好芙宁娜大人十分满意，还说记住了我的名字。当晚，我翻来覆去，一夜都没睡着，结果第二天就等来了沫芒宫的特聘信…",
+                "target_en": "Furina",
+                "title_en": "Escoffier about Furina: First Meeting",
+                "content_en": "Early in my career, I worked at a small restaurant in the Vasari Passage. One day, entirely out of the blue, Lady Furina decided to dine at our restaurant after a performance. As I was scrambling around the back, a customer asked to meet the head chef. So, I rushed out to their table, knife still in hand, and completely froze... Because there I was, standing face-to-face with Lady Furina of all people. I knew I had to make something special, and it was like my instincts took over — I came up with a \"Lily sugar-glazed opera cake,\" and Lady Furina actually liked it and said she would remember me. I barely slept a wink that night, and the very next day, there was a position waiting for me at the Palais Mermonia..."
+            },
+            {
+                "target_zh": "芙宁娜",
+                "title_zh": "爱可菲关于芙宁娜·现状",
+                "content_zh": "在那以后，芙宁娜大人封我为「甜点大校」，赞赏我在这个领域「能一人成军」。为了不负这个名号，我闭关深造过一段时间，结果好像错过了不少大事件，芙宁娜大人也搬出了沫芒宫…我不懂那些复杂的问题，但我明白，芙宁娜大人永远是我生命中最重要的贵人，只要她有需要，我随时都会以专属厨师的身份回到她的身边，薪酬什么的完全无所谓！",
+                "target_en": "Furina",
+                "title_en": "Escoffier about Furina: Current Situation",
+                "content_en": "After that, Lady Furina gave me the title of \"Patissiere Supreme,\" and said, when it comes to confections, I was worth a whole army of patissiers. That gave me a lot to live up to, so I shut myself away to hone my craft. And, well, it seems like I missed a lot of important events in the meantime. Lady Furina doesn't even live in the Palais Mermonia anymore... I don't really understand what happened, but I do know this — Lady Furina will always be the most important benefactor of my life. She only has to say the word, and I would go work as her personal chef in an instant — no compensation necessary!"
+            },
+            {
+                "target_zh": "娜维娅",
+                "title_zh": "爱可菲关于娜维娅",
+                "content_zh": "五岁生日的时候，爸妈第一次带我去了德波大饭店。在饭店门口，我捡到了一顶非常漂亮的帽子，顺着帽子上那种无与伦比的、热情的玫瑰香气，我找到了它的主人。娜维娅的气息至今没变，我一有空就会约她喝点下午茶，聊聊近况，尝尝点心，每分每秒都很开心…只可惜过了那么多年，她那个「甜品就是越甜越好！」的口味也还是没变…算啦，我也不打算去纠正，喜欢什么样的口味，总归是自己说了算。",
+                "target_en": "Navia",
+                "title_en": "Escoffier about Navia",
+                "content_en": "My parents took me to the Hotel Debord for the first time on my fifth birthday. I remember — I found this hat on the ground. It was beautiful and carried the intense, warm aroma of roses. Following that scent, I was able to find the owner, and well... That scent is Navia to a tee — so warm and sweet, and after all these years, not a thing has changed. I invite her over for afternoon tea whenever I have the chance. Every second we spend together is pure delight... Except for the fact that she's still a \"the sweeter the dessert, the better\" kind of person... But, oh well. You have to pick your battles. And, anyway, taste is personal, I guess..."
+            },
+            {
+                "target_zh": "夏洛蒂",
+                "title_zh": "爱可菲关于夏洛蒂",
+                "content_zh": "对于我们厨师而言，夏洛蒂小姐称得上是「影响力倍增者」。她贵为专业的记者，文字功底了得，对于菜肴风味的描写细致入微，配合无可挑剔的摄影技术，转眼间就能完成一则图文并茂的报道。如果有什么想要宣传的料理新品，请她第一时间来试吃，绝对不会错。",
+                "target_en": "Charlotte",
+                "title_en": "Escoffier about Charlotte",
+                "content_en": "As a professional reporter with impeccable writing skills, Charlotte has a lot of clout in the culinary world. Her flavor descriptions are so detailed and her photography skills are unmatched. She can whip up a food editorial in the blink of an eye. If I have a new dish that I want to advertise, inviting Charlotte to try it out is never a bad idea."
+            },
+            {
+                "target_zh": "希格雯",
+                "title_zh": "爱可菲关于希格雯",
+                "content_zh": "护士长吗…唔…嗯…护士长的性格很棒，但她毕竟有着特殊的体质…我理解她，敬畏她，尽量探索了她的味觉世界。她值得成为映影中的传奇主角——一位能兵不血刃，用奶昔除掉目标的刺杀高手…",
+                "target_en": "Sigewinne",
+                "title_en": "Escoffier about Sigewinne",
+                "content_en": "The Head Nurse, huh... Well, um... She's a lovely person, of course. It's just... her sense of taste is, in a word, unique.... Which I completely understand and respect. I've tried my best to explore flavor through her perspective. But, my biggest takeaway was that she could star in an assassin film. Seriously, try her milkshakes sometime — absolutely deadly..."
+            },
+            {
+                "target_zh": "莱欧斯利",
+                "title_zh": "爱可菲关于莱欧斯利",
+                "content_zh": "那位公爵彬彬有礼，做事稳重，是一位老学派的绅士。不过，他似乎没有意识到，「特许食堂」的某些菜品，对我而言…是加刑。",
+                "target_en": "Wriothesley",
+                "title_en": "Escoffier about Wriothesley",
+                "content_en": "His Grace is polite and steadfast — a true old-school gentleman at heart. Still, eating the food at the Coupon Cafeteria... Now that was a cruel and unusual punishment indeed."
+            },
+            {
+                "target_zh": "琳妮特",
+                "title_zh": "爱可菲关于琳妮特",
+                "content_zh": "说起来你可能还不知道，琳妮特也是我们「甜点茶话会」上的一员呢。她跟林尼先生常来德波大饭店演出，我们也有过不少交流。一开始我还以为琳妮特有点冷淡，鼓起勇气请她来茶话会上做客之后，我才发现她的情绪丰富得就像缤纷马卡龙…遇到喜欢的甜点就会扑扇耳朵，遇到不喜欢的就会耷拉下尾巴！等等…尾巴…该不会我也…",
+                "target_en": "Lynette",
+                "title_en": "Escoffier about Lynette",
+                "content_en": "You might not know this, but Lynette is actually a member of our Dessert Tea Party. She and her brother were frequent performers at Hotel Debord, so we saw each other quite a bit. In the beginning, she seemed distant and cold, but once I worked up the courage to invite her to the tea party, I realized that her emotions are as rich and varied as a plate of Rainbow Macarons... When she likes a particular dessert, her ears flutter back and forth. And, if she doesn't like it, her tail droops down, hehe... Wait! Don't tell me my tail does that too..."
+            },
+            {
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "爱可菲关于「仆人」",
+                "content_zh": "她的身影，我只是远远看过一眼，就再也忘不掉了。起初我警告自己，假如自己做的菜肴有什么瑕疵，让那样的客人感到了不满，后果的恐怖程度完全可以预见。对于不成器的学员，我有时会让他们「想想把这种料理端给阿蕾奇诺女士的下场」。但我后来听娜维娅说…她似乎不是特别苛刻的人？",
+                "target_en": "Arlecchino",
+                "title_en": "Escoffier about The Knave",
+                "content_en": "I've only ever seen her from a distance, and one time at that, but I will never forget it. For a while, I cooked as if she was going to taste every dish. I mean, imagine the consequences of disappointing someone like that... Talk about motivation. It was a great scare tactic for my apprentices as well. All it took was a, \"you think you can serve this to Ms. Arlecchino and live to tell the tale?\" It's weird, though... Navia seems to think she's not as terrifying as she looks... But I don't know."
+            },
+            {
+                "target_zh": "艾梅莉埃",
+                "title_zh": "爱可菲关于艾梅莉埃",
+                "content_zh": "你知道吗？「食品调香」也是调香学的一大热门哦。向艾梅莉埃小姐咨询了几种香味物质的提炼方法后，我对「嗅觉与味觉的联合作用」有了更深一层的认知，说不定，以后还能开发出充分运用香味，分层影响口感的全新佳肴…她对我用科学分析料理的观念也相当认可，真是难得呀。",
+                "target_en": "Emilie",
+                "title_en": "Escoffier about Emilie",
+                "content_en": "Did you know that food-inspired scent formulation is a popular field in perfumery? Miss Emilie has helped me learn a lot about extracting fragrances and aromas. I feel like I have a whole new appreciation for the dynamic between smell and taste. I hope I can use it to my advantage one day and use fragrance to unlock a whole new sensory experience. As for Miss Emilie, it's just really nice to have someone who appreciates a scientific approach..."
+            },
+            {
+                "target_zh": "瓦雷莎",
+                "title_zh": "爱可菲关于瓦雷莎",
+                "content_zh": "瓦雷莎啊，她的水果中蕴含着「懒洋洋的阳光」，就算让我加价两成，我都觉得值当！所以每次交易后，我都要请她饱餐一顿。她的食量出了名的惊人，但我询问她的用餐体验时，发现她并没有忽视料理的细节。也就是说，瓦雷莎一直「用心在吃」，我喜欢这样的食客！",
+                "target_en": "Varesa",
+                "title_en": "Escoffier about Varesa",
+                "content_en": "Oh, Varesa? The fruit from her orchard is amazing. Biting into one is like being transported to a lazy summer's day. She could charge me an extra twenty percent, and it would still be worth it! So, I always treat her to a meal after every purchase. Her appetite is astonishing. It may look like she scarfs it all down in one bite, but if you actually talk to her about the food, it's obvious she appreciates the subtle details. In other words, she has the appetite and palate to back it up — I love serving food to people like that!"
+            },
+            {
+                "target_zh": "香菱",
+                "title_zh": "爱可菲关于香菱",
+                "content_zh": "听说璃月有句古话叫「山外有山」，香菱小姐对我而言就像是…「穿过山洞直接抵达了异世界」。她的许多烹饪技法，我闻所未闻，对食材的选取也令人惊叹，请我品尝的料理更是包含着无尽的可能性，不该用传统枫丹料理的思维去分析。遇见她以后，我更加相信了自己的判断——绝不能把自己锁死在厨房里，而是要多去各地走走，充分领略并融合各地的厨艺！",
+                "target_en": "Xiangling",
+                "title_en": "Escoffier about Xiangling",
+                "content_en": "There is a saying in Liyue: \"Beyond every mountain lies a higher mountain.\" But, when it comes to Xiangling and me, it feels more like... I was holed up in a cave and she dragged me into a new world. She uses techniques I've never heard of and chooses ingredients I could never anticipate. Her dishes seem to redefine what I thought was possible — you can't even analyze them within the framework of classical Fontainian cooking. Meeting her has convinced me that staying cooped up in my kitchen isn't the answer — I need to go out and explore what other nations have to offer!"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name_zh": "伊法",
+        "name_en": "Ifa",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/155783/29699b14bbfaeacb283ac09444ac5d32_2018882069360857026.png",
+        "ver": "5.6.1",
+        "lines": [
+            {
+                "target_zh": "卡齐娜",
+                "title_zh": "伊法关于卡齐娜",
+                "content_zh": "能看出卡齐娜非常喜欢龙。她如果潜心学习，应该可以成为一名不错的龙医生。不过她已经是位了不起的战士了，就不必分心来做我的学生了。",
+                "target_en": "Kachina",
+                "title_en": "Ifa about Kachina",
+                "content_en": "I can tell that Kachina has a real soft spot for saurians. If she put in the work, I'm sure she'd make an excellent vet. But since she's already proven herself as a warrior, she's probably better off focusing on that than trying to study medicine with me on the side."
+            },
+            {
+                "target_zh": "希诺宁",
+                "title_zh": "伊法关于希诺宁",
+                "content_zh": "我可喜欢和希诺宁聊天了，她总有很多了不起的好点子。虽然有时她会因为更重视功能造出看起来很震撼的工具，但我觉得，「看起来震撼」也是功能的一种。",
+                "target_en": "Xilonen",
+                "title_en": "Ifa about Xilonen",
+                "content_en": "I love chatting with Xilonen. She's always brimming with all sorts of fantastic creative ideas. Sometimes, her insistence on raw functionality can result in contraptions that look a little... intimidating, but then again, intimidation is kind of a function in its own right."
+            },
+            {
+                "target_zh": "基尼奇",
+                "title_zh": "伊法关于基尼奇",
+                "content_zh": "严肃探讨，阿乔算是生物吗？\n反正之前它来看病，我研究了好一阵也没看出哪有问题，就跟基尼奇说：「照着它脑门多拍拍，拍到正常运转就行了。」\n阿乔听完这话马上就没事了，你说巧不巧。",
+                "target_en": "Kinich",
+                "title_en": "Ifa about Kinich",
+                "content_en": "Serious question: Does Ajaw technically count as a living being?\nWhen he came to see me for treatment, I gave him a very thorough checkup but couldn't find anything wrong with him. So I told Kinich, \"Just bash him on the head a few times until he starts working again.\"\nAnd the moment Ajaw heard that, bro, he was suddenly fine again. Strange coincidence, huh?"
+            },
+            {
+                "target_zh": "恰斯卡",
+                "title_zh": "伊法关于恰斯卡",
+                "content_zh": "调停人的工作很重要，她能治我治不好的「病」。",
+                "target_en": "Chasca",
+                "title_en": "Ifa about Chasca",
+                "content_en": "Her work as a peacemaker is extremely important. She cures a lot of ills that are beyond my reach."
+            },
+            {
+                "target_zh": "欧洛伦",
+                "title_zh": "伊法关于欧洛伦·别想太多",
+                "content_zh": "他这人想法很怪的。和他交往不用思考太多，反正也想不明白。\n总之他心思不坏，会用特别的方式关心身边的朋友，认识久了你就知道了。",
+                "target_en": "Ororon",
+                "title_en": "Ifa about Ororon: Try Not to Overthink",
+                "content_en": "That guy has a very peculiar way of thinking. You just gotta go with the flow around him. I wouldn't bother trying to figure him out, because honestly he never makes all that much sense.\nAnyway, he's not a bad person or anything, and he has his own unique ways of showing that he cares. You'll know what I mean once you've gotten to know him."
+            },
+            {
+                "target_zh": "欧洛伦",
+                "title_zh": "伊法关于欧洛伦·很想知道",
+                "content_zh": "…虽然已经习惯了，但有时还是很想钻进他的脑袋里，看看他每天到底都在想些什么！",
+                "target_en": "Ororon",
+                "title_en": "Ifa about Ororon: But I Can't Help It",
+                "content_en": "...Okay, even though I'm used to him by now, there are still days when I wish I could get inside his head, just to see what is actually going on in there!"
+            },
+            {
+                "target_zh": "茜特菈莉",
+                "title_zh": "伊法关于茜特菈莉",
+                "content_zh": "奶奶…奶奶很厉害的，睡衣的花样也多，哈哈…\n为了不卷入额外的麻烦，一般黑曜石奶奶叫我跟欧洛伦转达什么，我就转达什么，一字不多一字不少。有些事情，知道的越少越好，不然要和她孙子一起吃脑瓜崩。",
+                "target_en": "Citlali",
+                "title_en": "Ifa about Citlali",
+                "content_en": "Granny's... Yeah, she's a tough cookie. With a colorful pajama collection, hahaha...\nI try not to get dragged into her and Ororon's drama, so whenever she gives me a message for him, I just pass it right on, word-for-word, no questions asked. I figure if I wanna stay out of her line of fire, the less I know, the better."
+            },
+            {
+                "target_zh": "玛薇卡",
+                "title_zh": "伊法关于玛薇卡",
+                "content_zh": "有次遭遇紧急出诊，火神大人提出可以载我一程。真的很疯狂，哥们，要在头晕目眩的状态下给龙清理伤口…在那之前我都不知道自己可以做到这种程度，人的潜能就是这样被开发的。",
+                "target_en": "Mavuika",
+                "title_en": "Ifa about Mavuika",
+                "content_en": "The Pyro Archon gave me a ride once when I had to get to an emergency visit. Bro, it was so crazy. We get there, my head's still spinning at a million miles an hour, and somehow, I have to patch up this injured saurian... I pulled it off, much to my own surprise. I guess sometimes we don't know our own potential until we're pushed out of our comfort zone."
+            },
+            {
+                "target_zh": "那维莱特",
+                "title_zh": "伊法关于那维莱特",
+                "content_zh": "你是说万一这位先生生病了，希望我能多关照下？欸，这归我管吗？\n嗯…但既然是咔库库的新哥们…那好吧，我试试看咯。",
+                "target_en": "Neuvillette",
+                "title_en": "Ifa about Neuvillette",
+                "content_en": "...What's that? You want me to take care of him if he ever gets sick? Um... you know I'm a vet and not a doctor, right?\nHmm... Well, Cacucu's certainly taken a shine to him... Alright, fine, bro. I'll do my best."
             }
         ]
     }
