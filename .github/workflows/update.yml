@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 0 * * 6"
+  schedule:
+    - cron: "0 0 * * 6"
 
 env:
   REF_VER: ${{ vars.REF_VER }}
@@ -48,4 +48,5 @@ jobs:
           NOTION_GENSHIN: ${{ secrets.NOTION_GENSHIN }}
           URL_ZH: ${{ vars.URL_ZH }}
           URL_EN: ${{ vars.URL_EN }}
+          DATA_REPO_URL: ${{ vars.DATA_REPO_URL }}
         run: python ./utils/fetch_data.py
