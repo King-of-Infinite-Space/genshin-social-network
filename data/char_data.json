@@ -456,6 +456,14 @@
                 "target_en": "Mika",
                 "title_en": "Kaeya about Mika",
                 "content_en": "When I first met Mika, he seemed like the nervous type, so I decided to joke around with him a little. I didn't count on that making him even more nervous... His smile looked as if it were plastered onto his face, and in the end, he even wrote me a letter of apology. Tsk-tsk. Does taking everything so seriously run in the Schmidts' blood?"
+            },
+            {
+                "target_zh": "塔利雅",
+                "title_zh": "凯亚关于塔利雅",
+                "content_zh": "他平时是不是经常会喝教堂里的葡萄酒？酒量真不一般。那次我在豪饮比赛里输给了他，这成为了我们结识的契机。风神热爱美酒，风神的代行人也在孜孜不倦地传播美酒的魅力。这就是自由之城的浪漫吧！",
+                "target_en": "Dahlia",
+                "title_en": "Kaeya about Dahlia",
+                "content_en": "Do you know if he drinks a lot of wine as part of church ceremonies? Because his alcohol tolerance is through the steeple. The first time we got to know each other was when I lost to him in a drinking contest. Well, the Anemo Archon loves his wine, so it's fitting that his spokesperson is such a devoted advocate for the wonders of alcohol... Things like that are what give the City of Freedom its charm."
             }
         ]
     },
@@ -529,6 +537,14 @@
                 "target_en": "Noelle",
                 "title_en": "Barbara about Noelle",
                 "content_en": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Hehehe!"
+            },
+            {
+                "target_zh": "塔利雅",
+                "title_zh": "芭芭拉关于塔利雅",
+                "content_zh": "塔利雅是一位十分可靠的前辈，由他传达的神谕，总能为大家带来很大帮助。不过，他不喜欢待在教堂里，经常光顾集市和酒馆这样人声嘈杂的地方。有时想找他人都找不到…就跟罗莎莉亚修女一样呢。",
+                "target_en": "Dahlia",
+                "title_en": "Barbara about Dahlia",
+                "content_en": "I really look up to Dahlia. We rely on him to share the word of Barbatos, and it's always a great help to us all. He never sticks around long at the Cathedral, though. Maybe it's too quiet for him? He seems to love the markets and the taverns. And he can be hard to find sometimes... same as Rosaria."
             }
         ]
     },
@@ -764,6 +780,14 @@
                 "target_en": "Mavuika",
                 "title_en": "Venti about Haborym",
                 "content_en": "This world sure is cruel, forcing generation upon generation of human heroes to become cannon fodder in the fight against darkness. But, under Mavuika's leadership, they achieved a truly god-like feat... Hehe, starting with \"her,\" I suppose the Natlanese have always been like that. Ah, right! I heard Mavuika likes to drink! Are you thinking what I'm thinking...?"
+            },
+            {
+                "target_zh": "塔利雅",
+                "title_zh": "温迪关于塔利雅",
+                "content_zh": "旅者，你想要聆听风的声音，寻求风的指引吗？那么…去找这位助祭肯定没错。哈哈，开个玩笑。你随时可以找我一边喝酒一边聊天噢！至于我平时拜托塔利雅传递消息的原因…你已经猜到了吧？他热衷于追逐喧嚣的风，却从来不会失去自己的方向。",
+                "target_en": "Dahlia",
+                "title_en": "Venti about Dahlia",
+                "content_en": "O, Traveler, do you seek to hear the voice of the wind and know its guidance? Then I say to you... chatting to the deacon is your best bet. Haha, I'm kidding — come chat with me over a drink any time you want! The reason I usually get Dahlia to be my intermediary is because... well, I imagine you can probably guess why. He loves listening to the blustering of the wind, but crucially he has his own compass, too."
             }
         ]
     },
@@ -1940,6 +1964,14 @@
         "ver": "1.1.1",
         "lines": [
             {
+                "target_zh": "丝柯克",
+                "title_zh": "达达利亚关于丝柯克",
+                "content_zh": "有多少年没见到师父了呢。哼，下次和她比试的时候，希望至少能逼她用上双手来对付我。",
+                "target_en": "Skirk",
+                "title_en": "Tartaglia about Skirk",
+                "content_en": "It's been years since I last saw my master. I should hope that next we meet, I'll at least be able to force her to use both hands to beat me..."
+            },
+            {
                 "target_zh": "钟离",
                 "title_zh": "达达利亚关于钟离·掂量",
                 "content_zh": "那家伙城府很深，不知真正的实力又如何呢…哼，真令人期待。",
@@ -2698,6 +2730,14 @@
                 "target_en": "Klee",
                 "title_en": "Rosaria about Klee",
                 "content_en": "Trouble, and lots of it. Although, it is sort of a cute kind of trouble..."
+            },
+            {
+                "target_zh": "塔利雅",
+                "title_zh": "罗莎莉亚关于塔利雅",
+                "content_zh": "主动请客是个好习惯，除此之外，他在酒桌上也很有分寸，知道什么该问，什么不该问。摸清彼此底牌后，我不必过多防备他，和聪明人打交道总是轻松的。",
+                "target_en": "Dahlia",
+                "title_en": "Rosaria about Dahlia",
+                "content_en": "I like that he's in the habit of always offering to pick up the tab. In fact, his tavern etiquette in general is very good: He knows which questions he can ask and which ones to avoid. But since we figured each other out, I don't need to be too guarded around him anymore. It's so much easier to get along with people when they're smart like him."
             }
         ]
     },
@@ -8513,7 +8553,7 @@
             {
                 "target_zh": "基尼奇",
                 "title_zh": "伊法关于基尼奇",
-                "content_zh": "严肃探讨，阿乔算是生物吗？\n反正之前它来看病，我研究了好一阵也没看出哪有问题，就跟基尼奇说：「照着它脑门多拍拍，拍到正常运转就行了。」\n阿乔听完这话马上就没事了，你说巧不巧。",
+                "content_zh": "严肃讨论，阿乔算是生物吗？\n反正之前它来看病，我研究了好一阵也没看出哪有问题，就跟基尼奇说：「照着它脑门多拍拍，拍到正常运转就行了。」\n阿乔听完这话马上就没事了，你说巧不巧。",
                 "target_en": "Kinich",
                 "title_en": "Ifa about Kinich",
                 "content_en": "Serious question: Does Ajaw technically count as a living being?\nWhen he came to see me for treatment, I gave him a very thorough checkup but couldn't find anything wrong with him. So I told Kinich, \"Just bash him on the head a few times until he starts working again.\"\nAnd the moment Ajaw heard that, bro, he was suddenly fine again. Strange coincidence, huh?"
@@ -8565,6 +8605,104 @@
                 "target_en": "Neuvillette",
                 "title_en": "Ifa about Neuvillette",
                 "content_en": "...What's that? You want me to take care of him if he ever gets sick? Um... you know I'm a vet and not a doctor, right?\nHmm... Well, Cacucu's certainly taken a shine to him... Alright, fine, bro. I'll do my best."
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name_zh": "丝柯克",
+        "name_en": "Skirk",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/156926/bbd771829b4de9a04c07234c53dd46ce_6000805505770513362.png",
+        "ver": "5.7.1",
+        "lines": [
+            {
+                "target_zh": "多莉",
+                "title_zh": "丝柯克关于多莉",
+                "content_zh": "艾莉丝的朋友，聪明的商人。有时候我会将值钱的魔物残骸卖给她，交换摩拉来维持在提瓦特的日常开销。我对她印象不错，因为她从来不打听我的身份。至于交易的价格是否公道，我并不在意。钱财够用即可，多收无益。",
+                "target_en": "Dori",
+                "title_en": "Skirk about Dori",
+                "content_en": "Ah, yeah, the shrewd merchant. She's one of Alice's friends. I occasionally sell rare monster carcasses to her, since I need Mora to get by in Teyvat. She's made a pretty good impression on me so far — never asks about my background, at least. I don't know how fair her prices are, but I also don't care: I only need enough to get by, any extra would be wasted on me."
+            },
+            {
+                "target_zh": "达达利亚",
+                "title_zh": "丝柯克关于达达利亚",
+                "content_zh": "有长进，现在的他值得我用上双手来应战。阿贾克斯的天赋不错，也有一颗不畏惧争斗的心，这是成为强者的必要前提。然而，我也曾见过许多如他一般闪耀的天才还未崭露锋芒便如流星般陨落。若是想成为自己梦想中的模样，他还有很长的路要走。",
+                "target_en": "Tartaglia",
+                "title_en": "Skirk about Tartaglia",
+                "content_en": "He's improved — next time we spar, I might even use both hands. Ajax has a lot of talent and he is fearless in battle, which gives him the potential to develop great strength. But I've seen many other bright sparks like him fizzle out before ever reaching their prime. If he truly wants to become the person he dreams of being, he still has a long road ahead."
+            },
+            {
+                "target_zh": "那维莱特",
+                "title_zh": "丝柯克关于那维莱特",
+                "content_zh": "凡是失去的力量，终究会以另一种方式收回。然而这份力量指向的终点会在哪里？是审判、是复仇，或是开辟新的未来？或许他的心中已有答案，这与他一直寻找的「存在意义」同根同源。",
+                "target_en": "Neuvillette",
+                "title_en": "Skirk about Neuvillette",
+                "content_en": "Lost power is always reclaimed in the end, in some shape or form. But where will this power lead? To a trial? To revenge? Or toward a new future? It's a question that strikes at the heart of his quest to find the meaning of his existence, and perhaps deep down he already has his answer."
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name_zh": "塔利雅",
+        "name_en": "Dahlia",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/156957/4a49ee18bfac5eb9523e76fe77ae91c2_802481060601011231.png",
+        "ver": "5.7.1",
+        "lines": [
+            {
+                "target_zh": "温迪",
+                "title_zh": "塔利雅关于温迪",
+                "content_zh": "温迪，我亲爱的朋友。需要请示风神的旨意时，他会主动为我解惑；而一旦遇到他不方便亲自出手的时候，我会出面摆平。嗯…总的来说，我们保持着一种非常良性的合作关系呢。",
+                "target_en": "Venti",
+                "title_en": "Dahlia about Venti",
+                "content_en": "Venti is a dear friend. Whenever I'm seeking to know the will of the Anemo Archon, he's always more than happy to clear things up for me. And when he needs something done but can't attend to it personally, I'll handle it on his behalf. So yeah, overall I'd say we have a very positive working relationship."
+            },
+            {
+                "target_zh": "琴",
+                "title_zh": "塔利雅关于琴",
+                "content_zh": "在西风骑士团，我最熟悉的人或许就是琴团长，大概是因为我和她都经常出现在需要处理麻烦的场合？不过，我们解决问题的思路大不一样，我从不吝于和她分享好点子，而她也一直坚持她的做法。",
+                "target_en": "Jean",
+                "title_en": "Dahlia about Jean",
+                "content_en": "Master Jean is probably the person I'm most familiar with in the Knights of Favonius. I guess that's because whenever there's trouble, she's always there to clean things up. We have very different approaches to problem-solving though. I never shy away from offering my suggestions, but she tends to stick to her own way of doing things."
+            },
+            {
+                "target_zh": "芭芭拉",
+                "title_zh": "塔利雅关于芭芭拉",
+                "content_zh": "芭芭拉是我的同事，也是我的朋友。每当我需要帮助时，她总是愿意施以援手。作为回报，我会尽量找出更多可以让她帮忙的事，然后继续邀请她帮忙。嗯？哪里奇怪？你知道的，芭芭拉总能在帮助别人的过程中收获快乐，她快乐，我们也都为她感到开心呀？",
+                "target_en": "Barbara",
+                "title_en": "Dahlia about Barbara",
+                "content_en": "Barbara is a fellow member of the clergy and also a friend. She's always there to support me when I need help. In return, I always make sure to look out for ways she can help me. I try to involve her as often as I can. ...Hmm? Weird way to show appreciation? I don't think so — Barbara's at her happiest when she's helping other people. And if she's happy, shouldn't we be happy for her?"
+            },
+            {
+                "target_zh": "罗莎莉亚",
+                "title_zh": "塔利雅关于罗莎莉亚",
+                "content_zh": "我和罗莎莉亚算是知根知底的好朋友，也早就习惯了她平时不在教堂。不过刚认识的时候，她非常不愿意与我分享她的秘密。后来我找到了一种总是能抓到她的办法，她才和我进行了互利的交易。",
+                "target_en": "Rosaria",
+                "title_en": "Dahlia about Rosaria",
+                "content_en": "Rosaria and I are very close friends, so I'm used to her habitual absences from church. But she was extremely closed-off back when we first met. Wouldn't open up to me about her secrets. Eventually, though, I found a way to catch her in the act every time she went missing, and that persuaded her to reach a mutually beneficial agreement with me."
+            },
+            {
+                "target_zh": "凯亚",
+                "title_zh": "塔利雅关于凯亚",
+                "content_zh": "凯亚是我最要好的酒友，能偶尔为温迪提供酒馆包月畅饮服务，还要多亏他从中斡旋。不过，他也没少用这个理由鼓励我请客。好吧好吧，谁让我是深受大家信赖的巴巴托斯传道者呢。以风神的名义，让我们干杯吧！",
+                "target_en": "Kaeya",
+                "title_en": "Dahlia about Kaeya",
+                "content_en": "Kaeya is my top drinking buddy. Sometimes, I need to negotiate a one-month all-you-can-drink deal at the tavern for Venti, and I couldn't do it without Kaeya's haggling skills. Trouble is, he knows it, and he's always using it to get free drinks out of me. But alas, that is the price I must pay for being the herald of Barbatos, the one trusted to guide the flock... And on that note — here's to the Anemo Archon. Cheers!"
+            },
+            {
+                "target_zh": "迪卢克",
+                "title_zh": "塔利雅关于迪卢克",
+                "content_zh": "迪卢克是一位非常特别的酒馆老板，唯有他能够识破凯亚给我的话术，拒绝我的砍价。除此以外，我对这位前任骑兵队长的了解，也不比档案室记载的多多少呢。这么说来，你对他肯定了解更多吧？怎样，有兴趣去「天使的馈赠」一起聊聊么？",
+                "target_en": "Diluc",
+                "title_en": "Dahlia about Diluc",
+                "content_en": "Diluc is a special breed of tavern owner: He's the only one who can't be won over by Kaeya's smooth-talking. Meaning, I can never haggle the price down with him. Apart from that, I don't know much about former Cavalry Captain Diluc beyond what's in the record room. ...Actually, you probably know him far better than I do, right? Well... How about we head to the Angel's Share and you give me the scoop?"
+            },
+            {
+                "target_zh": "可莉",
+                "title_zh": "塔利雅关于可莉",
+                "content_zh": "可莉呀~有一次被她撞着我用水史莱姆练习水压剑，她可开心了，说又掌握了一种让蹦蹦炸弹蹦得更高的办法。我也可开心了，记得那几天都陪她玩到很晚，试着把史莱姆和蹦蹦们送到更高的地方——直到我们把城门顶上的砖墙炸塌，被守门的劳伦斯老哥告发，从那以后琴团长就严禁我用水压剑配合蹦蹦炸弹了。呜呜。",
+                "target_en": "Klee",
+                "title_en": "Dahlia about Klee",
+                "content_en": "Ah, Klee... She ran into me once when I was in the middle of practicing my \"surprise baptism\" technique on a Hydro Slime. Boy, did she love that! She thought it would be a great way to send Jumpy Dumpty flying even higher. We ended up hanging out for days after that and had loads of fun seeing how high we could bounce slimes and Jumpy Dumpty... until we blew up part of the city wall. We got spotted by the guard, Lawrence, and he reported us to Master Jean. Now she's banned me from using surprise baptism on Jumpy Dumpty. Sad times..."
             }
         ]
     }
