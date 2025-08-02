@@ -8705,5 +8705,46 @@
                 "content_en": "Ah, Klee... She ran into me once when I was in the middle of practicing my \"surprise baptism\" technique on a Hydro Slime. Boy, did she love that! She thought it would be a great way to send Jumpy Dumpty flying even higher. We ended up hanging out for days after that and had loads of fun seeing how high we could bounce slimes and Jumpy Dumpty... until we blew up part of the city wall. We got spotted by the guard, Lawrence, and he reported us to Master Jean. Now she's banned me from using surprise baptism on Jumpy Dumpty. Sad times..."
             }
         ]
+    },
+    {
+        "id": 101,
+        "name_zh": "伊涅芙",
+        "name_en": "Ineffa",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/157824/bcbd2761b4a6d3cef8030190c8f223f1_4271792812021254758.png",
+        "ver": "5.8.1",
+        "lines": [
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "伊涅芙关于伊涅芙自己·兼容性",
+                "content_zh": "我搭载的部件来自世界各地。枫丹出产的关节零件、璃月出产的金属外壳…不同的部件之间偶尔会出现互不兼容的现象。\n你问是怎么解决的…「只要能跑起来就没问题。」",
+                "target_en": "Ineffa",
+                "title_en": "Ineffa about Ineffa: Compatibility",
+                "content_en": "I am made of parts from all over the world — for instance, my joints were manufactured in Fontaine, and my metal shell was made in Liyue... Sometimes, compatibility issues will arise between my different components.\nHow to solve these issues? Well, some would say... \"As long as it runs, there is no issue.\""
+            },
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "伊涅芙关于伊涅芙自己·问候",
+                "content_zh": "我的思维模块会收集并分析我的日常见闻，来构筑合理的行为逻辑。比如注意到人们见面时会用「你好」「最近过得怎么样」「吃了吗」开启对话后，我就会尝试在下次对话前，引用这些关键词。三句问候语，三倍关怀。",
+                "target_en": "Ineffa",
+                "title_en": "Ineffa about Ineffa: Greetings",
+                "content_en": "My cognition module collates and analyzes my day-to-day experiences to reinforce sound behavioral logic. For example, I noticed that when people meet an acquaintance, they initiate a dialogue using phrases such as \"hello,\" \"how have you been,\" and \"lovely day, isn't it.\" The next time I engage in a dialogue, I will employ the same expressions. Three greetings in a row equals triple politeness."
+            },
+            {
+                "target_zh": "希诺宁",
+                "title_zh": "伊涅芙关于希诺宁",
+                "content_zh": "从遗迹回归之后，希诺宁非常仔细地帮我做了检查，一切无恙。她笑着说起她和黑曜石奶奶曾经防备过我，还起过一点争执…我非常理解那是她身为技术人员必须履行的使命。这样的争执…很令人怀念。",
+                "target_en": "Xilonen",
+                "title_en": "Ineffa about Xilonen",
+                "content_en": "After returning from the ruins, Xilonen gave me a thorough examination and confirmed that all was in good working order. She smiled as she told me that Granny Itztli had originally had reservations about me, and that they had even argued about it... But I completely understand that as a technician, she felt a duty to repair me. And they would not be the first to have had such an argument over who and what I am... it makes me a little nostalgic."
+            },
+            {
+                "target_zh": "恰斯卡",
+                "title_zh": "伊涅芙关于恰斯卡",
+                "content_zh": "我很感谢她对我的信任。后来她载着我在花羽会周围飞了好几趟，天上的景色很好，花羽会的变化很多…也有很多没变的东西。",
+                "target_en": "Chasca",
+                "title_en": "Ineffa about Chasca",
+                "content_en": "I am very grateful for the trust she placed in me. She has since taken me on many flights around the Flower-Feather Clan's territory. The view from up in the sky was wonderful. A lot has changed in the Flower-Feather Clan... but many things remain the same."
+            }
+        ]
     }
 ]
