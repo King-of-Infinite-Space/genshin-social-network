@@ -15,6 +15,29 @@ ALIAS_FILE = "data/alias.json"
 # %%
 
 
+def filter_data(node_data, edge_data, official_dict):
+    """
+    Filter node and edge data to keep only released characters
+    (otherwise voicelines may include to-be-released characters)
+    """
+
+    filtered_node_data = []
+    seen_names = set()
+    for node in node_data:
+        name = node["name_zh"]
+        if name in official_dict and name not in seen_names:
+            filtered_node_data.append(node)
+            seen_names.add(name)
+
+    official_avatar_ids = {node["avatarId"] for node in filtered_node_data}
+
+    filtered_edge_data = [
+        edge for edge in edge_data if edge["avatarId"] in official_avatar_ids
+    ]
+
+    return filtered_node_data, filtered_edge_data
+
+
 def make_graph(edge_data, node_data):
     """
     process edges to get lines between chars
@@ -85,7 +108,8 @@ def make_graph(edge_data, node_data):
                 "title_en": process_title(
                     edge["title_en"],
                     prefix=avatarID_to_nameEN[source_id] + " about ",
-                    remove_about=True, strip=True
+                    remove_about=True,
+                    strip=True,
                 ),
                 "content_en": process_content(edge["content_en"]),
             }
@@ -228,6 +252,7 @@ def main():
 
     download_data()
     node_data, edge_data = prepare_data()
+    node_data, edge_data = filter_data(node_data, edge_data, official_dict)
     char_dict = make_graph(edge_data, node_data)
 
     char_dict = merge_data(char_dict, official_dict, prev_dict, ver)

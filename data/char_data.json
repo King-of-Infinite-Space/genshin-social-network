@@ -8714,46 +8714,6 @@
         "ver": "5.8.1",
         "lines": [
             {
-                "target_zh": "伊涅芙",
-                "title_zh": "伊涅芙关于伊涅芙自己·兼容性",
-                "content_zh": "我搭载的部件来自世界各地。枫丹出产的关节零件、璃月出产的金属外壳…不同的部件之间偶尔会出现互不兼容的现象。\n你问是怎么解决的…「只要能跑起来就没问题。」",
-                "target_en": "Ineffa",
-                "title_en": "Ineffa about Ineffa: Compatibility",
-                "content_en": "I am made of parts from all over the world — for instance, my joints were manufactured in Fontaine, and my metal shell was made in Liyue... Sometimes, compatibility issues will arise between my different components.\nHow to solve these issues? Well, some would say... \"As long as it runs, there is no issue.\""
-            },
-            {
-                "target_zh": "伊涅芙",
-                "title_zh": "伊涅芙关于伊涅芙自己·问候",
-                "content_zh": "我的思维模块会收集并分析我的日常见闻，来构筑合理的行为逻辑。比如注意到人们见面时会用「你好」「最近过得怎么样」「吃了吗」开启对话后，我就会尝试在下次对话前，引用这些关键词。三句问候语，三倍关怀。",
-                "target_en": "Ineffa",
-                "title_en": "Ineffa about Ineffa: Greetings",
-                "content_en": "My cognition module collates and analyzes my day-to-day experiences to reinforce sound behavioral logic. For example, I noticed that when people meet an acquaintance, they initiate a dialogue using phrases such as \"hello,\" \"how have you been,\" and \"lovely day, isn't it.\" The next time I engage in a dialogue, I will employ the same expressions. Three greetings in a row equals triple politeness."
-            },
-            {
-                "target_zh": "爱诺",
-                "title_zh": "伊涅芙关于爱诺·家务",
-                "content_zh": "爱诺，我的「家人」。她只用捡来的废弃金属品拼拼凑凑，就能造出性能各异的机器。但她在日常生活上的熟练度完全相反。如果爱诺突发奇想，说要做家务或者做饭，请务必阻拦她，以免发生不可挽回的事态。",
-                "target_en": "Aino",
-                "title_en": "Ineffa about Aino: Housework",
-                "content_en": "Aino is my family. She can piece together all kinds of machines for various functions just from the scrap metal she collects. But her proficiency with other tasks is at the opposite end of the scale. If she ever has the strange inclination to do housework or cook a meal, you must stop her before it is too late, because the consequences may be irreversible."
-            },
-            {
-                "target_zh": "爱诺",
-                "title_zh": "伊涅芙关于爱诺·问题",
-                "content_zh": "有一次…可能是爱诺意识到我的智能表现超出预期，她忍不住向我询问道：「如果有一天你有了更想去的地方，我是不是该高高兴兴地送你离开？」我监测到了她的情绪异常波动，于是回复说：「如果我不在爱诺身边，我们家变为垃圾场仅需三个月时间，我会尽量在那之前赶回来。」\n而现在…我才明白她是怀着怎样的不舍提出这个问题。",
-                "target_en": "Aino",
-                "title_en": "Ineffa about Aino: Questions",
-                "content_en": "Aino once asked me an unusual question... Maybe it was because she noticed that I displayed intelligence beyond the level that she had predicted. In any case, the question was: \"If one day, you realize that there's somewhere else you'd rather be, should I let you go, and be happy for you?\" Detecting some emotion behind her words, I responded as follows: \"If I were ever to leave you, our home would turn into a garbage dump within three months. So I would try to make sure I returned within that timeframe.\"\nLooking back... only now do I realize what she was truly feeling. She was reluctant for me to leave."
-            },
-            {
-                "target_zh": "菲林斯",
-                "title_zh": "伊涅芙关于菲林斯",
-                "content_zh": "菲林斯…情报不足。根据已知信息，他是「执灯人」的一员，看守着挪德卡莱北方的坟茔。",
-                "target_en": "Flins",
-                "title_en": "Ineffa about Flins",
-                "content_en": "Flins... Insufficient data. According to the little information I have, he is a member of the Lightkeepers who watch over the cemetery in the north of Nod-Krai."
-            },
-            {
                 "target_zh": "菈乌玛",
                 "title_zh": "伊涅芙关于菈乌玛",
                 "content_zh": "菈乌玛，「霜月之子」的咏月使。根据评价，是个圣洁而又智慧的人，很受大家的敬重。「霜月之子」信仰着「月神」，「月神」…和「月之轮」的出现会有关联吗？",
@@ -8793,22 +8753,6 @@
                 "target_en": "Ineffa",
                 "title_en": "Lauma about Ineffa",
                 "content_en": "It's not unusual to come across prosthetically augmented people in Nod-Krai, but a wholly mechanical person from the inside out is quite a different story... And yet, she has far more humanity than many of the errant souls out there. She's gentle, kind, and full of curiosity. You could say she's as human as can be."
-            },
-            {
-                "target_zh": "爱诺",
-                "title_zh": "菈乌玛关于爱诺",
-                "content_zh": "十分聪慧，却又命运坎坷的孩子。她的发明帮助了许多人，挪德卡莱应当为拥有这样的宝物感到荣幸。如果她想来霜月之坊生活，我一定会保证她营养充足，摄取足够的新鲜蔬果与甘泉。",
-                "target_en": "Aino",
-                "title_en": "Lauma about Aino",
-                "content_en": "She is a very precocious child, but fate has not given her an easy ride. Her inventions have helped many people — Nod-Krai should feel honored to count her as one of their own. If she ever wished to come and live among the Frostmoon Scions, I would make sure that all her nutritional needs are met, starting with plenty of fresh fruit, vegetables, and spring water."
-            },
-            {
-                "target_zh": "菲林斯",
-                "title_zh": "菈乌玛关于菲林斯",
-                "content_zh": "他看上去是位很讲究礼节的先生，然而动物们却似乎畏惧着他的存在…我会保持警惕，但不想在没有证据的前提下就对不熟悉的人妄下定论。每次他路过霜月之坊时，我都会让他收下一份今日收获。\n你说他不是坏人，只是名字太长…嗯…真的吗？",
-                "target_en": "Flins",
-                "title_en": "Lauma about Flins",
-                "content_en": "He comes across as very polite and courteous, but for some reason the animals seem to fear him... I will keep my guard up around him — but since I barely know him and have no evidence of wrongdoing, I will also reserve judgment. Whenever he passes by the Frostmoon Enclave, I will share some of the daily harvest with him.\n...What? His name's too long, but otherwise he's fine..? Uh... Are you sure?"
             }
         ]
     }
