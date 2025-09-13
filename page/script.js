@@ -1,7 +1,6 @@
-const data_url = ["localhost", "127.0.0.1", ""].includes(
-  window.location.hostname
-)
-  ? "../data/char_data_min.json"
+const isLocalhost = ["localhost", "127.0.0.1", ""].includes(window.location.hostname)
+const data_url = isLocalhost
+  ? "../data/char_data.json"
   : "https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/data/char_data_min.json"
 
 const langs = ["zh", "en"]
@@ -541,8 +540,10 @@ async function main() {
       group: "nodes",
       data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
       style: {
-        "background-image": char.img_url,
-        "background-image-crossorigin": "null",
+        "background-image": isLocalhost
+          ? `../data/image/${char.name_zh}.png`
+          : `https://cdn.jsdelivr.net/gh/king-of-infinite-space/genshin-social-network/data/image/${char.name_zh}.png`,
+        // "background-image-crossorigin": "null",
       },
     })
   }

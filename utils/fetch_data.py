@@ -8,6 +8,7 @@ from datetime import datetime
 
 from prepare_data import download_data, prepare_data
 from notion_db import update_remote_table
+from download_images import download_images
 
 DATA_FILE = "data/char_data.json"
 DATA_FILE_MIN = "data/char_data_min.json"
@@ -261,6 +262,8 @@ def main():
     write_data_file(char_dict)
 
     update_remote_table(char_dict, new_names)
+
+    download_images()
 
     commit_msg = f"v{ver} {' '.join([char['name_zh'] + char['name_en'] for char in char_dict.values() if char['ver'] == ver])}"
 
