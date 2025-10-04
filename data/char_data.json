@@ -8714,6 +8714,30 @@
         "ver": "5.8.1",
         "lines": [
             {
+                "target_zh": "爱诺",
+                "title_zh": "伊涅芙关于爱诺·家务",
+                "content_zh": "爱诺，我的「家人」。她只用捡来的废弃金属品拼拼凑凑，就能造出性能各异的机器。但她在日常生活上的熟练度完全相反。如果爱诺突发奇想，说要做家务或者做饭，请务必阻拦她，以免发生不可挽回的事态。",
+                "target_en": "Aino",
+                "title_en": "Ineffa about Aino: Housework",
+                "content_en": "Aino is my family. She can piece together all kinds of machines for various functions just from the scrap metal she collects. But her proficiency with other tasks is at the opposite end of the scale. If she ever has the strange inclination to do housework or cook a meal, you must stop her before it is too late, because the consequences may be irreversible."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "伊涅芙关于爱诺·问题",
+                "content_zh": "有一次…可能是爱诺意识到我的智能表现超出预期，她忍不住向我询问道：「如果有一天你有了更想去的地方，我是不是该高高兴兴地送你离开？」我监测到了她的情绪异常波动，于是回复说：「如果我不在爱诺身边，我们家变为垃圾场仅需三个月时间，我会尽量在那之前赶回来。」\n而现在…我才明白她是怀着怎样的不舍提出这个问题。",
+                "target_en": "Aino",
+                "title_en": "Ineffa about Aino: Questions",
+                "content_en": "Aino once asked me an unusual question... Maybe it was because she noticed that I displayed intelligence beyond the level that she had predicted. In any case, the question was: \"If one day, you realize that there's somewhere else you'd rather be, should I let you go, and be happy for you?\" Detecting some emotion behind her words, I responded as follows: \"If I were ever to leave you, our home would turn into a garbage dump within three months. So I would try to make sure I returned within that timeframe.\"\nLooking back... only now do I realize what she was truly feeling. She was reluctant for me to leave."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "伊涅芙关于菲林斯",
+                "content_zh": "菲林斯…情报不足。根据已知信息，他是「执灯人」的一员，看守着挪德卡莱北方的坟茔。",
+                "target_en": "Flins",
+                "title_en": "Ineffa about Flins",
+                "content_en": "Flins... Insufficient data. According to the little information I have, he is a member of the Lightkeepers who watch over the cemetery in the north of Nod-Krai."
+            },
+            {
                 "target_zh": "菈乌玛",
                 "title_zh": "伊涅芙关于菈乌玛",
                 "content_zh": "菈乌玛，「霜月之子」的咏月使。根据评价，是个圣洁而又智慧的人，很受大家的敬重。「霜月之子」信仰着「月神」，「月神」…和「月之轮」的出现会有关联吗？",
@@ -8753,6 +8777,96 @@
                 "target_en": "Ineffa",
                 "title_en": "Lauma about Ineffa",
                 "content_en": "It's not unusual to come across prosthetically augmented people in Nod-Krai, but a wholly mechanical person from the inside out is quite a different story... And yet, she has far more humanity than many of the errant souls out there. She's gentle, kind, and full of curiosity. You could say she's as human as can be."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "菈乌玛关于爱诺",
+                "content_zh": "十分聪慧，却又命运坎坷的孩子。她的发明帮助了许多人，挪德卡莱应当为拥有这样的宝物感到荣幸。如果她想来霜月之坊生活，我一定会保证她营养充足，摄取足够的新鲜蔬果与甘泉。",
+                "target_en": "Aino",
+                "title_en": "Lauma about Aino",
+                "content_en": "She is a very precocious child, but fate has not given her an easy ride. Her inventions have helped many people — Nod-Krai should feel honored to count her as one of their own. If she ever wished to come and live among the Frostmoon Scions, I would make sure that all her nutritional needs are met, starting with plenty of fresh fruit, vegetables, and spring water."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "菈乌玛关于菲林斯",
+                "content_zh": "他看上去是位很讲究礼节的先生，然而动物们却似乎畏惧着他的存在…我会保持警惕，但不想在没有证据的前提下就对不熟悉的人妄下定论。每次他路过霜月之坊时，我都会让他收下一份今日收获。\n你说他不是坏人，只是名字太长…嗯…真的吗？",
+                "target_en": "Flins",
+                "title_en": "Lauma about Flins",
+                "content_en": "He comes across as very polite and courteous, but for some reason the animals seem to fear him... I will keep my guard up around him — but since I barely know him and have no evidence of wrongdoing, I will also reserve judgment. Whenever he passes by the Frostmoon Enclave, I will share some of the daily harvest with him.\n...What? His name's too long, but otherwise he's fine..? Uh... Are you sure?"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name_zh": "菲林斯",
+        "name_en": "Flins",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/159856/78026b4939a74349cfec212c99c38b7a_998176157385692587.png",
+        "ver": "6.0.2",
+        "lines": [
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "菲林斯关于菈乌玛",
+                "content_zh": "亥珀波瑞亚，黄金的失乐园，看见她相貌的时候我便想到了。高贵古老的血脉与她华丽的角冠同等沉重，而她还是背负起一切向前走了，这份坚韧与勇敢值得尊重。",
+                "target_en": "Lauma",
+                "title_en": "Flins about Lauma",
+                "content_en": "Hyperborea, the bygone golden elysium... That is what comes to mind whenever I see her. Her ancient and noble lineage are no doubt as heavy a burden to bear as the stunning antlers she wears on her head, and yet she takes it all in her stride. I commend her resilience and courage in doing so."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "菲林斯关于爱诺",
+                "content_zh": "不得不承认，我不擅长应付机械，在这方面，我和爱诺小姐的水平差异比年龄差距还要大。",
+                "target_en": "Aino",
+                "title_en": "Flins about Aino",
+                "content_en": "I must confess that I do not deal well with machines. This, and not the age difference, is the biggest point of disparity between myself and Aino."
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name_zh": "爱诺",
+        "name_en": "Aino",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/159985/6fd3066d0123d76a9d25bca8cc9264c2_2815137925317185870.png",
+        "ver": "6.0.2",
+        "lines": [
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "爱诺关于伊涅芙·温暖",
+                "content_zh": "伊涅芙醒来后，我还陆陆续续给她做了一些升级，比如说为她搭载了模拟体温模块哦，因为拉手和拥抱就是要暖暖的嘛！你一定能懂吧？下次我们同时和伊涅芙抱在一起吧？",
+                "target_en": "Ineffa",
+                "title_en": "Aino about Ineffa: Warmth",
+                "content_en": "I've made a bunch of upgrades to Ineffa since she first woke up. Like when I added that body temperature simulator, 'cause when you hold someone's hand or give them a hug, it's supposed to feel warm and fuzzy! You know what I mean? The next time Ineffa's here, let's both give her a big hug at the same time!"
+            },
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "爱诺关于伊涅芙·家人",
+                "content_zh": "伊涅芙是我最重要的家人，她能顺利回家，甚至连偶尔失忆的小毛病都被修好了，我真的应该好好谢谢你。对了，不如你现在就跟我回家吧！我让伊涅芙…哦不，还是我自己来吧，我下厨做蛋卷给你吃好不好？还有还有夏槲蛋糕也不错，你喜欢吃吗？欸？你跑什么呀…我还没说完呢！",
+                "target_en": "Ineffa",
+                "title_en": "Aino about Ineffa: Family",
+                "content_en": "Ineffa is the most important person in my family. I'm so, so thankful for your help — not just for getting her back home safe and sound, but for helping fix her little memory problem, too. Actually, why don't you come 'round to my place right now? I'll get Ineffa to make Krumkake for you... No, wait — I'll make them myself! And, and I can make Midsommar Torte too. It's really good, have you tried it? ...Hmm? Why are you running away? I wasn't finished!"
+            },
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "爱诺关于菈乌玛",
+                "content_zh": "你喜欢她头上的角冠吗？我可以给你做一对类似的，对了，要不安装上发光和开花的功能吧，或者你喜欢能绽放烟花的角冠吗？这些对爱诺来说都是小菜一碟。「霜月之子」会找你麻烦？好吧，那我也给他们做就是了。",
+                "target_en": "Lauma",
+                "title_en": "Aino about Lauma",
+                "content_en": "You like her antlers? I could make you a pair just like them. Oh, and how about I make them glow and grow flowers? Or maybe shoot fireworks? It'd be a piece of cake for me. ...The Frostmoon Scions wouldn't take kindly to that? Okay fine, then I'll make some for them, too."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "爱诺关于菲林斯",
+                "content_zh": "他是一位有品位的男士，说出来的话总是很悦耳，就像机械们碰撞发出的叮铃哐啷声一样。这赞誉太高了？好吧，可能稍微有点…但也是大实话！不是因为被甜点收买了！",
+                "target_en": "Flins",
+                "title_en": "Aino about Flins",
+                "content_en": "Ah, what a fine young gentleman he is. His speech is music to my ears, like the beautiful clink-clank of moving machinery. ...Too far? Well, yeah, it's pretty high praise, I guess... But it's also the truth! And no, I'm not biased because I've been bribed with cakes!"
+            },
+            {
+                "target_zh": "多莉",
+                "title_zh": "爱诺关于多莉",
+                "content_zh": "之前她来找我谈过合作，哼哼，不错，她确实是个有眼光的商人，但价格压太低了啦。伊涅芙说，我为多莉工作一天的工钱都不够买两份刚刚出炉的双果卷。天才也是要填饱肚子的！唉，除非她愿意把手头上那些来历不明的奇妙机械借给我拆一拆…",
+                "target_en": "Dori",
+                "title_en": "Aino about Dori",
+                "content_en": "She came to discuss a potential business partnership with me once. Hehehe, can't blame her for trying her luck... but she was just too stingy. As Ineffa put it, the amount I'd earn in one day of working for Dori wouldn't even cover the cost of two freshly baked Fruit Tandem Turnovers. Genius only works on a full stomach, y'know! *sigh* If only she was open to letting me dismantle those strange and exotic machines she owns. Maybe then we could come to an arrangement..."
             }
         ]
     }
