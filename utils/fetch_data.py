@@ -289,7 +289,8 @@ def commit_changes(msg):
     email = "41898282+github-actions[bot]@users.noreply.github.com"
     subprocess.run(["git", "config", "user.name", author], check=True)
     subprocess.run(["git", "config", "user.email", email], check=True)
-    subprocess.run(["git", "commit", "-a", "-m", msg], check=True)
+    subprocess.run(["git", "add", "."], check=True)
+    subprocess.run(["git", "commit", "-m", msg], check=True)
     subprocess.run(["git", "push"], check=True)
 
 
