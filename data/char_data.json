@@ -8730,6 +8730,14 @@
                 "content_en": "Aino once asked me an unusual question... Maybe it was because she noticed that I displayed intelligence beyond the level that she had predicted. In any case, the question was: \"If one day, you realize that there's somewhere else you'd rather be, should I let you go, and be happy for you?\" Detecting some emotion behind her words, I responded as follows: \"If I were ever to leave you, our home would turn into a garbage dump within three months. So I would try to make sure I returned within that timeframe.\"\nLooking back... only now do I realize what she was truly feeling. She was reluctant for me to leave."
             },
             {
+                "target_zh": "奈芙尔",
+                "title_zh": "伊涅芙关于奈芙尔",
+                "content_zh": "奈芙尔，「秘闻馆」的主人。她知道很多故事，不仅有过去流传的，还有当前正在发生的，甚至有人说未来也在她的把握之中。她的数据库性能一定很棒。",
+                "target_en": "Nefer",
+                "title_en": "Ineffa about Nefer",
+                "content_en": "Nefer is the head of the Curatorium of Secrets. She knows a lot of stories, not just from the past, but also about what's happening in the present — and some even say she can predict the future, too. Her mind must be a formidable database."
+            },
+            {
                 "target_zh": "菲林斯",
                 "title_zh": "伊涅芙关于菲林斯",
                 "content_zh": "菲林斯…情报不足。根据已知信息，他是「执灯人」的一员，看守着挪德卡莱北方的坟茔。",
@@ -8793,6 +8801,14 @@
                 "target_en": "Flins",
                 "title_en": "Lauma about Flins",
                 "content_en": "He comes across as very polite and courteous, but for some reason the animals seem to fear him... I will keep my guard up around him — but since I barely know him and have no evidence of wrongdoing, I will also reserve judgment. Whenever he passes by the Frostmoon Enclave, I will share some of the daily harvest with him.\n...What? His name's too long, but otherwise he's fine..? Uh... Are you sure?"
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "菈乌玛关于奈芙尔",
+                "content_zh": "她和我的行事风格很不一样，但我始终认为，我们并不是无法相处的类型。\n无论如何，月光都会庇佑她的。",
+                "target_en": "Nefer",
+                "title_en": "Lauma about Nefer",
+                "content_en": "Clearly, we are different people with different ways of doing things, but I have never taken that to mean that we cannot get along.\nNo matter what, the light of the moon will always fall favorably upon her."
             }
         ]
     },
@@ -8818,6 +8834,14 @@
                 "target_en": "Aino",
                 "title_en": "Flins about Aino",
                 "content_en": "I must confess that I do not deal well with machines. This, and not the age difference, is the biggest point of disparity between myself and Aino."
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "菲林斯关于奈芙尔",
+                "content_zh": "奈芙尔小姐的直觉敏锐得像一把刀，没人会希望这把刀落在自己头上。好在我没有打听别人身世的爱好，希望她也是同样。",
+                "target_en": "Nefer",
+                "title_en": "Flins about Nefer",
+                "content_en": "Nefer's intuition is as sharp as a knife, and that is a knife that no one wishes to contend with. Fortunately, I don't make a habit of prying into other people's backgrounds. I can only hope she doesn't either."
             }
         ]
     },
@@ -8867,6 +8891,95 @@
                 "target_en": "Dori",
                 "title_en": "Aino about Dori",
                 "content_en": "She came to discuss a potential business partnership with me once. Hehehe, can't blame her for trying her luck... but she was just too stingy. As Ineffa put it, the amount I'd earn in one day of working for Dori wouldn't even cover the cost of two freshly baked Fruit Tandem Turnovers. Genius only works on a full stomach, y'know! *sigh* If only she was open to letting me dismantle those strange and exotic machines she owns. Maybe then we could come to an arrangement..."
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "爱诺关于奈芙尔",
+                "content_zh": "奈芙尔姐姐有只黑猫叫阿舍鲁，我曾经提议过给阿舍鲁装载一个翻译器，这样我们就能知道阿舍鲁在说些什么了。但奈芙尔姐姐想也没想就拒绝了这个提案，说她知道的情报已经够多了，不需要再知道一只猫咪想说的话了。什么嘛！那么冷冰冰，她是被菈乌玛的翻译伤害过吗？",
+                "target_en": "Nefer",
+                "title_en": "Aino about Nefer",
+                "content_en": "Nefer has a black cat called Ashru. I offered to install a translator so we could understand what Ashru is saying, but Nefer turned me down without even considering it. She said she already has plenty of information and doesn't need to hear what a cat has to say. Like, what!? Why so mean? Has she been hurt before, maybe by Lauma's translations?"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name_zh": "奈芙尔",
+        "name_en": "Nefer",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/160313/c1ded96f90f71c66f5c5a8eab3df0efe_8021809664668784195.png",
+        "ver": "6.1.1",
+        "lines": [
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "奈芙尔关于菈乌玛",
+                "content_zh": "咱们慈悲又圣洁的「咏月使」大人，时时刻刻心怀悲悯，温柔善良，是个多么让人想要亲近的人呐，就连动物路过她身边，都想跑过去蹭蹭她的手，你可要小心，别太靠近菈乌玛，不然说不定哪天就被她感化成信徒了。\n啊，你不会已经是了吧？",
+                "target_en": "Lauma",
+                "title_en": "Nefer about Lauma",
+                "content_en": "Our pure and merciful Lady Moonchanter... So kind, so gentle, and full of compassion for all. It's no wonder that people are drawn to her. Even the local wildlife can't help but nuzzle up against her hand as they walk by... But don't get too close, or you might just wake up one day to find she's charmed you into embracing a whole new religion...\nOh, I see... She's won you over already, hasn't she?"
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "奈芙尔关于菲林斯",
+                "content_zh": "常言总说，礼貌是对陌生人最好的拒止手段。在这一点上，菲林斯先生显然做得很好，他用「礼节」为自己编出了一个漂亮且无可指摘的伪装。别误会，我是一个很识趣的朋友，很擅长捧场。无论菲林斯先生是执灯士还是妖精，是生于挪德卡莱还是来自至冬，我都并不在意。在一切事情之前，我们首先是朋友，而朋友之间最重要的，就是信任。",
+                "target_en": "Flins",
+                "title_en": "Nefer about Flins",
+                "content_en": "It is often said that politeness is the most effective means of keeping strangers at bay. I guess that makes Mr. Flins a master of the art of social distancing. He wears his etiquette like a suit of shining armor — impeccable, impenetrable, hiding whatever lies beneath. Don't get me wrong, I pride myself on being a tactful friend, and I know how to smile and play along. But whether Mr. Flins is a Lightkeeper or a fae, from Nod-Krai or Snezhnaya, it makes no difference to me. First and foremost, we are friends, and the foundation of friendship... is trust."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "奈芙尔关于爱诺",
+                "content_zh": "她给雅珂达做的那副手臂挺好用的，就是价格不菲。噢，放心，制作费用和保养费我都已经垫付了。雅珂达是我最重要的员工，这些钱我就给她免除利息了。",
+                "target_en": "Aino",
+                "title_en": "Nefer about Aino",
+                "content_en": "The robotic arm she made for Jahoda works surprisingly well, though it certainly didn't come cheap. Relax — I covered the manufacture and maintenance costs up front. Jahoda is my most valuable employee, after all — I'm not even charging interest on the repayments."
+            },
+            {
+                "target_zh": "迪希雅",
+                "title_zh": "奈芙尔关于迪希雅",
+                "content_zh": "我早就听说过好心的「炽鬃之狮」的名号，愿意付那么多钱照顾孩子的佣兵可不多见。另外，听说她手铠中的力量也和赤王有些瓜葛？瞧瞧，须弥沙漠的事就是这样，虽然表面上看毫无联系，但总有些看不见的脉络在暗地里勾连串结，直到时机到来，它们才彼此纠结着挤出地面，给大家一个「惊喜」。\n不过，雇佣迪希雅小姐干活的老板，是一个普通的富贵人家，这倒是个好消息。",
+                "target_en": "Dehya",
+                "title_en": "Nefer about Dehya",
+                "content_en": "Word of the kind-hearted Flame-Mane reached my ears long ago. It's not every day you hear of mercenaries willing to spend that kind of money on raising a child... And if the rumors are true, the power in her gauntlets has some ties to King Deshret, too... That's life in the desert of Sumeru for you. Things that seem completely unrelated turn out to be connected by unseen threads — and then one day, when people least expect it, the tangled web of complexity bursts out into the open.\nAnyway, it sounds like Dehya's done pretty well for herself. I hear she managed to get hired by a nice wealthy family."
+            },
+            {
+                "target_zh": "坎蒂丝",
+                "title_zh": "奈芙尔关于坎蒂丝",
+                "content_zh": "坎蒂丝算是我的旧识了，当初我流落到阿如村时，就和她见过面，在当时的村里，她是为数不多愿意和我说话的小孩。我们一起驱赶过野兽，击退过盗贼，照顾过落难者…或许，这能算是「朋友」了。",
+                "target_en": "Candace",
+                "title_en": "Nefer about Candace",
+                "content_en": "Candace and I go way back. We met when I first arrived at Aaru Village after losing my home. She was one of the few children willing to talk to me. We did all sorts of things together — drove off wild beasts, fought off bandits, cared for those in hardship... If that's not \"friendship,\" I'm not sure what is."
+            },
+            {
+                "target_zh": "赛诺",
+                "title_zh": "奈芙尔关于赛诺",
+                "content_zh": "赫曼努比斯看人真够准的，居然能找到这么一位责任心大过天的人给自己干活。不过，倒是也苦了这位「大风纪官」了，不仅被教令院督着工，背后还有这么一位勤勉的「大老板」时刻盯着，也不知道他平时是用什么方法放松精神的。",
+                "target_en": "Cyno",
+                "title_en": "Nefer about Cyno",
+                "content_en": "You've got to hand it to Hermanubis — he's a good judge of character. He managed to recruited someone with a very solid work ethic to do his bidding. And the General Mahamatra certainly has his work cut out for him... the Akademiya breathing down his neck on the one hand, and a tireless \"boss\" watching his every move on the other... I honestly wonder how he ever manages to unwind."
+            },
+            {
+                "target_zh": "多莉",
+                "title_zh": "奈芙尔关于多莉",
+                "content_zh": "桑歌玛哈巴依老爷经常和我做生意。她在给我带来摩拉的同时，也会给我捎来一些须弥的消息。比如在图书馆里梦游的倒霉学生，从魔鳞病里解脱的小可怜，还有如今人丁兴旺，未来可期的因论派…看来，教令院里也难得热闹起来了，真是可喜可贺啊。",
+                "target_en": "Dori",
+                "title_en": "Nefer about Dori",
+                "content_en": "Lord Sangemah Bay is a regular business partner of mine. Besides Mora, she also brings me news from Sumeru — of insomniac students sleepwalking through the library, poor souls cured of Eleazar, and a Vahumana Darshan now bustling with people and showing great promise... From the sounds of it, the Akademiya is finally beginning to show some signs of life. How very heartwarming."
+            },
+            {
+                "target_zh": "迪卢克",
+                "title_zh": "奈芙尔关于迪卢克",
+                "content_zh": "迪卢克·莱艮芬德老爷是我在蒙德城重要的线人，我对他的呼号是「夜枭」。我们具体如何结识，又是如何达成合作的，出于对迪卢克老爷隐私的考量，我就不和你细说了。不过，和迪卢克老爷合作是一件非常愉快的事，至少…他付钱的时候非常爽快。",
+                "target_en": "Diluc",
+                "title_en": "Nefer about Diluc",
+                "content_en": "Master Diluc Ragnvindr is a key informant of mine in Mondstadt. I generally refer to him by the codename \"Owl.\" As for how we met and came to work together... Well, out of consideration for his privacy, I won't go into the details. What I can say is this: working with Master Diluc is always a pleasure. At the very least... he pays promptly."
+            },
+            {
+                "target_zh": "夜兰",
+                "title_zh": "奈芙尔关于夜兰",
+                "content_zh": "夜兰小姐也算是我们「秘闻馆」…啊不，「北大陆情报网」的大贵客了，她来购买情报的时候，从来都是一次性用现金全部付清款项，一点卖人情的余地都不留给我。就算是那些不能轻易卖出的贵重情报，她也会眼睛都不眨地砸下两倍三倍的摩拉，直到用钱砸到我认输，把情报卖给她为止。\n璃月港的人，出手就是阔绰，有钱真好啊…",
+                "target_en": "Yelan",
+                "title_en": "Nefer about Yelan",
+                "content_en": "Miss Yelan is one of the Curatorium's... No, make that the entire Northern Intelligence Network's most valued clients. Whenever she comes looking for intel, she pays up front, in cash, and in full. She never leaves me even the slightest room to cash in a favor in the future — even with the most sensitive intel, which I don't give out easily. She'll throw down twice, even three times the asking price without flinching... until I finally cave in and hand it over.\nPeople from Liyue Harbor sure know how to spend, I'll give them that. Must be nice having that kind of money..."
             }
         ]
     }
