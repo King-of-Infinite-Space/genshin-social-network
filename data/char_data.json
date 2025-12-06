@@ -788,6 +788,14 @@
                 "target_en": "Dahlia",
                 "title_en": "Venti about Dahlia",
                 "content_en": "O, Traveler, do you seek to hear the voice of the wind and know its guidance? Then I say to you... chatting to the deacon is your best bet. Haha, I'm kidding — come chat with me over a drink any time you want! The reason I usually get Dahlia to be my intermediary is because... well, I imagine you can probably guess why. He loves listening to the blustering of the wind, but crucially he has his own compass, too."
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "温迪关于杜林",
+                "content_zh": "又有一位魔女小姐的孩子在蒙德落脚了，真热闹呀。这位小朋友看起来很想跟我的一位大朋友一起玩，于是我便做了一些微不足道的引荐工作。让人惊喜的是，大朋友比小朋友还激动，高兴得上蹿下跳，拍着肚皮转圈跳舞呢。哎呀，被大朋友听见了？快快，我们往树后躲一躲。",
+                "target_en": "Durin",
+                "title_en": "Venti about Durin",
+                "content_en": "Another one of Madame Mage's children here in Mondstadt, what fun! My new little friend looked like he wanted to play with a certain older, bigger friend of mine — so I arranged a little introduction, and voila! It turns out my big friend was the more excited of the two! Why, you should've seen him jumping for joy, patting his belly, and dancing in circles. Oh dear, did he hear what I just said? Quick, quick, let's take cover behind that tree!"
             }
         ]
     },
@@ -885,6 +893,14 @@
                 "target_en": "Sucrose",
                 "title_en": "Klee about Sucrose",
                 "content_en": "Sucrose is the best! This one time she asked me if I wanted a Jumpy Dumpty that can run as well as jump. Tee-hee, well duh! Of course I do, I want hundreds of them! I wanna put them on every street, every staircase, and every square in Mondstadt!"
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "可莉关于杜林",
+                "content_zh": "好耶！小杜林哥哥现在住在蒙德，我要天天找他玩！炸鱼的时候，我想让小杜林哥哥带我飞上很高很高的地方，在天上丢蹦蹦炸弹！",
+                "target_en": "Durin",
+                "title_en": "Klee about Durin",
+                "content_en": "Hehe, Durin lives in Mondstadt now — I'm going to play with him every day! I'll take him fish blasting, and he can fly me up high to throw Jumpy Dumpty at the fish!"
             }
         ]
     },
@@ -2350,6 +2366,14 @@
                 "target_en": "Barbara",
                 "title_en": "Albedo about Barbara",
                 "content_en": "Barbara? She's a very earnest Deaconess. I once had the opportunity to sketch her a simple portrait... What happened to the sketch? Ah yes... Albert offered to purchase it, but I rejected his bid and gave it to the Acting Grand Master. Social relations... really require a lot of effort."
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "阿贝多关于杜林",
+                "content_zh": "我的这位兄弟正在探索很多新事物，他很聪明，也热衷于思考。尽管他时常因此陷入某些认知困境，但这并不妨碍他对这个世界保持热情。他的到来，或者说，他作为家人的到来让我对人类关系的理解有了新的心得。现在，有了最亲近的同类，家里变得热闹起来，这无疑是一种好的改变。",
+                "target_en": "Durin",
+                "title_en": "Albedo about Durin",
+                "content_en": "My brother is learning all manner of new things. He's intelligent and passionately philosophical. This sometimes causes difficulties, but it does nothing to dull his passion for the world. His arrival — or should I say, his joining the family — has given me a new understanding of human relations. With my closest kin around, home has become a lively place — which is a positive thing, for sure."
             }
         ]
     },
@@ -5262,6 +5286,14 @@
                 "target_en": "Sethos",
                 "title_en": "Wanderer about Sethos",
                 "content_en": "What makes you think I know him? The fact that he's always following me around and asking for a closer look at my hat? We've barely spoken before. The first time we met, he came up and asked me if I was Hat Guy... Last time I checked, judging someone by their appearance is superficial. Hmph, somehow, everyone knows the name \"Hat Guy\" now..."
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "流浪者关于杜林",
+                "content_zh": "那个家伙刚从书里出来时就已经带了一堆问题了，没想到成为人类之后，问题更多。每次都把信写那么长，字还歪七扭八的看都看不清楚，啧。\n你要是闲得慌，倒是可以去给他解答解答。免得他走上什么歪路。",
+                "target_en": "Durin",
+                "title_en": "Wanderer about Durin",
+                "content_en": "When he first came out of that book, he had such a long list of questions. I never imagined becoming human would make him even more curious. His letters are so long — and his handwriting is so crooked, I can barely make it out.\nYou can help explain things to him if you've got time, just to make sure he doesn't get off track."
             }
         ]
     },
@@ -8730,6 +8762,14 @@
                 "content_en": "Aino once asked me an unusual question... Maybe it was because she noticed that I displayed intelligence beyond the level that she had predicted. In any case, the question was: \"If one day, you realize that there's somewhere else you'd rather be, should I let you go, and be happy for you?\" Detecting some emotion behind her words, I responded as follows: \"If I were ever to leave you, our home would turn into a garbage dump within three months. So I would try to make sure I returned within that timeframe.\"\nLooking back... only now do I realize what she was truly feeling. She was reluctant for me to leave."
             },
             {
+                "target_zh": "雅珂达",
+                "title_zh": "伊涅芙关于雅珂达",
+                "content_zh": "雅珂达，战功硕硕赫赫有名无人不知无人不晓的传奇赏金猎人，自称。她初次造访爱诺的工坊时，精神过分紧张，将我刚端出的蛋卷误判为武器，一刀劈成了两段。但在尝过蛋卷后，她的身体肌肉明显松弛了下来。后来她常常带着机械零件过来串门。即便没有交易需求，也会在我做好甜点时恰好路过，自称。",
+                "target_en": "Jahoda",
+                "title_en": "Ineffa about Jahoda",
+                "content_en": "Jahoda is a legendary bounty hunter famed throughout the land, with an outstanding track record in battle. Her own words. The first time she visited Aino's workshop, she was extremely tense, and struck at me a few times after mistaking my freshly baked Krumkake for a weapon. But her muscles instantly relaxed after she tasted it. Since then, she stops by regularly to drop off mechanical components. Not to trade, as such — it's just that she always happens to be passing by whenever I've baked a fresh batch of treats. Again, her own words."
+            },
+            {
                 "target_zh": "奈芙尔",
                 "title_zh": "伊涅芙关于奈芙尔",
                 "content_zh": "奈芙尔，「秘闻馆」的主人。她知道很多故事，不仅有过去流传的，还有当前正在发生的，甚至有人说未来也在她的把握之中。她的数据库性能一定很棒。",
@@ -8809,6 +8849,14 @@
                 "target_en": "Nefer",
                 "title_en": "Lauma about Nefer",
                 "content_en": "Clearly, we are different people with different ways of doing things, but I have never taken that to mean that we cannot get along.\nNo matter what, the light of the moon will always fall favorably upon her."
+            },
+            {
+                "target_zh": "雅珂达",
+                "title_zh": "菈乌玛关于雅珂达",
+                "content_zh": "在结伴潜入试验设计局前，我只知道她是「秘闻馆」的成员，是奈芙尔值得信赖的部下。夹在奈芙尔和各种客户之间一定很辛苦吧，我一直想好好招待她一次…呵呵，不知道奈芙尔以前是怎么在她面前称呼我的呢。",
+                "target_en": "Jahoda",
+                "title_en": "Lauma about Jahoda",
+                "content_en": "I didn't know much about her before we partnered up to infiltrate the Experimental Design Bureau — only that she worked for the Curatorium of Secrets as Nefer's trusted assistant. It can't be easy, being caught between Nefer on the one hand and all manner of clients on the other. I've always wished I could show her some proper Frostmoon Scions hospitality one day... Heh, I'm also a little curious to know what Nefer has said to her about me."
             }
         ]
     },
@@ -8842,6 +8890,14 @@
                 "target_en": "Nefer",
                 "title_en": "Flins about Nefer",
                 "content_en": "Nefer's intuition is as sharp as a knife, and that is a knife that no one wishes to contend with. Fortunately, I don't make a habit of prying into other people's backgrounds. I can only hope she doesn't either."
+            },
+            {
+                "target_zh": "雅珂达",
+                "title_zh": "菲林斯关于雅珂达",
+                "content_zh": "你总能在意想不到的地方见到雅珂达小姐，比如蛋卷工坊废弃的杂物堆旁，又比如那夏镇某位大户人家的露台上。她正在飞快地学习着事关生存的哲学，而挪德卡莱这片土地是她无声的老师。",
+                "target_en": "Jahoda",
+                "title_en": "Flins about Jahoda",
+                "content_en": "Jahoda always seems to show up where you would least expect. One day, you'll find her by a scrap pile at the Krumkake Craftshop, another, you'll see her out on the balcony of some wealthy family's house in Nasha Town. She is rapidly learning the philosophy of survival... her teacher being the land of Nod-Krai itself."
             }
         ]
     },
@@ -8867,6 +8923,14 @@
                 "target_en": "Ineffa",
                 "title_en": "Aino about Ineffa: Family",
                 "content_en": "Ineffa is the most important person in my family. I'm so, so thankful for your help — not just for getting her back home safe and sound, but for helping fix her little memory problem, too. Actually, why don't you come 'round to my place right now? I'll get Ineffa to make Krumkake for you... No, wait — I'll make them myself! And, and I can make Midsommar Torte too. It's really good, have you tried it? ...Hmm? Why are you running away? I wasn't finished!"
+            },
+            {
+                "target_zh": "雅珂达",
+                "title_zh": "爱诺关于雅珂达",
+                "content_zh": "别看雅珂达总是和伊涅芙拌嘴，其实她们关系很要好！她还是伊涅芙第一次交到的好朋友。作为一位开明的家长，我可不会限制伊涅芙交朋友，而且我知道的，有些朋友之间就是会拌嘴，越吵闹关系反而越好。哦，差点忘记告诉你了，她的机械臂虽然现在由我学生在维护，但一开始的制作者是我本人，很漂亮吧？",
+                "target_en": "Jahoda",
+                "title_en": "Aino about Jahoda",
+                "content_en": "Jahoda might bicker a lot with Ineffa, but they're actually really close. She was the first friend that Ineffa made. I'm not a controlling parent, so I don't tell Ineffa who she can and can't make friends with. Some friends just argue more than others — somehow, fighting it out brings them closer together. Oh, I almost forgot to mention, you know her robotic arm? It's pretty, right? I was the one who built that, although it's my student who handles the maintenance and repairs these days."
             },
             {
                 "target_zh": "菈乌玛",
@@ -8926,6 +8990,14 @@
                 "content_en": "It is often said that politeness is the most effective means of keeping strangers at bay. I guess that makes Mr. Flins a master of the art of social distancing. He wears his etiquette like a suit of shining armor — impeccable, impenetrable, hiding whatever lies beneath. Don't get me wrong, I pride myself on being a tactful friend, and I know how to smile and play along. But whether Mr. Flins is a Lightkeeper or a fae, from Nod-Krai or Snezhnaya, it makes no difference to me. First and foremost, we are friends, and the foundation of friendship... is trust."
             },
             {
+                "target_zh": "雅珂达",
+                "title_zh": "奈芙尔关于雅珂达",
+                "content_zh": "我们「秘闻馆」最能干，也是最重要的员工，要是离了雅珂达，这「秘闻馆」非停转了不可。她鲁莽又骄傲，但也勇敢且善良，或许在旁人看来，她是个不成熟的年轻人，但我觉得不成熟反而是件好事。毕竟，「成熟」的下一步就是「凋落」了。呵呵，我还指望着她多给我跑几年腿呢。",
+                "target_en": "Jahoda",
+                "title_en": "Nefer about Jahoda",
+                "content_en": "Jahoda is the most capable — and frankly, the most valuable — of the Curatorium's employees. Without her, the whole place would surely grind to a halt. Yes, she can be reckless and proud, but she is also brave and kind. Some might call her immature, but I see that as a blessing. After all, once you've reached maturity in life, it's all downhill from there... heh, and I'm counting on her to run my errands for a few years yet."
+            },
+            {
                 "target_zh": "爱诺",
                 "title_zh": "奈芙尔关于爱诺",
                 "content_zh": "她给雅珂达做的那副手臂挺好用的，就是价格不菲。噢，放心，制作费用和保养费我都已经垫付了。雅珂达是我最重要的员工，这些钱我就给她免除利息了。",
@@ -8980,6 +9052,160 @@
                 "target_en": "Yelan",
                 "title_en": "Nefer about Yelan",
                 "content_en": "Miss Yelan is one of the Curatorium's... No, make that the entire Northern Intelligence Network's most valued clients. Whenever she comes looking for intel, she pays up front, in cash, and in full. She never leaves me even the slightest room to cash in a favor in the future — even with the most sensitive intel, which I don't give out easily. She'll throw down twice, even three times the asking price without flinching... until I finally cave in and hand it over.\nPeople from Liyue Harbor sure know how to spend, I'll give them that. Must be nice having that kind of money..."
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name_zh": "杜林",
+        "name_en": "Durin",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/161117/12bd5d770accc4cdef5230ae9230e284_8173333462424624414.png",
+        "ver": "6.2.1",
+        "lines": [
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "杜林关于阿贝多·家人",
+                "content_zh": "关于如何成为一个真正的人，阿贝多给我传授了很多经验。他给我列举了一些人类必定会面临的问题，工作，理想，还有生活…有些很难，暂时听不懂。有些则更难，根本想象不出来。\n但他说这些都可以一边体验一边摸索，然后做出自己的选择。唯独家庭，是每个人出生时无法选择的。我明白我的「家」很复杂，和别的家庭都不一样。但有阿贝多作为我的兄弟，家人，我又觉得我的家是一个令人安心的地方，跟许多人的家没什么两样。",
+                "target_en": "Albedo",
+                "title_en": "Durin about Albedo: Family",
+                "content_en": "Albedo has shared so many of his experiences with me regarding becoming truly human. He's explained many of the problems that humans face — things like work, ideals, life... Some of these things are too difficult for me to understand — some are too difficult for me even to imagine.\nAlbedo says I can slowly learn about these problems as I experience them, before making my own choices. Family is the only thing that a human can't choose. I know my family is complicated and highly unusual, but with Albedo as my brother, I'm filled with a sense of peace and belonging. In that sense, my family is no different from most."
+            },
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "杜林关于阿贝多·感应",
+                "content_zh": "阿贝多是一个完美的「人」。他懂很多，总能面面俱到，把所有事情都处理好，对待周围的人也很真诚友好。但有时，我又觉得他并不只有他呈现出来的样子，也许还有令人意想不到的一面，比如用决绝的手段去达到目的…我不知道为什么会有这种奇怪的直觉，这算是「同类」之间的感应吗？",
+                "target_en": "Albedo",
+                "title_en": "Durin about Albedo: Sense",
+                "content_en": "Albedo is the perfect \"human.\" He knows so much and is always able to handle everything he faces. He's sincere and friendly to those around him. But sometimes, I feel like there's another side to him, one no one would expect. Like how he takes decisive measures to achieve his aims... I don't know where this uncanny intuition comes from — perhaps it's a sort of resonance between beings who share a \"species\"?"
+            },
+            {
+                "target_zh": "流浪者",
+                "title_zh": "杜林关于流浪者·朋友",
+                "content_zh": "刚离开希穆兰卡的时候，我跟着阿帽去过须弥，教令院很大很漂亮，书也很多，现在我开始学习写字看书了，才意识到在那里当学者很不轻松。\n不过也有闲暇的时候。有许多人会主动找阿帽打牌，聊天，还有送好吃的。比如那个长了大耳朵的人，和帽子上长着更大耳朵的人，还有像小狼犬的人…我私底下问过阿帽，他们都是你的好朋友吗？虽然阿帽嘴上总是不耐烦地点评他们有多聒噪，却没有否认过他们是朋友这件事。",
+                "target_en": "Wanderer",
+                "title_en": "Durin about the Wanderer: Friends",
+                "content_en": "Shortly after leaving Simulanka, I followed Hat Guy to Sumeru. The Akademiya was so big and so beautiful — and there were so many books. It's only now that I'm learning to read and write that I suddenly understand how stressful it must be studying there.\nNot that there weren't times when people had time off and came to Hat Guy to play cards, chat, or even share delicious food. Like the one with the large ears, or the one with the hat that had even larger ears, or the one who looked like a small wolfhound... I've asked Hat Guy if they're his friends. He always complains about how noisy they are, but he's never denied their friendship."
+            },
+            {
+                "target_zh": "流浪者",
+                "title_zh": "杜林关于流浪者·坚定",
+                "content_zh": "我们身上有一些很相似的地方，他似乎每次都能看穿我的想法，以「过来人」的口气引导我。当我说「请不要靠近我」时，其实很希望有人能坚定地陪在我身边…阿帽就是这么做的。所以轮到阿帽说让他一个人时，就算他故意泼我冷水，我也会坚定地跟上去。",
+                "target_en": "Wanderer",
+                "title_en": "Durin about the Wanderer: Resolution",
+                "content_en": "We share some similarities, he and I — he always seems to know what I'm thinking, and then guides me as someone who's \"already seen it all.\" Whenever I tell people, \"Don't get too close,\" I really want them to resolutely refuse... That's what Hat Guy does. So even when he says he wants to be alone, even if he deliberately tries to discourage me, I always stick by his side."
+            },
+            {
+                "target_zh": "妮露",
+                "title_zh": "杜林关于妮露",
+                "content_zh": "在须弥的时候我还抽空拜访了妮露仙子，好像在这个世界叫她妮露小姐比较合适，抱歉，我还有点改不过来。我看她在大巴扎跳了舞，真的跟仙子一样好看！",
+                "target_en": "Nilou",
+                "title_en": "Durin about Nilou",
+                "content_en": "When I was in Sumeru, I took the time to visit Fairy Nilou— Sorry, force of habit — I should call her Miss Nilou in this world. I watched her dancing at the Grand Bazaar, and she was as beautiful as a fairy."
+            },
+            {
+                "target_zh": "娜维娅",
+                "title_zh": "杜林关于娜维娅",
+                "content_zh": "有机会的话，我还想去感谢星轨王城的国王，唔，应该叫娜维娅小姐才对。不知道她看见我现在的样子会不会很惊讶…你说她马上就能接受？那太好了。",
+                "target_en": "Navia",
+                "title_en": "Durin about Navia",
+                "content_en": "If I get the chance, I'd like to thank the King of Constellation Metropole— Uhm, I mean to say, Miss Navia. I wonder if she'll be shocked to see what I look like now? ... You don't think she'll mind? That's great news!"
+            },
+            {
+                "target_zh": "绮良良",
+                "title_zh": "杜林关于绮良良",
+                "content_zh": "如果猫尾酒馆的猫咪们都像绮良良小姐那样，就不会见到我就紧张了吧…",
+                "target_en": "Kirara",
+                "title_en": "Durin about Kirara",
+                "content_en": "If all the kitties in The Cat's Tail were like Kirara, I don't think they'd get so nervous when they see me..."
+            },
+            {
+                "target_zh": "温迪",
+                "title_zh": "杜林关于温迪",
+                "content_zh": "「年轻的诗人轻拨弦，歌声如溪流清澈婉转。不是战歌，也非祷文，是星辰低语，是风过树林。龙的眼皮微微动，火焰在喉咙深处轻轻嗡。」\n有一个深夜我睡不着在野外散步，偶遇了巴巴托斯大人，他给我唱了这首诗，我很喜欢，所以悄悄背下来了…",
+                "target_en": "Venti",
+                "title_en": "Durin about Venti",
+                "content_en": "\"The young bard gently plucked his strings, a voice as clear as a mountain stream. It was no battle hymn nor prayer, but the murmuring of stars, the wind blowing through the trees. The dragon's eyelids faintly twitched, flames gently crackling in its throat.\"\nOne night, when I couldn't sleep, I took a stroll in the wilds. I met Lord Barbatos doing likewise. He sang this song for me, and I liked it so much, I made sure to learn it..."
+            },
+            {
+                "target_zh": "丽莎",
+                "title_zh": "杜林关于丽莎",
+                "content_zh": "丽莎老师给我布置完作业后会让我去座位上写。有一次我实在太困，就把书本立起来当掩体，偷偷打盹。迷迷糊糊睁眼间发现她在一旁笑眯眯地看着我，吓得我瞬间坐直。我道歉的话还没说完，她却欣慰地夸我学到了最实用的知识。我想，她指的应该是我积极认错的态度。\n你说她夸的不是这个？",
+                "target_en": "Lisa",
+                "title_en": "Durin about Lisa",
+                "content_en": "After Miss Lisa sets homework for me, she makes me sit at my desk to complete it. One time, when I was exhausted, I stood my book up on my desk so it blocked her view and tried to nap in secret. When I woke up, she was standing there smiling. It scared me stiff. But before I could finish apologizing, she praised me for learning the most valuable lesson... I think she was talking about my willingness to acknowledge my mistakes.\nOh, so you don't think that's what she meant?"
+            },
+            {
+                "target_zh": "可莉",
+                "title_zh": "杜林关于可莉",
+                "content_zh": "阿贝多说过，他把可莉当成妹妹在照顾，而可莉也喜欢叫我小杜林哥哥，言下之意我理应也是可莉的哥哥才对。可是——如果按照人类的年龄来定义的话，可莉又真的算是我的妹妹吗？唔…",
+                "target_en": "Klee",
+                "title_en": "Durin about Klee",
+                "content_en": "Albedo once told me he treats Klee like a little sister. Klee likes to call me Big Brother Durin, too. I guess I am technically her big brother, though I haven't been human for very long — if we're talking about human age, is she really my *little* sister? Hmm..."
+            },
+            {
+                "target_zh": "菲谢尔",
+                "title_zh": "杜林关于菲谢尔",
+                "content_zh": "我还是有点在意。早在希穆兰卡时我就觉得她跟其他人不一样，请问她跟我一样，也是从书里走出来的吗？",
+                "target_en": "Fischl",
+                "title_en": "Durin about Fischl",
+                "content_en": "I can't help but wonder... Back in Simulanka, I felt like she was different from the others. Is she the same as me — did she come out of a book, too?"
+            },
+            {
+                "target_zh": "迪奥娜",
+                "title_zh": "杜林关于迪奥娜",
+                "content_zh": "在童话故事里，会调制迷惑人心智的魔药，还能同时指挥很多猫咪的人，很可能是了不起的女巫。",
+                "target_en": "Diona",
+                "title_en": "Durin about Diona",
+                "content_en": "In fairy tales, anyone who can mix potions that befuddle the heart and mind and command the obedience of cats is almost certainly a powerful witch."
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name_zh": "雅珂达",
+        "name_en": "Jahoda",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/161254/297e76a4007915f7b45b86a8282e9fe0_8565573165485339803.png",
+        "ver": "6.2.1",
+        "lines": [
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "雅珂达关于菈乌玛",
+                "content_zh": "菈乌玛小姐？嗯…虽然我不怎么了解她，但我也知道她的身份可高了，实力也很强，而且她还能和动物说话呢，这么一来，希汐岛上的那些动物，不都等于是菈乌玛小姐的耳目了？怪不得没有宝藏猎人敢去希汐岛「寻宝」呢，这一上岛不就等于自投罗网吗…",
+                "target_en": "Lauma",
+                "title_en": "Jahoda about Lauma",
+                "content_en": "Miss Lauma? Uhm... I don't really know too much about her, but I know she's kind of a big deal, and she's powerful... and she can talk to animals... Thinking about it, she must have eyes and furry little ears all over Hiisi Island. No wonder treasure hunters don't go \"looking for treasure\" there, you'd be walking straight into a trap..."
+            },
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "雅珂达关于伊涅芙",
+                "content_zh": "啊，那个笨蛋机器人啊，做蛋卷挺好吃的啊，就是总记不住人说话，而且也没什么幽默感，随便说个玩笑都要认真地问我哪里好笑，但她的蛋卷真的很好吃喔，有机会你一定要尝尝。",
+                "target_en": "Ineffa",
+                "title_en": "Jahoda about Ineffa",
+                "content_en": "Oh, that dumb clanker? She's good at baking krumkakes, but she's got a memory like a leaky sieve and zero humor. Every time I crack a joke she asks me to explain why it's funny. But her krumkakes are the bomb, you have got to try them."
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "雅珂达关于奈芙尔",
+                "content_zh": "奈姐当然是我最最亲爱的老板啦！嘿嘿嘿，她不仅给我开工资，还管吃管住。不过，她手底下好像也就只有我一个正式员工…啊，还有阿舍鲁，差点忘了。不过，阿舍鲁说是员工，却一次委托都没出过…哼，居然吃闲饭，下次我就抱着它出外勤去！",
+                "target_en": "Nefer",
+                "title_en": "Jahoda about Nefer",
+                "content_en": "Nef's the best boss in the whole world! Hehe, not only does she pay me on time, she even covers food and board! I might be her only actual employee... No, wait, I almost forgot about Ashru! Though he's not exactly an employee, right? He's never even completed a single commission! Hmph! Can't have anyone freeloading... Next job, he's coming with me!"
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "雅珂达关于爱诺",
+                "content_zh": "爱诺的手艺可好了，无论我把胳膊折腾成什么样，她都能修好。但是每次修理手臂的时候，爱诺都会在上面画画，说什么这样比较可爱，虽然确实挺可爱的，但她怎么不在伊涅芙身上画呢？",
+                "target_en": "Aino",
+                "title_en": "Jahoda about Aino",
+                "content_en": "Aino's got some serious skills. No matter what I put my arm through, she always gets it working again. It's just... every time she fixes it, she always doodles on it. Says it's cuter that way. I mean, it is kinda cute, but why doesn't she ever draw on Ineffa?"
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "雅珂达关于菲林斯",
+                "content_zh": "我听奈姐说过，执灯人是一个历史很悠久的组织，里面的人又厉害又聪明，还知道很多古老的秘辛。你说…菲林斯会不会也知道某些宝藏的线索？或者是知道哪里有没被挖过的遗迹？呃，我就是想想，不会去问的，不然奈姐又要训我了。",
+                "target_en": "Flins",
+                "title_en": "Jahoda about Flins",
+                "content_en": "I've heard Nef talk about how the Lightkeepers are a really old organization, chock full of powerful, smart people who know tons of ancient secrets. Say... You think Flins has any leads on ancient treasures? Or maybe some untouched old ruins? Uh, I'm just thinking out loud here, I'd never actually ask! Otherwise, Nef'd chew me out again."
             }
         ]
     }
