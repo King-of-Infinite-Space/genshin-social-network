@@ -261,7 +261,11 @@ def main():
     print_diff(char_dict, prev_dict)
     write_data_file(char_dict)
 
-    update_remote_table(char_dict, new_names)
+    try:
+        update_remote_table(char_dict, new_names)
+    except Exception as e:
+        print(f"Failed to update remote table: {e}")
+        traceback.print_exc()
 
     download_images()
 

@@ -71,10 +71,10 @@ def prepare_data():
         edge = {
             "avatarId": edge_raw["avatarId"],
             "fetterId": edge_raw["fetterId"],
-            "title_zh": data_raw["textmap_zh"][str(edge_raw["voiceTitleTextMapHash"])],
-            "title_en": data_raw["textmap_en"][str(edge_raw["voiceTitleTextMapHash"])],
-            "content_zh": data_raw["textmap_zh"][str(edge_raw["voiceFileTextTextMapHash"])],
-            "content_en": data_raw["textmap_en"][str(edge_raw["voiceFileTextTextMapHash"])],
+            "title_zh": data_raw["textmap_zh"].get(str(edge_raw["voiceTitleTextMapHash"]), ""),
+            "title_en": data_raw["textmap_en"].get(str(edge_raw["voiceTitleTextMapHash"]), ""),
+            "content_zh": data_raw["textmap_zh"].get(str(edge_raw["voiceFileTextTextMapHash"]), ""),
+            "content_en": data_raw["textmap_en"].get(str(edge_raw["voiceFileTextTextMapHash"]), ""),
         }
         edge_data.append(edge)
     return node_data, edge_data
