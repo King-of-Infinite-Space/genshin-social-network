@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 6"
+  # schedule:
+  #   - cron: "0 0 * * 6"
 
 env:
   REF_VER: ${{ vars.REF_VER }}
@@ -17,12 +17,13 @@ jobs:
     steps:
       - id: step1
         run: |
-          days=$(( ($(date +%s)-$(date +%s --date $REF_DATE))/(3600*24) ))
-          echo "$days days since reference v$REF_VER"
-          continue=$(( days % $PERIOD == 0  ))
-          [[ "$GITHUB_EVENT_NAME" = 'workflow_dispatch' ]] && continue=1
-          # manual run is allowed regardless of date
-          echo "continue=$continue" >> $GITHUB_OUTPUT
+          # days=$(( ($(date +%s)-$(date +%s --date $REF_DATE))/(3600*24) ))
+          # echo "$days days since reference v$REF_VER"
+          # continue=$(( days % $PERIOD == 0  ))
+          # [[ "$GITHUB_EVENT_NAME" = 'workflow_dispatch' ]] && continue=1
+          # # manual run is allowed regardless of date
+          # echo "continue=$continue" >> $GITHUB_OUTPUT
+          echo "continue=1" >> $GITHUB_OUTPUT
 
   updater:
     needs: scheduler
