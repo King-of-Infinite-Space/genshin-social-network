@@ -1,4 +1,9 @@
 {
+    "哥伦比娅": {
+        "alias_zh": ["「少女」", "「库塔尔」"],
+        "alias_en": ["Damselette", "Kuutar"],
+        "_comment": ["", "菈乌玛"]
+    },
     "玛薇卡": {
         "alias_zh": ["赫布里穆","火之神","火神大人"],
         "alias_en": ["Haborym", "the Pyro Archon"]
