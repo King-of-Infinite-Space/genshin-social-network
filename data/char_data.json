@@ -5290,7 +5290,7 @@
             {
                 "target_zh": "杜林",
                 "title_zh": "流浪者关于杜林",
-                "content_zh": "那个家伙刚从书里出来时就已经带了一堆问题了，没想到成为人类之后，问题更多。每次都把信写那么长，字还歪七扭八的看都看不清楚，啧。\n你要是闲得慌，倒是可以去给他解答解答。免得他走上什么歪路。",
+                "content_zh": "那个家伙刚从书里出来时就已经带了一堆问题了，没想到成为人类之后，问题更多。每次都把信写那么长，字还歪歪扭扭的看都看不清楚，啧。\n你要是闲得慌，倒是可以去给他解答解答。免得他走上什么歪路。",
                 "target_en": "Durin",
                 "title_en": "Wanderer about Durin",
                 "content_en": "When he first came out of that book, he had such a long list of questions. I never imagined becoming human would make him even more curious. His letters are so long — and his handwriting is so crooked, I can barely make it out.\nYou can help explain things to him if you've got time, just to make sure he doesn't get off track."
@@ -9206,6 +9206,47 @@
                 "target_en": "Flins",
                 "title_en": "Jahoda about Flins",
                 "content_en": "I've heard Nef talk about how the Lightkeepers are a really old organization, chock full of powerful, smart people who know tons of ancient secrets. Say... You think Flins has any leads on ancient treasures? Or maybe some untouched old ruins? Uh, I'm just thinking out loud here, I'd never actually ask! Otherwise, Nef'd chew me out again."
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name_zh": "哥伦比娅",
+        "name_en": "Columbina",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/162064/4e8138f314c65807b63808848bcfe6f7_6847272269006518173.png",
+        "ver": "6.3.1",
+        "lines": [
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "哥伦比娅关于菈乌玛",
+                "content_zh": "要是往菈乌玛头顶的方向递去一缕月光，她的角冠就会长得更高更大，算准角度，还能一下子戳中长在高处的果实…后来？嗯…被训了。",
+                "target_en": "Lauma",
+                "title_en": "Columbina about Lauma",
+                "content_en": "Aiming a beam of moonlight at Lauma's head makes her antlers grow taller, and if you get the angle just right, you can even get them to stab a piece of fruit that's too high to reach... Hmm? What then? Oh, um... You get scolded."
+            },
+            {
+                "target_zh": "那维莱特",
+                "title_zh": "哥伦比娅关于那维莱特",
+                "content_zh": "在枫丹担任最高审判官的水之龙？唔…听上去也是一位会将人投进囚牢的龙呢。不太想见他。",
+                "target_en": "Neuvillette",
+                "title_en": "Columbina about Neuvillette",
+                "content_en": "The Hydro Dragon who serves as the Iudex of Fontaine? Hmm... Another Dragon who puts people in prison. I'm not sure I'd want to meet him."
+            },
+            {
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "哥伦比娅关于阿蕾奇诺",
+                "content_zh": "壁炉之家孩子们很多，有时会有些吵闹。我听见他们都叫阿蕾奇诺「父亲」，以为这是在壁炉之家时需要遵守的规矩。于是我在阿蕾奇诺经过时，也那样叫了一声。然后我才知道，原来壁炉之家还能那么安静。",
+                "target_en": "Arlecchino",
+                "title_en": "Columbina about Arlecchino",
+                "content_en": "The House of the Hearth is home to many children, and it can get quite noisy. The first time I heard them call Arlecchino \"Father,\" I thought it was a rule that had to be followed there. So, the next time she passed by, I used that title as well. That's when I learned just how quiet the House of the Hearth could become."
+            },
+            {
+                "target_zh": "达达利亚",
+                "title_zh": "哥伦比娅关于「公子」",
+                "content_zh": "听说他和家人的感情很好，休假的时候会举家外出，去湖边露营烧烤。桑多涅说他是执行官当中生活得最像普通人的那一个，我不了解普通人，但我觉得那样的日子听上去倒是不错。",
+                "target_en": "Tartaglia",
+                "title_en": "Columbina about Childe",
+                "content_en": "I've heard he has a good relationship with his family. They go camping together and have barbecues by the lake. Sandrone says he's the Harbinger who lives most like an ordinary person. I don't really understand ordinary people, but that kind of life sounds nice to me."
             }
         ]
     }
