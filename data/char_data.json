@@ -6912,6 +6912,14 @@
                 "target_en": "Gaming",
                 "title_en": "Xianyun about Gaming",
                 "content_en": "One is very fond of Gaming. He is good-hearted and entertaining in conversation, but never grandiloquent. We first met when one was resting by a lake, and he very kindly shared some of his provisions with me. Later, he commented that one seemed to be a wise elder, worthier of respect than even the adepti themselves... Hehe, this wise elder will be sure to look out for him after that."
+            },
+            {
+                "target_zh": "兹白",
+                "title_zh": "闲云关于兹白",
+                "content_zh": "兹白倒是经常过来与我闲聊，在一些数理问题上，她颇有见地，不过…咳，有一次瑶瑶帮阿萍捎带东西过来时，兹白恰好在场，就顺嘴问了瑶瑶几个数理问题，那孩子聪慧，也就顺嘴答了，结果兹白欢喜得厉害，越问越多，我还是第一次看见瑶瑶这孩子满头大汗的样子，只好出声解围…唉，后来，兹白坚持瑶瑶有数理之才不能埋没，还问我她现住何处，要写套习题带给她，我…唉，我这是说，还是不说呢…",
+                "target_en": "Zibai",
+                "title_en": "Xianyun about Zibai",
+                "content_en": "Zibai has made herself quite a regular visitor lately. She is certainly proficient in mathematics, but... *sigh* On one occasion, Yaoyao showed up to deliver some things from Ping, and Zibai took the opportunity to quiz her with a handful of math problems. Being the bright child that she is, Yaoyao answered them with no issue — much to the delight of Zibai, who then peppered the poor girl with even more math problems. One has never seen Yaoyao sweat so profusely... Goodness knows how much longer this would have continued had one not stepped in and changed the topic... *sigh* But Zibai still hasn't let it go. She insists that Yaoyao's mathematical gift must not be squandered and keeps asking one for her address so that she can deliver some worksheets to her... Hmph. The question is, should I tell her or not?"
             }
         ]
     },
@@ -9291,43 +9299,91 @@
         ]
     },
     {
-        "id": 108,
-        "name_zh": "哥伦比娅",
-        "name_en": "Columbina",
-        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/162064/4e8138f314c65807b63808848bcfe6f7_6847272269006518173.png",
-        "ver": "6.3.1",
+        "id": 109,
+        "name_zh": "兹白",
+        "name_en": "Zibai",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/162515/a35765dea0bcf932774c269352bb2ec8_5168948168741627454.png",
+        "ver": "6.3.2",
         "lines": [
             {
-                "target_zh": "菈乌玛",
-                "title_zh": "哥伦比娅关于菈乌玛",
-                "content_zh": "要是往菈乌玛头顶的方向递去一缕月光，她的角冠就会长得更高更大，算准角度，还能一下子戳中长在高处的果实…后来？嗯…被训了。",
-                "target_en": "Lauma",
-                "title_en": "Columbina about Lauma",
-                "content_en": "Aiming a beam of moonlight at Lauma's head makes her antlers grow taller, and if you get the angle just right, you can even get them to stab a piece of fruit that's too high to reach... Hmm? What then? Oh, um... You get scolded."
+                "target_zh": "钟离",
+                "title_zh": "兹白关于钟离",
+                "content_zh": "虽然凡人会称呼我为「白马仙人」，但我并非受赐于众仙之祖摩拉克斯。在久远之时，我就已身居天班，行使「月使」之职。但前尘杂事，不必再提，如今的人们既习惯了用「白马仙人」来称呼我，那也不错。我平日里见没见过钟离？见过，我偶尔会看见他跟着胡堂主走街串巷，或者是独自品茶散步，看来比起做岩王帝君，还是做客卿更为闲适惬意啊。",
+                "target_en": "Zhongli",
+                "title_en": "Zibai about Zhongli",
+                "content_en": "Though mortals call me the White Horse Adeptus, I was not bestowed with this title by Morax, the Prime of Adepti. I joined the celestial ranks very long ago, in ancient times, where I served as a moon envoy. But what is past is settled, and there is no need to dwell on it. Here in the present, people seem accustomed to calling me the White Horse Adeptus, and that is fine by me. Do I ever see Zhongli around, you ask? Why yes, I occasionally see him walking the streets with Director Hu or enjoying a cup of tea on his own. I must say, his life as a consultant seems far more pleasant and relaxed than his life as Rex Lapis."
             },
             {
-                "target_zh": "那维莱特",
-                "title_zh": "哥伦比娅关于那维莱特",
-                "content_zh": "在枫丹担任最高审判官的水之龙？唔…听上去也是一位会将人投进囚牢的龙呢。不太想见他。",
-                "target_en": "Neuvillette",
-                "title_en": "Columbina about Neuvillette",
-                "content_en": "The Hydro Dragon who serves as the Iudex of Fontaine? Hmm... Another Dragon who puts people in prison. I'm not sure I'd want to meet him."
+                "target_zh": "凝光",
+                "title_zh": "兹白关于凝光",
+                "content_zh": "如今的璃月以商立业，而商贾之事向来复杂繁冗，那位「天权星」既然能担住执掌璃月的重任，想必也是人中龙凤。但我听闻璃月总务司中有「璃月七星」。我已见过其中数位，不知其余几位身在何方？唔，既已领受了七星之名，想必也是在为自己的职务奔忙吧…",
+                "target_en": "Ningguang",
+                "title_en": "Zibai about Ningguang",
+                "content_en": "I understand that the Liyue of today is built on trade and commerce — a highly involved and complex affair. For the Tianquan to shoulder the enormous responsibility of ruling Liyue, she must be a truly exceptional person. But I have heard that there are a total of seven Qixing within the Ministry of Civil Affairs, and I have only met a handful of them. I wonder where the others are? Hmm, I suppose they must be busy elsewhere with their duties..."
             },
             {
-                "target_zh": "阿蕾奇诺",
-                "title_zh": "哥伦比娅关于阿蕾奇诺",
-                "content_zh": "壁炉之家孩子们很多，有时会有些吵闹。我听见他们都叫阿蕾奇诺「父亲」，以为这是在壁炉之家时需要遵守的规矩。于是我在阿蕾奇诺经过时，也那样叫了一声。然后我才知道，原来壁炉之家还能那么安静。",
-                "target_en": "Arlecchino",
-                "title_en": "Columbina about Arlecchino",
-                "content_en": "The House of the Hearth is home to many children, and it can get quite noisy. The first time I heard them call Arlecchino \"Father,\" I thought it was a rule that had to be followed there. So, the next time she passed by, I used that title as well. That's when I learned just how quiet the House of the Hearth could become."
+                "target_zh": "刻晴",
+                "title_zh": "兹白关于刻晴",
+                "content_zh": "我和玉衡星偶遇时，还是在璃月郊外。当时她领着总务司的人员在外测量土地，不顾崖高路险，竟是一马当先。我在旁观看，本想为她拨开一丛厚密的荆棘，没想到玉衡星居然提剑劈砍，硬是辟出了一条路来。她果然和我听闻的一样，是一位勇敢果决，一往无前的「猛将」。",
+                "target_en": "Keqing",
+                "title_en": "Zibai about Keqing",
+                "content_en": "I ran into the Yuheng once on the outskirts of Liyue. She was there with a team from the Ministry of Civil Affairs to conduct some land measurements. The terrain was inhospitable — mountainous, with sheer cliff faces, but there she was, leading from the front. I happened to notice her, and was about to clear some overgrown brambles from her path when, to my surprise, she drew her sword and swiftly cleared the path ahead by herself. I had heard that she had a reputation for being a bold and unstoppable commander, and I must say she certainly lives up to it."
             },
             {
-                "target_zh": "达达利亚",
-                "title_zh": "哥伦比娅关于「公子」",
-                "content_zh": "听说他和家人的感情很好，休假的时候会举家外出，去湖边露营烧烤。桑多涅说他是执行官当中生活得最像普通人的那一个，我不了解普通人，但我觉得那样的日子听上去倒是不错。",
-                "target_en": "Tartaglia",
-                "title_en": "Columbina about Childe",
-                "content_en": "I've heard he has a good relationship with his family. They go camping together and have barbecues by the lake. Sandrone says he's the Harbinger who lives most like an ordinary person. I don't really understand ordinary people, but that kind of life sounds nice to me."
+                "target_zh": "七七",
+                "title_zh": "兹白关于七七",
+                "content_zh": "怪了，那位名叫七七的小姑娘已有仙躯，却无仙魂，而且还时常神智消丧，这些症状，我似乎见过…若有机缘，我或许能为她诊断一番。",
+                "target_en": "Qiqi",
+                "title_en": "Zibai about Qiqi",
+                "content_en": "Qiqi is an odd case. A little girl with the body of an adeptus, but not the soul, whose mental clarity fades in and out. I believe I have seen these symptoms before, hmm... If fate permits, I should like to examine her more fully and diagnose her condition."
+            },
+            {
+                "target_zh": "闲云",
+                "title_zh": "兹白关于闲云",
+                "content_zh": "我已与自号为「闲云」的留云借风真君见过面了，她虽然是仙人，却不怎么用仙力，反而一直摆弄着机关物件，还说想要做出凡人也能自如使用的机关，正巧我记得几种琅玕国的机关图纸，就给她画了下来，但那几种机关历史太过久远，不知道能否派上用场…",
+                "target_en": "Xianyun",
+                "title_en": "Zibai about Xianyun",
+                "content_en": "I have met with Cloud Retainer — or \"Xianyun,\" as she has taken to calling herself. Although she is an adeptus, she rarely makes use of her attendant powers, preferring instead to tinker away with her mechanical devices. She explained that she seeks to create mechanisms that even ordinary mortals can use with ease. As it happened, I recalled some mechanical blueprints from Lang-Gan, so I proceeded to draw them for her. However, those mechanisms are so ancient that I'm not sure they'll be of any use in this day and age..."
+            },
+            {
+                "target_zh": "烟绯",
+                "title_zh": "兹白关于烟绯",
+                "content_zh": "这位小姑娘的血脉，竟是仙人交汇，实在奇妙。按歌尘浪市真君的说法，她应当未历战乱，是璃月年轻一代的「仙人」吧。看她研究律法的机敏模样，想必也不需要仙人血脉帮她开聪启慧了。呵…我还记得一些古时的律法例子，过些日子默写下来，托歌尘浪市真君带给她吧，希望她会喜欢。",
+                "target_en": "Yanfei",
+                "title_en": "Zibai about Yanfei",
+                "content_en": "I understand this young lady is part-human, part-adeptus? Most remarkable. From what Streetward Rambler has told me, it would seem that she belongs to a younger generation of adepti who have never seen war in their lifetime. And with her consummate mastery of the legal code, I also doubt she has to rely on her adeptal powers to gain wisdom. Heh... I still remember a few examples of case law from ancient times. I'll have to write them down in the coming days and ask Streetward Rambler to pass them on to her. I hope she'll like them."
+            },
+            {
+                "target_zh": "魈",
+                "title_zh": "兹白关于魈",
+                "content_zh": "我听闻，仙众夜叉曾跟随摩拉克斯一同扫涤四方，立下赫赫战功，但也常被身上的业障所折磨…时至今日，竟只有金鹏大将尚存于世，不知道他是否还被业障所扰，或许我能为他做些什么…什么？已经有人为他疗愈过了，原来如此…无论如何，平安就好。",
+                "target_en": "Xiao",
+                "title_en": "Zibai about Xiao",
+                "content_en": "I've heard there was a time when the Yakshas, led by Morax, cleansed evil from all corners of the land. They performed many outstanding military feats in the process, but it came at the cost of a karmic debt which tormented them... Today, only General Alatus remains. I wonder if his karmic debt still troubles him? Perhaps there is some way in which I could help... What? Someone has already healed him? I see... Very good. I'm glad he's at peace."
+            },
+            {
+                "target_zh": "瑶瑶",
+                "title_zh": "兹白关于瑶瑶",
+                "content_zh": "是歌尘浪世真君所收的弟子吧。虽是凡人之躯，但毅力和灵性倒是可圈可点。据我所知，那位留云借风真君也收了几位弟子，唔…有所传承是好事，可我怎么没听说理水叠山与削月筑阳二位真君有收徒的意向，难不成，还没寻见合适的弟子…平时忙着出去玩应该没空想这些？喔…璃月诸仙，果然各怀奥妙啊…",
+                "target_en": "Yaoyao",
+                "title_en": "Zibai about Yaoyao",
+                "content_en": "A disciple of Streetward Rambler, if I'm not mistaken. She possesses commendable strength and spirit for a mere mortal. Cloud Retainer has taken on several disciples as well, yes? Hmm... It is good to have successors. I wonder why I have never heard Mountain Shaper or Moon Carver display any interest in taking on disciples... Could it be that they haven't found any suitable candidates? Or perhaps they're too busy trotting off to enjoy themselves to think about such matters? Hah... Each of the adepti is so mystifying in their own unique way..."
+            },
+            {
+                "target_zh": "蓝砚",
+                "title_zh": "兹白关于蓝砚",
+                "content_zh": "这位蓝砚小妹，应是「万象风角灵官」的后人，我记得「万象风角灵官」曾与「银翎翦玉玄鸟」结伴同游，成就了一段佳话，如今还有了如此聪慧的后辈，要是他二人知道，想必也会很欣喜的。",
+                "target_en": "Lan Yan",
+                "title_en": "Zibai about Lan Yan",
+                "content_en": "Lan Yan must surely be a descendant of Wind Reader, one of the Three Beasts of Tao Dou. I recall that Wind Reader traveled with the Jade-Plumed Silverwing for a time, creating quite an enchanting tale. I'm sure both of them would be delighted to know how very wise and capable their latter-day descendants have turned out."
+            },
+            {
+                "target_zh": "胡桃",
+                "title_zh": "兹白关于胡桃",
+                "content_zh": "我听闻过胡堂主的壮举，为护生而孤身一人赴死地，如此勇毅，不愧为「无妄童子」的后辈。但还好，有你相助，胡堂主才没有如同「朱赤引火幽蝶」一般…呵，罢了，不提陈年旧事。",
+                "target_en": "Hu Tao",
+                "title_en": "Zibai about Hu Tao",
+                "content_en": "I am well apprised of Director Hu's heroic act — facing death alone to protect the lives of others... Her courage and determination make her a worthy successor to the Wuwang Kid's legacy. It is most fortunate indeed that, thanks to your help, Director Hu did not end up like the Lone Butterfly of the Crimson Flame... Ahem, never mind that. No sense dwelling on what is past and gone."
             }
         ]
     }
