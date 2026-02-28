@@ -55,6 +55,14 @@
                 "content_en": "Sometimes I feel that terms like \"genius\" were originally created for Albedo."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "琴关于法尔伽",
+                "content_zh": "法尔伽大团长，他是西风骑士团的当代传奇。等到他凯旋归来的那一天，就请你亲自和他交谈吧。相信你也能从中受益。",
+                "target_en": "Varka",
+                "title_en": "Jean about Varka",
+                "content_en": "Grand Master Varka is the legend of his generation. On the day of his triumphant return, I shall be sure to personally introduce you to him. I'm sure you too will be in awe of his greatness."
+            },
+            {
                 "target_zh": "诺艾尔",
                 "title_zh": "琴关于诺艾尔",
                 "content_zh": "诺艾尔，嗯…那个努力想要成为西风骑士的少女。她的内心仍有软弱之处，现在这个阶段，也许还不适合让她接触外界的凶险。",
@@ -410,6 +418,14 @@
                 "content_en": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "凯亚关于法尔伽",
+                "content_zh": "说来可惜，现在的西风骑士团里，根本没人继承大团长的行事作风。唉…我个人倒还挺欣赏那种的。",
+                "target_en": "Varka",
+                "title_en": "Kaeya about Varka",
+                "content_en": "Now that you mention him, it is a shame there is no one in the Knights of Favonius to inherit the Grand Master's approach to his work. *sigh* I must say I really do appreciate people like him."
+            },
+            {
                 "target_zh": "菲谢尔",
                 "title_zh": "凯亚关于菲谢尔",
                 "content_zh": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
@@ -523,6 +539,14 @@
                 "content_en": "Bennett always comes to the cathedral covered in scrapes and bruises... Though it clearly never bothers him a bit, given the big grin he always has on his face. He really should take better care of himself."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "芭芭拉关于法尔伽",
+                "content_zh": "父亲跟着法尔伽大团长一起出远门了，也不知道路途中会不会遇到什么…啊，没关系，大团长可是「北风骑士」，一定没问题的！我…也会为他们祈祷的。",
+                "target_en": "Varka",
+                "title_en": "Barbara about Varka",
+                "content_en": "My father left on the expedition with Grand Master Varka... I hope they are okay. Oh, what am I worried about? The Grand Master is none other than the Knight of Boreas, of course they will be fine! Still, I will be sure to pray for their safe return."
+            },
+            {
                 "target_zh": "罗莎莉亚",
                 "title_zh": "芭芭拉关于罗莎莉亚",
                 "content_zh": "罗莎莉亚修女虽然难以接近，也从不参加祈祷，但我觉得…唔，她一定是相信着风神的！不过，不过我并没有勇气和她交流就是了…",
@@ -604,6 +628,14 @@
                 "content_en": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if it's an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "迪卢克关于法尔伽",
+                "content_zh": "大团长法尔伽，我能理解他的立场，却无法认同他的做派。呵…是我多言了。我早已不是西风骑士，忘了我说的话吧。",
+                "target_en": "Varka",
+                "title_en": "Diluc about Varka",
+                "content_en": "Grand Master Varka... While I understand his disposition, I can make no sense of his actions. ...I—I've said too much already. I've long since left the Knights of Favonius. Forget I said anything."
+            },
+            {
                 "target_zh": "优菈",
                 "title_zh": "迪卢克关于优菈",
                 "content_zh": "我听说过她，她有自己的理念。努力挣脱家族束缚的气势也值得称道。但她…却加入了西风骑士团。",
@@ -667,6 +699,22 @@
                 "target_en": "Klee",
                 "title_en": "Razor about Klee",
                 "content_en": "Klee, friend! Friend, but... big hassle."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "雷泽关于法尔伽·陌生",
+                "content_zh": "法尔伽？不认识…",
+                "target_en": "Varka",
+                "title_en": "Razor about Varka: Stranger",
+                "content_en": "Varka? Razor doesn't know..."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "雷泽关于法尔伽·回忆",
+                "content_zh": "哦…法尔伽，是名字。那个男人，高大。雷泽名字，铁的爪子，他给的。唔…想见他。",
+                "target_en": "Varka",
+                "title_en": "Razor about Varka: Memory",
+                "content_en": "Oh, Varka is... a name. That man big. Big steelclaw, Razor's name — Varka gave him. Oh... want to see him."
             }
         ]
     },
@@ -944,6 +992,14 @@
                 "content_en": "I keep meaning to ask Master Jean for some help with the Mondstadt Adventurers' Guild, but I don't know how to go about it. The Guild doesn't have as many rules and regulations as the Knights of Favonius, the dads and I are pretty laid back about everything. Pretty sure that attitude wouldn't fly with Jean though... I guess I should read up on the Knights' etiquette or something?"
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "班尼特关于法尔伽",
+                "content_zh": "他是我非常崇拜的人，名副其实的大团长！能领导整个西风骑士团，那该有多厉害啊。不过后来我想了想，冒险团规模太大好像也不行，团里太忙了的话，老爹们就没人照顾了。哈哈，还是现在好啊。",
+                "target_en": "Varka",
+                "title_en": "Bennett about Varka",
+                "content_en": "He's my role model! Talk about team leaders — he's the Grand Master! Leads the whole darn Knights of Favonius! How incredible do you have to be to do that!? Recently, though, I've been thinking that having a smaller Adventure Team isn't such a bad thing after all. I mean, if things got too busy in the team, I'd have no time to look after all my dads in the guild, would I? Yeah... Yeah, things are fine the way they are."
+            },
+            {
                 "target_zh": "雷泽",
                 "title_zh": "班尼特关于雷泽",
                 "content_zh": "你说奔狼领的那个小哥哥啊，他虽然看上去凶巴巴的，也不愿意说话…但是是个有趣的人哦！他和我都特别喜欢吃肉，我给他做肉吃，他教我狼怎么说话，哈哈，你下次要不要一起来？",
@@ -999,6 +1055,14 @@
                 "target_en": "Jean",
                 "title_en": "Noelle about Jean",
                 "content_en": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!"
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "诺艾尔关于法尔伽",
+                "content_zh": "本来我想跟着他的队伍一起去冒险，履行女仆的责任，但大团长说我留在蒙德他才不会有后顾之忧…大团长这么器重我，我特别开心！虽然后来我知道大团长不只对我一个人说了这句话，不过…器重就是器重嘛。",
+                "target_en": "Varka",
+                "title_en": "Noelle about Varka",
+                "content_en": "At first I wanted to join his expedition party and do my part as a maid. But the Grand Master said no — it would give him more peace of mind if I stayed behind to take care of things in Mondstadt. It made me so happy to hear how much he values me! ...Okay, so apparently he said the same thing to a lot of people. But that doesn't change the fact he prizes me too!"
             },
             {
                 "target_zh": "凯亚",
@@ -2004,6 +2068,14 @@
                 "content_en": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "达达利亚关于法尔伽",
+                "content_zh": "法尔伽吗？哼，光是想到，有朝一日能和西风骑士团的顶点、传说中的「北风骑士」交手，就兴奋得颤抖。活在这个世界上，真是美妙。",
+                "target_en": "Varka",
+                "title_en": "Tartaglia about Varka",
+                "content_en": "Varka? Just the thought of one day going head-to-head with him in combat, the fabled Knight of Boreas himself, titan of the Knights of Favonius... It makes me buzz with excitement. It's a beautiful life we live in this world."
+            },
+            {
                 "target_zh": "哥伦比娅",
                 "title_zh": "达达利亚关于「少女」",
                 "content_zh": "愚人众执行官的席位是按照实力划分的，我不明白那个女孩为什么是「第三席」。有机会的话，我是想和排在我之前的执行官都比试一遍啦，但总有种不太想和她交手的感觉…不管怎么说，你也小心一点。",
@@ -2764,6 +2836,14 @@
                 "content_en": "Trouble, and lots of it. Although, it is sort of a cute kind of trouble..."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "罗莎莉亚关于法尔伽",
+                "content_zh": "虽说是出于好意，但法尔伽啰嗦起来像个老头一样，相当在意身边的人呢。唉，那家伙。",
+                "target_en": "Varka",
+                "title_en": "Rosaria about Varka",
+                "content_en": "I'm sure Varka means well, but his long-winded conversations get real old real quick. Although, he does really care for those around him, doesn't he?"
+            },
+            {
                 "target_zh": "塔利雅",
                 "title_zh": "罗莎莉亚关于塔利雅",
                 "content_zh": "主动请客是个好习惯，除此之外，他在酒桌上也很有分寸，知道什么该问，什么不该问。摸清彼此底牌后，我不必过多防备他，和聪明人打交道总是轻松的。",
@@ -2900,6 +2980,14 @@
                 "target_en": "Barbara",
                 "title_en": "Eula about Barbara",
                 "content_en": "Everyone loves her. What's her secret? Maybe I could learn a thing or two from her... Hmm, or maybe not. I can't imagine a \"Shining Idol\" would want anything to do with a descendant of a depraved dynasty."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "优菈关于法尔伽",
+                "content_zh": "大团长啊，他的性格很直爽，不在乎琐事和传闻，算是个老好人吧。我和他切磋过一次，打成了平手，但他那轻松的表情，散漫的态度，绝对是在放水！是对我最大的轻视！这个仇，我绝不会忘的！",
+                "target_en": "Varka",
+                "title_en": "Eula about Varka",
+                "content_en": "Hmph, the Grand Master... He doesn't like to beat around the bush and has no care for rumors or trivial matters. A good guy, I guess. I sparred with him once, which ended in a tie, but his relaxed expression and leisurely attitude clearly indicated that he had been holding back the whole time... Such indignity! I will not let it go!"
             },
             {
                 "target_zh": "温迪",
@@ -4839,7 +4927,7 @@
                 "content_zh": "哎呀，我知道你说的是谁了，单纯可爱的水果领主…她家的作物啊，品质顶呱呱！人也非常好说话，我面无表情托腮思考，都会让她紧张，怀疑自己的货品质量欠佳，主动提出降点价…嘿嘿，这样的性格，做生意可是要吃亏的！我希望她只对我展现出来，以免便宜了别家！",
                 "target_en": "Varesa",
                 "title_en": "Dori about Varesa",
-                "content_en": "Ah, yes, I know who you're talking about. The sweet and innocent Fruit Lord... Her family's produce is the best of the best! And she's very easy to negotiate with. If I simply purse my lips and look deep in thought, she gets nervous and starts questioning the quality of her goods, then she starts offering discounts... Hehe, you gotta be a little tougher than that in business, or you'll lose all your Mora! I hope it's only me that makes her squirm like that. She'd better not be giving the same discounts to everyone else!"
+                "content_en": "Ah, yes, I know who you're talking about. The sweet and innocent Fruit Lord... Her family's produce is the best of the best! And she's very easy to negotiate with. If I simply purse my lips and look deep in thought, she gets nervous and starts questioning the quality of her goods, then she starts offering discounts... Hehe, you gotta be a little tougher than that in business, or you'll lose all your Mora! And I hope it's only me that makes her squirm like that. She'd better not be giving the same discounts to everyone else!"
             }
         ]
     },
@@ -4953,7 +5041,7 @@
                 "content_zh": "「状若梦游的古怪少女」么…我确实在防沙壁附近看到过，虽然完全听不懂她说的话和写在纸上的一堆算式…不过，她似乎说完那些心情变好了许多。或许这是她排解心中压力的方式吧。",
                 "target_en": "Layla",
                 "title_en": "Candace about Layla",
-                "content_en": "An eccentric girl who always seems to be in a trance...? Yes, I believe I've seen her before — near the Wall of Samiel. I couldn't make sense of what she was saying, nor the calculations she wrote down, but she seemed to be in a much better mood after she'd finished. Perhaps this is her way of relieving stress."
+                "content_en": "An eccentric girl who always seems to be in a trance...? Yes, I believe I've seen her before — near the Wall of Samiel. I couldn't make sense of what she was saying, nor the calculation she wrote down, but she seemed to be in a much better mood after she'd finished. Perhaps this is her way of relieving stress."
             },
             {
                 "target_zh": "艾尔海森",
@@ -4977,7 +5065,7 @@
                 "content_zh": "迪希雅，她每次带着镀金旅团的人在阿如村寄宿的时候，都能约束好手下的行动，可以说…给我免了很多麻烦。迪希雅小姐，跟看上去大大咧咧的样子不同，是个非常可爱的人哦。",
                 "target_en": "Dehya",
                 "title_en": "Candace about Dehya",
-                "content_en": "Whenever Dehya brings any of her Eremites to stay at Aaru Village, she always keeps them on their very best behavior. I have to say, it makes my life a lot easier. Ah, Dehya... She might look like trouble at first, but the truth is that she's really quite adorable."
+                "content_en": "Whenever Dehya brings any of her Eremites to stay at Aaru Village, she always keeps them on their best behavior. I have to say, it makes my life a lot easier. Ah, Dehya... She might look like trouble at first, but the truth is that she's really quite adorable."
             },
             {
                 "target_zh": "赛索斯",
@@ -5651,6 +5739,22 @@
                 "target_en": "Kaeya",
                 "title_en": "Mika about Kaeya",
                 "content_en": "Before joining the Knights, I had to take a number of exams. Captain Kaeya was the main person in charge of all the testing. He was really supportive, and gave me all kinds of tips, but sometimes, I would struggle to understand what he was saying... I would get worried that I was not keeping up with his pace, and that I was letting him down..."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "米卡关于法尔伽·教诲",
+                "content_zh": "法尔伽大团长是万分可敬的强者，也是我在战斗方面的老师。他觉得我个子小，体力没优势，教导我「打架的理念要灵活」，「避免和敌人短兵相接」。所以，我才学着用长枪和手弩对付敌人，这样的战法的确更适合我。",
+                "target_en": "Varka",
+                "title_en": "Mika about Varka: Instruction",
+                "content_en": "Grand Master Varka is not only a strong leader who commands respect, but also my personal combat instructor. He taught me to think on my feet and avoid engaging enemies at close combat to make up for my small stature and relative lack of stamina. Following his advice, I learned how to fight with a polearm and crossbow, and I must say, this fighting style is far more suitable to me."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "米卡关于法尔伽·队长",
+                "content_zh": "大团长还说，我要树立更高的目标，不断磨练本领，我一直是这么想的，但直到远征期间，我才明白事情的严重性。有一天，我们遇见了自称「队长」的愚人众执行官。我完全没法想象，该怎么招架那样的对手。强者的境界，对我来说实在太遥远了。",
+                "target_en": "Varka",
+                "title_en": "Mika about Varka: The Captain",
+                "content_en": "The Grand Master said that I need to set higher goals for myself, and strive to achieve them. I've always had that kind of attitude, but it wasn't until I was on the expedition that I realized how serious things can become... One day, I met the Fatui Harbinger known as The Captain. I can't even begin to imagine how I can deal with an opponent like him. I just... Such powerful people are really on a level of their own, I'm not even remotely close..."
             },
             {
                 "target_zh": "琴",
@@ -8045,7 +8149,7 @@
                 "content_zh": "…哈，小妹，你转过来给我看看。嘶，这是《奥西兹小姐事件簿》啊，嗨，我还以为是《赫尔洛克》系列的女二号呢。枫丹的衣服在我看来都一样。行了，你继续吧，我没事了。",
                 "target_en": "Kamisato Ayaka",
                 "title_en": "Citlali about Kamisato Ayaka",
-                "content_en": "...You, young lady over there, turn around and let me have a look. Ah, so this is from The Case Files of Miss Orith. I thought it was the second female lead from Great Detective Herlock. All Fontaine clothes look the same to me. Alright, you can be on your way now. That's all I wanted to say."
+                "content_en": "...You, young lady over there, turn around and let me have a look. Ah, so this is from The Case Files of Miss Orith. I thought it was the second female lead from Great Detective Hurlock. All Fontaine clothes look the same to me. Alright, you can be on your way now. That's all I wanted to say."
             },
             {
                 "target_zh": "基尼奇",
@@ -8826,6 +8930,22 @@
                 "content_en": "Lauma is the Moonchanter of the Frostmoon Scions. Reviews by her people indicate that she is a wise and holy figure, well-respected in the community. The Frostmoon Scions worship the moon goddess... I wonder if there is any connection between the Moon Goddess and the existence of the Moon Wheel?"
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "伊涅芙关于法尔伽·印象",
+                "content_zh": "法尔伽，通称「大团长」。或许你已经在各种地方了解过他。收集人们对他的印象，你能得到「幽默」、「潇洒」、「酒量极佳」等关键词。但在重要的事情上，法尔伽一直是我们可靠的合作伙伴。这或许能解释他在骑士团内外的声望。",
+                "target_en": "Varka",
+                "title_en": "Ineffa about Varka: Impressions",
+                "content_en": "Varka is typically addressed as Grand Master. You may have heard about him from various sources in your journey so far. Most people's impressions of him can be summarized with the following key phrases: \"sense of humor,\" \"easygoing,\" and \"high alcohol tolerance.\" But I have found Varka to be a dependable ally when dealing with matters of great importance. I suspect this explains his stature within the Knights of Favonius."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "伊涅芙关于法尔伽·密码",
+                "content_zh": "我在临行前担心自己能不能达成使命，会不会忘记密码…但法尔伽依旧给予了我最高等级的信任。他曾说那是「最好的密码」…现在重新思考他当时的含义，或许他是在安慰我吗？又或是指…「值得信任的盟友，就是最好的密码」呢？",
+                "target_en": "Varka",
+                "title_en": "Ineffa about Varka: Code",
+                "content_en": "As I was preparing to leave Nod-Krai, I began to worry that I might forget the code, and thus fail to complete my task... But from the start, Varka had every confidence in me. He told me it was \"the most secure code\"... Thinking back now, I wonder whether he simply said that to comfort me? Or perhaps what he really meant was... \"An ally you can trust is the most secure code of all.\""
+            },
+            {
                 "target_zh": "希诺宁",
                 "title_zh": "伊涅芙关于希诺宁",
                 "content_zh": "从遗迹回归之后，希诺宁非常仔细地帮我做了检查，一切无恙。她笑着说起她和黑曜石奶奶曾经防备过我，还起过一点争执…我非常理解那是她身为技术人员必须履行的使命。这样的争执…很令人怀念。",
@@ -8891,6 +9011,14 @@
                 "content_en": "I didn't know much about her before we partnered up to infiltrate the Experimental Design Bureau — only that she worked for the Curatorium of Secrets as Nefer's trusted assistant. It can't be easy, being caught between Nefer on the one hand and all manner of clients on the other. I've always wished I could show her some proper Frostmoon Scions hospitality one day... Heh, I'm also a little curious to know what Nefer has said to her about me."
             },
             {
+                "target_zh": "法尔伽",
+                "title_zh": "菈乌玛关于法尔伽",
+                "content_zh": "虽然挪德卡莱一向人员混杂，但也很难见到比这位先生融入得更好的外乡人了。他待人接物时有一种天然的亲和力，是难能可贵的品质。记得第一次见面，他便向我称赞「霜月之子」分发餐品的美味…虽然我不记得自己曾给过他任何食物，但奇怪的是，我并不怀疑他的诚恳。",
+                "target_en": "Varka",
+                "title_en": "Lauma about Varka",
+                "content_en": "As cosmopolitan as Nod-Krai may be, it's rare to see an outsider integrate as readily as he has. There is a natural warmth to the way he treats people, which I highly admire. I remember the first time we met, he was full of praise for the Frostmoon Scions' delicious food... Oddly enough, I don't recall ever having shared any food with him, and yet I still believe he was being sincere."
+            },
+            {
                 "target_zh": "哥伦比娅",
                 "title_zh": "菈乌玛关于「库塔尔」",
                 "content_zh": "新生的神明无法从任何地方学到与信众共处的方法，过去的她一定很难过吧…\n为了能找到调和这种关系的办法，我对神明提出了近乎无礼的要求。虽然她声称自己的确更喜欢独处，但我总还是怀有一丝希望，希望有朝一日，「库塔尔」与「霜月之子」，明月与仰望明月的人，能够在同一片天空下共饮。",
@@ -8922,6 +9050,14 @@
                 "target_en": "Aino",
                 "title_en": "Flins about Aino",
                 "content_en": "I must confess that I do not deal well with machines. This, and not the age difference, is the biggest point of disparity between myself and Aino."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "菲林斯关于法尔伽",
+                "content_zh": "我肯定不可能与法尔伽先生比剑，要知道世界上可没有比北风更冰冷的剑锋了。金属的利器怎么配跟自然的怒号相提并论？应该说，若有朝一日能与这位老派的正统骑士过招，将是对我莫大的提拔。",
+                "target_en": "Varka",
+                "title_en": "Flins about Varka",
+                "content_en": "You shan't catch me crossing blades with Varka, there's simply no contest. No sword in the world has a sharper bite than the North Wind. Now, you might think that the allusion to one of the fiercest forces in nature's arsenal is pure hyperbole, but I tell you — he is a true knight, the likes of which are rarely seen in this day and age. If I ever have the chance to spar with him, it will be a sure sign that I am going up in the world."
             },
             {
                 "target_zh": "奈芙尔",
@@ -9003,6 +9139,14 @@
                 "target_en": "Nefer",
                 "title_en": "Aino about Nefer",
                 "content_en": "Nefer has a black cat called Ashru. I offered to install a translator so we could understand what Ashru is saying, but Nefer turned me down without even considering it. She said she already has plenty of information and doesn't need to hear what a cat has to say. Like, what!? Why so mean? Has she been hurt before, maybe by Lauma's translations?"
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "爱诺关于法尔伽",
+                "content_zh": "伊涅芙去找你们的那段时间，法尔伽大叔偶尔会来陪我玩哦。我想伊涅芙的时候，还被他看出来了，他拍了拍我的头安慰我。他的大手上都是厚厚的茧子，而且还重重的，但是也很温暖。",
+                "target_en": "Varka",
+                "title_en": "Aino about Varka",
+                "content_en": "Varka kept me company a lot while Ineffa was away looking for you guys. Sometimes, when he noticed that I was missing Ineffa, he'd come and pat me on the head and make me feel better. He has really big, heavy hands, and they're covered in calluses... But they still feel really warm."
             }
         ]
     },
@@ -9197,6 +9341,14 @@
                 "target_en": "Diona",
                 "title_en": "Durin about Diona",
                 "content_en": "In fairy tales, anyone who can mix potions that befuddle the heart and mind and command the obedience of cats is almost certainly a powerful witch."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "杜林关于法尔伽",
+                "content_zh": "法尔伽大团长跟蒙德城的许多骑士很不一样，他强大却不威严，有他在的场合会让人感到很放松，很有安全感。他是那种可以一边开玩笑一边跟狂猎战斗的骑士。虽然他讲的十个笑话里有七个我听不太懂。另外三个？也许是因为他酒喝多了，我听不太清…",
+                "target_en": "Varka",
+                "title_en": "Durin about Varka",
+                "content_en": "Grand Master Varka is different from most of Mondstadt's knights. He's powerful but not imposing — he leaves people feeling calm and safe. He's the sort of knight who can crack a joke while fighting off the Wild Hunt — although most of his jokes go way over my horns... You want to know about ones I did understand? Well, I didn't hear them clearly either, probably because he often slurs his words after drinking..."
             }
         ]
     },
@@ -9246,6 +9398,14 @@
                 "target_en": "Flins",
                 "title_en": "Jahoda about Flins",
                 "content_en": "I've heard Nef talk about how the Lightkeepers are a really old organization, chock full of powerful, smart people who know tons of ancient secrets. Say... You think Flins has any leads on ancient treasures? Or maybe some untouched old ruins? Uh, I'm just thinking out loud here, I'd never actually ask! Otherwise, Nef'd chew me out again."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "雅珂达关于法尔伽",
+                "content_zh": "你说法尔伽大叔啊，他倒是和我说过自己是西风骑士团大团长…但是根本看不出来嘛，骑士团团长不应该是那种很认真，看着就很可靠的人么？啊！我可没有说法尔伽大叔不可靠的意思啊。不过，西风骑士团的大团长在这里，那留在蒙德的骑士们又归谁管呢…欸？一个很认真，看着就很可靠的人，哈哈…西风骑士团，真是复杂啊…",
+                "target_en": "Varka",
+                "title_en": "Jahoda about Varka",
+                "content_en": "Ohh, Varka? Yeah, he told me he was the Grand Master of the Knights of Favonius, but seriously, he sure doesn't seem like it. Shouldn't a Grand Master be all serious and dependable-looking? Uh, not trying to say he's not responsible! It's just... If the Grand Master of the Knights of Favonius is here, then who's back in Mondstadt actually managing the Knights...? Eh? Someone serious and dependable-looking? Well, okay, haha... The Knights of Favonius sure are something..."
             },
             {
                 "target_zh": "哥伦比娅",
@@ -9384,6 +9544,167 @@
                 "target_en": "Hu Tao",
                 "title_en": "Zibai about Hu Tao",
                 "content_en": "I am well apprised of Director Hu's heroic act — facing death alone to protect the lives of others... Her courage and determination make her a worthy successor to the Wuwang Kid's legacy. It is most fortunate indeed that, thanks to your help, Director Hu did not end up like the Lone Butterfly of the Crimson Flame... Ahem, never mind that. No sense dwelling on what is past and gone."
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name_zh": "法尔伽",
+        "name_en": "Varka",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/162783/422d8dc0745db889efabea29390fd3d8_2380182087633455267.png",
+        "ver": "6.4.1",
+        "lines": [
+            {
+                "target_zh": "温迪",
+                "title_zh": "法尔伽关于温迪",
+                "content_zh": "巴巴托斯啊，虽然平时看起来自由又随性，但做起正事来可比谁都正经。还有他对酒的品味我也很赞同，不愧是我们蒙德的神明！…嗯？你说这些评价听起来像在说我自己？哈哈，不敢当不敢当，我怎么可能跟风神大人相提并论呢！",
+                "target_en": "Venti",
+                "title_en": "Varka about Venti",
+                "content_en": "Barbatos? He may seem carefree and easy-breezy at first glance, but when things get serious, so does he. And I've gotta give him credit, the man's got taste when it comes to drinking — truly a god worthy of Mondstadt! ...Hmm? Sounds like I'm talking about myself...? Hahahaha, you flatter me! I'm nothing next to the Anemo Archon himself!"
+            },
+            {
+                "target_zh": "雷泽",
+                "title_zh": "法尔伽关于雷泽",
+                "content_zh": "以前刚见到雷泽的时候，他大概只比奔狼领的幼狼高出半个头，光是举起大剑就费劲。不过比练剑更费劲的，还是怎么陪他说话，我大概花了半年时间才掌握跟他沟通的技巧。他现在都已经交上那么多朋友了…时间过得真快呀。",
+                "target_en": "Razor",
+                "title_en": "Varka about Razor",
+                "content_en": "Back when I first met Razor, he was only a few inches taller than the wolf pups of Wolvendom. Heh, he could barely lift a greatsword! But even then, teaching him how to use it was easier than learning how to talk with him. Must've taken me at least half a year to get the hang of it. All these years later, and he's made so many friends of his own... How time flies."
+            },
+            {
+                "target_zh": "罗莎莉亚",
+                "title_zh": "法尔伽关于罗莎莉亚",
+                "content_zh": "嗯…为了避免事后被她嫌多嘴，我还是保持沉默吧。她的那种眼神还是挺有寒意的。有什么想了解的，可以直接去问她。我想她现在…应该已经愿意跟你们谈及往事了。",
+                "target_en": "Rosaria",
+                "title_en": "Varka about Rosaria",
+                "content_en": "Uh... I'll keep my lips sealed where she's concerned. Don't wanna get scolded for being a blabbermouth. There's ice in that glare of hers... If there's anything you wanna know, you're better off asking her yourself. I think that by now... she should be ready to talk about the past with you."
+            },
+            {
+                "target_zh": "迪卢克",
+                "title_zh": "法尔伽关于迪卢克",
+                "content_zh": "所以，他还是不愿意回骑士团吗？哈哈，那就随他去吧，蒙德的风一直是来去自由的。他有不回来的自由，我也有接着劝的自由。不过嘛，也得控制下程度，要是啰嗦过了头，他不让晨曦酒庄卖酒给我了怎么办？那可是天大的危机啊！",
+                "target_en": "Diluc",
+                "title_en": "Varka about Diluc",
+                "content_en": "So, he still won't return to the Knights? Haha, fair enough — the wind in Mondstadt has always been free to come and go as it pleases. He has the freedom to not come back, and by the same token, I have the freedom to keep pestering him to rejoin. Still, I probably shouldn't push my luck... If I nag him too much, he could put me on Dawn Winery's blacklist. Now that would be a real crisis!"
+            },
+            {
+                "target_zh": "凯亚",
+                "title_zh": "法尔伽关于凯亚",
+                "content_zh": "我很清楚克利普斯先生在凯亚心里的分量，他在那场变故中遭受的打击绝不亚于他的义兄。但即使遭逢不公，兄弟阋墙…他依旧决定留在骑士团内。后来揪出伊洛克的时候，他也出了很大的力。既然他选择信任我们，那我也会选择信任他——无论他身负着怎样的过去。",
+                "target_en": "Kaeya",
+                "title_en": "Varka about Kaeya",
+                "content_en": "I know how much Master Crepus meant to Kaeya. That tragic incident was no less devastating for him than for his adoptive brother. But even after enduring such injustice and fraternal strife... he still chose to remain with the Knights. Ended up playing a key role in exposing Eroch's corruption, too. Since he chose to trust us, I also choose to trust him, no matter what lies in his past."
+            },
+            {
+                "target_zh": "琴",
+                "title_zh": "法尔伽关于琴",
+                "content_zh": "我其实一直觉得琴在才干和心性上都比我更能胜任「大团长」这个职位，可惜我再怎么费尽口舌，她都自谦资历尚浅——明明我当初上任的时候也没多大啊！荣誉骑士，你要是有机会，能不能也帮我多劝劝她…嗯？想彻底把工作都推给琴？我绝对没有这么想过哦！真的没有！对着酒发誓？呃，这是否有些太严格了…",
+                "target_en": "Jean",
+                "title_en": "Varka about Jean",
+                "content_en": "Y'know, I've always felt that Jean's got the talent and temperament to be a way better Grand Master than I am. But no matter how hard I try to convince her, she always insists that she's not qualified enough. Heh, her and me both! I was pretty young myself when I took up the mantle. Honorary Knight, if you get the chance, could you try talking her round... Hmm? You think I'm trying to dump all my work onto Jean? Absolutely not, perish the thought, I would never! Really! ...Swear on a glass of wine? Uh, there's no need for that, is there...?"
+            },
+            {
+                "target_zh": "诺艾尔",
+                "title_zh": "法尔伽关于诺艾尔",
+                "content_zh": "那孩子在力量上的天赋连我都很惊讶，听说她现在也在向琴学习单手剑的技巧，不知道等她把双手剑跟单手剑都融会贯通之后，有没有机会继承我的…嗯？你说她上次把单手剑丢上了天花板？好吧…看来还得再给她安排些训练。",
+                "target_en": "Noelle",
+                "title_en": "Varka about Noelle",
+                "content_en": "Even I was surprised by her innate strength. I heard she's learning the sword from Jean now. After she's mastered both single- and two-handed sword styles, I wonder if she might be able to inherit my... Huh? She chucked her sword straight up into the ceiling last time? Alright then... Guess we need to schedule a few more training sessions for her."
+            },
+            {
+                "target_zh": "米卡",
+                "title_zh": "法尔伽关于米卡",
+                "content_zh": "人生迷茫的时候得靠导师引路，行军迷茫的时候要靠地图引路——照这个说法，说他是我的导师也不为过吧，哈哈哈！——可惜我上次跟米卡开这玩笑的时候，他的脸刷一下就白了…其实他完全可以再自信一些吧？可不是谁都能成为骑士的啊！",
+                "target_en": "Mika",
+                "title_en": "Varka about Mika",
+                "content_en": "When you're lost in life, you need a mentor to guide you, and when you're lost on a march, you need a map. By that logic, you could say Mika's my mentor, haha! ...I tried telling that joke to Mika, but uh, he went pale as a sheet... Honestly, he should have more confidence in himself. After all, not everyone could be a knight!"
+            },
+            {
+                "target_zh": "优菈",
+                "title_zh": "法尔伽关于优菈",
+                "content_zh": "本来我还在计划，派人去荆夫港接应部队的事，优菈告诉我她已经安排好了。我看了调度，十分得当。没想到她心思那么缜密，而且这回连嘴上的别扭都没闹。哈哈，没什么比看到骑士们的成长更让人高兴的了。",
+                "target_en": "Eula",
+                "title_en": "Varka about Eula",
+                "content_en": "I'd been planning to send someone to Dornman Port to receive the troops, but Eula told me she had already arranged it. I reviewed the schedule, and everything was handled perfectly. I hadn't expected her to be so thorough, and this time she never mentioned vengeance even once. Haha, nothing makes me happier than seeing our knights grow."
+            },
+            {
+                "target_zh": "安柏",
+                "title_zh": "法尔伽关于安柏",
+                "content_zh": "那孩子很热情吧？作为侦察骑士兼飞行冠军，她经常活跃在蒙德郊野，帮助有需要的人。很多来蒙德的客人头一个遇到的西风骑士就是她，都快成为我们的门面了。嗯？你说她也是你在蒙德遇见的第一位骑士？哈哈，不愧是她！",
+                "target_en": "Amber",
+                "title_en": "Varka about Amber",
+                "content_en": "She's a ball of energy, isn't she? As our Outrider and Gliding Champion, she's usually active around the outskirts of Mondstadt, helping those in need. She's the first Knight of Favonius most visitors will meet, meaning she's practically the public face of the organization. Hmm? She was the first Knight you met, too? Haha, that's our Amber!"
+            },
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "法尔伽关于阿贝多",
+                "content_zh": "阿贝多刚来蒙德的时候，我就觉得这孩子哪里都好，完美得就像「别人家的孩子」，又谦逊又得体…不过换个词就是又拘束又谨慎。我倒是希望他能更自由自在一点？毕竟这儿也不是什么「别人家」嘛。还好，现在他都会揶揄我的画技了，哈哈！",
+                "target_en": "Albedo",
+                "title_en": "Varka about Albedo",
+                "content_en": "When Albedo first arrived in Mondstadt, he struck me as one of those model kids that all parents wish their own children were more like. So modest, so well-mannered... But to put it another way, he seemed quite reserved and cautious. I was hoping he'd learn to loosen up a bit. After all, how can you call yourself the City of Freedom if people aren't comfortable just being themselves? Well, I may have gotten more than I bargained for, 'cause these days he'll even rib me about my painting skills! Hahahaha!"
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "法尔伽关于杜林",
+                "content_zh": "说句实话，当初从报告里听说「杜林」要出世的时候，我的心脏都漏跳了半拍，当时就想调兵回守蒙德…好在此「杜林」非彼「杜林」，蒙德昔日最大的隐患之一，如今却成了我们最值得信赖的助力…命运还真是反复无常啊。",
+                "target_en": "Durin",
+                "title_en": "Varka about Durin",
+                "content_en": "I'm not gonna lie, when I first got reports about Durin's resurgence, my heart skipped a beat. I was about to send a crack team back home to defend Mondstadt... Thankfully, the new Durin is nothing like the old Durin, and what was once one of the greatest threats to Mondstadt is now one of our most reliable allies... Fate sure is an unpredictable force, huh? You never know which way the wind will blow next."
+            },
+            {
+                "target_zh": "可莉",
+                "title_zh": "法尔伽关于可莉",
+                "content_zh": "「火花骑士」逃出禁闭室的功夫是不是越来越熟练了？看来她有在好好研习我留下的经验教训…该反过来向她学习了吗…啊，不，没什么，我说的是画画技巧。另外，你不会告诉琴跟阿贝多的吧？嗯…艾莉丝女士也不要，谢谢。",
+                "target_en": "Klee",
+                "title_en": "Varka about Klee",
+                "content_en": "Our Spark Knight is getting better and better at escaping the solitary confinement room, isn't she? Seems like she's been taking my \"teachings\" to heart. Maybe I could even learn a thing or two from her... Uh, I mean, uhh... Y'know, forget I said that! I was talking about, uh... painting techniques, yeah. *sigh* You're not gonna tell Jean or Albedo about this, are you? Um... Oh, please don't tell Alice, either. Thanks."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "法尔伽关于爱诺",
+                "content_zh": "刚遇到爱诺的时候我一度很担心，这么小的孩子要怎么一个人在挪德卡莱长大…后来我才意识到自己错了，她并非独自一人，也无需任何人的担心。每个孩子都会以自己的方式成长，强行套用自己的观念去担心他们，反而不是什么好事吧。",
+                "target_en": "Aino",
+                "title_en": "Varka about Aino",
+                "content_en": "When I first met Aino, I was worried about her. Didn't seem right for such a young child to grow up on her own in Nod-Krai... Only later did I realize I had it all wrong. She's not alone, and she definitely doesn't need anyone to worry about her. Every child finds their own way to grow up, and worrying about them because of our preconceived ideas won't do them any good."
+            },
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "法尔伽关于伊涅芙",
+                "content_zh": "当初请她去给你们送信的时候，我还真没想到她的来路有这么多曲折。生于囹圄之中的灵魂，最终超越诅咒拥抱「自由」…这事如果传到蒙德，绝对能编成一首壮丽的史诗！「温妮莎」也好，「花羽会」也好…打碎锁链追求「自由」的故事，总能让人热血沸腾啊。",
+                "target_en": "Ineffa",
+                "title_en": "Varka about Ineffa",
+                "content_en": "When I asked her to deliver that letter to you, I had no idea about everything she'd been through. A soul born in captivity, who ultimately surmounted her curse and secured her freedom... I'm telling you, when her story reaches Mondstadt, it'll go down as one of the great epics! Whether it's Lady Vennessa or the Flower-Feather Clan, people are always inspired by tales of breaking free of your shackles in pursuit of freedom."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "法尔伽关于菲林斯",
+                "content_zh": "经常有人把「骑士精神」跟「贵族精神」混同，要是放在以前，凭旧蒙德那帮家伙的作风，我怎么都得反驳几句…不过要是「贵族」们都能像菲林斯先生一样，哈哈，那我们还是能坐在同一张长桌旁开怀畅饮的。",
+                "target_en": "Flins",
+                "title_en": "Varka about Flins",
+                "content_en": "People often confuse chivalry with the aristocratic code. Now, given how the aristocracy of Old Mondstadt conducted themselves, there was a time when I wouldn't have let ideas like that slide... But if all aristocrats were like Flins? Haha, I'd be happy to share a drink with them any day of the week!"
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "法尔伽关于奈芙尔",
+                "content_zh": "在远征军抵达挪德卡莱之后，「北大陆情报网」帮了我们许多，未来我也打算继续维持这良好的合作关系…我都为自己想好代号了，就叫「天狼」，怎么样？很帅吧？",
+                "target_en": "Nefer",
+                "title_en": "Varka about Nefer",
+                "content_en": "The Northern Intelligence Network was a great help to our expeditionary force when we arrived in Nod-Krai. I intend to maintain our fruitful collaboration going forward — even thought of a codename for myself: \"Lupus Majoris\"! Huh? Pretty cool, right?"
+            },
+            {
+                "target_zh": "雅珂达",
+                "title_zh": "法尔伽关于雅珂达",
+                "content_zh": "虽然嘴上总在抱怨，但她干起活来真不是一般的麻利，不愧是从鱼龙混杂的挪德卡莱脱颖而出的宝藏猎人，我都想招她进骑士团了！可惜，那就得从她老板手里挖人了，而且…恐怕她自己也不会想要跳槽吧，哈哈，原来还想给她开两倍薪资呢，还是别问了吧。",
+                "target_en": "Jahoda",
+                "title_en": "Varka about Jahoda",
+                "content_en": "She may gripe a lot, but once she gets to work, she's ruthlessly efficient. You know someone's got true grit when they can make a name for themselves as treasure hunter in a rough-and-tumble place like Nod-Krai! I've half a mind to recruit her to the Knights, but that would mean poaching her from her current boss, and... she probably wouldn't want to switch jobs anyway. Haha, I was even thinking of offering to double her pay, but it's probably better not to ask."
+            },
+            {
+                "target_zh": "玛薇卡",
+                "title_zh": "法尔伽关于玛薇卡",
+                "content_zh": "无论是作为人，还是作为神，那位火神都是一位令人敬佩的战士。要是能生在纳塔，不知道有没有机会跟还是人类时的她过上两手…不过生在纳塔不就守护不了蒙德了吗？不行不行…唉，果然还是算了。",
+                "target_en": "Mavuika",
+                "title_en": "Varka about Mavuika",
+                "content_en": "Whether as a human or as a god, the Pyro Archon is a formidable warrior worthy of respect. If I'd been born in Natlan, I wonder if I'd have had the chance to cross blades with her while she was still human... Hmm, but then I wouldn't be able to protect Mondstadt, would I? No, that wouldn't do... *sigh* I suppose it's just as well."
             }
         ]
     }
