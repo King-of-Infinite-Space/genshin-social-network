@@ -221,7 +221,7 @@ def calc_ver():
     return ".".join(v)
 
 
-def find_new_chars(official_dict, data_prev):
+def find_new_chars(official_dict: dict, data_prev: dict) -> list[str]:
     """
     get new chars from official dict
     """
@@ -230,7 +230,7 @@ def find_new_chars(official_dict, data_prev):
     count_old = len(data_prev)
     if count_total <= count_old:
         return []
-    char_names_new = char_names[: count_total - count_old]
+    char_names_new = [char for char in char_names if char not in data_prev]
     return char_names_new
 
 
