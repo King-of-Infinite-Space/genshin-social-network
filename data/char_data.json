@@ -1516,6 +1516,14 @@
                 "target_en": "Xianyun",
                 "title_en": "Ningguang about Xianyun",
                 "content_en": "#I plan to have Lady Xianyun over for a casual conversation over tea in a few days. I happen to have in my possession a number of mechanical devices, and I would be most interested to hear her insights on their design and use. It would also be a fine opportunity to hear about her experiences as an adeptus adapting to a new life in Liyue Harbor. All I require now is a suitable candidate to deliver the invitation to her on my behalf... Would you be interested, {NICKNAME}?"
+            },
+            {
+                "target_zh": "兹白",
+                "title_zh": "凝光关于白马仙人",
+                "content_zh": "没想到，如今的璃月港里竟然又添了一位新仙人。好在这位白马仙人喜爱云游，不常在璃月港居住，不然真要应了夜兰那句打趣的话了…她说什么？呵呵，她说：「都说仙人最喜欢清净，我看璃月的仙人，还是最喜欢璃月啊…」",
+                "target_en": "Zibai",
+                "title_en": "Ningguang about the White Horse Adeptus",
+                "content_en": "I was surprised when I learned that a new adeptus had joined the ranks. The White Horse Adeptus... It's a good thing she prefers to spend her time traveling, or I'd have to accept the truth behind Yelan's favorite adepti quip. ...You want to hear it? Heh, okay. I quote: \"Everyone says that the adepti want peace and tranquility, but I think they just like hanging around Liyue...\""
             }
         ]
     },
@@ -2300,6 +2308,14 @@
                 "target_en": "Mavuika",
                 "title_en": "Zhongli about Haborym",
                 "content_en": "Natlan's long history of struggle fueled its warriors to overcome the Abyss and transcend fate to forge a new future. Behind this triumph stands a leader who wields both time and history as her weapons, with a level of strength that rivals the gods. She is impressive indeed."
+            },
+            {
+                "target_zh": "兹白",
+                "title_zh": "钟离关于白马仙人",
+                "content_zh": "白马，白马…这位仙人，其实也是我许久未见的一位故人。只可叹，春夜短，秋日速，隙过驹，风过烛。",
+                "target_en": "Zibai",
+                "title_en": "Zhongli about the White Horse Adeptus",
+                "content_en": "The white horse... An old acquaintance, and one I haven't met in a very long time... One laments spring nights, how short they last, and autumn days that quickly pass. A steed that bolts and swiftly flees, a candle shivering in the breeze."
             }
         ]
     },
@@ -9556,6 +9572,71 @@
         ]
     },
     {
+        "id": 110,
+        "name_zh": "叶洛亚",
+        "name_en": "Illuga",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163024/e3115d7070b944ac8770383f18d0a3f6_3508434476340664465.png",
+        "ver": "6.3.2",
+        "lines": [
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "叶洛亚关于菲林斯·拜访",
+                "content_zh": "刚认识菲林斯先生的时候，还以为他是不善交际或者性格乖僻才选择离群索居的呢，但没过多久，我就发现事情与我想的恰恰相反…不过每次我们聊天，他总是在故事最后加入些吊胃口的情节，我在想，这是不是因为…他其实欢迎我多去拜访呢？",
+                "target_en": "Flins",
+                "title_en": "Illuga about Flins: Drop-Ins",
+                "content_en": "When I first met Mr. Flins, I assumed that the reason he lived alone was either because he didn't like being around people, or that he was just a little... eccentric. Turns out that the complete opposite is true — well, at least in terms of his social appetite. Only thing is, every time we talk, he always seems to end his stories on a cliffhanger... Sometimes, I wonder if that's his way of making sure I'll come back to hear the rest."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "叶洛亚关于菲林斯·秘密",
+                "content_zh": "你是说菲林斯先生身上藏着许多秘密？当然，这在执灯士当中并不稀奇。我的同僚们出身各不相同，谁能没有几个不想告诉别人的秘密呢？就连老爹也很少向我提及他年轻时的往事。至于菲林斯先生嘛…最近发生了那么多事，好歹也是朋友，他的秘密我多少能猜到一点点。我试着求证过，他既没有否认，也没有承认，可能那也是一种表态。",
+                "target_en": "Flins",
+                "title_en": "Illuga about Flins: Secrets",
+                "content_en": "You're saying there's a lot more to Mr. Flins than meets the eye? Hah... Well, that's hardly unusual for a Ratnik. We're all from different walks of life, so who doesn't have a few things they'd rather keep to themselves? Even my old pops rarely talks about his past. As for Mr. Flins... well, I've certainly got to know him a lot better, and after everything that's been going on lately, I've got a rough idea of what he might be hiding. I actually asked about it once, but he neither confirmed nor denied my suspicions. In a way, I guess that's an answer in itself."
+            },
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "叶洛亚关于菈乌玛",
+                "content_zh": "自铸灯者的时代开始，我们与霜月之子就保持着传统的友谊。这一代的咏月使是位温柔又和善的小姐，每次拜访我都能从她那里学到很多。以如今这个世道，当咏月使不会比做执灯人轻松。她能始终保持这种态度，想必也承受了许多吧。",
+                "target_en": "Lauma",
+                "title_en": "Illuga about Lauma",
+                "content_en": "Our friendship with the Frostmoon Scions goes all the way back to the days of the Torchforger himself. Truth is, though, even if it didn't, I'd still have nothing but admiration for the current Moonchanter. She's kind, gentle, and I end up learning something new every time I visit. In times like these, her job can't be any easier than ours — yet somehow, she always manages to stay so serene. I'd bet that she's been shouldering a lot more than she lets on."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "叶洛亚关于法尔伽",
+                "content_zh": "法尔伽先生是位了不起的战士，我们曾并肩对抗过狂猎。听说西风骑士团也和我们执灯人一样，是为了守护家园而建立的组织。或许有一天，等挪德卡莱的狂猎都被消灭干净了，我们也能远赴异域，为更多生活在苦难中的人们而战。",
+                "target_en": "Varka",
+                "title_en": "Illuga about Varka",
+                "content_en": "I've fought side-by-side with Mr. Varka against the Wild Hunt, and I can tell you this — his fighting skills are up there with the best of them. I've heard that the Knights of Favonius were founded to defend their homeland, just like us Lightkeepers. I hope that someday, once we've finally driven the Wild Hunt from Nod-Krai, we'll be able to travel beyond these lands and fight for those living in hardship elsewhere as well."
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "叶洛亚关于奈芙尔",
+                "content_zh": "多亏了秘闻馆的关照，我们在那夏镇的行动才会如此方便，以前可不是这样的。据说在奈芙尔小姐来到挪德卡莱之前，执灯士们和那些不守规矩的帮派分子经常发生冲突，老爷子还一度为此苦恼…现在真是好多了呢。不过，奈芙尔小姐也和菲林斯先生一样爱拿我寻开心，也让我有些苦恼就是了。",
+                "target_en": "Nefer",
+                "title_en": "Illuga about Nefer",
+                "content_en": "Our operations in Nasha Town have become way smoother in recent times, and it's mostly thanks to the Curatorium of Secrets. It sure wasn't like this before, I'll tell you that. Before Miss Nefer arrived on the scene, it was like we were locked in a constant battle with the town's gangs, and it used to worry my old pops sick. Things have improved immensely since then, though. That said, Miss Nefer seems to love teasing me just as much as Mr. Flins does... and I have to admit, that can be a bit of a headache sometimes."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "叶洛亚关于爱诺",
+                "content_zh": "我们执灯人维修复杂机关，一般都会请爱诺小姐来帮忙，不过她看起来好像是真的想教会我们…自从有一次，我被她看到在自己修理机关之后，她就大吵着怎么说也要拉我去上课…嗯？你问我是怎么修的？那我当然是跟老爹学的，机关不灵，只要用力敲两下就好了，谁知道她会这么生气…",
+                "target_en": "Aino",
+                "title_en": "Illuga about Aino",
+                "content_en": "Whenever the Lightkeepers need help fixing complex machinery, we tend to ask for Miss Aino's assistance. She really seems determined to teach us how to do it ourselves, though. Ever since she caught me trying to repair something on my own, she's been constantly insisting that I attend her classes... How exactly was I trying to fix it, you ask? Hah, well, if you must know, it was a trick I learned from my old pops. As he likes to put it, \"if something's not working, just whack it a few times!\" To my shock, that set her off something fierce..."
+            },
+            {
+                "target_zh": "哥伦比娅",
+                "title_zh": "叶洛亚关于「月神」",
+                "content_zh": "挪德卡莱是「人」的乐园，这条道路是由数百年来无数执灯士的血与骨所铺就的。就算如今迎来了一位新的神明，属于挪德卡莱的生存方式也不会因此而改变吧。不是不相信那位「月神」小姐…只是我觉得，比起等待别人来拯救，还是拥有能主动保护身边人的力量更安心。",
+                "target_en": "Columbina",
+                "title_en": "Illuga about the Moon Goddess",
+                "content_en": "Nod-Krai is an \"elysium\" built by human hands, a dream kept alive over the centuries by the blood and sacrifice of countless generations of Lightkeepers. There might be a new deity in town, but I don't think our way of life will suddenly change because of that. It's not that I doubt the Moon Goddess herself — far from it. I just believe that... rather than waiting for someone else to save us, we'd do better to rely on our own strength."
+            }
+        ]
+    },
+    {
         "id": 111,
         "name_zh": "法尔伽",
         "name_en": "Varka",
@@ -9713,63 +9794,6 @@
                 "target_en": "Mavuika",
                 "title_en": "Varka about Mavuika",
                 "content_en": "Whether as a human or as a god, the Pyro Archon is a formidable warrior worthy of respect. If I'd been born in Natlan, I wonder if I'd have had the chance to cross blades with her while she was still human... Hmm, but then I wouldn't be able to protect Mondstadt, would I? No, that wouldn't do... *sigh* I suppose it's just as well."
-            }
-        ]
-    },
-    {
-        "id": 110,
-        "name_zh": "叶洛亚",
-        "name_en": "Illuga",
-        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163024/e3115d7070b944ac8770383f18d0a3f6_3508434476340664465.png",
-        "ver": "6.4.1",
-        "lines": [
-            {
-                "target_zh": "菲林斯",
-                "title_zh": "叶洛亚关于菲林斯·拜访",
-                "content_zh": "刚认识菲林斯先生的时候，还以为他是不善交际或者性格乖僻才选择离群索居的呢，但没过多久，我就发现事情与我想的恰恰相反…不过每次我们聊天，他总是在故事最后加入些吊胃口的情节，我在想，这是不是因为…他其实欢迎我多去拜访呢？",
-                "target_en": "Flins",
-                "title_en": "Illuga about Flins: Drop-Ins",
-                "content_en": "When I first met Mr. Flins, I assumed that the reason he lived alone was either because he didn't like being around people, or that he was just a little... eccentric. Turns out that the complete opposite is true — well, at least in terms of his social appetite. Only thing is, every time we talk, he always seems to end his stories on a cliffhanger... Sometimes, I wonder if that's his way of making sure I'll come back to hear the rest."
-            },
-            {
-                "target_zh": "菲林斯",
-                "title_zh": "叶洛亚关于菲林斯·秘密",
-                "content_zh": "你是说菲林斯先生身上藏着许多秘密？当然，这在执灯士当中并不稀奇。我的同僚们出身各不相同，谁能没有几个不想告诉别人的秘密呢？就连老爹也很少向我提及他年轻时的往事。至于菲林斯先生嘛…最近发生了那么多事，好歹也是朋友，他的秘密我多少能猜到一点点。我试着求证过，他既没有否认，也没有承认，可能那也是一种表态。",
-                "target_en": "Flins",
-                "title_en": "Illuga about Flins: Secrets",
-                "content_en": "You're saying there's a lot more to Mr. Flins than meets the eye? Hah... Well, that's hardly unusual for a Ratnik. We're all from different walks of life, so who doesn't have a few things they'd rather keep to themselves? Even my old pops rarely talks about his past. As for Mr. Flins... well, I've certainly got to know him a lot better, and after everything that's been going on lately, I've got a rough idea of what he might be hiding. I actually asked about it once, but he neither confirmed nor denied my suspicions. In a way, I guess that's an answer in itself."
-            },
-            {
-                "target_zh": "菈乌玛",
-                "title_zh": "叶洛亚关于菈乌玛",
-                "content_zh": "自铸灯者的时代开始，我们与霜月之子就保持着传统的友谊。这一代的咏月使是位温柔又和善的小姐，每次拜访我都能从她那里学到很多。以如今这个世道，当咏月使不会比做执灯人轻松。她能始终保持这种态度，想必也承受了许多吧。",
-                "target_en": "Lauma",
-                "title_en": "Illuga about Lauma",
-                "content_en": "Our friendship with the Frostmoon Scions goes all the way back to the days of the Torchforger himself. Truth is, though, even if it didn't, I'd still have nothing but admiration for the current Moonchanter. She's kind, gentle, and I end up learning something new every time I visit. In times like these, her job can't be any easier than ours — yet somehow, she always manages to stay so serene. I'd bet that she's been shouldering a lot more than she lets on."
-            },
-            {
-                "target_zh": "法尔伽",
-                "title_zh": "叶洛亚关于法尔伽",
-                "content_zh": "法尔伽先生是位了不起的战士，我们曾并肩对抗过狂猎。听说西风骑士团也和我们执灯人一样，是为了守护家园而建立的组织。或许有一天，等挪德卡莱的狂猎都被消灭干净了，我们也能远赴异域，为更多生活在苦难中的人们而战。",
-                "target_en": "Varka",
-                "title_en": "Illuga about Varka",
-                "content_en": "I've fought side-by-side with Mr. Varka against the Wild Hunt, and I can tell you this — his fighting skills are up there with the best of them. I've heard that the Knights of Favonius were founded to defend their homeland, just like us Lightkeepers. I hope that someday, once we've finally driven the Wild Hunt from Nod-Krai, we'll be able to travel beyond these lands and fight for those living in hardship elsewhere as well."
-            },
-            {
-                "target_zh": "奈芙尔",
-                "title_zh": "叶洛亚关于奈芙尔",
-                "content_zh": "多亏了秘闻馆的关照，我们在那夏镇的行动才会如此方便，以前可不是这样的。据说在奈芙尔小姐来到挪德卡莱之前，执灯士们和那些不守规矩的帮派分子经常发生冲突，老爷子还一度为此苦恼…现在真是好多了呢。不过，奈芙尔小姐也和菲林斯先生一样爱拿我寻开心，也让我有些苦恼就是了。",
-                "target_en": "Nefer",
-                "title_en": "Illuga about Nefer",
-                "content_en": "Our operations in Nasha Town have become way smoother in recent times, and it's mostly thanks to the Curatorium of Secrets. It sure wasn't like this before, I'll tell you that. Before Miss Nefer arrived on the scene, it was like we were locked in a constant battle with the town's gangs, and it used to worry my old pops sick. Things have improved immensely since then, though. That said, Miss Nefer seems to love teasing me just as much as Mr. Flins does... and I have to admit, that can be a bit of a headache sometimes."
-            },
-            {
-                "target_zh": "爱诺",
-                "title_zh": "叶洛亚关于爱诺",
-                "content_zh": "我们执灯人维修复杂机关，一般都会请爱诺小姐来帮忙，不过她看起来好像是真的想教会我们…自从有一次，我被她看到在自己修理机关之后，她就大吵着怎么说也要拉我去上课…嗯？你问我是怎么修的？那我当然是跟老爹学的，机关不灵，只要用力敲两下就好了，谁知道她会这么生气…",
-                "target_en": "Aino",
-                "title_en": "Illuga about Aino",
-                "content_en": "Whenever the Lightkeepers need help fixing complex machinery, we tend to ask for Miss Aino's assistance. She really seems determined to teach us how to do it ourselves, though. Ever since she caught me trying to repair something on my own, she's been constantly insisting that I attend her classes... How exactly was I trying to fix it, you ask? Hah, well, if you must know, it was a trick I learned from my old pops. As he likes to put it, \"if something's not working, just whack it a few times!\" To my shock, that set her off something fierce..."
             }
         ]
     }

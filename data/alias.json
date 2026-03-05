@@ -1,8 +1,12 @@
 {
+    "兹白": {
+        "alias_zh": ["白马仙人"],
+        "alias_en": ["the White Horse Adeptus"]
+    },
     "哥伦比娅": {
-        "alias_zh": ["「少女」", "「库塔尔」"],
-        "alias_en": ["Damselette", "Kuutar"],
-        "_comment": ["", "菈乌玛"]
+        "alias_zh": ["「少女」", "「库塔尔」", "「月神」"],
+        "alias_en": ["Damselette", "Kuutar", "the Moon Goddess"],
+        "_comment": ["", "菈乌玛", "叶洛亚"]
     },
     "玛薇卡": {
         "alias_zh": ["赫布里穆","火之神","火神大人"],
