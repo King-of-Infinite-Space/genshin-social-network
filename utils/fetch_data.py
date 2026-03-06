@@ -4,13 +4,16 @@ import json
 import subprocess
 import os
 import traceback
+import argparse
 from datetime import datetime
 
 from prepare_data import download_data, prepare_data
+# ... (rest of imports)
 from notion_db import update_remote_table
 from download_images import download_images
 
 DATA_FILE = "data/char_data.json"
+# ... (rest of constants and functions)
 DATA_FILE_MIN = "data/char_data_min.json"
 ALIAS_FILE = "data/alias.json"
 # %%
@@ -234,7 +237,7 @@ def find_new_chars(official_dict: dict, data_prev: dict) -> list[str]:
     return char_names_new
 
 
-def main():
+def main(refresh: bool = False):
     with open(DATA_FILE, "r", encoding="utf8") as f:
         data_prev = json.load(f)
     prev_dict = {char["name_zh"]: char for char in data_prev}
@@ -246,10 +249,14 @@ def main():
     official_dict = fetch_char_official()
 
     new_names = find_new_chars(official_dict, prev_dict)
-    if not new_names:
+    if not new_names and not refresh:
         print("No new chars found")
         return
-    print(f"  New char {' '.join(new_names)}")
+    
+    if new_names:
+        print(f"  New char {' '.join(new_names)}")
+    elif refresh:
+        print("  Refreshing lines for existing characters")
 
     download_data()
     node_data, edge_data = prepare_data()
@@ -300,4 +307,7 @@ def commit_changes(msg):
 
 # %%
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--refresh", action="store_true", help="refresh lines for existing characters")
+    args = parser.parse_args()
+    main(refresh=args.refresh)
