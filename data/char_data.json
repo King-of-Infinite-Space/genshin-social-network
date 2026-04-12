@@ -1176,7 +1176,7 @@
                 "content_zh": "她已经被琴团长关过好多次禁闭了，但只要被放出来，不久就又会闯祸，唉，不知道有没有真的反省过。啊…我答应她，要帮她做一个会蹦会跳，又很安全的蹦蹦，只不过现在，设计上还有不少问题…",
                 "target_en": "Klee",
                 "title_en": "Sucrose about Klee",
-                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
+                "content_en": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there's still a lot of problems with the design."
             },
             {
                 "target_zh": "琴",
@@ -8946,6 +8946,14 @@
                 "content_en": "Lauma is the Moonchanter of the Frostmoon Scions. Reviews by her people indicate that she is a wise and holy figure, well-respected in the community. The Frostmoon Scions worship the moon goddess... I wonder if there is any connection between the Moon Goddess and the existence of the Moon Wheel?"
             },
             {
+                "target_zh": "莉奈娅",
+                "title_zh": "伊涅芙关于莉奈娅",
+                "content_zh": "莉奈娅，冒险家协会的顾问。听说她的生物知识非常渊博，我曾想向她提问，是否遇见过其他拥有智慧的机械生命体？可她每次看到我都选择转头跑开…无法判明缘由。",
+                "target_en": "Linnea",
+                "title_en": "Ineffa about Linnea",
+                "content_en": "Linnea is an advisor to the Adventurers' Guild. I heard that she has extensive knowledge in the life sciences, so I wanted to ask her if she has ever met any other autonomous mechanical lifeforms like myself. But every time she sees me, she turns around and runs away... Reason: undetermined."
+            },
+            {
                 "target_zh": "法尔伽",
                 "title_zh": "伊涅芙关于法尔伽·印象",
                 "content_zh": "法尔伽，通称「大团长」。或许你已经在各种地方了解过他。收集人们对他的印象，你能得到「幽默」、「潇洒」、「酒量极佳」等关键词。但在重要的事情上，法尔伽一直是我们可靠的合作伙伴。这或许能解释他在骑士团内外的声望。",
@@ -9171,6 +9179,14 @@
                 "target_en": "Varka",
                 "title_en": "Aino about Varka",
                 "content_en": "Varka kept me company a lot while Ineffa was away looking for you guys. Sometimes, when he noticed that I was missing Ineffa, he'd come and pat me on the head and make me feel better. He has really big, heavy hands, and they're covered in calluses... But they still feel really warm."
+            },
+            {
+                "target_zh": "莉奈娅",
+                "title_zh": "爱诺关于莉奈娅",
+                "content_zh": "莉奈娅姐姐？小时候，她每次出门回来都会和我们讲很多好玩的事情，我很喜欢她。等我学会做机械之后，给她送了一些…可惜她都没有收下，只是告诉我心意她领了。一定是没送到符合她心意的款式，接下来我要做更多更多的机械，总有一个会是她喜欢的！",
+                "target_en": "Linnea",
+                "title_en": "Aino about Linnea",
+                "content_en": "Ooh, Linnea? I really like her! When I was little, she used to tell us loads of cool stories whenever she got back from one of her trips. When I was a bit older, and I'd learned how to build robots, I wanted to give her one as a gift... but she never accepted any of them. She said it was the thought that counts, and that was enough for her — but I think it was because none of them were her style. So, I'm gonna keep making robots until she finds one she likes. I know I'll get there eventually!"
             }
         ]
     },
@@ -9548,7 +9564,7 @@
             {
                 "target_zh": "瑶瑶",
                 "title_zh": "兹白关于瑶瑶",
-                "content_zh": "是歌尘浪世真君所收的弟子吧。虽是凡人之躯，但毅力和灵性倒是可圈可点。据我所知，那位留云借风真君也收了几位弟子，唔…有所传承是好事，可我怎么没听说理水叠山与削月筑阳二位真君有收徒的意向，难不成，还没寻见合适的弟子…平时忙着出去玩应该没空想这些？喔…璃月诸仙，果然各怀奥妙啊…",
+                "content_zh": "是歌尘浪市真君所收的弟子吧。虽是凡人之躯，但毅力和灵性倒是可圈可点。据我所知，那位留云借风真君也收了几位弟子，唔…有所传承是好事，可我怎么没听说理水叠山与削月筑阳二位真君有收徒的意向，难不成，还没寻见合适的弟子…平时忙着出去玩应该没空想这些？喔…璃月诸仙，果然各怀奥妙啊…",
                 "target_en": "Yaoyao",
                 "title_en": "Zibai about Yaoyao",
                 "content_en": "A disciple of Streetward Rambler, if I'm not mistaken. She possesses commendable strength and spirit for a mere mortal. Cloud Retainer has taken on several disciples as well, yes? Hmm... It is good to have successors. I wonder why I have never heard Mountain Shaper or Moon Carver display any interest in taking on disciples... Could it be that they haven't found any suitable candidates? Or perhaps they're too busy trotting off to enjoy themselves to think about such matters? Hah... Each of the adepti is so mystifying in their own unique way..."
@@ -9625,6 +9641,14 @@
                 "target_en": "Aino",
                 "title_en": "Illuga about Aino",
                 "content_en": "Whenever the Lightkeepers need help fixing complex machinery, we tend to ask for Miss Aino's assistance. She really seems determined to teach us how to do it ourselves, though. Ever since she caught me trying to repair something on my own, she's been constantly insisting that I attend her classes... How exactly was I trying to fix it, you ask? Hah, well, if you must know, it was a trick I learned from my old pops. As he likes to put it, \"if something's not working, just whack it a few times!\" To my shock, that set her off something fierce..."
+            },
+            {
+                "target_zh": "莉奈娅",
+                "title_zh": "叶洛亚关于莉奈娅",
+                "content_zh": "像莉奈娅这样的妖精小姐，即便在鱼龙混杂的挪德卡莱也很少见。在认识之前，我原本以为她会是更加沉稳的类型。没想到第一次见面，她看到阿咚之后直接两眼放光地扑了上来…阿咚可是面对狂猎都从不退缩的信鸟，但现在每次只要一听到她的声音，就会马上躲进灯里不肯出来…",
+                "target_en": "Linnea",
+                "title_en": "Illuga about Linnea",
+                "content_en": "Even in a place as diverse as Nod-Krai, Fae ladies like Miss Linnea are few and far between. I originally figured she'd be the quiet, graceful type, but it turns out that was WAY off. For instance, the first time she saw Aedon, she got so excited that she practically pounced on him. It spooked him so bad that now, the second he hears her voice, he bolts for my lamp. And remember, this is Aedon we're talking about here — a messenger bird who's usually so \"unflappable\" that he wouldn't flinch for anything, not even the Wild Hunt..."
             },
             {
                 "target_zh": "哥伦比娅",
@@ -9794,6 +9818,63 @@
                 "target_en": "Mavuika",
                 "title_en": "Varka about Mavuika",
                 "content_en": "Whether as a human or as a god, the Pyro Archon is a formidable warrior worthy of respect. If I'd been born in Natlan, I wonder if I'd have had the chance to cross blades with her while she was still human... Hmm, but then I wouldn't be able to protect Mondstadt, would I? No, that wouldn't do... *sigh* I suppose it's just as well."
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name_zh": "莉奈娅",
+        "name_en": "Linnea",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163332/7bd12ca1ea7e74f8592e41f9b60059b2_1693676926526794197.png",
+        "ver": "6.5.1",
+        "lines": [
+            {
+                "target_zh": "爱诺",
+                "title_zh": "莉奈娅关于爱诺",
+                "content_zh": "我们曾经是海螺帮的伙伴呢，爱诺小时候真的可爱极了，后来她喜欢上了机械…唔，长大了一点的爱诺还是很可爱，但她的爱好就没那么可爱了…你别误会，不管她喜欢什么我都支持她！只是…只是我真的很不擅长应付会动的机械…也许是因为「换生灵」的天性吧。",
+                "target_en": "Aino",
+                "title_en": "Linnea about Aino",
+                "content_en": "Oh, we were in the Conch Gang together, you know. Aino was such a cutie when she was little. Then at some point, she became all about her machines... Oh, uh, Aino's still pretty little, I guess — and still super cute. Her hobbies though? Not so much... Don't get me wrong, I totally support her no matter what she's into! It's just... I can't really handle being around moving machines... Probably something to do with me being a changeling."
+            },
+            {
+                "target_zh": "伊涅芙",
+                "title_zh": "莉奈娅关于伊涅芙",
+                "content_zh": "听说她做的蛋卷甜甜的，特别好吃，可惜我一靠近她就本能地想要逃跑，所以到现在还没有品尝过…而且她好像有什么事想要问我的样子，唉，不然下次去拜访的时候让爱诺把我绑在座位上听她说好了。",
+                "target_en": "Ineffa",
+                "title_en": "Linnea about Ineffa",
+                "content_en": "I hear she makes the sweetest, most delicious krumkakes around. Sadly, I've never had a chance to try one, because I instinctively run away the moment she shows up... Even though I'm pretty sure she just wants to ask me a question. *sigh* Maybe next time I visit, I should get Aino to tie me to a chair so I can finally hear what she has to say, hehe..."
+            },
+            {
+                "target_zh": "菈乌玛",
+                "title_zh": "莉奈娅关于菈乌玛",
+                "content_zh": "她的角冠真漂亮…我曾经很礼貌很礼貌地问过她，可不可以让我摸一摸她的角冠，她很礼貌很礼貌地拒绝了我。看起来，霜月之子在这方面比美露莘还要严格…",
+                "target_en": "Lauma",
+                "title_en": "Linnea about Lauma",
+                "content_en": "Her antlers are so pretty... Once, I very politely asked her if I could touch them. She, uh, very politely refused. Turns out the Frostmoon Scions are even stricter than the Melusines..."
+            },
+            {
+                "target_zh": "菲林斯",
+                "title_zh": "莉奈娅关于菲林斯",
+                "content_zh": "我想，即使是在妖精之中，菲林斯先生也是最博学的那一类。虽然和他对话的机会不多，但每次交流都让我收获颇丰。",
+                "target_en": "Flins",
+                "title_en": "Linnea about Flins",
+                "content_en": "I feel like Mr. Flins has to be one of the most knowledgeable Fae out there. I haven't even spoken with him that much, but I learned a lot from the few conversations we've had."
+            },
+            {
+                "target_zh": "奈芙尔",
+                "title_zh": "莉奈娅关于奈芙尔",
+                "content_zh": "在挪德卡莱活动，或多或少都会和「秘闻馆」打交道，奈芙尔小姐办事利落，再没有比她更可靠的合作伙伴了。不过，比起情报，我对她家的猫更感兴趣，阿舍鲁呀阿舍鲁，你一定不是一只普通的小猫咪吧…",
+                "target_en": "Nefer",
+                "title_en": "Linnea about Nefer",
+                "content_en": "Anyone who's active in Nod-Krai is bound to end up crossing paths with the Curatorium of Secrets eventually. Miss Nefer is incredibly efficient — you won't find a more reliable partner than her. But I'm actually more interested in her cat than her intel. Ashru, oh Ashru... you are no ordinary kitty, that's for sure..."
+            },
+            {
+                "target_zh": "叶洛亚",
+                "title_zh": "莉奈娅关于叶洛亚",
+                "content_zh": "他年纪轻轻就当上了执灯人的分队长，一定有什么过人之处吧。不过我们第一次见面的场景有点混乱，可能给他留下了不好的印象，不知道他还会不会愿意让我为阿咚撰写图鉴条目…",
+                "target_en": "Illuga",
+                "title_en": "Linnea about Illuga",
+                "content_en": "He's pretty young for a squad leader in the Lightkeepers. Must be a pretty talented guy. Unfortunately, we met under slightly chaotic circumstances, so I probably didn't make a great impression... I really hope he'll still let me do the archive entry for Aedon..."
             }
         ]
     }
