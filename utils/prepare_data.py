@@ -8,9 +8,11 @@ data_path = {
     "edge_data": "ExcelBinOutput/FettersExcelConfigData.json",
     "textmap_zh": "TextMap/TextMapCHS.json",
     "textmap_en": "TextMap/TextMapEN.json",
+    "textmap_medium_zh": "TextMap/TextMap_MediumCHS.json",
+    "textmap_medium_en": "TextMap/TextMap_MediumEN.json",
     "node_data_extra": "ExcelBinOutput/FetterInfoExcelConfigData.json",
-    # extra info like element, title text, etc
 }
+
 
 def download_file(url, download_path):
     response = requests.get(url)
@@ -19,6 +21,7 @@ def download_file(url, download_path):
             f.write(response.content)
         return True
     return False
+
 
 def download_data(max_age_hours=24):
     print("Downloading source data")
@@ -39,17 +42,23 @@ def download_data(max_age_hours=24):
                 print(f"  Downloaded {download_path}")
             else:
                 print(f"Failed to download {url}")
-            
+
+
+def load_json(path):
+    full_path = os.path.join("data_raw", path.split("/")[-1])
+    if os.path.exists(full_path):
+        return json.load(open(full_path, encoding="utf-8"))
+    return {}
+
 
 def prepare_data():
-    data_raw = {
-        k: json.load(open(os.path.join("data_raw", v.split('/')[-1]), encoding="utf-8"))
-        for k, v in data_path.items()
-    }
+    data_raw = {k: load_json(v) for k, v in data_path.items()}
+    data_raw["textmap_zh"] |= data_raw.get("textmap_medium_zh", {})
+    data_raw["textmap_en"] |= data_raw.get("textmap_medium_en", {})
     extra_map = {
         node["avatarId"]: {
             "element": data_raw["textmap_zh"][str(node["avatarVisionBeforTextMapHash"])],
-            "region": node['avatarAssocType']
+            "region": node["avatarAssocType"],
         }
         for node in data_raw["node_data_extra"]
     }
@@ -62,8 +71,8 @@ def prepare_data():
             "rarity": 5 if node_raw["qualityType"] == "QUALITY_ORANGE" else 4,
             "bodyType": node_raw["bodyType"],
             "weaponType": node_raw["weaponType"],
-            "element": extra_map.get(node_raw["id"], {}).get("element",""),
-            "region": extra_map.get(node_raw["id"], {}).get("region","").split("_")[-1]
+            "element": extra_map.get(node_raw["id"], {}).get("element", ""),
+            "region": extra_map.get(node_raw["id"], {}).get("region", "").split("_")[-1],
         }
         node_data.append(node)
     edge_data = []

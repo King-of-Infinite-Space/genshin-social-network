@@ -1,5 +1,4 @@
 import os
-import requests
 from notion_client import Client
 
 notion = Client(auth=os.environ["NOTION_GENSHIN"], timeout_ms=10000)
@@ -7,15 +6,15 @@ database_id = "482ae398eca5496aaa0b28c87bc8ba70"
 
 
 def getProp(page: dict, prop: str):
-    prop = page["properties"][prop]
-    propType = prop["type"]
+    prop_dict = page["properties"][prop]
+    propType = prop_dict["type"]
     if propType in ["rich_text", "title"]:
-        content = prop[propType]
+        content = prop_dict[propType]
         value = content[0]["plain_text"] if len(content) else ""
     elif propType == "select":
-        value = prop[propType]["name"]
+        value = prop_dict[propType]["name"]
     else:
-        value = prop[propType]
+        value = prop_dict[propType]
     return value
 
 
@@ -111,7 +110,7 @@ def update_remote_table(char_dict: dict, new_names: list[str]):
         entry["weapon"] = weapon_map.get(char["weaponType"], " ")[0]
         entry["height"] = height_map.get(char["bodyType"], 1)
         entry["gender"] = gender_map.get(char["bodyType"], "♂️")
-        entry["region"] = region_map.get(char["region"], "坎瑞亚")
+        entry["region"] = region_map.get(char["region"], char["region"])
         update_list.append(entry)
 
     schema = notion.databases.retrieve(database_id)["properties"]
