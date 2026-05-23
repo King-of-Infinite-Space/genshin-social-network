@@ -351,6 +351,14 @@
                 "target_en": "Mika",
                 "title_en": "Lisa about Mika",
                 "content_en": "I do rather envy Huffman for having such a caring little brother. Mika takes care of everything around the house and even looks after him when he's drunk... Ah, how nice it must be to lounge around all day without a care in the world... Hmm? What do you mean, I already do that? You're getting quite bold these days, aren't you, cutie?"
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "丽莎关于布伦妮",
+                "content_zh": "小布伦妮呀…总喜欢借些晦涩难懂的书，只要我稍微靠近一些，或者对她笑一下，她就会像一条琉璃花鳉，突然就挣扎起来。呵呵，可爱极了。真庆幸我不是她要找的「魔女」，不然，要是被这么认真的小猎人「盯上」了，姐姐我都不知道该怎么办了呢~",
+                "target_en": "Prune",
+                "title_en": "Lisa about Prune",
+                "content_en": "Little cutey Prune... Did you know she likes obscure, arcane books? Whenever I get close or give her a smile, she starts squirming like a Glaze Medaka. Hehe, it's so utterly adorable! I'm glad I'm not the \"witch\" she's hunting — I don't know what I'd do with such a serious little slip on my case."
             }
         ]
     },
@@ -949,6 +957,14 @@
                 "target_en": "Durin",
                 "title_en": "Klee about Durin",
                 "content_en": "Hehe, Durin lives in Mondstadt now — I'm going to play with him every day! I'll take him fish blasting, and he can fly me up high to throw Jumpy Dumpty at the fish!"
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "可莉关于布伦妮",
+                "content_zh": "布伦妮姐姐是好人！妈妈写信来说，布伦妮姐姐其实是想找人陪她玩，但是不好意思说出口。所以，可莉决定了！下次去炸鱼、去雪山、去金苹果群岛、去希穆兰卡…都要邀请布伦妮姐姐一起去玩！",
+                "target_en": "Prune",
+                "title_en": "Klee about Prune",
+                "content_en": "Prune is the best! Mom wrote me a letter saying Prune wants someone to play with, but she's too shy to ask. That's why Klee's decided to take her fish blasting, or on a trip to Dragonspine, or the Golden Apple Archipelago, or, or, or... Simulanka! She's gonna have so much fun!"
             }
         ]
     },
@@ -2041,6 +2057,14 @@
                 "target_en": "Yaoyao",
                 "title_en": "Qiqi about Yaoyao",
                 "content_en": "Cute. Like a nice little finch."
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "七七关于布伦妮",
+                "content_zh": "外表硬硬的女孩…但手心很软。喜欢。",
+                "target_en": "Prune",
+                "title_en": "Qiqi about Prune",
+                "content_en": "She looks tough on the outside... but her palms are nice and soft. I like her."
             }
         ]
     },
@@ -2470,6 +2494,14 @@
                 "target_en": "Durin",
                 "title_en": "Albedo about Durin",
                 "content_en": "My brother is learning all manner of new things. He's intelligent and passionately philosophical. This sometimes causes difficulties, but it does nothing to dull his passion for the world. His arrival — or should I say, his joining the family — has given me a new understanding of human relations. With my closest kin around, home has become a lively place — which is a positive thing, for sure."
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "阿贝多关于布伦妮",
+                "content_zh": "她时常找我探讨「存在的本质」。不过，每当我提出几个反问，讨论就会提前结束。值得高兴的是，她下次还会带着写满答案的笔记本再来。",
+                "target_en": "Prune",
+                "title_en": "Albedo about Prune",
+                "content_en": "She often comes to me asking about the \"nature of being,\" though our discussions tend to end as soon as I pose a few counter-questions. Still, I'm pleased to say she always returns later with a notebook full of answers."
             }
         ]
     },
@@ -3440,6 +3472,14 @@
                 "target_en": "Yumemizuki Mizuki",
                 "title_en": "Sayu about Yumemizuki Mizuki",
                 "content_en": "That strange, purple youkai... Every time she looks at me, I get this feeling like she could devour me whole... Eek! I can't afford to get on her bad side, so I'm just gonna stay out of her way!"
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "早柚关于布伦妮",
+                "content_zh": "她送了我一本很厚的书，叫《营养学导论》，她说光睡觉是不够的，还要按照上面的公式吃饭才能长高。但是，她明明懂这么多，我们好像也差不多高嘛…奇怪，难道她不想长高吗？",
+                "target_en": "Prune",
+                "title_en": "Sayu about Prune",
+                "content_en": "She gave me this big, thick book called \"An Introduction to Nutrition\" and told me that if I wanna grow taller, I also need to eat well — apparently, just sleeping all the time isn't enough. Kinda weird, though... Despite everything she knows, we're still pretty much the same height. I dunno, maybe she actually doesn't wanna grow taller?"
             }
         ]
     },
@@ -5657,6 +5697,14 @@
                 "target_en": "Xianyun",
                 "title_en": "Yaoyao about Xianyun",
                 "content_en": "When I went to look for Master the other day, I found her chatting with a very elegant-looking lady. She said her name was \"Xianyun,\" but her hijinks didn't fool me! I could tell it was Aunty Cloud Retainer right away! I mean, Master looked like she was really happy to see her, so how could it be a stranger? Evidently, she was an old friend!"
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "瑶瑶关于布伦妮",
+                "content_zh": "上次她拿着书坐在树下，没一会儿就睡着了。她睡觉的时候，眉头皱得紧紧的，好像在梦里还在跟谁吵架一样。师父说过，每个人都有不想让人看到的软弱之处。作为朋友，只要在她累的时候，给她一个肩膀依靠就足够了。所以我靠着她身边坐下了，她睡得很香哦。",
+                "target_en": "Prune",
+                "title_en": "Yaoyao about Prune",
+                "content_en": "This one time, I saw Prune fall asleep while reading under a tree. Her forehead was all scrunched up, like she was arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, I felt like I should offer her a shoulder to rest on, so I sat down beside her. She seemed to sleep much better after that."
             }
         ]
     },
@@ -7144,7 +7192,7 @@
                 "content_zh": "认识她，你有食神啦！你让蓝砚带你去山里吃农家菜，点名要去可以自带食材加工的农庄，你说是嘉明指定那家，她就知道了。那条山路特别难走，没有她这样有经验的本地人带路，我怕你走到天黑都找不到。你们尽管去吃，报我名字就行，老板认识我的，吃完入我数！",
                 "target_en": "Lan Yan",
                 "title_en": "Gaming about Lan Yan",
-                "content_en": "Being friends with Lan Yan is a food-lover's dream! You've gotta ask her to take you into the mountains to try the local dishes. There's even a place where you can bring your own ingredients. Just tell her Gaming told you about it, and she'll know the one. The mountain roads are hard to navigate, so you'll definitely need her to lead the way. Don't want you getting lost out there! Anyway, eat as much as you want, okay? The boss is my friend, so just put it on my tab and call it a day!"
+                "content_en": "Being friends with Lan Yan is a food-lover's dream! You've gotta ask her to take you into the mountains to try the local dishes. There's even a place where you can bring your own ingredients. Just tell her Gaming told you about it, and she'll know the one. Oh, the mountain roads are hard to navigate, so you'll definitely need her to lead the way. Don't want you getting lost out there! Anyway, eat as much as you want, okay? The boss is my friend, so just put it on my tab and call it a day!"
             }
         ]
     },
@@ -8822,6 +8870,14 @@
                 "target_en": "Neuvillette",
                 "title_en": "Skirk about Neuvillette",
                 "content_en": "Lost power is always reclaimed in the end, in some shape or form. But where will this power lead? To a trial? To revenge? Or toward a new future? It's a question that strikes at the heart of his quest to find the meaning of his existence, and perhaps deep down he already has his answer."
+            },
+            {
+                "target_zh": "尼可",
+                "title_zh": "丝柯克关于尼可",
+                "content_zh": "变成人类是进化还是退化？目睹族群自我毁灭的时候，她又作何感想？认识她之后，我也曾想追问清楚…但想想她的性格，还是算了。让她安安静静地搞雕塑比较好。",
+                "target_en": "Nicole",
+                "title_en": "Skirk about Nicole",
+                "content_en": "I wonder if becoming human was an evolution or regression to her? How did it feel, witnessing the self-destruction of her species firsthand? I considered asking her these questions when we first met, but... given her personality, I thought better of it. I think I'll just leave her alone to work on her sculptures."
             }
         ]
     },
@@ -9187,6 +9243,14 @@
                 "target_en": "Linnea",
                 "title_en": "Aino about Linnea",
                 "content_en": "Ooh, Linnea? I really like her! When I was little, she used to tell us loads of cool stories whenever she got back from one of her trips. When I was a bit older, and I'd learned how to build robots, I wanted to give her one as a gift... but she never accepted any of them. She said it was the thought that counts, and that was enough for her — but I think it was because none of them were her style. So, I'm gonna keep making robots until she finds one she likes. I know I'll get there eventually!"
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "爱诺关于布伦妮",
+                "content_zh": "我非常欢迎她！她每次来都会把伊涅芙给她准备的甜点让给我吃，这样我就能趁伊涅芙看不到的时候，吃掉两份甜点！哎，布伦妮去了蒙德后还会回来吗？难得有能认真听我讲机械原理的朋友…",
+                "target_en": "Prune",
+                "title_en": "Aino about Prune",
+                "content_en": "I'm always so happy to see her! Every time she comes to play, she gives me desserts that Ineffa gives her — as long as Ineffa doesn't notice, I get to eat twice as much! *sigh* Will Prune come back to visit now she lives in Mondstadt? There aren't many friends who really listen when I talk about machines..."
             }
         ]
     },
@@ -9473,6 +9537,14 @@
                 "content_en": "Aiming a beam of moonlight at Lauma's head makes her antlers grow taller, and if you get the angle just right, you can even get them to stab a piece of fruit that's too high to reach... Hmm? What then? Oh, um... You get scolded."
             },
             {
+                "target_zh": "尼可",
+                "title_zh": "哥伦比娅关于尼可",
+                "content_zh": "前段时间我们还保持着联系。「有没有推荐的书？想拿来读给月灵们听。」像这样和尼可小姐说了一句之后，她送来了很多有趣的书籍，还向我详细介绍了每一个故事的灵感和设定。我问她，「什么时候才能读到尼可小姐亲笔写的书呢？」结果她突然消失不见了。嗯…或许是写书去了吧。",
+                "target_en": "Nicole",
+                "title_en": "Columbina about Nicole",
+                "content_en": "Oh, we kept in touch until a short while ago. I asked her to recommend some books for me to read to the kuuhenki. She sent a whole lot and even gave me detailed explanations about the inspiration and setting for each one. I asked her when I might be able to read a book she had authored herself, but then I suddenly stopped hearing from her. Perhaps... she went off to write one."
+            },
+            {
                 "target_zh": "那维莱特",
                 "title_zh": "哥伦比娅关于那维莱特",
                 "content_zh": "在枫丹担任最高审判官的水之龙？唔…听上去也是一位会将人投进囚牢的龙呢。不太想见他。",
@@ -9575,7 +9647,7 @@
                 "content_zh": "这位蓝砚小妹，应是「万象风角灵官」的后人，我记得「万象风角灵官」曾与「银翎翦玉玄鸟」结伴同游，成就了一段佳话，如今还有了如此聪慧的后辈，要是他二人知道，想必也会很欣喜的。",
                 "target_en": "Lan Yan",
                 "title_en": "Zibai about Lan Yan",
-                "content_en": "Lan Yan must surely be a descendant of Wind Reader, one of the Three Beasts of Tao Dou. I recall that Wind Reader traveled with the Jade-Plumed Silverwing for a time, creating quite an enchanting tale. I'm sure both of them would be delighted to know how very wise and capable their latter-day descendants have turned out."
+                "content_en": "Lan Yan must surely be a descendant of Wind Reader. I recall that Wind Reader traveled with the Jade-Plumed Silverwing for a time, creating quite an enchanting tale. I'm sure both of them would be delighted to know how very wise and capable their latter-day descendants have turned out."
             },
             {
                 "target_zh": "胡桃",
@@ -9772,6 +9844,14 @@
                 "content_en": "Our Spark Knight is getting better and better at escaping the solitary confinement room, isn't she? Seems like she's been taking my \"teachings\" to heart. Maybe I could even learn a thing or two from her... Uh, I mean, uhh... Y'know, forget I said that! I was talking about, uh... painting techniques, yeah. *sigh* You're not gonna tell Jean or Albedo about this, are you? Um... Oh, please don't tell Alice, either. Thanks."
             },
             {
+                "target_zh": "尼可",
+                "title_zh": "法尔伽关于尼可",
+                "content_zh": "尼可女士身上有许多值得我学习的地方，比如说方向感奇佳，永远不用担心行军时迷失方向；再比如能用心声说话，可以横跨战区隐秘通讯…什么？你说拿天使的能力干这些事都太大材小用了？明明都很实用吧！",
+                "target_en": "Nicole",
+                "title_en": "Varka about Nicole",
+                "content_en": "There's a lot of things I'd like to learn from Nicole. With her incredible sense of direction, I'd never have to worry about getting lost on an expedition. And that telepathic communication ability would be really handy for sending covert messages across the battlefield... What's that? Waste of an angel's powers? Hey, they're very practical applications!"
+            },
+            {
                 "target_zh": "爱诺",
                 "title_zh": "法尔伽关于爱诺",
                 "content_zh": "刚遇到爱诺的时候我一度很担心，这么小的孩子要怎么一个人在挪德卡莱长大…后来我才意识到自己错了，她并非独自一人，也无需任何人的担心。每个孩子都会以自己的方式成长，强行套用自己的观念去担心他们，反而不是什么好事吧。",
@@ -9875,6 +9955,176 @@
                 "target_en": "Illuga",
                 "title_en": "Linnea about Illuga",
                 "content_en": "He's pretty young for a squad leader in the Lightkeepers. Must be a pretty talented guy. Unfortunately, we met under slightly chaotic circumstances, so I probably didn't make a great impression... I really hope he'll still let me do the archive entry for Aedon..."
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name_zh": "尼可",
+        "name_en": "Nicole",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163962/c2d4665dcd3021aaa9ba71e40afa8395_4080425519533462063.png",
+        "ver": "6.6.1",
+        "lines": [
+            {
+                "target_zh": "可莉",
+                "title_zh": "尼可关于可莉",
+                "content_zh": "可莉真是太可爱了。但是艾莉丝说担心我对小可莉的大脑发育有不好影响，不准我私底下盯着可莉说话。可莉她，会不会把我当成是个古怪的小姨啊？下次你帮我问问。多说些好话！",
+                "target_en": "Klee",
+                "title_en": "Nicole about Klee",
+                "content_en": "Klee is adorable. But Alice is worried I might have a bad influence on her brain development, so she doesn't let me speak in her head. Do you think that makes me seem weird to Klee? Ask her for me next time, will you? And put in a good word!"
+            },
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "尼可关于阿贝多",
+                "content_zh": "在另一个被收束的可能性里，阿贝多是那个旅行世界，记录一切又创造一切的「原初之人」。不过谁也不能保证在旅途的最后，他会选择毁灭还是维持。还好这一次是你踏上的旅途。那个可能性里的阿贝多的故事？我已经观测不到了。你不要抄这份答案，你的旅程是你自己的。",
+                "target_en": "Albedo",
+                "title_en": "Nicole about Albedo",
+                "content_en": "In another converged possibility, Albedo was the \"Primordial Human\" who traveled through worlds, recording and creating all. However, once that journey reached its end, no one would have been able to guarantee whether he would choose destruction or salvation. Luckily, you're the one who embarked on the journey this time. Hm? How did the alternate Albedo fare? I can no longer observe that possibility. Besides, copying someone else's answer is of little use. This journey is your own."
+            },
+            {
+                "target_zh": "莫娜",
+                "title_zh": "尼可关于莫娜",
+                "content_zh": "所以莫娜和芭比还在因为奇怪的原因不肯见面只肯写信吗？理解理解。莱茵多特二十岁以前我也没见过她本人呢。艾莉丝每次都说坎瑞亚人不方便出来，但是她带了信。",
+                "target_en": "Mona",
+                "title_en": "Nicole about Mona",
+                "content_en": "So, for some strange reason, Mona and Barbie are still refusing to meet face to face, and their only contact is through letters? Well, I suppose it's understandable. It wasn't until after Rhinedottir turned twenty that I actually met her in person. Alice said it wasn't convenient for Khaenri'ahns to come and go, so she brought letters back and forth instead."
+            },
+            {
+                "target_zh": "布伦妮",
+                "title_zh": "尼可关于布伦妮",
+                "content_zh": "艾莉丝说为了给生活寻找乐趣，她扶持了一个魔女猎人。让我小心不要被魔女猎人抓住了。听起来是个很有意思的小朋友。有机会找到我的话，就和她一起去找宝箱吧。",
+                "target_en": "Prune",
+                "title_en": "Nicole about Prune",
+                "content_en": "Alice said she sent that little Witch Hunter on her quest \"because it makes life more entertaining.\" She warned me to be careful not to get caught, but this little girl sounds like quite an interesting child. If she actually manages to find me, I think it would be fun to go treasure hunting together."
+            },
+            {
+                "target_zh": "杜林",
+                "title_zh": "尼可关于杜林",
+                "content_zh": "我可是安雅最早的书迷了。她的故事我都很喜欢，她最后的，永远延续的这个叙事，我当然会好好期待、好好守护的。",
+                "target_en": "Durin",
+                "title_en": "Nicole about Durin",
+                "content_en": "I've been Anya's fan since the beginning. I love all her stories. So, of course, I cannot wait to see how this final, ever-evolving masterpiece of hers is going to unfold — and I will protect it at all costs."
+            },
+            {
+                "target_zh": "兹白",
+                "title_zh": "尼可关于兹白",
+                "content_zh": "那个…能不能不要让我们见面。也不是讨厌她啦，应该说是，心理阴影？差生害怕遇到优等生是这样的。以前阿姐总会说隔壁地区天使长的优秀妹妹。她出现的频率高得很啊。",
+                "target_en": "Zibai",
+                "title_en": "Nicole about Zibai",
+                "content_en": "Um, I'd rather us... not meet, actually. It's not that I dislike her, it's more of a... complex on my part. Kinda like how a weak student feels running into the top of the class. The older angels loved to talk about the exceptional young woman from the neighboring area with ties to the Archangel. Safe to say, Zibai's name came up a lot."
+            },
+            {
+                "target_zh": "八重神子",
+                "title_zh": "尼可关于八重神子",
+                "content_zh": "世界上最大的遗憾就是安雅的时代和八重堂的时代没有重合。在我看来，为了商业盈利的写作和安雅的风格也并不冲突。八重小妹虽说是为了卖书盈利，但她自己的审美还是支撑起了八重堂与时代。至少没有因为情节或题材喜闻乐见，就去让作者重复自己、量产同质化的东西。她的策略是不断开发大家可能会喜欢的新东西。",
+                "target_en": "Yae Miko",
+                "title_en": "Nicole about Yae Miko",
+                "content_en": "It's such a shame that Yae Publishing House wasn't around during Anya's era of writing. I don't think commercial writing is at odds with Anya's style at all. I'm sure Miss Yae cares about the business side of things, but her personal taste is what drives her success. At the very least, she doesn't confine authors to a box or mass-produce a single trope until something more popular comes along. She focuses on introducing things that are new and fresh."
+            },
+            {
+                "target_zh": "菲谢尔",
+                "title_zh": "尼可关于菲谢尔",
+                "content_zh": "可恶啊，这个小妹妹的崇拜应该是属于我的。九老师只是拿着我的点子进行细化、打磨、执行而已。",
+                "target_en": "Fischl",
+                "title_en": "Nicole about Fischl",
+                "content_en": "Hmph, I'm the one who deserves her admiration. The book was my idea to begin with. All Mr. Nine did was refine it, polish it, and... actually write it all out."
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name_zh": "布伦妮",
+        "name_en": "Prune",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163963/7c9a1413c308d090e82c8e786f2206f9_8915345222954852239.png",
+        "ver": "6.6.1",
+        "lines": [
+            {
+                "target_zh": "可莉",
+                "title_zh": "布伦妮关于可莉",
+                "content_zh": "我承认一开始接近她只是为了套情报。毕竟她是艾莉丝的女儿，肯定知道很多魔女的秘密吧？没想到可莉根本不设防，总是邀请我一起玩。有一次她神秘兮兮地说要送我礼物，看着她亮晶晶的双眼…我突然就…就有点…\n算了算了，我不是被收买了。只是觉得偶尔陪她玩玩也不耽误我的计划。对，就是这样。",
+                "target_en": "Klee",
+                "title_en": "Prune about Klee",
+                "content_en": "I'll admit, at first I only approached her to get information. After all, as Alice's daughter, she must know a lot of her secrets, right? I... just didn't expect her to be so... open and trusting. Inviting me to play, giving me that gift... When I looked into her eyes, sparkling with such innocent anticipation, I couldn't help but feel a little... a little...\nNever mind. One gift isn't going to put me off the hunt. I just feel like... playing together from time to time doesn't do any harm either, so... Why not?"
+            },
+            {
+                "target_zh": "早柚",
+                "title_zh": "布伦妮关于早柚",
+                "content_zh": "在这个年纪，「能睡则睡」是最聪明的选择。毕竟…看看那些被工作和焦虑填满的大人吧，哪怕是一个不用依靠酒精或炼金药剂的安稳觉，都已经是奢侈品了。趁现在还能毫无负担地闭上眼，就让她睡吧。",
+                "target_en": "Sayu",
+                "title_en": "Prune about Sayu",
+                "content_en": "At her age, \"sleeping where you can when you can\" isn't a bad move. Just look at all those adults drowning in work or anxieties. Most of them have to use alcohol or alchemical potions just to get in a few winks. It won't be long before she has things keeping her up at night, though. I say let her sleep while she still can."
+            },
+            {
+                "target_zh": "瑶瑶",
+                "title_zh": "布伦妮关于瑶瑶",
+                "content_zh": "瑶瑶的手很巧，有好几次我的发带松了都是她帮我系好的，我自己肯定系不出这么完美的结，所以睡觉都没舍得拆。没想到醒来还是乱了！",
+                "target_en": "Yaoyao",
+                "title_en": "Prune about Yaoyao",
+                "content_en": "Yaoyao's really good with her hands. She's helped me tie my hair ribbon quite a few times now. She always does such a good job — way better than I could. The bow is so perfect, I can't even bring myself to untie it when I go to bed. But somehow, it's always so messy the next morning!"
+            },
+            {
+                "target_zh": "七七",
+                "title_zh": "布伦妮关于七七",
+                "content_zh": "我买了很多团子牛奶送她，小魔女的茶会上她说过爱喝嘛。好、好几个人的份？因为买一送一啊，我也想带些稻妻特产回蒙德喝。呃…主要是给可莉喝，对，给可莉，我喝茶。不加糖的。",
+                "target_en": "Qiqi",
+                "title_en": "Prune about Qiqi",
+                "content_en": "Oh, I bought her a bunch of Dango Milk, 'cause she said she liked it so much at the little witches' tea party. Hm? I—I bought way too much for one person? Well, it was buy-one-get-one-free. Besides, I thought it'd be nice to bring some back to Mondstadt. Y'know, for uh... Klee. Yeah, for Klee. I, of course, prefer tea. Straight, with no sugar."
+            },
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "布伦妮关于阿贝多",
+                "content_zh": "这个事情我只跟你说，你要答应我别告诉其他人哦。我怀疑阿贝多先生…根本不是人！世界上真的会有这么完美的人类吗？唔…",
+                "target_en": "Albedo",
+                "title_en": "Prune about Albedo",
+                "content_en": "I have something to tell you, but you have to promise not to tell anyone, okay? I'm starting to suspect Mr. Albedo isn't actually... human! I mean, think about it... Could a human that perfect even exist? Hmm..."
+            },
+            {
+                "target_zh": "凯亚",
+                "title_zh": "布伦妮关于凯亚",
+                "content_zh": "听完我的计划后，他建议我把德斯卡戴升级为重装骑兵单位，并当场给我签发了一张《特种骑兽驾驶资格证》…但这张证在我手里还没捂热，就被琴团长以违章发放为由强制收回了。理由居然是——「儿童驾驶属于危险驾驶」…哼。",
+                "target_en": "Kaeya",
+                "title_en": "Prune about Kaeya",
+                "content_en": "After learning about my plan, he said I should upgrade Descartes to a heavy cavalry unit and issued me a \"Special Riding License\" right then and there... But before I even had time to read the fine print, Acting Grand Master Jean confiscated it, citing \"illegal issuance.\" Apparently, \"underage driving is reckless\" or something... Hmph."
+            },
+            {
+                "target_zh": "莫娜",
+                "title_zh": "布伦妮关于莫娜",
+                "content_zh": "我曾经把她错认成魔女B了，给她制造了一些麻烦…都怪艾莉丝！她说魔女B的名字里有「梅姬斯图斯」几个字，哪知道她故意没说最关键的「崔斯」两个字啊！而且莫娜的尖顶大帽子，完全符合「魔女」的刻板印象…还好，她已经接受我的道歉了。",
+                "target_en": "Mona",
+                "title_en": "Prune about Mona",
+                "content_en": "One time, I confused her with Witch B and might have... harassed her a bit... but it's all Alice's fault! She told me Witch B's name was \"Megistus.\" Of course, she left out the \"Tris\" part on purpose to mess with me! Besides, you can't tell me Mona's big pointy hat doesn't make her look exactly like a witch... She accepted my apology though, so it's all water under the bridge."
+            },
+            {
+                "target_zh": "丽莎",
+                "title_zh": "布伦妮关于丽莎",
+                "content_zh": "又是一位尖顶大帽子女士，这位更是有着「蔷薇魔女」的称号。而答案越是显眼，就越要谨慎了…每次她用慵懒的语调，笑眯眯地叫我小布伦妮的时候，我的猎人直觉都在疯狂报警——不管她是不是真正的魔女，都不好惹。",
+                "target_en": "Lisa",
+                "title_en": "Prune about Lisa",
+                "content_en": "Hmph, another lady with a pointy hat, and another potential target. She's even known as the \"Witch of Purple Rose.\" But the more obvious things seem, the more imperative it is to proceed with caution... Still, every time she calls me \"little Prune\" with that carefree tone and teasing smile, my Hunter instincts go wild. Even if she's not a real witch, I'd think twice before getting on her bad side."
+            },
+            {
+                "target_zh": "菲谢尔",
+                "title_zh": "布伦妮关于菲谢尔",
+                "content_zh": "她绝不是那种沉溺于幻想的人，恰恰相反，我认为她是蒙德城里极少数的清醒者。那些华丽的辞藻不过是用来对抗这个残酷世界的武器。我能不能听懂她的话？当然不能。但这不影响我对她的高度肯定。",
+                "target_en": "Fischl",
+                "title_en": "Prune about Fischl",
+                "content_en": "Others may think she indulges in fantasy, but I happen to believe she's one of the few people in Mondstadt who sees things clearly. Her... rhetorical flourishes are merely a weapon she uses to confront this cruel world. Hm? Do I understand what she's saying? Of course not. But that doesn't stop me from holding her in high regard."
+            },
+            {
+                "target_zh": "爱诺",
+                "title_zh": "布伦妮关于爱诺",
+                "content_zh": "我在叮铃哐啷蛋卷工坊跟她学习了三天，从最基础的打螺丝开始。我在天才机械师的专业指导下，改造了从艾莉丝那里赢来的锤子和铃铛，洗去原本的低幼童话感，赋予了它们重金属工业风的全新外观，视觉威慑力整整提升了百分之三十！",
+                "target_en": "Aino",
+                "title_en": "Prune about Aino",
+                "content_en": "I studied the ins and outs of engineering with her at her Craftshop for three days, starting all the way from the very basics, like screw-tightening. She even helped me come up with a new design for that patronizingly kiddy hammer and bell I won from Alice — a more industrial, heavy-metal look, boosting their visual intimidation factor by a full 30%!"
+            },
+            {
+                "target_zh": "多莉",
+                "title_zh": "布伦妮关于多莉",
+                "content_zh": "我跟她的运货商队，绕了好几个国家才来到蒙德。其实她还有专门的乘客护送服务，耗时更短座位也更舒服，可是收费只能用无法无天来形容，哼，商人！\n奇怪的是，按照利益至上的原则，遇到袭击时那些价值连城的货物才该是重点保护对象。但领队大叔喊的是「保护小孩！这是老板下的死命令，少一根头发全队扣钱！」没道理啊，我只付了一点点运费…除非，她的算盘里，还有比摩拉更重要的东西。",
+                "target_en": "Dori",
+                "title_en": "Prune about Dori",
+                "content_en": "Before arriving in Mondstadt, I traveled with her cargo caravan through several nations. She does offer a dedicated passenger escort service that's faster and more comfortable, but the fees are downright exorbitant. Hmph, merchants, am I right?\nThe strange thing is, when the caravan got attacked, you'd think she'd put profit above all else and prioritize the cargo. But instead, the caravan leader shouted, \"Protect the kid! That's a direct order from the boss — she gets a single scratch, and the whole team's pay is getting docked!\" It's not like she owed me much. I mean, all I paid was a minuscule transportation fee. It just doesn't make sense. Unless... she really does value something else above Mora."
             }
         ]
     }
