@@ -488,6 +488,14 @@
                 "target_en": "Dahlia",
                 "title_en": "Kaeya about Dahlia",
                 "content_en": "Do you know if he drinks a lot of wine as part of church ceremonies? Because his alcohol tolerance is through the steeple. The first time we got to know each other was when I lost to him in a drinking contest. Well, the Anemo Archon loves his wine, so it's fitting that his spokesperson is such a devoted advocate for the wonders of alcohol... Things like that are what give the City of Freedom its charm."
+            },
+            {
+                "target_zh": "洛恩",
+                "title_zh": "凯亚关于洛恩",
+                "content_zh": "洛恩那小子，已经有一段时间没来找我帮忙伪造签名了啊，难道他已经学会了手法？以他的聪明程度倒也不奇怪…之后，我用大团长的笔迹写一封信给他吧，看看他究竟学懂了几成。",
+                "target_en": "Lohen",
+                "title_en": "Kaeya about Lohen",
+                "content_en": "That Lohen kid hasn't come to me for a forged signature in a while. I wonder if he's already mastered the art? He's certainly smart enough... Give it a while, and I'll write him a letter in the Grand Master's handwriting. Then we'll see how much he's learned..."
             }
         ]
     },
@@ -957,6 +965,14 @@
                 "target_en": "Durin",
                 "title_en": "Klee about Durin",
                 "content_en": "Hehe, Durin lives in Mondstadt now — I'm going to play with him every day! I'll take him fish blasting, and he can fly me up high to throw Jumpy Dumpty at the fish!"
+            },
+            {
+                "target_zh": "洛恩",
+                "title_zh": "可莉关于洛恩",
+                "content_zh": "洛恩哥哥是好人！他上次给可莉拿了好多好吃的，却只要了可莉一小盒蜡笔！要是洛恩哥哥有时间，可莉愿意教他画画的，再叫上法尔伽叔叔一起！",
+                "target_en": "Lohen",
+                "title_en": "Klee about Lohen",
+                "content_en": "Lohen is the best! Last time Klee saw him, he gave me so many yummy treats — and he only wanted a small box of crayons in return! If Lohen has the time, Klee would love to teach him how to draw... Maybe we can invite Uncle Varka, too!"
             },
             {
                 "target_zh": "布伦妮",
@@ -5883,6 +5899,14 @@
                 "target_en": "Albedo",
                 "title_en": "Mika about Albedo",
                 "content_en": "The Chief Alchemist has been very kind to me. He helped me make all the survey equipment I use in the field... I even have some pens he made that will work even when I'm hanging upside down from a tree. But it seems that making artistic sketches is quite different from making maps. I've tried to make some sketches of a target area as supplemental intel before, and word has it that Captain Albedo went silent for a long time when he saw them..."
+            },
+            {
+                "target_zh": "洛恩",
+                "title_zh": "米卡关于洛恩",
+                "content_zh": "你看见洛恩了吗？我才发现我的笔记本跟他的互换了，而他一大早又不见了。唉，他肯定是一个人冲去魔物聚集点了…明明说过这样做很危险的…要是我也是「队长」就好了，那样我说的话他就会听了…呃，会吗…",
+                "target_en": "Lohen",
+                "title_en": "Mika about Lohen",
+                "content_en": "Have you seen Lohen? I just realized our notebooks got switched, and I don't know where he went. *sigh* I bet he rushed off to fight a bunch of monsters on his own, even though I warned him not to. If I were a captain too, then maybe he'd listen to me... Then again, maybe he wouldn't..."
             }
         ]
     },
@@ -9796,6 +9820,14 @@
                 "content_en": "Even I was surprised by her innate strength. I heard she's learning the sword from Jean now. After she's mastered both single- and two-handed sword styles, I wonder if she might be able to inherit my... Huh? She chucked her sword straight up into the ceiling last time? Alright then... Guess we need to schedule a few more training sessions for her."
             },
             {
+                "target_zh": "洛恩",
+                "title_zh": "法尔伽关于洛恩",
+                "content_zh": "这小子三天两头出去闹事，我曾经以为他跟从前的我一样，是热衷于挑战强者、赢取荣耀…哪知道他只是喜欢「挑战」，对「荣耀」没有半分兴趣…嗨，起码在外头干架，比没事就挖陷阱偷袭我要好点。",
+                "target_en": "Lohen",
+                "title_en": "Varka about Lohen",
+                "content_en": "Feels like every other day that that rascal's causing some kind of ruckus... I used to think he was like a younger me — eager to fight strong foes and win glory... Turns out, he's just into the fighting part, couldn't care less about the glory. *sigh* Well, at least when he's fighting the enemy, it keeps him busy. Otherwise, he'll be digging traps to ambush me out of boredom."
+            },
+            {
                 "target_zh": "米卡",
                 "title_zh": "法尔伽关于米卡",
                 "content_zh": "人生迷茫的时候得靠导师引路，行军迷茫的时候要靠地图引路——照这个说法，说他是我的导师也不为过吧，哈哈哈！——可惜我上次跟米卡开这玩笑的时候，他的脸刷一下就白了…其实他完全可以再自信一些吧？可不是谁都能成为骑士的啊！",
@@ -10125,6 +10157,103 @@
                 "target_en": "Dori",
                 "title_en": "Prune about Dori",
                 "content_en": "Before arriving in Mondstadt, I traveled with her cargo caravan through several nations. She does offer a dedicated passenger escort service that's faster and more comfortable, but the fees are downright exorbitant. Hmph, merchants, am I right?\nThe strange thing is, when the caravan got attacked, you'd think she'd put profit above all else and prioritize the cargo. But instead, the caravan leader shouted, \"Protect the kid! That's a direct order from the boss — she gets a single scratch, and the whole team's pay is getting docked!\" It's not like she owed me much. I mean, all I paid was a minuscule transportation fee. It just doesn't make sense. Unless... she really does value something else above Mora."
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name_zh": "洛恩",
+        "name_en": "Lohen",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163966/2c0c3a653bd4f8042f02e41a589f5711_635146643431880028.png",
+        "ver": "6.6.2",
+        "lines": [
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "洛恩关于法尔伽·药物耐受",
+                "content_zh": "法尔伽对于药物的抗性越来越高了，前几天我调配的药物居然只是让他红了红脸，要不是他瞪了我一眼，我都要怀疑自己究竟下没下药了。唉，要是还在挪德卡莱的话，我都想要给他掺点那种带月矩力的植物了…",
+                "target_en": "Varka",
+                "title_en": "Lohen about Varka: Resistance to Medicine",
+                "content_en": "Varka's resistance to medicine keeps growing by the day. I mixed him a draught a few days ago that barely flushed his cheeks. If he hadn't glared at me afterwards, I'd have doubted whether I put the medicine in at all. *sigh*... If only we were still in Nod-Krai, I could drop in a few of those kuuvahki plants..."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "洛恩关于法尔伽·团长职责",
+                "content_zh": "团长的职责？就法尔伽而言，基本上是带人出去打架吧。剩下的都被他甩给琴团长了，哈哈哈，毕竟敌人真的会被消灭，但文书工作真的没有终结啊。",
+                "target_en": "Varka",
+                "title_en": "Lohen about Varka: Grand Master's Duties",
+                "content_en": "The Grand Master's duties? When it comes to Varka, it's mostly leading people into battle. The rest gets dumped on Jean, haha. Enemies, well, you can kill them for good, but paperwork... Paperwork never truly dies."
+            },
+            {
+                "target_zh": "琴",
+                "title_zh": "洛恩关于琴",
+                "content_zh": "正是因为有这位勤勉的代理团长坐镇蒙德城，「大团长」才能在挪德卡莱放手施为，现在他回到了蒙德城…好吧，他也会继续放手施为，情况好像没有什么改变。",
+                "target_en": "Jean",
+                "title_en": "Lohen about Jean",
+                "content_en": "It's only because the Acting Grand Master was holding down the fort in Mondstadt that the \"actual\" Grand Master was able to swan off to Nod-Krai. Now that he's back... well, he'll likely continue to do as he pleases. I don't think much will change."
+            },
+            {
+                "target_zh": "凯亚",
+                "title_zh": "洛恩关于凯亚",
+                "content_zh": "凯亚很擅长模仿其他骑士小队队长的签名，特别是琴团长的签名，他伪造得堪称天衣无缝，几乎没有破绽。他练习这个的目的？凯亚说，这是为了自己给自己批假，我相信他，毕竟以他的品格，应该也做不出来更过分的事了…呵呵。",
+                "target_en": "Kaeya",
+                "title_en": "Lohen about Kaeya",
+                "content_en": "Kaeya has a real knack for imitating the other Captains' signatures, not to mention Jean's. In fact, his forgeries are so good, it's practically impossible to spot the difference. Kaeya says he only does it to sign off on his own applications for leave. Personally, I think he's telling the truth — too much moral fiber in that one, haha."
+            },
+            {
+                "target_zh": "安柏",
+                "title_zh": "洛恩关于安柏",
+                "content_zh": "听安柏说，她和琴团长商量好了，过段时间会有些不叫「侦察骑士」的侦察员来给她帮忙，可喜可贺啊，她总算不用一个人在蒙德城上空来回飞了。不过这么一想，飞行执照考试的条例和考纲是不是也很陈旧了，不然，也一起更新了吧？",
+                "target_en": "Amber",
+                "title_en": "Lohen about Amber",
+                "content_en": "Amber said she's already talked things over with Acting Grand Master Jean. She asked for some recon officers to come help her out, though they won't be official outriders. Regardless, it's certainly cause to celebrate. Now, she won't have to fly back and forth over Mondstadt all by herself. Although come to think of it, the gliding license exam itself seems a bit outdated... Maybe it's time that got an update, too?"
+            },
+            {
+                "target_zh": "迪卢克",
+                "title_zh": "洛恩关于迪卢克",
+                "content_zh": "迪卢克老爷，还是应该说迪卢克「前辈」。从某个角度上来说，我们俩都被同一个混账坑害得不轻，现在新仇旧恨都已经清算完毕，他还不考虑回西风骑士团？就算不能做最年轻的队长了，也能做资历最老的队员啊。",
+                "target_en": "Diluc",
+                "title_en": "Lohen about Diluc",
+                "content_en": "Diluc... When you think about it, we both fell victim to the same scoundrel, but now that those scores have been settled, is he really never coming back to the Knights of Favonius? He can't go back to being the youngest captain, but he could sure have a go at being the oldest knight."
+            },
+            {
+                "target_zh": "诺艾尔",
+                "title_zh": "洛恩关于诺艾尔",
+                "content_zh": "诺艾尔还没有成为正式骑士啊，都过了这么长时间，我还以为她肯定通过骑士试炼了呢…不知道法尔伽在想什么，难道要给诺艾尔准备一个超级大试炼？那她的骑士称号到底要多厉害，才能配得上她的训练时长啊…",
+                "target_en": "Noelle",
+                "title_en": "Lohen about Noelle",
+                "content_en": "Noelle's still not officially a knight, huh. How long's it been now? I thought for sure she'd have passed the selection trials... Is Varka holding out for some kind of special trial just for her? Her knightly title's gonna have to be pretty long to match the length of her training..."
+            },
+            {
+                "target_zh": "优菈",
+                "title_zh": "洛恩关于优菈",
+                "content_zh": "我对优菈最深的印象，就是她那双靴子踢踏地板的声音，只要她脚步急一点，我隔着一层楼都能听见咚咚咚的声音，既响亮又有穿透力，就和优菈的剑术一样，印象深得根本忘不掉。",
+                "target_en": "Eula",
+                "title_en": "Lohen about Eula",
+                "content_en": "What stands out most about Eula is the sound of her boots stomping about the place. When she's in a rush, you can hear the \"thump-thump-thump\" from a floor away. Just like her fighting style — loud and penetrating, an impression so deep it's impossible to forget."
+            },
+            {
+                "target_zh": "阿贝多",
+                "title_zh": "洛恩关于阿贝多",
+                "content_zh": "第五小队所用的军备消耗品是第八小队和阿贝多一块开发的，弩箭、弹药和各类炼金产品的质量都很不错，我偶尔也会去拜访他的办公室，顺便委托他做些新的武器研究。不过，最近和我对接的人换成了砂糖，阿贝多应该是又去忙其他研究了吧…",
+                "target_en": "Albedo",
+                "title_en": "Lohen about Albedo",
+                "content_en": "The 5th Company's consumables are all developed by Albedo and the 8th Company. Our crossbow bolts, bullets, and various alchemical products are all top quality. I sometimes drop by Albedo's office with plans for new weapons research. Though recently, it's been Sucrose receiving my requests instead. Guess Albedo must be working on something big, again..."
+            },
+            {
+                "target_zh": "可莉",
+                "title_zh": "洛恩关于可莉",
+                "content_zh": "法尔伽之前和我说，他觉得那位愚人众执行官「队长」用蜡笔都能戳爆遗迹守卫，所以呢，我用好吃的和可莉换了一盒子蜡笔，准备带给法尔伽，到时候如果遇见了魔物，正好让他亲手试一试。",
+                "target_en": "Klee",
+                "title_en": "Lohen about Klee",
+                "content_en": "Varka told me he thinks that Fatui Harbinger, The Captain, could have taken out a Ruin Guard with just a crayon. So, I traded some snacks with Klee for a box of them, and I'm gonna bring them to Varka. Next time he runs into a monster, we'll see how formidable a weapon it really is."
+            },
+            {
+                "target_zh": "米卡",
+                "title_zh": "洛恩关于米卡",
+                "content_zh": "米卡很擅长测绘，而我很擅长测谎。之前，他给我的测绘图上专门掩盖了魔物聚集点，就怕我一个人冲过去。而我只是看了看他的表情，就知道这张图上哪里的魔物最多。可惜啊米卡，沉默也没用。",
+                "target_en": "Mika",
+                "title_en": "Lohen about Mika",
+                "content_en": "Mika might be a skilled cartographer, but I'm even more skilled when it comes to sniffing out a lie. He once gave me a map where he deliberately left out all the monster gathering points, 'cause he was scared I'd charge in alone. But, y'know, one look at his face, and I knew exactly where the monsters were. Can't believe he thought silence would be enough to foil me."
             }
         ]
     }
