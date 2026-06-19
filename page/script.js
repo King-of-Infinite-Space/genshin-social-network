@@ -225,6 +225,95 @@ function rotateCircles() {
   }
 }
 
+function calculateGridLayoutPositions() {
+  let groups = {};
+  for (let node of cy.nodes()) {
+    let ver = node.data('ver') || "1.0";
+    if (ver === "1.0") {
+      ver = "0.0.1";
+    }
+    let parts = String(ver).split('.').map(Number);
+    let major = parts[0];
+    let minor = parts.length > 1 ? parts[1] : 0;
+    let patch = parts.length > 2 ? parts[2] : 0;
+    
+    if (!groups[major]) {
+      groups[major] = [];
+    }
+    groups[major].push({
+      node: node,
+      minor: minor,
+      patch: patch,
+      name_en: node.data('name_en')
+    });
+  }
+
+  let sortedMajors = Object.keys(groups).map(Number).sort((a, b) => a - b);
+
+  // Compute max width for each minor version across all major versions
+  let minorGroups = {};
+  for (let major in groups) {
+    for (let nodeData of groups[major]) {
+      if (!minorGroups[nodeData.minor]) {
+        minorGroups[nodeData.minor] = {};
+      }
+      minorGroups[nodeData.minor][major] = (minorGroups[nodeData.minor][major] || 0) + 1;
+    }
+  }
+
+  let sortedMinors = Object.keys(minorGroups).map(Number).sort((a, b) => a - b);
+  let minorStartCol = {};
+  let currentGlobalCol = 0;
+  for (let minor of sortedMinors) {
+    minorStartCol[minor] = currentGlobalCol;
+    let maxCount = 0;
+    for (let major in minorGroups[minor]) {
+      if (major === "0") continue; // Ignore 0.0.1 (1.0) for alignment width
+      if (minorGroups[minor][major] > maxCount) {
+        maxCount = minorGroups[minor][major];
+      }
+    }
+    currentGlobalCol += maxCount + 1; // +1 for the empty space between minor versions
+  }
+
+  let nodePositions = {};
+  let actualRow = 0;
+  for (let rowIndex = 0; rowIndex < sortedMajors.length; rowIndex++) {
+    let major = sortedMajors[rowIndex];
+    
+    if (rowIndex > 0) {
+      if (sortedMajors[rowIndex - 1] === 0 && major === 1) {
+        actualRow++;
+      } else {
+        actualRow += 2; // skip a row to create a gap
+      }
+    }
+
+    let groupNodes = groups[major];
+    groupNodes.sort((a, b) => {
+      if (a.minor !== b.minor) return a.minor - b.minor;
+      if (a.patch !== b.patch) return a.patch - b.patch;
+      return a.name_en.localeCompare(b.name_en);
+    });
+
+    let currentMinor = null;
+    let currentCol = 0;
+    for (let i = 0; i < groupNodes.length; i++) {
+      let nodeData = groupNodes[i];
+      
+      if (nodeData.minor !== currentMinor) {
+        currentMinor = nodeData.minor;
+        currentCol = minorStartCol[currentMinor];
+      }
+      
+      nodePositions[nodeData.node.id()] = { row: actualRow, col: currentCol };
+      currentCol++;
+    }
+  }
+
+  return nodePositions;
+}
+
 function getLayout(name) {
   let layoutOptions = {
     name: name,
@@ -282,6 +371,15 @@ function getLayout(name) {
         return n
       },
     }
+  }
+  if (name == "grid") {
+    let nodePositions = calculateGridLayoutPositions();
+
+    extraOptions = {
+      position: function(node) {
+        return nodePositions[node.id()];
+      }
+    };
   }
   if (name == "concentricCustom") {
     extraOptions = {
@@ -538,7 +636,7 @@ async function main() {
 
     cy.add({
       group: "nodes",
-      data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh },
+      data: { id: char.name_en, name_en: char.name_en, name_zh: char.name_zh, ver: char.ver },
       style: {
         "background-image": isLocalhost
           ? `../data/image/${char.name_zh}.png`
