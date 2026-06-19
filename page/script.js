@@ -40,6 +40,7 @@ const cy = cytoscape({
   boxSelectionEnabled: false,
   minZoom: 0.1,
   maxZoom: 2.5, // auto ~0.5
+  wheelSensitivity: 0.5, // Default is 1, lower values reduce scroll step
   style: [
     // the stylesheet for the graph
     {
@@ -730,9 +731,26 @@ async function main() {
   })
 
   document.querySelector("#refreshGraph").onclick = function (e) {
+    e.preventDefault();
     // reset
     unselectElements()
     setLayout(getSelectedOption(), true)
+  }
+
+  document.querySelector("#zoomIn").onclick = function (e) {
+    e.preventDefault();
+    cy.zoom({
+      level: cy.zoom() * 1.5,
+      renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 }
+    });
+  }
+
+  document.querySelector("#zoomOut").onclick = function (e) {
+    e.preventDefault();
+    cy.zoom({
+      level: cy.zoom() / 1.5,
+      renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 }
+    });
   }
 
   fetch("https://count.lnfinite.space/page/genshin-social-network?plus=1", {
