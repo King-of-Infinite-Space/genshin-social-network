@@ -2140,6 +2140,14 @@
                 "content_en": "Look, I've got nothing against people who have their own agendas — I myself joined the Fatui to get more experience in combat. But I don't like her at all. If she stood to benefit from betraying others, she'd turn against the Tsaritsa in a heartbeat. There isn't a sane bone in her body."
             },
             {
+                "target_zh": "桑多涅",
+                "title_zh": "达达利亚关于「木偶」",
+                "content_zh": "好像是个埋头研究的人？我想想，那些机械是不是都跟她有关啊。总之，仅有几次的见面中，她一副想杀了我的眼神。可我完全不记得做过什么惹她生气的事。",
+                "target_en": "Sandrone",
+                "title_en": "Tartaglia about Marionette",
+                "content_en": "She always seems engrossed in her research. Hmm... I wonder if those machines have anything to do with her? Anyway, I've only met her a few times, but every time she looked like she wanted to murder me. I have no idea what I possibly could have done to annoy her, though."
+            },
+            {
                 "target_zh": "流浪者",
                 "title_zh": "达达利亚关于「散兵」",
                 "content_zh": "他带着「神之心」与我们失去了联络，后面才有了追回那颗心的行动。我倒是不介意去四处走走，说不定还能在哪儿和你偶遇？",
@@ -5432,6 +5440,14 @@
                 "content_en": "A wolf in sheep's clothing. To exert a higher level of control over people, she puts on a graceful and cordial front. Most of those who have seen her true, crazy self... have gone poof."
             },
             {
+                "target_zh": "桑多涅",
+                "title_zh": "流浪者关于「木偶」",
+                "content_zh": "她除了自己的研究以外什么都不关心，性格恶劣得很。但即便做到如此极端的地步，却也只是制造了大量废品，在我仍是执行官时还低我一席，真是可怜。",
+                "target_en": "Sandrone",
+                "title_en": "Wanderer about Marionette",
+                "content_en": "She has a terrible personality and cares for nothing outside of her own research. But even with that amount of dedication, she still produced a copious amount of garbage, and could only secure a ranking that's still one whole place beneath my own. How pitiful."
+            },
+            {
                 "target_zh": "达达利亚",
                 "title_zh": "流浪者关于「公子」",
                 "content_zh": "头脑简单，四肢也不甚发达。让他做最后一席都是在拉低执行官的整体水准。万幸，我已经不在其列了。",
@@ -7355,6 +7371,22 @@
                 "target_en": "Columbina",
                 "title_en": "Arlecchino about Damselette",
                 "content_en": "She is a very special Harbinger. Pose her a question, and the answer you receive will be entirely unpredictable, if she sees fit to give a proper answer at all. Regardless, any answer you do receive is sure to be an interesting one."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "阿蕾奇诺关于「木偶」·研究",
+                "content_zh": "我对她没什么兴趣。她热衷于研究，很少公开露面，许多士官甚至都没有见过她。相较于另一个把自己切成很多份、满世界乱跑的人，她算是另一个极端。",
+                "target_en": "Sandrone",
+                "title_en": "Arlecchino about Marionette: Research",
+                "content_en": "I have little interest in her. She is extremely... passionate about her research and does not appear in public often. In fact, many of our officers have yet to see her at all. Compared to, let's say, someone who would go so far as to create segments of themselves to better wander across the land, I suppose you could say she is at the other end of the extreme."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "阿蕾奇诺关于「木偶」·回归",
+                "content_zh": "在共同经历了挪德卡莱的事件之后，我认为自己此前对她的评价有失公允。她是一名可靠的战友，也是令人安心的同伴。严冬来临之际，任何能够提供支援的人手都将使现状得到改善，我很欣慰桑多涅能在此时回归。这对孩子们来说也是不小的慰藉。",
+                "target_en": "Sandrone",
+                "title_en": "Arlecchino about Marionette: Return",
+                "content_en": "After experiencing so much in Nod-Krai together, I've come to realize my previous assessment was unfair. She's a reliable comrade and a reassuring companion. On the eve of another harsh winter, every additional pair of hands is welcome, so I'm glad that Sandrone has returned. Her presence provides comfort to the children."
             },
             {
                 "target_zh": "达达利亚",
@@ -9542,6 +9574,14 @@
                 "target_en": "Columbina",
                 "title_en": "Jahoda about Kuutar",
                 "content_en": "That VIP... *sigh* Back in the day, if I came across someone with a background that murky, I'd have run for the hills! The farther the better! But... she saved me, so now I owe her, and debts are debts.\nStill, that's easy to say, but I've only got one life to lose, and at this rate, no amount of lives would be enough to cover the tab... O Boss Nef! Save me, you're my only hope..."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "雅珂达关于「木偶」",
+                "content_zh": "下次，我绝对不会去那种地方了！就、就算要去，也要老板和我一起去才行，这又是狂猎又是愚人众的，我有命赚钱，没命花钱啊！",
+                "target_en": "Sandrone",
+                "title_en": "Jahoda about Marionette",
+                "content_en": "I'm never going anywhere like that ever again! And... Okay, even if I did, Boss Nef would have to go with me. Between the Wild Hunt and Fatui... what's the point of making money if you're not alive to spend it!?"
             }
         ]
     },
@@ -9583,6 +9623,30 @@
                 "target_en": "Arlecchino",
                 "title_en": "Columbina about Arlecchino",
                 "content_en": "The House of the Hearth is home to many children, and it can get quite noisy. The first time I heard them call Arlecchino \"Father,\" I thought it was a rule that had to be followed there. So, the next time she passed by, I used that title as well. That's when I learned just how quiet the House of the Hearth could become."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "哥伦比娅关于桑多涅·发条",
+                "content_zh": "她背后的发条会一直转吗？是永远朝同一个方向转吗？睡觉的时候，她会把发条拆下来吗？翻身要怎么办？刚见到桑多涅的时候，我就对她的发条产生了好奇。但那时和她还不熟，直接去碰似乎也不太好。所以我只要有机会就一直跟在她身后，想找到她发条转动的规律。但有一天，她突然转过身，看起来很生气地质问我为什么总要跟着她。我老老实实告诉她之后，她对我说，「你那么好奇的话，我给你背后安一个试试得了」。于是我就背着发条生活了几天，唔…的确很辛苦，桑多涅的生活真不容易。自那之后，我就更关心她了。",
+                "target_en": "Sandrone",
+                "title_en": "Columbina about Sandrone: Clockwork Nature",
+                "content_en": "I wonder, does the key on her back ever stop turning? Does it change direction? Does she remove it when she sleeps? How does she roll over? I've been curious about that key ever since I first met her. But since we weren't close then, it didn't seem right to just go up and touch it. So whenever I had the chance, I would follow behind her, trying to figure out the pattern of its movement. But one day, she suddenly turned around and demanded to know why I kept following her. After I told her the reason, she said, \"If you're that curious, why don't I put one on your back, and you can see for yourself?\" So I lived with a key on my back for a few days, and it was quite the challenge. Sandrone doesn't have it easy, so I've looked out for her even more since then."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "哥伦比娅关于桑多涅·发条其二",
+                "content_zh": "我不清楚对人偶来说，怎么样才算是「死亡」…但桑多涅真的不动了，我感受不到她的「运转」，她的发条也不动了。她是为了那个「术式」，为了让我回到这里，才变成了这样…我多么希望她这么做只是为了吓我一次，就像她曾经说过会报复我的那样…",
+                "target_en": "Sandrone",
+                "title_en": "Columbina about Sandrone: Clockwork Nature II",
+                "content_en": "I'm not sure what counts as \"death\" for a puppet... All I know is, Sandrone isn't moving, and I can't feel her \"operating.\" Her key has just... stopped. And all because of the \"technique\" she used to bring me back. She said she was going to get back at me that one time. How I wish that's all this was. Just an attempt to scare me..."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "哥伦比娅关于桑多涅·发条其三",
+                "content_zh": "桑多涅回来了。我好开心。我发现她的发条现在偶尔会转得快一些，好像以前总是以同样的速度在转。她说这是因为自己接受了内心情感的缘故，现在的她和以前已经不一样了。但我觉得不论是换了身衣服，还是发条转得快了些，桑多涅就是桑多涅，是我最好的朋友。不论是从前还是现在的样子，我都很喜欢。听完我这么说后，她的发条转得更快了。虽然不知道为什么，但真有趣。",
+                "target_en": "Sandrone",
+                "title_en": "Columbina about Sandrone: Clockwork Nature III",
+                "content_en": "Sandrone has returned. I'm so happy. I noticed her wind-up key sometimes turns a bit faster now — it always seemed to turn at the same speed before. She said it's because she's embraced her inner feelings, and that she's different now. But whether she's changed her outfit or her key turns faster, I feel like Sandrone is still Sandrone, my best friend. Whether it's her past or present self, she has my complete admiration. I told her this, and her key turned faster. I don't know why, but it's really interesting."
             },
             {
                 "target_zh": "达达利亚",
@@ -9987,6 +10051,14 @@
                 "target_en": "Illuga",
                 "title_en": "Linnea about Illuga",
                 "content_en": "He's pretty young for a squad leader in the Lightkeepers. Must be a pretty talented guy. Unfortunately, we met under slightly chaotic circumstances, so I probably didn't make a great impression... I really hope he'll still let me do the archive entry for Aedon..."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "莉奈娅关于桑多涅",
+                "content_zh": "你知道吗？冒险家协会的凯瑟琳其实是愚人众执行官「木偶」的造物。通常来说，我是很不擅长应付这类会动的机械造物的，但面对凯瑟琳时却没有任何抵触的情绪，真奇妙，不知道她使用了怎样的技术。也幸亏如此，我才不用麻烦萨林或者其他人来帮忙接取协会的委托。如果有机会见到她，我真想向她道谢！",
+                "target_en": "Sandrone",
+                "title_en": "Linnea about Sandrone",
+                "content_en": "I dunno if you knew this, but Katheryne from the Adventurers' Guild was actually created by the Fatui Harbinger, Marionette. Strangely enough, I don't feel any kind of aversion towards Katheryne, even though I usually can't handle moving machines... Must be something to do with the technology Marionette used — whatever that could be. Anyway, it's just as well, 'cause otherwise I'd have to get Sarin or someone else to pick up my commissions from the Guild for me. If I ever get the chance to meet Marionette, I owe her a huge thank-you!"
             }
         ]
     },
@@ -10254,6 +10326,63 @@
                 "target_en": "Mika",
                 "title_en": "Lohen about Mika",
                 "content_en": "Mika might be a skilled cartographer, but I'm even more skilled when it comes to sniffing out a lie. He once gave me a map where he deliberately left out all the monster gathering points, 'cause he was scared I'd charge in alone. But, y'know, one look at his face, and I knew exactly where the monsters were. Can't believe he thought silence would be enough to foil me."
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name_zh": "桑多涅",
+        "name_en": "Sandrone",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/164627/765eb21a90ca3d608d437e03810bbd8a_8447687443987477821.png",
+        "ver": "6.7.1",
+        "lines": [
+            {
+                "target_zh": "茜特菈莉",
+                "title_zh": "桑多涅关于茜特菈莉",
+                "content_zh": "那位大萨满人挺好的。听说她年纪挺大了？唔，真有活力，但就是有时候很容易激动。你问什么时候？哦，上次是和她聊到你我结伴下水找东西的时候。再上次是聊到你在挪德卡莱帮哥伦比娅找回了名字什么的…她听完激动得脸都红了，是上了年纪的关系吗？",
+                "target_en": "Citlali",
+                "title_en": "Sandrone about Citlali",
+                "content_en": "That great shaman seems nice. Is she really very old? Still seems like she's got plenty of energy to me — though she does get a little too worked up sometimes. What do I mean? Oh, well, recently, I was talking to her about you and me going underwater to look for something... and before that, I told her you were in Nod-Krai helping Columbina get her name back... She got so animated, her face turned bright red. I wonder if it has something to do with her age..."
+            },
+            {
+                "target_zh": "琳妮特",
+                "title_zh": "桑多涅关于琳妮特",
+                "content_zh": "我真服了！那个猫猫女到底是怎么能每次都找到机械最薄弱的地方下手的？她哥能不能管管她？哎，算了…这恐怕也是种天分，下次让她帮忙监修机械漏洞吧。要是连她这一关都过不了，那也别谈什么实战了。",
+                "target_en": "Lynette",
+                "title_en": "Sandrone about Lynette",
+                "content_en": "I don't know how she does it! That cat-girl always seems to find the weakest spot in every machine and then... beh, broken. I wish her brother would have a word with her. *sigh* Nevermind... I guess it's a talent, really. Maybe I should have her help me stress test my future creations. If my machines can't survive her curiosity, what chance do they have in battle?"
+            },
+            {
+                "target_zh": "哥伦比娅",
+                "title_zh": "桑多涅关于哥伦比娅·烦人",
+                "content_zh": "哥伦比娅以前就很烦，现在也没好多少。亏我还觉得没她在会清净，谁知道见不到她的时候更烦！真受不了。",
+                "target_en": "Columbina",
+                "title_en": "Sandrone about Columbina: Annoying",
+                "content_en": "Columbina used to drive me up the wall — to be honest, she still does. I thought life would be quieter without her around. Who knew I'd find myself getting more annoyed once she wasn't here! Ugh, it's infuriating!"
+            },
+            {
+                "target_zh": "哥伦比娅",
+                "title_zh": "桑多涅关于哥伦比娅·生活",
+                "content_zh": "这家伙现在的生活可幸福了，家人和朋友都在身边，没事还能外出旅行…我怎么就没有这种好运气？算了，我也不是真的羡慕她。我们都知道，幸福是这个家伙应得的。",
+                "target_en": "Columbina",
+                "title_en": "Sandrone about Columbina: Life",
+                "content_en": "She's living such a happy life right now. Her family and friends are by her side, and she gets to go traveling whenever she's free... Why can't I have that kind of fortune? Oh, forget it, I'm not jealous. We all know she deserves to be happy."
+            },
+            {
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "桑多涅关于阿蕾奇诺",
+                "content_zh": "阿蕾奇诺信守诺言，行事果断，是个值得托付事情的人。不谈私交，我希望工作上所有和我有交集的同事，至少先去学习一下阿蕾奇诺的品格。",
+                "target_en": "Arlecchino",
+                "title_en": "Sandrone about Arlecchino",
+                "content_en": "Arlecchino is a woman of her word. She acts decisively, and you can trust her to get things done. Purely from a professional standpoint, it would be nice if all my colleagues could try to emulate her."
+            },
+            {
+                "target_zh": "达达利亚",
+                "title_zh": "桑多涅关于「公子」",
+                "content_zh": "又是一个让人不省心的同事…明明能和兄弟姐妹开开心心过日子，干嘛偏要来当什么「执行官」？还有，他到底要什么时候才想得通，不是所有人都像他一样喜欢打架。",
+                "target_en": "Tartaglia",
+                "title_en": "Sandrone about Childe",
+                "content_en": "Another pain in the... well, everything. He could happily just spend his days with his brothers and sisters — why insist on becoming a Harbinger at all? And when will he get it into his thick skull that not everyone is always looking for a fight?"
             }
         ]
     }
