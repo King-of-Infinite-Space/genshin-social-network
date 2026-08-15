@@ -5733,7 +5733,7 @@
             {
                 "target_zh": "布伦妮",
                 "title_zh": "瑶瑶关于布伦妮",
-                "content_zh": "上次她拿着书坐在树下，没一会儿就睡着了。她睡觉的时候，眉头皱得紧紧的，好像在梦里还在跟谁吵架一样。师父说过，每个人都有不想让人看到的软弱之处。作为朋友，只要在她累的时候，给她一个肩膀依靠就足够了。所以我靠着她身边坐下了，她睡得很香哦。",
+                "content_zh": "上次她拿着书坐在树下，没一会儿就睡着了。她睡觉的时候，眉头皱得紧紧的，好像在梦里还在跟谁吵架一样。师父说过，每个人都有不想让人看到的软弱之处。作为朋友，只要在她累的时候，给她一个肩膀依靠就足够了。所以我挨着她坐下了，她睡得很香哦。",
                 "target_en": "Prune",
                 "title_en": "Yaoyao about Prune",
                 "content_en": "This one time, I saw Prune fall asleep while reading under a tree. Her forehead was all scrunched up, like she was arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, I felt like I should offer her a shoulder to rest on, so I sat down beside her. She seemed to sleep much better after that."
@@ -10383,6 +10383,64 @@
                 "target_en": "Tartaglia",
                 "title_en": "Sandrone about Childe",
                 "content_en": "Another pain in the... well, everything. He could happily just spend his days with his brothers and sisters — why insist on becoming a Harbinger at all? And when will he get it into his thick skull that not everyone is always looking for a fight?"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name_zh": "奥黛塔",
+        "name_en": "Odette",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/165468/64cc802a006f1989a184ece6001b3809_5857048476168018888.png",
+        "ver": "6.8.1",
+        "lines": [
+            {
+                "target_zh": "哥伦比娅",
+                "title_zh": "奥黛塔关于「少女」大人",
+                "content_zh": "她走路的姿态好像一片羽毛在飘起飘落。任何一位舞者都会羡慕这份轻盈。沃雅妮莎也曾和我聊起过她空灵的歌声。但我们看到与羡慕的，都是她「台前」的模样，我们并不了解真实的她心中是否背负着不为人知的痛苦，不是吗？",
+                "target_en": "Columbina",
+                "title_en": "Odette about Lady Damselette",
+                "content_en": "She walks with an almost feather-light grace that would be the envy of any dancer. According to Vodyanitsa, she also has a hauntingly beautiful singing voice. Although, I suppose what we see and envy is the persona she projects on the surface. Who knows what untold pain lies underneath..."
+            },
+            {
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "奥黛塔关于「仆人」大人",
+                "content_zh": "壁炉之家的孩子们都将「仆人」大人视为「父亲」。有父亲庇佑的孩子，成长路上总归会少些冰雪风雨。",
+                "target_en": "Arlecchino",
+                "title_en": "Odette about Lady Arlecchino",
+                "content_en": "The children of the House of the Hearth think of her as their \"Father.\" Hopefully, that will spare them some of the bitter chill and raging storms that life brings. A father's role is to protect, after all."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "奥黛塔关于「木偶」大人",
+                "content_zh": "从前罗莎琳参加完「木偶」大人的茶会，心情都会变得比平时更好——虽然要求依旧严苛，但语气明显缓和了许多，任何人都能察觉出来。",
+                "target_en": "Sandrone",
+                "title_en": "Odette about Lady Marionette",
+                "content_en": "Lady Marionette's tea parties always used to put Rosalyne in a better mood. She was just as strict, but her tone was a bit softer. It was quite a noticeable difference."
+            },
+            {
+                "target_zh": "阿罗夏",
+                "title_zh": "奥黛塔关于阿罗夏",
+                "content_zh": "身为猎户养活自己并不难，但他还是经常来剧院打零工，为了援助那些受苦的人们…我并不奇怪他会加入呼啸社。",
+                "target_en": "Alyosha",
+                "title_en": "Odette about Alyosha",
+                "content_en": "He could easily make a living on hunting alone if all he cared about was himself, but he still takes on odd jobs around the theater so he can help others who are suffering... I'm not surprised he joined the Rokot."
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name_zh": "阿罗夏",
+        "name_en": "Alyosha",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/165469/5f8d8ba1068e3eb3a875464875b45c0d_4727096501856370212.png",
+        "ver": "6.8.1",
+        "lines": [
+            {
+                "target_zh": "奥黛塔",
+                "title_zh": "阿罗夏关于奥黛塔",
+                "content_zh": "最初得知奥黛塔也是呼啸社的成员时，我很惊讶，谁能想到愚人众的成员里也会有人认同呼啸社的理念？不过既然如此，实现那个理想的难度应该没有我想象中的那么大，这个国家的未来仍然值得期待。",
+                "target_en": "Odette",
+                "title_en": "Alyosha about Odette",
+                "content_en": "I was very surprised to learn that Odette was part of the Rokot. I never thought a member of the Fatui would share our principles... But, now that I've been proven wrong, I'm starting to think that making the changes we want to see might not be as difficult as I imagined. A brighter future for this nation is still within our grasp."
             }
         ]
     }
