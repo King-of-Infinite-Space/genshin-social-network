@@ -8,9 +8,12 @@ def download_images(char_data_path="data/char_data.json", image_dir="data/image"
     os.makedirs(image_dir, exist_ok=True)
     for char in char_data:
         url = char["img_url"]
-        name = char["name_zh"]
-        ext = url.split(".")[-1]
+        name = os.path.basename(char["name_zh"])
+        ext = "".join(c for c in url.split(".")[-1] if c.isalnum())[:10]
         filepath = os.path.join(image_dir, f"{name}.{ext}")
+        if not os.path.abspath(filepath).startswith(os.path.abspath(image_dir) + os.sep):
+            print(f"Skipping {name}: path traversal detected")
+            continue
         if not os.path.exists(filepath):
             print(f"Downloading {filepath} from {url}")
             try:
