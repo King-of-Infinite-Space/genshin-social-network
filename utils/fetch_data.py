@@ -1,5 +1,7 @@
 # %%
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 import json
 import subprocess
 import os
@@ -163,8 +165,17 @@ def write_data_file(char_dict: dict):
 
 def fetch_char_official() -> dict[str, dict[str, str]]:
     S = requests.Session()
+    retries = Retry(
+        total=2,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+    )
+    S.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    })
+    S.mount("https://", HTTPAdapter(max_retries=retries))
 
-    data_zh = S.get(url=os.getenv("URL_ZH"), timeout=20).json()
+    data_zh = S.get(url=os.getenv("URL_ZH"), timeout=10).json()
     char_list_zh = data_zh["data"]["list"]
     char_count = data_zh["data"]["iTotal"]
     char_dict = {}
