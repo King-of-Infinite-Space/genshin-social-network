@@ -10059,6 +10059,14 @@
                 "target_en": "Sandrone",
                 "title_en": "Linnea about Sandrone",
                 "content_en": "I dunno if you knew this, but Katheryne from the Adventurers' Guild was actually created by the Fatui Harbinger, Marionette. Strangely enough, I don't feel any kind of aversion towards Katheryne, even though I usually can't handle moving machines... Must be something to do with the technology Marionette used — whatever that could be. Anyway, it's just as well, 'cause otherwise I'd have to get Sarin or someone else to pick up my commissions from the Guild for me. If I ever get the chance to meet Marionette, I owe her a huge thank-you!"
+            },
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "莉奈娅关于沃雅妮莎",
+                "content_zh": "歌剧院里的人们为她疯狂，却不知道自己听到的不过是海浪的余响。或许她也有自己的理由…但我能感觉到，在那副歌喉深处，潜藏着一旦释放就能让所有人理智断弦、万劫不复的魅力呢！",
+                "target_en": "Vodyanitsa",
+                "title_en": "Linnea about Vodyanitsa",
+                "content_en": "Audiences at the opera house go crazy for her, completely unaware that all they're hearing is the echo of the ocean waves. I'm sure she has her reasons... but I can sense an allure hidden deep within her singing voice that, if ever unleashed, would bewitch everyone within earshot and sentence them to certain doom!"
             }
         ]
     },
@@ -10418,12 +10426,36 @@
                 "content_en": "Lady Marionette's tea parties always used to put Rosalyne in a better mood. She was just as strict, but her tone was a bit softer. It was quite a noticeable difference."
             },
             {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "奥黛塔关于沃雅妮莎·微笑",
+                "content_zh": "第一次「女皇」陛下要来科洛列夫茨基剧团看我们演出的时候，沃雅妮莎提前把这个消息告诉了我，我回答说嗯。结果她伸出食指把我的嘴角提了上去，硬是制造出一个微笑，还要我跟着她一起念：「太、好、了！」\n我依然不觉得「女皇」陛下喜欢看到那样的笑容。",
+                "target_en": "Vodyanitsa",
+                "title_en": "Odette about Vodyanitsa: Smile",
+                "content_en": "The first time the Tsaritsa was coming to see one of the Korolevskiy Troupe's performances, Vodyanitsa was the one who told me. I replied with a simple nod of the head. She then proceeded to force a smile onto my face by pushing up both corners of my mouth, then made me repeat after her, \"What. Great. News.\"\nPerhaps it was practice for appearing in front of the Tsaritsa, but I still don't think Her Majesty appreciates that kind of smile."
+            },
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "奥黛塔关于沃雅妮莎·看病",
+                "content_zh": "沃雅妮莎生病的时候总会缠着我，让我陪着她一起…理由是万一需要打针或者吃苦药的话，她会很害怕的，所以想要紧紧抓住我的胳膊。我的痛觉很不明显，自然也不会甩开她。",
+                "target_en": "Vodyanitsa",
+                "title_en": "Odette about Vodyanitsa: Getting Sick",
+                "content_en": "Whenever Vodyanitsa gets sick, she always gets so clingy and practically latches herself to my side... She says it's because she's scared of getting a shot or having to take bitter medicine, so she needs something to hold onto, and I suppose my arm is her instrument of choice. I have a high pain tolerance, though, so there's no reason to shake her off."
+            },
+            {
                 "target_zh": "阿罗夏",
                 "title_zh": "奥黛塔关于阿罗夏",
                 "content_zh": "身为猎户养活自己并不难，但他还是经常来剧院打零工，为了援助那些受苦的人们…我并不奇怪他会加入呼啸社。",
                 "target_en": "Alyosha",
                 "title_en": "Odette about Alyosha",
                 "content_en": "He could easily make a living on hunting alone if all he cared about was himself, but he still takes on odd jobs around the theater so he can help others who are suffering... I'm not surprised he joined the Rokot."
+            },
+            {
+                "target_zh": "薇斯纳",
+                "title_zh": "奥黛塔关于薇斯纳",
+                "content_zh": "别因为她有对翅膀，就把她当成华丽无害的蝴蝶，那个受人簇拥的家伙是冬契军的总司令，冰雪之中的猎食者。你要擦亮眼睛，别被热情的笑容骗了。",
+                "target_en": "Vesna",
+                "title_en": "Odette about Vesna",
+                "content_en": "Don't be thinking she's some dainty, harmless butterfly just because of those wings. People may flock to her, but she's the commander-in-chief of the Druzhna — one of the fiercest predators on the tundra. Keep your eyes wide open, and don't be fooled by her smile."
             }
         ]
     },
@@ -10441,6 +10473,120 @@
                 "target_en": "Odette",
                 "title_en": "Alyosha about Odette",
                 "content_en": "I was very surprised to learn that Odette was part of the Rokot. I never thought a member of the Fatui would share our principles... But, now that I've been proven wrong, I'm starting to think that making the changes we want to see might not be as difficult as I imagined. A brighter future for this nation is still within our grasp."
+            },
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "阿罗夏关于沃雅妮莎",
+                "content_zh": "沃雅妮莎是呼啸社重要的情报来源，我经常找她打听事情，她提供的情报对我的帮助很大。不过，不谈公事的时候，我常常搞不清楚她在想什么，倒是奥黛塔和她交流起来就自然多了…难道女孩子之间也有黑话？",
+                "target_en": "Vodyanitsa",
+                "title_en": "Alyosha about Vodyanitsa",
+                "content_en": "Vodyanitsa is a vital source of intelligence for the Rokot. Whenever I go to her for information, she's always a huge help. When we're not talking business, though, I can barely make heads or tails of what she's trying to say. But Odette doesn't seem to have that problem. Those two get on like it's the most natural thing in the world... Makes me wonder if girls have some kind of secret code..."
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name_zh": "薇斯纳",
+        "name_en": "Vesna",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/166127/651402e92b7a6ed9b84b4e37551726d2_807052621220072001.png",
+        "ver": "7.1.1",
+        "lines": [
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "薇斯纳关于「木偶」",
+                "content_zh": "桑多涅的举止完全符合淑女的标准，言语却又带有极强的「攻击性」，同时逻辑经得起推敲，无可挑剔…太有意思了，嘻嘻，我要好好学学。",
+                "target_en": "Sandrone",
+                "title_en": "Vesna about Marionette",
+                "content_en": "Sandrone fully embodies what it means to be a lady. Her words may be highly aggressive in nature, but her impeccable logic makes it impossible to find fault with her... Hehe, it really fascinates me. I must learn how she does it."
+            },
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "薇斯纳关于沃雅妮莎",
+                "content_zh": "沃雅妮莎小姐的每一首歌都很好听，我非常享受在现场听歌的感觉。跟台下的大多数观众一样，我也会随着她的歌声时而欢笑时而流泪。有时候演唱结束后，大家还会自发留在现场大合唱。巧了不是，我手上正好有一根指挥棒呢。更巧的是，有好几次我都发现了悄悄混入人群的沃雅妮莎小姐，她换下演出服戴上了帽子，在为大家和声呢。",
+                "target_en": "Vodyanitsa",
+                "title_en": "Vesna about Vodyanitsa",
+                "content_en": "Every one of Miss Vodyanitsa's songs is simply beautiful. I love hearing them live. At times they fill me with joy, at other times they move me to tears, just like everyone else in the audience. Sometimes, everyone stays behind after the show ends and suddenly breaks into song together. Well, funnily enough, I just so happen to have a conductor's baton in my hand. And even more funnily, I've noticed on several occasions that Miss Vodyanitsa quietly blends into the crowd after changing out of her stage outfit, puts on a hat, and sings a harmony for the group."
+            },
+            {
+                "target_zh": "奥黛塔",
+                "title_zh": "薇斯纳关于奥黛塔",
+                "content_zh": "其实每一次奥黛塔小姐来参与朝会，我都会忍不住多瞄她几眼。毕竟，她除了是愚人众的一员，另有个「特殊」的身份，让人很难不在意…我指的当然是科洛列夫茨基剧团的首席芭蕾舞者呀，不然呢？",
+                "target_en": "Odette",
+                "title_en": "Vesna about Odette",
+                "content_en": "I have to be honest — every time I see Miss Odette at a court gathering, I find myself stealing a glance at her constantly. After all, as well as being a member of the Fatui, she has a special alter ego that makes her hard to ignore... Hmm? Why, her role as prima ballerina of the Korolevskiy Troupe, of course. What did you think I meant?"
+            },
+            {
+                "target_zh": "阿罗夏",
+                "title_zh": "薇斯纳关于阿罗夏",
+                "content_zh": "我明白的，哪只小狗能拒绝在「呼啸」的狂风里，去追逐一只漂亮的蝴蝶呢？呜…我把达妮卡的早餐偷出来给图加林吃吧，再请阿罗夏帮我美言几句，拜托它不要一见面就追着我跑啦…",
+                "target_en": "Alyosha",
+                "title_en": "Vesna about Alyosha",
+                "content_en": "I get it, I really do. I mean, how could any little puppy resist the urge to chase a pretty butterfly through the \"howling\" winds? Hmm... Maybe I'll steal Danica's breakfast and feed it to Tugarin, then ask Alyosha to put in a good word for me, so he doesn't come charging at me the moment he sees me..."
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name_zh": "沃雅妮莎",
+        "name_en": "Vodyanitsa",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/166128/102590e4ea6a7f92d2217855416eec11_4730636873982290167.png",
+        "ver": "7.1.1",
+        "lines": [
+            {
+                "target_zh": "奥黛塔",
+                "title_zh": "沃雅妮莎关于奥黛塔",
+                "content_zh": "每次奥黛塔去前台彩排的时候，我都会在后台仔细聆听她的舞步声。落下，跳起，旋转，再落下…干净利落，节奏规整，即使只是听声音，都能知道这绝对是一场完美的舞蹈演出…为什么我不去前台看？因为我要躲在后台吓她一跳啊。虽然每次都没吓到，但吓还是要继续吓的，不然我不是白躲了？",
+                "target_en": "Odette",
+                "title_en": "Vodyanitsa about Odette",
+                "content_en": "Whenever Odette is rehearsing, I listen along intently to her dance steps from backstage. She lands, then jumps, spins in the air, then lands again... Every motion is cleanly executed with impeccable timing. Just by listening, I can tell her dancing is flawless... Hm, why don't I go out front to watch? Hehe, because I wanna hide backstage and jump out at her afterwards! Sure, I haven't managed to scare her yet, but I have to keep trying. Otherwise, all that time I've spent hiding backstage would've been for nothing!"
+            },
+            {
+                "target_zh": "阿罗夏",
+                "title_zh": "沃雅妮莎关于阿罗夏",
+                "content_zh": "我一直在想，阿罗夏的小狗们能听懂我唱的歌吗？应该听不懂吧，毕竟我们也听不懂小狗们的歌，甚至都不知道它们会不会唱歌…不过，我唱的摇篮曲确实对小狗们很有用，每次都是只唱了一个开头，小狗们就睡成一片。唉，也不知道这算我唱得好还是不好啊。",
+                "target_en": "Alyosha",
+                "title_en": "Vodyanitsa about Alyosha",
+                "content_en": "I've always wondered if Alyosha's puppies can understand my songs. I'm guessing probably not, since we can't understand puppy songs either. Matter of fact, I don't even know if they can sing at all... But my lullabies work like a dream on them. I'll barely make it through the opening verse before they're all out like a light. ...Hmm, not sure what that says about my singing, though... Is that good or bad?"
+            },
+            {
+                "target_zh": "薇斯纳",
+                "title_zh": "沃雅妮莎关于薇斯纳",
+                "content_zh": "多亏了薇斯纳小姐，那些倒卖剧院门票的票贩子们才不敢太嚣张。过段时间，薇斯纳小姐还打算邀请我开一场有关于预防票务诈骗的小型座谈会呢，在结束的时候，我还要唱一首歌作为闭幕。可我知道的歌里，也没有一首是能用来讽刺诈骗的啊，等等，战争里的战术欺骗，应该也能算是诈骗吧…？不、不然…来一首战争史诗…？",
+                "target_en": "Vesna",
+                "title_en": "Vodyanitsa about Vesna",
+                "content_en": "Thanks to Miss Vesna, those theater ticket scalpers know not to push their luck. She said she's planning to invite me to host a small conference on ticket scam prevention soon, and I'm supposed to be singing a song at the end to wrap things up. The thing is, out of all the songs I know, I don't think there's a single one for satirizing scam artists. ...Wait, tactical deception in war should count as a scam, right...? Ummm... maybe I could sing a war epic...?"
+            },
+            {
+                "target_zh": "哥伦比娅",
+                "title_zh": "沃雅妮莎关于哥伦比娅",
+                "content_zh": "那位哥伦比娅小姐已经不再是执行官了？可惜，我一直很喜欢她的嗓音，她哼唱的曲子就像是月光一样，柔美、轻盈又冰冷，虽然近在眼前，却又触不可及。呵，希望她能找到一个好去处，还有一群能听懂她歌声的朋友。",
+                "target_en": "Columbina",
+                "title_en": "Vodyanitsa about Columbina",
+                "content_en": "Is Miss Columbina no longer a Harbinger? Huh, shame. I always thought she had a great singing voice. Her songs were like the moonlight itself: so soft and gentle, yet somehow icy cold. So present and vivid, yet so impossibly out of reach... Heh, I only hope she finds somewhere she can belong, with good friends who understand her songs."
+            },
+            {
+                "target_zh": "达达利亚",
+                "title_zh": "沃雅妮莎关于达达利亚",
+                "content_zh": "达达利亚先生经常带着家里人来剧院里观看演出，不过，虽然执行官们可以免费入场，但他的家人们按照规定还是要如常购票的，好在，达达利亚先生总是能为自己的家人顺利弄到票。噢，冬妮娅你应该已经知道了吧，她也很喜欢演出，说不定等她长大之后，真的会加入我们剧院呢。到时候，达达利亚先生来剧院的次数恐怕又要增多了。",
+                "target_en": "Tartaglia",
+                "title_en": "Vodyanitsa about Tartaglia",
+                "content_en": "Mr. Tartaglia often brings his family to the theater. Harbingers get free admission, although family members have to buy tickets like everyone else. Fortunately, he always manages to secure tickets for his family. Oh, right — you know Tonia, don't you? She's a huge theater fan. She might even join us when she grows up. If that happens, I guess Mr. Tartaglia will have to get used to visiting the theater even more often."
+            },
+            {
+                "target_zh": "阿蕾奇诺",
+                "title_zh": "沃雅妮莎关于阿蕾奇诺",
+                "content_zh": "阿蕾奇诺女士有时候会带几个孩子来看演出，其中有一个孩子还有猫耳，我记得是叫琳妮特来着？她和那个叫林尼的孩子都很擅长魔术表演，有一次年终演出时，他们还在我们剧院的舞台上展示过魔术呢。不过，每次演出「山与雀」的时候，阿蕾奇诺女士几乎都是独自前来的…或许，她希望独自欣赏那场演出吧。",
+                "target_en": "Arlecchino",
+                "title_en": "Vodyanitsa about Arlecchino",
+                "content_en": "Lady Arlecchino sometimes brings a few children to watch a show at the theater. One of them has these cat ears — Lynette, I think her name was? Yeah, that's right — she and the boy, Lyney, are both excellent magicians. They actually performed a magic show here on the stage one time during an end-of-year performance. The only time Lady Arlecchino tends to come without the children is to watch \"The Mountain Sparrow\"... I suppose she prefers to enjoy that show alone."
+            },
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "沃雅妮莎关于桑多涅",
+                "content_zh": "桑多涅小姐来看演出的时候，总是急匆匆的。有时候她咬着牙，眼角抽搐，有时候她面无表情，手里的稿纸却已经揉成了一团，看着好像是被人强行「请」来看演出的。我不想猜测到底是谁能「请」得动她，但…呵，至少每次演出结束时，她的表情都缓和了不少，看来是没白来。",
+                "target_en": "Sandrone",
+                "title_en": "Vodyanitsa about Sandrone",
+                "content_en": "Miss Sandrone always seems to be in a hurry whenever she comes to see a show. Sometimes she grits her teeth, sometimes her eyes twitch... Other times, her face is completely blank, but she's crumpled some scrap paper into a ball. If I didn't know better, I'd say someone was forcing her to come against her will... But far be it from me to speculate who has the power to force her into anything. Still... Heh, she always seems a little more relaxed by the end of the show. So at least she's not completely wasting her time."
             }
         ]
     }
