@@ -10450,6 +10450,22 @@
                 "content_en": "He could easily make a living on hunting alone if all he cared about was himself, but he still takes on odd jobs around the theater so he can help others who are suffering... I'm not surprised he joined the Rokot."
             },
             {
+                "target_zh": "米提亚",
+                "title_zh": "奥黛塔关于米提亚",
+                "content_zh": "这位…「粉丝」先生，他经常来剧院观看我和沃雅妮莎的表演。但每次表演开始，他都在低着头写些什么，在一众翘首看向舞台的观众中很是醒目。或许他的围巾比他更懂得欣赏演出。",
+                "target_en": "Mitya",
+                "title_en": "Odette about Mitya",
+                "content_en": "Hm... I suppose you could call him a \"fan\" of the theater. He comes to see me and Vodyanitsa perform often enough. But as soon as the show starts, he always buries his head in his notes, writing away about goodness knows what. It's hard to ignore, especially when the rest of the audience has their eyes glued to the stage. I wouldn't be surprised if there's more true appreciation for the arts in his scarf than his entire body."
+            },
+            {
+                "target_zh": "瓦列里",
+                "title_zh": "奥黛塔关于瓦列里",
+                "content_zh": "瓦列里少校，一位有着严格时间观念的愚人众军官，听说他总用一种冷静且骇人的态度为同僚安排工作。但我们所属不同所以鲜有交集，而且…我该做的事情并不需要任何人提醒。",
+                "target_en": "Valeriy",
+                "title_en": "Odette about Valeriy",
+                "content_en": "Major Valeriy is a Fatui officer who's very strict about keeping things on schedule. I've heard he commands with a level-headed disposition that can also come off as quite terrifying... But we belong to different divisions, so we rarely have a chance to interact. Besides... I don't need anyone to remind me what I should be doing."
+            },
+            {
                 "target_zh": "薇斯纳",
                 "title_zh": "奥黛塔关于薇斯纳",
                 "content_zh": "别因为她有对翅膀，就把她当成华丽无害的蝴蝶，那个受人簇拥的家伙是冬契军的总司令，冰雪之中的猎食者。你要擦亮眼睛，别被热情的笑容骗了。",
@@ -10481,6 +10497,22 @@
                 "target_en": "Vodyanitsa",
                 "title_en": "Alyosha about Vodyanitsa",
                 "content_en": "Vodyanitsa is a vital source of intelligence for the Rokot. Whenever I go to her for information, she's always a huge help. When we're not talking business, though, I can barely make heads or tails of what she's trying to say. But Odette doesn't seem to have that problem. Those two get on like it's the most natural thing in the world... Makes me wonder if girls have some kind of secret code..."
+            },
+            {
+                "target_zh": "瓦列里",
+                "title_zh": "阿罗夏关于瓦列里",
+                "content_zh": "第一次遇到瓦列里的时候，他挡在我跟前，说根据什么什么条令的第多少条，我不得接近军械宫，因此要将我驱离…正常来说，他看到了一个扛着猎枪潜行到军械宫附近的家伙，不应该直接将其抓捕吗？我都已经准备打一架了。不过，没打起来的那一架，让我在军械宫里多了一个熟人。在某些方面，他的想法跟我很合拍。我和他划了一条明确的线，只要不越过这条线，我们就能相处得很愉快。",
+                "target_en": "Valeriy",
+                "title_en": "Alyosha about Valeriy",
+                "content_en": "The first time I met Valeriy, he blocked my path and turned me away from the Armory Palace, listing off some article of some regulation or other that said I wasn't allowed to approach... I mean, I was sneaking around with a hunting rifle no less, so I was surprised the guy didn't arrest me on the spot. In fact, I was expecting to have to fight him off, but instead, I gained a new contact at the Armory. Not a bad turn of events. Honestly, we think alike in a lot of ways. So now that we've established a clear boundary, as long as it isn't crossed, we get along great."
+            },
+            {
+                "target_zh": "米提亚",
+                "title_zh": "阿罗夏关于米提亚",
+                "content_zh": "我没有正经读过书，所以我以为自己和米提亚这样的人会很难相处，后来他主动帮我改装了几次枪械之后，我才明白这样的担心十分多余。米提亚这个人很好说话，只要把他当成一个邻家少年就行。唯一需要注意的点，可能就是在他念叨那些「科学黑话」的时候，不要打扰他。",
+                "target_en": "Mitya",
+                "title_en": "Alyosha about Mitya",
+                "content_en": "I've never really had much formal schooling, so I thought it would be hard to get along with someone like Mitya. But he's helped me modify my rifle more than once, without me even having to ask, so clearly I was worried for nothing. Mitya is easy to talk to. I just treat him like any other neighbor, and it works out fine. Word to the wise, though... If he's off on one of his science tangents, steer clear."
             }
         ]
     },
@@ -10498,6 +10530,14 @@
                 "target_en": "Sandrone",
                 "title_en": "Vesna about Marionette",
                 "content_en": "Sandrone fully embodies what it means to be a lady. Her words may be highly aggressive in nature, but her impeccable logic makes it impossible to find fault with her... Hehe, it really fascinates me. I must learn how she does it."
+            },
+            {
+                "target_zh": "米提亚",
+                "title_zh": "薇斯纳关于米提亚",
+                "content_zh": "米提亚是我固定的游戏玩伴，他总能想办法从军械宫溜出来，我们三个每次都玩得很尽兴！哪来的三个？我，米提亚，还有他那条聪明的围巾。",
+                "target_en": "Mitya",
+                "title_en": "Vesna about Mitya",
+                "content_en": "Mitya often joins me for hijinks. He's forever sneaking out of the Armory, and the three of us always have a blast! Why \"three,\" you ask? Because there's me, Mitya, and his ever-so-clever scarf."
             },
             {
                 "target_zh": "沃雅妮莎",
@@ -10539,6 +10579,14 @@
                 "target_en": "Odette",
                 "title_en": "Vodyanitsa about Odette",
                 "content_en": "Whenever Odette is rehearsing, I listen along intently to her dance steps from backstage. She lands, then jumps, spins in the air, then lands again... Every motion is cleanly executed with impeccable timing. Just by listening, I can tell her dancing is flawless... Hm, why don't I go out front to watch? Hehe, because I wanna hide backstage and jump out at her afterwards! Sure, I haven't managed to scare her yet, but I have to keep trying. Otherwise, all that time I've spent hiding backstage would've been for nothing!"
+            },
+            {
+                "target_zh": "米提亚",
+                "title_zh": "沃雅妮莎关于米提亚",
+                "content_zh": "希望这位聪明的先生不要在剧院的观众席上继续解题了，我们剧院不是什么超级自习室，也不是逃避工作的避难所，请认真地享受演出。不然我就…呼，算了，我也不能做什么，他确实很遵守剧院的观演礼仪。哼，下次我要挑一首动静大点的曲子，我看他还能不能顺利地解题。",
+                "target_en": "Mitya",
+                "title_en": "Vodyanitsa about Mitya",
+                "content_en": "I wish that Mr. Smarty Pants would stop trying to make scientific breakthroughs while he's watching the show. The theater is not a glorified study hall, and it's certainly not a refugee camp for escaped office workers. He'd better start taking our performances seriously... or I'll be forced to... *sigh* What am I saying — there's nothing I can do about it, especially since he technically does abide by theater etiquette... Hmph, next time I see him in the audience, I'll have to perform one of my louder pieces. Let's see how well he can concentrate on his work then."
             },
             {
                 "target_zh": "阿罗夏",
@@ -10587,6 +10635,136 @@
                 "target_en": "Sandrone",
                 "title_en": "Vodyanitsa about Sandrone",
                 "content_en": "Miss Sandrone always seems to be in a hurry whenever she comes to see a show. Sometimes she grits her teeth, sometimes her eyes twitch... Other times, her face is completely blank, but she's crumpled some scrap paper into a ball. If I didn't know better, I'd say someone was forcing her to come against her will... But far be it from me to speculate who has the power to force her into anything. Still... Heh, she always seems a little more relaxed by the end of the show. So at least she's not completely wasting her time."
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name_zh": "米提亚",
+        "name_en": "Mitya",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/167064/0225793f586925d1e25f24d482517701_2963981459643214841.png",
+        "ver": "7.2.1",
+        "lines": [
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "米提亚关于沃雅妮莎",
+                "content_zh": "沃雅妮莎小姐很不错啊，非常不错，唱歌又好听，和剧院的高雅氛围极其相称。我就适合在这种氛围里做研究。",
+                "target_en": "Vodyanitsa",
+                "title_en": "Mitya about Vodyanitsa",
+                "content_en": "Miss Vodyanitsa is great. Really great. Lovely singing voice, and she fits right in with the theater's refined atmosphere. Exactly the kind of atmosphere I do my best work in."
+            },
+            {
+                "target_zh": "奥黛塔",
+                "title_zh": "米提亚关于奥黛塔",
+                "content_zh": "跟你说哦，这位奥黛塔小姐虽然看起来冷冰冰的，但其实比沃雅妮莎要好对付。当然，也可能是人家懒得跟我计较吧。你看，世界就是很需要这种宽容豁达的人，嘻嘻。",
+                "target_en": "Odette",
+                "title_en": "Mitya about Odette",
+                "content_en": "Between you and me, Miss Odette might seem frosty, but she's actually easier to deal with than Vodyanitsa. Of course, maybe she just can't be bothered to tell me off. See? The world needs more generous, forgiving people like her. Hehe."
+            },
+            {
+                "target_zh": "阿罗夏",
+                "title_zh": "米提亚关于阿罗夏",
+                "content_zh": "嘿嘿，他家的小狗们都可听话了，看着就聪明，有时候忍不住想教它们点科学知识…没、没有，我又不只是为了摸狗才去找他的，阿罗夏也是我的朋友啊，对不对嘛。",
+                "target_en": "Alyosha",
+                "title_en": "Mitya about Alyosha",
+                "content_en": "Hehe, his dogs are so well-behaved! And you can tell they're smart. Sometimes I get this urge to teach them a little science... N-No, I don't visit him just to pet his dogs! Alyosha's my friend too, you know."
+            },
+            {
+                "target_zh": "瓦列里",
+                "title_zh": "米提亚关于瓦列里·训话",
+                "content_zh": "你要是觉得自己太忙，可以去听一下瓦列里先生有关第一百次首谈时间规划的训话。觉得太闲也可以去听，反正听他训话本来就是在消磨时间。",
+                "target_en": "Valeriy",
+                "title_en": "Mitya about Valeriy's Lectures",
+                "content_en": "If you're feeling too busy, try Mr. Valeriy's hundredth introductory lecture on time management. If you've got too much time on your hands, give it a try anyway. After all, listening to his lectures is basically killing time."
+            },
+            {
+                "target_zh": "瓦列里",
+                "title_zh": "米提亚关于瓦列里·理解",
+                "content_zh": "当然也不能怪瓦列里先生如此执着于工作日程，因为身边不靠谱的人实在太多了。很多人明明发现问题了却又不解决问题，一帮人互相说着「好奇怪呀好奇怪呀」，就这样把工作朝错误的方向推进下去了。我当然不在其列，我不想推进任何事。",
+                "target_en": "Valeriy",
+                "title_en": "Mitya about Valeriy: Understanding",
+                "content_en": "To be fair, I can't blame Mr. Valeriy for being so fixated on schedules. He's surrounded by unreliable people. They'll spot a problem and do nothing to fix it. A whole group of 'em just standing around telling each other, \"Huh, strange, very strange,\" even as they push the work along in the wrong direction. I'm not one of them, obviously. I have no intention of pushing anything forward."
+            },
+            {
+                "target_zh": "薇斯纳",
+                "title_zh": "米提亚关于薇斯纳",
+                "content_zh": "薇斯纳小姐鬼点子多，是非常合格的游戏搭子。而且她工作效率很高，每个月的工作可以在前十天内就完成。我会向她学习的，只不过我会安排到最后十天再干。",
+                "target_en": "Vesna",
+                "title_en": "Mitya about Vesna",
+                "content_en": "Miss Vesna's full of tricks, so she's great fun to play games with. And she's so efficient too! She can finish a whole month's work in the first ten days. Y'know, I'm going to follow her example. Only difference is, I'll leave mine until the last ten days."
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name_zh": "瓦列里",
+        "name_en": "Valeriy",
+        "img_url": "https://fastcdn.mihoyo.com/content-v2/hk4e/167065/cc404f993d85e2fc83c6e8a581cb04d9_8539687707181816789.png",
+        "ver": "7.2.1",
+        "lines": [
+            {
+                "target_zh": "桑多涅",
+                "title_zh": "瓦列里关于「木偶」",
+                "content_zh": "「木偶」长官或许是巡陆艇最好的改进者，她开发出了「博西柯军团」系列，相比量产机，综合性能提升了近七成，说是披着相同外甲的新型号也不为过。我曾有一些部下调遣至她的麾下，参与了挪德卡莱试验设计局的保卫战，他们无不对她敬重有加，可见她是个科研与指挥才能并重的杰出执行官。",
+                "target_en": "Sandrone",
+                "title_en": "Valeriy about Marionette",
+                "content_en": "Lady Sandrone may be the best there is at upgrading Landcruisers. Her Bosco Legion series delivers nearly seventy percent better overall performance than the standard production models. They're practically brand-new machines, just wearing the same armor. Some of my soldiers were seconded to her command and fought in the defense of the Experimental Design Bureau in Nod-Krai, and every one of them came back with the deepest respect for her. Clearly, she is an exceptional Harbinger, as gifted in command as she is in research."
+            },
+            {
+                "target_zh": "达达利亚",
+                "title_zh": "瓦列里关于「公子」",
+                "content_zh": "听说达达利亚议员出身于平民家庭，我还没能和他深入交谈…但据我观察，他是个直率的人，对部下相当不错。就军中的调动情况，也可以发现，「队长」大人最可靠的部下都被安排到了他的麾下。我虽有结识之意，只苦于没有合适的机会…直接找他打一架？你是认真的吗？",
+                "target_en": "Tartaglia",
+                "title_en": "Valeriy about Childe",
+                "content_en": "I hear Councilor Tartaglia was born a commoner. I've yet to speak with him at any length... But from what I've seen, he is a forthright man who treats his subordinates well. Judging by the recent personnel transfers, The Captain's most trusted soldiers now serve under him. I would like to make his acquaintance. But the right opportunity has never arisen... Just challenge him to a fight? A-Are you serious?"
+            },
+            {
+                "target_zh": "薇斯纳",
+                "title_zh": "瓦列里关于薇斯纳",
+                "content_zh": "分属不同的军种，薇斯纳司令应当对我这位少校没什么印象。相比我们普通部队，冬契军在机动和突破力上有着无可比拟的优势，但很难在僵持不下的阵地战中发挥实力。不过他们也没有这种烦恼，毕竟，作为女皇陛下的亲卫部队，普通的战事可不值得惊动他们。但我有时会看见薇斯纳司令参与一些…商业性质的庆祝活动？我不太理解她的用意。",
+                "target_en": "Vesna",
+                "title_en": "Valeriy about Vesna",
+                "content_en": "Commander Vesna and I serve in different branches, so I doubt a mere major like me has made much of an impression on her. Compared to us regulars, the Druzhna's mobility and ability to break through are unmatched, though they would struggle to bring that to bear in a static, entrenched battle. Not that they need to worry about it. They're Her Majesty's personal guard, after all. Ordinary engagements aren't worth troubling them with. Yet I sometimes see Commander Vesna at... promotional events? I don't quite understand her purpose there."
+            },
+            {
+                "target_zh": "米提亚",
+                "title_zh": "瓦列里关于米提亚·敬重",
+                "content_zh": "「特殊任务营」有着诸多使命，其中一项便是「让重要人物如钟表般稳定工作」。如你所见，米提亚先生显然对循规蹈矩的生活很是抵触。换成普通人，我大可以采用不那么「礼貌」的手段。但，即便我对学术一窍不通，也懂得米提亚先生所做的事意义非凡。因此，我不该对他表现得咄咄逼人。",
+                "target_en": "Mitya",
+                "title_en": "Valeriy about Mitya: Respect...",
+                "content_en": "The Special Assignments Battalion has many duties. One is to \"keep important people working like clockwork.\" As you've seen, Mr. Mitya has little patience for an orderly routine. With most people, I could use methods that are rather less \"polite.\" But even someone like me, with no head for scholarship, can tell what he does matters enormously. So, I shouldn't come down too hard on him."
+            },
+            {
+                "target_zh": "米提亚",
+                "title_zh": "瓦列里关于米提亚·朋友",
+                "content_zh": "经历了这些事后，米提亚先生愿意将我称为他的朋友，这是我的荣幸。他也是我的所有朋友中，最值得尊敬的一位。换成某些军官和贵族，或许会花大价钱来「买」这么一个身份。但我想，就像蹲过同一个弹坑的战友，交情绝不能被任何事物量化。米提亚先生为了至冬献出了无可替代的力量，我也需要拿出最为严谨的态度，保护他的人身安全，为他创造一个绝对清净的工作空间…只不过，唉，还是得想个办法让他深刻理解，随心所欲的生活方式对整体排期造成的破坏有多严重…",
+                "target_en": "Mitya",
+                "title_en": "Valeriy about Mitya: Friends...",
+                "content_en": "After everything we've been through, Mr. Mitya now calls me his friend. I'm honored. Of all my friends, he is the one I hold in the highest esteem. Some officers and nobles might pay a fortune to \"buy\" that distinction. But friendship can't be measured, any more than the bond between comrades who've sheltered in the same shell crater. Mr. Mitya has given Snezhnaya something no one else could. I must take the greatest care to keep him safe and give him a place where he can work entirely undisturbed... Though... I need to find a way to make him understand just how badly it disrupts the overall schedule when he does whatever he pleases..."
+            },
+            {
+                "target_zh": "阿罗夏",
+                "title_zh": "瓦列里关于阿罗夏",
+                "content_zh": "和许多人的猜想不同，我也算是偏远村落走出来的孩子…一个为了普通民众的利益四处奔走、不断打击某些灰色案件的好青年，我为何要与他作对？只要他不越过某些界线，无论站在规则条文还是个人意愿的角度，我都没理由抓捕他。这不意味着我将他所在的「呼啸社」当成完全无害的势力，只是现阶段，他们还在为至冬奋斗，不属于我的敌人。",
+                "target_en": "Alyosha",
+                "title_en": "Valeriy about Alyosha",
+                "content_en": "Contrary to what many people assume, I too grew up in a remote village... Why would I make an enemy of a fine young man who works tirelessly for the ordinary people and keeps taking on cases that sit in legal gray areas? Provided he crosses no lines, I have neither official grounds nor any personal desire to arrest him. That does not mean I consider the Rokot completely harmless. For now, however, they are still working for the good of Snezhnaya. They are not my enemies."
+            },
+            {
+                "target_zh": "沃雅妮莎",
+                "title_zh": "瓦列里关于沃雅妮莎",
+                "content_zh": "这位歌唱家的嗓音的确含有某种「魔力」，就连我这种不懂艺术的门外汉，都被她的歌声触动，以至于有些时候，竟对米提亚先生的行为产生了一定的理解…嗯，理解，但不支持。时间节点是行事的铁律，我不会因为理解而为他放宽哪怕半个小时。",
+                "target_en": "Vodyanitsa",
+                "title_en": "Valeriy about Vodyanitsa",
+                "content_en": "Some singers really do have a kind of \"magic\" in their voice — she is one such example. Even someone who knows as little about the arts as I do is moved by her songs. At times, I've even found myself somewhat understanding why Mr. Mitya behaves as he does... Understanding, mind you. Not approving. Deadlines are non-negotiable. I won't grant him even an extra half hour on that account."
+            },
+            {
+                "target_zh": "法尔伽",
+                "title_zh": "瓦列里关于法尔伽",
+                "content_zh": "「特殊任务营」随「队长」行动时，曾与西风骑士团远征军相遇，当天，我远远见识到了那位团长战斗的身姿，他的力量相当惊人，使用双剑的方式也自由奔放，似乎完全没有体能管控的意识…或者，已经强到了没有那种必要。如果他不那么嗜好烈酒，我对他的敬意一定会成倍增加。",
+                "target_en": "Varka",
+                "title_en": "Valeriy about Varka",
+                "content_en": "While accompanying The Captain, the Special Assignments Battalion once encountered the Knights of Favonius expeditionary force. That day, I watched from a distance as their Grand Master fought. His strength was astonishing, and he wielded his two swords with complete abandon, as if the notion of conserving his strength never even crossed his mind... Or perhaps he's so powerful that he doesn't need to. If only he weren't so fond of hard liquor... my respect for him would easily double."
             }
         ]
     }
